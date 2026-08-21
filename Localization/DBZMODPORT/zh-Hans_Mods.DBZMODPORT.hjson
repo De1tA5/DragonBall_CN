@@ -1,0 +1,1923 @@
+Buffs: {
+	ArmorCooldown: {
+		DisplayName: 套装冷却
+		Description: 你必须等待才能再次使用套装奖励
+	}
+
+	ChlorophyteRegen: {
+		DisplayName: 叶绿回复
+		Description: 气和生命值回复Ki and Health regen
+	}
+
+	DemonBonus: {
+		DisplayName: Demonic Overdrive
+		Description: Your energy feels limitless
+	}
+
+	DisgustingGoopBuff: {
+		DisplayName: Disgusting Goop
+		Description: Your Ki seems stabilized, but you also feel sick.
+	}
+
+	EnhancedReserves: {
+		DisplayName: Enhanced Reserves
+		Description: Your Ki reserves have been enhanced.
+	}
+
+	界王拳Buff: {
+		DisplayName: 界王拳
+		Description: Damage {0} Speed {1}
+	}
+
+	KatchinFeet: {
+		DisplayName: 卡先脚
+		Description: 你的双脚注入气，使其硬如卡先钢
+	}
+
+	KiLanternBuff: {
+		DisplayName: Ki Diffuser
+		Description: Gives some slight Ki regen.
+	}
+
+	KiPotionSickness: {
+		DisplayName: 回气药病
+		Description: 你对别的回气药水感到恶心
+	}
+
+	KiStimulantBuff: {
+		DisplayName: 气激发
+		Description: Your body is enhanced, passively regenerating气
+	}
+
+	LegendaryTrait: {
+		DisplayName: 传说
+		Description: 你是传说中的赛亚人
+	}
+
+	MREBuff: {
+		DisplayName: MRE
+		Description: 你感到超级满足且神清气爽
+	}
+
+	NimbusBuff: {
+		DisplayName: 筋斗云
+		Description: 只有那些心灵纯洁的人才能骑乘
+	}
+
+	ProdigyTrait: {
+		DisplayName: 天才
+		Description:
+			'''
+			你，真正的天赋异禀
+			加快掌握度的提升
+			'''
+	}
+
+	SenzuCooldown: {
+		DisplayName: 仙豆冷却
+		Description: 你对别的仙豆感到恶心
+	}
+
+	ASSJBuff: {
+		DisplayName: 升华超级赛亚人
+		Description:
+			'''
+			气伤害 +75% 
+			移动速度 +75%
+			气消耗 +40%
+			气损失: 69/s（精通时34/s）
+			'''
+	}
+
+	LSSJ2Buff: {
+		DisplayName: 传说超级赛亚人2
+		Description:
+			'''
+			气伤害 +220% 
+			移动速度 +220%
+			气消耗 +145%
+			气损失: 180/s（精通时60/s）
+			'''
+	}
+
+	LSSJ3Buff: {
+		DisplayName: 传说超级赛亚人3
+		Description:
+			'''
+			气伤害 +350% 
+			移动速度 +350%
+			气消耗 +230%
+			气损失: 240/s（精通时120/s）
+			略微提升生命再生速度
+			'''
+	}
+
+	LSSJBuff: {
+		DisplayName: 传说超级赛亚人
+		Description:
+			'''
+			气伤害 +130% 
+			移动速度 +130%
+			气消耗 +108%
+			气损失: 129/s（精通时30/s）
+			'''
+	}
+
+	SSJ1Buff: {
+		DisplayName: 超级赛亚人
+		Description:
+			'''
+			气伤害 +50% 
+			移动速度 +50%
+			气消耗 +25%
+			气损失: 60/s（精通时30/s）
+			'''
+	}
+
+	SSJ2Buff: {
+		DisplayName: 超级赛亚人2
+		Description:
+			'''
+			气伤害 +125% 
+			移动速度 +125%
+			气消耗 +62%
+			气损失: 120/s（精通时60/s）
+			'''
+	}
+
+	SSJ3Buff: {
+		DisplayName: 超级赛亚人3
+		Description:
+			'''
+			气伤害 +190%
+			移动速度 +190%
+			气消耗 +95%
+			气损失: 159/s（精通时80/s）
+			（低于30%最大气值时，生命会持续流失)
+			'''
+	}
+
+	SSJBBuff: {
+		DisplayName: 超级赛亚人蓝
+		Description:
+			'''
+			气伤害 +375% 
+			移动速度 +375%
+			气消耗 +65%
+			气损失: 195/s（精通时105/s）
+			略微提升生命再生速度
+			'''
+	}
+
+	SSJGBuff: {
+		DisplayName: 超级赛亚人之神
+		Description:
+			'''
+			气伤害 +250%
+			移动速度 +250%
+			气消耗 +50%
+			气损失: 135/s（精通时105/s）
+			略微提升生命再生速度
+			'''
+	}
+
+	SSJRBuff: {
+		DisplayName: 超级赛亚人 Rose
+		Description:
+			'''
+			气伤害 +400% 
+			移动速度 +300%
+			气消耗 +55%
+			气损失: 255/s（精通时128/s）
+			略微提升生命再生速度
+			'''
+	}
+
+	Super界王拳Buff: {
+		DisplayName: 超级界王拳
+		Description:
+			'''
+			气伤害 +125% 
+			移动速度 +125%
+			气消耗 +62%
+			气损失: 120/s（精通时60/s）
+			'''
+	}
+
+	USSJBuff: {
+		DisplayName: 究极超级赛亚人
+		Description:
+			'''
+			气伤害 +90% 
+			移动速度 -10%
+			气消耗 +60%
+			气损失: 90/s（精通时45/s）
+			'''
+	}
+
+	TiredDebuff: {
+		DisplayName: 耗尽
+		Description: 你使用太多的气了
+	}
+
+	TransExhaustionBuff: {
+		DisplayName: 变身耗尽
+		Description: 你的身体无法承受再次变身
+	}
+
+	UnknownLegendary: {
+		DisplayName: ？？？
+		Description: 你说的身体似乎有点特殊
+	}
+
+	ZenkaiBuff: {
+		DisplayName: Zenkai
+		Description: 你与生俱来的赛亚人能力已被激活
+	}
+
+	ZenkaiCooldown: {
+		DisplayName: Zenkai冷却
+		Description: 你的zenkai能力正在冷却
+	}
+}
+
+Projectiles: {
+	BaseFloatingDestructionProj.DisplayName: Base Block Destruction
+	DirtBlockDestruction.DisplayName: Base Block Destruction
+	StoneBlockDestruction.DisplayName: Stone Block Destruction
+	LSSJ3DustCenter.DisplayName: L超级赛亚人3Dust Center
+	LSSJ3DustStart.DisplayName: L超级赛亚人3Dust Start
+	SSJ1AuraProjBeam.DisplayName: 超级赛亚人Aura Beam
+	SSJ1AuraProjBeamHead.DisplayName: 超级赛亚人Aura Beam
+	SSJ1AuraProjStart.DisplayName: 超级赛亚人Aura Proj Start
+	SSJ3LightPillar.DisplayName: 超级赛亚人3Light Pillar
+	SSJAuraBall.DisplayName: 超级赛亚人Aura Ball
+	SSJBDustCenter.DisplayName: SSJB Dust Center
+	SSJBDustStart.DisplayName: SSJB Dust Start
+	SSJEnergyBarrageProj.DisplayName: Aura Energy Barrage
+	SSJGDustCenter.DisplayName: 超级赛亚人之神Dust Center
+	SSJGDustStart.DisplayName: 超级赛亚人之神Dust Start
+	SSJRDustCenter.DisplayName: SSJR Dust Center
+	SSJRDustStart.DisplayName: SSJR Dust Start
+	SSJRockProjStart.DisplayName: 超级赛亚人Rock Proj Start
+	BaldurShell.DisplayName: Baldur Shell
+	BigBangAttackProjectile.DisplayName: BigBangAttackProjectile
+	BigBangAttackProjectile2.DisplayName: BigBangAttackProjectile2
+	BlackBlitz.DisplayName: Black Blitz
+	BlackBlitzLong.DisplayName: Black Blitz Long
+	BlightedFangProj.DisplayName: Blighted Fang
+	BlindingBladeProj.DisplayName: Blinding Blade
+	CandyLaserBlast.DisplayName: Candy Laser
+	CandyLaserTrail.DisplayName: Candy Laser
+	DestructoDiskAssaultMini.DisplayName: Mini Destructo Disk
+	DestructoDiskAssaultProj.DisplayName: ShinKienzan
+	DestructoDiskProjectile.DisplayName: Kienzan
+	DirtyFireworksProjectile.DisplayName: Dirty Fireworks
+	DoubleSundayBeam.DisplayName: Double Sunday Beam
+	DoubleSundayCharge.DisplayName: DoubleSundayCharge
+	EnergyBlastBarrageProjectile.DisplayName: EnergyBlastBarrageProjectile
+	EnergyShotBlast.DisplayName: Energy Shot Blast
+	EnergyWaveBeam.DisplayName: EnergyWaveBeam
+	EnergyWaveCharge.DisplayName: Energy Wave Charge
+	EnergyWaveVolleyBlast.DisplayName: EnergyWaveVolleyBlast
+	EnergyWaveVolleyTrail.DisplayName: EnergyWaveVolleyTrail
+	FinalFlashBeam.DisplayName: Final Flash
+	FinalFlashCharge.DisplayName: Final Flash Ball
+	FinalShineBeam.DisplayName: Final Shine
+	FinalShineCharge.DisplayName: Final Shine Ball
+	GalickGunBeam.DisplayName: Galick Gun
+	GalickGunCharge.DisplayName: Galick Gun Charge
+	HellzoneGrenadeProjectile.DisplayName: HellzoneGrenadeProjectile
+	HellzoneGrenadeProjectile2.DisplayName: HellzoneGrenadeProjectile2
+	HolyWrathBall.DisplayName: Holy Wrath Ball
+	HolyWrathExplosion.DisplayName: Holy Wrath Explosion
+	BigBangKamehamehaBall.DisplayName: Big Bang 龟派气功波Ball
+	BigBangKamehamehaBlast.DisplayName: Big Bang Kamehameha
+	BigBangKamehamehaTrail.DisplayName: Big Bang 龟派气功波Trail
+	KamehamehaBeam.DisplayName: KamehamehaBlast
+	KamehamehaCharge.DisplayName: 龟派气功波Ball
+	Kamehameha10Beam.DisplayName: 龟派气功波x10
+	Kamehameha10Charge.DisplayName: 龟派气功波x10 Ball
+	SuperKamehamehaBeam.DisplayName: SuperKamehamehaBlast
+	SuperKamehamehaCharge.DisplayName: Super 龟派气功波Ball
+	KiBeamProjectile.DisplayName: KiBeamProjectile
+	KiBlastProjectile.DisplayName: Ki Blast
+	KiSpark.DisplayName: Ki Spark
+	LSSJ2PillarStart.DisplayName: 传说Light Pillar
+	LSSJAuraBall.DisplayName: L超级赛亚人Aura Ball
+	LSSJAuraLaser.DisplayName: 传说Laser
+	LSSJAuraLaserBlack.DisplayName: 传说Laser
+	LSSJBarrageProj.DisplayName: 传说Energy Barrage
+	MajinBall.DisplayName: MajinBall
+	MakankosappoBeam.DisplayName: Special Beam Cannon Blast
+	MakankosappoCharge.DisplayName: Special Beam Cannon Ball
+	MasenkoBeam.DisplayName: MasenkoBlast
+	MasenkoCharge.DisplayName: Masenko Ball
+	RadialJavelinProj.DisplayName: Radial Javelin
+	RadiantSpark.DisplayName: 辐辉Spark
+	RockProjectile.DisplayName: Rock
+	ScattershotBlast.DisplayName: ScattershotBlast
+	SpiritBallProjectile.DisplayName: SpiritBallProjectile
+	SpiritBombBall.DisplayName: Spirit Bomb
+	SuperSpiritBombBall.DisplayName: Super Spirit Bomb
+	SuperEnergyBarrageExplosion.DisplayName: Super Energy Barrage Explosion
+	SuperEnergyBarrageProj.DisplayName: Super Energy Barrage Proj
+	SupernovaBall.DisplayName: Supernova Ball
+	TransmissionLinesProj.DisplayName: Transmission Lines Proj
+	TrapShooterExplosion.DisplayName: Trap Shooter Explosion
+	TrapShooterProjectile.DisplayName: TrapShooterProjectile
+}
+
+Items: {
+	circletester: {
+		DisplayName: Circle Spawner
+		Tooltip: ""
+	}
+
+	AmberNecklace: {
+		DisplayName: Amber项链
+		Tooltip: 10% Increased life regen
+	}
+
+	AmethystNecklace: {
+		DisplayName: Amethyst项链
+		Tooltip: 9% Increased endurance and +4 Defense.
+	}
+
+	AncientLegendNecklace: {
+		DisplayName: Ancient Legend项链
+		Tooltip:
+			'''
+			A ancient项链 that seems to seal energy.
+			12% Reduced Ki Usage
+			9% Increased 气伤害
+			-500 max Ki
+			'''
+	}
+
+	AncientLegendWaistCape: {
+		DisplayName: Ancient Legend Waistcape
+		Tooltip:
+			'''
+			A ancient garment made of a Ki enhancing material.
+			14% Reduced Ki Usage
+			6% Increased 气伤害
+			-250 max Ki
+			'''
+	}
+
+	ArmCannon: {
+		DisplayName: Arm Cannon
+		Tooltip:
+			'''
+			An old arm blaster used by many soldiers.
+			10% Reduced Ki Usage
+			Increased Charge Speed
+			'''
+	}
+
+	BaldurEssentia: {
+		DisplayName: Baldur Essentia
+		Tooltip:
+			'''
+			The essence of strong Defense.
+			Charging grants a protective barrier that grants drastically Increased Defense
+			'''
+	}
+
+	BattleKit: {
+		DisplayName: Battle Kit
+		Tooltip:
+			'''
+			A generic Kit of tools for the average soldier.
+			6% Increased 气伤害
+			10% Reduced Ki Usage
+			Hunter effect + Increased Charge Speed
+			15% Increased Ki cast Speed
+			'''
+	}
+
+	BlackDiamondShell: {
+		DisplayName: Black Diamond Shell
+		Tooltip:
+			'''
+			A jeweled turtle shell that gets the attention of many creatures, for some reason it's unbelievably tough.
+			12% Increased 气伤害, 14% Increased Ki Knockback.
+			+200 Max气
+			Getting hit 回复a small amount of气
+			'''
+	}
+
+	BloodstainedBandana: {
+		DisplayName: Bloodstained Bandana
+		Tooltip:
+			'''
+			Change the future.
+			14% Increased 气伤害
+			Thorns effect.
+			'''
+	}
+
+	BuldariumSigmite: {
+		DisplayName: Buldarium Sigmite
+		Tooltip:
+			'''
+			A fragment of the god of Defense's soul.
+			Charging grants a protective barrier that grants massively Increased Defense
+			Charging also grants drastically Increased life regen
+			Increased Ki Charge Speed
+			'''
+	}
+
+	BurningEnergyAmulet: {
+		DisplayName: Burning Energy Amulet
+		Tooltip:
+			'''
+			A glowing amulet that radiates with extreme heat.
+			5% Increased 气伤害
+			+200 Max Ki
+			Charging grants a aura of fire around you.
+			'''
+	}
+
+	CrystalliteAlleviate: {
+		DisplayName: Aspera Crystallite
+		Tooltip:
+			'''
+			The essence of pure energy lives within the crystal.
+			Drastically Increased Speed while charging
+			+2500 Max Ki
+			'''
+	}
+
+	CrystalliteControl: {
+		DisplayName: Imperium Crystallite
+		Tooltip:
+			'''
+			The essence of pure Ki control lives within the crystal.
+			Increased Speed while charging
+			+500 Max Ki
+			'''
+	}
+
+	CrystalliteFlow: {
+		DisplayName: Influunt Crystallite
+		Tooltip:
+			'''
+			The essence of a calm flowing spirit lives within the crystal.
+			Greatly Increased Speed while charging
+			+1000 Max Ki
+			'''
+	}
+
+	DiamondNecklace: {
+		DisplayName: Diamond项链
+		Tooltip: 9% Increased Melee Damage and Speed.
+	}
+
+	DragonGemNecklace: {
+		DisplayName: Dragon Gem项链
+		Tooltip:
+			'''
+			Infused with the essence of the dragon.
+			All effects of the previous项链s, some enhanced.
+			'''
+	}
+
+	EarthenArcanium: {
+		DisplayName: Earthen Arcanium
+		Tooltip:
+			'''
+			A core of the pure energy of the earth.
+			10% Increased 气伤害
+			Increased Ki Regen
+			Reduced Flight Ki Usage
+			+1 Max Charges
+			Increased flight Speed
+			The longer you Charge the more Ki you Charge, limits at +500%.
+			'''
+	}
+
+	EarthenScarab: {
+		DisplayName: Earthen Scarab
+		Tooltip:
+			'''
+			The soul of the land seems to give it life.
+			4% Increased 气伤害
+			Increased flight Speed
+			The longer you Charge the more Ki you Charge, limits at +500%.
+			'''
+	}
+
+	EarthenSigil: {
+		DisplayName: Earthen Sigil
+		Tooltip:
+			'''
+			The soul of the land lives within.
+			6% Increased 气伤害
+			Increased Ki Regen
+			Reduced flight Ki Usage
+			+1 Max Charges
+			'''
+	}
+
+	EmeraldNecklace: {
+		DisplayName: Emerald项链
+		Tooltip: 9% Increased ranged Damage and crit chance.
+	}
+
+	EndlessKi: {
+		DisplayName: Endless Ki
+		Tooltip:
+			'''
+			The hearts of the gods above gods.
+			+1500000 Max Ki
+			Near Infinite Ki Regen
+			'''
+	}
+
+	GoblinKiEnhancer: {
+		DisplayName: Goblin Ki Enhancer
+		Tooltip:
+			'''
+			A relic of the ancient goblins.
+			+500 Max Ki
+			Getting hit grants massively Increased Ki regen for a short time.
+			'''
+	}
+
+	IceTalisman: {
+		DisplayName: Ice Energy Talisman
+		Tooltip:
+			'''
+			A frozen talisman that seems to make even your soul cold.
+			7% Increased 气伤害
+			Increased Ki Regen
+			Charging grants a aura of frostburn around you.
+			'''
+	}
+
+	InfuserAmber: {
+		DisplayName: Amber Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts ichor.
+	}
+
+	InfuserAmethyst: {
+		DisplayName: Amethyst Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts shadowflame.
+	}
+
+	InfuserDiamond: {
+		DisplayName: Diamond Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts confusion.
+	}
+
+	InfuserEmerald: {
+		DisplayName: Emerald Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts poison.
+	}
+
+	InfuserRainbow: {
+		DisplayName: Dragon Crystal Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts a multitude of debuffs.
+	}
+
+	InfuserRuby: {
+		DisplayName: Ruby Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts bleeding.
+	}
+
+	InfuserSapphire: {
+		DisplayName: Sapphire Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts frostburn.
+	}
+
+	InfuserTopaz: {
+		DisplayName: Topaz Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts on fire.
+	}
+
+	KaioCrystal: {
+		DisplayName: Kaio Crystal
+		Tooltip:
+			'''
+			A spiritual fragment of one of the 传说Kais.
+			All 界王拳 forms drain half as much health
+			30% less Max Ki
+			'''
+	}
+
+	KiChip: {
+		DisplayName: Ki Chip
+		Tooltip:
+			'''
+			A piece of a 气碎片.
+			Increased Ki Charge rate
+			'''
+	}
+
+	LargeTurtleShell: {
+		DisplayName: Large Turtle Shell
+		Tooltip:
+			'''
+			A turtle shell with an odd resemblance to the turtle hermit.
+			7% Increased 气伤害, 8% Increased Ki Knockback.
+			'''
+	}
+
+	LuminousSectum: {
+		DisplayName: Luminous Sectum
+		Tooltip:
+			'''
+			It radiates with unstable energy.
+			9% Increased 气伤害
+			+250 Max Ki
+			Hitting enemies has a small chance to fire off homing Ki sparks.
+			'''
+	}
+
+	MajinNucleus: {
+		DisplayName: Majin Nucleus
+		Tooltip:
+			'''
+			The pulsing nucleus of a invincible being.
+			Massively Increased health regen
+			Massively Increased Ki regen
+			-1500 max Ki
+			'''
+	}
+
+	MetamoranSash: {
+		DisplayName: Metamoran Sash
+		Tooltip:
+			'''
+			Your own bad energy will be your undoing!
+			10% Increased 气伤害
+			30% Reduced Ki Usage
+			15% chance to do double Damage.
+			'''
+	}
+
+	PureEnergyCirclet: {
+		DisplayName: Pure Energy Circlet
+		Tooltip:
+			'''
+			It radiates a unbelievably pure presence.
+			12% Increased 气伤害
+			Increased Ki regen
+			+300 Max Ki
+			Charging grants a aura of inferno and frostburn around you.
+			'''
+	}
+
+	RadiantGlider: {
+		DisplayName: 辐辉Glider
+		Tooltip: Allows flight and slow fall.
+	}
+
+	RadiantTotem: {
+		DisplayName: 辐辉Totem
+		Tooltip:
+			'''
+			It explodes with 辐辉energy.
+			12% Increased 气伤害
+			+500 Max Ki
+			Drastically Increased Ki regen
+			'''
+	}
+
+	RubyNecklace: {
+		DisplayName: Ruby项链
+		Tooltip: 9% Increased magic Damage and crit chance.
+	}
+
+	SapphireNecklace: {
+		DisplayName: Sapphire项链
+		Tooltip: 9% Increased 气伤害 and +100 max气
+	}
+
+	ScouterT2: {
+		DisplayName: Green Scouter
+		Tooltip:
+			'''
+			A Piece of equipment used for scanning powerlevels.
+			Increased 气伤害 and Hunter effect.
+			--Tier 2--
+			'''
+	}
+
+	ScouterT3: {
+		DisplayName: Blue Scouter
+		Tooltip:
+			'''
+			A Piece of equipment used for scanning powerlevels.
+			Gives Increased 气伤害 and Hunter effect.
+			--Tier 3--
+			'''
+	}
+
+	ScouterT4: {
+		DisplayName: Red Scouter
+		Tooltip:
+			'''
+			A Piece of equipment used for scanning powerlevels.
+			Gives Increased 气伤害 and Hunter effect.
+			--Tier 4--
+			'''
+	}
+
+	ScouterT5: {
+		DisplayName: Purple Scouter
+		Tooltip:
+			'''
+			A Piece of equipment used for scanning powerlevels.
+			Gives Increased 气伤害 and Hunter effects.
+			--Tier 5--
+			'''
+	}
+
+	ScouterT6: {
+		DisplayName: Yellow Scouter
+		Tooltip:
+			'''
+			A Piece of equipment used for scanning powerlevels.
+			Gives Increased 气伤害 and Hunter effects.
+			--Tier 6--
+			'''
+	}
+
+	SenzuBag: {
+		DisplayName: 仙豆袋
+		Tooltip: 减少使用仙豆后的冷却时间
+	}
+
+	SpiritCharm: {
+		DisplayName: 灵魂护符
+		Tooltip:
+			'''
+			刻有龙之印记的徽章
+			增加20%气伤害，和14%其他职业伤害
+			增加12%暴击率
+			增加500点最大气值
+			增加12%伤害减免
+			增加3个最大仆从栏
+			大幅提升生命再生速度
+			'''
+	}
+
+	SpiritualEmblem: {
+		DisplayName: 灵魂徽章
+		Tooltip:
+			'''
+			这枚徽章似乎刻有奇怪的文字
+			增加15%气伤害
+			'''
+	}
+
+	TimeRing: {
+		DisplayName: 时间之戒
+		Tooltip:
+			'''
+			界王的神圣之戒
+			大幅提升生命再生速度
+			大幅提升气回复速度
+			'''
+	}
+
+	TopazNecklace: {
+		DisplayName: 黄玉项链
+		Tooltip: 增加9%召唤伤害和1个最大仆从栏
+	}
+
+	GreenPotara: {
+		DisplayName: 绿色坡塔拉耳环
+		Tooltip: 一对由界王所使用的实用耳环
+	}
+
+	WornGloves: {
+		DisplayName: 磨损手套
+		Tooltip:
+			'''
+			提升10%气攻击速度
+			增加6%气伤害
+			'''
+	}
+
+	ZenkaiCharm: {
+		DisplayName: 全开护符
+		Tooltip:
+			'''
+			一枚能够驾驭赛亚人真正力量的护符
+			增加8%气伤害
+			受到致命伤害时会恢复50点生命值
+			并在短时间内造成2倍伤害
+			有2分钟的冷却时间
+			'''
+	}
+
+	AdamantiteVisor: {
+		DisplayName: 精金护目镜
+		Tooltip:
+			'''
+			增加12%气伤害
+			增加10%气暴击率
+			增加250点最大气值
+			'''
+	}
+
+	BlackFusionPants: {
+		DisplayName: 黑色融合裤
+		Tooltip:
+			'''
+			增加20%气伤害
+			增加16%气暴击率
+			增加500点最大气值
+			提升气回复速度
+			提升18%移动速度
+			'''
+	}
+
+	BlackFusionShirt: {
+		DisplayName: 黑色融合衬衣
+		Tooltip:
+			'''
+			增加24%气伤害
+			增加20%气暴击率
+			增加1000点最大气值
+			提升2点武器最大蓄力段数
+			提升集气速度
+			'''
+	}
+
+	DemonLeggings: {
+		DisplayName: 恶魔护腿
+		Tooltip:
+			'''
+			增加13%气伤害
+			增加9%气暴击率
+			增加300点最大气值
+			提升气回复速度
+			提升12%移动速度
+			'''
+	}
+
+	DemonShirt: {
+		DisplayName: 恶魔衬衣
+		Tooltip:
+			'''
+			增加18%气伤害
+			增加14%气暴击率
+			增加700点最大气值
+			提升1点武器最大蓄力段数
+			'''
+	}
+
+	EliteSaiyanBreastplate: {
+		DisplayName: 精英赛亚人胸甲
+		Tooltip:
+			'''
+			增加26%气伤害
+			增加24%气暴击率
+			增加1000点最大气值
+			提升3点武器最大蓄力段数
+			提升气回复速度
+			'''
+	}
+
+	EliteSaiyanLeggings: {
+		DisplayName: 精英赛亚人护腿
+		Tooltip:
+			'''
+			增加22%气伤害
+			增加18%气暴击率
+			增加750点最大气值
+			提升气回复速度
+			提升22%移动速度
+			'''
+	}
+
+	HermitGi: {
+		DisplayName: 龟仙人武道服
+		Tooltip:
+			'''
+			增加5%气伤害
+			增加3%气暴击率
+			提升气回复速度
+			'''
+	}
+
+	HermitPants: {
+		DisplayName: 龟仙人裤
+		Tooltip:
+			'''
+			增加4%气伤害
+			增加4%气击退
+			提升10%移动速度
+			'''
+	}
+
+	RadiantGreaves: {
+		DisplayName: 辐辉护胫
+		Tooltip:
+			'''
+			增加14%气伤害
+			增加24%气暴击率
+			增加750点最大气值
+			提升气回复速度
+			提升26%移动速度
+			'''
+	}
+
+	RadiantScalepiece: {
+		DisplayName: 辐辉鳞甲
+		Tooltip:
+			'''
+			增加24%气伤害
+			增加16%气击退
+			增加1500点最大气值
+			提升4点武器最大蓄力段数
+			减少飞行时气消耗
+			'''
+	}
+
+	RadiantVisor: {
+		DisplayName: 辐辉护目镜
+		Tooltip:
+			'''
+			增加18%气伤害
+			增加24%气暴击率
+			增加750点最大气值
+			提升飞行速度
+			'''
+	}
+
+	SaiyanBreastplate: {
+		DisplayName: 赛亚人战斗胸甲
+		Tooltip:
+			'''
+			增加10%气伤害
+			增加6%气暴击率
+			增加100点最大气值
+			'''
+	}
+
+	SaiyanLeggings: {
+		DisplayName: 赛亚人战斗护腿
+		Tooltip:
+			'''
+			增加7%气伤害
+			增加5%气暴击率
+			提升16%移动速度
+			'''
+	}
+
+	SaiyanScoutPants: {
+		DisplayName: 赛亚人侦察护腿
+		Tooltip:
+			'''
+			增加2%气伤害
+			增加2%气击退
+			提升6%移动速度
+			'''
+	}
+
+	SaiyanScoutScalemail: {
+		DisplayName: 赛亚人侦察鳞甲
+		Tooltip:
+			'''
+			增加3%气伤害
+			增加2%气暴击率
+			减少5%气消耗
+			'''
+	}
+
+	ChlorophyteHeadpiece: {
+		DisplayName: 叶绿头饰
+		Tooltip:
+			'''
+			增加16%气伤害
+			增加12%气暴击率
+			增加500点最大气值
+			'''
+	}
+
+	CobaltCrown: {
+		DisplayName: 钴头冠
+		Tooltip:
+			'''
+			增加9%气伤害
+			增加6%气暴击率
+			'''
+	}
+
+	HallowedFedora: {
+		DisplayName: 神圣软帽
+		Tooltip:
+			'''
+			增加13%气伤害
+			增加11%气暴击率
+			增加300点最大气值
+			'''
+	}
+
+	MythrilGlasses: {
+		DisplayName: 秘银眼镜
+		Tooltip:
+			'''
+			增加11%气伤害
+			增加6%气暴击率
+			增加100点最大气值
+			'''
+	}
+
+	OrichalcumHat: {
+		DisplayName: 山铜头盔
+		Tooltip:
+			'''
+			增加10%气伤害
+			增加7%气暴击率
+			增加100点最大气值
+			'''
+	}
+
+	PalladiumBlindfoldCrown: {
+		DisplayName: 钯金蒙眼头冠
+		Tooltip:
+			'''
+			增加9%气伤害
+			增加6%气暴击率
+			'''
+	}
+
+	TitaniumCap: {
+		DisplayName: 钛金连帽
+		Tooltip:
+			'''
+			增加14%气伤害
+			增加9%气暴击率
+			增加250点最大气值
+			'''
+	}
+
+	CanadianDemonLeggings: {
+		DisplayName: Canadian的恶魔护腿
+		Tooltip:
+			'''
+			增加20%气伤害
+			增加16%气暴击率
+			增加500点最大气值
+			提升气回复速度
+			提升18%移动速度
+			
+			'''
+	}
+
+	CanadianDemonShirt: {
+		DisplayName: Canadian的恶魔衬衣
+		Tooltip:
+			'''
+			增加24%气伤害
+			增加20%气暴击率
+			增加1000点最大气值
+			提升2点武器最大蓄力段数
+			'''
+	}
+
+	GreenGodHead: {
+		DisplayName: 绿色神之头
+		Tooltip: 道德之神的头
+	}
+
+	CoarseRock: {
+		DisplayName: Coarse Rock
+		Tooltip: A dried out and compressed piece of sand.
+	}
+
+	BukuujutsuVol1: {
+		DisplayName: Bukuujutsu Guide 卷一 - Chorus Aeria
+		Tooltip: It has an ancient technique inscribed in it, holding it makes you feel lighter.
+	}
+
+	BukuujutsuVol2: {
+		DisplayName: Bukuujutsu Guide 卷二 - Lux Ruinam
+		Tooltip: It has an ancient technique inscribed in it, holding it makes your feet feel softer.
+	}
+
+	BukuujutsuVol3: {
+		DisplayName: Bukuujutsu Guide 卷三 - Fugam Arriperent
+		Tooltip: It has an ancient technique inscribed in it, holding it makes your Ki feel calmer.
+	}
+
+	DisgustingGoop: {
+		DisplayName: 恶心的黏液
+		Tooltip: 固定当前气值但是尝起来令人恶心
+	}
+
+	KaioFragment1: {
+		DisplayName: 3倍界王拳
+		Tooltip: 
+			'''
+			解锁下一级的界王拳
+			[C/959595:世界吞噬者和克苏鲁之脑掉落]
+			'''
+	}
+
+	KaioFragment2: {
+		DisplayName: 4倍界王拳
+		Tooltip: 
+			'''
+			解锁下一级的界王拳
+			[C/959595:蜂王掉落]
+			'''
+	}
+
+	KaioFragment3: {
+		DisplayName: 10倍界王拳
+		Tooltip: 
+			'''
+			解锁下一级的界王拳
+			[C/959595:骷髅王掉落]
+			'''
+	}
+
+	KaioFragment4: {
+		DisplayName: 20倍界王拳
+		Tooltip: 
+			'''
+			解锁下一级的界王拳
+			[C/959595:血肉墙掉落]
+			'''
+	}
+
+	KaioFragmentFirst: {
+		DisplayName: 界王拳
+		Tooltip:
+			''' 
+			解锁远古技术
+			[C/959595:克苏鲁之眼掉落]
+			'''
+	}
+
+	KiEssence1: {
+		DisplayName: 新手气卷轴
+		Tooltip: 
+			'''
+			提升集齐速度
+			'''
+	}
+
+	KiEssence2: {
+		DisplayName: 学徒气卷轴
+		Tooltip: 
+			'''
+			提升集齐速度
+			'''
+	}
+
+	KiEssence3: {
+		DisplayName: 熟练气卷轴
+		Tooltip: 
+			'''
+			提升集齐速度
+			'''
+	}
+
+	KiEssence4: {
+		DisplayName: 激怒气卷轴
+		Tooltip: 
+			'''
+			提升集齐速度
+			'''
+	}
+
+	KiEssence5: {
+		DisplayName: 大师气卷轴
+		Tooltip: 
+			'''
+			提升集齐速度
+			'''
+	}
+
+	KiFragment1: {
+		DisplayName: 新手气碎片
+		Tooltip: 
+			'''
+			增加1000点最大气值
+			[C/959595:克苏鲁之眼掉落]
+			'''
+	}
+
+	KiFragment2: {
+		DisplayName: 学徒气碎片
+		Tooltip:
+			''' 
+			增加2000点最大气值
+			[C/959595:骷髅王掉落]
+			'''
+	}
+
+	KiFragment3: {
+		DisplayName: 熟练气碎片
+		Tooltip:
+			''' 
+			增加2000点最大气值
+			[C/959595:机械骷髅王掉落]
+			'''
+	}
+
+	KiFragment4: {
+		DisplayName: 激怒气碎片
+		Tooltip:
+			''' 
+			增加2000点最大气值
+			[C/959595:世纪之花掉落]
+			'''
+	}
+
+	KiFragment5: {
+		DisplayName: 大师气碎片
+		Tooltip:
+			''' 
+			增加2000点最大气值
+			[C/959595:拜月邪教徒掉落]
+			'''
+	}
+
+	MRE: {
+		DisplayName: MRE
+		Tooltip: 丰盛的一餐提供多种增益效果
+	}
+
+	KiPotion1: {
+		DisplayName: 弱效回气药水
+		Tooltip: 回复330气
+	}
+
+	KiPotion2: {
+		DisplayName: 回气药水
+		Tooltip: 回复640气
+	}
+
+	KiPotion3: {
+		DisplayName: 强效回气药水
+		Tooltip: 回复1080气
+	}
+
+	KiPotion4: {
+		DisplayName: 超级回气药水
+		Tooltip: 回复2180气
+	}
+
+	KiPotion5: {
+		DisplayName: 超量回气药水
+		Tooltip: 回复5100气
+	}
+
+	KiStimulant: {
+		DisplayName: 气激发针
+		Tooltip: 刺激你的身体以增强气回复速度
+	}
+
+	SenzuBean: {
+		DisplayName: 仙豆
+		Tooltip: 
+			'''
+			恢复你的身体与气
+			[C/959595:所有Boss有25%概率掉落]
+			'''
+	}
+
+	LegendaryTestItem: {
+		DisplayName: 传说测试物品
+		Tooltip: 给予你传说资质
+	}
+
+	LSSJ2TestItem: {
+		DisplayName: 传说超级赛亚人2测试物品
+		Tooltip: 手动解锁传说超级赛亚人2的过场动画并解锁
+	}
+
+	LSSJTestItem: {
+		DisplayName: 传说超级赛亚人测试物品
+		Tooltip: 手动解锁l超级赛亚人的过场动画并解锁
+	}
+
+	ProdigyTestItem: {
+		DisplayName: 天才测试物品
+		Tooltip: 给予你天才资质
+	}
+
+	SSJ2MasteryTestItem: {
+		DisplayName: 超级赛亚人2精通测试物品
+		Tooltip: 手动提升超级赛亚人2掌握度，每次提升25%
+	}
+
+	SSJ2TestItem: {
+		DisplayName: 超级赛亚人2测试物品
+		Tooltip: 手动解锁超级赛亚人2的过场动画并解锁
+	}
+
+	SSJ3MasteryTestItem: {
+		DisplayName: 超级赛亚人3精通测试物品
+		Tooltip: 手动提升超级赛亚人3掌握度，每次提升25%
+	}
+
+	SSJ3TestItem: {
+		DisplayName: 超级赛亚人3测试物品
+		Tooltip: 手动解锁超级赛亚人3的过场动画并解锁
+	}
+
+	SSJGTestItem: {
+		DisplayName: 超级赛亚人之神测试物品
+		Tooltip: 手动解锁超级赛亚人之神的过场动画并解锁
+	}
+
+	SSJMasteryTestItem: {
+		DisplayName: 超级赛亚人精通测试物品
+		Tooltip: 手动提升超级赛亚人掌握度，每次提升25%
+	}
+
+	SSJTestItem: {
+		DisplayName: 超级赛亚人测试物品
+		Tooltip: 手动解锁超级赛亚人的过场动画并解锁
+	}
+
+	TraitRemover: {
+		DisplayName: 资质移除
+		Tooltip: 移除所有资质
+	}
+
+	TransmissionPura: {
+		DisplayName: 瞬间移动秘典卷三 - Pura Facilioris Transmissus
+		Tooltip: 它蕴含着异界力量， bending space to your will with ease.
+	}
+
+	TransmissionTeleport: {
+		DisplayName: 瞬间移动秘典卷二 - Ianuae Magicae
+		Tooltip: 它蕴含着异界力量， bending space to your will.
+	}
+
+	TransmissionVanish: {
+		DisplayName: 瞬间移动秘典卷一 - 消散者必将灭亡
+		Tooltip:
+			''' 
+			它蕴含着异界力量，能够扭曲空间以寻觅气的灯塔
+			[C/959595:血肉墙掉落]
+			'''
+	}
+
+	DBNote: {
+		DisplayName: 破旧纸条
+		Tooltip:
+			'''
+			一张附在龙珠上的古老纸条
+			“这颗龙珠是一个非常强力的物品。
+			收集另外六颗散落在世界各地的龙珠，
+			神龙将会实现你最深处的愿望”
+			'''
+	}
+
+	DragonRadar1: {
+		DisplayName: 龙珠雷达MK1
+		Tooltip:
+			'''
+			一件低等科技设备，用于定位龙珠
+			手持时会指向最近的龙珠，但精度很差
+			当靠近龙珠过近时，雷达会因过载而失效
+			'''
+	}
+
+	DragonRadar2: {
+		DisplayName: 龙珠雷达MK2
+		Tooltip:
+			'''
+			一件中等科技设备，用于定位龙珠
+			手持时会指向最近的龙珠，精度较高
+			当靠近龙珠过近时，雷达会因过载而失效
+			'''
+	}
+
+	DragonRadar3: {
+		DisplayName: 龙珠雷达MK3
+		Tooltip:
+			'''
+			一件高等科技设备，用于定位龙珠
+			手持时会指向最近的龙珠，精度极高
+			当靠近龙珠过近时，雷达会因过载而失效
+			'''
+	}
+
+	FiveStarDB: {
+		DisplayName: 5星龙珠
+		Tooltip: A mystical ball with 5 stars inscribed on it.
+	}
+
+	FourStarDB: {
+		DisplayName: 4星龙珠
+		Tooltip: A mystical ball with 4 stars inscribed on it.
+	}
+
+	OneStarDB: {
+		DisplayName: 1星龙珠
+		Tooltip: A mystical ball with 1 star inscribed on it.
+	}
+
+	SevenStarDB: {
+		DisplayName: 7星龙珠
+		Tooltip: A mystical ball with 7 stars inscribed on it.
+	}
+
+	SixStarDB: {
+		DisplayName: 6星龙珠
+		Tooltip: A mystical ball with 6 stars inscribed on it.
+	}
+
+	ThreeStarDB: {
+		DisplayName: 3星龙珠
+		Tooltip: A mystical ball with 3 stars inscribed on it.
+	}
+
+	TwoStarDB: {
+		DisplayName: 2星龙珠
+		Tooltip: A mystical ball with 2 stars inscribed on it.
+	}
+
+	EmptyNecklace: {
+		DisplayName: Empty项链
+		Tooltip: It seems you can attach a gem to it.
+	}
+
+	KaiTableItem: {
+		DisplayName: Kai Table
+		Tooltip: It pulses with divine pressure, it seems to entrance you.
+	}
+
+	KatchinScale: {
+		DisplayName: Katchin Scale
+		Tooltip: A scale with incredible durability ripped from a massive fish.
+	}
+
+	KiBeaconItem: {
+		DisplayName: Ki Beacon
+		Tooltip: Radiates Ki you can lock on to with Instant Transmission.
+	}
+
+	KiLanternItem: {
+		DisplayName: Ki Diffuser
+		Tooltip:
+			'''
+			It radiates with the glow of Ki energy.
+			Gives slight Ki regen when placed.
+			'''
+	}
+
+	KiOrb: {
+		DisplayName: Ki Orb
+		Tooltip: ""
+	}
+
+	KiOrb2: {
+		DisplayName: Super Ki Orb
+		Tooltip: ""
+	}
+
+	AstralEssentia: {
+		DisplayName: Astral Essentia
+		Tooltip: The sky's astral energy emanates from within.
+	}
+
+	DemonicSoul: {
+		DisplayName: Demonic Soul
+		Tooltip: A fragment of the devil's rage.
+	}
+
+	DivineThreads: {
+		DisplayName: Divine Threads
+		Tooltip: A unbelievably soft material that radiates a divine-like energy.
+	}
+
+	EarthenShard: {
+		DisplayName: Earthen Shard
+		Tooltip: A fragment of the land's soul.
+	}
+
+	AngerKiCrystal: {
+		DisplayName: Angerful Ki Crystal
+		Tooltip: The corrupt rage of the world lives within.
+	}
+
+	CalmKiCrystal: {
+		DisplayName: Calm Ki Crystal
+		Tooltip: The calm force of nature lives within.
+	}
+
+	PridefulKiCrystal: {
+		DisplayName: Prideful Ki Crystal
+		Tooltip: The prideful flame of the world lives within.
+	}
+
+	PureKiCrystal: {
+		DisplayName: Pure Ki Crystal
+		Tooltip: The glowing radiance of the world lives within.
+	}
+
+	StableKiCrystal: {
+		DisplayName: Stable Ki Crystal
+		Tooltip: The common spirits of the world live within.
+	}
+
+	RadiantFragment: {
+		DisplayName: 辐辉碎片
+		Tooltip: The endurance of the cosmos crackles around this fragment
+	}
+
+	SatanicCloth: {
+		DisplayName: Satanic Cloth
+		Tooltip: The cloth radiates with animosity.
+	}
+
+	ScrapMetal: {
+		DisplayName: Scrap Metal
+		Tooltip: An old piece of metal, seems like something a junk merchant would sell.
+	}
+
+	SkeletalEssence: {
+		DisplayName: Skeletal Essence
+		Tooltip: A chunk of the dungeon's inhabitants.
+	}
+
+	SoulofEntity: {
+		DisplayName: Soul of Entity
+		Tooltip: The soul of a reanimated foe.
+	}
+
+	Choco1: {
+		DisplayName: Chocolate
+		Tooltip: ""
+	}
+
+	Choco2: {
+		DisplayName: Chocolate
+		Tooltip: ""
+	}
+
+	Choco3: {
+		DisplayName: Chocolate
+		Tooltip: ""
+	}
+
+	CoffeeCandy: {
+		DisplayName: Coffee Candy
+		Tooltip: ""
+	}
+
+	SSJGUnlocKitem: {
+		DisplayName: Godly Spirit
+		Tooltip: ""
+	}
+
+	NimbusWhistle: {
+		DisplayName: 筋斗云哨子
+		Tooltip: 召唤传说Cloud, Nimbus.
+	}
+
+	RadiantFragmentBlocKitem: {
+		DisplayName: 辐辉碎片块
+		Tooltip: ""
+	}
+
+	RefinedMetal: {
+		DisplayName: Refined Metal
+		Tooltip: A high quality refined piece of metal, it is incredibly durable.
+	}
+
+	RadiantHamaxe: {
+		DisplayName: 辐辉锤斧
+		Tooltip: ""
+	}
+
+	RadiantPickaxe: {
+		DisplayName: 辐辉镐
+		Tooltip: ""
+	}
+
+	FarmerShotgun: {
+		DisplayName: 农夫的霰弹枪
+		Tooltip: 由神打造的武器
+	}
+
+	TrunksSword: {
+		DisplayName: 特兰克斯的剑
+		Tooltip:
+			'''
+			具有护甲穿透
+			-4阶-
+			'''
+	}
+
+	YajirobesKatana: {
+		DisplayName: 弥次郎兵卫的武士刀
+		Tooltip: -2阶-
+	}
+
+	EnergyWave: {
+		DisplayName: 气功波
+		Tooltip:
+			'''
+			最大蓄力 - 3
+			长按右键进行蓄力
+			左键点击发射
+			'''
+	}
+
+	KiBeam: {
+		DisplayName: 气射线
+		Tooltip: ""
+	}
+
+	KiBlast: {
+		DisplayName: 气功弹
+		Tooltip: ""
+	}
+
+	DestructoDisk: {
+		DisplayName: 元气斩
+		Tooltip: 它真的是个飞盘，我发誓
+	}
+
+	DoubleSunday: {
+		DisplayName: 双重气功波
+		Tooltip:
+			'''
+			最大蓄力 - 4
+			长按右键进行蓄力
+			左键点击发射
+			'''
+	}
+
+	EnergyBlastBarrage: {
+		DisplayName: 连续气功弹
+		Tooltip: ""
+	}
+
+	Masenko: {
+		DisplayName: 魔闪光
+		Tooltip:
+			'''
+			最大蓄力 - 5
+			长按右键进行蓄力
+			左键点击发射
+			'''
+	}
+
+	SpiritBall: {
+		DisplayName: 操气弹
+		Tooltip: 雅木茶！
+	}
+
+	BlightedFang: {
+		DisplayName: 血窃
+		Tooltip: 发射窃取生命的气射线
+	}
+
+	DirtyFireworks: {
+		DisplayName: 肮脏的烟火
+		Tooltip: 冰霜气团!
+	}
+
+	GalickGun: {
+		DisplayName: 伽力炮
+		Tooltip:
+			'''
+			最大蓄力 - 7
+			长按右键进行蓄力
+			左键点击发射
+			'''
+	}
+
+	HellzoneGrenade: {
+		DisplayName: Hellzone Grenade
+		Tooltip: ""
+	}
+
+	Kamehameha: {
+		DisplayName: 龟派气功波
+		Tooltip:
+			'''
+			最大蓄力 - 6
+			长按右键进行蓄力
+			左键点击发射
+			'''
+	}
+
+	BigBangAttack: {
+		DisplayName: 大爆炸攻击
+		Tooltip: ""
+	}
+
+	EnergyShot: {
+		DisplayName: Energy Shot
+		Tooltip: An enhanced version of a regular Ki blast
+	}
+
+	Scattershot: {
+		DisplayName: Scatter Shot
+		Tooltip: ""
+	}
+
+	SpecialBeamCannon: {
+		DisplayName: 魔贯光杀炮
+		Tooltip:
+			'''
+			最大蓄力 - 6
+			长按右键进行蓄力
+			左键点击发射
+			'''
+	}
+
+	SpiritBomb: {
+		DisplayName: 元气弹
+		Tooltip: ""
+	}
+
+	SuperKamehameha: {
+		DisplayName: 超级龟派气功波
+		Tooltip:
+			'''
+			最大蓄力 - 8
+			长按右键进行蓄力
+			左键点击发射
+			'''
+	}
+
+	TrapShooter: {
+		DisplayName: 束缚气弹
+		Tooltip: ""
+	}
+
+	DestructoDiskAssault: {
+		DisplayName: 元气斩强袭
+		Tooltip: ""
+	}
+
+	FinalFlash: {
+		DisplayName: 终极闪光
+		Tooltip:
+			'''
+			最大蓄力 - 9
+			长按右键进行蓄力
+			左键点击发射
+			'''
+	}
+
+	Kamehamehax10: {
+		DisplayName: 10倍龟派气功波
+		Tooltip:
+			'''
+			最大蓄力 - 8
+			长按右键进行蓄力
+			左键点击发射
+			'''
+	}
+
+	SuperEnergyBarrage: {
+		DisplayName: Super Energy Barrage
+		Tooltip: ""
+	}
+
+	Supernova: {
+		DisplayName: 超新星
+		Tooltip: ""
+	}
+
+	BlackBlitz: {
+		DisplayName: Black Power Ball
+		Tooltip: ""
+	}
+
+	BlindingBlade: {
+		DisplayName: Blinding Blade
+		Tooltip: Flings a Ki-coated disk that bounces off walls.
+	}
+
+	CandyLaser: {
+		DisplayName: Candy Laser
+		Tooltip: Turns your foes to chocolate, does not work on bosses.
+	}
+
+	FinalShine: {
+		DisplayName: Final Shine
+		Tooltip:
+			'''
+			最大蓄力 - 12
+			长按右键进行蓄力
+			左键点击发射
+			'''
+	}
+
+	HolyWrath: {
+		DisplayName: Holy Wrath
+		Tooltip: ""
+	}
+
+	RadialJavelin: {
+		DisplayName: Radial Javelin
+		Tooltip: Throws a volley of homing Ki javelins.
+	}
+
+	SuperSpiritBomb: {
+		DisplayName: 超级元气弹
+		Tooltip: ""
+	}
+
+	ZTableItem: {
+		DisplayName: 龙珠Z桌
+		Tooltip: 看起来能改变气的本质
+	}
+
+	SSJGUnlockItem: {
+		DisplayName: 超级赛亚人之神解锁物品
+		Tooltip: ""
+	}
+
+	RadiantFragmentBlockItem: {
+		DisplayName: 辐辉碎块
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	MajinSlime.DisplayName: 魔人史莱姆
+	MajinZombie.DisplayName: 魔人僵尸
+}
+
+Prefixes: {
+	BalancedPrefix.DisplayName: 平衡
+	BoostedPrefix.DisplayName: Boosted
+	CondensedPrefix.DisplayName: Condensed
+	DestructivePrefix.DisplayName: Destructive
+	DistractedPrefix.DisplayName: Distracted
+	FlashyPrefix.DisplayName: Flashy
+	FlawedPrefix.DisplayName: 瑕疵
+	InfusedPrefix.DisplayName: Infused
+	MasteredPrefix.DisplayName: 大师
+	MystifyingPrefix.DisplayName: Mystifying
+	NegatedPrefix.DisplayName: Negated
+	OutrageousPrefix.DisplayName: Outrageous
+	PoweredPrefix.DisplayName: Powered
+	TranscendedPrefix.DisplayName: 超越
+	UnstablePrefix.DisplayName: 不稳
+}
+
+Tiles: {
+	FiveStarDBTile.MapEntry: 5星龙珠
+	FourStarDBTile.MapEntry: 4星龙珠
+	OneStarDBTile.MapEntry: 1星龙珠
+	SevenStarDBTile.MapEntry: 7星龙珠
+	SixStarDBTile.MapEntry: 6星龙珠
+	ThreeStarDBTile.MapEntry: 3星龙珠
+	TwoStarDBTile.MapEntry: 2星龙珠
+	KaiTable.MapEntry: 龙珠改桌
+	KiBeaconTile.MapEntry: Ki Beacon
+	KiLantern.MapEntry: Ki Lantern
+	ZTable.MapEntry: 龙珠Z桌
+}
+
+Keybinds: {
+	界王拳.DisplayName: 界王拳
+	"Energy Charge.DisplayName": 集气
+	Transform.DisplayName: 变身
+	"Power Down.DisplayName": 力量降低
+	"Speed Toggle.DisplayName": 速度切换
+	"Quick气DisplayName": 快速回气药水
+	"Transformation Menu.DisplayName": 变身菜单
+	"Instant Transmission.DisplayName": 瞬间移动
+	"Flight Toggle.DisplayName": 飞行切换
+	"Armor Bonus.DisplayName": 套装奖励
+}
+
+Configs: {
+	DBZClientConfig: {
+		DisplayName: 客户端配置
+
+		IsChargeToggled: {
+			Label: Toggle Charge
+			Tooltip: Whether Charge is on/off or hold
+		}
+	}
+
+	DBZServerConfig: {
+		DisplayName: 服务器配置
+
+		RespectDragonBallOwnership: {
+			Label: Respect Dragon Ball Ownership
+			Tooltip:
+				'''
+				Whether to validate the user has collected that ball or not.
+				Turning this off means anyone can use a set of dragon balls if they are in chests.
+				'''
+		}
+	}
+}
+
+DamageClasses.KiDamageType.DisplayName: 气伤害

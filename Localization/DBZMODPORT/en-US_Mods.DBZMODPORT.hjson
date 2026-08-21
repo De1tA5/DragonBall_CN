@@ -1,0 +1,1861 @@
+Buffs: {
+	ArmorCooldown: {
+		DisplayName: Armor Cooldown
+		Description: You must wait to use your armor bonus again.
+	}
+
+	ChlorophyteRegen: {
+		DisplayName: Chlorophyte Regen
+		Description: Ki and Health regen
+	}
+
+	DemonBonus: {
+		DisplayName: Demonic Overdrive
+		Description: Your energy feels limitless
+	}
+
+	DisgustingGoopBuff: {
+		DisplayName: Disgusting Goop
+		Description: Your Ki seems stabilized, but you also feel sick.
+	}
+
+	EnhancedReserves: {
+		DisplayName: Enhanced Reserves
+		Description: Your Ki reserves have been enhanced.
+	}
+
+	KaiokenBuff: {
+		DisplayName: Kaioken
+		Description: Damage {0} Speed {1}
+	}
+
+	KatchinFeet: {
+		DisplayName: Katchin Feet
+		Description: Your feet are infused with Ki, making them as hard as katchin.
+	}
+
+	KiLanternBuff: {
+		DisplayName: Ki Diffuser
+		Description: Gives some slight Ki regen.
+	}
+
+	KiPotionSickness: {
+		DisplayName: Ki Potion Sickness
+		Description: You feel sick at the thought of another Ki potion.
+	}
+
+	KiStimulantBuff: {
+		DisplayName: Ki Stimulus
+		Description: Your body is enhanced, passively regenerating Ki.
+	}
+
+	LegendaryTrait: {
+		DisplayName: Legendary
+		Description: You are the saiyan of legend.
+	}
+
+	MREBuff: {
+		DisplayName: MRE
+		Description: You feel extremely full and super refreshed.
+	}
+
+	NimbusBuff: {
+		DisplayName: Nimbus Cloud
+		Description: Only Those With True Hearts Can Ride This.
+	}
+
+	ProdigyTrait: {
+		DisplayName: Prodigy
+		Description:
+			'''
+			You are truly gifted.
+			Faster mastery gains.
+			'''
+	}
+
+	SenzuCooldown: {
+		DisplayName: Senzu Cooldown
+		Description: You feel too sick to eat another senzu.
+	}
+
+	ASSJBuff: {
+		DisplayName: Ascended Super Saiyan
+		Description:
+			'''
+			Ki Damage +75% 
+			Speed +75%
+			Ki Costs +40%
+			Ki Drain: 69/s, 34/s when mastered
+			'''
+	}
+
+	LSSJ2Buff: {
+		DisplayName: Legendary Super Saiyan 2
+		Description:
+			'''
+			Ki Damage +220% 
+			Speed +220%
+			Ki Costs +145%
+			Ki Drain: 180/s, 60/s when mastered
+			'''
+	}
+
+	LSSJ3Buff: {
+		DisplayName: Legendary Super Saiyan 3
+		Description:
+			'''
+			Ki Damage +350% 
+			Speed +350%
+			Ki Costs +230%
+			Ki Drain: 240/s, 120/s when mastered
+				Slightly Increased health regen.
+			'''
+	}
+
+	LSSJBuff: {
+		DisplayName: Legendary Super Saiyan
+		Description:
+			'''
+			Ki Damage +130% 
+			Speed +130%
+			Ki Costs +108%
+			Ki Drain: 129/s, 30/s when mastered
+			'''
+	}
+
+	SSJ1Buff: {
+		DisplayName: Super Saiyan
+		Description:
+			'''
+			Ki Damage +50% 
+			Speed +50%
+			Ki Costs +25%
+			Ki Drain: 60/s, 30/s when mastered
+			'''
+	}
+
+	SSJ2Buff: {
+		DisplayName: Super Saiyan 2
+		Description:
+			'''
+			Ki Damage +125% 
+			Speed +125%
+			Ki Costs +62%
+			Ki Drain: 120/s, 60/s when mastered
+			'''
+	}
+
+	SSJ3Buff: {
+		DisplayName: Super Saiyan 3
+		Description:
+			'''
+			Ki Damage +190%
+			Speed +190%
+			Ki Costs +95%
+			Ki Drain: 159/s, 80/s when mastered
+			(Life drains when below 30% Max Ki)
+			'''
+	}
+
+	SSJBBuff: {
+		DisplayName: Super Saiyan Blue
+		Description:
+			'''
+			Ki Damage +375% 
+			Speed +375%
+			Ki Costs +65%
+			Ki Drain: 195/s, 105/s when mastered
+			Slightly Increased health regen.
+			'''
+	}
+
+	SSJGBuff: {
+		DisplayName: Super Saiyan God
+		Description:
+			'''
+			Ki Damage +250%
+			Speed +250%
+			Ki Costs +50%
+			Ki Drain: 135/s, 90/s when mastered
+			Slightly Increased health regen.
+			'''
+	}
+
+	SSJRBuff: {
+		DisplayName: Super Saiyan Rose
+		Description:
+			'''
+			Ki Damage +400% 
+			Speed +300%
+			Ki Costs +55%
+			Ki Drain: 255/s, 128/s when mastered
+			Slightly Increased health regen.
+			'''
+	}
+
+	SuperKaiokenBuff: {
+		DisplayName: Super Kaioken
+		Description:
+			'''
+			Ki Damage +125% 
+			Speed +125%
+			Ki Costs +62%
+			Ki Drain: 120/s, 60/s when mastered
+			'''
+	}
+
+	USSJBuff: {
+		DisplayName: Ultra Super Saiyan
+		Description:
+			'''
+			Ki Damage +90% 
+			Speed -10%
+			Ki Costs +60%
+			Ki Drain: 90/s, 45/s when mastered
+			'''
+	}
+
+	TiredDebuff: {
+		DisplayName: Exhausted
+		Description: You have used too much Ki.
+	}
+
+	TransExhaustionBuff: {
+		DisplayName: Transformation Exhaustion
+		Description: Your body can't handle another transformation.
+	}
+
+	UnknownLegendary: {
+		DisplayName: ???
+		Description: Your body seems a bit special.
+	}
+
+	ZenkaiBuff: {
+		DisplayName: Zenkai
+		Description: Your inherent saiyan ability is active.
+	}
+
+	ZenkaiCooldown: {
+		DisplayName: Zenkai Cooldown
+		Description: Your zenkai ability is on cooldown.
+	}
+}
+
+Projectiles: {
+	BaseFloatingDestructionProj.DisplayName: Base Block Destruction
+	DirtBlockDestruction.DisplayName: Base Block Destruction
+	StoneBlockDestruction.DisplayName: Stone Block Destruction
+	LSSJ3DustCenter.DisplayName: LSSJ3 Dust Center
+	LSSJ3DustStart.DisplayName: LSSJ3 Dust Start
+	SSJ1AuraProjBeam.DisplayName: SSJ Aura Beam
+	SSJ1AuraProjBeamHead.DisplayName: SSJ Aura Beam
+	SSJ1AuraProjStart.DisplayName: SSJ1 Aura Proj Start
+	SSJ3LightPillar.DisplayName: SSJ3 Light Pillar
+	SSJAuraBall.DisplayName: SSJ Aura Ball
+	SSJBDustCenter.DisplayName: SSJB Dust Center
+	SSJBDustStart.DisplayName: SSJB Dust Start
+	SSJEnergyBarrageProj.DisplayName: Aura Energy Barrage
+	SSJGDustCenter.DisplayName: SSJG Dust Center
+	SSJGDustStart.DisplayName: SSJG Dust Start
+	SSJRDustCenter.DisplayName: SSJR Dust Center
+	SSJRDustStart.DisplayName: SSJR Dust Start
+	SSJRockProjStart.DisplayName: SSJ Rock Proj Start
+	BaldurShell.DisplayName: Baldur Shell
+	BigBangAttackProjectile.DisplayName: BigBangAttackProjectile
+	BigBangAttackProjectile2.DisplayName: BigBangAttackProjectile2
+	BlackBlitz.DisplayName: Black Blitz
+	BlackBlitzLong.DisplayName: Black Blitz Long
+	BlightedFangProj.DisplayName: Blighted Fang
+	BlindingBladeProj.DisplayName: Blinding Blade
+	CandyLaserBlast.DisplayName: Candy Laser
+	CandyLaserTrail.DisplayName: Candy Laser
+	DestructoDiskAssaultMini.DisplayName: Mini Destructo Disk
+	DestructoDiskAssaultProj.DisplayName: ShinKienzan
+	DestructoDiskProjectile.DisplayName: Kienzan
+	DirtyFireworksProjectile.DisplayName: Dirty Fireworks
+	DoubleSundayBeam.DisplayName: Double Sunday Beam
+	DoubleSundayCharge.DisplayName: DoubleSundayCharge
+	EnergyBlastBarrageProjectile.DisplayName: EnergyBlastBarrageProjectile
+	EnergyShotBlast.DisplayName: Energy Shot Blast
+	EnergyWaveBeam.DisplayName: EnergyWaveBeam
+	EnergyWaveCharge.DisplayName: Energy Wave Charge
+	EnergyWaveVolleyBlast.DisplayName: EnergyWaveVolleyBlast
+	EnergyWaveVolleyTrail.DisplayName: EnergyWaveVolleyTrail
+	FinalFlashBeam.DisplayName: Final Flash
+	FinalFlashCharge.DisplayName: Final Flash Ball
+	FinalShineBeam.DisplayName: Final Shine
+	FinalShineCharge.DisplayName: Final Shine Ball
+	GalickGunBeam.DisplayName: Galick Gun
+	GalickGunCharge.DisplayName: Galick Gun Charge
+	HellzoneGrenadeProjectile.DisplayName: HellzoneGrenadeProjectile
+	HellzoneGrenadeProjectile2.DisplayName: HellzoneGrenadeProjectile2
+	HolyWrathBall.DisplayName: Holy Wrath Ball
+	HolyWrathExplosion.DisplayName: Holy Wrath Explosion
+	BigBangKamehamehaBall.DisplayName: Big Bang Kamehameha Ball
+	BigBangKamehamehaBlast.DisplayName: Big Bang Kamehameha
+	BigBangKamehamehaTrail.DisplayName: Big Bang Kamehameha Trail
+	KamehamehaBeam.DisplayName: KamehamehaBlast
+	KamehamehaCharge.DisplayName: Kamehameha Ball
+	Kamehameha10Beam.DisplayName: Kamehameha x10
+	Kamehameha10Charge.DisplayName: Kamehameha x10 Ball
+	SuperKamehamehaBeam.DisplayName: SuperKamehamehaBlast
+	SuperKamehamehaCharge.DisplayName: Super Kamehameha Ball
+	KiBeamProjectile.DisplayName: KiBeamProjectile
+	KiBlastProjectile.DisplayName: Ki Blast
+	KiSpark.DisplayName: Ki Spark
+	LSSJ2PillarStart.DisplayName: Legendary Light Pillar
+	LSSJAuraBall.DisplayName: LSSJ Aura Ball
+	LSSJAuraLaser.DisplayName: Legendary Laser
+	LSSJAuraLaserBlack.DisplayName: Legendary Laser
+	LSSJBarrageProj.DisplayName: Legendary Energy Barrage
+	MajinBall.DisplayName: MajinBall
+	MakankosappoBeam.DisplayName: Special Beam Cannon Blast
+	MakankosappoCharge.DisplayName: Special Beam Cannon Ball
+	MasenkoBeam.DisplayName: MasenkoBlast
+	MasenkoCharge.DisplayName: Masenko Ball
+	RadialJavelinProj.DisplayName: Radial Javelin
+	RadiantSpark.DisplayName: Radiant Spark
+	RockProjectile.DisplayName: Rock
+	ScattershotBlast.DisplayName: ScattershotBlast
+	SpiritBallProjectile.DisplayName: SpiritBallProjectile
+	SpiritBombBall.DisplayName: Spirit Bomb
+	SuperSpiritBombBall.DisplayName: Super Spirit Bomb
+	SuperEnergyBarrageExplosion.DisplayName: Super Energy Barrage Explosion
+	SuperEnergyBarrageProj.DisplayName: Super Energy Barrage Proj
+	SupernovaBall.DisplayName: Supernova Ball
+	TransmissionLinesProj.DisplayName: Transmission Lines Proj
+	TrapShooterExplosion.DisplayName: Trap Shooter Explosion
+	TrapShooterProjectile.DisplayName: TrapShooterProjectile
+}
+
+Items: {
+	circletester: {
+		DisplayName: Circle Spawner
+		Tooltip: ""
+	}
+
+	AmberNecklace: {
+		DisplayName: Amber Necklace
+		Tooltip: 10% Increased life regen
+	}
+
+	AmethystNecklace: {
+		DisplayName: Amethyst Necklace
+		Tooltip: 9% Increased endurance and +4 Defense.
+	}
+
+	AncientLegendNecklace: {
+		DisplayName: Ancient Legend Necklace
+		Tooltip:
+			'''
+			A ancient necklace that seems to seal energy.
+			12% Reduced Ki Usage
+			9% Increased Ki Damage
+			-500 max Ki
+			'''
+	}
+
+	AncientLegendWaistCape: {
+		DisplayName: Ancient Legend Waistcape
+		Tooltip:
+			'''
+			A ancient garment made of a Ki enhancing material.
+			14% Reduced Ki Usage
+			6% Increased Ki Damage
+			-250 max Ki
+			'''
+	}
+
+	ArmCannon: {
+		DisplayName: Arm Cannon
+		Tooltip:
+			'''
+			An old arm blaster used by many soldiers.
+			10% Reduced Ki Usage
+			Increased Charge Speed
+			'''
+	}
+
+	BaldurEssentia: {
+		DisplayName: Baldur Essentia
+		Tooltip:
+			'''
+			The essence of strong Defense.
+			Charging grants a protective barrier that grants drastically Increased Defense
+			'''
+	}
+
+	BattleKit: {
+		DisplayName: Battle Kit
+		Tooltip:
+			'''
+			A generic Kit of tools for the average soldier.
+			6% Increased Ki Damage
+			10% Reduced Ki Usage
+			Hunter effect + Increased Charge Speed
+			15% Increased Ki cast Speed
+			'''
+	}
+
+	BlackDiamondShell: {
+		DisplayName: Black Diamond Shell
+		Tooltip:
+			'''
+			A jeweled turtle shell that gets the attention of many creatures, for some reason it's unbelievably tough.
+			12% Increased Ki Damage, 14% Increased Ki Knockback.
+			+200 Max Ki.
+			Getting hit restores a small amount of Ki.
+			'''
+	}
+
+	BloodstainedBandana: {
+		DisplayName: Bloodstained Bandana
+		Tooltip:
+			'''
+			Change the future.
+			14% Increased Ki Damage
+			Thorns effect.
+			'''
+	}
+
+	BuldariumSigmite: {
+		DisplayName: Buldarium Sigmite
+		Tooltip:
+			'''
+			A fragment of the god of Defense's soul.
+			Charging grants a protective barrier that grants massively Increased Defense
+			Charging also grants drastically Increased life regen
+			Increased Ki Charge Speed
+			'''
+	}
+
+	BurningEnergyAmulet: {
+		DisplayName: Burning Energy Amulet
+		Tooltip:
+			'''
+			A glowing amulet that radiates with extreme heat.
+			5% Increased Ki Damage
+			+200 Max Ki
+			Charging grants a aura of fire around you.
+			'''
+	}
+
+	CrystalliteAlleviate: {
+		DisplayName: Aspera Crystallite
+		Tooltip:
+			'''
+			The essence of pure energy lives within the crystal.
+			Drastically Increased Speed while charging
+			+2500 Max Ki
+			'''
+	}
+
+	CrystalliteControl: {
+		DisplayName: Imperium Crystallite
+		Tooltip:
+			'''
+			The essence of pure Ki control lives within the crystal.
+			Increased Speed while charging
+			+500 Max Ki
+			'''
+	}
+
+	CrystalliteFlow: {
+		DisplayName: Influunt Crystallite
+		Tooltip:
+			'''
+			The essence of a calm flowing spirit lives within the crystal.
+			Greatly Increased Speed while charging
+			+1000 Max Ki
+			'''
+	}
+
+	DiamondNecklace: {
+		DisplayName: Diamond Necklace
+		Tooltip: 9% Increased Melee Damage and Speed.
+	}
+
+	DragonGemNecklace: {
+		DisplayName: Dragon Gem Necklace
+		Tooltip:
+			'''
+			Infused with the essence of the dragon.
+			All effects of the previous necklaces, some enhanced.
+			'''
+	}
+
+	EarthenArcanium: {
+		DisplayName: Earthen Arcanium
+		Tooltip:
+			'''
+			A core of the pure energy of the earth.
+			10% Increased Ki Damage
+			Increased Ki Regen
+			Reduced Flight Ki Usage
+			+1 Max Charges
+			Increased flight Speed
+			The longer you Charge the more Ki you Charge, limits at +500%.
+			'''
+	}
+
+	EarthenScarab: {
+		DisplayName: Earthen Scarab
+		Tooltip:
+			'''
+			The soul of the land seems to give it life.
+			4% Increased Ki Damage
+			Increased flight Speed
+			The longer you Charge the more Ki you Charge, limits at +500%.
+			'''
+	}
+
+	EarthenSigil: {
+		DisplayName: Earthen Sigil
+		Tooltip:
+			'''
+			The soul of the land lives within.
+			6% Increased Ki Damage
+			Increased Ki Regen
+			Reduced flight Ki Usage
+			+1 Max Charges
+			'''
+	}
+
+	EmeraldNecklace: {
+		DisplayName: Emerald Necklace
+		Tooltip: 9% Increased ranged Damage and crit chance.
+	}
+
+	EndlessKi: {
+		DisplayName: Endless Ki
+		Tooltip:
+			'''
+			The hearts of the gods above gods.
+			+1500000 Max Ki
+			Near Infinite Ki Regen
+			'''
+	}
+
+	GoblinKiEnhancer: {
+		DisplayName: Goblin Ki Enhancer
+		Tooltip:
+			'''
+			A relic of the ancient goblins.
+			+500 Max Ki
+			Getting hit grants massively Increased Ki regen for a short time.
+			'''
+	}
+
+	IceTalisman: {
+		DisplayName: Ice Energy Talisman
+		Tooltip:
+			'''
+			A frozen talisman that seems to make even your soul cold.
+			7% Increased Ki Damage
+			Increased Ki Regen
+			Charging grants a aura of frostburn around you.
+			'''
+	}
+
+	InfuserAmber: {
+		DisplayName: Amber Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts ichor.
+	}
+
+	InfuserAmethyst: {
+		DisplayName: Amethyst Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts shadowflame.
+	}
+
+	InfuserDiamond: {
+		DisplayName: Diamond Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts confusion.
+	}
+
+	InfuserEmerald: {
+		DisplayName: Emerald Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts poison.
+	}
+
+	InfuserRainbow: {
+		DisplayName: Dragon Crystal Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts a multitude of debuffs.
+	}
+
+	InfuserRuby: {
+		DisplayName: Ruby Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts bleeding.
+	}
+
+	InfuserSapphire: {
+		DisplayName: Sapphire Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts frostburn.
+	}
+
+	InfuserTopaz: {
+		DisplayName: Topaz Ki Infuser
+		Tooltip: Hitting enemies with Ki attacks inflicts on fire.
+	}
+
+	KaioCrystal: {
+		DisplayName: Kaio Crystal
+		Tooltip:
+			'''
+			A spiritual fragment of one of the legendary Kais.
+			All Kaioken forms drain half as much health
+			30% less Max Ki
+			'''
+	}
+
+	KiChip: {
+		DisplayName: Ki Chip
+		Tooltip:
+			'''
+			A piece of a Ki fragment.
+			Increased Ki Charge rate
+			'''
+	}
+
+	LargeTurtleShell: {
+		DisplayName: Large Turtle Shell
+		Tooltip:
+			'''
+			A turtle shell with an odd resemblance to the turtle hermit.
+			7% Increased Ki Damage, 8% Increased Ki Knockback.
+			'''
+	}
+
+	LuminousSectum: {
+		DisplayName: Luminous Sectum
+		Tooltip:
+			'''
+			It radiates with unstable energy.
+			9% Increased Ki Damage
+			+250 Max Ki
+			Hitting enemies has a small chance to fire off homing Ki sparks.
+			'''
+	}
+
+	MajinNucleus: {
+		DisplayName: Majin Nucleus
+		Tooltip:
+			'''
+			The pulsing nucleus of a invincible being.
+			Massively Increased health regen
+			Massively Increased Ki regen
+			-1500 max Ki
+			'''
+	}
+
+	MetamoranSash: {
+		DisplayName: Metamoran Sash
+		Tooltip:
+			'''
+			Your own bad energy will be your undoing!
+			10% Increased Ki Damage
+			30% Reduced Ki Usage
+			15% chance to do double Damage.
+			'''
+	}
+
+	PureEnergyCirclet: {
+		DisplayName: Pure Energy Circlet
+		Tooltip:
+			'''
+			It radiates a unbelievably pure presence.
+			12% Increased Ki Damage
+			Increased Ki regen
+			+300 Max Ki
+			Charging grants a aura of inferno and frostburn around you.
+			'''
+	}
+
+	RadiantGlider: {
+		DisplayName: Radiant Glider
+		Tooltip: Allows flight and slow fall.
+	}
+
+	RadiantTotem: {
+		DisplayName: Radiant Totem
+		Tooltip:
+			'''
+			It explodes with radiant energy.
+			12% Increased Ki Damage
+			+500 Max Ki
+			Drastically Increased Ki regen
+			'''
+	}
+
+	RubyNecklace: {
+		DisplayName: Ruby Necklace
+		Tooltip: 9% Increased magic Damage and crit chance.
+	}
+
+	SapphireNecklace: {
+		DisplayName: Sapphire Necklace
+		Tooltip: 9% Increased Ki Damage and +100 max Ki.
+	}
+
+	ScouterT2: {
+		DisplayName: Green Scouter
+		Tooltip:
+			'''
+			A Piece of equipment used for scanning powerlevels.
+			Increased Ki Damage and Hunter effect.
+			--Tier 2--
+			'''
+	}
+
+	ScouterT3: {
+		DisplayName: Blue Scouter
+		Tooltip:
+			'''
+			A Piece of equipment used for scanning powerlevels.
+			Gives Increased Ki Damage and Hunter effect.
+			--Tier 3--
+			'''
+	}
+
+	ScouterT4: {
+		DisplayName: Red Scouter
+		Tooltip:
+			'''
+			A Piece of equipment used for scanning powerlevels.
+			Gives Increased Ki Damage and Hunter effect.
+			--Tier 4--
+			'''
+	}
+
+	ScouterT5: {
+		DisplayName: Purple Scouter
+		Tooltip:
+			'''
+			A Piece of equipment used for scanning powerlevels.
+			Gives Increased Ki Damage and Hunter effects.
+			--Tier 5--
+			'''
+	}
+
+	ScouterT6: {
+		DisplayName: Yellow Scouter
+		Tooltip:
+			'''
+			A Piece of equipment used for scanning powerlevels.
+			Gives Increased Ki Damage and Hunter effects.
+			--Tier 6--
+			'''
+	}
+
+	SenzuBag: {
+		DisplayName: Senzu Bean Bag
+		Tooltip: Reduces cooldown on Senzu Bean consumption
+	}
+
+	SpiritCharm: {
+		DisplayName: Spirit Charm
+		Tooltip:
+			'''
+			An emblem inscribed with marKings of the dragon.
+			20% Increased Ki Damage (14% to others)
+			14% Increased Attack Speed
+			12% Increased Crit Chance
+			+500 Maximum Ki
+			12% Reduced Damage
+			+3 Max Minions
+			Greatly Increased life regen
+			'''
+	}
+
+	SpiritualEmblem: {
+		DisplayName: Spiritual Emblem
+		Tooltip:
+			'''
+			The emblem seems to have weird writing inscribed on it.
+			15% Increased Ki Damage.
+			'''
+	}
+
+	TimeRing: {
+		DisplayName: Time Ring
+		Tooltip:
+			'''
+			The sacred ring of the kais
+			Drastically Increased health regen
+			Drastically Increased Ki regen.
+			'''
+	}
+
+	TopazNecklace: {
+		DisplayName: Topaz Necklace
+		Tooltip: 9% Increased Minion Damage and +1 Max Minions.
+	}
+
+	GreenPotara: {
+		DisplayName: Green Potaras
+		Tooltip: A useful pair of earrings used by the kais.
+	}
+
+	WornGloves: {
+		DisplayName: Worn Gloves
+		Tooltip:
+			'''
+			10% Increased Ki Cast Speed
+			6% Increased Ki Damage
+			'''
+	}
+
+	ZenkaiCharm: {
+		DisplayName: Zenkai Charm
+		Tooltip:
+			'''
+			A charm that harnesses the true power of a Saiyan.
+			8% Increased Ki Damage
+			Taking fatal Damage will instead return you to 50 HP
+			and grant x2 Damage for a short time.
+			2 Minute cooldown
+			'''
+	}
+
+	AdamantiteVisor: {
+		DisplayName: Adamantite Visor
+		Tooltip:
+			'''
+			12% Increased Ki Damage
+			10% Increased Ki Crit Chance
+			Maximum Ki Increased by 250.
+			'''
+	}
+
+	BlackFusionPants: {
+		DisplayName: Black Fusion Pants
+		Tooltip:
+			'''
+			20% Increased Ki Damage
+			16% Increased Ki Crit Chance
+			+500 Max Ki
+			Increased Ki Regen
+			18% Increased Movement Speed
+			'''
+	}
+
+	BlackFusionShirt: {
+		DisplayName: Black Fusion Shirt
+		Tooltip:
+			'''
+			24% Increased Ki Damage
+			20% Increased Ki Crit Chance
+			+1000 Max Ki
+			+2 Maximum Charges
+			Increased Ki Charge Rate
+			'''
+	}
+
+	DemonLeggings: {
+		DisplayName: Demon Leggings
+		Tooltip:
+			'''
+			13% Increased Ki Damage
+			9% Increased Ki Crit Chance
+			+300 Max Ki
+			Increased Ki Regen
+			12% Increased Movement Speed
+			'''
+	}
+
+	DemonShirt: {
+		DisplayName: Demon Shirt
+		Tooltip:
+			'''
+			18% Increased Ki Damage
+			14% Increased Ki Crit Chance
+			+700 Max Ki
+			+1 Maximum Charges
+			'''
+	}
+
+	EliteSaiyanBreastplate: {
+		DisplayName: Elite Saiyan Breastplate
+		Tooltip:
+			'''
+			26% Increased Ki Damage
+			24% Increased Ki Crit Chance
+			+1000 Max Ki
+			+3 Maximum Charges
+			Increased Ki Regen
+			'''
+	}
+
+	EliteSaiyanLeggings: {
+		DisplayName: Elite Saiyan Leggings
+		Tooltip:
+			'''
+			22% Increased Ki Damage
+			18% Increased Ki Crit Chance
+			+750 Max Ki
+			Increased Ki Regen
+			22% Increased Movement Speed
+			'''
+	}
+
+	HermitGi: {
+		DisplayName: Turtle Hermit Gi
+		Tooltip:
+			'''
+			5% Increased Ki Damage
+			3% Increased Ki Crit Chance
+			Increased Ki regen
+			'''
+	}
+
+	HermitPants: {
+		DisplayName: Turtle Hermit Pants
+		Tooltip:
+			'''
+			4% Increased Ki Damage
+			4% Increased Ki Knockback
+			+10% Increased Movement Speed
+			'''
+	}
+
+	RadiantGreaves: {
+		DisplayName: Radiant Greaves
+		Tooltip:
+			'''
+			14% Increased Ki Damage
+			24% Increased Ki Crit Chance
+			+750 Max Ki
+			Increased Ki Regen
+			26% Increased Movement Speed
+			'''
+	}
+
+	RadiantScalepiece: {
+		DisplayName: Radiant Scalepiece
+		Tooltip:
+			'''
+			24% Increased Ki Damage
+			16% Increased Ki knockback
+			+1500 Max Ki
+			+4 Maximum Charges
+			Reduced flight Ki Usage
+			'''
+	}
+
+	RadiantVisor: {
+		DisplayName: Radiant Visor
+		Tooltip:
+			'''
+			18% Increased Ki Damage
+			24% Increased Ki crit
+			+750 Max Ki
+			Increased flight Speed
+			'''
+	}
+
+	SaiyanBreastplate: {
+		DisplayName: Saiyan Battle Breastplate
+		Tooltip:
+			'''
+			10% Increased Ki Damage
+			6% Increased Ki Crit Chance
+			+100 Max Ki
+			'''
+	}
+
+	SaiyanLeggings: {
+		DisplayName: Saiyan Battle Leggings
+		Tooltip:
+			'''
+			7% Increased Ki Damage
+			5% Increased Ki Crit Chance
+			16% Increased Movement Speed
+			'''
+	}
+
+	SaiyanScoutPants: {
+		DisplayName: Saiyan Scout Pants
+		Tooltip:
+			'''
+			2% Increased Ki Damage
+			2% Increased Ki Knockback
+			+6% Increased Movement Speed
+			'''
+	}
+
+	SaiyanScoutScalemail: {
+		DisplayName: Saiyan Scout Scalemail
+		Tooltip:
+			'''
+			3% Increased Ki Damage
+			2% Increased Ki Crit Chance
+			5% Reduced Ki Usage
+			'''
+	}
+
+	ChlorophyteHeadpiece: {
+		DisplayName: Chlorophyte Headpiece
+		Tooltip:
+			'''
+			16% Increased Ki Damage
+			12% Increased Ki Crit Chance
+			Maximum Ki Increased by 500.
+			'''
+	}
+
+	CobaltCrown: {
+		DisplayName: Cobalt Crown
+		Tooltip:
+			'''
+			9% Increased Ki Damage
+			6% Increased Ki Crit Chance
+			'''
+	}
+
+	HallowedFedora: {
+		DisplayName: Hallowed Fedora
+		Tooltip:
+			'''
+			13% Increased Ki Damage
+			11% Increased Ki Crit Chance
+			Maximum Ki Increased by 300.
+			'''
+	}
+
+	MythrilGlasses: {
+		DisplayName: Mythril Glasses
+		Tooltip:
+			'''
+			11% Increased Ki Damage
+			6% Increased Ki Crit Chance
+			Maximum Ki Increased by 100.
+			'''
+	}
+
+	OrichalcumHat: {
+		DisplayName: Orichalcum Hat
+		Tooltip:
+			'''
+			10% Increased Ki Damage
+			7% Increased Ki Crit Chance
+			Maximum Ki Increased by 100.
+			'''
+	}
+
+	PalladiumBlindfoldCrown: {
+		DisplayName: Palladium Blindfold-Crown
+		Tooltip:
+			'''
+			9% Increased Ki Damage
+			6% Increased Ki Crit Chance
+			'''
+	}
+
+	TitaniumCap: {
+		DisplayName: Titanium Cap
+		Tooltip:
+			'''
+			14% Increased Ki Damage
+			9% Increased Ki Crit Chance
+			Maximum Ki Increased by 250.
+			'''
+	}
+
+	CanadianDemonLeggings: {
+		DisplayName: Canadian Demon Leggings
+		Tooltip:
+			'''
+			20% Increased Ki Damage
+			16% Increased Ki Crit Chance
+			+500 Max Ki
+			Increased Ki Regen
+			18% Increased Movement Speed
+			'''
+	}
+
+	CanadianDemonShirt: {
+		DisplayName: Canadian Demon Shirt
+		Tooltip:
+			'''
+			24% Increased Ki Damage
+			20% Increased Ki Crit Chance
+			+1000 Max Ki
+			+2 Maximum Charges
+			'''
+	}
+
+	GreenGodHead: {
+		DisplayName: Green God Head
+		Tooltip: The head of a god of morality.
+	}
+
+	CoarseRock: {
+		DisplayName: Coarse Rock
+		Tooltip: A dried out and compressed piece of sand.
+	}
+
+	BukuujutsuVol1: {
+		DisplayName: Bukuujutsu Guide Vol 1 - Chorus Aeria
+		Tooltip: It has an ancient technique inscribed in it, holding it makes you feel lighter.
+	}
+
+	BukuujutsuVol2: {
+		DisplayName: Bukuujutsu Guide Vol 2 - Lux Ruinam
+		Tooltip: It has an ancient technique inscribed in it, holding it makes your feet feel softer.
+	}
+
+	BukuujutsuVol3: {
+		DisplayName: Bukuujutsu Guide Vol 3 - Fugam Arriperent
+		Tooltip: It has an ancient technique inscribed in it, holding it makes your Ki feel calmer.
+	}
+
+	DisgustingGoop: {
+		DisplayName: Disgusting Goop
+		Tooltip: Stabilizes Ki but tastes disgusting.
+	}
+
+	KaioFragment1: {
+		DisplayName: Kaioken 3x
+		Tooltip: Unlocks the next level of Kaioken.
+	}
+
+	KaioFragment2: {
+		DisplayName: Kaioken 4x
+		Tooltip: Unlocks the next level of Kaioken.
+	}
+
+	KaioFragment3: {
+		DisplayName: Kaioken 10x
+		Tooltip: Unlocks the next level of Kaioken.
+	}
+
+	KaioFragment4: {
+		DisplayName: Kaioken 20x
+		Tooltip: Unlocks the next level of Kaioken.
+	}
+
+	KaioFragmentFirst: {
+		DisplayName: Kaioken
+		Tooltip: Unlocks an ancient technique.
+	}
+
+	KiEssence1: {
+		DisplayName: Novice Ki Scroll
+		Tooltip: Increases your Ki Charge Speed.
+	}
+
+	KiEssence2: {
+		DisplayName: Student Ki Scroll
+		Tooltip: Increases your Ki Charge Speed.
+	}
+
+	KiEssence3: {
+		DisplayName: Adept Ki Scroll
+		Tooltip: Increases your Ki Charge Speed.
+	}
+
+	KiEssence4: {
+		DisplayName: Enraged Ki Scroll
+		Tooltip: Increases your Ki Charge Speed.
+	}
+
+	KiEssence5: {
+		DisplayName: Master Ki Scroll
+		Tooltip: Increases your Ki Charge Speed.
+	}
+
+	KiFragment1: {
+		DisplayName: Novice Ki Fragment
+		Tooltip: Increases your Max Ki by 1000.
+	}
+
+	KiFragment2: {
+		DisplayName: Student Ki Fragment
+		Tooltip: Increases your Max Ki by 2000.
+	}
+
+	KiFragment3: {
+		DisplayName: Adept Ki Fragment
+		Tooltip: Increases your Max Ki by 2000.
+	}
+
+	KiFragment4: {
+		DisplayName: Enraged Ki Fragment
+		Tooltip: Increases your Max Ki by 2000.
+	}
+
+	KiFragment5: {
+		DisplayName: Master Ki Fragment
+		Tooltip: Increases your Max Ki by 2000.
+	}
+
+	MRE: {
+		DisplayName: MRE
+		Tooltip: A full course meal, grants a variety of bonuses.
+	}
+
+	KiPotion1: {
+		DisplayName: Lesser Ki Potion
+		Tooltip: Restores 330 Ki.
+	}
+
+	KiPotion2: {
+		DisplayName: Ki Potion
+		Tooltip: Restores 640 Ki.
+	}
+
+	KiPotion3: {
+		DisplayName: Greater Ki Potion
+		Tooltip: Restores 1080 Ki.
+	}
+
+	KiPotion4: {
+		DisplayName: Super Ki Potion
+		Tooltip: Restores 2180 Ki.
+	}
+
+	KiPotion5: {
+		DisplayName: Overflowing Ki Potion
+		Tooltip: Restores 5100 Ki.
+	}
+
+	KiStimulant: {
+		DisplayName: Ki Stimulant
+		Tooltip: Stimulates your body into enhancing Ki.
+	}
+
+	SenzuBean: {
+		DisplayName: Senzu Bean
+		Tooltip: Restores your body and Ki
+	}
+
+	LegendaryTestItem: {
+		DisplayName: Legendary Test Item
+		Tooltip: Gives the legendary trait
+	}
+
+	LSSJ2TestItem: {
+		DisplayName: LSSJ2 Test Item
+		Tooltip: Manually activates the lssj2 transformation cutscene and unlocks it.
+	}
+
+	LSSJTestItem: {
+		DisplayName: LSSJ Test Item
+		Tooltip: Manually activates the lssj transformation cutscene and unlocks it.
+	}
+
+	ProdigyTestItem: {
+		DisplayName: Prodigy Test Item
+		Tooltip: Gives the prodigy trait
+	}
+
+	SSJ2MasteryTestItem: {
+		DisplayName: SSJ2 Mastery Test Item
+		Tooltip: Manually Upgrades your ssj2 mastery. Each use increases it by 25%
+	}
+
+	SSJ2TestItem: {
+		DisplayName: SSJ2 Test Item
+		Tooltip: Manually activates the ssj2 transformation cutscene and unlocks it.
+	}
+
+	SSJ3MasteryTestItem: {
+		DisplayName: SSJ3 Mastery Test Item
+		Tooltip: Manually Upgrades your ssj3 mastery. Each use increases it by 25%
+	}
+
+	SSJ3TestItem: {
+		DisplayName: SSJ3 Test Item
+		Tooltip: Manually activates the ssj3 transformation cutscene and unlocks it.
+	}
+
+	SSJGTestItem: {
+		DisplayName: SSJG Test Item
+		Tooltip: Manually activates the ssjg transformation cutscene and unlocks it.
+	}
+
+	SSJMasteryTestItem: {
+		DisplayName: SSJ Mastery Test Item
+		Tooltip: Manually Upgrades your ssj1 mastery. Each use increases it by 25%
+	}
+
+	SSJTestItem: {
+		DisplayName: SSJ Test Item
+		Tooltip: Manually activates the ssj transformation cutscene and unlocks it.
+	}
+
+	TraitRemover: {
+		DisplayName: Trait Remover
+		Tooltip: Removes all traits.
+	}
+
+	TransmissionPura: {
+		DisplayName: I.T. Tome Vol 3 - Pura Facilioris Transmissus
+		Tooltip: It holds an alien power, bending space to your will with ease.
+	}
+
+	TransmissionTeleport: {
+		DisplayName: I.T. Tome Vol 2 - Ianuae Magicae
+		Tooltip: It holds an alien power, bending space to your will.
+	}
+
+	TransmissionVanish: {
+		DisplayName: I.T. Tome Vol 1 - Dissipati Peribunt
+		Tooltip: It holds an alien power, bending space to seek beacons of Ki.
+	}
+
+	DBNote: {
+		DisplayName: Tattered Note
+		Tooltip:
+			'''
+			An old note attached to the dragon ball.
+			'This dragon ball is a very 強力な item, 
+			集める the other 6 散在 around the world
+			for 神龍 to grant your 最深部 wishes.'
+			'''
+	}
+
+	DragonRadar1: {
+		DisplayName: Dragon Radar MK1
+		Tooltip:
+			'''
+			A low tech piece of equipment used to locate dragon balls.
+			Holding this will point you in the direction of the nearest dragon ball with bad accuracy,
+			Getting too close to a dragon ball will overload the radar.
+			'''
+	}
+
+	DragonRadar2: {
+		DisplayName: Dragon Radar MK2
+		Tooltip:
+			'''
+			A medium tech piece of equipment used to locate dragon balls.
+			Holding this will point you in the direction of the nearest dragon ball with reasonable accuracy,
+			Getting too close to a dragon ball will overload the radar.
+			'''
+	}
+
+	DragonRadar3: {
+		DisplayName: Dragon Radar MK3
+		Tooltip:
+			'''
+			A high tech piece of equipment used to locate dragon balls.
+			Holding this will point you in the direction of the nearest dragon ball with high accuracy,
+			Getting too close to a dragon ball will overload the radar.
+			'''
+	}
+
+	FiveStarDB: {
+		DisplayName: 5 Star Dragon Ball
+		Tooltip: A mystical ball with 5 stars inscribed on it.
+	}
+
+	FourStarDB: {
+		DisplayName: 4 Star Dragon Ball
+		Tooltip: A mystical ball with 4 stars inscribed on it.
+	}
+
+	OneStarDB: {
+		DisplayName: 1 Star Dragon Ball
+		Tooltip: A mystical ball with 1 star inscribed on it.
+	}
+
+	SevenStarDB: {
+		DisplayName: 7 Star Dragon Ball
+		Tooltip: A mystical ball with 7 stars inscribed on it.
+	}
+
+	SixStarDB: {
+		DisplayName: 6 Star Dragon Ball
+		Tooltip: A mystical ball with 6 stars inscribed on it.
+	}
+
+	ThreeStarDB: {
+		DisplayName: 3 Star Dragon Ball
+		Tooltip: A mystical ball with 3 stars inscribed on it.
+	}
+
+	TwoStarDB: {
+		DisplayName: 2 Star Dragon Ball
+		Tooltip: A mystical ball with 2 stars inscribed on it.
+	}
+
+	EmptyNecklace: {
+		DisplayName: Empty Necklace
+		Tooltip: It seems you can attach a gem to it.
+	}
+
+	KaiTableItem: {
+		DisplayName: Kai Table
+		Tooltip: It pulses with divine pressure, it seems to entrance you.
+	}
+
+	KatchinScale: {
+		DisplayName: Katchin Scale
+		Tooltip: A scale with incredible durability ripped from a massive fish.
+	}
+
+	KiBeaconItem: {
+		DisplayName: Ki Beacon
+		Tooltip: Radiates Ki you can lock on to with Instant Transmission.
+	}
+
+	KiLanternItem: {
+		DisplayName: Ki Diffuser
+		Tooltip:
+			'''
+			It radiates with the glow of Ki energy.
+			Gives slight Ki regen when placed.
+			'''
+	}
+
+	KiOrb: {
+		DisplayName: Ki Orb
+		Tooltip: ""
+	}
+
+	KiOrb2: {
+		DisplayName: Super Ki Orb
+		Tooltip: ""
+	}
+
+	AstralEssentia: {
+		DisplayName: Astral Essentia
+		Tooltip: The sky's astral energy emanates from within.
+	}
+
+	DemonicSoul: {
+		DisplayName: Demonic Soul
+		Tooltip: A fragment of the devil's rage.
+	}
+
+	DivineThreads: {
+		DisplayName: Divine Threads
+		Tooltip: A unbelievably soft material that radiates a divine-like energy.
+	}
+
+	EarthenShard: {
+		DisplayName: Earthen Shard
+		Tooltip: A fragment of the land's soul.
+	}
+
+	AngerKiCrystal: {
+		DisplayName: Angerful Ki Crystal
+		Tooltip: The corrupt rage of the world lives within.
+	}
+
+	CalmKiCrystal: {
+		DisplayName: Calm Ki Crystal
+		Tooltip: The calm force of nature lives within.
+	}
+
+	PridefulKiCrystal: {
+		DisplayName: Prideful Ki Crystal
+		Tooltip: The prideful flame of the world lives within.
+	}
+
+	PureKiCrystal: {
+		DisplayName: Pure Ki Crystal
+		Tooltip: The glowing radiance of the world lives within.
+	}
+
+	StableKiCrystal: {
+		DisplayName: Stable Ki Crystal
+		Tooltip: The common spirits of the world live within.
+	}
+
+	RadiantFragment: {
+		DisplayName: Radiant Fragment
+		Tooltip: The endurance of the cosmos crackles around this fragment
+	}
+
+	SatanicCloth: {
+		DisplayName: Satanic Cloth
+		Tooltip: The cloth radiates with animosity.
+	}
+
+	ScrapMetal: {
+		DisplayName: Scrap Metal
+		Tooltip: An old piece of metal, seems like something a junk merchant would sell.
+	}
+
+	SkeletalEssence: {
+		DisplayName: Skeletal Essence
+		Tooltip: A chunk of the dungeon's inhabitants.
+	}
+
+	SoulofEntity: {
+		DisplayName: Soul of Entity
+		Tooltip: The soul of a reanimated foe.
+	}
+
+	Choco1: {
+		DisplayName: Chocolate
+		Tooltip: ""
+	}
+
+	Choco2: {
+		DisplayName: Chocolate
+		Tooltip: ""
+	}
+
+	Choco3: {
+		DisplayName: Chocolate
+		Tooltip: ""
+	}
+
+	CoffeeCandy: {
+		DisplayName: Coffee Candy
+		Tooltip: ""
+	}
+
+	SSJGUnlocKitem: {
+		DisplayName: Godly Spirit
+		Tooltip: ""
+	}
+
+	NimbusWhistle: {
+		DisplayName: Nimbus Whistle
+		Tooltip: Calls The Legendary Cloud, Nimbus.
+	}
+
+	RadiantFragmentBlocKitem: {
+		DisplayName: Radiant Fragment Block
+		Tooltip: ""
+	}
+
+	RefinedMetal: {
+		DisplayName: Refined Metal
+		Tooltip: A high quality refined piece of metal, it is incredibly durable.
+	}
+
+	RadiantHamaxe: {
+		DisplayName: Radiant Hamaxe
+		Tooltip: ""
+	}
+
+	RadiantPickaxe: {
+		DisplayName: Radiant Pickaxe
+		Tooltip: ""
+	}
+
+	FarmerShotgun: {
+		DisplayName: Farmer's Shotgun
+		Tooltip: A weapon forged by the gods.
+	}
+
+	TrunksSword: {
+		DisplayName: Trunks' Sword
+		Tooltip:
+			'''
+			Has some armour penetration.
+			-Tier 4-
+			'''
+	}
+
+	YajirobesKatana: {
+		DisplayName: Yajirobe's Katana
+		Tooltip: -Tier 2-
+	}
+
+	EnergyWave: {
+		DisplayName: Energy Wave
+		Tooltip:
+			'''
+			Maximum Charges = 3
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	KiBeam: {
+		DisplayName: Ki Beam
+		Tooltip: ""
+	}
+
+	KiBlast: {
+		DisplayName: Ki Blast
+		Tooltip: ""
+	}
+
+	DestructoDisk: {
+		DisplayName: Destructo Disk
+		Tooltip: Its a frizbee, I swear.
+	}
+
+	DoubleSunday: {
+		DisplayName: Double Sunday
+		Tooltip:
+			'''
+			Maximum Charges = 4
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	EnergyBlastBarrage: {
+		DisplayName: Energy Blast Barrage
+		Tooltip: ""
+	}
+
+	Masenko: {
+		DisplayName: Masenko
+		Tooltip:
+			'''
+			Maximum Charges = 5
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	SpiritBall: {
+		DisplayName: Spirit Ball
+		Tooltip: Yamcha!.
+	}
+
+	BlightedFang: {
+		DisplayName: Blood Thief
+		Tooltip: Fires a Life-Stealing Ki blast.
+	}
+
+	DirtyFireworks: {
+		DisplayName: Dirty Fireworks
+		Tooltip: Freezy Puff!.
+	}
+
+	GalickGun: {
+		DisplayName: Galick Gun
+		Tooltip:
+			'''
+			Maximum Charges = 7
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	HellzoneGrenade: {
+		DisplayName: Hellzone Grenade
+		Tooltip: ""
+	}
+
+	Kamehameha: {
+		DisplayName: Kamehameha
+		Tooltip:
+			'''
+			Maximum Charges = 6
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	BigBangAttack: {
+		DisplayName: Big Bang Attack
+		Tooltip: ""
+	}
+
+	EnergyShot: {
+		DisplayName: Energy Shot
+		Tooltip: An enhanced version of a regular Ki blast
+	}
+
+	Scattershot: {
+		DisplayName: Scatter Shot
+		Tooltip: ""
+	}
+
+	SpecialBeamCannon: {
+		DisplayName: Makankosappo
+		Tooltip:
+			'''
+			Maximum Charges = 6
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	SpiritBomb: {
+		DisplayName: Spirit Bomb
+		Tooltip: ""
+	}
+
+	SuperKamehameha: {
+		DisplayName: Super Kamehameha
+		Tooltip:
+			'''
+			Maximum Charges = 8
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	TrapShooter: {
+		DisplayName: Trap Shooter
+		Tooltip: ""
+	}
+
+	DestructoDiskAssault: {
+		DisplayName: Destructo Disk Assault
+		Tooltip: ""
+	}
+
+	FinalFlash: {
+		DisplayName: Final Flash
+		Tooltip:
+			'''
+			Maximum Charges = 9
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	Kamehamehax10: {
+		DisplayName: Kamehameha x10
+		Tooltip:
+			'''
+			Maximum Charges = 8
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	SuperEnergyBarrage: {
+		DisplayName: Super Energy Barrage
+		Tooltip: ""
+	}
+
+	Supernova: {
+		DisplayName: Supernova
+		Tooltip: ""
+	}
+
+	BlackBlitz: {
+		DisplayName: Black Power Ball
+		Tooltip: ""
+	}
+
+	BlindingBlade: {
+		DisplayName: Blinding Blade
+		Tooltip: Flings a Ki-coated disk that bounces off walls.
+	}
+
+	CandyLaser: {
+		DisplayName: Candy Laser
+		Tooltip: Turns your foes to chocolate, does not work on bosses.
+	}
+
+	FinalShine: {
+		DisplayName: Final Shine
+		Tooltip:
+			'''
+			Maximum Charges = 12
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	HolyWrath: {
+		DisplayName: Holy Wrath
+		Tooltip: ""
+	}
+
+	RadialJavelin: {
+		DisplayName: Radial Javelin
+		Tooltip: Throws a volley of homing Ki javelins.
+	}
+
+	SuperSpiritBomb: {
+		DisplayName: Super Spirit Bomb
+		Tooltip: ""
+	}
+
+	ZTableItem: {
+		DisplayName: Z Table
+		Tooltip: Looks like it could bend the essence of Ki itself.
+	}
+
+	SSJGUnlockItem: {
+		DisplayName: SSJG Unlock Item
+		Tooltip: ""
+	}
+
+	RadiantFragmentBlockItem: {
+		DisplayName: Radiant Fragment Block Item
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	MajinSlime.DisplayName: Majin Slime
+	MajinZombie.DisplayName: Majin Zombie
+}
+
+Prefixes: {
+	BalancedPrefix.DisplayName: Balanced
+	BoostedPrefix.DisplayName: Boosted
+	CondensedPrefix.DisplayName: Condensed
+	DestructivePrefix.DisplayName: Destructive
+	DistractedPrefix.DisplayName: Distracted
+	FlashyPrefix.DisplayName: Flashy
+	FlawedPrefix.DisplayName: Flawed
+	InfusedPrefix.DisplayName: Infused
+	MasteredPrefix.DisplayName: Mastered
+	MystifyingPrefix.DisplayName: Mystifying
+	NegatedPrefix.DisplayName: Negated
+	OutrageousPrefix.DisplayName: Outrageous
+	PoweredPrefix.DisplayName: Powered
+	TranscendedPrefix.DisplayName: Transcended
+	UnstablePrefix.DisplayName: Unstable
+}
+
+Tiles: {
+	FiveStarDBTile.MapEntry: 5 Star Dragon Ball
+	FourStarDBTile.MapEntry: 4 Star Dragon Ball
+	OneStarDBTile.MapEntry: 1 Star Dragon Ball
+	SevenStarDBTile.MapEntry: 7 Star Dragon Ball
+	SixStarDBTile.MapEntry: 6 Star Dragon Ball
+	ThreeStarDBTile.MapEntry: 3 Star Dragon Ball
+	TwoStarDBTile.MapEntry: 2 Star Dragon Ball
+	KaiTable.MapEntry: Kai Table
+	KiBeaconTile.MapEntry: Ki Beacon
+	KiLantern.MapEntry: Ki Lantern
+	ZTable.MapEntry: ZTable
+}
+
+Keybinds: {
+	Kaioken.DisplayName: Kaioken
+	"Energy Charge.DisplayName": Energy Charge
+	Transform.DisplayName: Transform
+	"Power Down.DisplayName": Power Down
+	"Speed Toggle.DisplayName": Speed Toggle
+	"Quick Ki.DisplayName": Quick Ki
+	"Transformation Menu.DisplayName": Transformation Menu
+	"Instant Transmission.DisplayName": Instant Transmission
+	"Flight Toggle.DisplayName": Flight Toggle
+	"Armor Bonus.DisplayName": Armor Bonus
+}
+
+Configs: {
+	DBZClientConfig: {
+		DisplayName: DBZ Client Config
+
+		IsChargeToggled: {
+			Label: Toggle Charge
+			Tooltip: Whether Charge is on/off or hold
+		}
+	}
+
+	DBZServerConfig: {
+		DisplayName: DBZ Server Config
+
+		RespectDragonBallOwnership: {
+			Label: Respect Dragon Ball Ownership
+			Tooltip:
+				'''
+				Whether to validate the user has collected that ball or not.
+				Turning this off means anyone can use a set of dragon balls if they are in chests.
+				'''
+		}
+	}
+}
+
+DamageClasses.KiDamageType.DisplayName: Ki Damage
+
