@@ -15,8 +15,8 @@ Buffs: {
 	}
 
 	DisgustingGoopBuff: {
-		DisplayName: Disgusting Goop
-		Description: Your Ki seems stabilized, but you also feel sick.
+		DisplayName: 恶心粘液
+		Description: 你的气貌似被固定了，但你也感到恶心
 	}
 
 	EnhancedReserves: {
@@ -46,7 +46,7 @@ Buffs: {
 
 	KiStimulantBuff: {
 		DisplayName: 气激发
-		Description: Your body is enhanced, passively regenerating气
+		Description: 你的身体得到强化，开始被动回复气
 	}
 
 	LegendaryTrait: {
@@ -231,13 +231,13 @@ Buffs: {
 	}
 
 	ZenkaiBuff: {
-		DisplayName: Zenkai
+		DisplayName: 全开
 		Description: 你与生俱来的赛亚人能力已被激活
 	}
 
 	ZenkaiCooldown: {
-		DisplayName: Zenkai冷却
-		Description: 你的zenkai能力正在冷却
+		DisplayName: 全开冷却
+		Description: 你的全开能力正在冷却
 	}
 }
 
@@ -335,65 +335,69 @@ Items: {
 	}
 
 	AmberNecklace: {
-		DisplayName: Amber项链
-		Tooltip: 10% Increased life regen
+		DisplayName: 琥珀项链
+		Tooltip: 提升10%生命再生速度
 	}
 
 	AmethystNecklace: {
-		DisplayName: Amethyst项链
-		Tooltip: 9% Increased endurance and +4 Defense.
+		DisplayName: 紫晶项链
+		Tooltip: 增加9%伤害减免和4点防御
 	}
 
 	AncientLegendNecklace: {
-		DisplayName: Ancient Legend项链
+		DisplayName: 远古传说项链
 		Tooltip:
 			'''
-			A ancient项链 that seems to seal energy.
-			12% Reduced Ki Usage
-			9% Increased 气伤害
-			-500 max Ki
+			一条古老的项链似乎能够封印能量
+			减少12%气消耗
+			增加9%气伤害
+			减少500点最大气值
 			'''
 	}
 
 	AncientLegendWaistCape: {
-		DisplayName: Ancient Legend Waistcape
+		DisplayName: 远古传说战裙
 		Tooltip:
 			'''
-			A ancient garment made of a Ki enhancing material.
-			14% Reduced Ki Usage
-			6% Increased 气伤害
-			-250 max Ki
+			古老的衣饰由增幅气的材料制成
+			减少14%气消耗
+			增加6%气伤害
+			减少250点最大气值
 			'''
 	}
 
 	ArmCannon: {
-		DisplayName: Arm Cannon
+		DisplayName: 手臂加农炮
 		Tooltip:
 			'''
-			An old arm blaster used by many soldiers.
-			10% Reduced Ki Usage
-			Increased Charge Speed
+			一件曾被许多士兵使用老旧的手臂炮
+			减少10%气消耗
+			提升集气速度
+			[C/959595:译者补充：旅商商店获取]
 			'''
 	}
-
+	//?
 	BaldurEssentia: {
-		DisplayName: Baldur Essentia
+		DisplayName: 巴德尔精华
 		Tooltip:
 			'''
+			超强防御的精华
+			充能时会生成防护屏障，大幅提升防御力
 			The essence of strong Defense.
 			Charging grants a protective barrier that grants drastically Increased Defense
 			'''
 	}
 
 	BattleKit: {
-		DisplayName: Battle Kit
+		DisplayName: 战斗套件
 		Tooltip:
 			'''
-			A generic Kit of tools for the average soldier.
-			6% Increased 气伤害
-			10% Reduced Ki Usage
-			Hunter effect + Increased Charge Speed
-			15% Increased Ki cast Speed
+			一套为普通士兵准备的通用工具包
+			增加6%气伤害
+			减少10%气消耗
+			提升15%气攻击速度
+			获得狩猎药水的效果
+			提升集气速度
 			'''
 	}
 
@@ -1118,7 +1122,7 @@ Items: {
 		Tooltip: 
 			'''
 			解锁下一级的界王拳
-			[C/959595:世界吞噬者和克苏鲁之脑掉落]
+			[C/959595:译者补充：世界吞噬者和克苏鲁之脑掉落]
 			'''
 	}
 
@@ -1127,7 +1131,7 @@ Items: {
 		Tooltip: 
 			'''
 			解锁下一级的界王拳
-			[C/959595:蜂王掉落]
+			[C/959595:译者补充：蜂王掉落]
 			'''
 	}
 
@@ -1136,7 +1140,7 @@ Items: {
 		Tooltip: 
 			'''
 			解锁下一级的界王拳
-			[C/959595:骷髅王掉落]
+			[C/959595:译者补充：骷髅王掉落]
 			'''
 	}
 
@@ -1145,7 +1149,7 @@ Items: {
 		Tooltip: 
 			'''
 			解锁下一级的界王拳
-			[C/959595:血肉墙掉落]
+			[C/959595:译者补充：血肉墙掉落]
 			'''
 	}
 
@@ -1154,7 +1158,7 @@ Items: {
 		Tooltip:
 			''' 
 			解锁远古技术
-			[C/959595:克苏鲁之眼掉落]
+			[C/959595:译者补充：克苏鲁之眼掉落]
 			'''
 	}
 
@@ -1203,7 +1207,7 @@ Items: {
 		Tooltip: 
 			'''
 			增加1000点最大气值
-			[C/959595:克苏鲁之眼掉落]
+			[C/959595:译者补充：克苏鲁之眼掉落]
 			'''
 	}
 
@@ -1212,7 +1216,7 @@ Items: {
 		Tooltip:
 			''' 
 			增加2000点最大气值
-			[C/959595:骷髅王掉落]
+			[C/959595:译者补充：骷髅王掉落]
 			'''
 	}
 
@@ -1221,7 +1225,7 @@ Items: {
 		Tooltip:
 			''' 
 			增加2000点最大气值
-			[C/959595:机械骷髅王掉落]
+			[C/959595:译者补充：机械骷髅王掉落]
 			'''
 	}
 
@@ -1230,7 +1234,7 @@ Items: {
 		Tooltip:
 			''' 
 			增加2000点最大气值
-			[C/959595:世纪之花掉落]
+			[C/959595:译者补充：世纪之花掉落]
 			'''
 	}
 
@@ -1239,7 +1243,7 @@ Items: {
 		Tooltip:
 			''' 
 			增加2000点最大气值
-			[C/959595:拜月邪教徒掉落]
+			[C/959595:译者补充：拜月邪教徒掉落]
 			'''
 	}
 
@@ -1283,7 +1287,7 @@ Items: {
 		Tooltip: 
 			'''
 			恢复你的身体与气
-			[C/959595:所有Boss有25%概率掉落]
+			[C/959595:译者补充：所有Boss有25%概率掉落]
 			'''
 	}
 
@@ -1362,7 +1366,7 @@ Items: {
 		Tooltip:
 			''' 
 			它蕴含着异界力量，能够扭曲空间以寻觅气的灯塔
-			[C/959595:血肉墙掉落]
+			[C/959595:译者补充：血肉墙掉落]
 			'''
 	}
 
