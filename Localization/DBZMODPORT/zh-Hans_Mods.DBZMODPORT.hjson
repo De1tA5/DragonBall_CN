@@ -6,7 +6,7 @@ Buffs: {
 
 	ChlorophyteRegen: {
 		DisplayName: 叶绿回复
-		Description: 气和生命值回复Ki and Health regen
+		Description: 提升气回复和生命值再生速度
 	}
 
 	DemonBonus: {
@@ -24,8 +24,8 @@ Buffs: {
 		Description: Your Ki reserves have been enhanced.
 	}
 
-	界王拳Buff: {
-		DisplayName: 界王拳
+	KaiokenBuff: {
+		DisplayName: Kaioken
 		Description: Damage {0} Speed {1}
 	}
 
@@ -182,7 +182,7 @@ Buffs: {
 	}
 
 	SSJRBuff: {
-		DisplayName: 超级赛亚人 Rose
+		DisplayName: 超级赛亚人桃红
 		Description:
 			'''
 			气伤害 +400% 
@@ -193,7 +193,7 @@ Buffs: {
 			'''
 	}
 
-	Super界王拳Buff: {
+	SuperKaiokenBuff: {
 		DisplayName: 超级界王拳
 		Description:
 			'''
@@ -330,7 +330,7 @@ Projectiles: {
 
 Items: {
 	circletester: {
-		DisplayName: Circle Spawner
+		DisplayName: 圆环生成器
 		Tooltip: ""
 	}
 
@@ -376,15 +376,13 @@ Items: {
 			[C/959595:译者补充：旅商商店获取]
 			'''
 	}
-	//?
+
 	BaldurEssentia: {
 		DisplayName: 巴德尔精华
 		Tooltip:
 			'''
-			超强防御的精华
-			充能时会生成防护屏障，大幅提升防御力
-			The essence of strong Defense.
-			Charging grants a protective barrier that grants drastically Increased Defense
+			强力的防御精华
+			集气时会生成防护屏障，大幅提升防御力
 			'''
 	}
 
@@ -402,23 +400,25 @@ Items: {
 	}
 
 	BlackDiamondShell: {
-		DisplayName: Black Diamond Shell
+		DisplayName: 黑钻晶壳
 		Tooltip:
 			'''
-			A jeweled turtle shell that gets the attention of many creatures, for some reason it's unbelievably tough.
-			12% Increased 气伤害, 14% Increased Ki Knockback.
-			+200 Max气
-			Getting hit 回复a small amount of气
+			一块镶嵌宝石的龟壳，吸引着众多生物，且不知为何坚不可摧
+			增加12%气伤害
+			增加14%气击退
+			增加200点最大气值
+			受到伤害时回复少量气
 			'''
 	}
 
 	BloodstainedBandana: {
-		DisplayName: Bloodstained Bandana
+		DisplayName: 血染头巾
 		Tooltip:
 			'''
-			Change the future.
-			14% Increased 气伤害
-			Thorns effect.
+			改变未来
+			增加14%气伤害
+			获得荆棘效果
+			[C/959595:译者补充：由困难模式后邪恶环境敌怪10%概率掉落]
 			'''
 	}
 
@@ -434,198 +434,203 @@ Items: {
 	}
 
 	BurningEnergyAmulet: {
-		DisplayName: Burning Energy Amulet
+		DisplayName: 炽能护符
 		Tooltip:
 			'''
-			A glowing amulet that radiates with extreme heat.
-			5% Increased 气伤害
-			+200 Max Ki
-			Charging grants a aura of fire around you.
+			一枚散发炽烈高温的发光护符
+			增加5%气伤害
+			增加200点最大气值
+			集气会在周围形成火焰光环
+			[C/959595:译者补充：击败克苏鲁之脑或世界吞噬者后，在陨石环境的敌怪有3.33%概率掉落]
 			'''
 	}
 
 	CrystalliteAlleviate: {
-		DisplayName: Aspera Crystallite
+		DisplayName: 不屈晶石
 		Tooltip:
 			'''
-			The essence of pure energy lives within the crystal.
-			Drastically Increased Speed while charging
-			+2500 Max Ki
+			纯粹能量的精华贮存于这块结晶之中
+			极大幅提升集气时移动速度
+			增加2500点最大气值
 			'''
 	}
 
 	CrystalliteControl: {
-		DisplayName: Imperium Crystallite
+		DisplayName: 统摄晶石
 		Tooltip:
 			'''
-			The essence of pure Ki control lives within the crystal.
-			Increased Speed while charging
-			+500 Max Ki
+			纯粹的操气精华贮存于这块结晶之中
+			提升集气时移动速度
+			增加500点最大气值
 			'''
 	}
 
 	CrystalliteFlow: {
-		DisplayName: Influunt Crystallite
+		DisplayName: 涌能晶石
 		Tooltip:
 			'''
-			The essence of a calm flowing spirit lives within the crystal.
-			Greatly Increased Speed while charging
-			+1000 Max Ki
+			宁静流动的灵魂精华贮存于这块结晶之中
+			大幅提升集气时移动速度
+			增加1000点最大气值
 			'''
 	}
 
 	DiamondNecklace: {
-		DisplayName: Diamond项链
-		Tooltip: 9% Increased Melee Damage and Speed.
+		DisplayName: 钻石项链
+		Tooltip: 增加9%近战伤害和攻击速度
 	}
 
 	DragonGemNecklace: {
-		DisplayName: Dragon Gem项链
+		DisplayName: 龙晶项链
 		Tooltip:
 			'''
-			Infused with the essence of the dragon.
-			All effects of the previous项链s, some enhanced.
+			蕴含龙之精华
+			拥有之前所有项链的效果，并且部分效果得到强化：
+			[i:DBZMODPORT/SapphireNecklace] [c/3264D3:额外增加150点最大气值]
+			[i:DBZMODPORT/TopazNecklace] [C/D59A08:额外增加1个最大仆从栏]
 			'''
 	}
 
 	EarthenArcanium: {
-		DisplayName: Earthen Arcanium
+		DisplayName: 大地秘核
 		Tooltip:
 			'''
-			A core of the pure energy of the earth.
-			10% Increased 气伤害
-			Increased Ki Regen
-			Reduced Flight Ki Usage
-			+1 Max Charges
-			Increased flight Speed
-			The longer you Charge the more Ki you Charge, limits at +500%.
+			蕴含大地纯粹能量的核心
+			增加10%气伤害
+			提升气回复速度
+			减少飞行时气消耗
+			提升1点武器最大蓄力段数
+			提升飞行速度
+			集气时间越长，集气获得的气越多，最高为500%
 			'''
 	}
 
 	EarthenScarab: {
-		DisplayName: Earthen Scarab
+		DisplayName: 大地圣甲虫
 		Tooltip:
 			'''
-			The soul of the land seems to give it life.
-			4% Increased 气伤害
-			Increased flight Speed
-			The longer you Charge the more Ki you Charge, limits at +500%.
+			大地的灵魂似乎赋予了它生命
+			增加4%气伤害
+			提升飞行速度
+			集气时间越长，集气获得的气越多，最高为500%
 			'''
 	}
 
 	EarthenSigil: {
-		DisplayName: Earthen Sigil
+		DisplayName: 大地印章
 		Tooltip:
 			'''
-			The soul of the land lives within.
-			6% Increased 气伤害
-			Increased Ki Regen
-			Reduced flight Ki Usage
-			+1 Max Charges
+			大地的灵魂栖息于其中
+			增加6%气伤害
+			提升气回复速度
+			减少飞行时气消耗
+			提升1点武器最大蓄力段数
 			'''
 	}
 
 	EmeraldNecklace: {
-		DisplayName: Emerald项链
-		Tooltip: 9% Increased ranged Damage and crit chance.
+		DisplayName: 翡翠项链
+		Tooltip: 增加9%远程伤害和暴击率
 	}
 
 	EndlessKi: {
-		DisplayName: Endless Ki
+		DisplayName: 无尽气
 		Tooltip:
 			'''
-			The hearts of the gods above gods.
-			+1500000 Max Ki
-			Near Infinite Ki Regen
+			诸神之上的神之心
+			增加1500000点最大气值
+			近乎无限的气回复速度
 			'''
 	}
 
 	GoblinKiEnhancer: {
-		DisplayName: Goblin Ki Enhancer
+		DisplayName: 哥布林气强化仪
 		Tooltip:
 			'''
-			A relic of the ancient goblins.
-			+500 Max Ki
-			Getting hit grants massively Increased Ki regen for a short time.
+			远古哥布林的遗物
+			增加500点最大气值
+			受到攻击时，短时间内大幅提升气回复速度
+			[C/959595:译者补充：普通哥布林有2%概率掉落，哥布林术士有25%概率掉落]
 			'''
 	}
 
 	IceTalisman: {
-		DisplayName: Ice Energy Talisman
+		DisplayName: 霜能护符
 		Tooltip:
 			'''
-			A frozen talisman that seems to make even your soul cold.
-			7% Increased 气伤害
-			Increased Ki Regen
-			Charging grants a aura of frostburn around you.
+			一枚冻结护符似乎连你的灵魂都感到寒冷
+			增加7%气伤害
+			提升气回复速度
+			集齐时在周围形成霜冻光环
 			'''
 	}
 
 	InfuserAmber: {
-		DisplayName: Amber Ki Infuser
-		Tooltip: Hitting enemies with Ki attacks inflicts ichor.
+		DisplayName: 琥珀气灌注器
+		Tooltip: 气攻击击中敌怪施加[C/FECA50:灵液]
 	}
 
 	InfuserAmethyst: {
-		DisplayName: Amethyst Ki Infuser
-		Tooltip: Hitting enemies with Ki attacks inflicts shadowflame.
+		DisplayName: 紫晶气灌注器
+		Tooltip: 气攻击击中敌怪施加[C/B96EF9:暗影焰]
 	}
 
 	InfuserDiamond: {
-		DisplayName: Diamond Ki Infuser
-		Tooltip: Hitting enemies with Ki attacks inflicts confusion.
+		DisplayName: 钻石气灌注器
+		Tooltip: 气攻击击中敌怪施加[C/688EFD:困惑]
 	}
 
 	InfuserEmerald: {
-		DisplayName: Emerald Ki Infuser
-		Tooltip: Hitting enemies with Ki attacks inflicts poison.
+		DisplayName: 翡翠气灌注器
+		Tooltip: 气攻击击中敌怪施加[C/65D780:中毒]
 	}
 
 	InfuserRainbow: {
-		DisplayName: Dragon Crystal Infuser
-		Tooltip: Hitting enemies with Ki attacks inflicts a multitude of debuffs.
+		DisplayName: 龙晶灌注器
+		Tooltip: 气攻击击中敌怪施加众多减益
 	}
 
 	InfuserRuby: {
-		DisplayName: Ruby Ki Infuser
-		Tooltip: Hitting enemies with Ki attacks inflicts bleeding.
+		DisplayName: 红玉气灌注器
+		Tooltip: 气攻击击中敌怪施加[C/FF1B05:流血]
 	}
 
 	InfuserSapphire: {
-		DisplayName: Sapphire Ki Infuser
-		Tooltip: Hitting enemies with Ki attacks inflicts frostburn.
+		DisplayName: 蓝玉气灌注器
+		Tooltip: 气攻击击中敌怪施加[C/1CC6F4:霜冻]
 	}
 
 	InfuserTopaz: {
-		DisplayName: Topaz Ki Infuser
-		Tooltip: Hitting enemies with Ki attacks inflicts on fire.
+		DisplayName: 黄玉气灌注器
+		Tooltip: 气攻击击中敌怪施加[C/F48801:着火了！]
 	}
 
 	KaioCrystal: {
-		DisplayName: Kaio Crystal
+		DisplayName: 界王水晶
 		Tooltip:
 			'''
-			A spiritual fragment of one of the 传说Kais.
-			All 界王拳 forms drain half as much health
-			30% less Max Ki
+			传说界王的灵魂碎片
+			所有界王拳消耗的生命值减半
+			减少30%最大气值
 			'''
 	}
 
 	KiChip: {
-		DisplayName: Ki Chip
+		DisplayName: 气之晶片
 		Tooltip:
 			'''
-			A piece of a 气碎片.
-			Increased Ki Charge rate
+			一小块气之碎片
+			提升集气速度
 			'''
 	}
 
 	LargeTurtleShell: {
-		DisplayName: Large Turtle Shell
+		DisplayName: 巨大龟壳
 		Tooltip:
 			'''
-			A turtle shell with an odd resemblance to the turtle hermit.
-			7% Increased 气伤害, 8% Increased Ki Knockback.
+			一块龟壳，奇怪的是与龟仙人的极为相似
+			增加7%气伤害
+			增加8%气暴击
 			'''
 	}
 
@@ -641,7 +646,7 @@ Items: {
 	}
 
 	MajinNucleus: {
-		DisplayName: Majin Nucleus
+		DisplayName: 魔人 Nucleus
 		Tooltip:
 			'''
 			The pulsing nucleus of a invincible being.
@@ -691,13 +696,13 @@ Items: {
 	}
 
 	RubyNecklace: {
-		DisplayName: Ruby项链
-		Tooltip: 9% Increased magic Damage and crit chance.
+		DisplayName: 红玉项链
+		Tooltip: 增加9%魔法伤害和暴击率
 	}
 
 	SapphireNecklace: {
-		DisplayName: Sapphire项链
-		Tooltip: 9% Increased 气伤害 and +100 max气
+		DisplayName: 蓝玉项链
+		Tooltip: 增加9%气伤害和100点最大气值
 	}
 
 	ScouterT2: {
@@ -1072,7 +1077,7 @@ Items: {
 			增加500点最大气值
 			提升气回复速度
 			提升18%移动速度
-			
+
 			'''
 	}
 
@@ -1098,28 +1103,28 @@ Items: {
 	}
 
 	BukuujutsuVol1: {
-		DisplayName: Bukuujutsu Guide 卷一 - Chorus Aeria
-		Tooltip: It has an ancient technique inscribed in it, holding it makes you feel lighter.
+		DisplayName: 舞空术指南卷一 - 空之合唱
+		Tooltip: 它上面刻录着远古技术，持有时让你感到轻便
 	}
 
 	BukuujutsuVol2: {
-		DisplayName: Bukuujutsu Guide 卷二 - Lux Ruinam
-		Tooltip: It has an ancient technique inscribed in it, holding it makes your feet feel softer.
+		DisplayName: 舞空术指南卷二 - 光之幻灭
+		Tooltip: 它上面刻录着远古技术，持有时让的你双足更加轻快
 	}
 
 	BukuujutsuVol3: {
-		DisplayName: Bukuujutsu Guide 卷三 - Fugam Arriperent
-		Tooltip: It has an ancient technique inscribed in it, holding it makes your Ki feel calmer.
+		DisplayName: 舞空术指南卷三 - 遁之追巡
+		Tooltip: 它上面刻录着远古技术，持有时让你的气更加平和
 	}
 
 	DisgustingGoop: {
-		DisplayName: 恶心的黏液
+		DisplayName: 恶心黏液
 		Tooltip: 固定当前气值但是尝起来令人恶心
 	}
 
 	KaioFragment1: {
 		DisplayName: 3倍界王拳
-		Tooltip: 
+		Tooltip:
 			'''
 			解锁下一级的界王拳
 			[C/959595:译者补充：世界吞噬者和克苏鲁之脑掉落]
@@ -1128,7 +1133,7 @@ Items: {
 
 	KaioFragment2: {
 		DisplayName: 4倍界王拳
-		Tooltip: 
+		Tooltip:
 			'''
 			解锁下一级的界王拳
 			[C/959595:译者补充：蜂王掉落]
@@ -1137,7 +1142,7 @@ Items: {
 
 	KaioFragment3: {
 		DisplayName: 10倍界王拳
-		Tooltip: 
+		Tooltip:
 			'''
 			解锁下一级的界王拳
 			[C/959595:译者补充：骷髅王掉落]
@@ -1146,7 +1151,7 @@ Items: {
 
 	KaioFragment4: {
 		DisplayName: 20倍界王拳
-		Tooltip: 
+		Tooltip:
 			'''
 			解锁下一级的界王拳
 			[C/959595:译者补充：血肉墙掉落]
@@ -1156,7 +1161,7 @@ Items: {
 	KaioFragmentFirst: {
 		DisplayName: 界王拳
 		Tooltip:
-			''' 
+			'''
 			解锁远古技术
 			[C/959595:译者补充：克苏鲁之眼掉落]
 			'''
@@ -1164,47 +1169,32 @@ Items: {
 
 	KiEssence1: {
 		DisplayName: 新手气卷轴
-		Tooltip: 
-			'''
-			提升集齐速度
-			'''
+		Tooltip: 提升集齐速度
 	}
 
 	KiEssence2: {
 		DisplayName: 学徒气卷轴
-		Tooltip: 
-			'''
-			提升集齐速度
-			'''
+		Tooltip: 提升集齐速度
 	}
 
 	KiEssence3: {
 		DisplayName: 熟练气卷轴
-		Tooltip: 
-			'''
-			提升集齐速度
-			'''
+		Tooltip: 提升集齐速度
 	}
 
 	KiEssence4: {
 		DisplayName: 激怒气卷轴
-		Tooltip: 
-			'''
-			提升集齐速度
-			'''
+		Tooltip: 提升集齐速度
 	}
 
 	KiEssence5: {
 		DisplayName: 大师气卷轴
-		Tooltip: 
-			'''
-			提升集齐速度
-			'''
+		Tooltip: 提升集齐速度
 	}
 
 	KiFragment1: {
 		DisplayName: 新手气碎片
-		Tooltip: 
+		Tooltip:
 			'''
 			增加1000点最大气值
 			[C/959595:译者补充：克苏鲁之眼掉落]
@@ -1214,7 +1204,7 @@ Items: {
 	KiFragment2: {
 		DisplayName: 学徒气碎片
 		Tooltip:
-			''' 
+			'''
 			增加2000点最大气值
 			[C/959595:译者补充：骷髅王掉落]
 			'''
@@ -1223,7 +1213,7 @@ Items: {
 	KiFragment3: {
 		DisplayName: 熟练气碎片
 		Tooltip:
-			''' 
+			'''
 			增加2000点最大气值
 			[C/959595:译者补充：机械骷髅王掉落]
 			'''
@@ -1232,7 +1222,7 @@ Items: {
 	KiFragment4: {
 		DisplayName: 激怒气碎片
 		Tooltip:
-			''' 
+			'''
 			增加2000点最大气值
 			[C/959595:译者补充：世纪之花掉落]
 			'''
@@ -1241,7 +1231,7 @@ Items: {
 	KiFragment5: {
 		DisplayName: 大师气碎片
 		Tooltip:
-			''' 
+			'''
 			增加2000点最大气值
 			[C/959595:译者补充：拜月邪教徒掉落]
 			'''
@@ -1284,7 +1274,7 @@ Items: {
 
 	SenzuBean: {
 		DisplayName: 仙豆
-		Tooltip: 
+		Tooltip:
 			'''
 			恢复你的身体与气
 			[C/959595:译者补充：所有Boss有25%概率掉落]
@@ -1352,19 +1342,19 @@ Items: {
 	}
 
 	TransmissionPura: {
-		DisplayName: 瞬间移动秘典卷三 - Pura Facilioris Transmissus
-		Tooltip: 它蕴含着异界力量， bending space to your will with ease.
+		DisplayName: 瞬间移动秘典卷三 - 纯化易传
+		Tooltip: 它蕴含着异界力量，能使空间随你意而更为轻易地变形
 	}
 
 	TransmissionTeleport: {
-		DisplayName: 瞬间移动秘典卷二 - Ianuae Magicae
-		Tooltip: 它蕴含着异界力量， bending space to your will.
+		DisplayName: 瞬间移动秘典卷二 - 秘法之门
+		Tooltip: 它蕴含着异界力量，能使空间随你意而改变
 	}
 
 	TransmissionVanish: {
-		DisplayName: 瞬间移动秘典卷一 - 消散者必将灭亡
+		DisplayName: 瞬间移动秘典卷一 - 散者必亡
 		Tooltip:
-			''' 
+			'''
 			它蕴含着异界力量，能够扭曲空间以寻觅气的灯塔
 			[C/959595:译者补充：血肉墙掉落]
 			'''
@@ -1413,52 +1403,52 @@ Items: {
 
 	FiveStarDB: {
 		DisplayName: 5星龙珠
-		Tooltip: A mystical ball with 5 stars inscribed on it.
+		Tooltip: 一颗刻有5颗星的神秘球体
 	}
 
 	FourStarDB: {
 		DisplayName: 4星龙珠
-		Tooltip: A mystical ball with 4 stars inscribed on it.
+		Tooltip: 一颗刻有4颗星的神秘球体
 	}
 
 	OneStarDB: {
 		DisplayName: 1星龙珠
-		Tooltip: A mystical ball with 1 star inscribed on it.
+		Tooltip: 一颗刻有1颗星的神秘球体
 	}
 
 	SevenStarDB: {
 		DisplayName: 7星龙珠
-		Tooltip: A mystical ball with 7 stars inscribed on it.
+		Tooltip: 一颗刻有7颗星的神秘球体
 	}
 
 	SixStarDB: {
 		DisplayName: 6星龙珠
-		Tooltip: A mystical ball with 6 stars inscribed on it.
+		Tooltip: 一颗刻有6颗星的神秘球体
 	}
 
 	ThreeStarDB: {
 		DisplayName: 3星龙珠
-		Tooltip: A mystical ball with 3 stars inscribed on it.
+		Tooltip: 一颗刻有3颗星的神秘球体
 	}
 
 	TwoStarDB: {
 		DisplayName: 2星龙珠
-		Tooltip: A mystical ball with 2 stars inscribed on it.
+		Tooltip: 一颗刻有2颗星的神秘球体
 	}
 
 	EmptyNecklace: {
-		DisplayName: Empty项链
-		Tooltip: It seems you can attach a gem to it.
+		DisplayName: 空项链
+		Tooltip: 你似乎能在上面镶嵌宝石
 	}
 
 	KaiTableItem: {
-		DisplayName: Kai Table
-		Tooltip: It pulses with divine pressure, it seems to entrance you.
+		DisplayName: 龙珠改桌
+		Tooltip: 它涌动着神圣力量，仿佛随时会将你迷住
 	}
 
 	KatchinScale: {
-		DisplayName: Katchin Scale
-		Tooltip: A scale with incredible durability ripped from a massive fish.
+		DisplayName: 卡先鳞片
+		Tooltip: 从巨大鱼类上剥落的坚固鳞片
 	}
 
 	KiBeaconItem: {
@@ -1476,12 +1466,12 @@ Items: {
 	}
 
 	KiOrb: {
-		DisplayName: Ki Orb
+		DisplayName: 气珠
 		Tooltip: ""
 	}
 
 	KiOrb2: {
-		DisplayName: Super Ki Orb
+		DisplayName: 超级气珠
 		Tooltip: ""
 	}
 
@@ -1556,22 +1546,22 @@ Items: {
 	}
 
 	Choco1: {
-		DisplayName: Chocolate
+		DisplayName: 巧克力
 		Tooltip: ""
 	}
 
 	Choco2: {
-		DisplayName: Chocolate
+		DisplayName: 巧克力
 		Tooltip: ""
 	}
 
 	Choco3: {
-		DisplayName: Chocolate
+		DisplayName: 巧克力
 		Tooltip: ""
 	}
 
 	CoffeeCandy: {
-		DisplayName: Coffee Candy
+		DisplayName: 咖啡糖
 		Tooltip: ""
 	}
 
@@ -1582,7 +1572,7 @@ Items: {
 
 	NimbusWhistle: {
 		DisplayName: 筋斗云哨子
-		Tooltip: 召唤传说Cloud, Nimbus.
+		Tooltip: 召唤传说中的云——筋斗云
 	}
 
 	RadiantFragmentBlocKitem: {
@@ -1700,7 +1690,7 @@ Items: {
 	}
 
 	HellzoneGrenade: {
-		DisplayName: Hellzone Grenade
+		DisplayName: 魔空包围弹
 		Tooltip: ""
 	}
 
@@ -1720,12 +1710,12 @@ Items: {
 	}
 
 	EnergyShot: {
-		DisplayName: Energy Shot
-		Tooltip: An enhanced version of a regular Ki blast
+		DisplayName: 气功珠
+		Tooltip: 强化版本的常规气功弹
 	}
 
 	Scattershot: {
-		DisplayName: Scatter Shot
+		DisplayName: 连续闪光弹
 		Tooltip: ""
 	}
 
@@ -1785,7 +1775,7 @@ Items: {
 	}
 
 	SuperEnergyBarrage: {
-		DisplayName: Super Energy Barrage
+		DisplayName: 超级连续气功弹
 		Tooltip: ""
 	}
 
@@ -1795,22 +1785,22 @@ Items: {
 	}
 
 	BlackBlitz: {
-		DisplayName: Black Power Ball
+		DisplayName: 黑暗能量球
 		Tooltip: ""
 	}
 
 	BlindingBlade: {
-		DisplayName: Blinding Blade
-		Tooltip: Flings a Ki-coated disk that bounces off walls.
+		DisplayName: 耀目飞刃
+		Tooltip: 投掷一枚蕴含气的飞盘，会在墙壁间不断反弹
 	}
 
 	CandyLaser: {
-		DisplayName: Candy Laser
-		Tooltip: Turns your foes to chocolate, does not work on bosses.
+		DisplayName: 糖果激光
+		Tooltip: 将你的敌人转变为巧克力，对Boss不生效
 	}
 
 	FinalShine: {
-		DisplayName: Final Shine
+		DisplayName: 终极光辉攻击
 		Tooltip:
 			'''
 			最大蓄力 - 12
@@ -1820,13 +1810,13 @@ Items: {
 	}
 
 	HolyWrath: {
-		DisplayName: Holy Wrath
+		DisplayName: 神圣逆鳞
 		Tooltip: ""
 	}
 
 	RadialJavelin: {
-		DisplayName: Radial Javelin
-		Tooltip: Throws a volley of homing Ki javelins.
+		DisplayName: 辐辉投枪
+		Tooltip: 投掷会自动追踪的气标枪
 	}
 
 	SuperSpiritBomb: {
@@ -1857,18 +1847,18 @@ NPCs: {
 
 Prefixes: {
 	BalancedPrefix.DisplayName: 平衡
-	BoostedPrefix.DisplayName: Boosted
-	CondensedPrefix.DisplayName: Condensed
-	DestructivePrefix.DisplayName: Destructive
-	DistractedPrefix.DisplayName: Distracted
-	FlashyPrefix.DisplayName: Flashy
+	BoostedPrefix.DisplayName: 强化
+	CondensedPrefix.DisplayName: 聚能
+	DestructivePrefix.DisplayName: 损毁
+	DistractedPrefix.DisplayName: 波动
+	FlashyPrefix.DisplayName: 闪耀
 	FlawedPrefix.DisplayName: 瑕疵
-	InfusedPrefix.DisplayName: Infused
+	InfusedPrefix.DisplayName: 注能
 	MasteredPrefix.DisplayName: 大师
-	MystifyingPrefix.DisplayName: Mystifying
-	NegatedPrefix.DisplayName: Negated
-	OutrageousPrefix.DisplayName: Outrageous
-	PoweredPrefix.DisplayName: Powered
+	MystifyingPrefix.DisplayName: 神秘
+	NegatedPrefix.DisplayName: 无效
+	OutrageousPrefix.DisplayName: 破限
+	PoweredPrefix.DisplayName: 强大
 	TranscendedPrefix.DisplayName: 超越
 	UnstablePrefix.DisplayName: 不稳
 }
@@ -1888,12 +1878,12 @@ Tiles: {
 }
 
 Keybinds: {
-	界王拳.DisplayName: 界王拳
+	Kaioken.DisplayName: 界王拳
 	"Energy Charge.DisplayName": 集气
 	Transform.DisplayName: 变身
 	"Power Down.DisplayName": 力量降低
 	"Speed Toggle.DisplayName": 速度切换
-	"Quick气DisplayName": 快速回气药水
+	"Quick Ki.DisplayName": 快速回气药水
 	"Transformation Menu.DisplayName": 变身菜单
 	"Instant Transmission.DisplayName": 瞬间移动
 	"Flight Toggle.DisplayName": 飞行切换
@@ -1905,8 +1895,8 @@ Configs: {
 		DisplayName: 客户端配置
 
 		IsChargeToggled: {
-			Label: Toggle Charge
-			Tooltip: Whether Charge is on/off or hold
+			Label: 切换集气方式
+			Tooltip: 启用后，集气为点击切换，反之为长按
 		}
 	}
 
