@@ -10,8 +10,8 @@ Buffs: {
 	}
 
 	DemonBonus: {
-		DisplayName: Demonic Overdrive
-		Description: Your energy feels limitless
+		DisplayName: 恶魔超载
+		Description: 你的能量似乎无穷无尽
 	}
 
 	DisgustingGoopBuff: {
@@ -20,12 +20,12 @@ Buffs: {
 	}
 
 	EnhancedReserves: {
-		DisplayName: Enhanced Reserves
-		Description: Your Ki reserves have been enhanced.
+		DisplayName: 强化储备
+		Description: 你的气回复速度得到提升
 	}
 
 	KaiokenBuff: {
-		DisplayName: Kaioken
+		DisplayName: 界王拳
 		Description: Damage {0} Speed {1}
 	}
 
@@ -35,8 +35,8 @@ Buffs: {
 	}
 
 	KiLanternBuff: {
-		DisplayName: Ki Diffuser
-		Description: Gives some slight Ki regen.
+		DisplayName: 气弥散仪
+		Description: 提供微量的气回复速度提升
 	}
 
 	KiPotionSickness: {
@@ -245,8 +245,8 @@ Projectiles: {
 	BaseFloatingDestructionProj.DisplayName: Base Block Destruction
 	DirtBlockDestruction.DisplayName: Base Block Destruction
 	StoneBlockDestruction.DisplayName: Stone Block Destruction
-	LSSJ3DustCenter.DisplayName: L超级赛亚人3Dust Center
-	LSSJ3DustStart.DisplayName: L超级赛亚人3Dust Start
+	LSSJ3DustCenter.DisplayName: 传说超级赛亚人3Dust Center
+	LSSJ3DustStart.DisplayName: 传说超级赛亚人3Dust Start
 	SSJ1AuraProjBeam.DisplayName: 超级赛亚人Aura Beam
 	SSJ1AuraProjBeamHead.DisplayName: 超级赛亚人Aura Beam
 	SSJ1AuraProjStart.DisplayName: 超级赛亚人Aura Proj Start
@@ -291,20 +291,20 @@ Projectiles: {
 	HellzoneGrenadeProjectile2.DisplayName: HellzoneGrenadeProjectile2
 	HolyWrathBall.DisplayName: Holy Wrath Ball
 	HolyWrathExplosion.DisplayName: Holy Wrath Explosion
-	BigBangKamehamehaBall.DisplayName: Big Bang 龟派气功波Ball
-	BigBangKamehamehaBlast.DisplayName: Big Bang Kamehameha
-	BigBangKamehamehaTrail.DisplayName: Big Bang 龟派气功波Trail
-	KamehamehaBeam.DisplayName: KamehamehaBlast
-	KamehamehaCharge.DisplayName: 龟派气功波Ball
-	Kamehameha10Beam.DisplayName: 龟派气功波x10
-	Kamehameha10Charge.DisplayName: 龟派气功波x10 Ball
+	BigBangKamehamehaBall.DisplayName: 大爆炸龟派气功波球
+	BigBangKamehamehaBlast.DisplayName: 大爆炸龟派气功波
+	BigBangKamehamehaTrail.DisplayName: 大爆炸龟派气功波轨迹
+	KamehamehaBeam.DisplayName: 龟派气功波
+	KamehamehaCharge.DisplayName: 龟派气功波球
+	Kamehameha10Beam.DisplayName: 10倍龟派气功波
+	Kamehameha10Charge.DisplayName: 10倍龟派气功波球
 	SuperKamehamehaBeam.DisplayName: SuperKamehamehaBlast
 	SuperKamehamehaCharge.DisplayName: Super 龟派气功波Ball
 	KiBeamProjectile.DisplayName: KiBeamProjectile
 	KiBlastProjectile.DisplayName: Ki Blast
 	KiSpark.DisplayName: Ki Spark
 	LSSJ2PillarStart.DisplayName: 传说Light Pillar
-	LSSJAuraBall.DisplayName: L超级赛亚人Aura Ball
+	LSSJAuraBall.DisplayName: 传说超级赛亚人Aura Ball
 	LSSJAuraLaser.DisplayName: 传说Laser
 	LSSJAuraLaserBlack.DisplayName: 传说Laser
 	LSSJBarrageProj.DisplayName: 传说Energy Barrage
@@ -373,7 +373,7 @@ Items: {
 			一件曾被许多士兵使用老旧的手臂炮
 			减少10%气消耗
 			提升集气速度
-			[C/959595:译者补充：旅商商店获取]
+			[C/959595:译者补充：旅商售卖]
 			'''
 	}
 
@@ -423,13 +423,13 @@ Items: {
 	}
 
 	BuldariumSigmite: {
-		DisplayName: Buldarium Sigmite
+		DisplayName: 巴德尔结晶
 		Tooltip:
 			'''
-			A fragment of the god of Defense's soul.
-			Charging grants a protective barrier that grants massively Increased Defense
-			Charging also grants drastically Increased life regen
-			Increased Ki Charge Speed
+			防御之神的灵魂碎片
+			集气时会生成防护屏障，大幅提升防御力
+			集气时也会极大幅提升生命再生速度
+			提升集气速度
 			'''
 	}
 
@@ -440,7 +440,7 @@ Items: {
 			一枚散发炽烈高温的发光护符
 			增加5%气伤害
 			增加200点最大气值
-			集气会在周围形成火焰光环
+			集气时会在周围形成火焰光环
 			[C/959595:译者补充：击败克苏鲁之脑或世界吞噬者后，在陨石环境的敌怪有3.33%概率掉落]
 			'''
 	}
@@ -561,7 +561,7 @@ Items: {
 			一枚冻结护符似乎连你的灵魂都感到寒冷
 			增加7%气伤害
 			提升气回复速度
-			集齐时在周围形成霜冻光环
+			集气时在周围形成霜冻光环
 			'''
 	}
 
@@ -635,63 +635,65 @@ Items: {
 	}
 
 	LuminousSectum: {
-		DisplayName: Luminous Sectum
+		DisplayName: 光耀分割
 		Tooltip:
 			'''
-			It radiates with unstable energy.
-			9% Increased 气伤害
-			+250 Max Ki
-			Hitting enemies has a small chance to fire off homing Ki sparks.
+			它散发着不稳定的能量
+			增加9%气伤害
+			增加250点最大气值
+			使用气武器击中敌人时有小概率释放追踪的气火花
+			[C/959595:译者补充：蒸汽朋克人售卖]
 			'''
 	}
 
 	MajinNucleus: {
-		DisplayName: 魔人 Nucleus
+		DisplayName: 魔人胞核
 		Tooltip:
 			'''
-			The pulsing nucleus of a invincible being.
-			Massively Increased health regen
-			Massively Increased Ki regen
-			-1500 max Ki
+			正在脉动的无敌细胞核
+			大幅提升生命再生速度
+			大幅提升气回复速度
+			减少1500点最大气值
+			[C/959595:译者补充：魔人史莱姆有5%概率掉落]
 			'''
 	}
 
 	MetamoranSash: {
-		DisplayName: Metamoran Sash
+		DisplayName: 梅塔摩尔腰带
 		Tooltip:
 			'''
-			Your own bad energy will be your undoing!
-			10% Increased 气伤害
-			30% Reduced Ki Usage
-			15% chance to do double Damage.
+			你自身的邪恶能量将成为毁灭你！
+			增加10%气伤害
+			减少30%气消耗
+			有15%概率造成两倍伤害
 			'''
 	}
 
 	PureEnergyCirclet: {
-		DisplayName: Pure Energy Circlet
+		DisplayName: 纯粹能量圆环
 		Tooltip:
 			'''
-			It radiates a unbelievably pure presence.
-			12% Increased 气伤害
-			Increased Ki regen
-			+300 Max Ki
-			Charging grants a aura of inferno and frostburn around you.
+			它释放着难以置信的纯净气息
+			增加12%气伤害
+			提升气回复速度
+			增加300点最大气值
+			集气时会在周围形成炼狱和霜冻光环
 			'''
 	}
 
 	RadiantGlider: {
-		DisplayName: 辐辉Glider
-		Tooltip: Allows flight and slow fall.
+		DisplayName: 辐辉滑翔翼
+		Tooltip: 允许飞行和缓慢降落
 	}
 
 	RadiantTotem: {
-		DisplayName: 辐辉Totem
+		DisplayName: 辐辉图腾
 		Tooltip:
 			'''
-			It explodes with 辐辉energy.
-			12% Increased 气伤害
-			+500 Max Ki
-			Drastically Increased Ki regen
+			它迸发出辐辉能量
+			增加12%气伤害
+			增加500点最大气值
+			大幅提升气回复速度
 			'''
 	}
 
@@ -706,52 +708,52 @@ Items: {
 	}
 
 	ScouterT2: {
-		DisplayName: Green Scouter
+		DisplayName: 绿色探测器
 		Tooltip:
 			'''
-			A Piece of equipment used for scanning powerlevels.
-			Increased 气伤害 and Hunter effect.
-			--Tier 2--
+			用于扫描战斗力的装备
+			增加5%气伤害并提供猎人药水效果
+			--2阶--
 			'''
 	}
 
 	ScouterT3: {
-		DisplayName: Blue Scouter
+		DisplayName: 蓝色探测器
 		Tooltip:
 			'''
-			A Piece of equipment used for scanning powerlevels.
-			Gives Increased 气伤害 and Hunter effect.
-			--Tier 3--
+			用于扫描战斗力的装备
+			增加8%气伤害并提供猎人药水效果
+			--3阶--
 			'''
 	}
 
 	ScouterT4: {
-		DisplayName: Red Scouter
+		DisplayName: 红色探测器
 		Tooltip:
 			'''
-			A Piece of equipment used for scanning powerlevels.
-			Gives Increased 气伤害 and Hunter effect.
-			--Tier 4--
+			用于扫描战斗力的装备
+			增加12%气伤害并提供猎人药水效果
+			--4阶--
 			'''
 	}
 
 	ScouterT5: {
-		DisplayName: Purple Scouter
+		DisplayName: 紫色探测器
 		Tooltip:
 			'''
-			A Piece of equipment used for scanning powerlevels.
-			Gives Increased 气伤害 and Hunter effects.
-			--Tier 5--
+			用于扫描战斗力的装备
+			增加15%气伤害并提供猎人药水效果
+			--5阶--
 			'''
 	}
 
 	ScouterT6: {
-		DisplayName: Yellow Scouter
+		DisplayName: 黄色探测器
 		Tooltip:
 			'''
-			A Piece of equipment used for scanning powerlevels.
-			Gives Increased 气伤害 and Hunter effects.
-			--Tier 6--
+			用于扫描战斗力的装备
+			增加20%气伤害并提供猎人药水效果
+			--6阶--
 			'''
 	}
 
@@ -1098,8 +1100,8 @@ Items: {
 	}
 
 	CoarseRock: {
-		DisplayName: Coarse Rock
-		Tooltip: A dried out and compressed piece of sand.
+		DisplayName: 粗岩
+		Tooltip: 一块干燥并被压缩的沙块
 	}
 
 	BukuujutsuVol1: {
@@ -1355,7 +1357,7 @@ Items: {
 		DisplayName: 瞬间移动秘典卷一 - 散者必亡
 		Tooltip:
 			'''
-			它蕴含着异界力量，能够扭曲空间以寻觅气的灯塔
+			它蕴含着异界力量，能够扭曲空间以寻觅气之灯塔
 			[C/959595:译者补充：血肉墙掉落]
 			'''
 	}
@@ -1452,16 +1454,16 @@ Items: {
 	}
 
 	KiBeaconItem: {
-		DisplayName: Ki Beacon
-		Tooltip: Radiates Ki you can lock on to with Instant Transmission.
+		DisplayName: 气之灯塔
+		Tooltip: 它散发着可供瞬间移动锁定的气息
 	}
 
 	KiLanternItem: {
-		DisplayName: Ki Diffuser
+		DisplayName: 气弥散仪
 		Tooltip:
 			'''
-			It radiates with the glow of Ki energy.
-			Gives slight Ki regen when placed.
+			它散发着气之光辉
+			放置时提供微量的气回复速度提升
 			'''
 	}
 
@@ -1476,43 +1478,71 @@ Items: {
 	}
 
 	AstralEssentia: {
-		DisplayName: Astral Essentia
-		Tooltip: The sky's astral energy emanates from within.
+		DisplayName: 星辉精华
+		Tooltip:
+			''' 
+			天穹的星辉能量于其中散发
+			[C/959595:译者补充：击败蜂王后，鸟妖有33%概率掉落]
+			'''
 	}
 
 	DemonicSoul: {
-		DisplayName: Demonic Soul
-		Tooltip: A fragment of the devil's rage.
+		DisplayName: 恶魔之魂
+		Tooltip:
+			'''
+			恶魔的怒之碎片
+			[C/959595:译者补充：击败石巨人后，恶魔类敌怪有50%概率掉落]
+			'''
 	}
 
 	DivineThreads: {
-		DisplayName: Divine Threads
-		Tooltip: A unbelievably soft material that radiates a divine-like energy.
+		DisplayName: 神圣丝织
+		Tooltip: 一种难以置信的柔软材料，散发着近乎神圣的能量
 	}
 
 	EarthenShard: {
-		DisplayName: Earthen Shard
-		Tooltip: A fragment of the land's soul.
+		DisplayName: 大地碎片
+		Tooltip: 
+			'''
+			大地的灵魂碎片
+			[C/959595:译者补充：击败克苏鲁之脑或世界吞噬者后，所有敌怪有14%概率掉落]
+			'''
 	}
 
 	AngerKiCrystal: {
-		DisplayName: Angerful Ki Crystal
-		Tooltip: The corrupt rage of the world lives within.
+		DisplayName: 愤怒气水晶
+		Tooltip: 
+			'''
+			蕴含着世界的腐化之怒
+			[C/959595:译者补充：困难模式后，处于邪恶环境敌怪有85%概率掉落]
+			'''
 	}
 
 	CalmKiCrystal: {
-		DisplayName: Calm Ki Crystal
-		Tooltip: The calm force of nature lives within.
+		DisplayName: 平静气水晶
+		Tooltip: 
+			'''
+			自然的宁静之力栖息其中
+			[C/959595:译者补充：击败克苏鲁之脑或世界吞噬者后，处于丛林环境敌怪有85%概率掉落]
+			'''
 	}
 
 	PridefulKiCrystal: {
-		DisplayName: Prideful Ki Crystal
-		Tooltip: The prideful flame of the world lives within.
+		DisplayName: 傲慢气水晶
+		Tooltip:
+			'''
+			世界的傲慢气焰于其中飘动
+			[C/959595:译者补充：击败骷髅王后，处于地狱环境敌怪有85%概率掉落]
+			''' 
 	}
 
 	PureKiCrystal: {
-		DisplayName: Pure Ki Crystal
-		Tooltip: The glowing radiance of the world lives within.
+		DisplayName: 纯粹气水晶
+		Tooltip: 
+			'''
+			世界的光辉于其中闪耀
+			[C/959595:译者补充：击败世纪之花后，处于发光蘑菇环境敌怪掉落]
+			'''
 	}
 
 	StableKiCrystal: {
