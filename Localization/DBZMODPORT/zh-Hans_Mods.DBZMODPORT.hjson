@@ -242,55 +242,55 @@ Buffs: {
 }
 
 Projectiles: {
-	BaseFloatingDestructionProj.DisplayName: Base Block Destruction
-	DirtBlockDestruction.DisplayName: Base Block Destruction
-	StoneBlockDestruction.DisplayName: Stone Block Destruction
-	LSSJ3DustCenter.DisplayName: 传说超级赛亚人3Dust Center
-	LSSJ3DustStart.DisplayName: 传说超级赛亚人3Dust Start
-	SSJ1AuraProjBeam.DisplayName: 超级赛亚人Aura Beam
-	SSJ1AuraProjBeamHead.DisplayName: 超级赛亚人Aura Beam
-	SSJ1AuraProjStart.DisplayName: 超级赛亚人Aura Proj Start
-	SSJ3LightPillar.DisplayName: 超级赛亚人3Light Pillar
-	SSJAuraBall.DisplayName: 超级赛亚人Aura Ball
-	SSJBDustCenter.DisplayName: SSJB Dust Center
-	SSJBDustStart.DisplayName: SSJB Dust Start
-	SSJEnergyBarrageProj.DisplayName: Aura Energy Barrage
-	SSJGDustCenter.DisplayName: 超级赛亚人之神Dust Center
-	SSJGDustStart.DisplayName: 超级赛亚人之神Dust Start
-	SSJRDustCenter.DisplayName: SSJR Dust Center
-	SSJRDustStart.DisplayName: SSJR Dust Start
-	SSJRockProjStart.DisplayName: 超级赛亚人Rock Proj Start
-	BaldurShell.DisplayName: Baldur Shell
-	BigBangAttackProjectile.DisplayName: BigBangAttackProjectile
-	BigBangAttackProjectile2.DisplayName: BigBangAttackProjectile2
-	BlackBlitz.DisplayName: Black Blitz
-	BlackBlitzLong.DisplayName: Black Blitz Long
-	BlightedFangProj.DisplayName: Blighted Fang
-	BlindingBladeProj.DisplayName: Blinding Blade
-	CandyLaserBlast.DisplayName: Candy Laser
-	CandyLaserTrail.DisplayName: Candy Laser
-	DestructoDiskAssaultMini.DisplayName: Mini Destructo Disk
-	DestructoDiskAssaultProj.DisplayName: ShinKienzan
-	DestructoDiskProjectile.DisplayName: Kienzan
-	DirtyFireworksProjectile.DisplayName: Dirty Fireworks
-	DoubleSundayBeam.DisplayName: Double Sunday Beam
-	DoubleSundayCharge.DisplayName: DoubleSundayCharge
-	EnergyBlastBarrageProjectile.DisplayName: EnergyBlastBarrageProjectile
-	EnergyShotBlast.DisplayName: Energy Shot Blast
-	EnergyWaveBeam.DisplayName: EnergyWaveBeam
-	EnergyWaveCharge.DisplayName: Energy Wave Charge
-	EnergyWaveVolleyBlast.DisplayName: EnergyWaveVolleyBlast
-	EnergyWaveVolleyTrail.DisplayName: EnergyWaveVolleyTrail
-	FinalFlashBeam.DisplayName: Final Flash
-	FinalFlashCharge.DisplayName: Final Flash Ball
-	FinalShineBeam.DisplayName: Final Shine
-	FinalShineCharge.DisplayName: Final Shine Ball
-	GalickGunBeam.DisplayName: Galick Gun
-	GalickGunCharge.DisplayName: Galick Gun Charge
-	HellzoneGrenadeProjectile.DisplayName: HellzoneGrenadeProjectile
-	HellzoneGrenadeProjectile2.DisplayName: HellzoneGrenadeProjectile2
-	HolyWrathBall.DisplayName: Holy Wrath Ball
-	HolyWrathExplosion.DisplayName: Holy Wrath Explosion
+	BaseFloatingDestructionProj.DisplayName: 基础物块破坏
+	DirtBlockDestruction.DisplayName: 基础物块破坏
+	StoneBlockDestruction.DisplayName: 石块破坏
+	LSSJ3DustCenter.DisplayName: 传说超级赛亚人3尘埃中心
+	LSSJ3DustStart.DisplayName: 传说超级赛亚人3尘埃开始
+	SSJ1AuraProjBeam.DisplayName: 超级赛亚人光环射线
+	SSJ1AuraProjBeamHead.DisplayName: 超级赛亚人光环射线
+	SSJ1AuraProjStart.DisplayName: 超级赛亚人光环弹幕开始
+	SSJ3LightPillar.DisplayName: 超级赛亚人3光柱
+	SSJAuraBall.DisplayName: 超级赛亚人光环球
+	SSJBDustCenter.DisplayName: 超级赛亚人蓝尘埃中心
+	SSJBDustStart.DisplayName: 超级赛亚人蓝尘埃开始
+	SSJEnergyBarrageProj.DisplayName: 光环连续能量
+	SSJGDustCenter.DisplayName: 超级赛亚人之神尘埃中心
+	SSJGDustStart.DisplayName: 超级赛亚人之神尘埃开始
+	SSJRDustCenter.DisplayName: 超级赛亚人桃红尘埃中心
+	SSJRDustStart.DisplayName: 超级赛亚人桃红尘埃开始
+	SSJRockProjStart.DisplayName: 超级赛亚人岩石弹幕开始
+	BaldurShell.DisplayName: 巴德尔屏障
+	BigBangAttackProjectile.DisplayName: 大爆炸攻击弹幕
+	BigBangAttackProjectile2.DisplayName: 大爆炸攻击弹幕2
+	BlackBlitz.DisplayName: 黑暗能量球
+	BlackBlitzLong.DisplayName: 黑暗能量球轨迹
+	BlightedFangProj.DisplayName: 枯疫獠牙
+	BlindingBladeProj.DisplayName: 耀目飞刃
+	CandyLaserBlast.DisplayName: 糖果激光
+	CandyLaserTrail.DisplayName: 糖果激光
+	DestructoDiskAssaultMini.DisplayName: 迷你元气斩
+	DestructoDiskAssaultProj.DisplayName: 元气斩强袭
+	DestructoDiskProjectile.DisplayName: 元气斩
+	DirtyFireworksProjectile.DisplayName: 肮脏的烟火
+	DoubleSundayBeam.DisplayName: 双重气功波射线
+	DoubleSundayCharge.DisplayName: 双重气功波蓄力
+	EnergyBlastBarrageProjectile.DisplayName: 连续气功弹弹幕
+	EnergyShotBlast.DisplayName: 气功珠
+	EnergyWaveBeam.DisplayName: 气功波射线
+	EnergyWaveCharge.DisplayName: 气功波蓄力
+	EnergyWaveVolleyBlast.DisplayName: 连续气功波
+	EnergyWaveVolleyTrail.DisplayName: 连续气功波轨迹
+	FinalFlashBeam.DisplayName: 终极闪光
+	FinalFlashCharge.DisplayName: 终极闪光球
+	FinalShineBeam.DisplayName: 终极光辉攻击
+	FinalShineCharge.DisplayName: 终极光辉攻击球
+	GalickGunBeam.DisplayName: 伽力炮
+	GalickGunCharge.DisplayName: 伽力炮蓄力
+	HellzoneGrenadeProjectile.DisplayName: 魔空包围弹弹幕
+	HellzoneGrenadeProjectile2.DisplayName: 魔空包围弹弹幕2
+	HolyWrathBall.DisplayName: 神圣逆鳞球
+	HolyWrathExplosion.DisplayName: 神圣逆鳞爆炸
 	BigBangKamehamehaBall.DisplayName: 大爆炸龟派气功波球
 	BigBangKamehamehaBlast.DisplayName: 大爆炸龟派气功波
 	BigBangKamehamehaTrail.DisplayName: 大爆炸龟派气功波轨迹
@@ -298,34 +298,34 @@ Projectiles: {
 	KamehamehaCharge.DisplayName: 龟派气功波球
 	Kamehameha10Beam.DisplayName: 10倍龟派气功波
 	Kamehameha10Charge.DisplayName: 10倍龟派气功波球
-	SuperKamehamehaBeam.DisplayName: SuperKamehamehaBlast
-	SuperKamehamehaCharge.DisplayName: Super 龟派气功波Ball
-	KiBeamProjectile.DisplayName: KiBeamProjectile
-	KiBlastProjectile.DisplayName: Ki Blast
+	SuperKamehamehaBeam.DisplayName: 超级龟派气功波射线
+	SuperKamehamehaCharge.DisplayName: 超级龟派气功波球
+	KiBeamProjectile.DisplayName: 气射线弹幕
+	KiBlastProjectile.DisplayName: 气功波
 	KiSpark.DisplayName: Ki Spark
-	LSSJ2PillarStart.DisplayName: 传说Light Pillar
-	LSSJAuraBall.DisplayName: 传说超级赛亚人Aura Ball
-	LSSJAuraLaser.DisplayName: 传说Laser
-	LSSJAuraLaserBlack.DisplayName: 传说Laser
-	LSSJBarrageProj.DisplayName: 传说Energy Barrage
-	MajinBall.DisplayName: MajinBall
-	MakankosappoBeam.DisplayName: Special Beam Cannon Blast
-	MakankosappoCharge.DisplayName: Special Beam Cannon Ball
-	MasenkoBeam.DisplayName: MasenkoBlast
-	MasenkoCharge.DisplayName: Masenko Ball
-	RadialJavelinProj.DisplayName: Radial Javelin
-	RadiantSpark.DisplayName: 辐辉Spark
-	RockProjectile.DisplayName: Rock
-	ScattershotBlast.DisplayName: ScattershotBlast
-	SpiritBallProjectile.DisplayName: SpiritBallProjectile
-	SpiritBombBall.DisplayName: Spirit Bomb
-	SuperSpiritBombBall.DisplayName: Super Spirit Bomb
-	SuperEnergyBarrageExplosion.DisplayName: Super Energy Barrage Explosion
-	SuperEnergyBarrageProj.DisplayName: Super Energy Barrage Proj
-	SupernovaBall.DisplayName: Supernova Ball
-	TransmissionLinesProj.DisplayName: Transmission Lines Proj
-	TrapShooterExplosion.DisplayName: Trap Shooter Explosion
-	TrapShooterProjectile.DisplayName: TrapShooterProjectile
+	LSSJ2PillarStart.DisplayName: 传说光柱
+	LSSJAuraBall.DisplayName: 传说超级赛亚人光环球
+	LSSJAuraLaser.DisplayName: 传说激光
+	LSSJAuraLaserBlack.DisplayName: 传说激光
+	LSSJBarrageProj.DisplayName: 传说连续能量
+	MajinBall.DisplayName: 魔人球
+	MakankosappoBeam.DisplayName: 魔贯光杀炮射线
+	MakankosappoCharge.DisplayName: 魔贯光杀炮球
+	MasenkoBeam.DisplayName: 魔闪光射线
+	MasenkoCharge.DisplayName: 魔闪光球
+	RadialJavelinProj.DisplayName: 辐辉投枪
+	RadiantSpark.DisplayName: 辐辉闪光
+	RockProjectile.DisplayName: 岩石
+	ScattershotBlast.DisplayName: 连续闪光弹
+	SpiritBallProjectile.DisplayName: 连续闪光弹弹幕
+	SpiritBombBall.DisplayName: 元气弹
+	SuperSpiritBombBall.DisplayName: 超级元气弹
+	SuperEnergyBarrageExplosion.DisplayName: 超级连续气功弹爆炸
+	SuperEnergyBarrageProj.DisplayName: 超级连续气功弹弹幕
+	SupernovaBall.DisplayName: 超新星球
+	TransmissionLinesProj.DisplayName: 瞬间移动线条
+	TrapShooterExplosion.DisplayName: 束缚气弹爆炸
+	TrapShooterProjectile.DisplayName: 束缚气弹弹幕
 }
 
 Items: {
@@ -1546,33 +1546,50 @@ Items: {
 	}
 
 	StableKiCrystal: {
-		DisplayName: Stable Ki Crystal
-		Tooltip: The common spirits of the world live within.
+		DisplayName: 稳定气水晶
+		Tooltip:
+			''' 
+			常世之驻留于此
+			[C/959595:译者补充：地表环境敌怪掉落]
+			'''
 	}
 
 	RadiantFragment: {
 		DisplayName: 辐辉碎片
-		Tooltip: The endurance of the cosmos crackles around this fragment
+		Tooltip: 宇宙的坚韧在碎片周围作响
 	}
 
 	SatanicCloth: {
-		DisplayName: Satanic Cloth
-		Tooltip: The cloth radiates with animosity.
+		DisplayName: 撒旦织布
+		Tooltip: 这块布散发着敌意
 	}
 
 	ScrapMetal: {
-		DisplayName: Scrap Metal
-		Tooltip: An old piece of metal, seems like something a junk merchant would sell.
+		DisplayName: 废金属
+		Tooltip:
+			''' 
+			老旧金属碎片，看起来像是破烂商人会卖的东西
+			[C/959595:译者补充：商人售卖]
+			'''
 	}
 
 	SkeletalEssence: {
-		DisplayName: Skeletal Essence
-		Tooltip: A chunk of the dungeon's inhabitants.
+		DisplayName: 骸骨精华
+		Tooltip:
+			''' 
+			来自地牢遗民的残骸
+			[C/959595:译者补充：击败骷髅王后，地牢内敌怪有20%概率掉落]
+			'''
 	}
 
 	SoulofEntity: {
-		DisplayName: Soul of Entity
-		Tooltip: The soul of a reanimated foe.
+		DisplayName: 实体之魂
+		Tooltip:
+			''' 
+			来自复生敌人的灵魂
+			[C/959595:译者补充：击败所有机械Boss后]
+			[C/959595:猩红斧、附魔剑、诅咒锤和装甲幻影魔有33%概率掉落]
+			'''
 	}
 
 	Choco1: {
@@ -1611,8 +1628,8 @@ Items: {
 	}
 
 	RefinedMetal: {
-		DisplayName: Refined Metal
-		Tooltip: A high quality refined piece of metal, it is incredibly durable.
+		DisplayName: 精炼金属
+		Tooltip: 一块高质量的精炼金属，坚不可摧
 	}
 
 	RadiantHamaxe: {
@@ -1902,8 +1919,8 @@ Tiles: {
 	ThreeStarDBTile.MapEntry: 3星龙珠
 	TwoStarDBTile.MapEntry: 2星龙珠
 	KaiTable.MapEntry: 龙珠改桌
-	KiBeaconTile.MapEntry: Ki Beacon
-	KiLantern.MapEntry: Ki Lantern
+	KiBeaconTile.MapEntry: 气之灯塔
+	KiLantern.MapEntry: 气弥散仪
 	ZTable.MapEntry: 龙珠Z桌
 }
 
@@ -1934,11 +1951,11 @@ Configs: {
 		DisplayName: 服务器配置
 
 		RespectDragonBallOwnership: {
-			Label: Respect Dragon Ball Ownership
+			Label: 尊重龙珠所有权
 			Tooltip:
 				'''
-				Whether to validate the user has collected that ball or not.
-				Turning this off means anyone can use a set of dragon balls if they are in chests.
+				验证单独玩家所收集的龙珠
+				关闭此选项意味着任何人都可以使用箱子中的龙珠
 				'''
 		}
 	}
