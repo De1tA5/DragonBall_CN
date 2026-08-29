@@ -1,5 +1,7 @@
 displayName = 龙珠汉化合集
 author = 三杯伍迪
 version = 1.0
-sortAfter = DBZMODPORT,SSBETES,
 side = Client
+sortAfter = DBZMODPORT,SSBETES,
+modReferences = DBZMODPORT
+dllReferences = TigerForceLocalizationLib

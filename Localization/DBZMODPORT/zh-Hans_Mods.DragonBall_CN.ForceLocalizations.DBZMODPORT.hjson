@@ -1,0 +1,5740 @@
+DBZWorld+<>c: {
+	<ModifyInterfaceLayers>b__62_2: {
+		1: {
+			// NewString: Resource Bars
+			// OldString: Resource Bars
+		}
+	}
+
+	<ModifyInterfaceLayers>b__62_1: {
+		1: {
+			// NewString: Resource Bars
+			// OldString: Resource Bars
+		}
+	}
+
+	<ModifyInterfaceLayers>b__62_0: {
+		1: {
+			// NewString: Resource Bars
+			// OldString: Resource Bars
+		}
+	}
+
+	<ModifyWorldGenTasks>b__25_1: {
+		1: {
+			// NewString: Micro Biomes
+			// OldString: Micro Biomes
+		}
+	}
+
+	<ModifyWorldGenTasks>b__25_0: {
+		1: {
+			// NewString: Planting Trees
+			// OldString: Planting Trees
+		}
+	}
+}
+
+DBZWorld: {
+	SaveWorldData: {
+		1: {
+			// OldString: KiBeacons
+			// NewString: KiBeacons
+		}
+
+		2: {
+			// OldString: DragonBall
+			// NewString: DragonBall
+		}
+
+		3: {
+			// OldString: LocationX
+			// NewString: LocationX
+		}
+
+		4: {
+			// OldString: LocationY
+			// NewString: LocationY
+		}
+
+		5: {
+			// OldString: Chest-
+			// NewString: Chest-
+		}
+
+		6: {
+			// OldString: |
+			// NewString: |
+		}
+	}
+
+	LoadWorldData: {
+		1: {
+			// OldString: KiBeacons
+			// NewString: KiBeacons
+		}
+
+		2: {
+			// OldString: DragonBall
+			// NewString: DragonBall
+		}
+
+		3: {
+			// OldString: LocationX
+			// NewString: LocationX
+		}
+
+		4: {
+			// OldString: LocationY
+			// NewString: LocationY
+		}
+
+		5: {
+			// OldString: Chest-
+			// NewString: Chest-
+		}
+
+		6: {
+			// OldString: |
+			// NewString: |
+		}
+	}
+
+	ModifyWorldGenTasks: {
+		1: {
+			// OldString: "[DBZMODPORT] Gohan House"
+			// NewString: "[DBZMODPORT] Gohan House"
+		}
+
+		2: {
+			// OldString: "[DBZMODPORT] Gohan House Validation"
+			// NewString: "[DBZMODPORT] Gohan House Validation"
+		}
+
+		3: {
+			// OldString: "[DBZMODPORT] Placing dragon balls"
+			// NewString: "[DBZMODPORT] Placing dragon balls"
+		}
+	}
+
+	AddGohanHouse: {
+		1: {
+			// OldString: Oh no, an error happened [AddGohanHouse]! Report this to NuovaPrime or MercuriusXeno and send them the file Terraria/ModLoader/Logs/Logs.txt
+			// NewString: Oh no, an error happened [AddGohanHouse]! Report this to NuovaPrime or MercuriusXeno and send them the file Terraria/ModLoader/Logs/Logs.txt
+		}
+	}
+
+	CleanupGohanHouse: {
+		1: {
+			// OldString: Oh no, an error happened [CleanupGohanHouse]! Report this to NuovaPrime or MercuriusXeno and send them the file Terraria/ModLoader/Logs/Logs.txt
+			// NewString: Oh no, an error happened [CleanupGohanHouse]! Report this to NuovaPrime or MercuriusXeno and send them the file Terraria/ModLoader/Logs/Logs.txt
+		}
+	}
+
+	PlaceDragonBalls: {
+		1: {
+			// OldString: Oh no, an error happened [PlacingDragonBalls]! Report this to NuovaPrime or MercuriusXeno and send them the file Terraria/ModLoader/Logs/Logs.txt
+			// NewString: Oh no, an error happened [PlacingDragonBalls]! Report this to NuovaPrime or MercuriusXeno and send them the file Terraria/ModLoader/Logs/Logs.txt
+		}
+	}
+
+	MakeGohanHouse: {
+		1: {
+			// OldString: Creating the house of a legend.
+			// NewString: Creating the house of a legend.
+		}
+	}
+
+	RunGohanCleanupRoutine: {
+		1: {
+			// OldString: Cleaning up Grandpa's House...
+			// NewString: Cleaning up Grandpa's House...
+		}
+	}
+
+	AttemptToPlaceDragonBallsInWorld: {
+		1: {
+			// OldString: Placing Dragon Balls
+			// NewString: Placing Dragon Balls
+		}
+	}
+
+	CleanupAndRegenerateDragonBalls: {
+		1: {
+			// OldString: Server is running cleanup routine.
+			// NewString: Server is running cleanup routine.
+		}
+
+		2: {
+			// OldString: Server is running dragon ball confirmation routine.
+			// NewString: Server is running dragon ball confirmation routine.
+		}
+
+		3: {
+			// OldString: "Server thinks dragon ball "
+			// NewString: "Server thinks dragon ball "
+		}
+
+		4: {
+			// OldString: " is missing."
+			// NewString: " is missing."
+		}
+	}
+
+	GetDragonBallNumberName: {
+		1: {
+			// OldString: One
+			// NewString: One
+		}
+
+		2: {
+			// OldString: Two
+			// NewString: Two
+		}
+
+		3: {
+			// OldString: Three
+			// NewString: Three
+		}
+
+		4: {
+			// OldString: Four
+			// NewString: Four
+		}
+
+		5: {
+			// OldString: Five
+			// NewString: Five
+		}
+
+		6: {
+			// OldString: Six
+			// NewString: Six
+		}
+
+		7: {
+			// OldString: Seven
+			// NewString: Seven
+		}
+	}
+
+	dbtypehelp: {
+		1: {
+			// OldString: One
+			// NewString: One
+		}
+
+		2: {
+			// OldString: Two
+			// NewString: Two
+		}
+
+		3: {
+			// OldString: Three
+			// NewString: Three
+		}
+
+		4: {
+			// OldString: Four
+			// NewString: Four
+		}
+
+		5: {
+			// OldString: Five
+			// NewString: Five
+		}
+
+		6: {
+			// OldString: Six
+			// NewString: Six
+		}
+
+		7: {
+			// OldString: Seven
+			// NewString: Seven
+		}
+	}
+
+	ModifyInterfaceLayers: {
+		1: {
+			// OldString: DBZMODPORT: Ki Bar
+			// NewString: DBZMODPORT: Ki Bar
+		}
+
+		2: {
+			// OldString: DBZMODPORT: Menus
+			// NewString: DBZMODPORT: Menus
+		}
+
+		3: {
+			// OldString: DBZMODPORT: Overload Bar
+			// NewString: DBZMODPORT: Overload Bar
+		}
+	}
+}
+
+DBZMODPORT+<>c: {
+	<AddRecipeGroups>b__8_0: {
+		1: {
+			// NewString: " Ki Fragment"
+			// OldString: " Ki Fragment"
+		}
+	}
+}
+
+DBZMODPORT: {
+	Log: {
+		1: {
+			// OldString: "[Server]: "
+			// NewString: "[Server]: "
+		}
+
+		2: {
+			// OldString: "[Client]: "
+			// NewString: "[Client]: "
+		}
+
+		3: {
+			// OldString: ""
+			// NewString: ""
+		}
+	}
+
+	Load: {
+		1: {
+			// OldString: Kaioken
+			// NewString: Kaioken
+		}
+
+		2: {
+			// OldString: J
+			// NewString: J
+		}
+
+		3: {
+			// OldString: Energy Charge
+			// NewString: Energy Charge
+		}
+
+		4: {
+			// OldString: C
+			// NewString: C
+		}
+
+		5: {
+			// OldString: Transform
+			// NewString: Transform
+		}
+
+		6: {
+			// OldString: X
+			// NewString: X
+		}
+
+		7: {
+			// OldString: Power Down
+			// NewString: Power Down
+		}
+
+		8: {
+			// OldString: V
+			// NewString: V
+		}
+
+		9: {
+			// OldString: Speed Toggle
+			// NewString: Speed Toggle
+		}
+
+		10: {
+			// OldString: Z
+			// NewString: Z
+		}
+
+		11: {
+			// OldString: Quick Ki
+			// NewString: Quick Ki
+		}
+
+		12: {
+			// OldString: N
+			// NewString: N
+		}
+
+		13: {
+			// OldString: Transformation Menu
+			// NewString: Transformation Menu
+		}
+
+		14: {
+			// OldString: K
+			// NewString: K
+		}
+
+		15: {
+			// OldString: Instant Transmission
+			// NewString: Instant Transmission
+		}
+
+		16: {
+			// OldString: I
+			// NewString: I
+		}
+
+		17: {
+			// OldString: Flight Toggle
+			// NewString: Flight Toggle
+		}
+
+		18: {
+			// OldString: Q
+			// NewString: Q
+		}
+
+		19: {
+			// OldString: Armor Bonus
+			// NewString: Armor Bonus
+		}
+
+		20: {
+			// OldString: Y
+			// NewString: Y
+		}
+
+		21: {
+			// OldString: DBZMODPORT/Effects/CircleShader
+			// NewString: DBZMODPORT/Effects/CircleShader
+		}
+
+		22: {
+			// OldString: Pass1
+			// NewString: Pass1
+		}
+
+		23: {
+			// OldString: DBZMODPORT:GodSky
+			// NewString: DBZMODPORT:GodSky
+		}
+
+		24: {
+			// OldString: FilterMiniTower
+			// NewString: FilterMiniTower
+		}
+
+		25: {
+			// OldString: DBZMODPORT:WishSky
+			// NewString: DBZMODPORT:WishSky
+		}
+	}
+
+	AddRecipeGroups: {
+		1: {
+			// OldString: DBZMODPORT:KiFragment
+			// NewString: DBZMODPORT:KiFragment
+		}
+	}
+}
+
+Buffs: {
+	TransBuff: {
+		AssembleTransBuffDescription: {
+			13: {
+				// NewString: /s.
+				// OldString: /s.
+			}
+
+			12: {
+				NewString:
+					'''
+
+					生命损失： -
+					'''
+				/* OldString:
+					'''
+
+					Life Drain: -
+					''' */
+			}
+
+			11: {
+				NewString: /s精通时
+				// OldString: /s when mastered
+			}
+
+			10: {
+				// NewString: ", "
+				// OldString: ", "
+			}
+
+			1: {
+				/*NewString:
+					'''
+					3倍
+
+					''' */
+				/* OldString:
+					'''
+					(x3)
+
+					''' */
+			}
+
+			9: {
+				// NewString: /s
+				// OldString: /s
+			}
+
+			8: {
+				NewString:
+					'''
+
+					气损失：
+					'''
+				/* OldString:
+					'''
+
+					Ki Drain: 
+					''' */
+			}
+
+			7: {
+				NewString:
+					'''
+
+					气消耗
+					'''
+				/* OldString:
+					'''
+
+					Ki Costs
+					''' */
+			}
+
+			6: {
+				NewString: " 移动速度"
+				// OldString: " Speed"
+			}
+
+			5: {
+				NewString: 伤害
+				// OldString: Damage
+			}
+
+			4: {
+				/* NewString:
+					'''
+					(x20)
+
+					''' */
+				/* OldString:
+					'''
+					(x20)
+
+					''' */
+			}
+
+			3: {
+				/* NewString:
+					'''
+					(x10)
+
+					''' */
+				/* OldString:
+					'''
+					(x10)
+
+					''' */
+			}
+
+			2: {
+				/* NewString:
+					'''
+					(x4)
+
+					''' */
+				/* OldString:
+					'''
+					(x4)
+
+					''' */
+			}
+		}
+
+		GetPercentForDisplay: {
+			2: {
+				// NewString: +
+				// OldString: +
+			}
+
+			1: {
+				// NewString: "{0}{1} {2}{3}%"
+				// OldString: "{0}{1} {2}{3}%"
+			}
+		}
+	}
+
+	KaiokenBuff: {
+		GetKaiokenNameFromKaiokenLevel: {
+			5: {
+				// NewString: Kaioken x20
+				// OldString: Kaioken x20
+			}
+
+			4: {
+				// NewString: Kaioken x10
+				// OldString: Kaioken x10
+			}
+
+			3: {
+				// NewString: Kaioken x4
+				// OldString: Kaioken x4
+			}
+
+			2: {
+				// NewString: Kaioken x3
+				// OldString: Kaioken x3
+			}
+
+			1: {
+				// NewString: Kaioken
+				// OldString: Kaioken
+			}
+		}
+	}
+}
+
+Destruction: {
+	BaseFloatingDestructionProj: {
+		SpawnNewFloatingRock: {
+			1: {
+				// NewString: Destruction
+				// OldString: Destruction
+			}
+		}
+	}
+}
+
+Effects: {
+	Animations: {
+		Aura: {
+			AuraAnimations: {
+				GetAnimationSpriteName: {
+					1: {
+						// NewString: DBZMODPORT/Effects/Animations/Aura/
+						// OldString: DBZMODPORT/Effects/Animations/Aura/
+					}
+				}
+			}
+		}
+	}
+
+	CircleShader: {
+		ApplyShader: {
+			1: {
+				// NewString: Radius
+				// OldString: Radius
+			}
+		}
+	}
+}
+
+Items: {
+	Accessories: {
+		Infusers: {
+			InfuserTopaz: {
+				AddRecipes: {
+					2: {
+						// NewString: ScrapMetal
+						// OldString: ScrapMetal
+					}
+
+					1: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+				}
+			}
+
+			InfuserSapphire: {
+				AddRecipes: {
+					2: {
+						// NewString: ScrapMetal
+						// OldString: ScrapMetal
+					}
+
+					1: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+				}
+			}
+
+			InfuserRuby: {
+				AddRecipes: {
+					2: {
+						// NewString: ScrapMetal
+						// OldString: ScrapMetal
+					}
+
+					1: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+				}
+			}
+
+			InfuserRainbow: {
+				AddRecipes: {
+					9: {
+						// NewString: InfuserRuby
+						// OldString: InfuserRuby
+					}
+
+					8: {
+						// NewString: InfuserSapphire
+						// OldString: InfuserSapphire
+					}
+
+					7: {
+						// NewString: InfuserDiamond
+						// OldString: InfuserDiamond
+					}
+
+					6: {
+						// NewString: InfuserEmerald
+						// OldString: InfuserEmerald
+					}
+
+					5: {
+						// NewString: InfuserTopaz
+						// OldString: InfuserTopaz
+					}
+
+					4: {
+						// NewString: InfuserAmethyst
+						// OldString: InfuserAmethyst
+					}
+
+					3: {
+						// NewString: InfuserAmber
+						// OldString: InfuserAmber
+					}
+
+					2: {
+						// NewString: ScrapMetal
+						// OldString: ScrapMetal
+					}
+
+					1: {
+						// NewString: PureKiCrystal
+						// OldString: PureKiCrystal
+					}
+				}
+			}
+
+			InfuserEmerald: {
+				AddRecipes: {
+					2: {
+						// NewString: ScrapMetal
+						// OldString: ScrapMetal
+					}
+
+					1: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+				}
+			}
+
+			InfuserDiamond: {
+				AddRecipes: {
+					2: {
+						// NewString: ScrapMetal
+						// OldString: ScrapMetal
+					}
+
+					1: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+				}
+			}
+
+			InfuserAmethyst: {
+				AddRecipes: {
+					2: {
+						// NewString: ScrapMetal
+						// OldString: ScrapMetal
+					}
+
+					1: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+				}
+			}
+
+			InfuserAmber: {
+				AddRecipes: {
+					2: {
+						// NewString: ScrapMetal
+						// OldString: ScrapMetal
+					}
+
+					1: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+				}
+			}
+		}
+
+		Vanity: {
+			GreenPotara: {
+				SetDefaults: {
+					1: {
+						// NewString: FullNovaAlchemist
+						// OldString: FullNovaAlchemist
+					}
+				}
+			}
+		}
+
+		ZenkaiCharm: {
+			AddRecipes: {
+				3: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				2: {
+					// NewString: SoulofEntity
+					// OldString: SoulofEntity
+				}
+
+				1: {
+					// NewString: AngerKiCrystal
+					// OldString: AngerKiCrystal
+				}
+			}
+		}
+
+		WornGloves: {
+			AddRecipes: {
+				1: {
+					// NewString: CalmKiCrystal
+					// OldString: CalmKiCrystal
+				}
+			}
+		}
+
+		TopazNecklace: {
+			AddRecipes: {
+				1: {
+					// NewString: EmptyNecklace
+					// OldString: EmptyNecklace
+				}
+			}
+		}
+
+		TimeRing: {
+			AddRecipes: {
+				1: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+			}
+
+			SetDefaults: {
+				1: {
+					// NewString: Lethaius
+					// OldString: Lethaius
+				}
+			}
+		}
+
+		SpiritCharm: {
+			AddRecipes: {
+				3: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+
+				2: {
+					// NewString: DragonGemNecklace
+					// OldString: DragonGemNecklace
+				}
+
+				1: {
+					// NewString: SpiritualEmblem
+					// OldString: SpiritualEmblem
+				}
+			}
+		}
+
+		SenzuBag: {
+			AddRecipes: {
+				1: {
+					// NewString: SenzuBean
+					// OldString: SenzuBean
+				}
+			}
+		}
+
+		ScouterT6: {
+			AddRecipes: {
+				3: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+
+				2: {
+					// NewString: ScouterT5
+					// OldString: ScouterT5
+				}
+
+				1: {
+					// NewString: RadiantFragment
+					// OldString: RadiantFragment
+				}
+			}
+		}
+
+		ScouterT5: {
+			AddRecipes: {
+				3: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+
+				2: {
+					// NewString: ScouterT4
+					// OldString: ScouterT4
+				}
+
+				1: {
+					// NewString: PureKiCrystal
+					// OldString: PureKiCrystal
+				}
+			}
+		}
+
+		ScouterT4: {
+			AddRecipes: {
+				3: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				2: {
+					// NewString: ScouterT3
+					// OldString: ScouterT3
+				}
+
+				1: {
+					// NewString: AngerKiCrystal
+					// OldString: AngerKiCrystal
+				}
+			}
+		}
+
+		ScouterT3: {
+			AddRecipes: {
+				3: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				2: {
+					// NewString: ScouterT2
+					// OldString: ScouterT2
+				}
+
+				1: {
+					// NewString: PridefulKiCrystal
+					// OldString: PridefulKiCrystal
+				}
+			}
+		}
+
+		ScouterT2: {
+			AddRecipes: {
+				3: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				2: {
+					// NewString: ScrapMetal
+					// OldString: ScrapMetal
+				}
+
+				1: {
+					// NewString: CalmKiCrystal
+					// OldString: CalmKiCrystal
+				}
+			}
+		}
+
+		SapphireNecklace: {
+			AddRecipes: {
+				1: {
+					// NewString: EmptyNecklace
+					// OldString: EmptyNecklace
+				}
+			}
+		}
+
+		RubyNecklace: {
+			AddRecipes: {
+				1: {
+					// NewString: EmptyNecklace
+					// OldString: EmptyNecklace
+				}
+			}
+		}
+
+		RadiantTotem: {
+			AddRecipes: {
+				3: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+
+				2: {
+					// NewString: DemonicSoul
+					// OldString: DemonicSoul
+				}
+
+				1: {
+					// NewString: RadiantFragment
+					// OldString: RadiantFragment
+				}
+			}
+		}
+
+		RadiantGlider: {
+			AddRecipes: {
+				1: {
+					// NewString: RadiantFragment
+					// OldString: RadiantFragment
+				}
+			}
+		}
+
+		PureEnergyCirclet: {
+			AddRecipes: {
+				3: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				2: {
+					// NewString: IceTalisman
+					// OldString: IceTalisman
+				}
+
+				1: {
+					// NewString: BurningEnergyAmulet
+					// OldString: BurningEnergyAmulet
+				}
+			}
+		}
+
+		MetamoranSash: {
+			SetDefaults: {
+				1: {
+					// NewString: Chese780
+					// OldString: Chese780
+				}
+			}
+		}
+
+		LargeTurtleShell: {
+			AddRecipes: {
+				1: {
+					// NewString: PridefulKiCrystal
+					// OldString: PridefulKiCrystal
+				}
+			}
+		}
+
+		KiChip: {
+			AddRecipes: {
+				2: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				1: {
+					// NewString: StableKiCrystal
+					// OldString: StableKiCrystal
+				}
+			}
+		}
+
+		KaioCrystal: {
+			AddRecipes: {
+				2: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				1: {
+					// NewString: AngerKiCrystal
+					// OldString: AngerKiCrystal
+				}
+			}
+		}
+
+		EmeraldNecklace: {
+			AddRecipes: {
+				1: {
+					// NewString: EmptyNecklace
+					// OldString: EmptyNecklace
+				}
+			}
+		}
+
+		EarthenSigil: {
+			AddRecipes: {
+				3: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				2: {
+					// NewString: PridefulKiCrystal
+					// OldString: PridefulKiCrystal
+				}
+
+				1: {
+					// NewString: EarthenShard
+					// OldString: EarthenShard
+				}
+			}
+		}
+
+		EarthenScarab: {
+			AddRecipes: {
+				3: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				2: {
+					// NewString: AstralEssentia
+					// OldString: AstralEssentia
+				}
+
+				1: {
+					// NewString: EarthenShard
+					// OldString: EarthenShard
+				}
+			}
+		}
+
+		EarthenArcanium: {
+			AddRecipes: {
+				4: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				3: {
+					// NewString: PridefulKiCrystal
+					// OldString: PridefulKiCrystal
+				}
+
+				2: {
+					// NewString: EarthenSigil
+					// OldString: EarthenSigil
+				}
+
+				1: {
+					// NewString: EarthenScarab
+					// OldString: EarthenScarab
+				}
+			}
+		}
+
+		DragonGemNecklace: {
+			AddRecipes: {
+				8: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				7: {
+					// NewString: DiamondNecklace
+					// OldString: DiamondNecklace
+				}
+
+				6: {
+					// NewString: RubyNecklace
+					// OldString: RubyNecklace
+				}
+
+				5: {
+					// NewString: EmeraldNecklace
+					// OldString: EmeraldNecklace
+				}
+
+				4: {
+					// NewString: SapphireNecklace
+					// OldString: SapphireNecklace
+				}
+
+				3: {
+					// NewString: AmethystNecklace
+					// OldString: AmethystNecklace
+				}
+
+				2: {
+					// NewString: TopazNecklace
+					// OldString: TopazNecklace
+				}
+
+				1: {
+					// NewString: AmberNecklace
+					// OldString: AmberNecklace
+				}
+			}
+		}
+
+		DiamondNecklace: {
+			AddRecipes: {
+				1: {
+					// NewString: EmptyNecklace
+					// OldString: EmptyNecklace
+				}
+			}
+		}
+
+		CrystalliteFlow: {
+			AddRecipes: {
+				5: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+
+				4: {
+					// NewString: CrystalliteControl
+					// OldString: CrystalliteControl
+				}
+
+				3: {
+					// NewString: SoulofEntity
+					// OldString: SoulofEntity
+				}
+
+				2: {
+					// NewString: PureKiCrystal
+					// OldString: PureKiCrystal
+				}
+
+				1: {
+					// NewString: AngerKiCrystal
+					// OldString: AngerKiCrystal
+				}
+			}
+		}
+
+		CrystalliteControl: {
+			AddRecipes: {
+				5: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				4: {
+					// NewString: SkeletalEssence
+					// OldString: SkeletalEssence
+				}
+
+				3: {
+					// NewString: AstralEssentia
+					// OldString: AstralEssentia
+				}
+
+				2: {
+					// NewString: PridefulKiCrystal
+					// OldString: PridefulKiCrystal
+				}
+
+				1: {
+					// NewString: CalmKiCrystal
+					// OldString: CalmKiCrystal
+				}
+			}
+		}
+
+		CrystalliteAlleviate: {
+			AddRecipes: {
+				2: {
+					// NewString: CrystalliteFlow
+					// OldString: CrystalliteFlow
+				}
+
+				1: {
+					// NewString: RadiantFragment
+					// OldString: RadiantFragment
+				}
+			}
+		}
+
+		BuldariumSigmite: {
+			AddRecipes: {
+				3: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+
+				2: {
+					// NewString: KiChip
+					// OldString: KiChip
+				}
+
+				1: {
+					// NewString: BaldurEssentia
+					// OldString: BaldurEssentia
+				}
+			}
+		}
+
+		BlackDiamondShell: {
+			AddRecipes: {
+				3: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+
+				2: {
+					// NewString: EarthenShard
+					// OldString: EarthenShard
+				}
+
+				1: {
+					// NewString: LargeTurtleShell
+					// OldString: LargeTurtleShell
+				}
+			}
+		}
+
+		BattleKit: {
+			AddRecipes: {
+				4: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				3: {
+					// NewString: ArmCannon
+					// OldString: ArmCannon
+				}
+
+				2: {
+					// NewString: WornGloves
+					// OldString: WornGloves
+				}
+
+				1: {
+					// NewString: ScouterT2
+					// OldString: ScouterT2
+				}
+			}
+		}
+
+		AncientLegendWaistCape: {
+			AddRecipes: {
+				3: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+
+				2: {
+					// NewString: SatanicCloth
+					// OldString: SatanicCloth
+				}
+
+				1: {
+					// NewString: PureKiCrystal
+					// OldString: PureKiCrystal
+				}
+			}
+		}
+
+		AncientLegendNecklace: {
+			AddRecipes: {
+				3: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+
+				2: {
+					// NewString: DemonicSoul
+					// OldString: DemonicSoul
+				}
+
+				1: {
+					// NewString: PureKiCrystal
+					// OldString: PureKiCrystal
+				}
+			}
+		}
+
+		AmethystNecklace: {
+			AddRecipes: {
+				1: {
+					// NewString: EmptyNecklace
+					// OldString: EmptyNecklace
+				}
+			}
+		}
+
+		AmberNecklace: {
+			AddRecipes: {
+				1: {
+					// NewString: EmptyNecklace
+					// OldString: EmptyNecklace
+				}
+			}
+		}
+	}
+
+	Armor: {
+		ArmorSets: {
+			SaiyanScoutScalemail: {
+				UpdateArmorSet: {
+					1: {
+						// NewString: +100 Max Ki.
+						// OldString: +100 Max Ki.
+					}
+				}
+			}
+
+			SaiyanLeggings: {
+				AddRecipes: {
+					1: {
+						// NewString: SkeletalEssence
+						// OldString: SkeletalEssence
+					}
+				}
+			}
+
+			SaiyanBreastplate: {
+				AddRecipes: {
+					1: {
+						// NewString: SkeletalEssence
+						// OldString: SkeletalEssence
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* NewString:
+							'''
+							Drastically increased pickup range for ki orbs.
+							+500 Max Ki and 8% Reduced Ki Usage
+							''' */
+						/* OldString:
+							'''
+							Drastically increased pickup range for ki orbs.
+							+500 Max Ki and 8% Reduced Ki Usage
+							''' */
+					}
+				}
+			}
+
+			RadiantVisor: {
+				AddRecipes: {
+					1: {
+						// NewString: RadiantFragment
+						// OldString: RadiantFragment
+					}
+				}
+			}
+
+			RadiantScalepiece: {
+				AddRecipes: {
+					1: {
+						// NewString: RadiantFragment
+						// OldString: RadiantFragment
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* NewString:
+							'''
+							Hitting enemies heals a random amount of ki and fires off homing projectiles at nearby enemies.
+							Increased Ki Regen and +200 Max Life
+							''' */
+						/* OldString:
+							'''
+							Hitting enemies heals a random amount of ki and fires off homing projectiles at nearby enemies.
+							Increased Ki Regen and +200 Max Life
+							''' */
+					}
+				}
+			}
+
+			RadiantGreaves: {
+				AddRecipes: {
+					1: {
+						// NewString: RadiantFragment
+						// OldString: RadiantFragment
+					}
+				}
+			}
+
+			HermitPants: {
+				AddRecipes: {
+					1: {
+						// NewString: EarthenShard
+						// OldString: EarthenShard
+					}
+				}
+			}
+
+			HermitGi: {
+				AddRecipes: {
+					1: {
+						// NewString: EarthenShard
+						// OldString: EarthenShard
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// NewString: 15% reduced ki usage and +200 Max Ki.
+						// OldString: 15% reduced ki usage and +200 Max Ki.
+					}
+				}
+			}
+
+			EliteSaiyanLeggings: {
+				AddRecipes: {
+					3: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					2: {
+						// NewString: KatchinScale
+						// OldString: KatchinScale
+					}
+
+					1: {
+						// NewString: SaiyanLeggings
+						// OldString: SaiyanLeggings
+					}
+				}
+			}
+
+			EliteSaiyanBreastplate: {
+				AddRecipes: {
+					3: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					2: {
+						// NewString: KatchinScale
+						// OldString: KatchinScale
+					}
+
+					1: {
+						// NewString: SaiyanBreastplate
+						// OldString: SaiyanBreastplate
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* NewString:
+							'''
+							Taking fatal damage will instead restore you to max life with x2 damage for a short time,
+							1 minute cooldown.
+							+150 Max Life
+							''' */
+						/* OldString:
+							'''
+							Taking fatal damage will instead restore you to max life with x2 damage for a short time,
+							1 minute cooldown.
+							+150 Max Life
+							''' */
+					}
+				}
+			}
+
+			DemonShirt: {
+				AddRecipes: {
+					1: {
+						// NewString: SatanicCloth
+						// OldString: SatanicCloth
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// NewString: Pressing `Armor Bonus` grants you Demonic Overdrive, granting infinite ki for a limited time.
+						// OldString: Pressing `Armor Bonus` grants you Demonic Overdrive, granting infinite ki for a limited time.
+					}
+				}
+			}
+
+			DemonLeggings: {
+				AddRecipes: {
+					1: {
+						// NewString: SatanicCloth
+						// OldString: SatanicCloth
+					}
+				}
+			}
+
+			BlackFusionShirt: {
+				AddRecipes: {
+					2: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					1: {
+						// NewString: DivineThreads
+						// OldString: DivineThreads
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* NewString:
+							'''
+							All damage is slowly increased while a boss is alive, limits at 300%.
+							+100 Max Life
+							''' */
+						/* OldString:
+							'''
+							All damage is slowly increased while a boss is alive, limits at 300%.
+							+100 Max Life
+							''' */
+					}
+				}
+			}
+
+			BlackFusionPants: {
+				AddRecipes: {
+					2: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					1: {
+						// NewString: DivineThreads
+						// OldString: DivineThreads
+					}
+				}
+			}
+		}
+
+		Vanity: {
+			CanadianDemonShirt: {
+				AddRecipes: {
+					1: {
+						// NewString: DemonShirt
+						// OldString: DemonShirt
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// NewString: Pressing `Armor Bonus` grants you Demonic Overdrive, granting infinite ki for a limited time.
+						// OldString: Pressing `Armor Bonus` grants you Demonic Overdrive, granting infinite ki for a limited time.
+					}
+				}
+
+				SetDefaults: {
+					1: {
+						// NewString: CanadianMRE
+						// OldString: CanadianMRE
+					}
+				}
+			}
+
+			CanadianDemonLeggings: {
+				AddRecipes: {
+					1: {
+						// NewString: DemonLeggings
+						// OldString: DemonLeggings
+					}
+				}
+
+				SetDefaults: {
+					1: {
+						// NewString: CanadianMRE
+						// OldString: CanadianMRE
+					}
+				}
+			}
+		}
+
+		TitaniumCap: {
+			UpdateArmorSet: {
+				1: {
+					// NewString: Briefly become invulnerable after striking an enemy
+					// OldString: Briefly become invulnerable after striking an enemy
+				}
+			}
+		}
+
+		PalladiumBlindfoldCrown: {
+			UpdateArmorSet: {
+				1: {
+					// NewString: Hitting an enemy has a chance to drop ki orbs
+					// OldString: Hitting an enemy has a chance to drop ki orbs
+				}
+			}
+		}
+
+		OrichalcumHat: {
+			UpdateArmorSet: {
+				1: {
+					// NewString: Flower petals will fall on your target for extra damage
+					// OldString: Flower petals will fall on your target for extra damage
+				}
+			}
+		}
+
+		MythrilGlasses: {
+			UpdateArmorSet: {
+				1: {
+					// NewString: Ki orbs regenerate twice as much ki.
+					// OldString: Ki orbs regenerate twice as much ki.
+				}
+			}
+		}
+
+		HallowedFedora: {
+			UpdateArmorSet: {
+				1: {
+					/* NewString:
+						'''
+						9% Increased Ki Damage
+						+200 Max Ki
+						''' */
+					/* OldString:
+						'''
+						9% Increased Ki Damage
+						+200 Max Ki
+						''' */
+				}
+			}
+		}
+
+		CobaltCrown: {
+			UpdateArmorSet: {
+				1: {
+					// NewString: 15% increased ki knockback
+					// OldString: 15% increased ki knockback
+				}
+			}
+		}
+
+		ChlorophyteHeadpiece: {
+			UpdateArmorSet: {
+				1: {
+					// NewString: Getting hit gives greatly increased life regen and ki regen.
+					// OldString: Getting hit gives greatly increased life regen and ki regen.
+				}
+			}
+		}
+
+		AdamantiteVisor: {
+			UpdateArmorSet: {
+				1: {
+					// NewString: 7% Increased Ki Damage
+					// OldString: 7% Increased Ki Damage
+				}
+			}
+		}
+	}
+
+	Consumables: {
+		BukuujutsuVols: {
+			BukuujutsuVol3: {
+				AddRecipes: {
+					2: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					1: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+				}
+
+				UseItem: {
+					1: {
+						// NewString: Your flight now takes barely any ki.
+						// OldString: Your flight now takes barely any ki.
+					}
+				}
+			}
+
+			BukuujutsuVol2: {
+				AddRecipes: {
+					2: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					1: {
+						// NewString: PridefulKiCrystal
+						// OldString: PridefulKiCrystal
+					}
+				}
+
+				UseItem: {
+					1: {
+						// NewString: You now take no fall damage for 10 seconds after flying.
+						// OldString: You now take no fall damage for 10 seconds after flying.
+					}
+				}
+			}
+
+			BukuujutsuVol1: {
+				AddRecipes: {
+					2: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					1: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+				}
+
+				UseItem: {
+					2: {
+						// NewString: Bind a key to flight toggle to use it.
+						// OldString: Bind a key to flight toggle to use it.
+					}
+
+					1: {
+						// NewString: You have unlocked flight.
+						// OldString: You have unlocked flight.
+					}
+				}
+			}
+		}
+
+		KaioFragments: {
+			KaioFragmentFirst: {
+				UseItem: {
+					1: {
+						// NewString: You feel your power surge.
+						// OldString: You feel your power surge.
+					}
+				}
+			}
+		}
+
+		KiEssences: {
+			KiEssence5: {
+				AddRecipes: {
+					5: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+
+					4: {
+						// NewString: CalmKiCrystal
+						// OldString: CalmKiCrystal
+					}
+
+					3: {
+						// NewString: PridefulKiCrystal
+						// OldString: PridefulKiCrystal
+					}
+
+					2: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+
+					1: {
+						// NewString: PureKiCrystal
+						// OldString: PureKiCrystal
+					}
+				}
+			}
+
+			KiEssence4: {
+				AddRecipes: {
+					3: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					2: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+
+					1: {
+						// NewString: PureKiCrystal
+						// OldString: PureKiCrystal
+					}
+				}
+			}
+
+			KiEssence3: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: PridefulKiCrystal
+						// OldString: PridefulKiCrystal
+					}
+
+					1: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+				}
+			}
+
+			KiEssence2: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: CalmKiCrystal
+						// OldString: CalmKiCrystal
+					}
+
+					1: {
+						// NewString: PridefulKiCrystal
+						// OldString: PridefulKiCrystal
+					}
+				}
+			}
+
+			KiEssence1: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+
+					1: {
+						// NewString: CalmKiCrystal
+						// OldString: CalmKiCrystal
+					}
+				}
+			}
+		}
+
+		Potions: {
+			KiStimulant: {
+				AddRecipes: {
+					1: {
+						// NewString: CalmKiCrystal
+						// OldString: CalmKiCrystal
+					}
+				}
+			}
+
+			KiPotion5: {
+				AddRecipes: {
+					2: {
+						// NewString: KiPotion4
+						// OldString: KiPotion4
+					}
+
+					1: {
+						// NewString: PureKiCrystal
+						// OldString: PureKiCrystal
+					}
+				}
+			}
+
+			KiPotion4: {
+				AddRecipes: {
+					2: {
+						// NewString: KiPotion3
+						// OldString: KiPotion3
+					}
+
+					1: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+				}
+			}
+
+			KiPotion3: {
+				AddRecipes: {
+					1: {
+						// NewString: PridefulKiCrystal
+						// OldString: PridefulKiCrystal
+					}
+				}
+			}
+
+			KiPotion2: {
+				AddRecipes: {
+					2: {
+						// NewString: KiPotion1
+						// OldString: KiPotion1
+					}
+
+					1: {
+						// NewString: CalmKiCrystal
+						// OldString: CalmKiCrystal
+					}
+				}
+			}
+
+			KiPotion1: {
+				AddRecipes: {
+					1: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+				}
+			}
+		}
+
+		TestItems: {
+			TraitRemover: {
+				UseItem: {
+					1: {
+						// NewString: ""
+						// OldString: ""
+					}
+				}
+			}
+
+			ProdigyTestItem: {
+				UseItem: {
+					1: {
+						// NewString: Prodigy
+						// OldString: Prodigy
+					}
+				}
+			}
+
+			LegendaryTestItem: {
+				UseItem: {
+					1: {
+						// NewString: Legendary
+						// OldString: Legendary
+					}
+				}
+			}
+		}
+
+		Transmissions: {
+			TransmissionVanish: {
+				UseItem: {
+					1: {
+						// NewString: You have unlocked Instant Transmission Lv1. Open your map to learn how to use it.
+						// OldString: You have unlocked Instant Transmission Lv1. Open your map to learn how to use it.
+					}
+				}
+			}
+
+			TransmissionTeleport: {
+				AddRecipes: {
+					2: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					1: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+				}
+
+				UseItem: {
+					1: {
+						/* NewString:
+							'''
+							You have unlocked Instant Transmission Lv2 (Supreme Kai Teleportation).
+							Use your Instant Transmission hotkey and cursor to seek a remote destination.
+							''' */
+						/* OldString:
+							'''
+							You have unlocked Instant Transmission Lv2 (Supreme Kai Teleportation).
+							Use your Instant Transmission hotkey and cursor to seek a remote destination.
+							''' */
+					}
+				}
+			}
+
+			TransmissionPura: {
+				AddRecipes: {
+					3: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					2: {
+						// NewString: RadiantFragment
+						// OldString: RadiantFragment
+					}
+
+					1: {
+						// NewString: PureKiCrystal
+						// OldString: PureKiCrystal
+					}
+				}
+
+				UseItem: {
+					1: {
+						/* NewString:
+							'''
+							You have unlocked Instant Transmission Lv3.
+							Instant Transmission free roaming costs 
+							are significantly reduced.
+							''' */
+						/* OldString:
+							'''
+							You have unlocked Instant Transmission Lv3.
+							Instant Transmission free roaming costs 
+							are significantly reduced.
+							''' */
+					}
+				}
+			}
+		}
+
+		MRE: {
+			SetDefaults: {
+				1: {
+					// NewString: CanadianMRE
+					// OldString: CanadianMRE
+				}
+			}
+		}
+	}
+
+	DragonBalls: {
+		DragonRadar3: {
+			AddRecipes: {
+				3: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+
+				2: {
+					// NewString: PureKiCrystal
+					// OldString: PureKiCrystal
+				}
+
+				1: {
+					// NewString: DragonRadar2
+					// OldString: DragonRadar2
+				}
+			}
+		}
+
+		DragonRadar2: {
+			AddRecipes: {
+				4: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				3: {
+					// NewString: RefinedMetal
+					// OldString: RefinedMetal
+				}
+
+				2: {
+					// NewString: AngerKiCrystal
+					// OldString: AngerKiCrystal
+				}
+
+				1: {
+					// NewString: DragonRadar1
+					// OldString: DragonRadar1
+				}
+			}
+		}
+
+		DragonBallItem: {
+			GetDragonBallItemTypeFromNumber: {
+				8: {
+					// NewString: ""
+					// OldString: ""
+				}
+
+				7: {
+					// NewString: SevenStarDB
+					// OldString: SevenStarDB
+				}
+
+				6: {
+					// NewString: SixStarDB
+					// OldString: SixStarDB
+				}
+
+				5: {
+					// NewString: FiveStarDB
+					// OldString: FiveStarDB
+				}
+
+				4: {
+					// NewString: FourStarDB
+					// OldString: FourStarDB
+				}
+
+				3: {
+					// NewString: ThreeStarDB
+					// OldString: ThreeStarDB
+				}
+
+				2: {
+					// NewString: TwoStarDB
+					// OldString: TwoStarDB
+				}
+
+				1: {
+					// NewString: OneStarDB
+					// OldString: OneStarDB
+				}
+			}
+
+			LoadData: {
+				1: {
+					// NewString: Owners
+					// OldString: Owners
+				}
+			}
+
+			SaveData: {
+				1: {
+					// NewString: Owners
+					// OldString: Owners
+				}
+			}
+		}
+	}
+
+	Materials: {
+		SatanicCloth: {
+			AddRecipes: {
+				2: {
+					// NewString: ZTable
+					// OldString: ZTable
+				}
+
+				1: {
+					// NewString: AngerKiCrystal
+					// OldString: AngerKiCrystal
+				}
+			}
+		}
+
+		DivineThreads: {
+			AddRecipes: {
+				2: {
+					// NewString: KaiTable
+					// OldString: KaiTable
+				}
+
+				1: {
+					// NewString: PureKiCrystal
+					// OldString: PureKiCrystal
+				}
+			}
+		}
+	}
+
+	Misc: {
+		SSJGUnlockItem: {
+			OnPickup: {
+				1: {
+					// NewString: You feel enveloped in a divine energy.
+					// OldString: You feel enveloped in a divine energy.
+				}
+			}
+		}
+	}
+
+	Tools: {
+		RadiantPickaxe: {
+			AddRecipes: {
+				1: {
+					// NewString: RadiantFragment
+					// OldString: RadiantFragment
+				}
+			}
+		}
+
+		RadiantHamaxe: {
+			AddRecipes: {
+				1: {
+					// NewString: RadiantFragment
+					// OldString: RadiantFragment
+				}
+			}
+		}
+	}
+
+	Weapons: {
+		Normal: {
+			YajirobesKatana: {
+				AddRecipes: {
+					4: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					3: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+
+					2: {
+						// NewString: CalmKiCrystal
+						// OldString: CalmKiCrystal
+					}
+
+					1: {
+						// NewString: IronBar
+						// OldString: IronBar
+					}
+				}
+			}
+
+			TrunksSword: {
+				AddRecipes: {
+					2: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					1: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+				}
+
+				SetDefaults: {
+					1: {
+						// NewString: DBZMODPORT/Sounds/SwordSlash
+						// OldString: DBZMODPORT/Sounds/SwordSlash
+					}
+				}
+			}
+
+			FarmerShotgun: {
+				AddRecipes: {
+					1: {
+						// NewString: ScrapMetal
+						// OldString: ScrapMetal
+					}
+				}
+			}
+		}
+
+		Tier_1: {
+			KiBlast: {
+				ProjectileInitialize: {
+					2: {
+						// NewString: Blast
+						// OldString: Blast
+					}
+
+					1: {
+						// NewString: DBZMODPORT/Sounds/Kiblast1
+						// OldString: DBZMODPORT/Sounds/Kiblast1
+					}
+				}
+			}
+
+			KiBeam: {
+				AddRecipes: {
+					2: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					1: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					2: {
+						// NewString: DBZMODPORT/Sounds/EyeBeam
+						// OldString: DBZMODPORT/Sounds/EyeBeam
+					}
+
+					1: {
+						// NewString: Laser
+						// OldString: Laser
+					}
+				}
+			}
+
+			EnergyWave: {
+				AddRecipes: {
+					2: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					1: {
+						// NewString: StableKiCrystal
+						// OldString: StableKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Beam
+						// OldString: Beam
+					}
+				}
+			}
+		}
+
+		Tier_2: {
+			SpiritBall: {
+				AddRecipes: {
+					2: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					1: {
+						// NewString: CalmKiCrystal
+						// OldString: CalmKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Unique
+						// OldString: Unique
+					}
+				}
+			}
+
+			Masenko: {
+				AddRecipes: {
+					4: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					3: {
+						// NewString: EnergyWave
+						// OldString: EnergyWave
+					}
+
+					2: {
+						// NewString: AstralEssentia
+						// OldString: AstralEssentia
+					}
+
+					1: {
+						// NewString: CalmKiCrystal
+						// OldString: CalmKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Beam
+						// OldString: Beam
+					}
+				}
+			}
+
+			EnergyBlastBarrage: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: KiBlast
+						// OldString: KiBlast
+					}
+
+					1: {
+						// NewString: CalmKiCrystal
+						// OldString: CalmKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					2: {
+						// NewString: Barrage
+						// OldString: Barrage
+					}
+
+					1: {
+						// NewString: DBZMODPORT/Sounds/Kiblast1
+						// OldString: DBZMODPORT/Sounds/Kiblast1
+					}
+				}
+			}
+
+			DoubleSunday: {
+				AddRecipes: {
+					2: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					1: {
+						// NewString: CalmKiCrystal
+						// OldString: CalmKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Beam
+						// OldString: Beam
+					}
+				}
+			}
+
+			DestructoDisk: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: AstralEssentia
+						// OldString: AstralEssentia
+					}
+
+					1: {
+						// NewString: CalmKiCrystal
+						// OldString: CalmKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					2: {
+						// NewString: DBZMODPORT/Sounds/DiscFire
+						// OldString: DBZMODPORT/Sounds/DiscFire
+					}
+
+					1: {
+						// NewString: Disk
+						// OldString: Disk
+					}
+				}
+			}
+		}
+
+		Tier_3: {
+			Kamehameha: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: Masenko
+						// OldString: Masenko
+					}
+
+					1: {
+						// NewString: PridefulKiCrystal
+						// OldString: PridefulKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Beam
+						// OldString: Beam
+					}
+				}
+			}
+
+			HellzoneGrenade: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: SkeletalEssence
+						// OldString: SkeletalEssence
+					}
+
+					1: {
+						// NewString: PridefulKiCrystal
+						// OldString: PridefulKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					2: {
+						// NewString: DBZMODPORT/Sounds/Scatterbeam
+						// OldString: DBZMODPORT/Sounds/Scatterbeam
+					}
+
+					1: {
+						// NewString: Barrage
+						// OldString: Barrage
+					}
+				}
+			}
+
+			GalickGun: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: SkeletalEssence
+						// OldString: SkeletalEssence
+					}
+
+					1: {
+						// NewString: PridefulKiCrystal
+						// OldString: PridefulKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Beam
+						// OldString: Beam
+					}
+				}
+			}
+
+			DirtyFireworks: {
+				AddRecipes: {
+					2: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					1: {
+						// NewString: PridefulKiCrystal
+						// OldString: PridefulKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Unique
+						// OldString: Unique
+					}
+				}
+			}
+
+			BlightedFang: {
+				ProjectileInitialize: {
+					1: {
+						// NewString: Blast
+						// OldString: Blast
+					}
+				}
+			}
+		}
+
+		Tier_4: {
+			TrapShooter: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: SoulofEntity
+						// OldString: SoulofEntity
+					}
+
+					1: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Blast
+						// OldString: Blast
+					}
+				}
+			}
+
+			SuperKamehameha: {
+				ProjectileInitialize: {
+					1: {
+						// NewString: Beam
+						// OldString: Beam
+					}
+				}
+			}
+
+			SpiritBomb: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+
+					1: {
+						// NewString: PridefulKiCrystal
+						// OldString: PridefulKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Massive Blast
+						// OldString: Massive Blast
+					}
+				}
+			}
+
+			SpecialBeamCannon: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+
+					1: {
+						// NewString: Masenko
+						// OldString: Masenko
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Beam
+						// OldString: Beam
+					}
+				}
+			}
+
+			Scattershot: {
+				AddRecipes: {
+					4: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					3: {
+						// NewString: SoulofEntity
+						// OldString: SoulofEntity
+					}
+
+					2: {
+						// NewString: HellzoneGrenade
+						// OldString: HellzoneGrenade
+					}
+
+					1: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					2: {
+						// NewString: Blast
+						// OldString: Blast
+					}
+
+					1: {
+						// NewString: DBZMODPORT/Sounds/Kiblast1
+						// OldString: DBZMODPORT/Sounds/Kiblast1
+					}
+				}
+			}
+
+			EnergyShot: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+
+					1: {
+						// NewString: KiBlast
+						// OldString: KiBlast
+					}
+				}
+
+				ProjectileInitialize: {
+					2: {
+						// NewString: DBZMODPORT/Sounds/Kiblast1
+						// OldString: DBZMODPORT/Sounds/Kiblast1
+					}
+
+					1: {
+						// NewString: Blast
+						// OldString: Blast
+					}
+				}
+			}
+
+			BigBangAttack: {
+				AddRecipes: {
+					3: {
+						// NewString: ZTable
+						// OldString: ZTable
+					}
+
+					2: {
+						// NewString: AngerKiCrystal
+						// OldString: AngerKiCrystal
+					}
+
+					1: {
+						// NewString: PridefulKiCrystal
+						// OldString: PridefulKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					2: {
+						// NewString: DBZMODPORT/Sounds/KiBlastFast
+						// OldString: DBZMODPORT/Sounds/KiBlastFast
+					}
+
+					1: {
+						// NewString: Massive Blast
+						// OldString: Massive Blast
+					}
+				}
+			}
+		}
+
+		Tier_5: {
+			Supernova: {
+				AddRecipes: {
+					4: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					3: {
+						// NewString: DemonicSoul
+						// OldString: DemonicSoul
+					}
+
+					2: {
+						// NewString: PureKiCrystal
+						// OldString: PureKiCrystal
+					}
+
+					1: {
+						// NewString: SpiritBomb
+						// OldString: SpiritBomb
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Massive Blast
+						// OldString: Massive Blast
+					}
+				}
+			}
+
+			SuperEnergyBarrage: {
+				AddRecipes: {
+					2: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					1: {
+						// NewString: PureKiCrystal
+						// OldString: PureKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					2: {
+						// NewString: Barrage
+						// OldString: Barrage
+					}
+
+					1: {
+						// NewString: DBZMODPORT/Sounds/Kiblast2
+						// OldString: DBZMODPORT/Sounds/Kiblast2
+					}
+				}
+			}
+
+			Kamehamehax10: {
+				AddRecipes: {
+					4: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					3: {
+						// NewString: SuperKamehameha
+						// OldString: SuperKamehameha
+					}
+
+					2: {
+						// NewString: DemonicSoul
+						// OldString: DemonicSoul
+					}
+
+					1: {
+						// NewString: PureKiCrystal
+						// OldString: PureKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Beam
+						// OldString: Beam
+					}
+				}
+			}
+
+			FinalFlash: {
+				AddRecipes: {
+					3: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					2: {
+						// NewString: PureKiCrystal
+						// OldString: PureKiCrystal
+					}
+
+					1: {
+						// NewString: GalickGun
+						// OldString: GalickGun
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Beam
+						// OldString: Beam
+					}
+				}
+			}
+
+			DestructoDiskAssault: {
+				AddRecipes: {
+					3: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					2: {
+						// NewString: DestructoDisk
+						// OldString: DestructoDisk
+					}
+
+					1: {
+						// NewString: PureKiCrystal
+						// OldString: PureKiCrystal
+					}
+				}
+
+				ProjectileInitialize: {
+					2: {
+						// NewString: DBZMODPORT/Sounds/DiscFire
+						// OldString: DBZMODPORT/Sounds/DiscFire
+					}
+
+					1: {
+						// NewString: Disk
+						// OldString: Disk
+					}
+				}
+			}
+		}
+
+		Tier_6: {
+			SuperSpiritBomb: {
+				AddRecipes: {
+					2: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					1: {
+						// NewString: SpiritBomb
+						// OldString: SpiritBomb
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Massive Blast
+						// OldString: Massive Blast
+					}
+				}
+			}
+
+			RadialJavelin: {
+				AddRecipes: {
+					1: {
+						// NewString: RadiantFragment
+						// OldString: RadiantFragment
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Unique
+						// OldString: Unique
+					}
+				}
+			}
+
+			HolyWrath: {
+				AddRecipes: {
+					2: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					1: {
+						// NewString: Supernova
+						// OldString: Supernova
+					}
+				}
+
+				ProjectileInitialize: {
+					2: {
+						// NewString: Massive Blast
+						// OldString: Massive Blast
+					}
+
+					1: {
+						// NewString: DBZMODPORT/Sounds/SpiritBombFire
+						// OldString: DBZMODPORT/Sounds/SpiritBombFire
+					}
+				}
+			}
+
+			FinalShine: {
+				AddRecipes: {
+					2: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					1: {
+						// NewString: FinalFlash
+						// OldString: FinalFlash
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Beam
+						// OldString: Beam
+					}
+				}
+			}
+
+			CandyLaser: {
+				ProjectileInitialize: {
+					1: {
+						// NewString: Unique
+						// OldString: Unique
+					}
+				}
+			}
+
+			BlindingBlade: {
+				AddRecipes: {
+					1: {
+						// NewString: RadiantFragment
+						// OldString: RadiantFragment
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Disk
+						// OldString: Disk
+					}
+				}
+			}
+
+			BlackBlitz: {
+				AddRecipes: {
+					4: {
+						// NewString: KaiTable
+						// OldString: KaiTable
+					}
+
+					3: {
+						// NewString: SuperEnergyBarrage
+						// OldString: SuperEnergyBarrage
+					}
+
+					2: {
+						// NewString: EarthenShard
+						// OldString: EarthenShard
+					}
+
+					1: {
+						// NewString: RadiantFragment
+						// OldString: RadiantFragment
+					}
+				}
+
+				ProjectileInitialize: {
+					1: {
+						// NewString: Barrage
+						// OldString: Barrage
+					}
+				}
+			}
+		}
+	}
+
+	ZTableItem: {
+		AddRecipes: {
+			2: {
+				// NewString: StableKiCrystal
+				// OldString: StableKiCrystal
+			}
+
+			1: {
+				// NewString: ScrapMetal
+				// OldString: ScrapMetal
+			}
+		}
+	}
+
+	RefinedMetal: {
+		AddRecipes: {
+			1: {
+				// NewString: ScrapMetal
+				// OldString: ScrapMetal
+			}
+		}
+	}
+
+	RadiantFragmentBlockItem: {
+		AddRecipes: {
+			1: {
+				// NewString: RadiantFragment
+				// OldString: RadiantFragment
+			}
+		}
+	}
+
+	NimbusWhistle: {
+		AddRecipes: {
+			2: {
+				// NewString: ZTable
+				// OldString: ZTable
+			}
+
+			1: {
+				// NewString: CalmKiCrystal
+				// OldString: CalmKiCrystal
+			}
+		}
+	}
+
+	KiLanternItem: {
+		AddRecipes: {
+			3: {
+				// NewString: ZTable
+				// OldString: ZTable
+			}
+
+			2: {
+				// NewString: ScrapMetal
+				// OldString: ScrapMetal
+			}
+
+			1: {
+				// NewString: DBZMODPORT:KiFragment
+				// OldString: DBZMODPORT:KiFragment
+			}
+		}
+	}
+
+	KiBeaconItem: {
+		AddRecipes: {
+			2: {
+				// NewString: ZTable
+				// OldString: ZTable
+			}
+
+			1: {
+				// NewString: AstralEssentia
+				// OldString: AstralEssentia
+			}
+		}
+	}
+
+	KaiTableItem: {
+		AddRecipes: {
+			2: {
+				// NewString: PureKiCrystal
+				// OldString: PureKiCrystal
+			}
+
+			1: {
+				// NewString: ZTableItem
+				// OldString: ZTableItem
+			}
+		}
+	}
+
+	EmptyNecklace: {
+		AddRecipes: {
+			3: {
+				// NewString: ZTable
+				// OldString: ZTable
+			}
+
+			2: {
+				// NewString: IronBar
+				// OldString: IronBar
+			}
+
+			1: {
+				// NewString: ScrapMetal
+				// OldString: ScrapMetal
+			}
+		}
+	}
+}
+
+Layers: {
+	TransformationEffects: {
+		Draw: {
+			5: {
+				// NewString: DBZMODPORT/Effects/Animations/Transform/SSJR
+				// OldString: DBZMODPORT/Effects/Animations/Transform/SSJR
+			}
+
+			4: {
+				// NewString: DBZMODPORT/Effects/Animations/Transform/SSJB
+				// OldString: DBZMODPORT/Effects/Animations/Transform/SSJB
+			}
+
+			3: {
+				// NewString: DBZMODPORT/Effects/Animations/Transform/SSJG
+				// OldString: DBZMODPORT/Effects/Animations/Transform/SSJG
+			}
+
+			2: {
+				// NewString: DBZMODPORT/Effects/Animations/Transform/SSJ3
+				// OldString: DBZMODPORT/Effects/Animations/Transform/SSJ3
+			}
+
+			1: {
+				// NewString: DBZMODPORT/Effects/Animations/Transform/SSJ
+				// OldString: DBZMODPORT/Effects/Animations/Transform/SSJ
+			}
+		}
+	}
+
+	LightningEffects: {
+		Draw: {
+			5: {
+				// NewString: DBZMODPORT/Dusts/LightningRed
+				// OldString: DBZMODPORT/Dusts/LightningRed
+			}
+
+			4: {
+				// NewString: DBZMODPORT/Dusts/LightningYellow
+				// OldString: DBZMODPORT/Dusts/LightningYellow
+			}
+
+			3: {
+				// NewString: DBZMODPORT/Dusts/LSSJ3Lightning
+				// OldString: DBZMODPORT/Dusts/LSSJ3Lightning
+			}
+
+			2: {
+				// NewString: DBZMODPORT/Dusts/LightningGreen
+				// OldString: DBZMODPORT/Dusts/LightningGreen
+			}
+
+			1: {
+				// NewString: DBZMODPORT/Dusts/LightningBlue
+				// OldString: DBZMODPORT/Dusts/LightningBlue
+			}
+		}
+	}
+
+	DragonRadarEffects: {
+		Draw: {
+			1: {
+				// NewString: DBZMODPORT/Items/DragonBalls/DragonRadarPointer
+				// OldString: DBZMODPORT/Items/DragonBalls/DragonRadarPointer
+			}
+		}
+	}
+}
+
+Network: {
+	PlayerPacketHandler: {
+		HandlePacket: {
+			1: {
+				// NewString: "Unidentified Packet "
+				// OldString: "Unidentified Packet "
+			}
+		}
+	}
+}
+
+Projectiles: {
+	AuraProjectiles: {
+		SSJRockProjStart: {
+			Kill: {
+				2: {
+					// NewString: ""
+					// OldString: ""
+				}
+
+				1: {
+					// NewString: DBZMODPORT/Sounds/Awakening
+					// OldString: DBZMODPORT/Sounds/Awakening
+				}
+			}
+
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+
+		SSJRDustStart: {
+			Kill: {
+				1: {
+					// NewString: DBZMODPORT/Sounds/SSJAscension
+					// OldString: DBZMODPORT/Sounds/SSJAscension
+				}
+			}
+
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+
+		SSJGDustStart: {
+			Kill: {
+				1: {
+					// NewString: DBZMODPORT/Sounds/SSJAscension
+					// OldString: DBZMODPORT/Sounds/SSJAscension
+				}
+			}
+
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+
+		SSJBDustStart: {
+			Kill: {
+				1: {
+					// NewString: DBZMODPORT/Sounds/SSJAscension
+					// OldString: DBZMODPORT/Sounds/SSJAscension
+				}
+			}
+
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+
+		SSJAuraBall: {
+			Kill: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+
+		SSJ3LightPillar: {
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+
+		SSJ1AuraProjStart: {
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+
+		SSJ1AuraProjBeamHead: {
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+
+		LSSJ3DustStart: {
+			Kill: {
+				1: {
+					// NewString: DBZMODPORT/Sounds/SSJAscension
+					// OldString: DBZMODPORT/Sounds/SSJAscension
+				}
+			}
+
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+	}
+
+	BigBangAttack: {
+		BigBangAttackProjectile2: {
+			Kill: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+
+		BigBangAttackProjectile: {
+			Kill: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+	}
+
+	EnergyWaves: {
+		EnergyWaveVolleyBlast: {
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+
+			Kill: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+
+		EnergyWaveCharge: {
+			SetDefaults: {
+				1: {
+					// NewString: DBZMODPORT/Sounds/EnergyWaveChargeShort
+					// OldString: DBZMODPORT/Sounds/EnergyWaveChargeShort
+				}
+			}
+		}
+
+		EnergyWaveBeam: {
+			SetDefaults: {
+				1: {
+					// NewString: DBZMODPORT/Sounds/BasicBeamFire
+					// OldString: DBZMODPORT/Sounds/BasicBeamFire
+				}
+			}
+		}
+	}
+
+	FinalFlash: {
+		FinalFlashCharge: {
+			SetDefaults: {
+				1: {
+					// NewString: DBZMODPORT/Sounds/FinalFlashCharge
+					// OldString: DBZMODPORT/Sounds/FinalFlashCharge
+				}
+			}
+		}
+
+		FinalFlashBeam: {
+			SetDefaults: {
+				1: {
+					// NewString: DBZMODPORT/Sounds/FinalFlashFire
+					// OldString: DBZMODPORT/Sounds/FinalFlashFire
+				}
+			}
+		}
+	}
+
+	FinalShine: {
+		FinalShineCharge: {
+			SetDefaults: {
+				1: {
+					// NewString: DBZMODPORT/Sounds/EnergyWaveCharge
+					// OldString: DBZMODPORT/Sounds/EnergyWaveCharge
+				}
+			}
+		}
+
+		FinalShineBeam: {
+			SetDefaults: {
+				1: {
+					// NewString: DBZMODPORT/Sounds/BasicBeamFire
+					// OldString: DBZMODPORT/Sounds/BasicBeamFire
+				}
+			}
+		}
+	}
+
+	Kamehamehas: {
+		BigBangKamehameha: {
+			BigBangKamehamehaBlast: {
+				AI: {
+					1: {
+						// NewString: ""
+						// OldString: ""
+					}
+				}
+
+				Kill: {
+					1: {
+						// NewString: ""
+						// OldString: ""
+					}
+				}
+			}
+
+			BigBangKamehamehaBall: {
+				AI: {
+					3: {
+						// NewString: DBZMODPORT/Sounds/EnergyWaveCharge
+						// OldString: DBZMODPORT/Sounds/EnergyWaveCharge
+					}
+
+					2: {
+						// NewString: DBZMODPORT/Sounds/BasicBeamFire
+						// OldString: DBZMODPORT/Sounds/BasicBeamFire
+					}
+
+					1: {
+						// NewString: ""
+						// OldString: ""
+					}
+				}
+			}
+		}
+
+		Kamehameha10: {
+			Kamehameha10Charge: {
+				SetDefaults: {
+					1: {
+						// NewString: DBZMODPORT/Sounds/Kamehameha10Charge
+						// OldString: DBZMODPORT/Sounds/Kamehameha10Charge
+					}
+				}
+			}
+
+			Kamehameha10Beam: {
+				SetDefaults: {
+					1: {
+						// NewString: DBZMODPORT/Sounds/Kamehameha10Fire
+						// OldString: DBZMODPORT/Sounds/Kamehameha10Fire
+					}
+				}
+			}
+		}
+
+		Kamehameha: {
+			KamehamehaCharge: {
+				SetDefaults: {
+					1: {
+						// NewString: DBZMODPORT/Sounds/EnergyWaveCharge
+						// OldString: DBZMODPORT/Sounds/EnergyWaveCharge
+					}
+				}
+			}
+
+			KamehamehaBeam: {
+				SetDefaults: {
+					1: {
+						// NewString: DBZMODPORT/Sounds/BasicBeamFire
+						// OldString: DBZMODPORT/Sounds/BasicBeamFire
+					}
+				}
+			}
+		}
+
+		SuperKamehameha: {
+			SuperKamehamehaCharge: {
+				SetDefaults: {
+					1: {
+						// NewString: DBZMODPORT/Sounds/EnergyWaveCharge
+						// OldString: DBZMODPORT/Sounds/EnergyWaveCharge
+					}
+				}
+			}
+
+			SuperKamehamehaBeam: {
+				SetDefaults: {
+					1: {
+						// NewString: DBZMODPORT/Sounds/BasicBeamFire
+						// OldString: DBZMODPORT/Sounds/BasicBeamFire
+					}
+				}
+			}
+		}
+	}
+
+	LSSJs: {
+		LSSJAuraBall: {
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+
+		LSSJ2PillarStart: {
+			Kill: {
+				2: {
+					// NewString: ""
+					// OldString: ""
+				}
+
+				1: {
+					// NewString: DBZMODPORT/Sounds/Awakening
+					// OldString: DBZMODPORT/Sounds/Awakening
+				}
+			}
+
+			AI: {
+				1: {
+					// NewString: ""
+					// OldString: ""
+				}
+			}
+		}
+	}
+
+	SpiritBombs: {
+		SuperSpiritBombBall: {
+			AI: {
+				2: {
+					// NewString: DBZMODPORT/Sounds/SpiritBombFire
+					// OldString: DBZMODPORT/Sounds/SpiritBombFire
+				}
+
+				1: {
+					// NewString: DBZMODPORT/Sounds/SpiritBombCharge
+					// OldString: DBZMODPORT/Sounds/SpiritBombCharge
+				}
+			}
+		}
+
+		SpiritBombBall: {
+			AI: {
+				2: {
+					// NewString: DBZMODPORT/Sounds/SpiritBombFire
+					// OldString: DBZMODPORT/Sounds/SpiritBombFire
+				}
+
+				1: {
+					// NewString: DBZMODPORT/Sounds/SpiritBombCharge
+					// OldString: DBZMODPORT/Sounds/SpiritBombCharge
+				}
+			}
+		}
+	}
+
+	TransmissionLinesProj: {
+		InitializeVanishState: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/Transmission
+				// OldString: DBZMODPORT/Sounds/Transmission
+			}
+		}
+	}
+
+	SupernovaBall: {
+		AI: {
+			2: {
+				// NewString: DBZMODPORT/Sounds/SuperNovaThrow
+				// OldString: DBZMODPORT/Sounds/SuperNovaThrow
+			}
+
+			1: {
+				// NewString: DBZMODPORT/Sounds/SuperNovaCharge
+				// OldString: DBZMODPORT/Sounds/SuperNovaCharge
+			}
+		}
+	}
+
+	SuperEnergyBarrageProj: {
+		Kill: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/Kiplosion
+				// OldString: DBZMODPORT/Sounds/Kiplosion
+			}
+		}
+	}
+
+	ScattershotBlast: {
+		Kill: {
+			2: {
+				// NewString: ""
+				// OldString: ""
+			}
+
+			1: {
+				// NewString: DBZMODPORT/Sounds/Explosion
+				// OldString: DBZMODPORT/Sounds/Explosion
+			}
+		}
+	}
+
+	MasenkoCharge: {
+		SetDefaults: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/EnergyWaveCharge
+				// OldString: DBZMODPORT/Sounds/EnergyWaveCharge
+			}
+		}
+	}
+
+	MasenkoBeam: {
+		SetDefaults: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/BasicBeamFire
+				// OldString: DBZMODPORT/Sounds/BasicBeamFire
+			}
+		}
+	}
+
+	MakankosappoCharge: {
+		SetDefaults: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/SBCCharge
+				// OldString: DBZMODPORT/Sounds/SBCCharge
+			}
+		}
+	}
+
+	MakankosappoBeam: {
+		SetDefaults: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/SBCFire
+				// OldString: DBZMODPORT/Sounds/SBCFire
+			}
+		}
+	}
+
+	MajinBall: {
+		Kill: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/Explosion
+				// OldString: DBZMODPORT/Sounds/Explosion
+			}
+		}
+	}
+
+	GalickGunCharge: {
+		SetDefaults: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/EnergyWaveCharge
+				// OldString: DBZMODPORT/Sounds/EnergyWaveCharge
+			}
+		}
+	}
+
+	GalickGunBeam: {
+		SetDefaults: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/BasicBeamFire
+				// OldString: DBZMODPORT/Sounds/BasicBeamFire
+			}
+		}
+	}
+
+	DoubleSundayCharge: {
+		SetDefaults: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/EnergyWaveCharge
+				// OldString: DBZMODPORT/Sounds/EnergyWaveCharge
+			}
+		}
+	}
+
+	DoubleSundayBeam: {
+		SetDefaults: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/BasicBeamFire
+				// OldString: DBZMODPORT/Sounds/BasicBeamFire
+			}
+		}
+	}
+
+	DirtyFireworksProjectile: {
+		ExplodeEffect: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/Kiplosion
+				// OldString: DBZMODPORT/Sounds/Kiplosion
+			}
+		}
+	}
+
+	BaseBeamCharge: {
+		HandleFiring: {
+			1: {
+				// NewString: ""
+				// OldString: ""
+			}
+		}
+	}
+}
+
+Tiles: {
+	KiBeaconTile: {
+		PreDraw: {
+			4: {
+				// NewString: DBZMODPORT/Tiles/KiBeaconTileLight2
+				// OldString: DBZMODPORT/Tiles/KiBeaconTileLight2
+			}
+
+			3: {
+				// NewString: DBZMODPORT/Tiles/KiBeaconTileLight
+				// OldString: DBZMODPORT/Tiles/KiBeaconTileLight
+			}
+
+			2: {
+				// NewString: DBZMODPORT/Tiles/KiBeaconTileGlowmask
+				// OldString: DBZMODPORT/Tiles/KiBeaconTileGlowmask
+			}
+
+			1: {
+				// NewString: DBZMODPORT/Tiles/KiBeaconTile
+				// OldString: DBZMODPORT/Tiles/KiBeaconTile
+			}
+		}
+	}
+}
+
+UI: {
+	WishMenu: {
+		DoWealthWish: {
+			1: {
+				// NewString: wish
+				// OldString: wish
+			}
+		}
+
+		GrantWish: {
+			1: {
+				// NewString: DBZMODPORT/Sounds/WishGranted
+				// OldString: DBZMODPORT/Sounds/WishGranted
+			}
+		}
+
+		SelectButtonAwakening: {
+			2: {
+				NewString:
+					'''
+					许愿以觉醒你的潜在力量
+					解锁下一个可用形态
+					（需要掌握度达到100%，且击败对应的Boss）
+					'''
+				/* OldString:
+					'''
+					Wish to awaken your latent power,
+					Unlocks the next available form.
+					''' */
+			}
+
+			1: {
+				NewString: 觉醒
+				// OldString: Awakening
+			}
+		}
+
+		SelectButtonGenetics: {
+			2: {
+				NewString:
+					'''
+					许愿以获得一个全新的[必定获得]基因资质
+					所有资质均有相同的概率被抽取
+					许愿次数上限 = ∞ ， 剩余许愿次数 = ∞
+					'''
+				/* OldString:
+					'''
+					Wish for a new [guaranteed] genetic trait.
+					All traits have an equal chance of being rolled.
+					Wish limit = ∞, Wishes left = ∞
+					''' */
+			}
+
+			1: {
+				NewString: 基因改变
+				// OldString: Genetic Reroll
+			}
+		}
+
+		SelectButtonImmortality: {
+			2: {
+				NewString:
+					'''
+					许愿以获得无限生命
+					在接下来的3次死亡中满血复活
+					许愿次数上限 = 1 ， 剩余许愿次数 = 
+					'''
+				/* OldString:
+					'''
+					Wish for infinite life, reviving at full life
+					for the next 3 deaths.
+					Wish limit = 1, Wishes left = 
+					''' */
+			}
+
+			1: {
+				NewString: 永生
+				// OldString: Immortality
+			}
+		}
+
+		SelectButtonWealth: {
+			2: {
+				NewString:
+					'''
+					许愿以获得超乎想象的财富
+					10 铂金币 + 幸运币
+					许愿次数上限 = ∞ ， 剩余许愿次数 = ∞
+					'''
+				/* OldString:
+					'''
+					Wish for money beyond your wildest dreams,
+					10 Platinum coins + lucky coin.
+					Wish limit = ∞, Wishes left = ∞
+					''' */
+			}
+
+			1: {
+				NewString: 财富
+				// OldString: Wealth
+			}
+		}
+
+		SelectButtonPower: {
+			3: {
+				NewString: " ， 剩余许愿次数 = "
+				// OldString: ", Wishes left = "
+			}
+
+			2: {
+				NewString:
+					'''
+					许愿永久属性提升
+					最大生命值、最大气值与伤害
+					许愿次数上限 = 
+					'''
+				/* OldString:
+					'''
+					Wish for a permanent increase in
+					Maximum Health, Maximum Ki and Damage.
+					Wish limit = 
+					''' */
+			}
+
+			1: {
+				NewString: 力量
+				// OldString: Power
+			}
+		}
+
+		OnInitialize: {
+			2: {
+				NewString: 实现愿望
+				// OldString: Grant Wish
+			}
+
+			1: {
+				NewString: 我许愿
+				// OldString: I Wish for...
+			}
+		}
+	}
+
+	TransMenu: {
+		TrySelectingSSJR: {
+			3: {
+				// NewString: The experience from battling a galactic being could bring forth this strength.
+				// OldString: The experience from battling a galactic being could bring forth this strength.
+			}
+
+			2: {
+				// NewString: %
+				// OldString: %
+			}
+
+			1: {
+				NewString: "超级赛亚人桃红掌握度： "
+				// OldString: "Super Saiyan Rose Mastery: "
+			}
+		}
+
+		TrySelectingSSJB: {
+			3: {
+				// NewString: The experience from battling a galactic being could bring forth this strength.
+				// OldString: The experience from battling a galactic being could bring forth this strength.
+			}
+
+			2: {
+				// NewString: %
+				// OldString: %
+			}
+
+			1: {
+				NewString: "超级赛亚人蓝掌握度： "
+				// OldString: "Super Saiyan Blue Mastery: "
+			}
+		}
+
+		TrySelectingSSJG: {
+			3: {
+				NewString: 星的神力，或许能唤醒超越凡人理解的存在The godlike power of the lunar star could awaken something beyond mortal comprehension.
+				// OldString: The godlike power of the lunar star could awaken something beyond mortal comprehension.
+			}
+
+			2: {
+				// NewString: %
+				// OldString: %
+			}
+
+			1: {
+				NewString: "超级赛亚人之神掌握度： "
+				// OldString: "Super Saiyan God Mastery: "
+			}
+		}
+
+		TrySelectingLSSJ3: {
+			3: {
+				// NewString: People of an occult nature hold the secret to this form.
+				// OldString: People of an occult nature hold the secret to this form.
+			}
+
+			2: {
+				// NewString: %
+				// OldString: %
+			}
+
+			1: {
+				NewString: "传说超级赛亚人3掌握度： "
+				// OldString: "Legendary Super Saiyan 3 Mastery: "
+			}
+		}
+
+		TrySelectingLSSJ2: {
+			3: {
+				// NewString: A legendary saiyan sometimes may lose complete control upon being pushed into a critical state.
+				// OldString: A legendary saiyan sometimes may lose complete control upon being pushed into a critical state.
+			}
+
+			2: {
+				// NewString: %
+				// OldString: %
+			}
+
+			1: {
+				NewString: "传说超级赛亚人2掌握度： "
+				// OldString: "Legendary Super Saiyan 2 Mastery: "
+			}
+		}
+
+		TrySelectingLSSJ: {
+			3: {
+				// NewString: The rarest saiyans may be able to achieve a form beyond anything a normal saiyan could obtain.
+				// OldString: The rarest saiyans may be able to achieve a form beyond anything a normal saiyan could obtain.
+			}
+
+			2: {
+				// NewString: %
+				// OldString: %
+			}
+
+			1: {
+				NewString: "传说超级赛亚人2掌握度： "
+				// OldString: "Legendary Super Saiyan Mastery: "
+			}
+		}
+
+		TrySelectingSSJ3: {
+			3: {
+				NewString:
+					''' 
+					古老敌人的力量，或许正是解锁更强大力量的关键
+					[C/959595:译者补充：处于100%掌握度的超级赛亚人2，在与石巨人战斗中死亡，必定变身]
+					'''
+				// OldString: The power of an ancient foe may be the key to unlocking greater power.
+			}
+
+			2: {
+				// NewString: %
+				// OldString: %
+			}
+
+			1: {
+				NewString: "超级赛亚人3掌握度： "
+				// OldString: "Super Saiyan 3 Mastery: "
+			}
+		}
+
+		TrySelectingSSJ2: {
+			3: {
+				NewString:
+					''' 
+					在升华状态下，唯有承受极端的压力，才能唤醒真正的力量
+					[C/959595:译者补充：击败任意机械Boss后，处于100%掌握度的超级赛亚人，在Boss战中死亡，必定变身]
+					'''
+				// OldString: One may awaken their true power through extreme pressure while ascended.
+			}
+
+			2: {
+				// NewString: %
+				// OldString: %
+			}
+
+			1: {
+				NewString: "超级赛亚人2掌握度： "
+				// OldString: "Super Saiyan 2 Mastery: "
+			}
+		}
+
+		TrySelectingSSJ1: {
+			3: {
+				NewString:
+					''' 
+					唯有在强敌面前经历失败，真正的力量才会觉醒
+					[C/959595:译者补充：击败骷髅王后Boss战死亡4次，必定变身，死亡次数可积攒]
+					'''
+				// OldString: Only through failure with a powerful foe will true power awaken.
+			}
+
+			2: {
+				// NewString: %
+				// OldString: %
+			}
+
+			1: {
+				NewString: "超级赛亚人掌握度： "
+				// OldString: "Super Saiyan Mastery: "
+			}
+		}
+
+		OnInitialize: {
+			1: {
+				NewString: 变身树
+				// OldString: Transformation Tree
+			}
+		}
+	}
+
+	ResourceBar: {
+		Update: {
+			7: {
+				// NewString: Overload:
+				// OldString: Overload:
+			}
+
+			6: {
+				// NewString: Primal
+				// OldString: Primal
+			}
+
+			5: {
+				// NewString: Divine
+				// OldString: Divine
+			}
+
+			4: {
+				// NewString: Prodigy
+				// OldString: Prodigy
+			}
+
+			3: {
+				// NewString: Legendary
+				// OldString: Legendary
+			}
+
+			2: {
+				// NewString: " / "
+				// OldString: " / "
+			}
+
+			1: {
+				NewString: "气： "
+				// OldString: Ki:
+			}
+		}
+
+		OnInitialize: {
+			1: {
+				// NewString: 0/0
+				// OldString: 0/0
+			}
+		}
+	}
+}
+
+Util: {
+	TransformationHelper: {
+		get_Ussj: {
+			1: {
+				// NewString: Ultra Super Saiyan
+				// OldString: Ultra Super Saiyan
+			}
+		}
+
+		get_Assj: {
+			1: {
+				// NewString: Ascended Super Saiyan
+				// OldString: Ascended Super Saiyan
+			}
+		}
+
+		get_LSSJ3: {
+			1: {
+				// NewString: Legendary Super Saiyan 3
+				// OldString: Legendary Super Saiyan 3
+			}
+		}
+
+		get_LSSJ2: {
+			1: {
+				// NewString: Legendary Super Saiyan 2
+				// OldString: Legendary Super Saiyan 2
+			}
+		}
+
+		get_LSSJ: {
+			1: {
+				// NewString: Legendary Super Saiyan
+				// OldString: Legendary Super Saiyan
+			}
+		}
+
+		get_SSJR: {
+			1: {
+				NewString: 超级赛亚人桃红
+				// OldString: Super Saiyan Rose
+			}
+		}
+
+		get_SSJB: {
+			1: {
+				NewString: 超级赛亚人蓝
+				// OldString: Super Saiyan Blue
+			}
+		}
+
+		get_SSJG: {
+			1: {
+				NewString: 超级赛亚人之神
+				// OldString: Super Saiyan God
+			}
+		}
+
+		get_SSJ3: {
+			1: {
+				NewString: 超级赛亚人3
+				// OldString: Super Saiyan 3
+			}
+		}
+
+		get_SSJ2: {
+			1: {
+				NewString: 超级赛亚人2
+				// OldString: Super Saiyan 2
+			}
+		}
+
+		get_SSJ1: {
+			1: {
+				NewString: 超级赛亚人
+				// OldString: Super Saiyan 1
+			}
+		}
+	}
+
+	ItemHelper: {
+		GetItemTypeFromName: {
+			8: {
+				// NewString: SevenStarDB
+				// OldString: SevenStarDB
+			}
+
+			7: {
+				// NewString: SixStarDB
+				// OldString: SixStarDB
+			}
+
+			6: {
+				// NewString: FiveStarDB
+				// OldString: FiveStarDB
+			}
+
+			5: {
+				// NewString: FourStarDB
+				// OldString: FourStarDB
+			}
+
+			4: {
+				// NewString: ThreeStarDB
+				// OldString: ThreeStarDB
+			}
+
+			3: {
+				// NewString: TwoStarDB
+				// OldString: TwoStarDB
+			}
+
+			2: {
+				// NewString: OneStarDB
+				// OldString: OneStarDB
+			}
+
+			1: {
+				// NewString: ""
+				// OldString: ""
+			}
+		}
+	}
+
+	InstantTransmissionMapHelper: {
+		PostDrawFullScreenMap: {
+			2: {
+				NewString: 光标对准NPC、气之信标或玩家图标再按下 [瞬间移动] 键，即可使用气进行传送
+				// OldString: Press the Instant Transmission key on an NPC, beacon or player icon to teleport using Ki.
+			}
+
+			1: {
+				NewString: 你的气太低无法使用瞬间移动
+				// OldString: Your Ki is too low to use instant transmission.
+			}
+		}
+
+		HandleDrawingKiBeacons: {
+			1: {
+				// NewString: DBZMODPORT/UI/KiBeaconMap
+				// OldString: DBZMODPORT/UI/KiBeaconMap
+			}
+		}
+	}
+
+	DebugHelper: {
+		DragonRadarDebug: {
+			3: {
+				// NewString: "Debug count of dragon balls returned "
+				// OldString: "Debug count of dragon balls returned "
+			}
+
+			2: {
+				// NewString: " "
+				// OldString: " "
+			}
+
+			1: {
+				// NewString: "Dragon ball found at "
+				// OldString: "Dragon ball found at "
+			}
+		}
+	}
+
+	CompatibilityUtil: {
+		get_Enigma: {
+			1: {
+				// NewString: Laugicality
+				// OldString: Laugicality
+			}
+		}
+	}
+}
+
+PatreonItem: {
+	ModifyTooltips: {
+		2: {
+			NewString: "的物品"
+			// OldString: "'s Item"
+		}
+
+		1: {
+			// NewString: ""
+			// OldString: ""
+		}
+	}
+}
+
+MyPlayer: {
+	OnKilledNPC: {
+		2: {
+			// NewString: You have unlocked the final legendary form
+			// OldString: You have unlocked the final legendary form
+		}
+
+		1: {
+			// NewString: You have unlocked the final god forms
+			// OldString: You have unlocked the final god forms
+		}
+	}
+
+	PreUpdate: {
+		11: {
+			// NewString: DBZMODPORT/Hairs/LSSJ/LSSJ3Hair
+			// OldString: DBZMODPORT/Hairs/LSSJ/LSSJ3Hair
+		}
+
+		10: {
+			// NewString: DBZMODPORT/Hairs/God/SSJRHair
+			// OldString: DBZMODPORT/Hairs/God/SSJRHair
+		}
+
+		1: {
+			// NewString: DBZMODPORT/Hairs/SSJ/SSJ1Hair
+			// OldString: DBZMODPORT/Hairs/SSJ/SSJ1Hair
+		}
+
+		9: {
+			// NewString: DBZMODPORT/Hairs/God/SSJBHair
+			// OldString: DBZMODPORT/Hairs/God/SSJBHair
+		}
+
+		8: {
+			// NewString: DBZMODPORT/Hairs/LSSJ/LSSJ2Hair
+			// OldString: DBZMODPORT/Hairs/LSSJ/LSSJ2Hair
+		}
+
+		7: {
+			// NewString: DBZMODPORT/Hairs/LSSJ/LSSJHair
+			// OldString: DBZMODPORT/Hairs/LSSJ/LSSJHair
+		}
+
+		6: {
+			// NewString: DBZMODPORT/Hairs/SSJ/SSJ3Hair
+			// OldString: DBZMODPORT/Hairs/SSJ/SSJ3Hair
+		}
+
+		5: {
+			// NewString: DBZMODPORT/Hairs/SSJ/SSJ2Hair
+			// OldString: DBZMODPORT/Hairs/SSJ/SSJ2Hair
+		}
+
+		4: {
+			// NewString: DBZMODPORT/Hairs/SSJ/SSJ1KaiokenHair
+			// OldString: DBZMODPORT/Hairs/SSJ/SSJ1KaiokenHair
+		}
+
+		3: {
+			// NewString: DBZMODPORT/Hairs/SSJ/USSJHair
+			// OldString: DBZMODPORT/Hairs/SSJ/USSJHair
+		}
+
+		2: {
+			// NewString: DBZMODPORT/Hairs/SSJ/ASSJHair
+			// OldString: DBZMODPORT/Hairs/SSJ/ASSJHair
+		}
+	}
+
+	UpdateBadLifeRegen: {
+		1: {
+			// NewString: Kaio Crystal
+			// OldString: Kaio Crystal
+		}
+	}
+
+	LSSJ3Transformation: {
+		1: {
+			// NewString: DBZMODPORT/Sounds/Awakening
+			// OldString: DBZMODPORT/Sounds/Awakening
+		}
+	}
+
+	SSJBTransformation: {
+		1: {
+			// NewString: DBZMODPORT/Sounds/Awakening
+			// OldString: DBZMODPORT/Sounds/Awakening
+		}
+	}
+
+	SSJGTransformation: {
+		1: {
+			// NewString: DBZMODPORT/Sounds/Awakening
+			// OldString: DBZMODPORT/Sounds/Awakening
+		}
+	}
+
+	LSSJ2Transformation: {
+		1: {
+			// NewString: DBZMODPORT/Sounds/Awakening
+			// OldString: DBZMODPORT/Sounds/Awakening
+		}
+	}
+
+	LSSJTransformation: {
+		1: {
+			// NewString: DBZMODPORT/Sounds/Awakening
+			// OldString: DBZMODPORT/Sounds/Awakening
+		}
+	}
+
+	SSJ3Transformation: {
+		1: {
+			// NewString: DBZMODPORT/Sounds/Awakening
+			// OldString: DBZMODPORT/Sounds/Awakening
+		}
+	}
+
+	SSJ2Transformation: {
+		1: {
+			// NewString: DBZMODPORT/Sounds/Awakening
+			// OldString: DBZMODPORT/Sounds/Awakening
+		}
+	}
+
+	SSJTransformation: {
+		1: {
+			// NewString: DBZMODPORT/Sounds/GroundRumble
+			// OldString: DBZMODPORT/Sounds/GroundRumble
+		}
+	}
+
+	PreKill: {
+		4: {
+			// NewString: The ancient power of the Lihzahrds seeps into you, causing your power to become unstable.
+			// OldString: The ancient power of the Lihzahrds seeps into you, causing your power to become unstable.
+		}
+
+		1: {
+			// OldString: The humiliation of failing drives you mad.
+			NewString: 失败的屈辱令你疯狂
+		}
+
+		2: {
+			// OldString: The rage of failing once more dwells deep within you.
+			NewString: 再次失败的怒火在你心中深深燃烧
+		}
+
+		3: {
+			// OldString: Your rage is overflowing, you feel something rise up from deep inside.
+			// NewString: Your rage is overflowing, you feel something rise up from deep inside.
+		}
+	}
+
+	IsProdigy: {
+		1: {
+			// OldString: Prodigy
+			// NewString: Prodigy
+		}
+	}
+
+	IsPlayerLegendary: {
+		1: {
+			// OldString: Legendary
+			// NewString: Legendary
+		}
+	}
+
+	PostUpdate: {
+		1: {
+			// OldString: Something uncontrollable is coming from deep inside.
+			// NewString: Something uncontrollable is coming from deep inside.
+		}
+
+		2: {
+			/* OldString:
+				'''
+				Your SSJ1 Mastery has been upgraded.
+				Hold charge and transform while in SSJ1 
+				to ascend.
+				''' */
+			/* NewString:
+				'''
+				Your SSJ1 Mastery has been upgraded.
+				Hold charge and transform while in SSJ1 
+				to ascend.
+				''' */
+		}
+
+		3: {
+			/* OldString:
+				'''
+				Your SSJ1 Mastery has been upgraded.
+				Hold charge and transform while in ASSJ 
+				to ascend.
+				''' */
+			/* NewString:
+				'''
+				Your SSJ1 Mastery has been upgraded.
+				Hold charge and transform while in ASSJ 
+				to ascend.
+				''' */
+		}
+
+		4: {
+			// OldString: Your SSJ1 has reached Max Mastery.
+			// NewString: Your SSJ1 has reached Max Mastery.
+		}
+
+		5: {
+			// OldString: Your SSJ2 has reached Max Mastery.
+			// NewString: Your SSJ2 has reached Max Mastery.
+		}
+
+		6: {
+			// OldString: Your SSJ3 has reached Max Mastery.
+			// NewString: Your SSJ3 has reached Max Mastery.
+		}
+
+		7: {
+			// OldString: Your SSJG has reached Max Mastery.
+			// NewString: Your SSJG has reached Max Mastery.
+		}
+
+		8: {
+			// OldString: Your SSJB has reached Max Mastery.
+			// NewString: Your SSJB has reached Max Mastery.
+		}
+
+		9: {
+			// OldString: Your SSJR has reached Max Mastery.
+			// NewString: Your SSJR has reached Max Mastery.
+		}
+
+		10: {
+			// OldString: Your LSSJ has reached Max Mastery.
+			// NewString: Your LSSJ has reached Max Mastery.
+		}
+
+		11: {
+			// OldString: Your LSSJ2 has reached Max Mastery.
+			// NewString: Your LSSJ2 has reached Max Mastery.
+		}
+
+		12: {
+			// OldString: Your LSSJ3 has reached Max Mastery.
+			// NewString: Your LSSJ3 has reached Max Mastery.
+		}
+
+		13: {
+			// OldString: Prodigy
+			// NewString: Prodigy
+		}
+	}
+
+	AwakeningFormUnlock: {
+		1: {
+			// OldString: The humiliation of failing drives you mad.
+			NewString: 失败的屈辱令你疯狂
+		}
+
+		2: {
+			// OldString: The rage of failing once more dwells deep within you.
+			NewString: 再次失败的怒火在你心中深深燃烧
+		}
+
+		3: {
+			// OldString: The ancient power of the Lihzahrds seeps into you, causing your power to become unstable.
+			// NewString: The ancient power of the Lihzahrds seeps into you, causing your power to become unstable.
+		}
+
+		4: {
+			// OldString: You feel enveloped in a divine energy.
+			// NewString: You feel enveloped in a divine energy.
+		}
+
+		5: {
+			// OldString: Your rage is overflowing, you feel something rise up from deep inside.
+			// NewString: Your rage is overflowing, you feel something rise up from deep inside.
+		}
+
+		6: {
+			// OldString: Something uncontrollable is coming from deep inside.
+			// NewString: Something uncontrollable is coming from deep inside.
+		}
+	}
+
+	LSSJ2TextSelect: {
+		1: {
+			// OldString: You feel infuriated.
+			// NewString: You feel infuriated.
+		}
+
+		2: {
+			// OldString: Your fury escalates.
+			// NewString: Your fury escalates.
+		}
+
+		3: {
+			// OldString: Your blood boils from rage.
+			// NewString: Your blood boils from rage.
+		}
+
+		4: {
+			// OldString: A deep burning lingers within.
+			// NewString: A deep burning lingers within.
+		}
+	}
+
+	SaveData: {
+		1: {
+			// OldString: Fragment1
+			// NewString: Fragment1
+		}
+
+		2: {
+			// OldString: Fragment2
+			// NewString: Fragment2
+		}
+
+		3: {
+			// OldString: Fragment3
+			// NewString: Fragment3
+		}
+
+		4: {
+			// OldString: Fragment4
+			// NewString: Fragment4
+		}
+
+		5: {
+			// OldString: Fragment5
+			// NewString: Fragment5
+		}
+
+		6: {
+			// OldString: KaioFragment1
+			// NewString: KaioFragment1
+		}
+
+		7: {
+			// OldString: KaioFragment2
+			// NewString: KaioFragment2
+		}
+
+		8: {
+			// OldString: KaioFragment3
+			// NewString: KaioFragment3
+		}
+
+		9: {
+			// OldString: KaioFragment4
+			// NewString: KaioFragment4
+		}
+
+		10: {
+			// OldString: KaioAchieved
+			// NewString: KaioAchieved
+		}
+
+		11: {
+			// OldString: SSJ1Achieved
+			// NewString: SSJ1Achieved
+		}
+
+		12: {
+			// OldString: SSJ2Achieved
+			// NewString: SSJ2Achieved
+		}
+
+		13: {
+			// OldString: ASSJAchieved
+			// NewString: ASSJAchieved
+		}
+
+		14: {
+			// OldString: USSJAchieved
+			// NewString: USSJAchieved
+		}
+
+		15: {
+			// OldString: SSJ3Achieved
+			// NewString: SSJ3Achieved
+		}
+
+		16: {
+			// OldString: KiCurrentFloat
+			// NewString: KiCurrentFloat
+		}
+
+		17: {
+			// OldString: RageCurrent
+			// NewString: RageCurrent
+		}
+
+		18: {
+			// OldString: KiRegenRate
+			// NewString: KiRegenRate
+		}
+
+		19: {
+			// OldString: KiEssence1
+			// NewString: KiEssence1
+		}
+
+		20: {
+			// OldString: KiEssence2
+			// NewString: KiEssence2
+		}
+
+		21: {
+			// OldString: KiEssence3
+			// NewString: KiEssence3
+		}
+
+		22: {
+			// OldString: KiEssence4
+			// NewString: KiEssence4
+		}
+
+		23: {
+			// OldString: KiEssence5
+			// NewString: KiEssence5
+		}
+
+		24: {
+			// OldString: MenuSelection
+			// NewString: MenuSelection
+		}
+
+		25: {
+			// OldString: MasteryLevel1
+			// NewString: MasteryLevel1
+		}
+
+		26: {
+			// OldString: MasteryLevel2
+			// NewString: MasteryLevel2
+		}
+
+		27: {
+			// OldString: MasteryLevel3
+			// NewString: MasteryLevel3
+		}
+
+		28: {
+			// OldString: MasteryLevelGod
+			// NewString: MasteryLevelGod
+		}
+
+		29: {
+			// OldString: MasteryLevelBlue
+			// NewString: MasteryLevelBlue
+		}
+
+		30: {
+			// OldString: MasteryLevelRose
+			// NewString: MasteryLevelRose
+		}
+
+		31: {
+			// OldString: MasteryLevelLeg
+			// NewString: MasteryLevelLeg
+		}
+
+		32: {
+			// OldString: MasteryLevelLeg2
+			// NewString: MasteryLevelLeg2
+		}
+
+		33: {
+			// OldString: MasteryLevelLeg3
+			// NewString: MasteryLevelLeg3
+		}
+
+		34: {
+			// OldString: MasteredMessage1
+			// NewString: MasteredMessage1
+		}
+
+		35: {
+			// OldString: MasteredMessage2
+			// NewString: MasteredMessage2
+		}
+
+		36: {
+			// OldString: MasteredMessage3
+			// NewString: MasteredMessage3
+		}
+
+		37: {
+			// OldString: MasteredMessageGod
+			// NewString: MasteredMessageGod
+		}
+
+		38: {
+			// OldString: MasteredMessageBlue
+			// NewString: MasteredMessageBlue
+		}
+
+		39: {
+			// OldString: MasteredMessageRose
+			// NewString: MasteredMessageRose
+		}
+
+		40: {
+			// OldString: MasteredMessageLeg
+			// NewString: MasteredMessageLeg
+		}
+
+		41: {
+			// OldString: MasteredMessageLeg2
+			// NewString: MasteredMessageLeg2
+		}
+
+		42: {
+			// OldString: MasteredMessageLeg3
+			// NewString: MasteredMessageLeg3
+		}
+
+		43: {
+			// OldString: JungleMessage
+			// NewString: JungleMessage
+		}
+
+		44: {
+			// OldString: HellMessage
+			// NewString: HellMessage
+		}
+
+		45: {
+			// OldString: EvilMessage
+			// NewString: EvilMessage
+		}
+
+		46: {
+			// OldString: MushroomMessage
+			// NewString: MushroomMessage
+		}
+
+		47: {
+			// OldString: traitChecked
+			// NewString: traitChecked
+		}
+
+		48: {
+			// OldString: playerTrait
+			// NewString: playerTrait
+		}
+
+		49: {
+			// OldString: LSSJAchieved
+			// NewString: LSSJAchieved
+		}
+
+		50: {
+			// OldString: flightUnlocked
+			// NewString: flightUnlocked
+		}
+
+		51: {
+			// OldString: flightDampeningUnlocked
+			// NewString: flightDampeningUnlocked
+		}
+
+		52: {
+			// OldString: flightUpgraded
+			// NewString: flightUpgraded
+		}
+
+		53: {
+			// OldString: ssjgAchieved
+			// NewString: ssjgAchieved
+		}
+
+		54: {
+			// OldString: ssjbAchieved
+			// NewString: ssjbAchieved
+		}
+
+		55: {
+			// OldString: ssjrAchieved
+			// NewString: ssjrAchieved
+		}
+
+		56: {
+			// OldString: LSSJ2Achieved
+			// NewString: LSSJ2Achieved
+		}
+
+		57: {
+			// OldString: LSSJ3Achieved
+			// NewString: LSSJ3Achieved
+		}
+
+		58: {
+			// OldString: KiMax3
+			// NewString: KiMax3
+		}
+
+		59: {
+			// OldString: FirstFourStarDBPickup
+			// NewString: FirstFourStarDBPickup
+		}
+
+		60: {
+			// OldString: PowerWishesLeft
+			// NewString: PowerWishesLeft
+		}
+
+		61: {
+			// OldString: SkillWishesLeft
+			// NewString: SkillWishesLeft
+		}
+
+		62: {
+			// OldString: ImmortalityWishesLeft
+			// NewString: ImmortalityWishesLeft
+		}
+
+		63: {
+			// OldString: ImmortalityRevivesLeft
+			// NewString: ImmortalityRevivesLeft
+		}
+
+		64: {
+			// OldString: IsInstantTransmission1Unlocked
+			// NewString: IsInstantTransmission1Unlocked
+		}
+
+		65: {
+			// OldString: IsInstantTransmission2Unlocked
+			// NewString: IsInstantTransmission2Unlocked
+		}
+
+		66: {
+			// OldString: IsInstantTransmission3Unlocked
+			// NewString: IsInstantTransmission3Unlocked
+		}
+
+		67: {
+			// OldString: OriginalEyeColorR
+			// NewString: OriginalEyeColorR
+		}
+
+		68: {
+			// OldString: OriginalEyeColorG
+			// NewString: OriginalEyeColorG
+		}
+
+		69: {
+			// OldString: OriginalEyeColorB
+			// NewString: OriginalEyeColorB
+		}
+	}
+
+	LoadData: {
+		1: {
+			// OldString: Fragment1
+			// NewString: Fragment1
+		}
+
+		2: {
+			// OldString: Fragment2
+			// NewString: Fragment2
+		}
+
+		3: {
+			// OldString: Fragment3
+			// NewString: Fragment3
+		}
+
+		4: {
+			// OldString: Fragment4
+			// NewString: Fragment4
+		}
+
+		5: {
+			// OldString: Fragment5
+			// NewString: Fragment5
+		}
+
+		6: {
+			// OldString: KaioFragment1
+			// NewString: KaioFragment1
+		}
+
+		7: {
+			// OldString: KaioFragment2
+			// NewString: KaioFragment2
+		}
+
+		8: {
+			// OldString: KaioFragment3
+			// NewString: KaioFragment3
+		}
+
+		9: {
+			// OldString: KaioFragment4
+			// NewString: KaioFragment4
+		}
+
+		10: {
+			// OldString: KaioAchieved
+			// NewString: KaioAchieved
+		}
+
+		11: {
+			// OldString: SSJ1Achieved
+			// NewString: SSJ1Achieved
+		}
+
+		12: {
+			// OldString: SSJ2Achieved
+			// NewString: SSJ2Achieved
+		}
+
+		13: {
+			// OldString: ASSJAchieved
+			// NewString: ASSJAchieved
+		}
+
+		14: {
+			// OldString: USSJAchieved
+			// NewString: USSJAchieved
+		}
+
+		15: {
+			// OldString: SSJ3Achieved
+			// NewString: SSJ3Achieved
+		}
+
+		16: {
+			// OldString: KiCurrentFloat
+			// NewString: KiCurrentFloat
+		}
+
+		17: {
+			// OldString: KiCurrent
+			// NewString: KiCurrent
+		}
+
+		18: {
+			// OldString: RageCurrent
+			// NewString: RageCurrent
+		}
+
+		19: {
+			// OldString: KiRegenRate
+			// NewString: KiRegenRate
+		}
+
+		20: {
+			// OldString: KiEssence1
+			// NewString: KiEssence1
+		}
+
+		21: {
+			// OldString: KiEssence2
+			// NewString: KiEssence2
+		}
+
+		22: {
+			// OldString: KiEssence3
+			// NewString: KiEssence3
+		}
+
+		23: {
+			// OldString: KiEssence4
+			// NewString: KiEssence4
+		}
+
+		24: {
+			// OldString: KiEssence5
+			// NewString: KiEssence5
+		}
+
+		25: {
+			// OldString: MenuSelection
+			// NewString: MenuSelection
+		}
+
+		26: {
+			// OldString: MasteryLevel1
+			// NewString: MasteryLevel1
+		}
+
+		27: {
+			// OldString: MasteryLevel2
+			// NewString: MasteryLevel2
+		}
+
+		28: {
+			// OldString: MasteryLevel3
+			// NewString: MasteryLevel3
+		}
+
+		29: {
+			// OldString: MasteryLevelGod
+			// NewString: MasteryLevelGod
+		}
+
+		30: {
+			// OldString: MasteryLevelBlue
+			// NewString: MasteryLevelBlue
+		}
+
+		31: {
+			// OldString: MasteryLevelRose
+			// NewString: MasteryLevelRose
+		}
+
+		32: {
+			// OldString: MasteryLevelLeg
+			// NewString: MasteryLevelLeg
+		}
+
+		33: {
+			// OldString: MasteryLevelLeg2
+			// NewString: MasteryLevelLeg2
+		}
+
+		34: {
+			// OldString: MasteryLevelLeg3
+			// NewString: MasteryLevelLeg3
+		}
+
+		35: {
+			// OldString: MasteredMessage1
+			// NewString: MasteredMessage1
+		}
+
+		36: {
+			// OldString: MasteredMessage2
+			// NewString: MasteredMessage2
+		}
+
+		37: {
+			// OldString: MasteredMessage3
+			// NewString: MasteredMessage3
+		}
+
+		38: {
+			// OldString: MasteredMessageGod
+			// NewString: MasteredMessageGod
+		}
+
+		39: {
+			// OldString: MasteredMessageBlue
+			// NewString: MasteredMessageBlue
+		}
+
+		40: {
+			// OldString: MasteredMessageRose
+			// NewString: MasteredMessageRose
+		}
+
+		41: {
+			// OldString: MasteredMessageLeg
+			// NewString: MasteredMessageLeg
+		}
+
+		42: {
+			// OldString: MasteredMessageLeg2
+			// NewString: MasteredMessageLeg2
+		}
+
+		43: {
+			// OldString: MasteredMessageLeg3
+			// NewString: MasteredMessageLeg3
+		}
+
+		44: {
+			// OldString: JungleMessage
+			// NewString: JungleMessage
+		}
+
+		45: {
+			// OldString: HellMessage
+			// NewString: HellMessage
+		}
+
+		46: {
+			// OldString: EvilMessage
+			// NewString: EvilMessage
+		}
+
+		47: {
+			// OldString: MushroomMessage
+			// NewString: MushroomMessage
+		}
+
+		48: {
+			// OldString: traitChecked
+			// NewString: traitChecked
+		}
+
+		49: {
+			// OldString: playerTrait
+			// NewString: playerTrait
+		}
+
+		50: {
+			// OldString: LSSJAchieved
+			// NewString: LSSJAchieved
+		}
+
+		51: {
+			// OldString: flightUnlocked
+			// NewString: flightUnlocked
+		}
+
+		52: {
+			// OldString: flightDampeningUnlocked
+			// NewString: flightDampeningUnlocked
+		}
+
+		53: {
+			// OldString: flightUpgraded
+			// NewString: flightUpgraded
+		}
+
+		54: {
+			// OldString: ssjgAchieved
+			// NewString: ssjgAchieved
+		}
+
+		55: {
+			// OldString: ssjbAchieved
+			// NewString: ssjbAchieved
+		}
+
+		56: {
+			// OldString: ssjrAchieved
+			// NewString: ssjrAchieved
+		}
+
+		57: {
+			// OldString: LSSJ2Achieved
+			// NewString: LSSJ2Achieved
+		}
+
+		58: {
+			// OldString: LSSJ3Achieved
+			// NewString: LSSJ3Achieved
+		}
+
+		59: {
+			// OldString: KiMax3
+			// NewString: KiMax3
+		}
+
+		60: {
+			// OldString: FirstFourStarDBPickup
+			// NewString: FirstFourStarDBPickup
+		}
+
+		61: {
+			// OldString: PowerWishesLeft
+			// NewString: PowerWishesLeft
+		}
+
+		62: {
+			// OldString: SkillWishesLeft
+			// NewString: SkillWishesLeft
+		}
+
+		63: {
+			// OldString: ImmortalityWishesLeft
+			// NewString: ImmortalityWishesLeft
+		}
+
+		64: {
+			// OldString: ImmortalityRevivesLeft
+			// NewString: ImmortalityRevivesLeft
+		}
+
+		65: {
+			// OldString: IsInstantTransmission1Unlocked
+			// NewString: IsInstantTransmission1Unlocked
+		}
+
+		66: {
+			// OldString: IsInstantTransmission2Unlocked
+			// NewString: IsInstantTransmission2Unlocked
+		}
+
+		67: {
+			// OldString: IsInstantTransmission3Unlocked
+			// NewString: IsInstantTransmission3Unlocked
+		}
+
+		68: {
+			// OldString: OriginalEyeColorR
+			// NewString: OriginalEyeColorR
+		}
+
+		69: {
+			// OldString: OriginalEyeColorG
+			// NewString: OriginalEyeColorG
+		}
+
+		70: {
+			// OldString: OriginalEyeColorB
+			// NewString: OriginalEyeColorB
+		}
+	}
+
+	HandleKaioken: {
+		1: {
+			// OldString: DBZMODPORT/Sounds/KaioAuraAscend
+			// NewString: DBZMODPORT/Sounds/KaioAuraAscend
+		}
+	}
+
+	ProcessTriggers: {
+		1: {
+			// OldString: "Speed bonus "
+			NewString: "移动速度加成 "
+		}
+
+		2: {
+			// OldString: %
+			// NewString: %
+		}
+
+		3: {
+			// OldString: off
+			NewString: 关闭
+		}
+
+		4: {
+			// OldString: !
+			NewString: ！
+		}
+
+		5: {
+			// OldString: DBZMODPORT/Sounds/PowerDown
+			// NewString: DBZMODPORT/Sounds/PowerDown
+		}
+	}
+}
+
+DBZMODItem: {
+	ModifyTooltips: {
+		1: {
+			// OldString: PrefixKiChange
+			// NewString: PrefixKiChange
+		}
+
+		2: {
+			// OldString: +
+			// NewString: +
+		}
+
+		3: {
+			// OldString: % More Ki Usage
+			NewString: %气消耗
+		}
+
+		4: {
+			// OldString: % Less Ki Usage
+			NewString: %气消耗
+		}
+
+		5: {
+			// OldString: PrefixSpeedChange
+			// NewString: PrefixSpeedChange
+		}
+
+		6: {
+			// OldString: % More cast speed
+			// NewString: % More cast speed
+		}
+
+		7: {
+			// OldString: % Less cast speed
+			// NewString: % Less cast speed
+		}
+
+		8: {
+			// OldString: " Maximum charges"
+			// NewString: " Maximum charges"
+		}
+	}
+
+	<ModifyTooltips>b__7_0: {
+		1: {
+			// OldString: Terraria
+			// NewString: Terraria
+		}
+
+		2: {
+			// OldString: Tooltip
+			// NewString: Tooltip
+		}
+	}
+}
+
+DBZMODNPC: {
+	OnKill: {
+		1: {
+			// OldString: You feel a calm radiance of ki from the jungle.
+			// NewString: You feel a calm radiance of ki from the jungle.
+		}
+
+		2: {
+			// OldString: The underworld's flames shimmer with energy.
+			// NewString: The underworld's flames shimmer with energy.
+		}
+
+		3: {
+			// OldString: The world's evil erupts with destructive energy.
+			// NewString: The world's evil erupts with destructive energy.
+		}
+
+		4: {
+			// OldString: The glowing mushrooms of the caverns explode with radiance.
+			// NewString: The glowing mushrooms of the caverns explode with radiance.
+		}
+	}
+
+	ModifyShop: {
+		1: {
+			// OldString: Random.NextBool3
+			// NewString: Random.NextBool3
+		}
+	}
+}
+
+FlightSystem: {
+	AddKatchinFeetBuff: {
+		1: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+	}
+}
+
+Gfx: {
+	LoadGfx: {
+		1: {
+			// OldString: DBZMODPORT/UI/KiBar
+			// NewString: DBZMODPORT/UI/KiBar
+		}
+
+		2: {
+			// OldString: DBZMODPORT/UI/OverloadBar
+			// NewString: DBZMODPORT/UI/OverloadBar
+		}
+
+		3: {
+			// OldString: DBZMODPORT/UI/KiBarLightning
+			// NewString: DBZMODPORT/UI/KiBarLightning
+		}
+
+		4: {
+			// OldString: DBZMODPORT/UI/Bg
+			// NewString: DBZMODPORT/UI/Bg
+		}
+
+		5: {
+			// OldString: DBZMODPORT/UI/BackPanel
+			// NewString: DBZMODPORT/UI/BackPanel
+		}
+
+		6: {
+			// OldString: DBZMODPORT/UI/WishBackPanel
+			// NewString: DBZMODPORT/UI/WishBackPanel
+		}
+
+		7: {
+			// OldString: DBZMODPORT/UI/Buttons/GrantButton
+			// NewString: DBZMODPORT/UI/Buttons/GrantButton
+		}
+
+		8: {
+			// OldString: DBZMODPORT/UI/Buttons/SSJ1ButtonImage
+			// NewString: DBZMODPORT/UI/Buttons/SSJ1ButtonImage
+		}
+
+		9: {
+			// OldString: DBZMODPORT/UI/Buttons/SSJ2ButtonImage
+			// NewString: DBZMODPORT/UI/Buttons/SSJ2ButtonImage
+		}
+
+		10: {
+			// OldString: DBZMODPORT/UI/Buttons/SSJ3ButtonImage
+			// NewString: DBZMODPORT/UI/Buttons/SSJ3ButtonImage
+		}
+
+		11: {
+			// OldString: DBZMODPORT/UI/Buttons/SSJGButtonImage
+			// NewString: DBZMODPORT/UI/Buttons/SSJGButtonImage
+		}
+
+		12: {
+			// OldString: DBZMODPORT/UI/Buttons/SSJBButtonImage
+			// NewString: DBZMODPORT/UI/Buttons/SSJBButtonImage
+		}
+
+		13: {
+			// OldString: DBZMODPORT/UI/Buttons/SSJRButtonImage
+			// NewString: DBZMODPORT/UI/Buttons/SSJRButtonImage
+		}
+
+		14: {
+			// OldString: DBZMODPORT/UI/Buttons/LSSJButtonImage
+			// NewString: DBZMODPORT/UI/Buttons/LSSJButtonImage
+		}
+
+		15: {
+			// OldString: DBZMODPORT/UI/Buttons/LSSJ2ButtonImage
+			// NewString: DBZMODPORT/UI/Buttons/LSSJ2ButtonImage
+		}
+
+		16: {
+			// OldString: DBZMODPORT/UI/Buttons/LSSJ3ButtonImage
+			// NewString: DBZMODPORT/UI/Buttons/LSSJ3ButtonImage
+		}
+
+		17: {
+			// OldString: DBZMODPORT/UI/LockedImage
+			// NewString: DBZMODPORT/UI/LockedImage
+		}
+
+		18: {
+			// OldString: DBZMODPORT/UI/UnknownImage
+			// NewString: DBZMODPORT/UI/UnknownImage
+		}
+
+		19: {
+			// OldString: DBZMODPORT/UI/Buttons/WishforPower
+			// NewString: DBZMODPORT/UI/Buttons/WishforPower
+		}
+
+		20: {
+			// OldString: DBZMODPORT/UI/Buttons/WishforWealth
+			// NewString: DBZMODPORT/UI/Buttons/WishforWealth
+		}
+
+		21: {
+			// OldString: DBZMODPORT/UI/Buttons/WishforImmortality
+			// NewString: DBZMODPORT/UI/Buttons/WishforImmortality
+		}
+
+		22: {
+			// OldString: DBZMODPORT/UI/Buttons/WishforGenetics
+			// NewString: DBZMODPORT/UI/Buttons/WishforGenetics
+		}
+
+		23: {
+			// OldString: DBZMODPORT/UI/Buttons/WishforAwakening
+			// NewString: DBZMODPORT/UI/Buttons/WishforAwakening
+		}
+	}
+}
+
+KiItem: {
+	ModifyTooltips: {
+		1: {
+			// OldString: ""
+			// NewString: ""
+		}
+
+		2: {
+			// OldString: "Consumes "
+			NewString: "消耗"
+		}
+
+		3: {
+			// OldString: " Ki "
+			NewString: "气"
+		}
+	}
+}
+
+KiProjectile: {
+	OnHitNPC: {
+		1: {
+			// OldString: Kispark
+			// NewString: Kispark
+		}
+	}
+}
