@@ -1407,7 +1407,7 @@ Items: {
 			SaiyanScoutScalemail: {
 				UpdateArmorSet: {
 					1: {
-						// NewString: +100 Max Ki.
+						NewString: 增加100点最大气值
 						// OldString: +100 Max Ki.
 					}
 				}
@@ -1708,7 +1708,7 @@ Items: {
 		MythrilGlasses: {
 			UpdateArmorSet: {
 				1: {
-					// NewString: Ki orbs regenerate twice as much ki.
+					NewString: 气珠的回复量翻倍
 					// OldString: Ki orbs regenerate twice as much ki.
 				}
 			}
@@ -1717,11 +1717,11 @@ Items: {
 		HallowedFedora: {
 			UpdateArmorSet: {
 				1: {
-					/* NewString:
+					NewString:
 						'''
-						9% Increased Ki Damage
-						+200 Max Ki
-						''' */
+						增加9%气伤害
+						增加200点最大气值
+						'''
 					/* OldString:
 						'''
 						9% Increased Ki Damage
@@ -1734,7 +1734,7 @@ Items: {
 		CobaltCrown: {
 			UpdateArmorSet: {
 				1: {
-					// NewString: 15% increased ki knockback
+					NewString: 增加15%气击退
 					// OldString: 15% increased ki knockback
 				}
 			}
@@ -1743,7 +1743,7 @@ Items: {
 		ChlorophyteHeadpiece: {
 			UpdateArmorSet: {
 				1: {
-					// NewString: Getting hit gives greatly increased life regen and ki regen.
+					NewString: 受到攻击会大幅提升生命再生速度与气回复速度
 					// OldString: Getting hit gives greatly increased life regen and ki regen.
 				}
 			}
@@ -1752,7 +1752,7 @@ Items: {
 		AdamantiteVisor: {
 			UpdateArmorSet: {
 				1: {
-					// NewString: 7% Increased Ki Damage
+					NewString: 增加7%气伤害
 					// OldString: 7% Increased Ki Damage
 				}
 			}
@@ -1776,7 +1776,7 @@ Items: {
 
 				UseItem: {
 					1: {
-						// NewString: Your flight now takes barely any ki.
+						NewString: 你的飞行现在几乎不再消耗气
 						// OldString: Your flight now takes barely any ki.
 					}
 				}
@@ -1797,7 +1797,7 @@ Items: {
 
 				UseItem: {
 					1: {
-						// NewString: You now take no fall damage for 10 seconds after flying.
+						NewString: 你在飞行后10秒内不再受到坠落伤害
 						// OldString: You now take no fall damage for 10 seconds after flying.
 					}
 				}
@@ -1818,12 +1818,12 @@ Items: {
 
 				UseItem: {
 					2: {
-						// NewString: Bind a key to flight toggle to use it.
+						NewString: 绑定一个键切换飞行状态
 						// OldString: Bind a key to flight toggle to use it.
 					}
 
 					1: {
-						// NewString: You have unlocked flight.
+						NewString: 你已解锁飞行
 						// OldString: You have unlocked flight.
 					}
 				}
@@ -1834,7 +1834,7 @@ Items: {
 			KaioFragmentFirst: {
 				UseItem: {
 					1: {
-						// NewString: You feel your power surge.
+						NewString: 你感到力量正在激增
 						// OldString: You feel your power surge.
 					}
 				}
@@ -2052,7 +2052,7 @@ Items: {
 			TransmissionVanish: {
 				UseItem: {
 					1: {
-						// NewString: You have unlocked Instant Transmission Lv1. Open your map to learn how to use it.
+						NewString: 你已解锁瞬间移动Lv1，打开地图以学习如何使用
 						// OldString: You have unlocked Instant Transmission Lv1. Open your map to learn how to use it.
 					}
 				}
@@ -2073,11 +2073,11 @@ Items: {
 
 				UseItem: {
 					1: {
-						/* NewString:
+						NewString:
 							'''
-							You have unlocked Instant Transmission Lv2 (Supreme Kai Teleportation).
-							Use your Instant Transmission hotkey and cursor to seek a remote destination.
-							''' */
+							你已解锁瞬间移动Lv2（界王神传送）
+							使用 [瞬间移动] 键和光标来寻找远处目的地
+							'''
 						/* OldString:
 							'''
 							You have unlocked Instant Transmission Lv2 (Supreme Kai Teleportation).
@@ -2107,12 +2107,11 @@ Items: {
 
 				UseItem: {
 					1: {
-						/* NewString:
+						NewString:
 							'''
-							You have unlocked Instant Transmission Lv3.
-							Instant Transmission free roaming costs 
-							are significantly reduced.
-							''' */
+							你已解锁瞬间移动Lv3
+							地图使用瞬间移动的气消耗大幅降低
+							'''
 						/* OldString:
 							'''
 							You have unlocked Instant Transmission Lv3.
@@ -2271,7 +2270,7 @@ Items: {
 		SSJGUnlockItem: {
 			OnPickup: {
 				1: {
-					// NewString: You feel enveloped in a divine energy.
+					NewString: 你感到自己被神圣的能量所包裹
 					// OldString: You feel enveloped in a divine energy.
 				}
 			}
@@ -4046,7 +4045,11 @@ UI: {
 	TransMenu: {
 		TrySelectingSSJR: {
 			3: {
-				// NewString: The experience from battling a galactic being could bring forth this strength.
+				NewString:
+					'''
+					与银河级生物的战斗经历，或许能唤醒这股力量
+					[C/959595:译者补充：超级赛亚人之神的掌握度为100%时，击败月亮领主]
+					'''
 				// OldString: The experience from battling a galactic being could bring forth this strength.
 			}
 
@@ -4063,7 +4066,11 @@ UI: {
 
 		TrySelectingSSJB: {
 			3: {
-				// NewString: The experience from battling a galactic being could bring forth this strength.
+				NewString:
+					'''
+					与银河级生物的战斗经历，或许能唤醒这股力量
+					[C/959595:译者补充：超级赛亚人之神的掌握度为100%时，击败月亮领主]
+					'''
 				// OldString: The experience from battling a galactic being could bring forth this strength.
 			}
 
@@ -4080,7 +4087,11 @@ UI: {
 
 		TrySelectingSSJG: {
 			3: {
-				NewString: 星的神力，或许能唤醒超越凡人理解的存在The godlike power of the lunar star could awaken something beyond mortal comprehension.
+				NewString:
+					''' 
+					夜明恒星的神力，或许能唤醒超越凡人理解的存在
+					[C/959595:译者补充：超级赛亚人3的掌握度为100%时，捡起天界柱掉落的超级赛亚人之神解锁物品]
+					'''
 				// OldString: The godlike power of the lunar star could awaken something beyond mortal comprehension.
 			}
 
@@ -4097,7 +4108,11 @@ UI: {
 
 		TrySelectingLSSJ3: {
 			3: {
-				// NewString: People of an occult nature hold the secret to this form.
+				NewString:
+					''' 
+					神秘学之士掌握着这种形态的秘密
+					[C/959595:译者补充：传说超级赛亚人2的掌握度为100%时，击败拜月教邪教徒]
+					'''
 				// OldString: People of an occult nature hold the secret to this form.
 			}
 
@@ -4114,7 +4129,11 @@ UI: {
 
 		TrySelectingLSSJ2: {
 			3: {
-				// NewString: A legendary saiyan sometimes may lose complete control upon being pushed into a critical state.
+				NewString:
+					'''
+					传说中的赛亚人有时在被逼入危急状况时，会彻底失去控制
+					[C/959595:译者补充：击败猪龙鱼公爵后，玩家当前生命值低于最大生命值10%，持续5秒后有12.5%概率变身]
+					'''
 				// OldString: A legendary saiyan sometimes may lose complete control upon being pushed into a critical state.
 			}
 
@@ -4131,7 +4150,11 @@ UI: {
 
 		TrySelectingLSSJ: {
 			3: {
-				// NewString: The rarest saiyans may be able to achieve a form beyond anything a normal saiyan could obtain.
+				NewString:
+					''' 
+					最稀有的赛亚人或许才能达到一种超越普通赛亚人所能获得的形态
+					[C/959595:译者补充：击败任意机械Boss后，处于100%掌握度的超级赛亚人，在Boss战中死亡]
+					'''
 				// OldString: The rarest saiyans may be able to achieve a form beyond anything a normal saiyan could obtain.
 			}
 
@@ -4141,7 +4164,7 @@ UI: {
 			}
 
 			1: {
-				NewString: "传说超级赛亚人2掌握度： "
+				NewString: "传说超级赛亚人掌握度： "
 				// OldString: "Legendary Super Saiyan Mastery: "
 			}
 		}
@@ -4151,7 +4174,7 @@ UI: {
 				NewString:
 					''' 
 					古老敌人的力量，或许正是解锁更强大力量的关键
-					[C/959595:译者补充：处于100%掌握度的超级赛亚人2，在与石巨人战斗中死亡，必定变身]
+					[C/959595:译者补充：处于100%掌握度的超级赛亚人2，在与石巨人战斗中死亡]
 					'''
 				// OldString: The power of an ancient foe may be the key to unlocking greater power.
 			}
@@ -4172,7 +4195,7 @@ UI: {
 				NewString:
 					''' 
 					在升华状态下，唯有承受极端的压力，才能唤醒真正的力量
-					[C/959595:译者补充：击败任意机械Boss后，处于100%掌握度的超级赛亚人，在Boss战中死亡，必定变身]
+					[C/959595:译者补充：击败任意机械Boss后，处于100%掌握度的超级赛亚人，在Boss战中死亡]
 					'''
 				// OldString: One may awaken their true power through extreme pressure while ascended.
 			}
@@ -4268,35 +4291,35 @@ Util: {
 	TransformationHelper: {
 		get_Ussj: {
 			1: {
-				// NewString: Ultra Super Saiyan
+				NewString: 究极超级赛亚人
 				// OldString: Ultra Super Saiyan
 			}
 		}
 
 		get_Assj: {
 			1: {
-				// NewString: Ascended Super Saiyan
+				NewString: 升华超级赛亚人
 				// OldString: Ascended Super Saiyan
 			}
 		}
 
 		get_LSSJ3: {
 			1: {
-				// NewString: Legendary Super Saiyan 3
+				NewString: 传说超级赛亚人3
 				// OldString: Legendary Super Saiyan 3
 			}
 		}
 
 		get_LSSJ2: {
 			1: {
-				// NewString: Legendary Super Saiyan 2
+				NewString: 传说超级赛亚人2
 				// OldString: Legendary Super Saiyan 2
 			}
 		}
 
 		get_LSSJ: {
 			1: {
-				// NewString: Legendary Super Saiyan
+				NewString: 传说超级赛亚人
 				// OldString: Legendary Super Saiyan
 			}
 		}
@@ -4455,12 +4478,12 @@ PatreonItem: {
 MyPlayer: {
 	OnKilledNPC: {
 		2: {
-			// NewString: You have unlocked the final legendary form
+			NewString: 你已经解锁最终的传说形态
 			// OldString: You have unlocked the final legendary form
 		}
 
 		1: {
-			// NewString: You have unlocked the final god forms
+			NewString: 你已经解锁最终的神明形态
 			// OldString: You have unlocked the final god forms
 		}
 	}
@@ -4587,7 +4610,7 @@ MyPlayer: {
 
 	PreKill: {
 		4: {
-			// NewString: The ancient power of the Lihzahrds seeps into you, causing your power to become unstable.
+			NewString: 蜥蜴人的古老力量渗入你的体内，使你的力量变得不稳定
 			// OldString: The ancient power of the Lihzahrds seeps into you, causing your power to become unstable.
 		}
 
@@ -4603,7 +4626,7 @@ MyPlayer: {
 
 		3: {
 			// OldString: Your rage is overflowing, you feel something rise up from deep inside.
-			// NewString: Your rage is overflowing, you feel something rise up from deep inside.
+			NewString: 你的怒火已然溢出，你感到体内深处有某种力量正在涌现
 		}
 	}
 
@@ -4624,7 +4647,7 @@ MyPlayer: {
 	PostUpdate: {
 		1: {
 			// OldString: Something uncontrollable is coming from deep inside.
-			// NewString: Something uncontrollable is coming from deep inside.
+			NewString: 某种无法控制的力量正从你体内深处涌现
 		}
 
 		2: {
@@ -4634,12 +4657,12 @@ MyPlayer: {
 				Hold charge and transform while in SSJ1 
 				to ascend.
 				''' */
-			/* NewString:
+			NewString:
 				'''
-				Your SSJ1 Mastery has been upgraded.
-				Hold charge and transform while in SSJ1 
-				to ascend.
-				''' */
+				你对超级赛亚人的掌握的得到提升
+				长按 [集气] 再按 [变身] 键
+				使超级赛亚人得到升华
+				'''
 		}
 
 		3: {
@@ -4649,57 +4672,57 @@ MyPlayer: {
 				Hold charge and transform while in ASSJ 
 				to ascend.
 				''' */
-			/* NewString:
+			NewString:
 				'''
-				Your SSJ1 Mastery has been upgraded.
-				Hold charge and transform while in ASSJ 
-				to ascend.
-				''' */
+				你对超级赛亚人的掌握的得到提升
+				长按 [集气] 再按 [变身] 键
+				使升华超级赛亚人再次升华
+				'''
 		}
 
 		4: {
 			// OldString: Your SSJ1 has reached Max Mastery.
-			// NewString: Your SSJ1 has reached Max Mastery.
+			NewString: 你对超级赛亚人的掌握度已经达到最大
 		}
 
 		5: {
 			// OldString: Your SSJ2 has reached Max Mastery.
-			// NewString: Your SSJ2 has reached Max Mastery.
+			NewString: 你对超级赛亚人2的掌握度已经达到最大
 		}
 
 		6: {
 			// OldString: Your SSJ3 has reached Max Mastery.
-			// NewString: Your SSJ3 has reached Max Mastery.
+			NewString: 你对超级赛亚人3的掌握度已经达到最大
 		}
 
 		7: {
 			// OldString: Your SSJG has reached Max Mastery.
-			// NewString: Your SSJG has reached Max Mastery.
+			NewString: 你对超级赛亚人之神的掌握度已经达到最大
 		}
 
 		8: {
 			// OldString: Your SSJB has reached Max Mastery.
-			// NewString: Your SSJB has reached Max Mastery.
+			NewString: 你对超级赛亚人蓝的掌握度已经达到最大
 		}
 
 		9: {
 			// OldString: Your SSJR has reached Max Mastery.
-			// NewString: Your SSJR has reached Max Mastery.
+			NewString: 你对超级赛亚人桃红的掌握度已经达到最大
 		}
 
 		10: {
 			// OldString: Your LSSJ has reached Max Mastery.
-			// NewString: Your LSSJ has reached Max Mastery.
+			NewString: 你对传说超级赛亚人的掌握度已经达到最大
 		}
 
 		11: {
 			// OldString: Your LSSJ2 has reached Max Mastery.
-			// NewString: Your LSSJ2 has reached Max Mastery.
+			NewString: 你对传说超级赛亚人2的掌握度已经达到最大
 		}
 
 		12: {
 			// OldString: Your LSSJ3 has reached Max Mastery.
-			// NewString: Your LSSJ3 has reached Max Mastery.
+			NewString: 你对传说超级赛亚人3的掌握度已经达到最大
 		}
 
 		13: {
@@ -4721,44 +4744,44 @@ MyPlayer: {
 
 		3: {
 			// OldString: The ancient power of the Lihzahrds seeps into you, causing your power to become unstable.
-			// NewString: The ancient power of the Lihzahrds seeps into you, causing your power to become unstable.
+			NewString: 蜥蜴人的古老力量渗入你的体内，使你的力量变得不稳定
 		}
 
 		4: {
 			// OldString: You feel enveloped in a divine energy.
-			// NewString: You feel enveloped in a divine energy.
+			NewString: 你感到自己被神圣的能量所包裹
 		}
 
 		5: {
 			// OldString: Your rage is overflowing, you feel something rise up from deep inside.
-			// NewString: Your rage is overflowing, you feel something rise up from deep inside.
+			NewString: 你的怒火已然溢出，你感到体内深处有某种力量正在涌现
 		}
 
 		6: {
 			// OldString: Something uncontrollable is coming from deep inside.
-			// NewString: Something uncontrollable is coming from deep inside.
+			NewString: 某种无法控制的力量正从你体内深处涌现
 		}
 	}
 
 	LSSJ2TextSelect: {
 		1: {
 			// OldString: You feel infuriated.
-			// NewString: You feel infuriated.
+			NewString: 你感到愤怒至极
 		}
 
 		2: {
 			// OldString: Your fury escalates.
-			// NewString: Your fury escalates.
+			NewString: 你的怒火正不断涌升
 		}
 
 		3: {
 			// OldString: Your blood boils from rage.
-			// NewString: Your blood boils from rage.
+			NewString: 你的血液因怒火而沸腾
 		}
 
 		4: {
 			// OldString: A deep burning lingers within.
-			// NewString: A deep burning lingers within.
+			NewString: 在你体内深处残留着焚烧的怒火
 		}
 	}
 
