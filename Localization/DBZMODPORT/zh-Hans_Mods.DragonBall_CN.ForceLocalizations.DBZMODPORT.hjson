@@ -462,7 +462,7 @@ Buffs: {
 			}
 
 			10: {
-				// NewString: ", "
+				NewString: "， "
 				// OldString: ", "
 			}
 
@@ -1432,11 +1432,12 @@ Items: {
 
 				UpdateArmorSet: {
 					1: {
-						/* NewString:
+						NewString:
 							'''
-							Drastically increased pickup range for ki orbs.
-							+500 Max Ki and 8% Reduced Ki Usage
-							''' */
+							大幅提升气珠拾取范围
+							增加500点最大气值
+							减少8%气消耗
+							'''
 						/* OldString:
 							'''
 							Drastically increased pickup range for ki orbs.
@@ -1465,11 +1466,12 @@ Items: {
 
 				UpdateArmorSet: {
 					1: {
-						/* NewString:
+						NewString:
 							'''
-							Hitting enemies heals a random amount of ki and fires off homing projectiles at nearby enemies.
-							Increased Ki Regen and +200 Max Life
-							''' */
+							击中敌怪会随机回复一定量的气，并向附近敌人发射追踪弹幕
+							提升气回复速度
+							增加200点最大生命值
+							'''
 						/* OldString:
 							'''
 							Hitting enemies heals a random amount of ki and fires off homing projectiles at nearby enemies.
@@ -1507,7 +1509,11 @@ Items: {
 
 				UpdateArmorSet: {
 					1: {
-						// NewString: 15% reduced ki usage and +200 Max Ki.
+						NewString:
+							'''
+							减少15%气消耗
+							增加200点最大气值
+							'''
 						// OldString: 15% reduced ki usage and +200 Max Ki.
 					}
 				}
@@ -1552,12 +1558,12 @@ Items: {
 
 				UpdateArmorSet: {
 					1: {
-						/* NewString:
+						NewString:
 							'''
-							Taking fatal damage will instead restore you to max life with x2 damage for a short time,
-							1 minute cooldown.
-							+150 Max Life
-							''' */
+							受到致命伤害会立刻回满全部生命值并在一段时间内造成2倍伤害
+							有1分钟冷却时间
+							增加150最大生命值
+							'''
 						/* OldString:
 							'''
 							Taking fatal damage will instead restore you to max life with x2 damage for a short time,
@@ -1578,7 +1584,7 @@ Items: {
 
 				UpdateArmorSet: {
 					1: {
-						// NewString: Pressing `Armor Bonus` grants you Demonic Overdrive, granting infinite ki for a limited time.
+						NewString: 按下 [套装奖励] 键使你获得恶魔超载，在此期间拥有无限气
 						// OldString: Pressing `Armor Bonus` grants you Demonic Overdrive, granting infinite ki for a limited time.
 					}
 				}
@@ -1608,11 +1614,11 @@ Items: {
 
 				UpdateArmorSet: {
 					1: {
-						/* NewString:
+						NewString:
 							'''
-							All damage is slowly increased while a boss is alive, limits at 300%.
-							+100 Max Life
-							''' */
+							在Boss存活时全职业伤害会缓慢提升，最高提升300%
+							增加100点最大生命值
+							'''
 						/* OldString:
 							'''
 							All damage is slowly increased while a boss is alive, limits at 300%.
@@ -1648,7 +1654,7 @@ Items: {
 
 				UpdateArmorSet: {
 					1: {
-						// NewString: Pressing `Armor Bonus` grants you Demonic Overdrive, granting infinite ki for a limited time.
+						NewString: 按下 [套装奖励] 键使你获得恶魔超载，在此期间拥有无限气
 						// OldString: Pressing `Armor Bonus` grants you Demonic Overdrive, granting infinite ki for a limited time.
 					}
 				}
@@ -1681,7 +1687,7 @@ Items: {
 		TitaniumCap: {
 			UpdateArmorSet: {
 				1: {
-					// NewString: Briefly become invulnerable after striking an enemy
+					NewString: 击中敌怪后短暂进入无敌状态
 					// OldString: Briefly become invulnerable after striking an enemy
 				}
 			}
@@ -1690,7 +1696,7 @@ Items: {
 		PalladiumBlindfoldCrown: {
 			UpdateArmorSet: {
 				1: {
-					// NewString: Hitting an enemy has a chance to drop ki orbs
+					NewString: 攻击敌怪有概率掉落气珠
 					// OldString: Hitting an enemy has a chance to drop ki orbs
 				}
 			}
@@ -1699,7 +1705,7 @@ Items: {
 		OrichalcumHat: {
 			UpdateArmorSet: {
 				1: {
-					// NewString: Flower petals will fall on your target for extra damage
+					NewString: 花瓣会降落在目标敌怪造成额外伤害
 					// OldString: Flower petals will fall on your target for extra damage
 				}
 			}
@@ -5579,22 +5585,22 @@ DBZMODNPC: {
 	OnKill: {
 		1: {
 			// OldString: You feel a calm radiance of ki from the jungle.
-			// NewString: You feel a calm radiance of ki from the jungle.
+			NewString: 你感受到来自丛林的平静之气的光芒
 		}
 
 		2: {
 			// OldString: The underworld's flames shimmer with energy.
-			// NewString: The underworld's flames shimmer with energy.
+			NewString: 地狱的火焰闪烁着能量
 		}
 
 		3: {
 			// OldString: The world's evil erupts with destructive energy.
-			// NewString: The world's evil erupts with destructive energy.
+			NewString: 世间的邪恶爆发出毁灭能量
 		}
 
 		4: {
 			// OldString: The glowing mushrooms of the caverns explode with radiance.
-			// NewString: The glowing mushrooms of the caverns explode with radiance.
+			NewString: 洞穴中的发光蘑菇迸发出耀眼的光芒
 		}
 	}
 
