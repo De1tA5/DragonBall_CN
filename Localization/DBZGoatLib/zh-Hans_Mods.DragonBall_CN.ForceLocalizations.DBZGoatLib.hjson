@@ -1,0 +1,1698 @@
+DBZGoatLib: {
+	Load: {
+		1: {
+			// OldString: transform
+			// NewString: transform
+		}
+
+		2: {
+			// OldString: powerDown
+			// NewString: powerDown
+		}
+
+		3: {
+			// OldString: energyCharge
+			// NewString: energyCharge
+		}
+
+		4: {
+			// OldString: transMenu
+			// NewString: transMenu
+		}
+
+		5: {
+			// OldString: DoGeneticWish
+			// NewString: DoGeneticWish
+		}
+
+		6: {
+			// OldString: DoGeneticWish_Detour
+			// NewString: DoGeneticWish_Detour
+		}
+	}
+
+	PostSetupContent: {
+		1: {
+			// OldString: HandleTransformations
+			// NewString: HandleTransformations
+		}
+
+		2: {
+			// OldString: HandleKiDrainMasteryContribution
+			// NewString: HandleKiDrainMasteryContribution
+		}
+
+		3: {
+			// OldString: HandleDamageReceivedMastery
+			// NewString: HandleDamageReceivedMastery
+		}
+	}
+
+	SaveConfig: {
+		1: {
+			// OldString: Save
+			// NewString: Save
+		}
+
+		2: {
+			// OldString: In-game SaveConfig failed, code update required.
+			// NewString: In-game SaveConfig failed, code update required.
+		}
+	}
+
+	AddHook_Type_String_Type_String: {
+		1: {
+			// OldString: "type "
+			// NewString: "type "
+		}
+
+		2: {
+			// OldString: "   name "
+			// NewString: "   name "
+		}
+
+		3: {
+			// OldString: "   methodType Method   to "
+			// NewString: "   methodType Method   to "
+		}
+
+		4: {
+			// OldString: "   toName "
+			// NewString: "   toName "
+		}
+	}
+
+	"AddHook_Type_String_Type[]_Type_String": {
+		1: {
+			// OldString: "type "
+			// NewString: "type "
+		}
+
+		2: {
+			// OldString: "   name "
+			// NewString: "   name "
+		}
+
+		3: {
+			// OldString: "   methodType Method   to "
+			// NewString: "   methodType Method   to "
+		}
+
+		4: {
+			// OldString: "   toName "
+			// NewString: "   toName "
+		}
+	}
+
+	AddDetour_Type_String_Boolean_Type_String: {
+		1: {
+			// OldString: "type "
+			// NewString: "type "
+		}
+
+		2: {
+			// OldString: "   name "
+			// NewString: "   name "
+		}
+
+		3: {
+			// OldString: "   methodType "
+			// NewString: "   methodType "
+		}
+
+		4: {
+			// OldString: Property
+			// NewString: Property
+		}
+
+		5: {
+			// OldString: Method
+			// NewString: Method
+		}
+
+		6: {
+			// OldString: "   to "
+			// NewString: "   to "
+		}
+
+		7: {
+			// OldString: "   toName "
+			// NewString: "   toName "
+		}
+	}
+
+	"AddDetour_Type_String_Type[]_Type_String": {
+		1: {
+			// OldString: "type "
+			// NewString: "type "
+		}
+
+		2: {
+			// OldString: "   name "
+			// NewString: "   name "
+		}
+
+		3: {
+			// OldString: "   args {"
+			// NewString: "   args {"
+		}
+
+		4: {
+			// OldString: ","
+			// NewString: ","
+		}
+
+		5: {
+			// OldString: "}   to "
+			// NewString: "}   to "
+		}
+
+		6: {
+			// OldString: "   toName "
+			// NewString: "   toName "
+		}
+	}
+
+	AddDetour_Type_String: {
+		1: {
+			// OldString: Nothing
+			// NewString: Nothing
+		}
+	}
+}
+
+GPlayer: {
+	SaveData: {
+		1: {
+			// OldString: DBZGoatLib_
+			// NewString: DBZGoatLib_
+		}
+
+		2: {
+			// OldString: _Maxed
+			// NewString: _Maxed
+		}
+
+		3: {
+			// OldString: DBZGoatLib_SelectedPanel
+			// NewString: DBZGoatLib_SelectedPanel
+		}
+
+		4: {
+			// OldString: DBZGoatLib_SelectedForm
+			// NewString: DBZGoatLib_SelectedForm
+		}
+
+		5: {
+			// OldString: DBZGoatLib_Trait
+			// NewString: DBZGoatLib_Trait
+		}
+
+		6: {
+			// OldString: DBZGoatLib_Traited
+			// NewString: DBZGoatLib_Traited
+		}
+	}
+
+	LoadData: {
+		1: {
+			// OldString: DBZGoatLib_
+			// NewString: DBZGoatLib_
+		}
+
+		2: {
+			// OldString: _Maxed
+			// NewString: _Maxed
+		}
+
+		3: {
+			// OldString: DBZGoatLib_SelectedForm
+			// NewString: DBZGoatLib_SelectedForm
+		}
+
+		4: {
+			// OldString: DBZGoatLib_SelectedPanel
+			// NewString: DBZGoatLib_SelectedPanel
+		}
+
+		5: {
+			// OldString: DBZGoatLib_Trait
+			// NewString: DBZGoatLib_Trait
+		}
+
+		6: {
+			// OldString: DBZGoatLib_Traited
+			// NewString: DBZGoatLib_Traited
+		}
+	}
+
+	IsCharging: {
+		1: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+
+		2: {
+			// OldString: ModPlayer
+			// NewString: ModPlayer
+		}
+
+		3: {
+			// OldString: isCharging
+			// NewString: isCharging
+		}
+	}
+
+	ProcessTriggers: {
+		1: {
+			// OldString: menuvisible
+			// NewString: menuvisible
+		}
+
+		2: {
+			// OldString: ModPlayer
+			// NewString: ModPlayer
+		}
+
+		3: {
+			// OldString: GetValue
+			// NewString: GetValue
+		}
+
+		4: {
+			// OldString: activeConfig
+			// NewString: activeConfig
+		}
+
+		5: {
+			// OldString: IsChargeToggled
+			// NewString: IsChargeToggled
+		}
+	}
+
+	ClearDBTTrait: {
+		1: {
+			// OldString: playerTrait
+			// NewString: playerTrait
+		}
+
+		2: {
+			// OldString: ModPlayer
+			// NewString: ModPlayer
+		}
+
+		3: {
+			// OldString: ""
+			// NewString: ""
+		}
+	}
+
+	SyncTraits: {
+		1: {
+			// OldString: ModPlayer
+			// NewString: ModPlayer
+		}
+
+		2: {
+			// OldString: playerTrait
+			// NewString: playerTrait
+		}
+
+		3: {
+			// OldString: Prodigy
+			// NewString: Prodigy
+		}
+
+		4: {
+			// OldString: Legendary
+			// NewString: Legendary
+		}
+	}
+
+	ModifyDrawInfo: {
+		1: {
+			// OldString: ModPlayer
+			// NewString: ModPlayer
+		}
+
+		2: {
+			// OldString: isCharging
+			// NewString: isCharging
+		}
+	}
+
+	PreUpdate: {
+		1: {
+			// OldString: ModPlayer
+			// NewString: ModPlayer
+		}
+
+		2: {
+			// OldString: isCharging
+			// NewString: isCharging
+		}
+	}
+
+	GetMastery_String: {
+		1: {
+			// OldString: ModPlayer
+			// NewString: ModPlayer
+		}
+
+		2: {
+			// OldString: GetValue
+			// NewString: GetValue
+		}
+	}
+
+	HandleMasteryGain: {
+		1: {
+			// OldString: "You've mastered "
+			// NewString: "You've mastered "
+		}
+
+		2: {
+			// OldString: .
+			// NewString: .
+		}
+
+		3: {
+			// OldString: ModPlayer
+			// NewString: ModPlayer
+		}
+	}
+
+	FetchTransformation: {
+		1: {
+			// OldString: SSJ1Buff
+			// NewString: SSJ1Buff
+		}
+	}
+}
+
+UI: {
+	KiBar: {
+		OnInitialize: {
+			1: {
+				// OldString: DBZGoatLib/Assets/UI/KiBarBackground
+				// NewString: DBZGoatLib/Assets/UI/KiBarBackground
+			}
+
+			2: {
+				// OldString: DBZMODPORT
+				// NewString: DBZMODPORT
+			}
+
+			3: {
+				// OldString: DBZGoatLib/Assets/UI/Form-Under
+				// NewString: DBZGoatLib/Assets/UI/Form-Under
+			}
+
+			4: {
+				// OldString: DBZGoatLib/Assets/UI/KiBarForeground
+				// NewString: DBZGoatLib/Assets/UI/KiBarForeground
+			}
+
+			5: {
+				// OldString: DBZGoatLib/Assets/UI/KiBarBlob
+				// NewString: DBZGoatLib/Assets/UI/KiBarBlob
+			}
+
+			6: {
+				// OldString: DBZGoatLib/Assets/UI/Form-Over
+				// NewString: DBZGoatLib/Assets/UI/Form-Over
+			}
+
+			7: {
+				// OldString: DBZMODPORT/UI/KiBar
+				// NewString: DBZMODPORT/UI/KiBar
+			}
+
+			8: {
+				// OldString: DBZMODPORT/UI/KiBarLightning
+				// NewString: DBZMODPORT/UI/KiBarLightning
+			}
+
+			9: {
+				// OldString: 0/0
+				// NewString: 0/0
+			}
+		}
+
+		Update: {
+			1: {
+				// OldString: /
+				// NewString: /
+			}
+
+			2: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			3: {
+				// OldString: Invoke
+				// NewString: Invoke
+			}
+
+			4: {
+				// OldString: OverallKiMax
+				// NewString: OverallKiMax
+			}
+
+			5: {
+				// OldString: GetKi
+				// NewString: GetKi
+			}
+		}
+	}
+
+	TransformationMenu: {
+		OnInitialize: {
+			1: {
+				// OldString: DBZGoatLib/Assets/UI/TransformationUI
+				// NewString: DBZGoatLib/Assets/UI/TransformationUI
+			}
+
+			2: {
+				// OldString: DBZGoatLib/Assets/UI/StatPanel
+				// NewString: DBZGoatLib/Assets/UI/StatPanel
+			}
+		}
+
+		MasteryBarMouseOver: {
+			1: {
+				// OldString: "{0:P2} Mastery"
+				// NewString: "{0:P2} Mastery"
+			}
+		}
+	}
+
+	Components: {
+		InfoPanelComponent: {
+			Update: {
+				1: {
+					// OldString: ModPlayer
+					// NewString: ModPlayer
+				}
+
+				2: {
+					// OldString: KiDamage
+					// NewString: KiDamage
+				}
+
+				3: {
+					// OldString: kiCrit
+					// NewString: kiCrit
+				}
+
+				4: {
+					// OldString: kiRegen
+					// NewString: kiRegen
+				}
+
+				5: {
+					// OldString: kiDrainMulti
+					// NewString: kiDrainMulti
+				}
+
+				6: {
+					// OldString: kiChargeRate
+					// NewString: kiChargeRate
+				}
+
+				7: {
+					// OldString: chargeLimitAdd
+					// NewString: chargeLimitAdd
+				}
+
+				8: {
+					// OldString: kiSpeedAddition
+					// NewString: kiSpeedAddition
+				}
+
+				9: {
+					// OldString: "Ki Damage: "
+					NewString: "气伤害： "
+				}
+
+				10: {
+					// OldString: ""
+					// NewString: ""
+				}
+
+				11: {
+					// OldString: +
+					// NewString: +
+				}
+
+				12: {
+					// OldString: P2
+					// NewString: P2
+				}
+
+				13: {
+					// OldString: "Ki Crit Chance: "
+					NewString: "气暴击率： "
+				}
+
+				14: {
+					// OldString: "Ki Usage: "
+					NewString: "气使用消耗： "
+				}
+
+				15: {
+					// OldString: "Ki Cast Speed: "
+					NewString: "气蓄力速度： "
+				}
+
+				16: {
+					// OldString: "Additional Beam Charges: "
+					NewString: "额外蓄力段数： "
+				}
+
+				17: {
+					// OldString: N0
+					// NewString: N0
+				}
+
+				18: {
+					// OldString: .
+					// NewString: .
+				}
+
+				19: {
+					// OldString: "Ki Regen: "
+					NewString: "气回复速度： "
+				}
+
+				20: {
+					// OldString: " ki/sec."
+					NewString: " 气/秒"
+				}
+
+				21: {
+					// OldString: "Ki Charge Rate: "
+					NewString: "集气速度： "
+				}
+			}
+		}
+
+		KiTextElement: {
+			Update: {
+				1: {
+					// OldString: /
+					// NewString: /
+				}
+			}
+		}
+
+		TransNode: {
+			MouseOver: {
+				1: {
+					// OldString: ???
+					// NewString: ???
+				}
+			}
+		}
+
+		InfoPanelComponent+<>c: {
+			<Update>b__11_0: {
+				1: {
+					// OldString: MyPlayer
+					// NewString: MyPlayer
+				}
+			}
+		}
+	}
+
+	KiBar+<>c: {
+		<Update>b__20_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+	}
+
+	TransformationMenu+<>c: {
+		<OnInitialize>b__20_0: {
+			1: {
+				// OldString: Previous Transformation Tree
+				NewString: 上一页
+			}
+		}
+
+		<OnInitialize>b__20_2: {
+			1: {
+				// OldString: Next Transformation Tree
+				NewString: 下一页
+			}
+		}
+
+		<OnInitialize>b__20_5: {
+			1: {
+				// OldString: Ki Class statistics.
+				NewString: 气职业属性
+			}
+		}
+	}
+}
+
+Model: {
+	Defaults: {
+		SSJ1Condition: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: ssj1Achieved
+				// NewString: ssj1Achieved
+			}
+		}
+
+		SSJ2Condition: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: ssj2Achieved
+				// NewString: ssj2Achieved
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+		}
+
+		SSJ3Condition: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: ssj3Achieved
+				// NewString: ssj3Achieved
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+		}
+
+		SSJGCondition: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: ssjgAchieved
+				// NewString: ssjgAchieved
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+		}
+
+		SSJLineDiscovered: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: ssj1Achieved
+				// NewString: ssj1Achieved
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+		}
+
+		SSJBRDiscovered: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: ssjgAchieved
+				// NewString: ssjgAchieved
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+		}
+
+		LSSJLineDiscovered: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: ssj1Achieved
+				// NewString: ssj1Achieved
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+		}
+
+		LSSJ1Condition: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: lssjAchieved
+				// NewString: lssjAchieved
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+		}
+
+		LSSJ2Condition: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: lssj2Achieved
+				// NewString: lssj2Achieved
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+		}
+
+		LSSJ3Condition: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: lssj3Achieved
+				// NewString: lssj3Achieved
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+		}
+
+		SSJBCondition: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: ssjbAchieved
+				// NewString: ssjbAchieved
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+		}
+
+		SSJRCondition: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: ssjrAchieved
+				// NewString: ssjrAchieved
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+		}
+
+		GetMastery: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: GetValue
+				// NewString: GetValue
+			}
+		}
+
+		GetFormKiBar: {
+			1: {
+				// OldString: LSSJBuff
+				// NewString: LSSJBuff
+			}
+
+			2: {
+				// OldString: LSSJ2Buff
+				// NewString: LSSJ2Buff
+			}
+
+			3: {
+				// OldString: LSSJ3Buff
+				// NewString: LSSJ3Buff
+			}
+
+			4: {
+				// OldString: SSJGBuff
+				// NewString: SSJGBuff
+			}
+
+			5: {
+				// OldString: SuperKaiokenBuff
+				// NewString: SuperKaiokenBuff
+			}
+
+			6: {
+				// OldString: SSJBBuff
+				// NewString: SSJBBuff
+			}
+
+			7: {
+				// OldString: SSJRBuff
+				// NewString: SSJRBuff
+			}
+		}
+
+		Legendary: {
+			1: {
+				// OldString: playerTrait
+				// NewString: playerTrait
+			}
+
+			2: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			3: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+
+		UnTrait: {
+			1: {
+				// OldString: playerTrait
+				// NewString: playerTrait
+			}
+
+			2: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			3: {
+				// OldString: ""
+				// NewString: ""
+			}
+		}
+
+		Prodigy: {
+			1: {
+				// OldString: playerTrait
+				// NewString: playerTrait
+			}
+
+			2: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			3: {
+				// OldString: Prodigy
+				// NewString: Prodigy
+			}
+		}
+
+		DoGeneticWish_Detour: {
+			1: {
+				// OldString: playerTrait
+				// NewString: playerTrait
+			}
+
+			2: {
+				// OldString: wishActive
+				// NewString: wishActive
+			}
+
+			3: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			4: {
+				// OldString: SetValue
+				// NewString: SetValue
+			}
+
+			5: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			6: {
+				// OldString: menuVisible
+				// NewString: menuVisible
+			}
+		}
+	}
+
+	Transformation: {
+		BuildTooltip: {
+			1: {
+				// OldString: "Damage "
+				// NewString: "Damage "
+			}
+
+			2: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			3: {
+				// OldString: P2
+				// NewString: P2
+			}
+
+			4: {
+				// OldString: " "
+				// NewString: " "
+			}
+
+			5: {
+				// OldString: " | Speed "
+				// NewString: " | Speed "
+			}
+
+			6: {
+				// OldString: "Speed "
+				// NewString: "Speed "
+			}
+
+			7: {
+				// OldString: "Defense "
+				// NewString: "Defense "
+			}
+
+			8: {
+				// OldString: N0
+				// NewString: N0
+			}
+
+			9: {
+				// OldString: " | Ki Costs "
+				// NewString: " | Ki Costs "
+			}
+
+			10: {
+				// OldString: "Ki Costs "
+				// NewString: "Ki Costs "
+			}
+
+			11: {
+				// OldString: "Ki Drain "
+				// NewString: "Ki Drain "
+			}
+
+			12: {
+				// OldString: "/s, "
+				// NewString: "/s, "
+			}
+
+			13: {
+				// OldString: /s when mastered
+				// NewString: /s when mastered
+			}
+		}
+
+		Update: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: KiDamage
+				// NewString: KiDamage
+			}
+
+			3: {
+				// OldString: kiDrainMulti
+				// NewString: kiDrainMulti
+			}
+
+			4: {
+				// OldString: IsKiDepleted
+				// NewString: IsKiDepleted
+			}
+
+			5: {
+				// OldString: AddKi
+				// NewString: AddKi
+			}
+
+			6: {
+				// OldString: bonusSpeedMultiplier
+				// NewString: bonusSpeedMultiplier
+			}
+
+			7: {
+				// OldString: SetValue
+				// NewString: SetValue
+			}
+		}
+	}
+
+	AuraData: {
+		GetTexture: {
+			1: {
+				// OldString: DBZGoatLib/Assets/BaseAura
+				// NewString: DBZGoatLib/Assets/BaseAura
+			}
+		}
+
+		GetAuraRotationAndPosition: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: isFlying
+				// NewString: isFlying
+			}
+		}
+	}
+
+	Gradient: {
+		GetColor: {
+			1: {
+				// OldString: percent
+				// NewString: percent
+			}
+
+			2: {
+				// OldString: Percent must be between 0 and 1
+				// NewString: Percent must be between 0 and 1
+			}
+		}
+	}
+
+	TransformationInfo: {
+		ToString: {
+			1: {
+				// OldString: TransformationInfo
+				// NewString: TransformationInfo
+			}
+
+			2: {
+				// OldString: " { "
+				// NewString: " { "
+			}
+		}
+
+		PrintMembers: {
+			1: {
+				// OldString: "buffKeyName = "
+				// NewString: "buffKeyName = "
+			}
+
+			2: {
+				// OldString: ", buffID = "
+				// NewString: ", buffID = "
+			}
+
+			3: {
+				// OldString: ", stackable = "
+				// NewString: ", stackable = "
+			}
+
+			4: {
+				// OldString: ", transformationText = "
+				// NewString: ", transformationText = "
+			}
+
+			5: {
+				// OldString: ", tranformtionColor = "
+				// NewString: ", tranformtionColor = "
+			}
+
+			6: {
+				// OldString: ", condition = "
+				// NewString: ", condition = "
+			}
+
+			7: {
+				// OldString: ", onTransform = "
+				// NewString: ", onTransform = "
+			}
+
+			8: {
+				// OldString: ", postTransform = "
+				// NewString: ", postTransform = "
+			}
+
+			9: {
+				// OldString: ", animationData = "
+				// NewString: ", animationData = "
+			}
+
+			10: {
+				// OldString: ", KiBarGradient = "
+				// NewString: ", KiBarGradient = "
+			}
+		}
+	}
+
+	TransformationChain: {
+		ToString: {
+			1: {
+				// OldString: TransformationChain
+				// NewString: TransformationChain
+			}
+
+			2: {
+				// OldString: " { "
+				// NewString: " { "
+			}
+		}
+
+		PrintMembers: {
+			1: {
+				// OldString: "TransformationBuffKeyName = "
+				// NewString: "TransformationBuffKeyName = "
+			}
+
+			2: {
+				// OldString: ", NextTransformationBuffKeyName = "
+				// NewString: ", NextTransformationBuffKeyName = "
+			}
+
+			3: {
+				// OldString: ", PreviousTransformationBuffKeyName = "
+				// NewString: ", PreviousTransformationBuffKeyName = "
+			}
+
+			4: {
+				// OldString: ", Charging = "
+				// NewString: ", Charging = "
+			}
+		}
+	}
+
+	Defaults+<>c: {
+		<SSJ1Condition>b__4_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<SSJ2Condition>b__5_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<SSJ3Condition>b__6_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<SSJGCondition>b__7_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<SSJLineDiscovered>b__8_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<SSJBRDiscovered>b__9_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<LSSJLineDiscovered>b__10_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<LSSJ1Condition>b__11_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<LSSJ2Condition>b__12_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<LSSJ3Condition>b__13_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<SSJBCondition>b__14_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<SSJRCondition>b__15_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<GetMastery>b__16_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<Legendary>b__24_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<UnTrait>b__25_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<Prodigy>b__26_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<DoGeneticWish_Detour>b__27_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<DoGeneticWish_Detour>b__27_1: {
+			1: {
+				// OldString: WishMenu
+				// NewString: WishMenu
+			}
+		}
+	}
+
+	Transformation+<>c: {
+		<Update>b__26_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<Update>b__26_1: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<Update>b__26_2: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+	}
+
+	AuraData+<>c: {
+		<GetAuraRotationAndPosition>b__10_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+	}
+}
+
+Layers: {
+	LightningLayer: {
+		Draw: {
+			1: {
+				// OldString: DBZMODPORT/Dusts/LSSJ3Lightning
+				// NewString: DBZMODPORT/Dusts/LSSJ3Lightning
+			}
+		}
+	}
+}
+
+Handlers: {
+	TraitHandler: {
+		RollTrait: {
+			1: {
+				// OldString: Traitless
+				// NewString: Traitless
+			}
+		}
+	}
+
+	TransformationHandler: {
+		DBTFormCheck: {
+			1: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			2: {
+				// OldString: SSJ2Buff
+				// NewString: SSJ2Buff
+			}
+
+			3: {
+				// OldString: IsPlayerLegendary
+				// NewString: IsPlayerLegendary
+			}
+
+			4: {
+				// OldString: LSSJBuff
+				// NewString: LSSJBuff
+			}
+
+			5: {
+				// OldString: lssjAchieved
+				// NewString: lssjAchieved
+			}
+		}
+
+		ExternalTransform: {
+			1: {
+				// OldString: CanTransform
+				// NewString: CanTransform
+			}
+
+			2: {
+				// OldString: DoTransform
+				// NewString: DoTransform
+			}
+		}
+
+		ClearTransformations: {
+			1: {
+				// OldString: EndTransformations
+				// NewString: EndTransformations
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/PowerDown
+				// NewString: DBZMODPORT/Sounds/PowerDown
+			}
+		}
+
+		ClearNonstackables: {
+			1: {
+				// OldString: EndTransformations
+				// NewString: EndTransformations
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/PowerDown
+				// NewString: DBZMODPORT/Sounds/PowerDown
+			}
+		}
+
+		IsKaioken: {
+			1: {
+				// OldString: IsKaioken
+				// NewString: IsKaioken
+			}
+		}
+
+		IsSuperKaioken: {
+			1: {
+				// OldString: IsSuperKaioken
+				// NewString: IsSuperKaioken
+			}
+		}
+
+		IsAnythingBut: {
+			1: {
+				// OldString: DBZMODPORT
+				// NewString: DBZMODPORT
+			}
+		}
+	}
+
+	UIHandler: {
+		ModifyInterfaceLayers: {
+			1: {
+				// OldString: DBZGoatLib: TransformationMenu
+				// NewString: DBZGoatLib: TransformationMenu
+			}
+
+			2: {
+				// OldString: DBZGoatLib: KiBar
+				// NewString: DBZGoatLib: KiBar
+			}
+		}
+	}
+
+	TransformationHandler+<>c: {
+		<DBTFormCheck>b__4_0: {
+			1: {
+				// OldString: MyPlayer
+				// NewString: MyPlayer
+			}
+		}
+
+		<ExternalTransform>b__23_0: {
+			1: {
+				// OldString: TransformationHelper
+				// NewString: TransformationHelper
+			}
+		}
+
+		<ExternalTransform>b__23_1: {
+			1: {
+				// OldString: BuffInfo
+				// NewString: BuffInfo
+			}
+		}
+
+		<ClearTransformations>b__24_0: {
+			1: {
+				// OldString: TransformationHelper
+				// NewString: TransformationHelper
+			}
+		}
+
+		<ClearNonstackables>b__25_0: {
+			1: {
+				// OldString: TransformationHelper
+				// NewString: TransformationHelper
+			}
+		}
+
+		<IsKaioken>b__27_0: {
+			1: {
+				// OldString: TransformationHelper
+				// NewString: TransformationHelper
+			}
+		}
+
+		<IsSuperKaioken>b__28_0: {
+			1: {
+				// OldString: TransformationHelper
+				// NewString: TransformationHelper
+			}
+		}
+	}
+
+	UIHandler+<>c: {
+		<ModifyInterfaceLayers>b__20_0: {
+			1: {
+				// OldString: Resource Bars
+				// NewString: Resource Bars
+			}
+		}
+
+		<ModifyInterfaceLayers>b__20_2: {
+			1: {
+				// OldString: DBZMODPORT: Ki Bar
+				// NewString: DBZMODPORT: Ki Bar
+			}
+		}
+	}
+}
+
+DBZGoatLib+<>c: {
+	<Load>b__6_0: {
+		1: {
+			// OldString: MyPlayer
+			// NewString: MyPlayer
+		}
+	}
+
+	<Load>b__6_1: {
+		1: {
+			// OldString: WishMenu
+			// NewString: WishMenu
+		}
+	}
+
+	<PostSetupContent>b__8_0: {
+		1: {
+			// OldString: MyPlayer
+			// NewString: MyPlayer
+		}
+	}
+
+	<: {
+		cctor>b__18_0: {
+			1: {
+				// OldString: DBZGoatLib
+				// NewString: DBZGoatLib
+			}
+		}
+
+		cctor>b__18_1: {
+			1: {
+				// OldString: DBZMODPORT
+				// NewString: DBZMODPORT
+			}
+		}
+	}
+}
+
+GPlayer+<>c: {
+	<IsCharging>b__33_0: {
+		1: {
+			// OldString: MyPlayer
+			// NewString: MyPlayer
+		}
+	}
+
+	<ProcessTriggers>b__37_0: {
+		1: {
+			// OldString: TransMenu
+			// NewString: TransMenu
+		}
+	}
+
+	<ProcessTriggers>b__37_1: {
+		1: {
+			// OldString: MyPlayer
+			// NewString: MyPlayer
+		}
+	}
+
+	<ProcessTriggers>b__37_2: {
+		1: {
+			// OldString: MyPlayer
+			// NewString: MyPlayer
+		}
+	}
+
+	<ClearDBTTrait>b__38_0: {
+		1: {
+			// OldString: MyPlayer
+			// NewString: MyPlayer
+		}
+	}
+
+	<SyncTraits>b__41_0: {
+		1: {
+			// OldString: MyPlayer
+			// NewString: MyPlayer
+		}
+	}
+
+	<ModifyDrawInfo>b__43_0: {
+		1: {
+			// OldString: MyPlayer
+			// NewString: MyPlayer
+		}
+	}
+
+	<PreUpdate>b__49_0: {
+		1: {
+			// OldString: MyPlayer
+			// NewString: MyPlayer
+		}
+	}
+
+	<GetMastery>b__52_0: {
+		1: {
+			// OldString: MyPlayer
+			// NewString: MyPlayer
+		}
+	}
+
+	<HandleMasteryGain>b__53_0: {
+		1: {
+			// OldString: MyPlayer
+			// NewString: MyPlayer
+		}
+	}
+}
