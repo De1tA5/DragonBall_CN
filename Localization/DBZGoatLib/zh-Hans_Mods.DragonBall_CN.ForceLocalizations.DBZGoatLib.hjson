@@ -368,7 +368,7 @@ GPlayer: {
 	HandleMasteryGain: {
 		1: {
 			// OldString: "You've mastered "
-			// NewString: "You've mastered "
+			NewString: "你已经精通 "
 		}
 
 		2: {
@@ -471,19 +471,19 @@ UI: {
 		OnInitialize: {
 			1: {
 				// OldString: DBZGoatLib/Assets/UI/TransformationUI
-				// NewString: DBZGoatLib/Assets/UI/TransformationUI
+				NewString: "DragonBall_CN/Assets/LocaliztionPatchTextures/TransformationUI"
 			}
 
 			2: {
 				// OldString: DBZGoatLib/Assets/UI/StatPanel
-				// NewString: DBZGoatLib/Assets/UI/StatPanel
+				NewString: "DragonBall_CN/Assets/LocaliztionPatchTextures/StatPanel"
 			}
 		}
 
 		MasteryBarMouseOver: {
 			1: {
 				// OldString: "{0:P2} Mastery"
-				// NewString: "{0:P2} Mastery"
+				NewString: "{0:P2}掌握度"
 			}
 		}
 	}
@@ -578,7 +578,7 @@ UI: {
 
 				18: {
 					// OldString: .
-					// NewString: .
+					NewString: ""
 				}
 
 				19: {
@@ -611,7 +611,7 @@ UI: {
 			MouseOver: {
 				1: {
 					// OldString: ???
-					// NewString: ???
+					NewString: ？？？
 				}
 			}
 		}
@@ -997,7 +997,7 @@ Model: {
 		BuildTooltip: {
 			1: {
 				// OldString: "Damage "
-				// NewString: "Damage "
+				NewString: "伤害 "
 			}
 
 			2: {
@@ -1017,17 +1017,17 @@ Model: {
 
 			5: {
 				// OldString: " | Speed "
-				// NewString: " | Speed "
+				NewString: " | 移动速度 "
 			}
 
 			6: {
 				// OldString: "Speed "
-				// NewString: "Speed "
+				NewString: "移动速度 "
 			}
 
 			7: {
 				// OldString: "Defense "
-				// NewString: "Defense "
+				NewString: "防御 "
 			}
 
 			8: {
@@ -1037,27 +1037,27 @@ Model: {
 
 			9: {
 				// OldString: " | Ki Costs "
-				// NewString: " | Ki Costs "
+				NewString: " | 气消耗 "
 			}
 
 			10: {
 				// OldString: "Ki Costs "
-				// NewString: "Ki Costs "
+				NewString: "气消耗 "
 			}
 
 			11: {
 				// OldString: "Ki Drain "
-				// NewString: "Ki Drain "
+				NewString: "气损失 "
 			}
 
 			12: {
 				// OldString: "/s, "
-				// NewString: "/s, "
+				NewString: "/s （精通时"
 			}
 
 			13: {
 				// OldString: /s when mastered
-				// NewString: /s when mastered
+				NewString: "/s）"
 			}
 		}
 

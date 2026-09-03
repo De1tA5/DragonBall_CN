@@ -1121,7 +1121,11 @@ Items: {
 
 	DisgustingGoop: {
 		DisplayName: 恶心黏液
-		Tooltip: 固定当前气值但是尝起来令人恶心
+		Tooltip:
+			''' 
+			固定当前气值但是尝起来令人恶心
+			[C/959595:译者补充：骷髅商人有33%概率售卖]
+			'''
 	}
 
 	KaioFragment1: {
@@ -1185,7 +1189,7 @@ Items: {
 	}
 
 	KiEssence4: {
-		DisplayName: 激怒气卷轴
+		DisplayName: 狂怒气卷轴
 		Tooltip: 提升集齐速度
 	}
 
@@ -1222,7 +1226,7 @@ Items: {
 	}
 
 	KiFragment4: {
-		DisplayName: 激怒气碎片
+		DisplayName: 狂怒气碎片
 		Tooltip:
 			'''
 			增加2000点最大气值
@@ -1928,7 +1932,7 @@ Keybinds: {
 	Kaioken.DisplayName: 界王拳
 	"Energy Charge.DisplayName": 集气
 	Transform.DisplayName: 变身
-	"Power Down.DisplayName": 力量降低
+	"Power Down.DisplayName": 解除变身
 	"Speed Toggle.DisplayName": 速度切换
 	"Quick Ki.DisplayName": 快速回气药水
 	"Transformation Menu.DisplayName": 变身菜单
