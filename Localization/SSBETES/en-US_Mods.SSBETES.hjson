@@ -1,0 +1,490 @@
+Keybinds: {
+	"Power Up (SSBE Mod).DisplayName": Power Up (SSBE Mod)
+	Ability.DisplayName: Evil Saiyan and Legendary Limit Break
+}
+
+Buffs: {
+	FPCooldown: {
+		DisplayName: Purity Of Mind
+		Description: You are not ready to go berserk again...
+	}
+
+	Cooldown: {
+		DisplayName: Cooldown
+		Description: Chill
+	}
+
+	AncientBuff: {
+		DisplayName: Ancient
+		Description: Evil Ki overwhelms you...
+	}
+
+	MajinBuff: {
+		DisplayName: Majin
+		Description: Why are you pink?
+	}
+
+	UnknownAncient: {
+		DisplayName: ???
+		Description: Dark power awakens in you...
+	}
+
+	UnknownMajin: {
+		DisplayName: ???
+		Description: You're not like the others...
+	}
+
+	BERSERKERBuff: {
+		DisplayName: Berserk
+		Description:
+			'''
+			Damage +40.00%  | Speed +30.00%
+			Defense +7
+			'''
+	}
+
+	ConBERSERKERBuff: {
+		DisplayName: Controlled Berserk
+		Description:
+			'''
+			Damage +55.00%  | Speed +35.00%
+			Defense +10
+			'''
+	}
+
+	DBEnchancedBuff: {
+		DisplayName: Dragon Ball Enchantment
+		Description:
+			'''
+			Damage +30.00%  | Speed +10.00%
+			Defense +7
+			'''
+	}
+
+	EvilSaiyanBuff: {
+		DisplayName: Evil Saiyan
+		Description:
+			'''
+			Damage +20.00%  | Speed +5.00%
+			Defense +4
+			Ki Drain 30/s, 0/s when mastered
+			'''
+	}
+
+	FPSSJBuff: {
+		DisplayName: Full Power Super Saiyan
+		Description:
+			'''
+			Damage +135.00%  | Speed +115.00%
+			Defense +9 | Ki Costs +10.00%
+			Ki Drain 90/s, 42/s when mastered
+			'''
+	}
+
+	FSSJBuff: {
+		DisplayName: False Super Saiyan
+		Description:
+			'''
+			Damage +35.00%  | Speed +35.00%
+			Defense +2 | Ki Costs +30.00%
+			Ki Drain 72/s, 42/s when mastered
+			'''
+	}
+
+	IKARIBuff: {
+		DisplayName: Wrathful
+		Description:
+			'''
+			Damage +70.00%  | Speed +105.00%
+			Defense +9 | Ki Costs +70.00%
+			Ki Drain 75/s, 18/s when mastered
+			'''
+	}
+
+	PSSBBuff: {
+		DisplayName: Perfected Super Saiyan Blue
+		Description:
+			'''
+			Damage +390.00%  | Speed +390.00%
+			Defense +44 | Ki Costs +55.00%
+			Ki Drain 84/s, 84/s when mastered
+			'''
+	}
+
+	SSBEBuff: {
+		DisplayName: Super Saiyan Blue Evolution
+		Description:
+			'''
+			Damage +410.00%  | Speed +435.00%
+			Defense +52 | Ki Costs +55.00%
+			Ki Drain 306/s, 162/s when mastered
+			Increased health regeneration.
+			'''
+	}
+
+	SSBKKBuff: {
+		DisplayName: Super Saiyan Blue Kaio-Ken x10
+		Description:
+			'''
+			Damage +430.00%  | Speed +455.00%
+			Defense +47 | Ki Costs +70.00%
+			Ki Drain 264/s, 132/s when mastered
+			Consumes health in exchange for strength.
+			'''
+	}
+
+	SSJ100Buff: {
+		DisplayName: Super Saiyan 100
+		Description:
+			'''
+			Damage +800.00%  | Speed +800.00%
+			Defense +99Ki Drain -600/s, -6,000/s when mastered
+			'''
+	}
+
+	SSJFPBuff: {
+		DisplayName: Super Saiyan Full Power
+		Description:
+			'''
+			Damage +60.00%  | Speed +60.00%
+			Defense +5 | Ki Costs +15.00%
+			'''
+	}
+
+	SSJRGBuff: {
+		DisplayName: Super Saiyan Rage
+		Description:
+			'''
+			Damage +230.00%  | Speed +230.00%
+			Defense +14 | Ki Costs +65.00%
+			Ki Drain 150/s, 42/s when mastered
+			'''
+	}
+
+	TESTBuff: {
+		DisplayName: Super TEST
+		Description: Damage +800.00% Defense +99Ki Drain -600/s, -6,000/s when mastered
+	}
+
+	UBBuff: {
+		DisplayName: Universal Blue
+		Description:
+			'''
+			Damage +800.00%  | Speed +800.00%
+			Defense +99Ki Drain -600/s, -6,000/s when mastered
+			'''
+	}
+
+	SSBKKx20Buff: {
+		DisplayName: Super Saiyan Blue Kaio-Ken x20
+		Description:
+			'''
+			Damage +430.00%  | Speed +455.00%
+			Defense +47 | Ki Costs +70.00%
+			Ki Drain 264/s, 132/s when mastered
+			Consumes health in exchange for strength.
+			'''
+	}
+
+	XenoRegen: {
+		DisplayName: Mask Regeneration
+		Description: Restores your HP with insane speed
+	}
+
+	MaskCooldown: {
+		DisplayName: Mask Cooldown
+		Description: Your mask needs more energy
+	}
+
+	LimitBreakCooldown: {
+		DisplayName: Limit Break Cooldown
+		Description: Your body is recovering from a recent limit break.
+	}
+
+	LimitBreakerBuff: {
+		DisplayName: Legendary Limit Breaker
+		Description: something something
+	}
+
+	SSJ3FPBuff: {
+		DisplayName: Super Saiyan 3 Full Power
+		Description: something something
+	}
+}
+
+Items: {
+	EnchancedDB: {
+		DisplayName: Enchanted Dragon Ball
+		Tooltip:
+			'''
+			Powers you up when transforming
+			Increasing ki damage
+			Max Ki +250
+			Max HP +20
+			'''
+	}
+
+	ASSJHair: {
+		DisplayName: Ascended Super Saiyan Hair
+		Tooltip: ""
+	}
+
+	BOFLHair: {
+		DisplayName: Barrier Of Light Hair
+		Tooltip: ""
+	}
+
+	CrimsonMask: {
+		DisplayName: Time Breaker Mask
+		Tooltip:
+			'''
+			Max HP +100
+			Max Ki -2500
+			Increases Ki Charge Rate
+			After lethal hit:
+			Gives insane regeneration
+			Increases Damage and Speed
+			Increases Ki Charge Rate
+			Decreases Max HP to 300
+			Max Ki -1000
+			Defense -10
+			'''
+	}
+
+	LSSJ2Hair: {
+		DisplayName: Legendary Super Saiyan 2 Hair
+		Tooltip: ""
+	}
+
+	LSSJ3Hair: {
+		DisplayName: Legendary Super Saiyan 3 Hair
+		Tooltip: ""
+	}
+
+	LSSJHair: {
+		DisplayName: Legendary Super Saiyan Hair
+		Tooltip: ""
+	}
+
+	SSBEHair: {
+		DisplayName: Super Saiyan Blue Evolution Hair
+		Tooltip: ""
+	}
+
+	SSBKKHair: {
+		DisplayName: Super Saiyan Blue Kaio-Ken Hair
+		Tooltip: ""
+	}
+
+	SSJ1Hair: {
+		DisplayName: Super Saiyan Hair
+		Tooltip: ""
+	}
+
+	SSJ1KHair: {
+		DisplayName: Super Kaio-Ken Hair
+		Tooltip: ""
+	}
+
+	SSJ2Hair: {
+		DisplayName: Super Saiyan 2 Hair
+		Tooltip: ""
+	}
+
+	SSJ3Hair: {
+		DisplayName: Super Saiyan 3 Hair
+		Tooltip: ""
+	}
+
+	SSJ3RHair: {
+		DisplayName: Super Saiyan Rose 3 Hair
+		Tooltip: ""
+	}
+
+	SSJBHair: {
+		DisplayName: Super Saiyan Blue Hair
+		Tooltip: ""
+	}
+
+	SSJRHair: {
+		DisplayName: Super Saiyan Rose Hair
+		Tooltip: ""
+	}
+
+	USSJHair: {
+		DisplayName: Ultra Super Saiyan Hair
+		Tooltip: ""
+	}
+
+	AncientItem: {
+		DisplayName: Ancient Test Item
+		Tooltip: Gives the ancient trait
+	}
+
+	EvilSaiyanItem: {
+		DisplayName: Fruit of Might
+		Tooltip:
+			'''
+			Increases max hp by 50
+			Increases max ki by 500
+			Unlocks Evil Form if you have Ancient Trait
+			'''
+	}
+
+	FPSSJItem: {
+		DisplayName: Full Power Super Saiyan Unlock
+		Tooltip: ---
+	}
+
+	FSSJItem: {
+		DisplayName: False Super Saiyan UNLOCK
+		Tooltip: Unleashes new power
+	}
+
+	IKARIItem: {
+		DisplayName: Wrathful UNLOCK
+		Tooltip: Unleashes new power
+	}
+
+	MajinItem: {
+		DisplayName: Majin Test Item
+		Tooltip: Gives the majin trait
+	}
+
+	NewFormsItem: {
+		DisplayName: New Forms Unlock
+		Tooltip: ---
+	}
+
+	PARitem: {
+		DisplayName: particle test
+		Tooltip: Unleashes new power
+	}
+
+	PSSBItem: {
+		DisplayName: Perfected Super Saiyan Blue UNLOCK
+		Tooltip: Unleashes new power
+	}
+
+	SSBEItem: {
+		DisplayName: Super Saiyan Blue Evolution UNLOCK
+		Tooltip: Unleashes new power
+	}
+
+	SSBKKItem: {
+		DisplayName: Super Saiyan Blue Kaio-Ken UNLOCK
+		Tooltip: Unleashes new power
+	}
+
+	SSJRGItem: {
+		DisplayName: Super Saiyan Rage UNLOCK
+		Tooltip: ---
+	}
+
+	TESTItem: {
+		DisplayName: TEST FORM
+		Tooltip: Unleashes new power
+	}
+
+	KiEssenceS: {
+		DisplayName: Skilled Ki Scroll
+		Tooltip: Increases your Ki Charge Speed.
+	}
+
+	KiFragmentS: {
+		DisplayName: Skilled Ki Fragment
+		Tooltip: Increases your Max Ki by 1000.
+	}
+
+	SwordOfHope: {
+		DisplayName: Sword Of Hope
+		Tooltip: Probably contains a huge power
+	}
+
+	SaiyanRelic: {
+		DisplayName: Saiyan Relic
+		Tooltip: ""
+	}
+
+	EScroll: {
+		DisplayName: Scroll Of Evolution
+		Tooltip:
+			'''
+			Unlocks New Form
+			If you will use this scroll you wont be able to use other one 
+			'''
+	}
+
+	KScroll: {
+		DisplayName: Scroll Of Red Fist
+		Tooltip:
+			'''
+			Unlocks New Form
+			If you will use this scroll you wont be able to use other one 
+			'''
+	}
+
+	SSJ3FPUnlockItem: {
+		DisplayName: Evil Spirit
+		Tooltip: Unlocks Super Saiyan 3 Full Power under certain conditions
+	}
+
+	ExchangeScroll: {
+		DisplayName: Exchange Scroll
+		Tooltip: Allows to choose other blue form
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: Client Settings
+
+		DBAura: {
+			Label: Remove DB Enchantment Aura
+			Tooltip: Dragon Ball accessory will give its buffs without extra transformation
+		}
+
+		FalseBaseHair: {
+			Label: False Super Saiyan with base hair
+			Tooltip: Keeps the color of your base form hair on FSSJ
+		}
+	}
+
+	ConfigServer: {
+		DisplayName: Server Settings
+
+		SSJTweaks: {
+			Label: Rebalanced Stats
+			Tooltip: Adjusts transformation stats to fit DBT:Rebalance
+		}
+
+		FalsePrework: {
+			Label: Permanent False SSJ
+			Tooltip: Brings back False Super Saiyan to the panel and old unlock instead of rng
+		}
+	}
+}
+
+Tiles.SaiyanRelicTile.MapEntry: Saiyan Relic Tile
+
+NPCs: {
+	SaiyanRelicAI: {
+		DisplayName: Saiyan Relic
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+}
+
+Projectiles: {
+	SSJ3FPSequence.DisplayName: SSJ3FP Sequence
+	SSJRageSequence.DisplayName: SSJRage Sequence
+}

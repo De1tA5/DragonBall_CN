@@ -3,33 +3,16 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
 
-namespace DragonBall_CN.Common
+namespace DragonBall_CN.Common.DBZMODPORT
 {
-    public class LocalizationPatch : ModSystem
+    public class DBZMODPORTPatch:ModSystem
     {
         private readonly string dragonBall = "DBZMODPORT";
-        private readonly string dragonBallLib = "DBZGoatLib";
-        public override void PostSetupContent()
-        {
-            if (ModLoader.HasMod(dragonBall))
-            {
-                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBall, false);
-            }
-
-            if (ModLoader.HasMod(dragonBallLib)) 
-            {
-                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false);
-            }
-        }
-    }
-
-
-    public class TileEntryPatch : ModSystem
-    {
-        //仅修复制作站tile
+        
         public override void Load()
         {
-            if (!ModLoader.TryGetMod("DBZMODPORT", out Mod mod))
+            //仅修复制作站tile
+            if (!ModLoader.TryGetMod(dragonBall, out Mod mod))
                 return;
 
             ModTile? zTableTile = mod.Find<ModTile>("ZTable");
@@ -45,6 +28,14 @@ namespace DragonBall_CN.Common
             {
                 LocalizedText name = kaiTableTile.CreateMapEntryName();
                 kaiTableTile.AddMapEntry(new Color(115, 204, 32), name);
+            }
+        }
+
+        public override void PostSetupContent()
+        {
+            if (ModLoader.HasMod(dragonBall))
+            {
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBall, false);
             }
         }
     }

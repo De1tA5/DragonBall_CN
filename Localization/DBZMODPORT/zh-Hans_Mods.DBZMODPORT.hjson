@@ -1122,7 +1122,7 @@ Items: {
 	DisgustingGoop: {
 		DisplayName: 恶心黏液
 		Tooltip:
-			''' 
+			'''
 			固定当前气值但是尝起来令人恶心
 			[C/959595:译者补充：骷髅商人有33%概率售卖]
 			'''

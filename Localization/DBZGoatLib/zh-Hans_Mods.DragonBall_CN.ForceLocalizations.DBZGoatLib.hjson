@@ -471,12 +471,12 @@ UI: {
 		OnInitialize: {
 			1: {
 				// OldString: DBZGoatLib/Assets/UI/TransformationUI
-				NewString: "DragonBall_CN/Assets/LocaliztionPatchTextures/TransformationUI"
+				NewString: DragonBall_CN/Assets/LocaliztionPatchTextures/TransformationUI
 			}
 
 			2: {
 				// OldString: DBZGoatLib/Assets/UI/StatPanel
-				NewString: "DragonBall_CN/Assets/LocaliztionPatchTextures/StatPanel"
+				NewString: DragonBall_CN/Assets/LocaliztionPatchTextures/StatPanel
 			}
 		}
 
@@ -1052,12 +1052,12 @@ Model: {
 
 			12: {
 				// OldString: "/s, "
-				NewString: "/s （精通时"
+				NewString: /s （精通时
 			}
 
 			13: {
 				// OldString: /s when mastered
-				NewString: "/s）"
+				NewString: /s）
 			}
 		}
 
