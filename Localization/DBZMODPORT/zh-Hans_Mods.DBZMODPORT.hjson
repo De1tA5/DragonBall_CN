@@ -1175,27 +1175,27 @@ Items: {
 
 	KiEssence1: {
 		DisplayName: 新手气卷轴
-		Tooltip: 提升集齐速度
+		Tooltip: 提升集气速度
 	}
 
 	KiEssence2: {
 		DisplayName: 学徒气卷轴
-		Tooltip: 提升集齐速度
+		Tooltip: 提升集气速度
 	}
 
 	KiEssence3: {
 		DisplayName: 熟练气卷轴
-		Tooltip: 提升集齐速度
+		Tooltip: 提升集气速度
 	}
 
 	KiEssence4: {
 		DisplayName: 狂怒气卷轴
-		Tooltip: 提升集齐速度
+		Tooltip: 提升集气速度
 	}
 
 	KiEssence5: {
 		DisplayName: 大师气卷轴
-		Tooltip: 提升集齐速度
+		Tooltip: 提升集气速度
 	}
 
 	KiFragment1: {

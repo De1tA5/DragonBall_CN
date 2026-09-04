@@ -1,6 +1,6 @@
 Keybinds: {
 	"Power Up (SSBE Mod).DisplayName": Power Up (SSBE Mod)
-	Ability.DisplayName: Evil Saiyan and Legendary Limit Break
+	Ability.DisplayName: 邪恶赛亚人和传说Limit Break
 }
 
 Buffs: {
@@ -15,23 +15,23 @@ Buffs: {
 	}
 
 	AncientBuff: {
-		DisplayName: Ancient
-		Description: Evil Ki overwhelms you...
+		DisplayName: 远古
+		Description: 邪恶的气从你体内汹涌而出……
 	}
 
 	MajinBuff: {
-		DisplayName: Majin
-		Description: Why are you pink?
+		DisplayName: 魔人
+		Description: 为什么你这么粉？
 	}
 
 	UnknownAncient: {
-		DisplayName: ???
-		Description: Dark power awakens in you...
+		DisplayName: ？？？
+		Description: 黑暗之力在你体内觉醒……
 	}
 
 	UnknownMajin: {
-		DisplayName: ???
-		Description: You're not like the others...
+		DisplayName: ？？？
+		Description: 你与其他人不同……
 	}
 
 	BERSERKERBuff: {
@@ -62,7 +62,7 @@ Buffs: {
 	}
 
 	EvilSaiyanBuff: {
-		DisplayName: Evil Saiyan
+		DisplayName: 邪恶赛亚人
 		Description:
 			'''
 			Damage +20.00%  | Speed +5.00%
@@ -72,7 +72,7 @@ Buffs: {
 	}
 
 	FPSSJBuff: {
-		DisplayName: Full Power Super Saiyan
+		DisplayName: 全功率超级赛亚人
 		Description:
 			'''
 			Damage +135.00%  | Speed +115.00%
@@ -82,7 +82,7 @@ Buffs: {
 	}
 
 	FSSJBuff: {
-		DisplayName: False Super Saiyan
+		DisplayName: 拟态超级赛亚人
 		Description:
 			'''
 			Damage +35.00%  | Speed +35.00%
@@ -92,7 +92,7 @@ Buffs: {
 	}
 
 	IKARIBuff: {
-		DisplayName: Wrathful
+		DisplayName: 狂怒
 		Description:
 			'''
 			Damage +70.00%  | Speed +105.00%
@@ -102,7 +102,7 @@ Buffs: {
 	}
 
 	PSSBBuff: {
-		DisplayName: Perfected Super Saiyan Blue
+		DisplayName: 完美超级赛亚人蓝
 		Description:
 			'''
 			Damage +390.00%  | Speed +390.00%
@@ -112,7 +112,7 @@ Buffs: {
 	}
 
 	SSBEBuff: {
-		DisplayName: Super Saiyan Blue Evolution
+		DisplayName: 超级赛亚人蓝进化
 		Description:
 			'''
 			Damage +410.00%  | Speed +435.00%
@@ -123,7 +123,7 @@ Buffs: {
 	}
 
 	SSBKKBuff: {
-		DisplayName: Super Saiyan Blue Kaio-Ken x10
+		DisplayName: 超级赛亚人蓝10倍界王拳
 		Description:
 			'''
 			Damage +430.00%  | Speed +455.00%
@@ -134,7 +134,7 @@ Buffs: {
 	}
 
 	SSJ100Buff: {
-		DisplayName: Super Saiyan 100
+		DisplayName: 超级赛亚人 100
 		Description:
 			'''
 			Damage +800.00%  | Speed +800.00%
@@ -143,7 +143,7 @@ Buffs: {
 	}
 
 	SSJFPBuff: {
-		DisplayName: Super Saiyan Full Power
+		DisplayName: 超级赛亚人全功率
 		Description:
 			'''
 			Damage +60.00%  | Speed +60.00%
@@ -152,7 +152,7 @@ Buffs: {
 	}
 
 	SSJRGBuff: {
-		DisplayName: Super Saiyan Rage
+		DisplayName: 超级赛亚人 Rage
 		Description:
 			'''
 			Damage +230.00%  | Speed +230.00%
@@ -176,7 +176,7 @@ Buffs: {
 	}
 
 	SSBKKx20Buff: {
-		DisplayName: Super Saiyan Blue Kaio-Ken x20
+		DisplayName: 超级赛亚人蓝20倍界王拳
 		Description:
 			'''
 			Damage +430.00%  | Speed +455.00%
@@ -187,8 +187,8 @@ Buffs: {
 	}
 
 	XenoRegen: {
-		DisplayName: Mask Regeneration
-		Description: Restores your HP with insane speed
+		DisplayName: 面具再生
+		Description: 以荒谬的速度恢复你的生命值
 	}
 
 	MaskCooldown: {
@@ -202,12 +202,12 @@ Buffs: {
 	}
 
 	LimitBreakerBuff: {
-		DisplayName: Legendary Limit Breaker
+		DisplayName: 传说Limit Breaker
 		Description: something something
 	}
 
 	SSJ3FPBuff: {
-		DisplayName: Super Saiyan 3 Full Power
+		DisplayName: 超级赛亚人3全功率
 		Description: something something
 	}
 }
@@ -225,135 +225,140 @@ Items: {
 	}
 
 	ASSJHair: {
-		DisplayName: Ascended Super Saiyan Hair
+		DisplayName: 升华超级赛亚人假发
 		Tooltip: ""
 	}
 
 	BOFLHair: {
-		DisplayName: Barrier Of Light Hair
+		DisplayName: 光之壁假发
 		Tooltip: ""
 	}
 
 	CrimsonMask: {
-		DisplayName: Time Breaker Mask
+		DisplayName: 时间破坏者面具
 		Tooltip:
 			'''
-			Max HP +100
-			Max Ki -2500
-			Increases Ki Charge Rate
-			After lethal hit:
-			Gives insane regeneration
-			Increases Damage and Speed
-			Increases Ki Charge Rate
-			Decreases Max HP to 300
-			Max Ki -1000
-			Defense -10
+			增加100点最大生命值
+			减少2500点最大气值
+			提升集气速度
+			受到致命一击后：
+			提供荒谬般的生命再生速度
+			乘算1.12倍伤害
+			提升40%移动速度
+			提升集气速度
+			最大生命值降低至300
+			减少1000点最大气值
+			减少10点防御
 			'''
 	}
 
 	LSSJ2Hair: {
-		DisplayName: Legendary Super Saiyan 2 Hair
+		DisplayName: 传说超级赛亚人2假发
 		Tooltip: ""
 	}
 
 	LSSJ3Hair: {
-		DisplayName: Legendary Super Saiyan 3 Hair
+		DisplayName: 传说超级赛亚人3假发
 		Tooltip: ""
 	}
 
 	LSSJHair: {
-		DisplayName: Legendary Super Saiyan Hair
+		DisplayName: 传说超级赛亚人假发
 		Tooltip: ""
 	}
 
 	SSBEHair: {
-		DisplayName: Super Saiyan Blue Evolution Hair
+		DisplayName: 超级赛亚人蓝进化假发
 		Tooltip: ""
 	}
 
 	SSBKKHair: {
-		DisplayName: Super Saiyan Blue Kaio-Ken Hair
+		DisplayName: 超级赛亚人蓝界王拳假发
 		Tooltip: ""
 	}
 
 	SSJ1Hair: {
-		DisplayName: Super Saiyan Hair
+		DisplayName: 超级赛亚人假发
 		Tooltip: ""
 	}
 
 	SSJ1KHair: {
-		DisplayName: Super Kaio-Ken Hair
+		DisplayName: 超级界王拳假发
 		Tooltip: ""
 	}
 
 	SSJ2Hair: {
-		DisplayName: Super Saiyan 2 Hair
+		DisplayName: 超级赛亚人2假发
 		Tooltip: ""
 	}
 
 	SSJ3Hair: {
-		DisplayName: Super Saiyan 3 Hair
+		DisplayName: 超级赛亚人3假发
 		Tooltip: ""
 	}
 
 	SSJ3RHair: {
-		DisplayName: Super Saiyan Rose 3 Hair
+		DisplayName: 超级赛亚人桃红3假发
 		Tooltip: ""
 	}
 
 	SSJBHair: {
-		DisplayName: Super Saiyan Blue Hair
+		DisplayName: 超级赛亚人蓝假发
 		Tooltip: ""
 	}
 
 	SSJRHair: {
-		DisplayName: Super Saiyan Rose Hair
+		DisplayName: 超级赛亚人桃红假发
 		Tooltip: ""
 	}
 
 	USSJHair: {
-		DisplayName: Ultra Super Saiyan Hair
+		DisplayName: 究极超级赛亚人假发
 		Tooltip: ""
 	}
 
 	AncientItem: {
-		DisplayName: Ancient Test Item
-		Tooltip: Gives the ancient trait
+		DisplayName: 远古测试物品
+		Tooltip: 给予你远古资质
 	}
 
 	EvilSaiyanItem: {
-		DisplayName: Fruit of Might
+		DisplayName: 力量之果
 		Tooltip:
 			'''
-			Increases max hp by 50
-			Increases max ki by 500
-			Unlocks Evil Form if you have Ancient Trait
+			增加50点最大生命值
+			增加500点最大气值
+			如果你有远古资质则解锁邪恶形态
 			'''
 	}
 
 	FPSSJItem: {
-		DisplayName: Full Power Super Saiyan Unlock
-		Tooltip: ---
+		DisplayName: 全功率超级赛亚人解锁
+		Tooltip: 解锁全功率超级赛亚人
 	}
 
 	FSSJItem: {
-		DisplayName: False Super Saiyan UNLOCK
-		Tooltip: Unleashes new power
+		DisplayName: 拟态超级赛亚人解锁
+		Tooltip: 解锁拟态超级赛亚人
 	}
 
 	IKARIItem: {
-		DisplayName: Wrathful UNLOCK
-		Tooltip: Unleashes new power
+		DisplayName: 狂怒解锁
+		Tooltip: 解锁狂怒
 	}
 
 	MajinItem: {
-		DisplayName: Majin Test Item
-		Tooltip: Gives the majin trait
+		DisplayName: 魔人测试物品
+		Tooltip: 
+			'''
+			给予你魔人资质
+			[C/959595:译者补充：魔人资质除了人变粉，没有任何效果]
+			'''
 	}
 
 	NewFormsItem: {
-		DisplayName: New Forms Unlock
-		Tooltip: ---
+		DisplayName: 新形态解锁
+		Tooltip: 解锁超级赛亚人全功率、全功率超级赛亚人（该形态代码有问题无法变身）、邪恶赛亚人和暴走
 	}
 
 	PARitem: {
@@ -362,22 +367,22 @@ Items: {
 	}
 
 	PSSBItem: {
-		DisplayName: Perfected Super Saiyan Blue UNLOCK
+		DisplayName: Perfected 超级赛亚人 Blue UNLOCK
 		Tooltip: Unleashes new power
 	}
 
 	SSBEItem: {
-		DisplayName: Super Saiyan Blue Evolution UNLOCK
+		DisplayName: 超级赛亚人 Blue Evolution UNLOCK
 		Tooltip: Unleashes new power
 	}
 
 	SSBKKItem: {
-		DisplayName: Super Saiyan Blue Kaio-Ken UNLOCK
+		DisplayName: 超级赛亚人 Blue Kaio-Ken UNLOCK
 		Tooltip: Unleashes new power
 	}
 
 	SSJRGItem: {
-		DisplayName: Super Saiyan Rage UNLOCK
+		DisplayName: 超级赛亚人 Rage UNLOCK
 		Tooltip: ---
 	}
 
@@ -387,22 +392,22 @@ Items: {
 	}
 
 	KiEssenceS: {
-		DisplayName: Skilled Ki Scroll
-		Tooltip: Increases your Ki Charge Speed.
+		DisplayName: 精湛气卷轴
+		Tooltip: 提升集气速度
 	}
 
 	KiFragmentS: {
-		DisplayName: Skilled Ki Fragment
-		Tooltip: Increases your Max Ki by 1000.
+		DisplayName: 精湛气碎片
+		Tooltip: 增加1000点最大气值
 	}
 
 	SwordOfHope: {
-		DisplayName: Sword Of Hope
+		DisplayName: 希望之剑
 		Tooltip: Probably contains a huge power
 	}
 
 	SaiyanRelic: {
-		DisplayName: Saiyan Relic
+		DisplayName: 赛亚人圣物
 		Tooltip: ""
 	}
 
@@ -426,7 +431,7 @@ Items: {
 
 	SSJ3FPUnlockItem: {
 		DisplayName: Evil Spirit
-		Tooltip: Unlocks Super Saiyan 3 Full Power under certain conditions
+		Tooltip: Unlocks 超级赛亚人 3 Full Power under certain conditions
 	}
 
 	ExchangeScroll: {
@@ -437,7 +442,7 @@ Items: {
 
 Configs: {
 	Config: {
-		DisplayName: Client Settings
+		DisplayName: 客户端设置
 
 		DBAura: {
 			Label: Remove DB Enchantment Aura
@@ -445,27 +450,27 @@ Configs: {
 		}
 
 		FalseBaseHair: {
-			Label: False Super Saiyan with base hair
-			Tooltip: Keeps the color of your base form hair on FSSJ
+			Label: False 超级赛亚人 with base假发
+			Tooltip: Keeps the color of your base form假发 on FSSJ
 		}
 	}
 
 	ConfigServer: {
-		DisplayName: Server Settings
+		DisplayName: 服务器设置
 
 		SSJTweaks: {
-			Label: Rebalanced Stats
-			Tooltip: Adjusts transformation stats to fit DBT:Rebalance
+			Label: 重新平衡属性
+			Tooltip: 调整变身属性以适配 DBT:Rebalance
 		}
 
 		FalsePrework: {
 			Label: Permanent False SSJ
-			Tooltip: Brings back False Super Saiyan to the panel and old unlock instead of rng
+			Tooltip: Brings back False 超级赛亚人 to the panel and old unlock instead of rng
 		}
 	}
 }
 
-Tiles.SaiyanRelicTile.MapEntry: Saiyan Relic Tile
+Tiles.SaiyanRelicTile.MapEntry: 赛亚人圣物
 
 NPCs: {
 	SaiyanRelicAI: {
