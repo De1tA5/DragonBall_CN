@@ -1,12 +1,12 @@
 Keybinds: {
 	"Power Up (SSBE Mod).DisplayName": Power Up (SSBE Mod)
-	Ability.DisplayName: 邪恶赛亚人和传说Limit Break
+	Ability.DisplayName: 邪恶赛亚人和传说极限突破
 }
 
 Buffs: {
 	FPCooldown: {
-		DisplayName: Purity Of Mind
-		Description: You are not ready to go berserk again...
+		DisplayName: 神志清楚
+		Description: 你还没准备好再次暴走……
 	}
 
 	Cooldown: {
@@ -35,29 +35,29 @@ Buffs: {
 	}
 
 	BERSERKERBuff: {
-		DisplayName: Berserk
+		DisplayName: 暴走
 		Description:
 			'''
-			Damage +40.00%  | Speed +30.00%
-			Defense +7
+			伤害 +40.00%  | 移动速度 +30.00%
+			防御 +7
 			'''
 	}
 
 	ConBERSERKERBuff: {
-		DisplayName: Controlled Berserk
+		DisplayName: 控制暴走
 		Description:
 			'''
-			Damage +55.00%  | Speed +35.00%
-			Defense +10
+			伤害 +55.00%  | 移动速度 +35.00%
+			防御 +10
 			'''
 	}
 
 	DBEnchancedBuff: {
-		DisplayName: Dragon Ball Enchantment
+		DisplayName: 龙珠附魔
 		Description:
 			'''
-			Damage +30.00%  | Speed +10.00%
-			Defense +7
+			伤害 +30.00%  | 移动速度 +10.00%
+			防御 +7
 			'''
 	}
 
@@ -65,19 +65,19 @@ Buffs: {
 		DisplayName: 邪恶赛亚人
 		Description:
 			'''
-			Damage +20.00%  | Speed +5.00%
-			Defense +4
-			Ki Drain 30/s, 0/s when mastered
+			伤害 +20.00%  | 移动速度 +5.00%
+			防御 +4
+			气损失 30/s （精通时0/s）
 			'''
 	}
 
 	FPSSJBuff: {
-		DisplayName: 全功率超级赛亚人
+		DisplayName: 全功率传说超级赛亚人
 		Description:
 			'''
-			Damage +135.00%  | Speed +115.00%
-			Defense +9 | Ki Costs +10.00%
-			Ki Drain 90/s, 42/s when mastered
+			伤害 +135.00%  | 移动速度 +115.00%
+			防御 +9 | 气消耗 +10.00%
+			气损失 90/s （精通时42/s）
 			'''
 	}
 
@@ -85,9 +85,9 @@ Buffs: {
 		DisplayName: 拟态超级赛亚人
 		Description:
 			'''
-			Damage +35.00%  | Speed +35.00%
-			Defense +2 | Ki Costs +30.00%
-			Ki Drain 72/s, 42/s when mastered
+			伤害 +35.00%  | 移动速度 +35.00%
+			防御 +2 | 气消耗 +30.00%
+			气损失 72/s （精通时42/s）
 			'''
 	}
 
@@ -95,9 +95,9 @@ Buffs: {
 		DisplayName: 狂怒
 		Description:
 			'''
-			Damage +70.00%  | Speed +105.00%
-			Defense +9 | Ki Costs +70.00%
-			Ki Drain 75/s, 18/s when mastered
+			伤害 +70.00%  | 移动速度 +105.00%
+			防御 +9 | 气消耗 +70.00%
+			气损失 75/s （精通时18/s）
 			'''
 	}
 
@@ -105,9 +105,9 @@ Buffs: {
 		DisplayName: 完美超级赛亚人蓝
 		Description:
 			'''
-			Damage +390.00%  | Speed +390.00%
-			Defense +44 | Ki Costs +55.00%
-			Ki Drain 84/s, 84/s when mastered
+			伤害 +390.00%  | 移动速度 +390.00%
+			防御 +44 | 气消耗 +55.00%
+			气损失 105/s （精通时84/s）
 			'''
 	}
 
@@ -115,10 +115,10 @@ Buffs: {
 		DisplayName: 超级赛亚人蓝进化
 		Description:
 			'''
-			Damage +410.00%  | Speed +435.00%
-			Defense +52 | Ki Costs +55.00%
-			Ki Drain 306/s, 162/s when mastered
-			Increased health regeneration.
+			伤害 +410.00%  | 移动速度 +435.00%
+			防御 +52 | 气消耗 +55.00%
+			气损失 306/s （精通时162/s）
+			提升生命再生速度
 			'''
 	}
 
@@ -126,10 +126,10 @@ Buffs: {
 		DisplayName: 超级赛亚人蓝10倍界王拳
 		Description:
 			'''
-			Damage +430.00%  | Speed +455.00%
-			Defense +47 | Ki Costs +70.00%
-			Ki Drain 264/s, 132/s when mastered
-			Consumes health in exchange for strength.
+			伤害 +430.00%  | 移动速度 +455.00%
+			防御 +47 | 气消耗 +70.00%
+			气损失 264/s （精通时132/s）
+			消耗生命以获取力量
 			'''
 	}
 
@@ -137,8 +137,8 @@ Buffs: {
 		DisplayName: 超级赛亚人 100
 		Description:
 			'''
-			Damage +800.00%  | Speed +800.00%
-			Defense +99Ki Drain -600/s, -6,000/s when mastered
+			伤害 +800.00%  | 移动速度 +800.00%
+			防御 +99气损失 -600/s, -6,000/s when mastered
 			'''
 	}
 
@@ -146,32 +146,32 @@ Buffs: {
 		DisplayName: 超级赛亚人全功率
 		Description:
 			'''
-			Damage +60.00%  | Speed +60.00%
-			Defense +5 | Ki Costs +15.00%
+			伤害 +60.00%  | 移动速度 +60.00%
+			防御 +5 | 气消耗 +15.00%
 			'''
 	}
 
 	SSJRGBuff: {
-		DisplayName: 超级赛亚人 Rage
+		DisplayName: 超级赛亚人暴怒
 		Description:
 			'''
-			Damage +230.00%  | Speed +230.00%
-			Defense +14 | Ki Costs +65.00%
-			Ki Drain 150/s, 42/s when mastered
+			伤害 +230.00%  | 移动速度 +230.00%
+			防御 +14 | 气消耗 +65.00%
+			气损失 150/s （精通时42/s）
 			'''
 	}
 
 	TESTBuff: {
 		DisplayName: Super TEST
-		Description: Damage +800.00% Defense +99Ki Drain -600/s, -6,000/s when mastered
+		Description: 伤害 +800.00% 防御 +99气损失 -600/s, -6,000/s when mastered
 	}
 
 	UBBuff: {
 		DisplayName: Universal Blue
 		Description:
 			'''
-			Damage +800.00%  | Speed +800.00%
-			Defense +99Ki Drain -600/s, -6,000/s when mastered
+			伤害 +800.00%  | 移动速度 +800.00%
+			防御 +99气损失 -600/s, -6,000/s when mastered
 			'''
 	}
 
@@ -179,10 +179,10 @@ Buffs: {
 		DisplayName: 超级赛亚人蓝20倍界王拳
 		Description:
 			'''
-			Damage +430.00%  | Speed +455.00%
-			Defense +47 | Ki Costs +70.00%
-			Ki Drain 264/s, 132/s when mastered
-			Consumes health in exchange for strength.
+			伤害 +430.00%  | 移动速度 +455.00%
+			防御 +47 | 气消耗 +70.00%
+			气损失 264/s （精通时132/s）
+			消耗生命以获取力量
 			'''
 	}
 
@@ -192,17 +192,17 @@ Buffs: {
 	}
 
 	MaskCooldown: {
-		DisplayName: Mask Cooldown
-		Description: Your mask needs more energy
+		DisplayName: 面具冷却
+		Description: 你的面具需要更多的能量
 	}
 
 	LimitBreakCooldown: {
-		DisplayName: Limit Break Cooldown
-		Description: Your body is recovering from a recent limit break.
+		DisplayName: 极限突破冷却
+		Description: 你的身体正在从刚刚的极限突破中恢复过来
 	}
 
 	LimitBreakerBuff: {
-		DisplayName: 传说Limit Breaker
+		DisplayName: 传说极限突破
 		Description: something something
 	}
 
@@ -214,13 +214,13 @@ Buffs: {
 
 Items: {
 	EnchancedDB: {
-		DisplayName: Enchanted Dragon Ball
+		DisplayName: 附魔龙珠
 		Tooltip:
 			'''
-			Powers you up when transforming
-			Increasing ki damage
-			Max Ki +250
-			Max HP +20
+			强化你的变身
+			增加12%伤害
+			增加250点最大气值
+			增加20点最大生命值
 			'''
 	}
 
@@ -333,8 +333,8 @@ Items: {
 	}
 
 	FPSSJItem: {
-		DisplayName: 全功率超级赛亚人解锁
-		Tooltip: 解锁全功率超级赛亚人
+		DisplayName: 全功率传说超级赛亚人解锁
+		Tooltip: 解锁全功率传说超级赛亚人
 	}
 
 	FSSJItem: {
@@ -358,32 +358,39 @@ Items: {
 
 	NewFormsItem: {
 		DisplayName: 新形态解锁
-		Tooltip: 解锁超级赛亚人全功率、全功率超级赛亚人（该形态代码有问题无法变身）、邪恶赛亚人和暴走
+		Tooltip:
+			''' 	
+			解锁以下新形态：
+			超级赛亚人全功率
+			传说超级赛亚人全功率
+			邪恶赛亚人
+			暴走
+			'''
 	}
 
 	PARitem: {
-		DisplayName: particle test
-		Tooltip: Unleashes new power
+		DisplayName: 粒子测试
+		Tooltip: 释放大量粒子
 	}
 
 	PSSBItem: {
-		DisplayName: Perfected 超级赛亚人 Blue UNLOCK
-		Tooltip: Unleashes new power
+		DisplayName: 完美超级赛亚人蓝解锁
+		Tooltip: 解锁完美超级赛亚人蓝
 	}
 
 	SSBEItem: {
-		DisplayName: 超级赛亚人 Blue Evolution UNLOCK
-		Tooltip: Unleashes new power
+		DisplayName: 超级赛亚人蓝进化解锁
+		Tooltip: 解锁超级赛亚人蓝进化
 	}
 
 	SSBKKItem: {
-		DisplayName: 超级赛亚人 Blue Kaio-Ken UNLOCK
-		Tooltip: Unleashes new power
+		DisplayName: 超级赛亚人蓝界王拳解锁
+		Tooltip: 解锁超级赛亚人蓝界王拳
 	}
 
 	SSJRGItem: {
-		DisplayName: 超级赛亚人 Rage UNLOCK
-		Tooltip: ---
+		DisplayName: 超级赛亚人暴怒解锁
+		Tooltip: 解锁超级赛亚人暴怒
 	}
 
 	TESTItem: {
@@ -403,7 +410,7 @@ Items: {
 
 	SwordOfHope: {
 		DisplayName: 希望之剑
-		Tooltip: Probably contains a huge power
+		Tooltip: 似乎蕴含着巨大的力量
 	}
 
 	SaiyanRelic: {
@@ -412,31 +419,37 @@ Items: {
 	}
 
 	EScroll: {
-		DisplayName: Scroll Of Evolution
+		DisplayName: 进化卷轴
 		Tooltip:
 			'''
-			Unlocks New Form
-			If you will use this scroll you wont be able to use other one 
+			解锁超级赛亚人蓝进化形态
+			如果你使用该卷轴则无法使用另一个卷轴
+			[C/959595:译者补充：无法获取，正常游玩请直接使用交换卷轴来解锁]
 			'''
 	}
 
 	KScroll: {
-		DisplayName: Scroll Of Red Fist
+		DisplayName: 赤拳卷轴
 		Tooltip:
 			'''
-			Unlocks New Form
-			If you will use this scroll you wont be able to use other one 
+			解锁超级赛亚人蓝界王拳形态
+			如果你使用该卷轴则无法使用另一个卷轴
+			[C/959595:译者补充：无法获取，正常游玩请直接使用交换卷轴来解锁]
 			'''
 	}
 
 	SSJ3FPUnlockItem: {
-		DisplayName: Evil Spirit
-		Tooltip: Unlocks 超级赛亚人 3 Full Power under certain conditions
+		DisplayName: 邪恶之灵
+		Tooltip: 超级赛亚人3掌握度为100%时，拾取解锁超级赛亚人3全功率
 	}
 
 	ExchangeScroll: {
-		DisplayName: Exchange Scroll
-		Tooltip: Allows to choose other blue form
+		DisplayName: 交换卷轴
+		Tooltip: 
+			'''
+			允许你重新选择超级赛亚人蓝的进阶形态，变身其中一个另一个会锁定
+			[C/959595:译者补充：击败月亮领主后，商人售卖]
+			'''
 	}
 }
 
@@ -445,13 +458,13 @@ Configs: {
 		DisplayName: 客户端设置
 
 		DBAura: {
-			Label: Remove DB Enchantment Aura
-			Tooltip: Dragon Ball accessory will give its buffs without extra transformation
+			Label: 移除附魔龙珠气浪
+			Tooltip: 附魔龙珠会提供增幅当不会有额外变身增益效果
 		}
 
 		FalseBaseHair: {
-			Label: False 超级赛亚人 with base假发
-			Tooltip: Keeps the color of your base form假发 on FSSJ
+			Label: 拟态超级赛亚人使用原本发色
+			Tooltip: 处于拟态超级赛亚人形态时保留人物原本发色
 		}
 	}
 
@@ -464,8 +477,12 @@ Configs: {
 		}
 
 		FalsePrework: {
-			Label: Permanent False SSJ
-			Tooltip: Brings back False 超级赛亚人 to the panel and old unlock instead of rng
+			Label: 永久拟态超级赛亚人
+			Tooltip: 
+				'''
+				将拟态超级赛亚人重新加入变身菜单中，并恢复旧的解锁条件，而不是随机触发
+				[C/959595:译者补充：在克苏鲁之脑或或世界吞噬者Boss战中，低于最大生命值25%可变身]
+				'''
 		}
 	}
 }
