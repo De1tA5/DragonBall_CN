@@ -44,7 +44,7 @@ Buffs: {
 	}
 
 	ConBERSERKERBuff: {
-		DisplayName: 控制暴走
+		DisplayName: 受控暴走
 		Description:
 			'''
 			伤害 +55.00%  | 移动速度 +35.00%
@@ -72,7 +72,7 @@ Buffs: {
 	}
 
 	FPSSJBuff: {
-		DisplayName: 全功率传说超级赛亚人
+		DisplayName: 传说超级赛亚人全功率
 		Description:
 			'''
 			伤害 +135.00%  | 移动速度 +115.00%
@@ -182,7 +182,7 @@ Buffs: {
 			伤害 +430.00%  | 移动速度 +455.00%
 			防御 +47 | 气消耗 +70.00%
 			气损失 264/s （精通时132/s）
-			消耗生命以获取力量
+			消耗生命以换取力量
 			'''
 	}
 
@@ -349,7 +349,7 @@ Items: {
 
 	MajinItem: {
 		DisplayName: 魔人测试物品
-		Tooltip: 
+		Tooltip:
 			'''
 			给予你魔人资质
 			[C/959595:译者补充：魔人资质除了人变粉，没有任何效果]
@@ -359,7 +359,7 @@ Items: {
 	NewFormsItem: {
 		DisplayName: 新形态解锁
 		Tooltip:
-			''' 	
+			'''
 			解锁以下新形态：
 			超级赛亚人全功率
 			传说超级赛亚人全功率
@@ -445,7 +445,7 @@ Items: {
 
 	ExchangeScroll: {
 		DisplayName: 交换卷轴
-		Tooltip: 
+		Tooltip:
 			'''
 			允许你重新选择超级赛亚人蓝的进阶形态，变身其中一个另一个会锁定
 			[C/959595:译者补充：击败月亮领主后，商人售卖]
@@ -478,7 +478,7 @@ Configs: {
 
 		FalsePrework: {
 			Label: 永久拟态超级赛亚人
-			Tooltip: 
+			Tooltip:
 				'''
 				将拟态超级赛亚人重新加入变身菜单中，并恢复旧的解锁条件，而不是随机触发
 				[C/959595:译者补充：在克苏鲁之脑或或世界吞噬者Boss战中，低于最大生命值25%可变身]

@@ -1,0 +1,3000 @@
+Assets: {
+	BUPPlayer+FSSJPanel: {
+		DiscoverConditionSSBKK: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionSSBKK: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionSSBE: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionSSBE: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionPSSB: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionPSSB: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionSSJRG: {
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			2: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionSSJRG: {
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			2: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionSSJFP: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		UnlockConditionSSJFP: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		DiscoverConditionSSJ3FP: {
+			1: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+		}
+
+		UnlockConditionSSJ3FP: {
+			1: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+		}
+
+		DiscoverConditionEvilSaiyan: {
+			1: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+		}
+
+		UnlockConditionEvilSaiyan: {
+			1: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+		}
+
+		DiscoverConditionLimitBreak: {
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionnLimitBreak: {
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionIKARI: {
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionIKARI: {
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionFSSJ: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		UnlockConditionFSSJ: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		DiscoverConditionSSJB: {
+			4: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			3: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		UnlockConditionSSJB: {
+			4: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			3: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		DiscoverConditionSSJ1: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		UnlockConditionSSJ1: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		Nodes: {
+			35: {
+				NewString: Cosmic creatures will push you to the limit
+				OldString: Cosmic creatures will push you to the limit
+			}
+
+			34: {
+				NewString: SSBETES/Buffs/Transformations/SSJ3FPBuff
+				OldString: SSBETES/Buffs/Transformations/SSJ3FPBuff
+			}
+
+			33: {
+				NewString: SSJ3FPBuff
+				OldString: SSJ3FPBuff
+			}
+
+			32: {
+				NewString: Cthulhu creature may reveal an ancient power.
+				OldString: Cthulhu creature may reveal an ancient power.
+			}
+
+			31: {
+				NewString: SSBETES/Buffs/Transformations/EvilSaiyanBuff
+				OldString: SSBETES/Buffs/Transformations/EvilSaiyanBuff
+			}
+
+			30: {
+				NewString: EvilSaiyanBuff
+				OldString: EvilSaiyanBuff
+			}
+
+			3: {
+				NewString: Fight with world evil so anger opens up new opportunities for you.
+				OldString: Fight with world evil so anger opens up new opportunities for you.
+			}
+
+			29: {
+				NewString: After losing control, a new power will unveil to you
+				OldString: After losing control, a new power will unveil to you
+			}
+
+			28: {
+				NewString: SSBETES/Buffs/Transformations/LimitBreakerBuff
+				OldString: SSBETES/Buffs/Transformations/LimitBreakerBuff
+			}
+
+			27: {
+				NewString: LimitBreakerBuff
+				OldString: LimitBreakerBuff
+			}
+
+			26: {
+				NewString: Destroying the seal between light and dark will grant access to the wild power.
+				OldString: Destroying the seal between light and dark will grant access to the wild power.
+			}
+
+			25: {
+				NewString: SSBETES/Buffs/Transformations/IKARIBuff
+				OldString: SSBETES/Buffs/Transformations/IKARIBuff
+			}
+
+			24: {
+				NewString: IKARIBuff
+				OldString: IKARIBuff
+			}
+
+			23: {
+				NewString: SSBETES/Buffs/Transformations/SSBKKBuff
+				OldString: SSBETES/Buffs/Transformations/SSBKKBuff
+			}
+
+			22: {
+				NewString: SSBKKBuff
+				OldString: SSBKKBuff
+			}
+
+			21: {
+				NewString: Mastering the divine form will open you to a choice.
+				OldString: Mastering the divine form will open you to a choice.
+			}
+
+			20: {
+				NewString: SSBETES/Buffs/Transformations/SSBEBuff
+				OldString: SSBETES/Buffs/Transformations/SSBEBuff
+			}
+
+			2: {
+				NewString: SSBETES/Buffs/Transformations/FSSJBuff
+				OldString: SSBETES/Buffs/Transformations/FSSJBuff
+			}
+
+			19: {
+				NewString: SSBEBuff
+				OldString: SSBEBuff
+			}
+
+			18: {
+				NewString: Perfect your strongest form.
+				OldString: Perfect your strongest form.
+			}
+
+			17: {
+				NewString: SSBETES/Buffs/Transformations/PSSBBuff
+				OldString: SSBETES/Buffs/Transformations/PSSBBuff
+			}
+
+			16: {
+				NewString: PSSBBuff
+				OldString: PSSBBuff
+			}
+
+			15: {
+				NewString: The experience from battling a galactic being could bring forth this strength.
+				OldString: The experience from battling a galactic being could bring forth this strength.
+			}
+
+			14: {
+				NewString: DBZMODPORT/Buffs/SSJBuffs/SSJBBuff
+				OldString: DBZMODPORT/Buffs/SSJBuffs/SSJBBuff
+			}
+
+			13: {
+				NewString: SSJBBuff
+				OldString: SSJBBuff
+			}
+
+			12: {
+				NewString: Defeating the lunar cult after slime royalty will show you the path.
+				OldString: Defeating the lunar cult after slime royalty will show you the path.
+			}
+
+			11: {
+				NewString: SSBETES/Buffs/Transformations/SSJRGBuff
+				OldString: SSBETES/Buffs/Transformations/SSJRGBuff
+			}
+
+			10: {
+				NewString: SSJRGBuff
+				OldString: SSJRGBuff
+			}
+
+			1: {
+				NewString: FSSJBuff
+				OldString: FSSJBuff
+			}
+
+			9: {
+				NewString: Master Super Saiyan.
+				OldString: Master Super Saiyan.
+			}
+
+			8: {
+				NewString: SSBETES/Buffs/Transformations/SSJFPBuff
+				OldString: SSBETES/Buffs/Transformations/SSJFPBuff
+			}
+
+			7: {
+				NewString: SSJFPBuff
+				OldString: SSJFPBuff
+			}
+
+			6: {
+				NewString: Only through failure with a powerful foe will true power awaken.
+				OldString: Only through failure with a powerful foe will true power awaken.
+			}
+
+			5: {
+				NewString: DBZMODPORT/Buffs/SSJBuffs/SSJ1Buff
+				OldString: DBZMODPORT/Buffs/SSJBuffs/SSJ1Buff
+			}
+
+			4: {
+				NewString: SSJ1Buff
+				OldString: SSJ1Buff
+			}
+		}
+
+		Name: {
+			1: {
+				NewString: SSBE - Bonus Forms
+				OldString: SSBE - Bonus Forms
+			}
+		}
+	}
+
+	BUPPlayer+SEPBSSFPanel: {
+		DiscoverConditionSSBKK: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionSSBKK: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionSSBE: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionSSBE: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionPSSB: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionPSSB: {
+			5: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionSSJRG: {
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			2: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionSSJRG: {
+			4: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			3: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			2: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionSSJFP: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		UnlockConditionSSJFP: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		DiscoverConditionSSJ3FP: {
+			1: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+		}
+
+		UnlockConditionSSJ3FP: {
+			1: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+		}
+
+		DiscoverConditionEvilSaiyan: {
+			1: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+		}
+
+		UnlockConditionEvilSaiyan: {
+			1: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+		}
+
+		DiscoverConditionLimitBreak: {
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionnLimitBreak: {
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionIKARI: {
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		UnlockConditionIKARI: {
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+
+		DiscoverConditionFSSJ: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		UnlockConditionFSSJ: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		DiscoverConditionSSJB: {
+			4: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			3: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		UnlockConditionSSJB: {
+			4: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			3: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		DiscoverConditionSSJ1: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		UnlockConditionSSJ1: {
+			2: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			1: {
+				NewString: GOD
+				OldString: GOD
+			}
+		}
+
+		Nodes: {
+			32: {
+				NewString: Cosmic creatures will push you to the limit
+				OldString: Cosmic creatures will push you to the limit
+			}
+
+			31: {
+				NewString: SSBETES/Buffs/Transformations/SSJ3FPBuff
+				OldString: SSBETES/Buffs/Transformations/SSJ3FPBuff
+			}
+
+			30: {
+				NewString: SSJ3FPBuff
+				OldString: SSJ3FPBuff
+			}
+
+			3: {
+				NewString: Only through failure with a powerful foe will true power awaken.
+				OldString: Only through failure with a powerful foe will true power awaken.
+			}
+
+			29: {
+				NewString: Cthulhu creature may reveal an ancient power.
+				OldString: Cthulhu creature may reveal an ancient power.
+			}
+
+			28: {
+				NewString: SSBETES/Buffs/Transformations/EvilSaiyanBuff
+				OldString: SSBETES/Buffs/Transformations/EvilSaiyanBuff
+			}
+
+			27: {
+				NewString: EvilSaiyanBuff
+				OldString: EvilSaiyanBuff
+			}
+
+			26: {
+				NewString: After losing control, a new power will unveil to you
+				OldString: After losing control, a new power will unveil to you
+			}
+
+			25: {
+				NewString: SSBETES/Buffs/Transformations/LimitBreakerBuff
+				OldString: SSBETES/Buffs/Transformations/LimitBreakerBuff
+			}
+
+			24: {
+				NewString: LimitBreakerBuff
+				OldString: LimitBreakerBuff
+			}
+
+			23: {
+				NewString: Destroying the seal between light and dark will grant access to the wild power.
+				OldString: Destroying the seal between light and dark will grant access to the wild power.
+			}
+
+			22: {
+				NewString: SSBETES/Buffs/Transformations/IKARIBuff
+				OldString: SSBETES/Buffs/Transformations/IKARIBuff
+			}
+
+			21: {
+				NewString: IKARIBuff
+				OldString: IKARIBuff
+			}
+
+			20: {
+				NewString: SSBETES/Buffs/Transformations/SSBKKBuff
+				OldString: SSBETES/Buffs/Transformations/SSBKKBuff
+			}
+
+			2: {
+				NewString: DBZMODPORT/Buffs/SSJBuffs/SSJ1Buff
+				OldString: DBZMODPORT/Buffs/SSJBuffs/SSJ1Buff
+			}
+
+			19: {
+				NewString: SSBKKBuff
+				OldString: SSBKKBuff
+			}
+
+			18: {
+				NewString: Mastering the divine form will open you to a choice.
+				OldString: Mastering the divine form will open you to a choice.
+			}
+
+			17: {
+				NewString: SSBETES/Buffs/Transformations/SSBEBuff
+				OldString: SSBETES/Buffs/Transformations/SSBEBuff
+			}
+
+			16: {
+				NewString: SSBEBuff
+				OldString: SSBEBuff
+			}
+
+			15: {
+				NewString: Perfect your strongest form.
+				OldString: Perfect your strongest form.
+			}
+
+			14: {
+				NewString: SSBETES/Buffs/Transformations/PSSBBuff
+				OldString: SSBETES/Buffs/Transformations/PSSBBuff
+			}
+
+			13: {
+				NewString: PSSBBuff
+				OldString: PSSBBuff
+			}
+
+			12: {
+				NewString: The experience from battling a galactic being could bring forth this strength.
+				OldString: The experience from battling a galactic being could bring forth this strength.
+			}
+
+			11: {
+				NewString: DBZMODPORT/Buffs/SSJBuffs/SSJBBuff
+				OldString: DBZMODPORT/Buffs/SSJBuffs/SSJBBuff
+			}
+
+			10: {
+				NewString: SSJBBuff
+				OldString: SSJBBuff
+			}
+
+			1: {
+				NewString: SSJ1Buff
+				OldString: SSJ1Buff
+			}
+
+			9: {
+				NewString: Defeating the lunar cult after slime royalty will show you the path.
+				OldString: Defeating the lunar cult after slime royalty will show you the path.
+			}
+
+			8: {
+				NewString: SSBETES/Buffs/Transformations/SSJRGBuff
+				OldString: SSBETES/Buffs/Transformations/SSJRGBuff
+			}
+
+			7: {
+				NewString: SSJRGBuff
+				OldString: SSJRGBuff
+			}
+
+			6: {
+				NewString: Master Super Saiyan.
+				OldString: Master Super Saiyan.
+			}
+
+			5: {
+				NewString: SSBETES/Buffs/Transformations/SSJFPBuff
+				OldString: SSBETES/Buffs/Transformations/SSJFPBuff
+			}
+
+			4: {
+				NewString: SSJFPBuff
+				OldString: SSJFPBuff
+			}
+		}
+
+		Name: {
+			1: {
+				NewString: SSBE - Bonus Forms
+				OldString: SSBE - Bonus Forms
+			}
+		}
+	}
+
+	BUPPlayer: {
+		SSJRageAnimation: {
+			1: {
+				NewString: DBZMODPORT/Sounds/GroundRumble
+				OldString: DBZMODPORT/Sounds/GroundRumble
+			}
+		}
+
+		SSJ3FPAnimation: {
+			1: {
+				NewString: DBZMODPORT/Sounds/GroundRumble
+				OldString: DBZMODPORT/Sounds/GroundRumble
+			}
+		}
+
+		ProcessTriggers: {
+			14: {
+				NewString: EvilSaiyanBuff
+				OldString: EvilSaiyanBuff
+			}
+
+			13: {
+				NewString: LimitBreakerBuff
+				OldString: LimitBreakerBuff
+			}
+
+			12: {
+				NewString: SSBKKBuff
+				OldString: SSBKKBuff
+			}
+
+			11: {
+				NewString: SSBEBuff
+				OldString: SSBEBuff
+			}
+
+			10: {
+				NewString: LSSJBuff
+				OldString: LSSJBuff
+			}
+
+			1: {
+				NewString: SSJFPBuff
+				OldString: SSJFPBuff
+			}
+
+			9: {
+				NewString: SSJ2Buff
+				OldString: SSJ2Buff
+			}
+
+			8: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+
+			7: {
+				NewString: SSJ1Buff
+				OldString: SSJ1Buff
+			}
+
+			6: {
+				NewString: SSBKKx20Buff
+				OldString: SSBKKx20Buff
+			}
+
+			5: {
+				NewString: PSSBBuff
+				OldString: PSSBBuff
+			}
+
+			4: {
+				NewString: SSJ3FPBuff
+				OldString: SSJ3FPBuff
+			}
+
+			3: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			2: {
+				NewString: SSJRGBuff
+				OldString: SSJRGBuff
+			}
+		}
+
+		LoadData: {
+			30: {
+				NewString: SSBETES_SSBKKUnlockMsg
+				OldString: SSBETES_SSBKKUnlockMsg
+			}
+
+			3: {
+				NewString: hasBuffs
+				OldString: hasBuffs
+			}
+
+			29: {
+				NewString: SSBETES_SSBKKAchieved
+				OldString: SSBETES_SSBKKAchieved
+			}
+
+			28: {
+				NewString: SSBETES_SSBEUnlockMsg
+				OldString: SSBETES_SSBEUnlockMsg
+			}
+
+			27: {
+				NewString: SSBETES_SSBEAchieved
+				OldString: SSBETES_SSBEAchieved
+			}
+
+			26: {
+				NewString: SSBETES_PSSBUnlockMsg
+				OldString: SSBETES_PSSBUnlockMsg
+			}
+
+			25: {
+				NewString: SSBETES_PSSBAchieved
+				OldString: SSBETES_PSSBAchieved
+			}
+
+			24: {
+				NewString: SSBETES_SSJ3FPUnlockMsg
+				OldString: SSBETES_SSJ3FPUnlockMsg
+			}
+
+			23: {
+				NewString: SSBETES_SSJ3FPAchieved
+				OldString: SSBETES_SSJ3FPAchieved
+			}
+
+			22: {
+				NewString: SSBETES_SSJRGUnlockMsg
+				OldString: SSBETES_SSJRGUnlockMsg
+			}
+
+			21: {
+				NewString: SSBETES_SSJRGAchieved
+				OldString: SSBETES_SSJRGAchieved
+			}
+
+			20: {
+				NewString: SSBETES_SSJFPUnlockMsg
+				OldString: SSBETES_SSJFPUnlockMsg
+			}
+
+			2: {
+				NewString: isMajin
+				OldString: isMajin
+			}
+
+			19: {
+				NewString: SSBETES_SSJFPAchieved
+				OldString: SSBETES_SSJFPAchieved
+			}
+
+			18: {
+				NewString: SSBETES_FPSSJUnlockMsg
+				OldString: SSBETES_FPSSJUnlockMsg
+			}
+
+			17: {
+				NewString: SSBETES_FPSSJAchieved
+				OldString: SSBETES_FPSSJAchieved
+			}
+
+			16: {
+				NewString: SSBETES_EvilSaiyanUnlockMsg
+				OldString: SSBETES_EvilSaiyanUnlockMsg
+			}
+
+			15: {
+				NewString: SSBETES_EvilSaiyanAchieved
+				OldString: SSBETES_EvilSaiyanAchieved
+			}
+
+			14: {
+				NewString: SSBETES_BERSERKERUnlockMsg
+				OldString: SSBETES_BERSERKERUnlockMsg
+			}
+
+			13: {
+				NewString: SSBETES_BERSERKERAchieved
+				OldString: SSBETES_BERSERKERAchieved
+			}
+
+			12: {
+				NewString: SSBETES_IKARIUnlockMsg
+				OldString: SSBETES_IKARIUnlockMsg
+			}
+
+			11: {
+				NewString: SSBETES_IKARIAchieved
+				OldString: SSBETES_IKARIAchieved
+			}
+
+			10: {
+				NewString: SSBETES_FSSJUnlockMsg
+				OldString: SSBETES_FSSJUnlockMsg
+			}
+
+			1: {
+				NewString: isAncient
+				OldString: isAncient
+			}
+
+			9: {
+				NewString: SSBETES_FSSJAchieved
+				OldString: SSBETES_FSSJAchieved
+			}
+
+			8: {
+				NewString: SuperScroll
+				OldString: SuperScroll
+			}
+
+			7: {
+				NewString: SuperFragment
+				OldString: SuperFragment
+			}
+
+			6: {
+				NewString: IkariTimer
+				OldString: IkariTimer
+			}
+
+			5: {
+				NewString: EvilMultiplier
+				OldString: EvilMultiplier
+			}
+
+			4: {
+				NewString: RageSign
+				OldString: RageSign
+			}
+		}
+
+		SaveData: {
+			33: {
+				NewString: OriginalSkinColorB
+				OldString: OriginalSkinColorB
+			}
+
+			32: {
+				NewString: OriginalSkinColorG
+				OldString: OriginalSkinColorG
+			}
+
+			31: {
+				NewString: OriginalSkinColorR
+				OldString: OriginalSkinColorR
+			}
+
+			30: {
+				NewString: SSBETES_SSBKKUnlockMsg
+				OldString: SSBETES_SSBKKUnlockMsg
+			}
+
+			3: {
+				NewString: hasBuffs
+				OldString: hasBuffs
+			}
+
+			29: {
+				NewString: SSBETES_SSBKKAchieved
+				OldString: SSBETES_SSBKKAchieved
+			}
+
+			28: {
+				NewString: SSBETES_SSBEUnlockMsg
+				OldString: SSBETES_SSBEUnlockMsg
+			}
+
+			27: {
+				NewString: SSBETES_SSBEAchieved
+				OldString: SSBETES_SSBEAchieved
+			}
+
+			26: {
+				NewString: SSBETES_PSSBUnlockMsg
+				OldString: SSBETES_PSSBUnlockMsg
+			}
+
+			25: {
+				NewString: SSBETES_PSSBAchieved
+				OldString: SSBETES_PSSBAchieved
+			}
+
+			24: {
+				NewString: SSBETES_SSJ3FPUnlockMsg
+				OldString: SSBETES_SSJ3FPUnlockMsg
+			}
+
+			23: {
+				NewString: SSBETES_SSJ3FPAchieved
+				OldString: SSBETES_SSJ3FPAchieved
+			}
+
+			22: {
+				NewString: SSBETES_SSJRGUnlockMsg
+				OldString: SSBETES_SSJRGUnlockMsg
+			}
+
+			21: {
+				NewString: SSBETES_SSJRGAchieved
+				OldString: SSBETES_SSJRGAchieved
+			}
+
+			20: {
+				NewString: SSBETES_SSJFPUnlockMsg
+				OldString: SSBETES_SSJFPUnlockMsg
+			}
+
+			2: {
+				NewString: isMajin
+				OldString: isMajin
+			}
+
+			19: {
+				NewString: SSBETES_SSJFPAchieved
+				OldString: SSBETES_SSJFPAchieved
+			}
+
+			18: {
+				NewString: SSBETES_FPSSJUnlockMsg
+				OldString: SSBETES_FPSSJUnlockMsg
+			}
+
+			17: {
+				NewString: SSBETES_FPSSJAchieved
+				OldString: SSBETES_FPSSJAchieved
+			}
+
+			16: {
+				NewString: SSBETES_BERSERKERUnlockMsg
+				OldString: SSBETES_BERSERKERUnlockMsg
+			}
+
+			15: {
+				NewString: SSBETES_BERSERKERAchieved
+				OldString: SSBETES_BERSERKERAchieved
+			}
+
+			14: {
+				NewString: SSBETES_EvilSaiyanUnlockMsg
+				OldString: SSBETES_EvilSaiyanUnlockMsg
+			}
+
+			13: {
+				NewString: SSBETES_EvilSaiyanAchieved
+				OldString: SSBETES_EvilSaiyanAchieved
+			}
+
+			12: {
+				NewString: SSBETES_IKARIUnlockMsg
+				OldString: SSBETES_IKARIUnlockMsg
+			}
+
+			11: {
+				NewString: SSBETES_IKARIAchieved
+				OldString: SSBETES_IKARIAchieved
+			}
+
+			10: {
+				NewString: SSBETES_FSSJUnlockMsg
+				OldString: SSBETES_FSSJUnlockMsg
+			}
+
+			1: {
+				NewString: isAncient
+				OldString: isAncient
+			}
+
+			9: {
+				NewString: SSBETES_FSSJAchieved
+				OldString: SSBETES_FSSJAchieved
+			}
+
+			8: {
+				NewString: SuperFragment
+				OldString: SuperFragment
+			}
+
+			7: {
+				NewString: SuperScroll
+				OldString: SuperScroll
+			}
+
+			6: {
+				NewString: IkariTimer
+				OldString: IkariTimer
+			}
+
+			5: {
+				NewString: EvilMultiplier
+				OldString: EvilMultiplier
+			}
+
+			4: {
+				NewString: RageSign
+				OldString: RageSign
+			}
+		}
+
+		PreKill: {
+			1: {
+				NewString: FSSJBuff
+				OldString: FSSJBuff
+			}
+		}
+
+		PostUpdateEquips: {
+			8: {
+				NewString: You have entered Full Power Super Saiyan
+				OldString: You have entered Full Power Super Saiyan
+			}
+
+			7: {
+				NewString: FPSSJBuff
+				OldString: FPSSJBuff
+			}
+
+			6: {
+				NewString: DBZMODPORT/Sounds/Awakening
+				OldString: DBZMODPORT/Sounds/Awakening
+			}
+
+			5: {
+				NewString: DBZMODPORT/Sounds/Explosion
+				OldString: DBZMODPORT/Sounds/Explosion
+			}
+
+			4: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+
+			3: {
+				NewString: BERSERKERBuff
+				OldString: BERSERKERBuff
+			}
+
+			2: {
+				NewString: Ancient Trait doesn't have access to god forms
+				OldString: Ancient Trait doesn't have access to god forms
+			}
+
+			1: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+		}
+
+		PostUpdate: {
+			14: {
+				NewString:
+					'''
+					Now you can use Kaio-Ken x20 with SSJB.
+					Hold charge and transform while in SSJBKKx10
+					'''
+				OldString:
+					'''
+					Now you can use Kaio-Ken x20 with SSJB.
+					Hold charge and transform while in SSJBKKx10
+					'''
+			}
+
+			13: {
+				NewString: PSSBBuff
+				OldString: PSSBBuff
+			}
+
+			12: {
+				NewString:
+					'''
+					You have perfected SSJB.
+					Hold charge and transform while in SSJB 
+					to use Perfected Super Saiyan Blue.
+					'''
+				OldString:
+					'''
+					You have perfected SSJB.
+					Hold charge and transform while in SSJB 
+					to use Perfected Super Saiyan Blue.
+					'''
+			}
+
+			11: {
+				NewString:
+					'''
+					You have mastered SSJ1.
+					Hold charge and transform while in USSJ 
+					to use Super Saiyan Full Power.
+					'''
+				OldString:
+					'''
+					You have mastered SSJ1.
+					Hold charge and transform while in USSJ 
+					to use Super Saiyan Full Power.
+					'''
+			}
+
+			10: {
+				NewString: Your rage is uncontrollable!
+				OldString: Your rage is uncontrollable!
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+
+			9: {
+				NewString: Evil Ki overwhelms you!
+				OldString: Evil Ki overwhelms you!
+			}
+
+			8: {
+				NewString: The anger fills your body!
+				OldString: The anger fills your body!
+			}
+
+			7: {
+				NewString: FSSJBuff
+				OldString: FSSJBuff
+			}
+
+			6: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			5: {
+				NewString: Cult will open gates to new form!
+				OldString: Cult will open gates to new form!
+			}
+
+			4: {
+				NewString: Majin
+				OldString: Majin
+			}
+
+			3: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			2: {
+				NewString: IKARIBuff
+				OldString: IKARIBuff
+			}
+		}
+	}
+
+	Effects: {
+		TransformEffect: {
+			Draw: {
+				4: {
+					NewString: SSBETES/Assets/Effects/SSBE
+					OldString: SSBETES/Assets/Effects/SSBE
+				}
+
+				3: {
+					NewString: SSBETES/Assets/Effects/SSBKK20
+					OldString: SSBETES/Assets/Effects/SSBKK20
+				}
+
+				2: {
+					NewString: SSBETES/Assets/Effects/SSBKK
+					OldString: SSBETES/Assets/Effects/SSBKK
+				}
+
+				1: {
+					NewString: DBZMODPORT/Effects/Animations/Transform/SSJ3
+					OldString: DBZMODPORT/Effects/Animations/Transform/SSJ3
+				}
+			}
+		}
+
+		EffectLayer: {
+			Draw: {
+				2: {
+					NewString: SSBETES/Assets/Effects/LightningRed
+					OldString: SSBETES/Assets/Effects/LightningRed
+				}
+
+				1: {
+					NewString: SSBETES/Assets/Effects/LightningYellow
+					OldString: SSBETES/Assets/Effects/LightningYellow
+				}
+			}
+		}
+	}
+
+	Transformation: {
+		SSJRageSequence: {
+			Kill: {
+				2: {
+					NewString: SSJRGBuff
+					OldString: SSJRGBuff
+				}
+
+				1: {
+					NewString: Super Saiyan Rage Achieved!
+					OldString: Super Saiyan Rage Achieved!
+				}
+			}
+		}
+
+		SSJ3FPSequence: {
+			Kill: {
+				3: {
+					NewString: SSJ3FPBuff
+					OldString: SSJ3FPBuff
+				}
+
+				2: {
+					NewString: EvilSaiyanBuff
+					OldString: EvilSaiyanBuff
+				}
+
+				1: {
+					NewString: You are at your maximum.
+					OldString: You are at your maximum.
+				}
+			}
+		}
+	}
+
+	FalseHairLayer: {
+		Draw: {
+			1: {
+				NewString: SSBETES/Assets/Hair/BaseHair
+				OldString: SSBETES/Assets/Hair/BaseHair
+			}
+		}
+	}
+}
+
+Changes: {
+	NPCS: {
+		ModifyShop: {
+			1: {
+				NewString: Random.NextBool3
+				OldString: Random.NextBool3
+			}
+		}
+	}
+
+	GodObtainModify: {
+		CanPickup: {
+			4: {
+				NewString: GOD
+				OldString: GOD
+			}
+
+			3: {
+				NewString: Primal
+				OldString: Primal
+			}
+
+			2: {
+				NewString: Ancient
+				OldString: Ancient
+			}
+
+			1: {
+				NewString: Legendary
+				OldString: Legendary
+			}
+		}
+	}
+}
+
+Buffs: {
+	Traits: {
+		MajinTrait: {
+			Name: {
+				1: {
+					NewString: Majin
+					OldString: Majin
+				}
+			}
+		}
+
+		AncientTrait: {
+			Name: {
+				1: {
+					NewString: Ancient
+					OldString: Ancient
+				}
+			}
+		}
+	}
+
+	Transformations: {
+		SSJRGBuff: {
+			SoundData: {
+				2: {
+					NewString: DBZMODPORT/Sounds/SSB
+					OldString: DBZMODPORT/Sounds/SSB
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/SSJAscension
+					OldString: DBZMODPORT/Sounds/SSJAscension
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					NewString: DBZMODPORT/Hairs/SSJ/SSJ2Hair
+					OldString: DBZMODPORT/Hairs/SSJ/SSJ2Hair
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: Super Saiyan Rage
+					OldString: Super Saiyan Rage
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: SSBETES/Assets/Aura/SSJRGAura
+					OldString: SSBETES/Assets/Aura/SSJRGAura
+				}
+			}
+		}
+
+		SSJFPBuff: {
+			SoundData: {
+				2: {
+					NewString: SSBETES/Sounds/BLANK
+					OldString: SSBETES/Sounds/BLANK
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/PowerDown
+					OldString: DBZMODPORT/Sounds/PowerDown
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					NewString: SSBETES/Assets/Hair/SSJFPHair
+					OldString: SSBETES/Assets/Hair/SSJFPHair
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: Super Saiyan Full Power
+					OldString: Super Saiyan Full Power
+				}
+			}
+		}
+
+		SSJ3FPBuff: {
+			ModifyBuffText: {
+				1: {
+					NewString:
+						'''
+
+						Increases power and restores Ki when landing Ki attacks
+						(Life drains when below 35% Max Ki)
+						'''
+					OldString:
+						'''
+
+						Increases power and restores Ki when landing Ki attacks
+						(Life drains when below 35% Max Ki)
+						'''
+				}
+			}
+
+			SoundData: {
+				2: {
+					NewString: DBZMODPORT/Sounds/SSJAura
+					OldString: DBZMODPORT/Sounds/SSJAura
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/SSJAscension
+					OldString: DBZMODPORT/Sounds/SSJAscension
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					NewString: SSBETES/Assets/Hair/SSJ3FPHair
+					OldString: SSBETES/Assets/Hair/SSJ3FPHair
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: Super Saiyan 3 Full Power
+					OldString: Super Saiyan 3 Full Power
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: DBZMODPORT/Effects/Animations/Aura/SSJ3Aura
+					OldString: DBZMODPORT/Effects/Animations/Aura/SSJ3Aura
+				}
+			}
+		}
+
+		SSBKKx20Buff: {
+			ModifyBuffText: {
+				1: {
+					NewString:
+						'''
+
+						Consumes even more health.
+						'''
+					OldString:
+						'''
+
+						Consumes even more health.
+						'''
+				}
+			}
+
+			SoundData: {
+				2: {
+					NewString: DBZMODPORT/Sounds/SSJR
+					OldString: DBZMODPORT/Sounds/SSJR
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/KaioAuraAscend
+					OldString: DBZMODPORT/Sounds/KaioAuraAscend
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					NewString: SSBETES/Assets/Hair/SSBKKHair
+					OldString: SSBETES/Assets/Hair/SSBKKHair
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: Super Saiyan Blue Kaio-Ken x20
+					OldString: Super Saiyan Blue Kaio-Ken x20
+				}
+			}
+
+			CanTransform: {
+				5: {
+					NewString: Majin
+					OldString: Majin
+				}
+
+				4: {
+					NewString: Primal
+					OldString: Primal
+				}
+
+				3: {
+					NewString: GOD
+					OldString: GOD
+				}
+
+				2: {
+					NewString: Ancient
+					OldString: Ancient
+				}
+
+				1: {
+					NewString: Legendary
+					OldString: Legendary
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: SSBETES/Assets/Aura/SSBKK20Aura
+					OldString: SSBETES/Assets/Aura/SSBKK20Aura
+				}
+			}
+		}
+
+		SSBKKBuff: {
+			ModifyBuffText: {
+				1: {
+					NewString:
+						'''
+
+						Consumes health in exchange for strength.
+						'''
+					OldString:
+						'''
+
+						Consumes health in exchange for strength.
+						'''
+				}
+			}
+
+			SoundData: {
+				2: {
+					NewString: DBZMODPORT/Sounds/SSJR
+					OldString: DBZMODPORT/Sounds/SSJR
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/KaioAuraAscend
+					OldString: DBZMODPORT/Sounds/KaioAuraAscend
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					NewString: SSBETES/Assets/Hair/SSBKKHair
+					OldString: SSBETES/Assets/Hair/SSBKKHair
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: Super Saiyan Blue Kaio-Ken x10
+					OldString: Super Saiyan Blue Kaio-Ken x10
+				}
+			}
+
+			CanTransform: {
+				5: {
+					NewString: Majin
+					OldString: Majin
+				}
+
+				4: {
+					NewString: Primal
+					OldString: Primal
+				}
+
+				3: {
+					NewString: GOD
+					OldString: GOD
+				}
+
+				2: {
+					NewString: Ancient
+					OldString: Ancient
+				}
+
+				1: {
+					NewString: Legendary
+					OldString: Legendary
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: SSBETES/Assets/Aura/SSBKKAura
+					OldString: SSBETES/Assets/Aura/SSBKKAura
+				}
+			}
+		}
+
+		SSBEBuff: {
+			ModifyBuffText: {
+				1: {
+					NewString:
+						'''
+
+						Greatly increased health regeneration.
+						'''
+					OldString:
+						'''
+
+						Greatly increased health regeneration.
+						'''
+				}
+			}
+
+			SoundData: {
+				2: {
+					NewString: DBZMODPORT/Sounds/SSB
+					OldString: DBZMODPORT/Sounds/SSB
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/FinalFlashFire
+					OldString: DBZMODPORT/Sounds/FinalFlashFire
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					NewString: SSBETES/Assets/Hair/SSBEHair
+					OldString: SSBETES/Assets/Hair/SSBEHair
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: Super Saiyan Blue Evolution
+					OldString: Super Saiyan Blue Evolution
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: SSBETES/Assets/Aura/SSBEAuraN
+					OldString: SSBETES/Assets/Aura/SSBEAuraN
+				}
+			}
+		}
+
+		PSSBBuff: {
+			ModifyBuffText: {
+				1: {
+					NewString:
+						'''
+
+						Slightly increased health regen.
+						'''
+					OldString:
+						'''
+
+						Slightly increased health regen.
+						'''
+				}
+			}
+
+			SoundData: {
+				2: {
+					NewString: DBZMODPORT/Sounds/SSB
+					OldString: DBZMODPORT/Sounds/SSB
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/SSJAscension
+					OldString: DBZMODPORT/Sounds/SSJAscension
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					NewString: SSBETES/Assets/Hair/PSSBHair
+					OldString: SSBETES/Assets/Hair/PSSBHair
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: Perfected Super Saiyan Blue
+					OldString: Perfected Super Saiyan Blue
+				}
+			}
+		}
+
+		LimitBreakerBuff: {
+			FormName: {
+				1: {
+					NewString: Limit Breaker
+					OldString: Limit Breaker
+				}
+			}
+
+			CanTransform: {
+				1: {
+					NewString: Legendary
+					OldString: Legendary
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: DBZGoatLib/Assets/BaseAura
+					OldString: DBZGoatLib/Assets/BaseAura
+				}
+			}
+		}
+
+		IKARIBuff: {
+			ModifyBuffText: {
+				1: {
+					NewString:
+						'''
+
+						The more you are in this form, the more dangerous you become.
+						'''
+					OldString:
+						'''
+
+						The more you are in this form, the more dangerous you become.
+						'''
+				}
+			}
+
+			SoundData: {
+				2: {
+					NewString: DBZMODPORT/Sounds/SSJAura
+					OldString: DBZMODPORT/Sounds/SSJAura
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/Explosion
+					OldString: DBZMODPORT/Sounds/Explosion
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: Wrathful
+					OldString: Wrathful
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: SSBETES/Assets/Aura/IKARIAura
+					OldString: SSBETES/Assets/Aura/IKARIAura
+				}
+			}
+		}
+
+		FSSJBuff: {
+			SoundData: {
+				2: {
+					NewString: DBZMODPORT/Sounds/SSJAura
+					OldString: DBZMODPORT/Sounds/SSJAura
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/KaioAuraAscend
+					OldString: DBZMODPORT/Sounds/KaioAuraAscend
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					NewString: SSBETES/Assets/Hair/FSSJHair
+					OldString: SSBETES/Assets/Hair/FSSJHair
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: False Super Saiyan
+					OldString: False Super Saiyan
+				}
+			}
+
+			CanTransform: {
+				2: {
+					NewString: Majin
+					OldString: Majin
+				}
+
+				1: {
+					NewString: GOD
+					OldString: GOD
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: SSBETES/Assets/Aura/FSSJAura
+					OldString: SSBETES/Assets/Aura/FSSJAura
+				}
+			}
+		}
+
+		FPSSJBuff: {
+			ModifyBuffText: {
+				1: {
+					NewString:
+						'''
+
+						Your ki is unstable.
+						'''
+					OldString:
+						'''
+
+						Your ki is unstable.
+						'''
+				}
+			}
+
+			SoundData: {
+				2: {
+					NewString: DBZMODPORT/Sounds/SSJAura
+					OldString: DBZMODPORT/Sounds/SSJAura
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/SSJAscension
+					OldString: DBZMODPORT/Sounds/SSJAscension
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					NewString: DBZMODPORT/Hairs/LSSJ/LSSJHair
+					OldString: DBZMODPORT/Hairs/LSSJ/LSSJHair
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: Full Power Super Saiyan
+					OldString: Full Power Super Saiyan
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: DBZMODPORT/Effects/Animations/Aura/LSSJAura
+					OldString: DBZMODPORT/Effects/Animations/Aura/LSSJAura
+				}
+			}
+		}
+
+		EvilSaiyanBuff: {
+			SoundData: {
+				2: {
+					NewString: DBZMODPORT/Sounds/SSJ2
+					OldString: DBZMODPORT/Sounds/SSJ2
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/SSJAscension
+					OldString: DBZMODPORT/Sounds/SSJAscension
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					NewString: SSBETES/Assets/Hair/EvilSaiyanHair
+					OldString: SSBETES/Assets/Hair/EvilSaiyanHair
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: Evil Saiyan
+					OldString: Evil Saiyan
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: SSBETES/Assets/Aura/EvilAura
+					OldString: SSBETES/Assets/Aura/EvilAura
+				}
+			}
+		}
+
+		DBEnchancedBuff: {
+			FormName: {
+				1: {
+					NewString: Dragon Ball Еnchantment
+					OldString: Dragon Ball Еnchantment
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: DBZGoatLib/Assets/BaseAura
+					OldString: DBZGoatLib/Assets/BaseAura
+				}
+			}
+		}
+
+		ConBERSERKERBuff: {
+			SoundData: {
+				2: {
+					NewString: DBZMODPORT/Sounds/SSJ2
+					OldString: DBZMODPORT/Sounds/SSJ2
+				}
+
+				1: {
+					NewString: DBZMODPORT/Sounds/SSJAscension
+					OldString: DBZMODPORT/Sounds/SSJAscension
+				}
+			}
+
+			FormName: {
+				1: {
+					NewString: Controlled Berserk
+					OldString: Controlled Berserk
+				}
+			}
+
+			CanTransform: {
+				1: {
+					NewString: Ancient
+					OldString: Ancient
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: SSBETES/Assets/Aura/ControlledEvilAura
+					OldString: SSBETES/Assets/Aura/ControlledEvilAura
+				}
+			}
+		}
+
+		BERSERKERBuff: {
+			FormName: {
+				1: {
+					NewString: Berserk
+					OldString: Berserk
+				}
+			}
+
+			AuraData: {
+				1: {
+					NewString: DBZGoatLib/Assets/BaseAura
+					OldString: DBZGoatLib/Assets/BaseAura
+				}
+			}
+		}
+	}
+}
+
+Items: {
+	Accessories: {
+		EnchancedDB: {
+			AddRecipes: {
+				4: {
+					NewString: EvilSaiyanItem
+					OldString: EvilSaiyanItem
+				}
+
+				3: {
+					NewString: FourStarDB
+					OldString: FourStarDB
+				}
+
+				2: {
+					NewString: SSBETES
+					OldString: SSBETES
+				}
+
+				1: {
+					NewString: DBZMODPORT
+					OldString: DBZMODPORT
+				}
+			}
+
+			UpdateAccessory: {
+				1: {
+					NewString: DBEnchancedBuff
+					OldString: DBEnchancedBuff
+				}
+			}
+		}
+	}
+
+	BlueRelic: {
+		SaiyanRelicTile: {
+			RightClick: {
+				1: {
+					NewString: hello n
+					OldString: hello n
+				}
+			}
+
+			SetStaticDefaults: {
+				3: {
+					NewString: ZTable
+					OldString: ZTable
+				}
+
+				2: {
+					NewString: KaiTable
+					OldString: KaiTable
+				}
+
+				1: {
+					NewString: DBZMODPORT
+					OldString: DBZMODPORT
+				}
+			}
+		}
+
+		SaiyanRelicAI: {
+			GetChat: {
+				3: {
+					NewString: What path do you prefer? (You will receive a new form depending on the choice, you can do it only once)
+					OldString: What path do you prefer? (You will receive a new form depending on the choice, you can do it only once)
+				}
+
+				2: {
+					NewString: What do you want me to teach you? (You will receive a new form depending on the choice, you can do it only once)
+					OldString: What do you want me to teach you? (You will receive a new form depending on the choice, you can do it only once)
+				}
+
+				1: {
+					NewString: Choose wisely. (You will receive a new form depending on the choice, you can do it only once)
+					OldString: Choose wisely. (You will receive a new form depending on the choice, you can do it only once)
+				}
+			}
+
+			OnChatButtonClicked: {
+				3: {
+					NewString: The time has not come yet, come back later.
+					OldString: The time has not come yet, come back later.
+				}
+
+				2: {
+					NewString: I hope you don't regret your choice.
+					OldString: I hope you don't regret your choice.
+				}
+
+				1: {
+					NewString: Good choice!
+					OldString: Good choice!
+				}
+			}
+
+			SetChatButtons: {
+				2: {
+					NewString: Evolution
+					OldString: Evolution
+				}
+
+				1: {
+					NewString: Kaio-Ken
+					OldString: Kaio-Ken
+				}
+			}
+
+			SetNPCNameList: {
+				1: {
+					NewString: Blue Saiyan Statue
+					OldString: Blue Saiyan Statue
+				}
+			}
+		}
+	}
+
+	TestItems: {
+		SSJ3FPUnlockItem: {
+			CanPickup: {
+				1: {
+					NewString: Ancient
+					OldString: Ancient
+				}
+			}
+		}
+
+		PARitem: {
+			OnConsumeItem: {
+				1: {
+					NewString: DBZMODPORT/Sounds/Awakening
+					OldString: DBZMODPORT/Sounds/Awakening
+				}
+			}
+		}
+
+		MajinItem: {
+			UseItem: {
+				1: {
+					NewString: Majin
+					OldString: Majin
+				}
+			}
+		}
+
+		AncientItem: {
+			UseItem: {
+				1: {
+					NewString: Ancient
+					OldString: Ancient
+				}
+			}
+		}
+	}
+
+	Upgrades: {
+		KScroll: {
+			OnConsumeItem: {
+				3: {
+					NewString: The time has not come yet, try to use it later.
+					OldString: The time has not come yet, try to use it later.
+				}
+
+				2: {
+					NewString: I hope you don't regret your choice.
+					OldString: I hope you don't regret your choice.
+				}
+
+				1: {
+					NewString: Good choice!
+					OldString: Good choice!
+				}
+			}
+		}
+
+		KiEssenceS: {
+			AddRecipes: {
+				2: {
+					NewString: AngerKiCrystal
+					OldString: AngerKiCrystal
+				}
+
+				1: {
+					NewString: DBZMODPORT
+					OldString: DBZMODPORT
+				}
+			}
+		}
+
+		ExchangeScroll: {
+			OnConsumeItem: {
+				1: {
+					NewString: I hope you don't regret your choice this time.
+					OldString: I hope you don't regret your choice this time.
+				}
+			}
+		}
+
+		EScroll: {
+			OnConsumeItem: {
+				3: {
+					NewString: The time has not come yet, try to use it later.
+					OldString: The time has not come yet, try to use it later.
+				}
+
+				2: {
+					NewString: I hope you don't regret your choice.
+					OldString: I hope you don't regret your choice.
+				}
+
+				1: {
+					NewString: Good choice!
+					OldString: Good choice!
+				}
+			}
+		}
+	}
+
+	Armour: {
+		Vanity: {
+			USSJHair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			SSJRHair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			SSJBHair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			SSJ3RHair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			SSJ3Hair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			SSJ2Hair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			SSJ1KHair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			SSJ1Hair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			SSBKKHair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			SSBEHair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			LSSJ3Hair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			LSSJ2Hair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			LSSJHair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			BOFLHair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+
+			ASSJHair: {
+				AddRecipes: {
+					2: {
+						NewString: ZTable
+						OldString: ZTable
+					}
+
+					1: {
+						NewString: DBZMODPORT
+						OldString: DBZMODPORT
+					}
+				}
+			}
+		}
+	}
+}
+
+SSBETES: {
+	Load: {
+		5: {
+			NewString: DBZGoatLib
+			OldString: DBZGoatLib
+		}
+
+		4: {
+			NewString: oozaru
+			OldString: oozaru
+		}
+
+		3: {
+			NewString: DBZMODPORT
+			OldString: DBZMODPORT
+		}
+
+		2: {
+			NewString: P
+			OldString: P
+		}
+
+		1: {
+			NewString: Ability
+			OldString: Ability
+		}
+	}
+
+	get_Maj: {
+		1: {
+			NewString: majin
+			OldString: majin
+		}
+	}
+
+	get_Anc: {
+		1: {
+			NewString: ancient
+			OldString: ancient
+		}
+	}
+}
+
+ReforgeFixKiItem: {
+	ChoosePrefix: {
+		16: {
+			NewString: TranscendedPrefix
+			OldString: TranscendedPrefix
+		}
+
+		15: {
+			NewString: MasteredPrefix
+			OldString: MasteredPrefix
+		}
+
+		14: {
+			NewString: DestructivePrefix
+			OldString: DestructivePrefix
+		}
+
+		13: {
+			NewString: DistractedPrefix
+			OldString: DistractedPrefix
+		}
+
+		12: {
+			NewString: InfusedPrefix
+			OldString: InfusedPrefix
+		}
+
+		11: {
+			NewString: FlashyPrefix
+			OldString: FlashyPrefix
+		}
+
+		10: {
+			NewString: PoweredPrefix
+			OldString: PoweredPrefix
+		}
+
+		1: {
+			NewString: DBZMODPORT
+			OldString: DBZMODPORT
+		}
+
+		9: {
+			NewString: OutrageousPrefix
+			OldString: OutrageousPrefix
+		}
+
+		8: {
+			NewString: NegatedPrefix
+			OldString: NegatedPrefix
+		}
+
+		7: {
+			NewString: BoostedPrefix
+			OldString: BoostedPrefix
+		}
+
+		6: {
+			NewString: FlawedPrefix
+			OldString: FlawedPrefix
+		}
+
+		5: {
+			NewString: UnstablePrefix
+			OldString: UnstablePrefix
+		}
+
+		4: {
+			NewString: MystifyingPrefix
+			OldString: MystifyingPrefix
+		}
+
+		3: {
+			NewString: CondensedPrefix
+			OldString: CondensedPrefix
+		}
+
+		2: {
+			NewString: BalancedPrefix
+			OldString: BalancedPrefix
+		}
+	}
+}

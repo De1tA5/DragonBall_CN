@@ -1,8 +1,11 @@
 ﻿using DBZGoatLib.Model;
+using Mono.Cecil.Cil;
+using MonoMod.Cil;
+using MonoMod.RuntimeDetour;
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using Terraria.ModLoader;
-using Terraria.ModLoader.Default;
 using TigerForceLocalizationLib;
 
 namespace DragonBall_CN.Common.DBZGoatLib
@@ -33,7 +36,7 @@ namespace DragonBall_CN.Common.DBZGoatLib
 
         public override void Load()
         {
-            //界面文字汉化
+            //菜单形态+变身文字汉化
             Defaults.FormNames = new()
             {
                 { "SSJ1Buff", "超级赛亚人" },
@@ -52,22 +55,32 @@ namespace DragonBall_CN.Common.DBZGoatLib
 
             //解锁方式汉化
             var nodes = Defaults.DefaultNodes;
-            for (int i = 0; i < Defaults.DefaultNodes.Length; i++)
+            for (int i = 0; i < nodes.Length; i++)
             {
                 if (NewUnlockHints.TryGetValue(nodes[i].BuffKeyName, out string newUnlockHint))
                 {
-                   if(!ModelHelper.TryReplaceUnlockHint(nodes, i ,newUnlockHint))
-                        Mod.Logger.Info("Replace FAILED"); 
+                    if (!ModelHelper.TryReplaceUnlockHint(nodes, i, newUnlockHint))
+                        Mod.Logger.Info("Replace FAILED");
                 }
-
             }
+            Defaults.DefaultNodes = nodes;
         }
     }
 
     [JITWhenModsEnabled("DBZGoatLib")]
-    public static class ModelHelper
+    public class ModelHelper : ModSystem
     {
-        private static BindingFlags flags = BindingFlags.Public | BindingFlags.Instance;
+        private static readonly BindingFlags flags = BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic;
+        private static List<ILHook> ILHooks = new();
+
+        /// <summary>
+        /// Node为Lib常用的显示解锁条件数据结构，但标记为readonly
+        /// 填入Node[]，对应索引以及翻译文本即可实现替换
+        /// </summary>
+        /// <param name="nodes">传入的Node数据</param>
+        /// <param name="index">Node的索引填入遍历数据即可</param>
+        /// <param name="newUnlockHint">翻译后的解锁文本</param>
+        /// <returns></returns>
         public static bool TryReplaceUnlockHint(Node[] nodes, int index, string newUnlockHint)
         {
 
@@ -83,8 +96,119 @@ namespace DragonBall_CN.Common.DBZGoatLib
             object boxedNode = node;
             unlockHintField.SetValue(boxedNode, newUnlockHint);
             nodes[index] = (Node)boxedNode;
-            
+
             return true;
         }
+
+        /// <summary>
+        /// 获取TransformationTree的Nodes
+        /// </summary>
+        /// <param name="mod">对应附属模组</param>
+        /// <param name="typeFullName">TransformationTree路径</param>
+        /// <param name="nodes">获取的Nodes</param>
+        /// <returns></returns>
+        public static bool TryGetNodes(Mod mod, string typeFullName, out Node[] nodes)
+        {
+            nodes = null;
+
+            Type? type = mod?.Code.GetType(typeFullName);
+
+            MethodInfo? methodInfo = type?.GetMethod("Nodes", flags);
+
+            object? instance = Activator.CreateInstance(type);
+
+            if (instance is null)
+                return false;
+
+            if (methodInfo is null || methodInfo.ReturnType != typeof(Node[]))
+                return false;
+
+            nodes = methodInfo?.Invoke(instance, null) as Node[];
+
+            return true;
+        }
+
+        /// <summary>
+        /// TransformationTree为Lib用于储存变身菜单界面数据的数据结构
+        /// 其中Nodes()包含形态解锁条件等，因此专门处理该方法
+        /// </summary>
+        /// <param name="mod">对应附属模组</param>
+        /// <param name="typeFullName">TransformationTree路径</param>
+        /// <param name="index">>Node的索引</param>
+        /// <param name="newUnlockHint">翻译后的解锁文本</param>
+        /// <returns></returns>
+        public static bool TryModifyNodes(Mod mod, string typeFullName, int index, string newUnlockHint)
+        {
+            Type? type = mod?.Code.GetType(typeFullName);
+
+            MethodInfo? methodInfo = type?.GetMethod("Nodes", flags);
+
+            if (methodInfo is null)
+                return false;
+
+            ILHook hook = new(methodInfo, il =>
+            {
+                ILCursor c = new ILCursor(il);
+                if (!c.TryGotoNext(MoveType.Before, instruction => instruction.MatchRet()))
+                    return;
+                c.EmitDelegate<Func<Node[], Node[]>>(nodes =>
+                    {
+                        TryReplaceUnlockHint(nodes, index, newUnlockHint);
+
+                        return nodes;
+                    });
+                //if (!TryGetNodes(mod, typeFullName, out Node[] modifiedNodes))
+                //    return;
+                //if (!TryReplaceUnlockHint(modifiedNodes, index, newUnlockHint))
+                //    return;
+                //c.Goto(0);
+                //c.EmitDelegate<Func<Node[]>>(() => modifiedNodes);
+                //c.Emit(OpCodes.Ret);
+
+            });
+            ILHooks.Add(hook);
+
+            return true;
+        }
+
+        /// <summary>
+        /// 替换变身菜单，鼠标悬浮图标显示的变身名称以及变身时显示名称
+        /// </summary>
+        /// <param name="mod">对应附属模组</param>
+        /// <param name="typeFullName">变身Buff类全部名/param>
+        /// <param name="buffKeyName">变身Buff内部名</param>
+        /// <param name="newName">翻译后名称</param>
+        /// <returns></returns>
+        public static bool TryModifyFormName(Mod mod, string typeFullName, string buffKeyName, string newName)
+        {
+            if (mod is null)
+                return false;
+
+            Type? type = mod?.Code.GetType(typeFullName + buffKeyName);
+
+            MethodInfo? methodInfo = type?.GetMethod("FormName", flags);
+
+            ILHook hook = new(methodInfo, il =>
+            {
+                ILCursor c = new(il);
+
+                c.Goto(0);
+                c.Emit(OpCodes.Ldstr, newName);
+                c.Emit(OpCodes.Ret);
+            });
+            ILHooks.Add(hook);
+
+            return true;
+        }
+
+        public override void Unload()
+        {
+            foreach (var hook in ILHooks)
+            {
+                hook?.Dispose();
+            }
+            ILHooks.Clear();
+        }
+
     }
 }
