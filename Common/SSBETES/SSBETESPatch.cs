@@ -83,7 +83,6 @@ namespace DragonBall_CN.Common.SSBETES
                 {
                     if (NewUnlockHints.TryGetValue(nodesSEPBSSF[i].BuffKeyName, out string newUnlockHint)) 
                     {
-                        Mod.Logger.Info($"{nodesSEPBSSF[i].BuffKeyName} - {newUnlockHint}");
                         if (ModelHelper.TryModifyNodes(mod, "SSBETES.Assets.BUPPlayer+SEPBSSFPanel", i, newUnlockHint))
                             Mod.Logger.Info("Replace Success");
                     }
@@ -98,7 +97,6 @@ namespace DragonBall_CN.Common.SSBETES
                 {
                     if (NewUnlockHints.TryGetValue(nodesFSSJ[i].BuffKeyName, out string newUnlockHint))
                     {
-                        Mod.Logger.Info($"{nodesFSSJ[i].BuffKeyName} - {newUnlockHint}");
                         if (ModelHelper.TryModifyNodes(mod, "SSBETES.Assets.BUPPlayer+FSSJPanel", i, newUnlockHint))
                             Mod.Logger.Info("Replace Success");
                     }
