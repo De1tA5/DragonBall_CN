@@ -1,0 +1,332 @@
+Transformations: {
+	BeastBuff: {
+		AuraData: {
+			1: {
+				// OldString: DBZMODPORT/Effects/Animations/Aura/BaseAura
+				// NewString: DBZMODPORT/Effects/Animations/Aura/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				// OldString: 野兽
+				// NewString: 野兽
+			}
+
+			2: {
+				// OldString: Beast
+				// NewString: Beast
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: GohanForms/Assets/BeastHair
+				// NewString: GohanForms/Assets/BeastHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/Awakening
+				// NewString: DBZMODPORT/Sounds/Awakening
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSG
+				// NewString: DBZMODPORT/Sounds/SSG
+			}
+		}
+	}
+
+	MysticBuff: {
+		AuraData: {
+			1: {
+				// OldString: DBZModPort/Effects/Animations/Aura/BaseAura
+				// NewString: DBZModPort/Effects/Animations/Aura/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				// OldString: 究极
+				// NewString: 究极
+			}
+
+			2: {
+				// OldString: Ultimate
+				// NewString: Ultimate
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+	}
+}
+
+Changes: {
+	Elder: {
+		SetNPCNameList: {
+			1: {
+				// OldString: Kai
+				// NewString: Kai
+			}
+		}
+
+		SetChatButtons: {
+			1: {
+				// OldString: Potential Unleash
+				NewString: 潜能解放
+			}
+		}
+
+		OnChatButtonClicked: {
+			1: {
+				// OldString: GohanForms
+				// NewString: GohanForms
+			}
+
+			2: {
+				// OldString: You have ritual buff, after 4 minutes your potential will be unleashed
+				NewString: 你已获得潜能解放仪式，4分钟后你的潜能就将得到解放
+			}
+
+			3: {
+				// OldString: You have already reached your maximum
+				NewString: 你已经达到你的极限了
+			}
+
+			4: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+
+			5: {
+				// OldString: Gifted warriors like you dont need such a form
+				NewString: 像你这样的有天赋的战士，不需要这种形态
+			}
+		}
+
+		GetChat: {
+			1: {
+				// OldString: Don't ask me how I ended up in this sword
+				NewString: 别问我为什么会被困在这把剑中
+			}
+
+			2: {
+				// OldString: Don't you have any magazines with you?
+				NewString: 你身上没有带任何一本杂志吗？
+			}
+
+			3: {
+				// OldString: Do you want me to unleash your potential?
+				NewString: 你想让我帮你解放你的潜能吗？
+			}
+		}
+	}
+}
+
+Assets: {
+	CanKaiSpawn: {
+		SaveWorldData: {
+			1: {
+				// OldString: Zsword
+				// NewString: Zsword
+			}
+
+			2: {
+				// OldString: downedFlags
+				// NewString: downedFlags
+			}
+		}
+
+		LoadWorldData: {
+			1: {
+				// OldString: downedFlags
+				// NewString: downedFlags
+			}
+
+			2: {
+				// OldString: Zsword
+				// NewString: Zsword
+			}
+		}
+	}
+
+	GOHPlayer: {
+		PostUpdate: {
+			1: {
+				// OldString: Prodigy
+				// NewString: Prodigy
+			}
+
+			2: {
+				// OldString: BeastBuff
+				// NewString: BeastBuff
+			}
+
+			3: {
+				// OldString: Your potential has been unleashed!
+				NewString: 你的潜能已被解放？
+			}
+
+			4: {
+				// OldString: You have come even further beyond.
+				NewString: 你已远超越极限
+			}
+		}
+
+		SaveData: {
+			1: {
+				// OldString: GohanForms_SwordBroke
+				// NewString: GohanForms_SwordBroke
+			}
+
+			2: {
+				// OldString: GohanForms_MysticAchieved
+				// NewString: GohanForms_MysticAchieved
+			}
+
+			3: {
+				// OldString: GohanForms_MysticUnlockMsg
+				// NewString: GohanForms_MysticUnlockMsg
+			}
+
+			4: {
+				// OldString: GohanForms_BeastAchieved
+				// NewString: GohanForms_BeastAchieved
+			}
+
+			5: {
+				// OldString: GohanForms_BeastUnlockMsg
+				// NewString: GohanForms_BeastUnlockMsg
+			}
+		}
+
+		LoadData: {
+			1: {
+				// OldString: GohanForms_SwordBroke
+				// NewString: GohanForms_SwordBroke
+			}
+
+			2: {
+				// OldString: GohanForms_MysticAchieved
+				// NewString: GohanForms_MysticAchieved
+			}
+
+			3: {
+				// OldString: GohanForms_MysticUnlockMsg
+				// NewString: GohanForms_MysticUnlockMsg
+			}
+
+			4: {
+				// OldString: GohanForms_BeastAchieved
+				// NewString: GohanForms_BeastAchieved
+			}
+
+			5: {
+				// OldString: GohanForms_BeastUnlockMsg
+				// NewString: GohanForms_BeastUnlockMsg
+			}
+		}
+
+		ProcessTriggers: {
+			1: {
+				// OldString: Prodigy
+				// NewString: Prodigy
+			}
+
+			2: {
+				// OldString: BeastBuff
+				// NewString: BeastBuff
+			}
+		}
+	}
+
+	Lightning: {
+		Draw: {
+			1: {
+				// OldString: GohanForms/Assets/LightningPurple
+				// NewString: GohanForms/Assets/LightningPurple
+			}
+		}
+	}
+
+	GOHPlayer+BSSFPanel: {
+		Name: {
+			1: {
+				// OldString: Gohan Forms
+				// NewString: Gohan Forms
+			}
+		}
+
+		Nodes: {
+			1: {
+				// OldString: MysticBuff
+				// NewString: MysticBuff
+			}
+
+			2: {
+				// OldString: GohanForms/Transformations/MysticBuff
+				// NewString: GohanForms/Transformations/MysticBuff
+			}
+
+			3: {
+				// OldString: Hit Golem with Z Sword and talk to Kai
+				// NewString: Hit Golem with Z Sword and talk to Kai
+			}
+
+			4: {
+				// OldString: BeastBuff
+				// NewString: BeastBuff
+			}
+
+			5: {
+				// OldString: GohanForms/Transformations/BeastBuff
+				// NewString: GohanForms/Transformations/BeastBuff
+			}
+
+			6: {
+				// OldString: MoonLord with half mastered Potential Unleashed (Only for Prodigy)
+				// NewString: MoonLord with half mastered Potential Unleashed (Only for Prodigy)
+			}
+		}
+
+		UnlockConditionMystic: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+
+		DiscoverConditionMystic: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+
+		UnlockConditionBeast: {
+			1: {
+				// OldString: Prodigy
+				// NewString: Prodigy
+			}
+		}
+
+		DiscoverConditionBeast: {
+			1: {
+				// OldString: Prodigy
+				// NewString: Prodigy
+			}
+		}
+	}
+}

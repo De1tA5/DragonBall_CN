@@ -1,0 +1,115 @@
+Buffs: {
+	BeastBuff: {
+		DisplayName: 野兽
+		Description: y
+	}
+
+	CKBuff: {
+		DisplayName: C K Buff
+		Description: Mods.GohanForms.Buffs.CKBuff.Description
+	}
+
+	EDBuff: {
+		DisplayName: 潜能解放仪式
+		Description:
+			''' 
+			你的力量开始不断增强
+			增加25%伤害
+			乘算1.12倍伤害
+			增加5点防御
+			降低40%移动速度
+			'''
+	}
+
+	MysticBuff: {
+		DisplayName: 潜能解放
+		Description: y
+	}
+
+	POTUNLBuff: {
+		DisplayName: Potential Unlocked
+		Description: y
+	}
+}
+
+Items: {
+	BeastItem: {
+		DisplayName: 野兽解锁物品
+		Tooltip: 解锁野兽形态
+	}
+
+	DivineWater: {
+		DisplayName: Divine Water
+		Tooltip: ""
+	}
+
+	GohanHat: {
+		DisplayName: Gohan Hat
+		Tooltip: ""
+	}
+
+	MysticItem: {
+		DisplayName: 潜能解放解锁物品
+		Tooltip: 解锁潜能解放形态
+	}
+
+	POTUNLItem: {
+		DisplayName: Potential Unlock Item
+		Tooltip: Breaks the game
+	}
+
+	ZSword: {
+		DisplayName: Z神剑
+		Tooltip:
+			'''
+			用其攻击石巨人将变成英雄断剑
+			同时释放老界王神
+			'''
+	}
+
+	ZStone: {
+		DisplayName: 石中Z神剑
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	Elder: {
+		DisplayName: 老界王神
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+			LikeBiome: I like {BiomeName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeNPC: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+		}
+
+		Census.SpawnCondition: Conditions unknown
+	}
+}
+
+Configs: {
+	BalanceConfigServer: {
+		DisplayName: 服务器平衡设置
+
+		SSJTweaks: {
+			Label: 属性平衡（需要重新加载）
+			Tooltip:
+				''' 
+				启用后，降低究极和野兽形态伤害、防御力和移动速度
+				以及野兽形态下长按 [集气] 键伤害增幅
+				'''
+		}
+	}
+}
+
+"Keybinds.Power Up (GohanForms Addon).DisplayName": Power Up (Gohan Forms Addon)
+WorldGen.GohanWorldGenMessage: Mods.GohanForms.WorldGen.GohanWorldGenMessage

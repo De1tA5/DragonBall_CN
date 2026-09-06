@@ -1,0 +1,100 @@
+Buffs: {
+	BeastBuff: {
+		DisplayName: Beast
+		Description: y
+	}
+
+	CKBuff: {
+		DisplayName: C K Buff
+		Description: Mods.GohanForms.Buffs.CKBuff.Description
+	}
+
+	EDBuff: {
+		DisplayName: Potential Release Ritual
+		Description: Your power is starting to increase
+	}
+
+	MysticBuff: {
+		DisplayName: Potential Unleashed
+		Description: y
+	}
+
+	POTUNLBuff: {
+		DisplayName: Potential Unlocked
+		Description: y
+	}
+}
+
+Items: {
+	BeastItem: {
+		DisplayName: Beast Item
+		Tooltip: ""
+	}
+
+	DivineWater: {
+		DisplayName: Divine Water
+		Tooltip: ""
+	}
+
+	GohanHat: {
+		DisplayName: Gohan Hat
+		Tooltip: ""
+	}
+
+	MysticItem: {
+		DisplayName: Potential Unleashed Item
+		Tooltip: ""
+	}
+
+	POTUNLItem: {
+		DisplayName: Potential Unlock Item
+		Tooltip: Breaks the game
+	}
+
+	ZSword: {
+		DisplayName: Z Sword
+		Tooltip: ""
+	}
+
+	ZStone: {
+		DisplayName: Z Stone
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	Elder: {
+		DisplayName: Elder
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+			LikeBiome: I like {BiomeName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeNPC: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+		}
+
+		Census.SpawnCondition: Conditions unknown
+	}
+}
+
+Configs: {
+	BalanceConfigServer: {
+		DisplayName: Balance Config Server
+
+		SSJTweaks: {
+			Label: Rebalanced Stats (Mod Reload Required)
+			Tooltip: Self explanatory
+		}
+	}
+}
+
+"Keybinds.Power Up (GohanForms Addon).DisplayName": Power Up (Gohan Forms Addon)
+WorldGen.GohanWorldGenMessage: Mods.GohanForms.WorldGen.GohanWorldGenMessage
