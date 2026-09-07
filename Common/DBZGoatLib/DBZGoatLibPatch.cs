@@ -36,6 +36,9 @@ namespace DragonBall_CN.Common.DBZGoatLib
 
         public override void Load()
         {
+            if (!ModLoader.HasMod(dragonBallLib))
+                return;
+
             //菜单形态+变身文字汉化
             Defaults.FormNames = new()
             {

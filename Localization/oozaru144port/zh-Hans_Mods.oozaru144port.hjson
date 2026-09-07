@@ -1,0 +1,85 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	SSJ4FPItem: {
+		DisplayName: 全功率
+		Tooltip: 解锁超级赛亚人4全功率
+	}
+
+	SSJ4Item: {
+		DisplayName: 原始之气
+		Tooltip: 解锁超级赛亚人4
+	}
+
+	SSJ4LBItem: {
+		DisplayName: 极限突破
+		Tooltip: 解锁超级赛亚人4极限突破
+	}
+
+	SSJ4Fur: {
+		DisplayName: 超级赛亚人4毛发
+		Tooltip: ""
+	}
+
+	SSJ5Fur: {
+		DisplayName: 超级赛亚人5毛发
+		Tooltip: "[C/959595:译者补充：该物品配方已由汉化合集补充]"
+	}
+
+	LSSJ4Item: {
+		DisplayName: 传说超级赛亚人4解锁物品
+		Tooltip: 解锁传说超级赛亚人4
+	}
+
+	SSJ5FPItem: {
+		DisplayName: 超级赛亚人5全功率解锁物品
+		Tooltip: 解锁超级赛亚人5全功率
+	}
+
+	SSJ5Item: {
+		DisplayName: 超级赛亚人5解锁物品
+		Tooltip: 解锁超级赛亚人5
+	}
+}
+
+Buffs: {
+	Cooldown: {
+		DisplayName: 冷却
+		Description: Mods.oozaru144port.Buffs.Cooldown.Description
+	}
+
+	LSSJ4Buff: {
+		DisplayName: 传说超级赛亚人4
+		Description: Mods.oozaru144port.Buffs.LSSJ4Buff.Description
+	}
+
+	SSJ4Buff: {
+		DisplayName: 超级赛亚人4
+		Description: Mods.oozaru144port.Buffs.SSJ4Buff.Description
+	}
+
+	SSJ4FPBuff: {
+		DisplayName: 超级赛亚人4全功率
+		Description: Mods.oozaru144port.Buffs.SSJ4FPBuff.Description
+	}
+
+	SSJ4LBBuff: {
+		DisplayName: 超级赛亚人4极限突破
+		Description: Mods.oozaru144port.Buffs.SSJ4LBBuff.Description
+	}
+
+	SSJ5Buff: {
+		DisplayName: 超级赛亚人5
+		Description: Mods.oozaru144port.Buffs.SSJ5Buff.Description
+	}
+
+	SSJ5FPBuff: {
+		DisplayName: 超级赛亚人5全功率
+		Description: Mods.oozaru144port.Buffs.SSJ5FPBuff.Description
+	}
+
+	LSSJ4LBBuff: {
+		DisplayName: 传说超级赛亚人4极限突破
+		Description: Mods.oozaru144port.Buffs.LSSJ4LBBuff.Description
+	}
+}

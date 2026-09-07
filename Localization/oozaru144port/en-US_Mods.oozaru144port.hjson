@@ -1,0 +1,85 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	SSJ4FPItem: {
+		DisplayName: Full Power
+		Tooltip: Unlocks SSJ4 Full Power
+	}
+
+	SSJ4Item: {
+		DisplayName: Primal Ki
+		Tooltip: Unlocks SSJ4
+	}
+
+	SSJ4LBItem: {
+		DisplayName: Limit Breaker
+		Tooltip: Unlocks SSJ4 Limit Breaker
+	}
+
+	SSJ4Fur: {
+		DisplayName: SSJ4 Fur
+		Tooltip: ""
+	}
+
+	SSJ5Fur: {
+		DisplayName: SSJ5 Fur
+		Tooltip: ""
+	}
+
+	LSSJ4Item: {
+		DisplayName: LSSJ4 Unlock Item
+		Tooltip: ""
+	}
+
+	SSJ5FPItem: {
+		DisplayName: SSJ5FP Unlock Item
+		Tooltip: ""
+	}
+
+	SSJ5Item: {
+		DisplayName: SSJ5 Unlock Item
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	Cooldown: {
+		DisplayName: Cooldown
+		Description: Mods.oozaru144port.Buffs.Cooldown.Description
+	}
+
+	LSSJ4Buff: {
+		DisplayName: Legendary Super Saiyan 4
+		Description: Mods.oozaru144port.Buffs.LSSJ4Buff.Description
+	}
+
+	SSJ4Buff: {
+		DisplayName: Super Saiyan 4
+		Description: Mods.oozaru144port.Buffs.SSJ4Buff.Description
+	}
+
+	SSJ4FPBuff: {
+		DisplayName: Super Saiyan 4 Full Power
+		Description: Mods.oozaru144port.Buffs.SSJ4FPBuff.Description
+	}
+
+	SSJ4LBBuff: {
+		DisplayName: Super Saiyan 4 Limit Breaker
+		Description: Mods.oozaru144port.Buffs.SSJ4LBBuff.Description
+	}
+
+	SSJ5Buff: {
+		DisplayName: Super Saiyan 5
+		Description: Mods.oozaru144port.Buffs.SSJ5Buff.Description
+	}
+
+	SSJ5FPBuff: {
+		DisplayName: Super Saiyan 5 Full Power
+		Description: Mods.oozaru144port.Buffs.SSJ5FPBuff.Description
+	}
+
+	LSSJ4LBBuff: {
+		DisplayName: Legendary Super Saiyan 4 Limit Breaker
+		Description: Mods.oozaru144port.Buffs.LSSJ4LBBuff.Description
+	}
+}

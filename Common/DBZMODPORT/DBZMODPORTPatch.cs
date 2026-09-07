@@ -7,7 +7,7 @@ namespace DragonBall_CN.Common.DBZMODPORT
 {
     public class DBZMODPORTPatch:ModSystem
     {
-        private readonly string dragonBall = "DBZMODPORT";
+        private static readonly string dragonBall = "DBZMODPORT";
         
         public override void Load()
         {

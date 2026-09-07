@@ -1,0 +1,691 @@
+Transformations: {
+	LSSJ4Buff: {
+		CanTransform: {
+			1: {
+				OldString: Legendary
+				NewString: Legendary
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: 传说超级赛亚人4
+				NewString: 传说超级赛亚人4
+			}
+
+			2: {
+				OldString: Legendary Super Saiyan 4
+				NewString: Legendary Super Saiyan 4
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ3
+				NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				OldString: oozaru144port/Assets/LSSJ4Aura
+				NewString: oozaru144port/Assets/LSSJ4Aura
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: oozaru144port/Assets/LSSJ4Hair
+				NewString: oozaru144port/Assets/LSSJ4Hair
+			}
+		}
+	}
+
+	LSSJ4LBBuff: {
+		CanTransform: {
+			1: {
+				OldString: Legendary
+				NewString: Legendary
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Legendary Super Saiyan 4 Limit Breaker
+				NewString: Legendary Super Saiyan 4 Limit Breaker
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ3
+				NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				OldString: oozaru144port/Assets/LSSJ4Aura
+				NewString: oozaru144port/Assets/LSSJ4Aura
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: oozaru144port/Assets/LSSJ4LBHair
+				NewString: oozaru144port/Assets/LSSJ4LBHair
+			}
+		}
+	}
+
+	SSJ4Buff: {
+		AuraData: {
+			1: {
+				OldString: oozaru144port/Assets/BaseAura
+				NewString: oozaru144port/Assets/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: 超级赛亚人4
+				NewString: 超级赛亚人4
+			}
+
+			2: {
+				OldString: Super Saiyan 4
+				NewString: Super Saiyan 4
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: oozaru144port/Assets/SSJ4Hair
+				NewString: oozaru144port/Assets/SSJ4Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ3
+				NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+	}
+
+	SSJ4FPBuff: {
+		AuraData: {
+			1: {
+				OldString: oozaru144port/Assets/BaseAura
+				NewString: oozaru144port/Assets/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: 超级赛亚人4全功率
+				NewString: 超级赛亚人4全功率
+			}
+
+			2: {
+				OldString: Super Saiyan 4 Full Power
+				NewString: Super Saiyan 4 Full Power
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: oozaru144port/Assets/SSJ4FPHair
+				NewString: oozaru144port/Assets/SSJ4FPHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ3
+				NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+	}
+
+	SSJ4LBBuff: {
+		AuraData: {
+			1: {
+				OldString: oozaru144port/Assets/BaseAura
+				NewString: oozaru144port/Assets/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: 超级赛亚人4极限突破
+				NewString: 超级赛亚人4极限突破
+			}
+
+			2: {
+				OldString: Super Saiyan 4 Limit Breaker
+				NewString: Super Saiyan 4 Limit Breaker
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: oozaru144port/Assets/SSJ4LBH
+				NewString: oozaru144port/Assets/SSJ4LBH
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSB
+				NewString: DBZMODPORT/Sounds/SSB
+			}
+		}
+	}
+
+	SSJ5Buff: {
+		AuraData: {
+			1: {
+				OldString: oozaru144port/Assets/SSJ5AURA
+				NewString: oozaru144port/Assets/SSJ5AURA
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: 超级赛亚人5
+				NewString: 超级赛亚人5
+			}
+
+			2: {
+				OldString: Super Sayian 5
+				NewString: Super Sayian 5
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: oozaru144port/Assets/SSJ5HAIR
+				NewString: oozaru144port/Assets/SSJ5HAIR
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ3
+				NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+	}
+
+	SSJ5FPBuff: {
+		AuraData: {
+			1: {
+				OldString: oozaru144port/Assets/SSJ5FPAURA
+				NewString: oozaru144port/Assets/SSJ5FPAURA
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: 超级赛亚人5全功率
+				NewString: 超级赛亚人5全功率
+			}
+
+			2: {
+				OldString: SSJ5 Full Power
+				NewString: SSJ5 Full Power
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: oozaru144port/Assets/SSJ5HAIR
+				NewString: oozaru144port/Assets/SSJ5HAIR
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ3
+				NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+	}
+}
+
+Assets: {
+	OPlayer: {
+		PostUpdate: {
+			1: {
+				OldString: SSJ4Buff
+				NewString: SSJ4Buff
+			}
+
+			2: {
+				OldString: SSJ4FPBuff
+				NewString: SSJ4FPBuff
+			}
+
+			3: {
+				OldString: SSJ4LBBuff
+				NewString: SSJ4LBBuff
+			}
+
+			4: {
+				OldString: Legendary
+				NewString: Legendary
+			}
+
+			5: {
+				OldString: LSSJ4Buff
+				NewString: LSSJ4Buff
+			}
+
+			6: {
+				OldString: You have gone once again, one step beyond.
+				NewString: You have gone once again, one step beyond.
+			}
+
+			7: {
+				OldString: Use your full power to blow them away.
+				NewString: Use your full power to blow them away.
+			}
+
+			8: {
+				OldString: The primal rage awakes inside you!
+				NewString: The primal rage awakes inside you!
+			}
+
+			9: {
+				OldString: Your limits are broken once again!
+				NewString: Your limits are broken once again!
+			}
+
+			10: {
+				OldString: Limit Break X Survior is such a banger, honestly kinda tempted to make the aura sound the song.
+				NewString: Limit Break X Survior is such a banger, honestly kinda tempted to make the aura sound the song.
+			}
+
+			11: {
+				OldString: Your power quakes across the land!
+				NewString: Your power quakes across the land!
+			}
+
+			12: {
+				OldString: Young Jijii would be proud! Now, show them what you're made of!!
+				NewString: Young Jijii would be proud! Now, show them what you're made of!!
+			}
+
+			13: {
+				OldString: LSSJ4LBBuff
+				NewString: LSSJ4LBBuff
+			}
+
+			14: {
+				OldString: Primal
+				NewString: Primal
+			}
+		}
+
+		SaveData: {
+			1: {
+				OldString: oozaru144port_SSJ4Achieved
+				NewString: oozaru144port_SSJ4Achieved
+			}
+
+			2: {
+				OldString: oozaru144port_SSJ4UnlockMsg
+				NewString: oozaru144port_SSJ4UnlockMsg
+			}
+
+			3: {
+				OldString: oozaru144port_SSJ4FPAchieved
+				NewString: oozaru144port_SSJ4FPAchieved
+			}
+
+			4: {
+				OldString: oozaru144port_SSJ4FPUnlockMsg
+				NewString: oozaru144port_SSJ4FPUnlockMsg
+			}
+
+			5: {
+				OldString: oozaru144port_SSJ4LBAchieved
+				NewString: oozaru144port_SSJ4LBAchieved
+			}
+
+			6: {
+				OldString: oozaru144port_SSJ4LBUnlockMsg
+				NewString: oozaru144port_SSJ4LBUnlockMsg
+			}
+
+			7: {
+				OldString: oozaru144port_SSJ5Achieved
+				NewString: oozaru144port_SSJ5Achieved
+			}
+
+			8: {
+				OldString: oozaru144port_SSJ5UnlockMsg
+				NewString: oozaru144port_SSJ5UnlockMsg
+			}
+
+			9: {
+				OldString: oozaru144port_SSJ5FPAchieved
+				NewString: oozaru144port_SSJ5FPAchieved
+			}
+
+			10: {
+				OldString: oozaru144port_SSJ5FPUnlockMsg
+				NewString: oozaru144port_SSJ5FPUnlockMsg
+			}
+
+			11: {
+				OldString: oozaru144port_LSSJ4Achieved
+				NewString: oozaru144port_LSSJ4Achieved
+			}
+
+			12: {
+				OldString: oozaru144port_LSSJ4UnlockMsg
+				NewString: oozaru144port_LSSJ4UnlockMsg
+			}
+
+			13: {
+				OldString: oozaru144port_LSSJ4LBAchieved
+				NewString: oozaru144port_LSSJ4LBAchieved
+			}
+
+			14: {
+				OldString: oozaru144port_LSSJ4LBUnlockMsg
+				NewString: oozaru144port_LSSJ4LBUnlockMsg
+			}
+		}
+
+		LoadData: {
+			1: {
+				OldString: oozaru144port_SSJ4Achieved
+				NewString: oozaru144port_SSJ4Achieved
+			}
+
+			2: {
+				OldString: oozaru144port_SSJ4UnlockMsg
+				NewString: oozaru144port_SSJ4UnlockMsg
+			}
+
+			3: {
+				OldString: oozaru144port_SSJ4FPAchieved
+				NewString: oozaru144port_SSJ4FPAchieved
+			}
+
+			4: {
+				OldString: oozaru144port_SSJ4FPUnlockMsg
+				NewString: oozaru144port_SSJ4FPUnlockMsg
+			}
+
+			5: {
+				OldString: oozaru144port_SSJ4LBAchieved
+				NewString: oozaru144port_SSJ4LBAchieved
+			}
+
+			6: {
+				OldString: oozaru144port_SSJ4LBUnlockMsg
+				NewString: oozaru144port_SSJ4LBUnlockMsg
+			}
+
+			7: {
+				OldString: oozaru144port_SJS4LBUnlockMsg
+				NewString: oozaru144port_SJS4LBUnlockMsg
+			}
+
+			8: {
+				OldString: oozaru144port_SSJ5Achieved
+				NewString: oozaru144port_SSJ5Achieved
+			}
+
+			9: {
+				OldString: oozaru144port_SSJ5UnlockMsg
+				NewString: oozaru144port_SSJ5UnlockMsg
+			}
+
+			10: {
+				OldString: oozaru144port_SSJ5FPAchieved
+				NewString: oozaru144port_SSJ5FPAchieved
+			}
+
+			11: {
+				OldString: oozaru144port_SSJ5FPUnlockMsg
+				NewString: oozaru144port_SSJ5FPUnlockMsg
+			}
+
+			12: {
+				OldString: oozaru144port_LSSJ4Achieved
+				NewString: oozaru144port_LSSJ4Achieved
+			}
+
+			13: {
+				OldString: oozaru144port_LSSJ4UnlockMsg
+				NewString: oozaru144port_LSSJ4UnlockMsg
+			}
+
+			14: {
+				OldString: oozaru144port_LSSJ4LBAchieved
+				NewString: oozaru144port_LSSJ4LBAchieved
+			}
+
+			15: {
+				OldString: oozaru144port_LSSJ4LBUnlockMsg
+				NewString: oozaru144port_LSSJ4LBUnlockMsg
+			}
+		}
+
+		PreKill: {
+			1: {
+				OldString: SSJ5Buff
+				NewString: SSJ5Buff
+			}
+
+			2: {
+				OldString: SSJ5FPBuff
+				NewString: SSJ5FPBuff
+			}
+		}
+
+		IsPrimal: {
+			1: {
+				OldString: TraitsPlus
+				NewString: TraitsPlus
+			}
+
+			2: {
+				OldString: Primal
+				NewString: Primal
+			}
+		}
+
+		ProcessTriggers: {
+			1: {
+				OldString: SSJ4Buff
+				NewString: SSJ4Buff
+			}
+
+			2: {
+				OldString: LSSJ4Buff
+				NewString: LSSJ4Buff
+			}
+
+			3: {
+				OldString: SSJ4FPBuff
+				NewString: SSJ4FPBuff
+			}
+
+			4: {
+				OldString: SSJ4LBBuff
+				NewString: SSJ4LBBuff
+			}
+
+			5: {
+				OldString: SSJ5Buff
+				NewString: SSJ5Buff
+			}
+
+			6: {
+				OldString: SSJ5FPBuff
+				NewString: SSJ5FPBuff
+			}
+
+			7: {
+				OldString: LSSJ4LBBuff
+				NewString: LSSJ4LBBuff
+			}
+		}
+	}
+
+	OPlayer+SSJ4Panel: {
+		Name: {
+			1: {
+				OldString: Join the Discord!
+				NewString: Join the Discord!
+			}
+		}
+
+		Nodes: {
+			1: {
+				OldString: SSJ4Buff
+				NewString: SSJ4Buff
+			}
+
+			2: {
+				OldString: oozaru144port/Transformations/SSJ4Buff
+				NewString: oozaru144port/Transformations/SSJ4Buff
+			}
+
+			3: {
+				OldString: A cultist will push you to your limts, it is up to you to break them.
+				NewString: A cultist will push you to your limts, it is up to you to break them.
+			}
+
+			4: {
+				OldString: SSJ4FPBuff
+				NewString: SSJ4FPBuff
+			}
+
+			5: {
+				OldString: oozaru144port/Transformations/SSJ4FPBuff
+				NewString: oozaru144port/Transformations/SSJ4FPBuff
+			}
+
+			6: {
+				OldString: A pillar from the sun will grant you your full power.
+				NewString: A pillar from the sun will grant you your full power.
+			}
+
+			7: {
+				OldString: SSJ4LBBuff
+				NewString: SSJ4LBBuff
+			}
+
+			8: {
+				OldString: oozaru144port/Transformations/SSJ4LBBuff
+				NewString: oozaru144port/Transformations/SSJ4LBBuff
+			}
+
+			9: {
+				OldString: The lord of moons awaits
+				NewString: The lord of moons awaits
+			}
+
+			10: {
+				OldString: SSJ5Buff
+				NewString: SSJ5Buff
+			}
+
+			11: {
+				OldString: oozaru144port/Transformations/SSJ5Buff
+				NewString: oozaru144port/Transformations/SSJ5Buff
+			}
+
+			12: {
+				OldString: Dying in SSJ4LB will have a 20% chance to unlock this form
+				NewString: Dying in SSJ4LB will have a 20% chance to unlock this form
+			}
+
+			13: {
+				OldString: SSJ5FPBuff
+				NewString: SSJ5FPBuff
+			}
+
+			14: {
+				OldString: oozaru144port/Transformations/SSJ5FPBuff
+				NewString: oozaru144port/Transformations/SSJ5FPBuff
+			}
+
+			15: {
+				OldString: Dying in SSJ5 will unlock this with a 20 percent chance
+				NewString: Dying in SSJ5 will unlock this with a 20 percent chance
+			}
+
+			16: {
+				OldString: LSSJ4Buff
+				NewString: LSSJ4Buff
+			}
+
+			17: {
+				OldString: oozaru144port/Transformations/LSSJ4Buff
+				NewString: oozaru144port/Transformations/LSSJ4Buff
+			}
+
+			18: {
+				OldString: Only defeating a foe of cosmic proportions can unlock this power.
+				NewString: Only defeating a foe of cosmic proportions can unlock this power.
+			}
+		}
+
+		UnlockConditionLSSJ4: {
+			1: {
+				OldString: Legendary
+				NewString: Legendary
+			}
+		}
+
+		DiscoverConditionLSSJ4: {
+			1: {
+				OldString: Legendary
+				NewString: Legendary
+			}
+		}
+	}
+}
