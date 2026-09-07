@@ -373,7 +373,7 @@ GPlayer: {
 
 		2: {
 			// OldString: .
-			// NewString: .
+			NewString: ""
 		}
 
 		3: {
