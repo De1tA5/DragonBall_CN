@@ -1,12 +1,17 @@
-﻿using DBZGoatLib.Model;
+﻿using DBZGoatLib.Handlers;
+using DBZGoatLib.Model;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
+using Terraria;
+using Terraria.IO;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
+using static Terraria.ModLoader.PlayerDrawLayer;
 
 namespace DragonBall_CN.Common.DBZGoatLib
 {
@@ -151,7 +156,7 @@ namespace DragonBall_CN.Common.DBZGoatLib
 
             ILHook hook = new(methodInfo, il =>
             {
-                ILCursor c = new ILCursor(il);
+                ILCursor c = new (il);
                 if (!c.TryGotoNext(MoveType.Before, instruction => instruction.MatchRet()))
                     return;
                 c.EmitDelegate<Func<Node[], Node[]>>(nodes =>
@@ -202,6 +207,43 @@ namespace DragonBall_CN.Common.DBZGoatLib
             ILHooks.Add(hook);
 
             return true;
+        }
+
+        /// <summary>
+        /// 移除对应模组的变身树
+        /// </summary>
+        /// <param name="panelName">对应变身树/param>
+        /// <returns></returns>
+        public static bool TryRemovePanel(Mod mod, string panelName)
+        {
+            if (UIHandler.Panels.Exists((TransformationPanel panel) => panel.Name == panelName)) 
+            {
+                TransformationPanel panel = UIHandler.Panels.First((TransformationPanel panel) => panel.Name == panelName);
+                UIHandler.UnregisterPanel(panel);
+                return true;
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// 移除对应模组的变身Buff
+        /// </summary>
+        /// <param name="mod">模组名称</param>
+        /// <param name="buffName"></param>
+        /// <returns></returns>
+        public static bool TryRemoveTransformationBuff(Mod mod, string buffName)
+        {
+            if (!mod.TryFind<ModBuff>(buffName, out ModBuff buff))
+                return false;
+
+            int buffID = buff.Type;
+            
+            int index = TransformationHandler.Transformations.FindIndex((TransformationInfo buffInfo) => buffInfo.buffKeyName == buffName && buffInfo.buffID == buffID);
+            if (index > -1)
+                TransformationHandler.Transformations.RemoveAt(index);
+            return true;
+           
         }
 
         public override void Unload()
