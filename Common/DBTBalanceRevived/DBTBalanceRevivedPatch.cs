@@ -44,7 +44,7 @@ namespace DragonBall_CN.Common.DBTBalanceRevived
             //开启Oozaru，将禁用DBTrebalance的传说超级赛亚人4的变身树
             if (DBCPatchConfig.Instance.HideDBTBalanceTransformationTree)
             {
-                if (ModelHelper.TryRemovePanel(mod,"LSSJ Partial Tree")) 
+                if (ModelHelper.TryRemovePanel("LSSJ Partial Tree")) 
                 {
                     Mod.Logger.Info("Remove Panel Succes");
                 }
