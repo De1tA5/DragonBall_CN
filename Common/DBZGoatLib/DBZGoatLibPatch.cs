@@ -214,15 +214,14 @@ namespace DragonBall_CN.Common.DBZGoatLib
         /// </summary>
         /// <param name="panelName">对应变身树/param>
         /// <returns></returns>
-        public static bool TryRemovePanel(Mod mod, string panelName)
+        public static bool TryRemovePanel(string panelName)
         {
-            if (UIHandler.Panels.Exists((TransformationPanel panel) => panel.Name == panelName)) 
+            int index = UIHandler.Panels.FindIndex((TransformationPanel panel) => panel.Name == panelName);
+            if (index > -1) 
             {
-                TransformationPanel panel = UIHandler.Panels.First((TransformationPanel panel) => panel.Name == panelName);
-                UIHandler.UnregisterPanel(panel);
+                UIHandler.Panels.RemoveAt(index);
                 return true;
             }
-
             return false;
         }
 
@@ -236,14 +235,14 @@ namespace DragonBall_CN.Common.DBZGoatLib
         {
             if (!mod.TryFind<ModBuff>(buffName, out ModBuff buff))
                 return false;
-
-            int buffID = buff.Type;
             
-            int index = TransformationHandler.Transformations.FindIndex((TransformationInfo buffInfo) => buffInfo.buffKeyName == buffName && buffInfo.buffID == buffID);
-            if (index > -1)
+            int index = TransformationHandler.Transformations.FindIndex((TransformationInfo buffInfo) => buffInfo.buffKeyName == buffName && buffInfo.buffID == buff.Type);
+            if (index > -1) 
+            {
                 TransformationHandler.Transformations.RemoveAt(index);
-            return true;
-           
+                return true;
+            }
+            return false; 
         }
 
         public override void Unload()
