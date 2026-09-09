@@ -1,0 +1,10 @@
+Configs: {
+	DBCPatchConfig: {
+		DisplayName: D B C Patch Config
+
+		HideDBTBalanceTransformationTree: {
+			Label: Hide D B T Balance Transformation Tree
+			Tooltip: ""
+		}
+	}
+}

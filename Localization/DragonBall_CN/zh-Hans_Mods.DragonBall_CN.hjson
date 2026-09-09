@@ -1,0 +1,14 @@
+Configs: {
+	DBCPatchConfig: {
+		DisplayName: 汉化补丁额外配置
+
+		HideDBTBalanceTransformationTree: {
+			Label: 移除《Dragon Ball Terraria: Rebalanced: Revived》的传说超级赛亚人4
+			Tooltip:
+				'''
+				如果你同时安装了《Dragon Ball Terraria: Rebalanced: Revived》和《Oozaru》
+				可以启用该选项，从而使用《Oozaru》的传说超级赛亚人4
+				'''
+		}
+	}
+}

@@ -1,0 +1,75 @@
+Buffs: {
+	LSSJ4Buff: {
+		DisplayName: 传说超级赛亚人4
+		Description:
+			'''
+			Ki Damage +380% 
+			Speed +250%
+			Ki Costs +108%
+			Ki Drain: 270/s, 90/s when mastered
+			'''
+	}
+}
+
+Items: {
+	LSSJ4Test: {
+		DisplayName: 传说超级赛亚人4测试物品
+		Tooltip:
+			'''
+			DEBUG物品
+			解锁传说超级赛亚人4
+			'''
+	}
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: 客户端设置
+		Headers.LSSJ4Settings: 传说超级赛亚人4设置
+
+		UseHair: {
+			Label: 将头发/手臂替换为头发
+			Tooltip:
+				'''
+				（未完成）变身传说超级赛亚人4将玩家的胸甲替换为偏红色的毛发
+				[C/FF0000:警告：启用该选项变身会导致游戏崩溃！]
+				'''
+		}
+	}
+
+	BalanceConfigServer: {
+		DisplayName: 服务器设置
+		Headers.ToggleableBalanceAdjustments: 切换平衡调整
+
+		ArmorCrunch: {
+			Label: 盔甲防御削减
+			Tooltip: 将气盔甲的防御加成减半，以适配赛亚人形态的防御加成
+		}
+
+		ChargeRework: {
+			Label: 光束类武器重做
+			Tooltip:
+				'''
+				将气光束类武器的力所需时间固定为3秒
+				更多的蓄力段数依旧会造成更高的伤害
+				'''
+		}
+
+		KiRework: {
+			Label: 回气系统重做
+			Tooltip: 移除所有被动回气效果，并将其转化为集气速度
+		}
+
+		LongerTransform: {
+			Label: 更长的变身时间
+			Tooltip: 使变身为超级赛亚人需要长按 [变身] 键一小段时间
+		}
+
+		SSJTweaks: {
+			Label: 超级赛亚人变身调整 （需要重新加载）
+			Tooltip: 重新平衡变身提供的加成，以减少数值膨胀
+		}
+	}
+}
+
+Misc.LSSJ4Unlocked: 你已释放你真正的潜能，传说超级赛亚人4已达成！

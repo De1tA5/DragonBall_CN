@@ -1,0 +1,137 @@
+Helpers: {
+	BuffHooks: {
+		BuildTooltip_Hook: {
+			1: {
+				OldString:
+					'''
+					(x3)
+
+					'''
+				NewString:
+					'''
+					(x3)
+
+					'''
+			}
+
+			2: {
+				OldString:
+					'''
+					(x4)
+
+					'''
+				NewString:
+					'''
+					(x4)
+
+					'''
+			}
+
+			3: {
+				OldString:
+					'''
+					(x10)
+
+					'''
+				NewString:
+					'''
+					(x10)
+
+					'''
+			}
+
+			4: {
+				OldString:
+					'''
+					(x20)
+
+					'''
+				NewString:
+					'''
+					(x20)
+
+					'''
+			}
+
+			5: {
+				OldString: "Damage "
+				NewString: "Damage "
+			}
+
+			6: {
+				OldString: ""
+				NewString: ""
+			}
+
+			7: {
+				OldString: +
+				NewString: +
+			}
+
+			8: {
+				OldString: P2
+				NewString: P2
+			}
+
+			9: {
+				OldString: "; Speed "
+				NewString: "; Speed "
+			}
+
+			10: {
+				OldString: "Defense "
+				NewString: "Defense "
+			}
+
+			11: {
+				OldString: "; Ki Costs "
+				NewString: "; Ki Costs "
+			}
+
+			12: {
+				OldString: "Ki Drain "
+				NewString: "Ki Drain "
+			}
+
+			13: {
+				OldString: N0
+				NewString: N0
+			}
+
+			14: {
+				OldString: "/s, "
+				NewString: "/s, "
+			}
+
+			15: {
+				OldString: /s when mastered
+				NewString: /s when mastered
+			}
+
+			16: {
+				OldString: Life Drain: -
+				NewString: Life Drain: -
+			}
+
+			17: {
+				OldString: /s.
+				NewString: /s.
+			}
+
+			18: {
+				OldString: SSJRBuff
+				NewString: SSJRBuff
+			}
+
+			19: {
+				OldString: dbzcalamity
+				NewString: dbzcalamity
+			}
+
+			20: {
+				OldString: +20% Dodge Chance (Costs 300 Ki).
+				NewString: +20% Dodge Chance (Costs 300 Ki).
+			}
+		}
+	}
+}

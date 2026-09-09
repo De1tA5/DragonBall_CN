@@ -1,0 +1,71 @@
+Buffs: {
+	LSSJ4Buff: {
+		DisplayName: LSSJ4 Buff
+		Description:
+			'''
+			Ki Damage +380% 
+			Speed +250%
+			Ki Costs +108%
+			Ki Drain: 270/s, 90/s when mastered
+			'''
+	}
+}
+
+Items: {
+	LSSJ4Test: {
+		DisplayName: LSSJ4 Test
+		Tooltip:
+			'''
+			DEBUG ITEM
+			Unlocks Legendary Super Saiyan 4
+			'''
+	}
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: Client Settings
+		Headers.LSSJ4Settings: Legendary Super Saiyan 4 Settings
+
+		UseHair: {
+			Label: Replace Hair/Arm with hair:
+			Tooltip: (Janky) Replace the player's chest piece with red-ish hair.
+		}
+	}
+
+	BalanceConfigServer: {
+		DisplayName: Server Settings
+		Headers.ToggleableBalanceAdjustments: Toggleable Balance Adjustments
+
+		ArmorCrunch: {
+			Label: Armor Defense Cut
+			Tooltip: Halves the defense bonus of Ki-Class armor to accomodate for Saiyan form defense bonuses.
+		}
+
+		ChargeRework: {
+			Label: Beam Weapon Rework
+			Tooltip:
+				'''
+				Changes beam ki weapons to always take 3 seconds to charge.
+				More Charges still mean more damage.
+				'''
+		}
+
+		KiRework: {
+			Label: Ki Rework
+			Tooltip: Removes all passive Ki Regen and turns it into Ki Charge Rate.
+		}
+
+		LongerTransform: {
+			Label: Longer Transformation Times
+			Tooltip: Makes transforming into SSJ forms require holding the button for a small duration.
+		}
+
+		SSJTweaks: {
+			Label: Super Saiyan Transformation Tweaks
+			Tooltip: Rebalances the bonuses granted by transformations to reduce power creep. Reload required.
+		}
+	}
+}
+
+Misc.LSSJ4Unlocked: You have unlocked your true potential. Legendary Super Saiyan 4 has been achieved!

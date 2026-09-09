@@ -1,17 +1,12 @@
 ﻿using DBZGoatLib.Model;
 using DragonBall_CN.Common.DBZGoatLib;
-using JetBrains.Annotations;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
 
 namespace DragonBall_CN.Common.SSBETES
 {
-    public class SSBETESPatch:ModSystem
+    public class SSBETESPatch : ModSystem
     {
         private readonly string blueAddon = "SSBETES";
 
@@ -55,7 +50,7 @@ namespace DragonBall_CN.Common.SSBETES
 
         public override void PostSetupContent()
         {
-            if (ModLoader.HasMod(blueAddon)) 
+            if (ModLoader.HasMod(blueAddon))
             {
                 TigerForceLocalizationHelper.LocalizeAll(Mod.Name, blueAddon, false);
             }
@@ -69,7 +64,7 @@ namespace DragonBall_CN.Common.SSBETES
             //对变身名称的翻译
             foreach (var form in FormNames)
             {
-                if(!ModelHelper.TryModifyFormName(mod, "SSBETES.Buffs.Transformations.", form.Key, form.Value))
+                if (!ModelHelper.TryModifyFormName(mod, "SSBETES.Buffs.Transformations.", form.Key, form.Value))
                     Mod.Logger.Info("Replace FAILED");
             }
 
@@ -77,21 +72,21 @@ namespace DragonBall_CN.Common.SSBETES
             //超蓝附属有2个变身树，一个不包含“拟态超级赛亚人”（SEPBSSF），一个包含(FSSJ)，因此2个均需要进行替换
 
             //无“拟态超级赛亚人”
-            if (ModelHelper.TryGetNodes(mod, "SSBETES.Assets.BUPPlayer+SEPBSSFPanel", out Node[] nodesSEPBSSF)) 
+            if (ModelHelper.TryGetNodes(mod, "SSBETES.Assets.BUPPlayer+SEPBSSFPanel", out Node[] nodesSEPBSSF))
             {
-                for (int i = 0; i < nodesSEPBSSF.Length; i++) 
+                for (int i = 0; i < nodesSEPBSSF.Length; i++)
                 {
-                    if (NewUnlockHints.TryGetValue(nodesSEPBSSF[i].BuffKeyName, out string newUnlockHint)) 
+                    if (NewUnlockHints.TryGetValue(nodesSEPBSSF[i].BuffKeyName, out string newUnlockHint))
                     {
                         if (ModelHelper.TryModifyNodes(mod, "SSBETES.Assets.BUPPlayer+SEPBSSFPanel", i, newUnlockHint))
                             Mod.Logger.Info("Replace Success");
                     }
-                
+
                 }
             }
 
             //有“拟态超级赛亚人”
-            if (ModelHelper.TryGetNodes(mod, "SSBETES.Assets.BUPPlayer+FSSJPanel", out Node[] nodesFSSJ)) 
+            if (ModelHelper.TryGetNodes(mod, "SSBETES.Assets.BUPPlayer+FSSJPanel", out Node[] nodesFSSJ))
             {
                 for (int i = 0; i < nodesFSSJ.Length; i++)
                 {

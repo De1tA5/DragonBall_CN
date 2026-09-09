@@ -7,10 +7,24 @@
 	<PropertyGroup>
 		
 	</PropertyGroup>
+	<ItemGroup>
+	  <Reference Include="DBTBalanceRevived">
+	    <HintPath>lib\DBTBalanceRevived_v1.0.1.1.dll</HintPath>
+	  </Reference>
+	  <Reference Include="dbzcalamity">
+	    <HintPath>lib\dbzcalamity_v1.1.2.5.dll</HintPath>
+	  </Reference>
+	  <Reference Include="DBZGoatLib">
+	    <HintPath>lib\DBZGoatLib_v1.8.0.dll</HintPath>
+	  </Reference>
+	  <Reference Include="DBZMODPORT">
+	    <HintPath>lib\DBZMODPORT_v1.0.0.23.dll</HintPath>
+	  </Reference>
+	  <Reference Include="TigerForceLocalizationLib">
+	    <HintPath>lib\TigerForceLocalizationLib.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
 
 	<!-- References -->
-	<ItemGroup>
-		
-	</ItemGroup>
 
 </Project>
