@@ -1,0 +1,121 @@
+Items: {
+	BlackDiamondShell.Tooltip:
+		'''
+		A jeweled turtle shell that gets the attention of many creatures, for some reason it's unbelievably tough
+		10% increased ki damage, 14% increased ki knockback
+		+200 Max Ki
+		Getting hit restores a small amount of Ki
+		'''
+	BloodstainedBandana.Tooltip:
+		'''
+		'Change the future.'
+		4% Increased Ki damage
+		Thorns effect
+		'''
+	BuldariumSigmite.Tooltip:
+		'''
+		'A fragment of the god of defense's soul.'
+		Charging grants a protective barrier that grants massively increased defense
+		Charging also grants drastically increased life regen
+		+120 ki/sec charge rate
+		'''
+	BurningEnergyAmulet.Tooltip:
+		'''
+		'A glowing amulet that radiates with extreme heat.'
+		+200 Max ki
+		Charging grants a aura of fire around you
+		'''
+	DragonGemNecklace.Tooltip:
+		'''
+		'Infused with the essence of the dragon.'
+		8% increased ki damage
+		9% increased non-ki damage
+		9% increased crit chance
+		Minor life regen
+		9% reduced damage taken
+		+250 max Ki
+		+2 max minions
+		'''
+	EarthenArcanium.Tooltip:
+		'''
+		'A core of the pure energy of the earth.'
+		+60 ki/sec charge rate
+		Reduced flight ki usage
+		+1 Max Charges
+		Increased flight speed
+		The longer you charge the more ki you charge, limits at +500%
+		'''
+	EarthenScarab.Tooltip:
+		'''
+		'The soul of the land seems to give it life.'
+		Increased flight speed
+		The longer you charge the more ki you charge, limits at +500%
+		'''
+	EarthenSigil.Tooltip:
+		'''
+		'The soul of the land lives within.'
+		+60 ki/sec charge rate
+		Reduced flight ki usage
+		+1 Max Charges
+		'''
+	IceTalisman.Tooltip:
+		'''
+		'A frozen talisman that seems to make even your soul cold.'
+		2% Increased Ki damage
+		+120 ki/sec charge rate
+		Charging grants a aura of frostburn around you
+		'''
+	KiChip.Tooltip:
+		'''
+		'A piece of a ki fragment.'
+		+60 ki/sec charge rate
+		'''
+	LuminousSectum.Tooltip:
+		'''
+		'It radiates with unstable energy.'
+		4% increased ki damage
+		+250 max ki
+		Hitting enemies has a small chance to fire off homing ki sparks.
+		'''
+	MajinNucleus.Tooltip:
+		'''
+		'The pulsing nucleus of a invicible being.'
+		Massively increased health regen
+		+360 ki/sec charge rate
+		-1500 max ki
+		'''
+	MetamoranSash.Tooltip:
+		'''
+		'Your own bad energy will be your undoing!'
+		5% Increased Ki damage
+		30% Reduced Ki usage
+		15% chance to do double damage.
+		'''
+	PureEnergyCirclet.Tooltip:
+		'''
+		'It radiates a unbelievably pure presence.'
+		5% Increased Ki damage
+		+120 ki/sec charge rate
+		+300 Max Ki
+		Charging grants a aura of inferno and frostburn around you.
+		'''
+	RadiantTotem.Tooltip:
+		'''
+		'It explodes with radiant energy.'
+		+500 Max Ki
+		+120 ki/sec charge rate
+		'''
+	TimeRing.Tooltip:
+		'''
+		'The sacred ring of the kais'
+		Drastically increased health regen
+		+180 ki/sec charge rate
+		'''
+	ZenkaiCharm.Tooltip:
+		'''
+		'A charm that harnesses the true power of a saiyan.'
+		Taking fatal damage will instead return you to 50 HP
+		and grant x2 damage for a short time.
+		2 Minute cooldown
+		'''
+}

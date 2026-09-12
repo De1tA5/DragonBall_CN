@@ -20,6 +20,8 @@ namespace DragonBall_CN.Common.DBTBalanceRevived
                 MethodFilter = MethodFilter.MatchName("BuildTooltip_Hook")
             });
 
+            //启用DBTBalanceRevived修改龙珠本体的文本
+            LocalizationPatchSystem.LoadLocalizationFile(Balance, "DBZMODPORT");
 
             //开启Oozaru，将禁用DBTrebalance的传说超级赛亚人4的变身BUFF
             //由于Oozaru和DBTrebalance的传说超级赛亚人4的类名相同
@@ -30,7 +32,6 @@ namespace DragonBall_CN.Common.DBTBalanceRevived
                 {
 
                     Mod.Logger.Info("Remove Buff Succes");
-                    
                 }
             }
         }
