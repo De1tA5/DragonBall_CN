@@ -1,0 +1,1486 @@
+Keybinds: {
+	"Special Attack.DisplayName": 特殊攻击
+	"Ultra Instinct.DisplayName": 自在极意功
+}
+
+Tiles.SuperTable.MapEntry: 龙珠超桌
+
+Buffs: {
+	AngelicGrace: {
+		DisplayName: 天使恩典
+		Description:
+			'''
+			增加5%伤害
+			增加5点防御
+			“你得到具有天使之气玩家的恩赐”
+			'''
+	}
+
+	AngelicTrait: {
+		DisplayName: 天使
+		Description:
+			'''
+			你的身体极具神圣化
+			减少闪避时的气消耗
+			为附近的队友提供力量
+			'''
+	}
+
+	DestroyerBuff: {
+		DisplayName: 破坏者
+		Description: 以生命为代价，你获得了无上的力量
+	}
+
+	DragonDefaultSummonBuff: {
+		DisplayName: 小龙
+		Description: 他会射弹幕
+	}
+
+	EnoflameBonus: {
+		DisplayName: Enoflame of Power
+		Description: Increased damage at the cost of some Ki
+	}
+
+	GalacticDonutDebuff: {
+		DisplayName: 金光闪闪超级甜甜圈
+		Description: 你被敌人的攻击困住了！
+	}
+
+	GodslayerDebuff: {
+		DisplayName: 弑神者
+		Description: 迅速减少你的生命值
+	}
+
+	HeatBuff: {
+		DisplayName: 升温
+		Description: 你可能会过热！
+	}
+
+	LargeDragonDefaultSummonBuff: {
+		DisplayName: 大龙
+		Description: 他会射大量弹幕
+	}
+
+	LSSJRevCooldown: {
+		DisplayName: 传说复活冷却
+		Description: 你的身体无法再承受一次复活
+	}
+
+	MasteredFire: {
+		DisplayName: Mastered On Fire!
+		Description:
+			'''
+			Slowly losing life 
+			+20% Increased damage
+			'''
+	}
+
+	OverExertionDebuff: {
+		DisplayName: 耗尽
+		Description: 处于该形态让你的身体极度疲惫
+	}
+
+	OverheatBuff: {
+		DisplayName: 过热
+		Description: 你已过热！
+	}
+
+	ShockDebuff: {
+		DisplayName: Shock
+		Description: Temporary and progressively weakening disability to move at full speed
+	}
+
+	PUIBuff: {
+		DisplayName: 自在极意功
+		Description: D
+	}
+
+	UEBuff: {
+		DisplayName: 自我极意功
+		Description: D
+	}
+
+	UIBuff: {
+		DisplayName: 自在极意兆
+		Description: D
+	}
+
+	StormFireBuff: {
+		DisplayName: Storm Fire
+		Description:
+			'''
+			Absorbing the arrow gives you power 
+			+25% Ki Damage
+			'''
+	}
+
+	TarragonBonus: {
+		DisplayName: 生命之气
+		Description: 你的气能够转化为生命值
+	}
+
+	UnknownAngelic: {
+		DisplayName: ？？？
+		Description: 你的身体似乎有点特殊
+	}
+
+	WeaponCooldown: {
+		DisplayName: 特殊攻击冷却
+		Description: 你必须等待才能再次使用特殊攻击
+	}
+
+	XenoDodgeCooldown: {
+		DisplayName: Xeno 闪避冷却
+		Description: You must wait for the Xeno Cloak effect to activate.
+	}
+
+	ZenosBlessing: {
+		DisplayName: 全王的祝福
+		Description:
+			'''
+			增加20%伤害
+			敌怪生成速度翻倍
+			敌怪掉落更多钱币和特殊材料
+			“至高”
+			'''
+	}
+
+	BleedBuff: {
+		DisplayName: 流血
+		Description: Mods.dbzcalamityUTD.Buffs.BleedBuff.Description
+	}
+}
+
+Items: {
+	AndroidEngine: {
+		DisplayName: Android Engine
+		Tooltip:
+			'''
+			The artificial heart grants you incredible powers
+			-1% Decreased Ki damage 
+			Near near infinite Ki 
+			Attacking too much overheats and deals damage to you
+			'''
+	}
+
+	AviationBoots: {
+		DisplayName: Aviation Boots
+		Tooltip:
+			'''
+			4% Increased Ki damage
+			You're able to fly for a short while
+			Flying creates a damaging trail
+			'''
+	}
+
+	DiamondStorm: {
+		DisplayName: Diamond Storm
+		Tooltip:
+			'''
+			+20 max HP
+			12% increased ki damage, 14% increased ki knockback.
+			+250 Max Ki.
+			Getting hit restores a small amount of Ki and shoots down many arrows, increased with damage taken.
+			The arrows give you a damage increasing buff, and return to you upon missing a target.
+			'''
+	}
+
+	ElysianCrystal: {
+		DisplayName: Elysian Crystal
+		Tooltip:
+			'''
+			Blessed by the Profaned Flame
+			Increased flight speed.
+			4% Increased ki damage
+			Increased ki regen.
+			Reduced flight ki usage by 25%.
+			+1500 Max 
+			'''
+	}
+
+	ExtraPair: {
+		DisplayName: Grown Pair
+		Tooltip: Your Ki attacks have an 8% chance to shoot twice
+	}
+
+	HemoTouch: {
+		DisplayName: Hemo Touch
+		Tooltip:
+			'''
+			+10% Ki Damage and +8% Ki crit rate while in Crimson
+			Your attacks have a chance to attack twice
+			The chance increases the closer the enemy is
+			'''
+	}
+
+	PhantomShield: {
+		DisplayName: Phantom Shield
+		Tooltip:
+			'''
+			11% Increased Ki Damage
+			4% Increased Ki Crit rate
+			+7% Dodge Chance (Costs 330 ki/dodge)
+			After dodging, you gain increased damage for a short time
+			'''
+	}
+
+	RingOfMisfortune: {
+		DisplayName: Ring Of Misfortune
+		Tooltip: Stats of this ring change every second
+	}
+
+	Scheusslich: {
+		DisplayName: Scheusslich
+		Tooltip:
+			'''
+			+13% Ki Damage and +8% Ki crit rate while in any Evil biome
+			Your Ki attacks may also shoot twice
+			All enemies on your screen take damage
+			Your attacks have a chance to attack twice
+			The damage and the chance increase the closer the enemy is
+			'''
+	}
+
+	ShadowEye: {
+		DisplayName: Shadow Eye
+		Tooltip:
+			'''
+			+10% Ki Damage and +8% Ki crit rate while in Corruption
+			All enemies on your screen take damage
+			This damage increases the closer the enemy is
+			'''
+	}
+
+	SoulofFlames: {
+		DisplayName: Soul of Flames
+		Tooltip:
+			'''
+			Turns the On Fire! debuff into an upgraded version
+			It deals less damage and increases your Ki damage
+			Having this accessory set to visible gives you On Fire!
+			'''
+	}
+
+	StormOfFire: {
+		DisplayName: Storm Of Fire
+		Tooltip:
+			'''
+			+25 max HP
+			+6% Ki damage
+			When hit, many flame arrows shoot down from the sky
+			The amount of arrows is increased with the damage taken
+			If they don't hit an enemy, they go back to you
+			The arrows give you a damage increasing buff
+			'''
+	}
+
+	StrainingSoul: {
+		DisplayName: Straining Soul
+		Tooltip:
+			'''
+			Turns the On Fire! debuff into an upgraded version
+			All Kaioken forms drain half as much health
+			20% less max ki
+			Having this accessory set to visible gives you On Fire!
+			'''
+	}
+
+	TidalGem: {
+		DisplayName: Tidal Gem
+		Tooltip:
+			'''
+			+12% Ki Damage and 7% Ki crit rate while in water
+			Increased movement in liquids
+			Being in water creates Ki javelins
+			'''
+	}
+
+	BurningBandana: {
+		DisplayName: Burning Bandana
+		Tooltip:
+			'''
+			12% Increased Ki damage
+			Burns enemies on hit
+			'''
+	}
+
+	FinalShield: {
+		DisplayName: Final Shield
+		Tooltip:
+			'''
+			19% Increased Ki Damage
+			5% Increased Ki Crit rate
+			+7% Dodge Chance (Costs 330 ki/dodge)
+			After dodging, you gain increased damage for a short time
+			10% Reduced Ki usage
+			Hunter effect + Increased charge speed
+			20% Increased ki cast speed
+			'''
+	}
+
+	FreezingBandana: {
+		DisplayName: Freezing Bandana
+		Tooltip: Freezes enemies on hit and increases Ki damage by 12%
+	}
+
+	FrostburnBandana: {
+		DisplayName: Frostburn Bandana
+		Tooltip:
+			'''
+			13% Increased Ki damage
+			Freezes and burns enemies on hit
+			Thorns effect
+			'''
+	}
+
+	GrandMinisterVanity: {
+		DisplayName: Grand Minister Vanity
+		Tooltip: Halo of the highest angel
+	}
+
+	KiLevelMeter: {
+		DisplayName: Ki Level Meter
+		Tooltip:
+			'''
+			Tells you how high your ki proficiency is
+			While equipped you will gain ki proficiency faster
+			The higher your ki level the higher your ki damage, critical strike chance and lower your ki usage
+			'''
+	}
+
+	PinkPotara: {
+		DisplayName: 粉色坡塔拉耳环
+		Tooltip: 一件不提供任意额外效果的时装饰品
+	}
+
+	RainbowBandana: {
+		DisplayName: 彩虹头巾
+		Tooltip:
+			'''
+			增加15%气伤害
+			15% Increased Ki damage
+			Hitting enemies with ki attacks inflicts a multitude of debuffs
+			Including freezing and burning
+			Thorns effect
+			'''
+	}
+
+	RingOfAll: {
+		DisplayName: 全之戒
+		Tooltip:
+			'''
+
+			
+			Hitting enemies with ki attacks inflicts a multitude of debuffs
+			Including freezing and burning
+			Thorns effect
+			“Stats of this ring change every second”
+			'''
+	}
+
+	SaiyanTail: {
+		DisplayName: 赛亚人尾巴
+		Tooltip: 永远不要忘记你的起源……重新变为猿猴
+	}
+
+	SSJ4Item: {
+		DisplayName: SSJ4 Item
+		Tooltip: 一件不提供任意额外效果的时装饰品
+	}
+
+	TabletOfDestruction: {
+		DisplayName: Tablet Of Destruction
+		Tooltip: Pressing 'Special Attack' reflects nearby projectiles and damages enemies for a few seconds
+	}
+
+	XenoCloak: {
+		DisplayName: Xeno Cloak
+		Tooltip:
+			'''
+			8% Increased Ki damage
+			After getting below 30% HP, you gain immunity frames for a longer time
+			'''
+	}
+
+	ZenkaiMeter: {
+		DisplayName: 全开测量仪
+		Tooltip: ""
+	}
+
+	ZenkaiAmulet: {
+		DisplayName: 全开护身符
+		Tooltip:
+			'''
+			增加12%气伤害
+			增加16%全开效能
+			受到致命伤害时会恢复50点生命值
+			并在短时间内造成2倍伤害
+			有2分钟的冷却时间
+			“这枚护身符会在你濒死时激活”
+			'''
+	}
+
+	ZenkaiCrown: {
+		DisplayName: 全开冠冕
+		Tooltip:
+			'''
+			增加21%气伤害
+			增加2500点最大气值
+			增加32%全开效能
+			受到致命伤害时会恢复50点生命值
+			并在短时间内造成2倍伤害
+			有2分钟的冷却时间
+			极大幅提升集气时移动速度
+			“这个冠冕会在你濒死时激活”
+			'''
+	}
+
+	ZenkaiOrb: {
+		DisplayName: 全开宝珠
+		Tooltip:
+			'''
+			增加10%气伤害
+			增加10%全开效能
+			受到致命伤害时会恢复50点生命值
+			并在短时间内造成2倍伤害
+			有2分钟的冷却时间
+			“这颗宝珠会在你濒死时激活”
+			'''
+	}
+
+	ZenkaiRing: {
+		DisplayName: 全开戒指
+		Tooltip:
+			'''
+			增加16%气伤害
+			增加24%全开效能
+			受到致命伤害时会恢复50点生命值
+			并在短时间内造成2倍伤害
+			有2分钟的冷却时间
+			“这枚戒指会在你濒死时激活”
+			'''
+	}
+
+	ZenosButton: {
+		DisplayName: 全王按钮
+		Tooltip:
+			'''
+			增加7%气伤害
+			敌怪有75%的概率再次掉落它们的战利品
+			'''
+	}
+
+	AngelGleaves: {
+		DisplayName: Angel Gleaves
+		Tooltip:
+			'''
+			23% Increased Ki Damage
+			+11% Ki Crit rate
+			23% Decreased Ki usage
+			37% Increased movement speed
+			'''
+	}
+
+	AngelRing: {
+		DisplayName: Angel Ring
+		Tooltip:
+			'''
+			35% Increased Ki Damage
+			+14% Ki Crit rate
+			'''
+	}
+
+	AngelRobes: {
+		DisplayName: Angel Robes
+		Tooltip:
+			'''
+			22% Increased Ki Damage
+			12% Increased Ki Crit Chance
+			+1750 Max Ki
+			+6 Maximum Charges
+			Increased Ki Regen
+			Strong beam attacks charge at an incredible speed
+			'''
+	}
+
+	DestructionGodBottoms: {
+		DisplayName: Destruction God Bottoms
+		Tooltip:
+			'''
+			38% Increased Ki Damage
+			+11% Ki Crit rate
+			10% Decreased Ki usage
+			40% Increased movement speed
+			'''
+	}
+
+	DestructionGodTop: {
+		DisplayName: Destruction God Top
+		Tooltip:
+			'''
+			32% Increased Ki Damage
+			10% Increased Ki Crit Chance
+			+850 Max Ki
+			+75 Max HP
+			+7 Maximum Charges
+			Increased Ki Regen
+			Strong beam attacks charge at an incredible speed
+			'''
+	}
+
+	DragonHelm: {
+		DisplayName: Dragon Helm
+		Tooltip:
+			'''
+			22% Increased Ki Damage
+			+9% Ki Crit rate
+			'''
+	}
+
+	DragonScalelegs: {
+		DisplayName: Dragon Scalelegs
+		Tooltip:
+			'''
+			16% Increased Ki Damage
+			+6% Ki Crit rate
+			15% Decreased Ki usage
+			15% Increased movement speed
+			'''
+	}
+
+	DragonScalemail: {
+		DisplayName: Dragon Scalemail
+		Tooltip:
+			'''
+			28% Increased Ki Damage
+			9% Increased Ki Crit Chance
+			+750 Max Ki
+			+5 Maximum Charges
+			Increased Ki Regen
+			Strong beam attacks charge much faster
+			'''
+	}
+
+	EnoflameBand: {
+		DisplayName: Enoflame Band
+		Tooltip:
+			'''
+			20% Increased Ki Damage
+			+8% Ki Crit rate
+			+500 Max Ki
+			'''
+	}
+
+	EnoflameBreastplate: {
+		DisplayName: Enoflame Breastplate
+		Tooltip:
+			'''
+			25% Increased Ki Damage
+			8% Increased Ki Crit Chance
+			+1750 Max Ki
+			+5 Maximum Charges
+			Increased Ki Regen
+			'''
+	}
+
+	EnoflameLeggings: {
+		DisplayName: Enoflame Leggings
+		Tooltip:
+			'''
+			14% Increased Ki Damage
+			+5% Ki Crit rate
+			12% Decreased Ki usage
+			30% Increased movement speed
+			'''
+	}
+
+	LegendaryDragonHelm: {
+		DisplayName: Legendary Dragon Helm
+		Tooltip:
+			'''
+			26% Increased Ki Damage
+			+10% Ki Crit rate
+			'''
+	}
+
+	LegendaryDragonScalelegs: {
+		DisplayName: Legendary Dragon Scalelegs
+		Tooltip:
+			'''
+			19% Increased Ki Damage
+			+7% Ki Crit rate
+			18% Decreased Ki usage
+			30% Increased movement speed
+			'''
+	}
+
+	LegendaryDragonScalemail: {
+		DisplayName: Legendary Dragon Scalemail
+		Tooltip:
+			'''
+			29% Increased Ki Damage
+			10% Increased Ki Crit Chance
+			+1350 Max Ki
+			+8 Maximum Charges
+			Increased Ki Regen
+			Strong beam attacks charge at an incredible speed
+			'''
+	}
+
+	AerospecHood: {
+		DisplayName: Aerospec Hood
+		Tooltip: 10% Increased Ki Damage
+	}
+
+	AuricTeslaBattleBand: {
+		DisplayName: Auric Tesla Battle Band
+		Tooltip:
+			'''
+			35% Increased Ki Damage and Ki Crit Chance
+			30% Decreased Ki usage
+			Maximum Ki increased by 3000
+			Not moving boosts all damage and critical strike chance
+			'''
+	}
+
+	BloodflareDemonHead: {
+		DisplayName: Bloodflare Demon Head
+		Tooltip:
+			'''
+			You can move freely through liquids
+			Temporary immunity to lava
+			15% Increased Ki Damage
+			15% Increased Ki Crit Chance
+			Maximum Ki increased by 2000
+			'''
+	}
+
+	DaedalusBand: {
+		DisplayName: Daedalus Band
+		Tooltip:
+			'''
+			21% Increased Ki Damage
+			15% Increased Ki Crit Chance
+			'''
+	}
+
+	GodSlayerHood: {
+		DisplayName: God Slayer Hood
+		Tooltip:
+			'''
+			22% Increased Ki Damage
+			22% Increased Ki Crit Chance
+			Maximum Ki increased by 2200
+			'''
+	}
+
+	HydrothermicBand: {
+		DisplayName: Hydrothermic Band
+		Tooltip:
+			'''
+			42% Increased Ki Damage
+			24% Increased Ki Crit Chance
+			+3 maximum charges for beams
+			16% increased movement speed
+			+500 max ki
+			Temporary immunity to lava
+			Immunity to fire damage
+			'''
+	}
+
+	ReaverHood: {
+		DisplayName: Reaver Hood
+		Tooltip:
+			'''
+			26% Increased Ki Damage
+			18% Increased Ki Crit Chance
+			10% Decreased Ki usage
+			10% increased movement speed
+			Can move freely through liquids
+			+400 max ki
+			'''
+	}
+
+	SilvaHeadgear: {
+		DisplayName: Silva Headgear
+		Tooltip:
+			'''
+			24% Increased Ki Damage
+			24% Increased Ki Crit Chance
+			20% Decreased Ki usage
+			Maximum Ki increased by 2500
+			'''
+	}
+
+	StatigelBand: {
+		DisplayName: Statigel Band
+		Tooltip:
+			'''
+			12% Increased Ki Damage
+			7% Increased Ki Crit Chance
+			'''
+	}
+
+	TarragonHood: {
+		DisplayName: 龙蒿兜帽
+		Tooltip:
+			'''
+			Temporary immunity to lava
+			Can move freely through liquids
+			增加14%气伤害
+			增加16%气暴击率
+			提升气回复速度
+			增加1250点最大气值
+			'''
+	}
+
+	VictideHood: {
+		DisplayName: 胜潮兜帽
+		Tooltip:
+			'''
+			增加6%气伤害
+			增加6%气暴击率
+			'''
+	}
+
+	WulfrumHood: {
+		DisplayName: 钨钢兜帽
+		Tooltip: 增加4%气伤害
+	}
+
+	GalacticLeggings: {
+		DisplayName: Galactic Leggings
+		Tooltip: Jaco!
+	}
+
+	GalacticSuit: {
+		DisplayName: Galactic Suit
+		Tooltip: Jaco!
+	}
+
+	GalacticTransmitter: {
+		DisplayName: Galactic Transmitter
+		Tooltip: Jaco!
+	}
+
+	KiEssence6: {
+		DisplayName: 神化气卷轴
+		Tooltip: 提升集气速度
+	}
+
+	KiFragment6: {
+		DisplayName: 神化气碎片
+		Tooltip: 增加3000点最大气值
+	}
+
+	LimitBreaker: {
+		DisplayName: Legendary Limit Breaker
+		Tooltip:
+			'''
+			Increase the power of the Legendary Super Saiyan
+			Dying with 传说超级赛亚人revives you with a冷却
+			'''
+	}
+
+	PUITestItem: {
+		DisplayName: 自在极意功测试物品
+		Tooltip: 掌握神之技艺
+	}
+
+	UETestItem: {
+		DisplayName: 自我极意功测试物品
+		Tooltip: 解锁毁灭之力
+	}
+
+	UITestItem: {
+		DisplayName: 自在极意兆测试物品
+		Tooltip: 学会神之技艺
+	}
+
+	Zenkai10: {
+		DisplayName: Harsh全开 Soul
+		Tooltip: Increases max全开 amount by 10
+	}
+
+	Zenkai15: {
+		DisplayName: Brutal全开 Soul
+		Tooltip: Increases max全开 amount by 15
+	}
+
+	Zenkai5: {
+		DisplayName: 全开之魂 
+		Tooltip: Increases max全开 amount by 5
+	}
+
+	ZenosBlessing: {
+		DisplayName: 全王的祝福
+		Tooltip: 赐予你至高的祝福
+	}
+
+	DragonGolfBall1: {
+		DisplayName: 一星龙珠高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	DragonGolfBall2: {
+		DisplayName: 二星龙珠高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	DragonGolfBall3: {
+		DisplayName: 三星龙珠高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	DragonGolfBall4: {
+		DisplayName: 四星龙珠高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	DragonGolfBall5: {
+		DisplayName: 五星龙珠高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	DragonGolfBall6: {
+		DisplayName: 六星龙珠高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	DragonGolfBall7: {
+		DisplayName: 七星龙珠高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	LSSJ1GolfBall: {
+		DisplayName: 传说超级赛亚人高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	LSSJ2GolfBall: {
+		DisplayName: 传说超级赛亚人2高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	LSSJ3GolfBall: {
+		DisplayName: 传说超级赛亚人3高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	SSJ1GolfBall: {
+		DisplayName: 超级赛亚人高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	SSJ2GolfBall: {
+		DisplayName: 超级赛亚人2高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	SSJ3GolfBall: {
+		DisplayName: 超级赛亚人3高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	SSJBEGolfBall: {
+		DisplayName: 超级赛亚人蓝进化高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	SSJBGolfBall: {
+		DisplayName: 超级赛亚人蓝高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	SSJGGolfBall: {
+		DisplayName: 超级赛亚人之神高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	SSJRGolfBall: {
+		DisplayName: 超级赛亚人桃红高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	UEGolfBall: {
+		DisplayName: 自我极意功高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	UIGolfBall: {
+		DisplayName: 自在极意功高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	UISignGolfBall: {
+		DisplayName: 自在极意兆高尔夫球
+		Tooltip: 超棒的高尔夫球！
+	}
+
+	DivineEnergy: {
+		DisplayName: 神圣能量
+		Tooltip: 这股能量中蕴含着神明的一部分
+	}
+
+	DivinePlate: {
+		DisplayName: 神圣晶板
+		Tooltip: 这块晶板蕴含着神明的一部分
+	}
+
+	EnothermicBar: {
+		DisplayName: Enothermic Bar
+		Tooltip: A bar made of a strange material
+	}
+
+	FlameOfPurity: {
+		DisplayName: Flame Of Purity
+		Tooltip: These flames are only released by pure creatures
+	}
+
+	GreenDragonScale: {
+		DisplayName: 绿龙鳞
+		Tooltip: 龙的鳞片能保护它们免受大多数伤害
+	}
+
+	IncrediblyDivineThreads: {
+		DisplayName: Incredibly Divine Threads
+		Tooltip: Fortified with the power of godly beings, this material has reached its peak
+	}
+
+	KiCrystalBag: {
+		DisplayName: Ki Crystal Bag
+		Tooltip: Right click to open
+	}
+
+	GodlyKiCrystal: {
+		DisplayName: 神之气水晶
+		Tooltip: 神明的结晶
+	}
+
+	ShiningKiCrystal: {
+		DisplayName: 闪耀气水晶
+		Tooltip: 你能感受到新获得的能量
+	}
+
+	UnlimitedKiCrystal: {
+		DisplayName: 无限气水晶
+		Tooltip: 它的力量似乎没有极限
+	}
+
+	WarmKiCrystal: {
+		DisplayName: Warm Ki Crystal
+		Tooltip: Contains enough energy to produce heat
+	}
+
+	RedDragonScale: {
+		DisplayName: 红龙鳞
+		Tooltip: 这些传说中的鳞片中蕴含着神明的力量
+	}
+
+	SoulofDeath: {
+		DisplayName: 死亡之魂
+		Tooltip: 因死亡的气息而变强的灵魂
+	}
+
+	SoulofEternity: {
+		DisplayName: 永恒之魂
+		Tooltip:
+			''' 
+			与无尽苦难伴行的灵魂
+			
+			'''
+	}
+
+	SoulofLegends: {
+		DisplayName: 传说之魂
+		Tooltip: 传说的纯粹精华
+	}
+
+	Zenite: {
+		DisplayName: 天顶锭
+		Tooltip: 一块近乎坚不可摧的金属锭
+	}
+
+	SuperTableItem: {
+		DisplayName: 龙珠超桌
+		Tooltip: 你离神仿佛只有一步之遥
+	}
+
+	Add1Zenkai: {
+		DisplayName: 增加1点全开
+		Tooltip: 测试
+	}
+
+	AngelicTestItem: {
+		DisplayName: 天使测试物品
+		Tooltip: 给予你天使资质
+	}
+
+	HundredProficiency: {
+		DisplayName: Hundred Proficiency
+		Tooltip: 测试
+	}
+
+	MaxZenkaiItem: {
+		DisplayName: Max全开 Item
+		Tooltip: 测试
+	}
+
+	MinZenkaiItem: {
+		DisplayName: 最小全开物品
+		Tooltip: 测试
+	}
+
+	TenProficiency: {
+		DisplayName: Ten Proficiency
+		Tooltip: 测试
+	}
+
+	TenZenkaiItem: {
+		DisplayName: 10全开物品
+		Tooltip: 测试
+	}
+
+	ThousandProficiency: {
+		DisplayName: Thousand Proficiency
+		Tooltip: 测试
+	}
+
+	ZeroProficiency: {
+		DisplayName: Zero Proficiency
+		Tooltip: 测试
+	}
+
+	PowerPole: {
+		DisplayName: Power Pole
+		Tooltip:
+			'''
+			Left Click Hold to Extend
+			Right Click to Rotate
+			'''
+	}
+
+	EndlessDestruction: {
+		DisplayName: Endless Destruction
+		Tooltip: Destruction...
+	}
+
+	InfiniteBarrage: {
+		DisplayName: Infinite Barrage
+		Tooltip: Shoots a great ki blast with the combined power of many techniques
+	}
+
+	LegendaryCrusher: {
+		DisplayName: Legendary Crusher
+		Tooltip: Crusher of legendary proportions
+	}
+
+	MasteredBeam: {
+		DisplayName: Mastered Beam
+		Tooltip:
+			'''
+			Maximum Charges = 37
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	UltimateBlade: {
+		DisplayName: Ultimate Blade
+		Tooltip: Create a ki blade rivaled by none
+	}
+
+	UltraSnowballBarrage: {
+		DisplayName: Ultra Snowball Barrage
+		Tooltip: The cooler barrage
+	}
+
+	AngelicStaff: {
+		DisplayName: Angelic Staff
+		Tooltip:
+			'''
+			Maximum Charges = 47
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	LegendaryExplosion: {
+		DisplayName: 传说爆炸
+		Tooltip: BOOM！
+	}
+
+	SupremeKamehameha: {
+		DisplayName: Supreme Kamehameha
+		Tooltip:
+			'''
+			Maximum Charges = 42
+			Right Click Hold to Charge
+			Left Click to Fire
+			Gives a chance to dodge while charging
+			'''
+	}
+
+	TrickBurst: {
+		DisplayName: Trick Burst
+		Tooltip: Hahaha
+	}
+
+	BlackKamehameha: {
+		DisplayName: Black Kamehameha
+		Tooltip:
+			'''
+			Maximum Charges = 12
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	EnergyBlade: {
+		DisplayName: Energy Blade
+		Tooltip: Create a blade made from ki at your hand
+	}
+
+	FireBreath: {
+		DisplayName: Fire Breath
+		Tooltip: Shoot fire from your mouth
+	}
+
+	GalacticDonut: {
+		DisplayName: 金光闪闪超级甜甜圈
+		Tooltip: Slow enemies down with a ring
+	}
+
+	JusticeFlash: {
+		DisplayName: Justice Flash
+		Tooltip: A blast for freedom
+	}
+
+	LegendaryCannon: {
+		DisplayName: Legendary Cannon
+		Tooltip:
+			'''
+			Maximum Charges = 8
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	SuperDestructoDiskAssault: {
+		DisplayName: Super Destructo Disk Assault
+		Tooltip: Krillin is learning...
+	}
+
+	SuperUltraSpiritBomb: {
+		DisplayName: Super Ultra Spirit Bomb
+		Tooltip: Goku took it too far!
+	}
+
+	BloodMassacre: {
+		DisplayName: Blood Massacre
+		Tooltip:
+			'''
+			Maximum Charges = 7
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	DeathSaucerGalaxy: {
+		DisplayName: Death Saucer Galaxy
+		Tooltip: Frieza is too strong...
+	}
+
+	DivineRetribution: {
+		DisplayName: Divine Retribution
+		Tooltip: Power of a god!
+	}
+
+	GodSlicer: {
+		DisplayName: God Slicer
+		Tooltip: Create a blade that can slice gods
+	}
+
+	GodSplitter: {
+		DisplayName: God Splitter
+		Tooltip: Power of a god!
+	}
+
+	LegendaryBomb: {
+		DisplayName: Legendary Bomb
+		Tooltip: KABOOM!
+	}
+
+	RayGun: {
+		DisplayName: Ray Blaster
+		Tooltip: Zap!
+	}
+
+	SingleMonday: {
+		DisplayName: Single Monday
+		Tooltip:
+			'''
+			Maximum Charges = 10
+			Right Click Hold to Charge
+			Left Click to Fire
+			[C/959595:有格调的波……]
+			'''
+	}
+
+	SpiritExcalibur: {
+		DisplayName: Spirit Excalibur
+		Tooltip: A blade created from your purity
+	}
+
+	BloodyKamehamehaX10: {
+		DisplayName: Bloody Kamehameha X10
+		Tooltip:
+			'''
+			Maximum Charges = 15
+			Right Click Hold to Charge
+			Left Click to Fire
+			'''
+	}
+
+	CataclysmicOrb: {
+		DisplayName: Cataclysmic Orb
+		Tooltip: It brings great destruction
+	}
+
+	DivineWrath: {
+		DisplayName: Divine Wrath
+		Tooltip: The wrath of deitys
+	}
+
+	EndlessMonday: {
+		DisplayName: Endless Monday
+		Tooltip:
+			'''
+			Maximum Charges = 20
+			Right Click Hold to Charge
+			Left Click to Fire
+			[C/959595:最有格调的波……]
+			'''
+	}
+
+	GreatGodBlade: {
+		DisplayName: Great God Blade
+		Tooltip: Creates a ki blade used by the Gods
+	}
+
+	LegendaryBlaster: {
+		DisplayName: Legendary Blaster
+		Tooltip: Blasting legendary mode!
+	}
+
+	NeoSpiritBall: {
+		DisplayName: Neo Spirit Ball
+		Tooltip: Yamcha?!?!
+	}
+
+	UnlimitedDonuts: {
+		DisplayName: Unlimited Donuts
+		Tooltip: Shoots many donuts that slow enemies down
+	}
+
+	ZenoOnAStick: {
+		DisplayName: Zeno On A Stick
+		Tooltip: Nice.  Also, why?!
+	}
+
+	ShowCinematic: {
+		DisplayName: Show Cinematic
+		Tooltip: ""
+	}
+
+	SorrowScythe: {
+		DisplayName: Sickle of Sorrow
+		Tooltip: A scythe of divine energy, fed by your yearn for justice
+	}
+
+	CinematicPlayer: {
+		DisplayName: Cinematic Player
+		Tooltip: ""
+	}
+
+	AddBossRush: {
+		Tooltip: ""
+		DisplayName: Add Boss Rush
+	}
+
+	NewCinematicTest: {
+		DisplayName: New Cinematic 测试
+		Tooltip: ""
+	}
+
+	CinematicTest: {
+		DisplayName: Cinematic 测试
+		Tooltip: ""
+	}
+
+	ZRelic: {
+		DisplayName: Z圣物
+		Tooltip: A fitting reward for a true DBCA Saiyan.
+	}
+}
+
+NPCs: {
+	ElderMoori: {
+		DisplayName: 大长老穆利
+
+		TownNPCMood: {
+			Content: I guess this isn't so bad.  The longer I'm here, the less I miss Namek.
+			NoHome: I don't seem to belong here, and I can't return to Namek!
+			FarFromHome: I hope my NEW home doesn't blow up, too!
+			LoveSpace: This is great!  I haven't felt like this since being on Namek!
+			DislikeCrowded: There was much more room at my house on Namek...
+			HateCrowded: If only all of these people were on Namek when it blew up!
+			LoveBiome: This reminds me of Namek!
+			LikeBiome: Not quite Namek, but it'll do!
+			DislikeBiome: I feel far too alienated here.  Ironic...
+			LoveNPC: What are these emotions I feel fore {NPCName}?}
+			LikeNPC: That {NPCName}; what a friendly individual!
+			DislikeNPC: "{NPCName} is really getting under my skin."
+			HateNPC: "{NPCName} is a real jerk!"
+			LikeNPC_Princess: "{NPCName} is royalty?"
+			Princess_LovesNPC: "{NPCName} is such a lovely individual!"
+		}
+
+		Census.SpawnCondition: Conditions unknown
+	}
+
+	GreenWyvernBody.DisplayName: Green Wyvern Body
+	GreenWyvernBody2.DisplayName: Green Wyvern Body2
+	GreenWyvernBody3.DisplayName: Green Wyvern Body3
+	GreenWyvernHead.DisplayName: Green Wyvern Head
+	GreenWyvernLegs.DisplayName: Green Wyvern Legs
+	GreenWyvernTail.DisplayName: Green Wyvern Tail
+
+	Zeno: {
+		DisplayName: 全王
+		TownNPCMood: {
+			Content: I like it here!
+			NoHome: Having a home would be fun.
+			FarFromHome: I wish I was having fun at home.
+			LoveSpace: This place is super fun!
+			DislikeCrowded: These people are not very fun.
+			HateCrowded: I will erase everybody here.
+			LoveBiome: This environment is so fun!
+			LikeBiome: This area is fun.
+			DislikeBiome: This place is not fun.
+			LoveNPC: "{NPCName} is such a fun friend!"
+			LikeNPC: "{NPCName} is fun!"
+			DislikeNPC: "{NPCName} isn't very fun."
+			HateNPC: I will erase {NPCName}
+			LikeNPC_Princess: "{NPCName} is a good friend."
+			Princess_LovesNPC: "{NPCName} is royalty?  So fun!"
+		}
+
+		Census.SpawnCondition: Conditions unknown
+	}
+}
+
+Projectiles: {
+	SorrowScytheProjectile1.DisplayName: Sorrow Scythe Projectile1
+	SorrowScytheProjectile2.DisplayName: Sorrow Scythe Projectile2
+	SorrowScytheProjectile3.DisplayName: Sorrow Scythe Projectile3
+	AngelicBlast.DisplayName: Angelic Blast
+	AviationTrail.DisplayName: Aviation Trail
+	CataclysmicOrbLong.DisplayName: Cataclysmic Orb Long
+	CataclysmicOrbProj.DisplayName: Cataclysmic Orb弹幕
+	DivineRetributionLong.DisplayName: Divine Retribution Long
+	DivineRetributionProj.DisplayName: Divine Retribution弹幕
+	GodSplitterLong.DisplayName: God Splitter Long
+	GodSplitterProj.DisplayName: God Splitter弹幕
+	BloodflareProj.DisplayName: Bloodflare弹幕
+	DeathSaucerGalaxyProj.DisplayName: Death Saucer Galaxy弹幕
+	DivineWrathBall.DisplayName: Divine Wrath Ball
+	DragonDefaultSummon.DisplayName: Dragon Default Summon
+	DragonProjectile.DisplayName: Dragon Projectile
+	LargeDragonDefaultSummon.DisplayName: Large Dragon Default Summon
+	LargeDragonProjectile.DisplayName: Large Dragon Projectile
+	EnergyBladeProj.DisplayName: Energy Blade弹幕
+	GodSlicerProj.DisplayName: God Slicer弹幕
+	GreatGodBladeProj.DisplayName: Great God Blade弹幕
+	SpiritExcalibur.DisplayName: Spirit Excalibur
+	UltimateBladeProj.DisplayName: Ultimate Blade弹幕
+	EnothermicSword.DisplayName: Enothermic Sword
+	ExplosionProj.DisplayName: Explosion弹幕
+	FireBreathProj.DisplayName: Fire Breath弹幕
+	FireBreathTrail.DisplayName: Fire Breath Trail
+	GalacticDonutProj.DisplayName: 金光闪闪超级甜甜圈弹幕
+	DragonGolfBallProj.DisplayName: Dragon 高尔夫球弹幕
+	LSSJ1GolfBallProj.DisplayName: L S S J1 高尔夫球弹幕
+	LSSJ2GolfBallProj.DisplayName: L S S J2 高尔夫球弹幕
+	LSSJ3GolfBallProj.DisplayName: L S S J3 高尔夫球弹幕
+	SSJ1GolfBallProj.DisplayName: S S J1 高尔夫球弹幕
+	SSJ2GolfBallProj.DisplayName: S S J2 高尔夫球弹幕
+	SSJ3GolfBallProj.DisplayName: S S J3 高尔夫球弹幕
+	SSJBEGolfBallProj.DisplayName: S S J B E 高尔夫球弹幕
+	SSJBGolfBallProj.DisplayName: S S J B 高尔夫球弹幕
+	SSJGGolfBallProj.DisplayName: S S J G 高尔夫球弹幕
+	SSJRGolfBallProj.DisplayName: S S J R 高尔夫球弹幕
+	UEGolfBallProj.DisplayName: U E 高尔夫球弹幕
+	UIGolfBallProj.DisplayName: U I 高尔夫球弹幕
+	UISignGolfBallProj.DisplayName: U I Sign 高尔夫球弹幕
+	HydroDamageOrb.DisplayName: Hydro Damage Orb
+	HydroHealOrb.DisplayName: Hydro Heal Orb
+	InfiniteBlast.DisplayName: Infinite Blast
+	InfiniteBlastExplosion.DisplayName: Infinite Blast Explosion
+	JusticeFlashProj.DisplayName: Justice Flash弹幕
+	BlackKamehamehaBeam.DisplayName: Black Kamehameha Beam
+	BlackKamehamehaCharge.DisplayName: Black Kamehameha Charge
+	BloodyKamehamehaX10Beam.DisplayName: Bloody Kamehameha X10 Beam
+	BloodyKamehamehaX10Charge.DisplayName: Bloody Kamehameha X10 Charge
+	MasteredBeamBeam.DisplayName: Mastered Beam Beam
+	MasteredBeamCharge.DisplayName: Mastered Beam Charge
+	SupremeKamehamehaBeam.DisplayName: Supreme Kamehameha Beam
+	SupremeKamehamehaCharge.DisplayName: Supreme Kamehameha Charge
+	KiBullet.DisplayName: Ki Bullet
+	LargeExplosionProj.DisplayName: Large Explosion弹幕
+	LegendaryBlasterProj.DisplayName: Legendary Blaster弹幕
+	LegendaryBomb.DisplayName: Legendary Bomb
+	LegendaryBombExplosion.DisplayName: Legendary Bomb Explosion
+	LegendaryExplosion.DisplayName: Legendary Explosion
+	LegendaryExplosionBlast.DisplayName: Legendary Explosion Blast
+	MasteredKiBeam.DisplayName: Mastered Ki Beam
+	NeoSpiritBallMini.DisplayName: Neo Spirit Ball Mini
+	NeoSpiritBallProjectile.DisplayName: Neo Spirit Ball Projectile
+	AngelicBeamBeam.DisplayName: Angelic Beam Beam
+	AngelicBeamCharge.DisplayName: Angelic Beam Charge
+	BloodMassacreBeam.DisplayName: Blood Massacre Beam
+	BloodMassacreCharge.DisplayName: Blood Massacre Charge
+	EndlessMondayBeam.DisplayName: Endless Monday Beam
+	EndlessMondayCharge.DisplayName: Endless Monday Charge
+	LegendaryCannonBeam.DisplayName: Legendary Cannon Beam
+	LegendaryCannonCharge.DisplayName: Legendary Cannon Charge
+	MultipleMasenkoBeam.DisplayName: Multiple Masenko Beam
+	SingleMondayBeam.DisplayName: Single Monday Beam
+	SingleMondayCharge.DisplayName: Single Monday Charge
+	PowerPoleProjectile.DisplayName: Power Pole Projectile
+	RayBlast.DisplayName: Ray Blast
+	SnowballBarrage.DisplayName: Snowball Barrage
+	SorrowScytheSlash.DisplayName: Sorrow Scythe Slash
+	EndlessDestructionBall.DisplayName: Endless Destruction Ball
+	LegendaryCrusherBall.DisplayName: Legendary Crusher Ball
+	SuperUltraSpiritBombBall.DisplayName: Super Ultra Spirit Bomb Ball
+	StormArrow.DisplayName: Storm Arrow
+	SuperDestructoDiskAssaultMini.DisplayName: Super Destructo Disk Assault Mini
+	SuperDestructoDiskAssaultProj.DisplayName: Super Destructo Disk Assault弹幕
+	TidalKiJavelin.DisplayName: Tidal Ki Javelin
+	TrickBurstProj.DisplayName: Trick Burst弹幕
+	TrickBurstProjectile.DisplayName: Trick Burst Projectile
+	ZenoBlast.DisplayName: Zeno Blast
+	HolyWrathExplosion.DisplayName: Holy Wrath Explosion
+}
+
+Configs: {
+	Config: {
+		DisplayName: 配置
+
+		HardmodeFlight: {
+			Label: 困难魔石飞行
+			Tooltip: 让飞行成为仅限困难模式后的机制
+		}
+	}
+}
