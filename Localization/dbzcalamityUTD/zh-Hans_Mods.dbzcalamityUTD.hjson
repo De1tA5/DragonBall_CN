@@ -37,8 +37,8 @@ Buffs: {
 	}
 
 	EnoflameBonus: {
-		DisplayName: Enoflame of Power
-		Description: Increased damage at the cost of some Ki
+		DisplayName: 内焰之力
+		Description: 消耗部分气来提升伤害
 	}
 
 	GalacticDonutDebuff: {
@@ -106,11 +106,13 @@ Buffs: {
 	}
 
 	StormFireBuff: {
-		DisplayName: Storm Fire
+		DisplayName: 火风暴
 		Description:
 			'''
-			Absorbing the arrow gives you power 
+			增加25%气伤害
 			+25% Ki Damage
+			Absorbing the arrow gives you power 
+			
 			'''
 	}
 
@@ -628,96 +630,98 @@ Items: {
 	}
 
 	AerospecHood: {
-		DisplayName: Aerospec Hood
-		Tooltip: 10% Increased Ki Damage
+		DisplayName: 天蓝兜帽
+		Tooltip: 增加10%气伤害
 	}
 
 	AuricTeslaBattleBand: {
-		DisplayName: Auric Tesla Battle Band
+		DisplayName: 金圣浴战盔
 		Tooltip:
 			'''
-			35% Increased Ki Damage and Ki Crit Chance
-			30% Decreased Ki usage
-			Maximum Ki increased by 3000
-			Not moving boosts all damage and critical strike chance
+			增加35%气伤害
+			增加35%气暴击率
+			减少30%气消耗
+			增加3000点最大气值
+			静止不动时提升所有伤害与暴击率
 			'''
 	}
 
 	BloodflareDemonHead: {
-		DisplayName: Bloodflare Demon Head
+		DisplayName: 血碎魔封盔
 		Tooltip:
 			'''
-			You can move freely through liquids
-			Temporary immunity to lava
-			15% Increased Ki Damage
-			15% Increased Ki Crit Chance
-			Maximum Ki increased by 2000
+			增加15%气伤害
+			增加15%气暴击率
+			增加2000点最大气值
+			能在液体中自由移动
+			短暂免疫熔岩
 			'''
 	}
 
 	DaedalusBand: {
-		DisplayName: Daedalus Band
+		DisplayName: 代达罗斯头带
 		Tooltip:
 			'''
-			21% Increased Ki Damage
-			15% Increased Ki Crit Chance
+			增加21%气伤害
+			增加15%气暴击率
 			'''
 	}
 
 	GodSlayerHood: {
-		DisplayName: God Slayer Hood
+		DisplayName: 弑神者兜帽
 		Tooltip:
 			'''
-			22% Increased Ki Damage
-			22% Increased Ki Crit Chance
-			Maximum Ki increased by 2200
+			增加22%气伤害
+			增加22%气暴击率
+			增加2200点最大气值
 			'''
 	}
 
 	HydrothermicBand: {
-		DisplayName: Hydrothermic Band
+		DisplayName: 渊泉头带
 		Tooltip:
 			'''
-			42% Increased Ki Damage
-			24% Increased Ki Crit Chance
-			+3 maximum charges for beams
-			16% increased movement speed
-			+500 max ki
-			Temporary immunity to lava
-			Immunity to fire damage
+			增加42%气伤害
+			增加24%气暴击率
+			提升3点武器最大蓄力段数
+			提升16%移动速度
+			增加500点最大气值
+			能在液体中自由移动
+			短暂免疫熔岩
+			免疫火焰伤害
 			'''
 	}
 
 	ReaverHood: {
-		DisplayName: Reaver Hood
+		DisplayName: 掠夺者兜帽
 		Tooltip:
 			'''
-			26% Increased Ki Damage
-			18% Increased Ki Crit Chance
-			10% Decreased Ki usage
-			10% increased movement speed
-			Can move freely through liquids
-			+400 max ki
+			增加26%气伤害
+			增加18%气暴击率
+			减少10%气消耗
+			提升10%移动速度
+			增加400点最大气值
+			能在液体中自由移动
 			'''
 	}
 
 	SilvaHeadgear: {
-		DisplayName: Silva Headgear
+		DisplayName: 始源林海头饰
 		Tooltip:
 			'''
-			24% Increased Ki Damage
-			24% Increased Ki Crit Chance
-			20% Decreased Ki usage
-			Maximum Ki increased by 2500
+			增加24%气伤害
+			增加24%气暴击率
+			减少20%气消耗
+			增加2500点最大气值
 			'''
 	}
 
 	StatigelBand: {
-		DisplayName: Statigel Band
+		DisplayName: 斯塔提斯头带
 		Tooltip:
 			'''
-			12% Increased Ki Damage
-			7% Increased Ki Crit Chance
+			增加12%气伤害
+			增加7%气暴击率
 			'''
 	}
 
@@ -725,12 +729,12 @@ Items: {
 		DisplayName: 龙蒿兜帽
 		Tooltip:
 			'''
-			Temporary immunity to lava
-			Can move freely through liquids
 			增加14%气伤害
 			增加16%气暴击率
 			提升气回复速度
 			增加1250点最大气值
+			能在液体中自由移动
+			短暂免疫熔岩
 			'''
 	}
 
@@ -774,11 +778,13 @@ Items: {
 	}
 
 	LimitBreaker: {
-		DisplayName: Legendary Limit Breaker
+		DisplayName: 传说极限突破器
 		Tooltip:
 			'''
-			Increase the power of the Legendary Super Saiyan
-			Dying with 传说超级赛亚人revives you with a冷却
+			增加传说超级赛亚人的力量
+			死亡时会触发传说超级赛亚人复活
+			有1分半的冷却时间
+			[C/959595:译者补充：处于传说超级赛亚人形态时才能触发复活]
 			'''
 	}
 
@@ -928,48 +934,72 @@ Items: {
 	}
 
 	EnothermicBar: {
-		DisplayName: Enothermic Bar
-		Tooltip: A bar made of a strange material
+		DisplayName: 内热锭
+		Tooltip: 由奇异材料制成的锭
 	}
 
 	FlameOfPurity: {
-		DisplayName: Flame Of Purity
-		Tooltip: These flames are only released by pure creatures
+		DisplayName: 纯净之焰
+		Tooltip:
+			''' 
+			仅有那些纯净生物才能释放的火焰
+			[C/959595:译者补充：击败亵渎天神后，处于神圣环境敌怪有25%概率掉落]
+			'''
 	}
 
 	GreenDragonScale: {
 		DisplayName: 绿龙鳞
-		Tooltip: 龙的鳞片能保护它们免受大多数伤害
+		Tooltip:
+			''' 
+			龙的鳞片能保护它们免受大多数伤害
+			[C/959595:译者补充：飞龙掉落]
+			'''
 	}
 
 	IncrediblyDivineThreads: {
-		DisplayName: Incredibly Divine Threads
-		Tooltip: Fortified with the power of godly beings, this material has reached its peak
+		DisplayName: 超绝神圣丝缕
+		Tooltip: 被神明的力量所强化，这种材料已达到巅峰
 	}
 
 	KiCrystalBag: {
-		DisplayName: Ki Crystal Bag
-		Tooltip: Right click to open
+		DisplayName: 气水晶袋
+		Tooltip: <right>打开
 	}
 
 	GodlyKiCrystal: {
 		DisplayName: 神之气水晶
-		Tooltip: 神明的结晶
+		Tooltip:
+			''' 
+			神明的结晶
+			[C/959595:译者补充：击败神明吞噬者后，处于深渊环境敌怪有75%概率掉落]
+			'''
 	}
 
 	ShiningKiCrystal: {
 		DisplayName: 闪耀气水晶
-		Tooltip: 你能感受到新获得的能量
+		Tooltip:
+			''' 
+			你能感受到新获得的能量
+			[C/959595:译者补充：击败月亮领主后，处于神圣环境敌怪有50%概率掉落]
+			'''
 	}
 
 	UnlimitedKiCrystal: {
 		DisplayName: 无限气水晶
-		Tooltip: 它的力量似乎没有极限
+		Tooltip:
+			''' 
+			它的力量似乎没有极限
+			[C/959595:译者补充：击败犽戎后，处于雪原环境敌怪有50%概率掉落]
+			'''
 	}
 
 	WarmKiCrystal: {
-		DisplayName: Warm Ki Crystal
-		Tooltip: Contains enough energy to produce heat
+		DisplayName: 温暖气水晶
+		Tooltip:
+			''' 
+			蕴含足以产生热量的能量
+			[C/959595:译者补充：击败亵渎天神后，处于星辉瘟疫环境敌怪有75%概率掉落]
+			'''
 	}
 
 	RedDragonScale: {
@@ -979,7 +1009,11 @@ Items: {
 
 	SoulofDeath: {
 		DisplayName: 死亡之魂
-		Tooltip: 因死亡的气息而变强的灵魂
+		Tooltip:
+			''' 
+			因死亡的气息而变强的灵魂
+			[C/959595:译者补充：渊海灾虫掉落，酸雨事件敌怪有20%概率掉落]
+			'''
 	}
 
 	SoulofEternity: {
@@ -987,18 +1021,26 @@ Items: {
 		Tooltip:
 			''' 
 			与无尽苦难伴行的灵魂
-			
+			[C/959595:译者补充：海鳝、桨鱼和大嘴鳗有20%概率掉落]
 			'''
 	}
 
 	SoulofLegends: {
 		DisplayName: 传说之魂
-		Tooltip: 传说的纯粹精华
+		Tooltip:
+			''' 
+			传说的纯粹精华
+			[C/959595:译者补充：亵渎天神、痴愚金龙、神明吞噬者、犽戎和噬魂幽花掉落]
+			'''
 	}
 
 	Zenite: {
 		DisplayName: 天顶锭
-		Tooltip: 一块近乎坚不可摧的金属锭
+		Tooltip:
+			''' 
+			一块近乎坚不可摧的锭
+			[C/959595:译者补充：拥有全王的祝福增益时，附近敌怪有4%概率掉落]
+			'''
 	}
 
 	SuperTableItem: {
@@ -1017,12 +1059,12 @@ Items: {
 	}
 
 	HundredProficiency: {
-		DisplayName: Hundred Proficiency
-		Tooltip: 测试
+		DisplayName: 100熟练度
+		Tooltip: 增加100点熟练度
 	}
 
 	MaxZenkaiItem: {
-		DisplayName: Max全开 Item
+		DisplayName: 最大全开物品
 		Tooltip: 测试
 	}
 
@@ -1032,8 +1074,8 @@ Items: {
 	}
 
 	TenProficiency: {
-		DisplayName: Ten Proficiency
-		Tooltip: 测试
+		DisplayName: 10熟练度
+		Tooltip: 增加10点熟练度
 	}
 
 	TenZenkaiItem: {
@@ -1042,27 +1084,27 @@ Items: {
 	}
 
 	ThousandProficiency: {
-		DisplayName: Thousand Proficiency
-		Tooltip: 测试
+		DisplayName: 1000熟练度
+		Tooltip: 增加1000点熟练度
 	}
 
 	ZeroProficiency: {
-		DisplayName: Zero Proficiency
-		Tooltip: 测试
+		DisplayName: 0熟练度
+		Tooltip: 熟练度设置为0
 	}
 
 	PowerPole: {
-		DisplayName: Power Pole
+		DisplayName: 如意棒
 		Tooltip:
 			'''
-			Left Click Hold to Extend
-			Right Click to Rotate
+			左键长按延伸
+			右键点击旋转
 			'''
 	}
 
 	EndlessDestruction: {
-		DisplayName: Endless Destruction
-		Tooltip: Destruction...
+		DisplayName: 无尽破坏
+		Tooltip: 破坏……
 	}
 
 	InfiniteBarrage: {
