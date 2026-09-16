@@ -28,7 +28,7 @@ Buffs: {
 
 	DestroyerBuff: {
 		DisplayName: 破坏者
-		Description: 以生命为代价，你获得了无上的力量
+		Description: 以生命为代价，获得无上的力量
 	}
 
 	DragonDefaultSummonBuff: {
@@ -67,11 +67,11 @@ Buffs: {
 	}
 
 	MasteredFire: {
-		DisplayName: Mastered On Fire!
+		DisplayName: 大师着火了！
 		Description:
 			'''
-			Slowly losing life 
-			+20% Increased damage
+			增加20%伤害
+			缓慢流失生命值
 			'''
 	}
 
@@ -86,8 +86,8 @@ Buffs: {
 	}
 
 	ShockDebuff: {
-		DisplayName: Shock
-		Description: Temporary and progressively weakening disability to move at full speed
+		DisplayName: 震颤
+		Description: 暂时无法以全速移动，会随时间逐渐减弱
 	}
 
 	PUIBuff: {
@@ -110,9 +110,7 @@ Buffs: {
 		Description:
 			'''
 			增加25%气伤害
-			+25% Ki Damage
-			Absorbing the arrow gives you power 
-			
+			吸收火箭矢延长增益时间
 			'''
 	}
 
@@ -132,8 +130,8 @@ Buffs: {
 	}
 
 	XenoDodgeCooldown: {
-		DisplayName: Xeno 闪避冷却
-		Description: You must wait for the Xeno Cloak effect to activate.
+		DisplayName: Xeno闪避冷却
+		Description: 你必须等待Xeno斗篷的效果才能激活闪避
 	}
 
 	ZenosBlessing: {
@@ -155,33 +153,35 @@ Buffs: {
 
 Items: {
 	AndroidEngine: {
-		DisplayName: Android Engine
+		DisplayName: 人造人引擎
 		Tooltip:
 			'''
-			The artificial heart grants you incredible powers
-			-1% Decreased Ki damage 
-			Near near infinite Ki 
-			Attacking too much overheats and deals damage to you
+			减少1%气伤害
+			近乎无限的气
+			频繁攻击会导致过热，并对你造成伤害
+			“这颗人造心脏赋予你不可思议的力量”
 			'''
 	}
 
 	AviationBoots: {
-		DisplayName: Aviation Boots
+		DisplayName: 飞行靴
 		Tooltip:
 			'''
-			4% Increased Ki damage
-			You're able to fly for a short while
-			Flying creates a damaging trail
+			增加4%气伤害
+			你能够短暂飞行
+			飞行时会产生造成伤害的轨迹
 			'''
 	}
 
 	DiamondStorm: {
-		DisplayName: Diamond Storm
+		DisplayName: 钻石风暴
 		Tooltip:
 			'''
-			+20 max HP
-			12% increased ki damage, 14% increased ki knockback.
-			+250 Max Ki.
+			增加20点最大生命值
+			增加12%气伤害
+			增加14%气击退
+			增加250点最大气值
+	
 			Getting hit restores a small amount of Ki and shoots down many arrows, increased with damage taken.
 			The arrows give you a damage increasing buff, and return to you upon missing a target.
 			'''
@@ -298,11 +298,11 @@ Items: {
 	}
 
 	BurningBandana: {
-		DisplayName: Burning Bandana
+		DisplayName: 燃烧头巾
 		Tooltip:
 			'''
-			12% Increased Ki damage
-			Burns enemies on hit
+			增加12%气伤害
+			击中敌怪使其燃烧
 			'''
 	}
 
@@ -321,32 +321,36 @@ Items: {
 	}
 
 	FreezingBandana: {
-		DisplayName: Freezing Bandana
-		Tooltip: Freezes enemies on hit and increases Ki damage by 12%
+		DisplayName: 冻结头巾
+		Tooltip:
+			'''
+			增加12%气伤害
+			集中敌怪使其冻结
+			''' 
 	}
 
 	FrostburnBandana: {
-		DisplayName: Frostburn Bandana
+		DisplayName: 霜冻头巾
 		Tooltip:
 			'''
-			13% Increased Ki damage
-			Freezes and burns enemies on hit
-			Thorns effect
+			增加13%气伤害
+			击中敌怪施加[C/00A2E8:冰冻]和[C/F48801:着火了！]
+			获得荆棘效果
 			'''
 	}
 
 	GrandMinisterVanity: {
-		DisplayName: Grand Minister Vanity
-		Tooltip: Halo of the highest angel
+		DisplayName: 大神官时装
+		Tooltip: 至高天使的光环
 	}
 
 	KiLevelMeter: {
-		DisplayName: Ki Level Meter
+		DisplayName: 气等级测量器
 		Tooltip:
 			'''
-			Tells you how high your ki proficiency is
-			While equipped you will gain ki proficiency faster
-			The higher your ki level the higher your ki damage, critical strike chance and lower your ki usage
+			显示你的气职业熟练度
+			装备此物品时更快获得熟练度
+			气熟练度等级越高，气伤害、暴击率越高且气消耗也减少
 			'''
 	}
 
@@ -360,10 +364,9 @@ Items: {
 		Tooltip:
 			'''
 			增加15%气伤害
-			15% Increased Ki damage
-			Hitting enemies with ki attacks inflicts a multitude of debuffs
-			Including freezing and burning
-			Thorns effect
+			气攻击击中敌怪施加众多减益
+			包括[C/00A2E8:冰冻]和[C/F48801:着火了！]
+			获得荆棘效果
 			'''
 	}
 
@@ -371,12 +374,10 @@ Items: {
 		DisplayName: 全之戒
 		Tooltip:
 			'''
-
-			
-			Hitting enemies with ki attacks inflicts a multitude of debuffs
-			Including freezing and burning
-			Thorns effect
-			“Stats of this ring change every second”
+			戒指的属性每秒都会发生变化
+			气攻击击中敌怪施加众多减益
+			包括[C/00A2E8:冰冻]和[C/F48801:着火了！]
+			获得荆棘效果
 			'''
 	}
 
@@ -386,21 +387,25 @@ Items: {
 	}
 
 	SSJ4Item: {
-		DisplayName: SSJ4 Item
-		Tooltip: 一件不提供任意额外效果的时装饰品
+		DisplayName: 超级赛亚人4物品
+		Tooltip:
+			''' 
+			一件不提供任意额外效果的时装饰品
+			[C/959595:译者补充：击败亵渎天神后，处于丛林环境敌怪有1%概率掉落]
+			'''
 	}
 
 	TabletOfDestruction: {
-		DisplayName: Tablet Of Destruction
-		Tooltip: Pressing 'Special Attack' reflects nearby projectiles and damages enemies for a few seconds
+		DisplayName: 破坏平板
+		Tooltip: 按下 [特殊攻击] 反弹附近弹幕并持续对敌怪造成伤害
 	}
 
 	XenoCloak: {
-		DisplayName: Xeno Cloak
+		DisplayName: Xeno斗篷
 		Tooltip:
 			'''
-			8% Increased Ki damage
-			After getting below 30% HP, you gain immunity frames for a longer time
+			增加8%气伤害
+			生命值低于30%时，你获得更长时间的无敌帧
 			'''
 	}
 
@@ -473,40 +478,40 @@ Items: {
 	}
 
 	AngelGleaves: {
-		DisplayName: Angel Gleaves
+		DisplayName: 天使护胫
 		Tooltip:
 			'''
-			23% Increased Ki Damage
-			+11% Ki Crit rate
-			23% Decreased Ki usage
-			37% Increased movement speed
+			增加23%气伤害
+			增加11%气暴击率
+			减少23%气消耗
+			提升37%移动速度
 			'''
 	}
 
 	AngelRing: {
-		DisplayName: Angel Ring
+		DisplayName: 天使光环
 		Tooltip:
 			'''
-			35% Increased Ki Damage
-			+14% Ki Crit rate
+			增加35%气伤害
+			增加14%气暴击率
 			'''
 	}
 
 	AngelRobes: {
-		DisplayName: Angel Robes
+		DisplayName: 天使长袍
 		Tooltip:
 			'''
-			22% Increased Ki Damage
-			12% Increased Ki Crit Chance
-			+1750 Max Ki
-			+6 Maximum Charges
-			Increased Ki Regen
-			Strong beam attacks charge at an incredible speed
+			增加22%气伤害
+			增加12%气暴击率
+			增加1750点最大气值
+			提升6点武器最大蓄力段数
+			提升气回复速度
+			大幅提升气功波类攻击蓄力速度
 			'''
 	}
 
 	DestructionGodBottoms: {
-		DisplayName: Destruction God Bottoms
+		DisplayName: 破坏神Bottoms
 		Tooltip:
 			'''
 			38% Increased Ki Damage
@@ -517,7 +522,7 @@ Items: {
 	}
 
 	DestructionGodTop: {
-		DisplayName: Destruction God Top
+		DisplayName: 破坏神Top
 		Tooltip:
 			'''
 			32% Increased Ki Damage
@@ -753,18 +758,18 @@ Items: {
 	}
 
 	GalacticLeggings: {
-		DisplayName: Galactic Leggings
-		Tooltip: Jaco!
+		DisplayName: 银河护腿
+		Tooltip: 加克！
 	}
 
 	GalacticSuit: {
-		DisplayName: Galactic Suit
-		Tooltip: Jaco!
+		DisplayName: 银河战衣
+		Tooltip: 加克！
 	}
 
 	GalacticTransmitter: {
-		DisplayName: Galactic Transmitter
-		Tooltip: Jaco!
+		DisplayName: 银河通讯器
+		Tooltip: 加克！
 	}
 
 	KiEssence6: {
@@ -1521,7 +1526,7 @@ Configs: {
 		DisplayName: 配置
 
 		HardmodeFlight: {
-			Label: 困难魔石飞行
+			Label: 困难模式飞行
 			Tooltip: 让飞行成为仅限困难模式后的机制
 		}
 	}
