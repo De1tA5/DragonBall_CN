@@ -106,7 +106,7 @@ Buffs: {
 	}
 
 	StormFireBuff: {
-		DisplayName: 火风暴
+		DisplayName: 火焰风暴
 		Description:
 			'''
 			增加25%气伤害
@@ -181,119 +181,125 @@ Items: {
 			增加12%气伤害
 			增加14%气击退
 			增加250点最大气值
-	
-			Getting hit restores a small amount of Ki and shoots down many arrows, increased with damage taken.
-			The arrows give you a damage increasing buff, and return to you upon missing a target.
+			受到攻击时会回复少量气，并从天空降下大量火焰箭矢
+			受到的伤害越高，箭矢数量越多
+			若未击中敌人，它们会回到你身边并给予你伤害提升增益
+			[C/959595:译者补充：疑似Bug无法生成火焰箭矢]
 			'''
 	}
 
 	ElysianCrystal: {
-		DisplayName: Elysian Crystal
+		DisplayName: 极乐水晶
 		Tooltip:
 			'''
-			Blessed by the Profaned Flame
-			Increased flight speed.
-			4% Increased ki damage
-			Increased ki regen.
-			Reduced flight ki usage by 25%.
-			+1500 Max 
+			增加4%气伤害
+			增加1500点最大气值
+			减少25%飞行时气消耗
+			提升飞行速度
+			提升气回复速度
+			“来自亵渎之焰的祝福”
 			'''
 	}
 
 	ExtraPair: {
-		DisplayName: Grown Pair
-		Tooltip: Your Ki attacks have an 8% chance to shoot twice
+		DisplayName: 成骨双臂
+		Tooltip:
+			''' 
+			你的气攻击有8%概率发射2次
+			[C/959595:译者补充：实际上是排除了原版所有职业，理论上其他模组职业也有加成]
+			'''
 	}
 
 	HemoTouch: {
-		DisplayName: Hemo Touch
+		DisplayName: 血触
 		Tooltip:
 			'''
-			+10% Ki Damage and +8% Ki crit rate while in Crimson
-			Your attacks have a chance to attack twice
-			The chance increases the closer the enemy is
+			处于猩红环境时，增加10%气伤害和8%气暴击率
+			你的攻击有概率造成2次判定
+			距离敌怪越近，发生概率越高
 			'''
 	}
 
 	PhantomShield: {
-		DisplayName: Phantom Shield
+		DisplayName: 幻魂幽盾
 		Tooltip:
 			'''
-			11% Increased Ki Damage
-			4% Increased Ki Crit rate
-			+7% Dodge Chance (Costs 330 ki/dodge)
-			After dodging, you gain increased damage for a short time
+			增加11%气伤害
+			增加4%气暴击率
+			增加7%闪避概率（每次闪避消耗330气）
+			闪避后，气伤害乘算1.3倍持续一段时间
 			'''
 	}
 
 	RingOfMisfortune: {
-		DisplayName: Ring Of Misfortune
-		Tooltip: Stats of this ring change every second
+		DisplayName: 厄运之戒
+		Tooltip: 戒指的属性每秒会发生变化
 	}
 
 	Scheusslich: {
-		DisplayName: Scheusslich
+		DisplayName: 畸邪之物
 		Tooltip:
 			'''
-			+13% Ki Damage and +8% Ki crit rate while in any Evil biome
-			Your Ki attacks may also shoot twice
-			All enemies on your screen take damage
-			Your attacks have a chance to attack twice
-			The damage and the chance increase the closer the enemy is
+			处于任意邪恶环境时，增加13%气伤害和8%气暴击率
+			屏幕上的所有敌怪都会受到伤害
+			敌人距离越近，受到的伤害越高
+			你的攻击有概率造成2次判定
+			距离敌怪越近，发生概率越高
 			'''
 	}
 
 	ShadowEye: {
-		DisplayName: Shadow Eye
+		DisplayName: 暗影眼
 		Tooltip:
 			'''
-			+10% Ki Damage and +8% Ki crit rate while in Corruption
-			All enemies on your screen take damage
-			This damage increases the closer the enemy is
+			处于腐化环境时，增加10%气伤害和8%气暴击率
+			屏幕上的所有敌怪都会受到伤害
+			敌人距离越近，受到的伤害越高
 			'''
 	}
 
 	SoulofFlames: {
-		DisplayName: Soul of Flames
+		DisplayName: 浴火之魂
 		Tooltip:
 			'''
-			Turns the On Fire! debuff into an upgraded version
-			It deals less damage and increases your Ki damage
-			Having this accessory set to visible gives you On Fire!
+			反转[C/F48801:着火了！]减益为强化增益
+			使你缓慢流失生命值，但提升你的气伤害
+			当此饰品设为可见时，会施加你[C/F48801:着火了！]减益
 			'''
 	}
 
 	StormOfFire: {
-		DisplayName: Storm Of Fire
+		DisplayName: 火焰风暴
 		Tooltip:
 			'''
-			+25 max HP
-			+6% Ki damage
-			When hit, many flame arrows shoot down from the sky
-			The amount of arrows is increased with the damage taken
-			If they don't hit an enemy, they go back to you
-			The arrows give you a damage increasing buff
+			增加25点最大生命值
+			增加6%气伤害
+			当你受到攻击时，天空会降下大量火焰箭矢
+			受到的伤害越高，箭矢数量越多
+			若箭矢未击中敌怪，它们会回到你身边
+			并给予你伤害提升增益
+			[C/959595:译者补充：疑似Bug无法生成火焰箭矢]
 			'''
 	}
 
 	StrainingSoul: {
-		DisplayName: Straining Soul
+		DisplayName: 挣扎难魂
 		Tooltip:
 			'''
-			Turns the On Fire! debuff into an upgraded version
-			All Kaioken forms drain half as much health
-			20% less max ki
-			Having this accessory set to visible gives you On Fire!
+			减少20%最大气值
+			所有界王拳消耗的生命值减半
+			反转[C/F48801:着火了！]减益为强化增益
+			当此饰品设为可见时，会施加你[C/F48801:着火了！]减益
 			'''
 	}
 
 	TidalGem: {
-		DisplayName: Tidal Gem
+		DisplayName: 潮汐宝石
 		Tooltip:
 			'''
-			+12% Ki Damage and 7% Ki crit rate while in water
-			Increased movement in liquids
-			Being in water creates Ki javelins
+			处于水中时，增加12%气伤害和7%气暴击率
+			提升处于液体时移动速度
+			处于水中时生成气标枪
 			'''
 	}
 
@@ -307,16 +313,17 @@ Items: {
 	}
 
 	FinalShield: {
-		DisplayName: Final Shield
+		DisplayName: 终焉之盾
 		Tooltip:
 			'''
-			19% Increased Ki Damage
-			5% Increased Ki Crit rate
-			+7% Dodge Chance (Costs 330 ki/dodge)
-			After dodging, you gain increased damage for a short time
-			10% Reduced Ki usage
-			Hunter effect + Increased charge speed
-			20% Increased ki cast speed
+			增加19%气伤害
+			增加5%气暴击率
+			提升20%气攻击速度
+			减少10%气消耗
+			增加7%闪避概率（每次闪避消耗330气）
+			提升蓄力速度
+			获得狩猎药水的效果
+			闪避后，气伤害乘算1.3倍持续一段时间
 			'''
 	}
 
@@ -374,7 +381,7 @@ Items: {
 		DisplayName: 全之戒
 		Tooltip:
 			'''
-			戒指的属性每秒都会发生变化
+			戒指的属性每秒会发生变化
 			气攻击击中敌怪施加众多减益
 			包括[C/00A2E8:冰冻]和[C/F48801:着火了！]
 			获得荆棘效果
@@ -511,126 +518,126 @@ Items: {
 	}
 
 	DestructionGodBottoms: {
-		DisplayName: 破坏神Bottoms
+		DisplayName: 破坏神下装
 		Tooltip:
 			'''
-			38% Increased Ki Damage
-			+11% Ki Crit rate
-			10% Decreased Ki usage
-			40% Increased movement speed
+			增加38%气伤害
+			增加11%气暴击率
+			减少10%气消耗
+			提升40%移动速度
 			'''
 	}
 
 	DestructionGodTop: {
-		DisplayName: 破坏神Top
+		DisplayName: 破坏神上装
 		Tooltip:
 			'''
-			32% Increased Ki Damage
-			10% Increased Ki Crit Chance
-			+850 Max Ki
-			+75 Max HP
-			+7 Maximum Charges
-			Increased Ki Regen
-			Strong beam attacks charge at an incredible speed
+			增加32%气伤害
+			增加10%气暴击率
+			增加850点最大气值
+			增加75点最大生命值
+			提升7点武器最大蓄力段数
+			提升气回复速度
+			大幅提升蓄力速度
 			'''
 	}
 
 	DragonHelm: {
-		DisplayName: Dragon Helm
+		DisplayName: 龙鳞护盔
 		Tooltip:
 			'''
-			22% Increased Ki Damage
-			+9% Ki Crit rate
+			增加22%气伤害
+			增加9%气暴击率
 			'''
 	}
 
 	DragonScalelegs: {
-		DisplayName: Dragon Scalelegs
+		DisplayName: 龙鳞腿甲
 		Tooltip:
 			'''
-			16% Increased Ki Damage
-			+6% Ki Crit rate
-			15% Decreased Ki usage
-			15% Increased movement speed
+			增加16%气伤害
+			增加6%气暴击率
+			减少15%气消耗
+			提升15%移动速度
 			'''
 	}
 
 	DragonScalemail: {
-		DisplayName: Dragon Scalemail
+		DisplayName: 龙鳞甲胄
 		Tooltip:
 			'''
-			28% Increased Ki Damage
-			9% Increased Ki Crit Chance
-			+750 Max Ki
-			+5 Maximum Charges
-			Increased Ki Regen
-			Strong beam attacks charge much faster
+			增加28%气伤害
+			增加9%气暴击率
+			增加750点最大气值
+			提升5点武器最大蓄力段数
+			提升气回复速度
+			提升蓄力速度
 			'''
 	}
 
 	EnoflameBand: {
-		DisplayName: Enoflame Band
+		DisplayName: 内焰头带
 		Tooltip:
 			'''
-			20% Increased Ki Damage
-			+8% Ki Crit rate
-			+500 Max Ki
+			增加20%气伤害
+			增加8%气暴击率
+			增加500点最大气值
 			'''
 	}
 
 	EnoflameBreastplate: {
-		DisplayName: Enoflame Breastplate
+		DisplayName: 内焰胸甲
 		Tooltip:
 			'''
-			25% Increased Ki Damage
-			8% Increased Ki Crit Chance
-			+1750 Max Ki
-			+5 Maximum Charges
-			Increased Ki Regen
+			增加25%气伤害
+			增加8%气暴击率
+			增加1750点最大气值
+			提升5点武器最大蓄力段数
+			提升气回复速度
 			'''
 	}
 
 	EnoflameLeggings: {
-		DisplayName: Enoflame Leggings
+		DisplayName: 内焰护腿
 		Tooltip:
 			'''
-			14% Increased Ki Damage
-			+5% Ki Crit rate
-			12% Decreased Ki usage
-			30% Increased movement speed
+			增加14%气伤害
+			增加5%气暴击率
+			减少12%气消耗
+			提升30%移动速度
 			'''
 	}
 
 	LegendaryDragonHelm: {
-		DisplayName: Legendary Dragon Helm
+		DisplayName: 传说龙鳞护盔
 		Tooltip:
 			'''
-			26% Increased Ki Damage
-			+10% Ki Crit rate
+			增加26%气伤害
+			增加10%气暴击率
 			'''
 	}
 
 	LegendaryDragonScalelegs: {
-		DisplayName: Legendary Dragon Scalelegs
+		DisplayName: 传说龙鳞腿甲
 		Tooltip:
 			'''
-			19% Increased Ki Damage
-			+7% Ki Crit rate
-			18% Decreased Ki usage
-			30% Increased movement speed
+			增加19%气伤害
+			增加7%气暴击率
+			减少18%气消耗
+			提升30%移动速度
 			'''
 	}
 
 	LegendaryDragonScalemail: {
-		DisplayName: Legendary Dragon Scalemail
+		DisplayName: 传说龙鳞甲胄
 		Tooltip:
 			'''
-			29% Increased Ki Damage
-			10% Increased Ki Crit Chance
-			+1350 Max Ki
-			+8 Maximum Charges
-			Increased Ki Regen
-			Strong beam attacks charge at an incredible speed
+			增加29%气伤害
+			增加10%气暴击率
+			增加1350点最大气值
+			提升8点武器最大蓄力段数
+			提升气回复速度
+			大幅提升提升蓄力速度
 			'''
 	}
 
@@ -809,18 +816,18 @@ Items: {
 	}
 
 	Zenkai10: {
-		DisplayName: Harsh全开 Soul
-		Tooltip: Increases max全开 amount by 10
+		DisplayName: 严酷全开之魂
+		Tooltip: 增加10点最大全开值
 	}
 
 	Zenkai15: {
-		DisplayName: Brutal全开 Soul
-		Tooltip: Increases max全开 amount by 15
+		DisplayName: 残忍全开之魂
+		Tooltip: 增加15点最大全开值
 	}
 
 	Zenkai5: {
 		DisplayName: 全开之魂 
-		Tooltip: Increases max全开 amount by 5
+		Tooltip: 增加5点最大全开值
 	}
 
 	ZenosBlessing: {
@@ -962,7 +969,7 @@ Items: {
 	}
 
 	IncrediblyDivineThreads: {
-		DisplayName: 超绝神圣丝缕
+		DisplayName: 富集神圣丝缕
 		Tooltip: 被神明的力量所强化，这种材料已达到巅峰
 	}
 
@@ -1113,42 +1120,42 @@ Items: {
 	}
 
 	InfiniteBarrage: {
-		DisplayName: Infinite Barrage
-		Tooltip: Shoots a great ki blast with the combined power of many techniques
+		DisplayName: 无限连续气功弹
+		Tooltip: 释放一发汇聚多种招式力量的强大气功弹
 	}
 
 	LegendaryCrusher: {
-		DisplayName: Legendary Crusher
-		Tooltip: Crusher of legendary proportions
+		DisplayName: 传说粉碎弹
+		Tooltip: 传说级的粉碎弹
 	}
 
 	MasteredBeam: {
-		DisplayName: Mastered Beam
+		DisplayName: 大师气功波
 		Tooltip:
 			'''
-			Maximum Charges = 37
-			Right Click Hold to Charge
-			Left Click to Fire
+			最大蓄力 - 37
+			长按右键进行蓄力
+			左键点击发射
 			'''
 	}
 
 	UltimateBlade: {
-		DisplayName: Ultimate Blade
-		Tooltip: Create a ki blade rivaled by none
+		DisplayName: 终极气刃
+		Tooltip: 创造一把无与伦比的气刃
 	}
 
 	UltraSnowballBarrage: {
-		DisplayName: Ultra Snowball Barrage
-		Tooltip: The cooler barrage
+		DisplayName: 究极连续雪球
+		Tooltip: 更冷的连段
 	}
 
 	AngelicStaff: {
-		DisplayName: Angelic Staff
+		DisplayName: 天使权杖
 		Tooltip:
 			'''
-			Maximum Charges = 47
-			Right Click Hold to Charge
-			Left Click to Fire
+			最大蓄力 - 47
+			长按右键进行蓄力
+			左键点击发射
 			'''
 	}
 
@@ -1158,39 +1165,39 @@ Items: {
 	}
 
 	SupremeKamehameha: {
-		DisplayName: Supreme Kamehameha
+		DisplayName: 至高气功波
 		Tooltip:
 			'''
-			Maximum Charges = 42
-			Right Click Hold to Charge
-			Left Click to Fire
-			Gives a chance to dodge while charging
+			最大蓄力 - 42
+			长按右键进行蓄力
+			左键点击发射
+			蓄力时有概率闪避
 			'''
 	}
 
 	TrickBurst: {
 		DisplayName: Trick Burst
-		Tooltip: Hahaha
+		Tooltip: 哈哈哈
 	}
 
 	BlackKamehameha: {
-		DisplayName: Black Kamehameha
+		DisplayName: 黑色气功波
 		Tooltip:
 			'''
-			Maximum Charges = 12
-			Right Click Hold to Charge
-			Left Click to Fire
+			最大蓄力 - 12
+			长按右键进行蓄力
+			左键点击发射
 			'''
 	}
 
 	EnergyBlade: {
-		DisplayName: Energy Blade
-		Tooltip: Create a blade made from ki at your hand
+		DisplayName: 能量手刀
+		Tooltip: 在你手中凝聚一把气之利刃
 	}
 
 	FireBreath: {
-		DisplayName: Fire Breath
-		Tooltip: Shoot fire from your mouth
+		DisplayName: 火焰吐息
+		Tooltip: 从你嘴中喷出火焰
 	}
 
 	GalacticDonut: {
@@ -1204,12 +1211,12 @@ Items: {
 	}
 
 	LegendaryCannon: {
-		DisplayName: Legendary Cannon
+		DisplayName: 传说气功炮
 		Tooltip:
 			'''
-			Maximum Charges = 8
-			Right Click Hold to Charge
-			Left Click to Fire
+			最大蓄力 - 8
+			长按右键进行蓄力
+			左键点击发射
 			'''
 	}
 
@@ -1219,7 +1226,7 @@ Items: {
 	}
 
 	SuperUltraSpiritBomb: {
-		DisplayName: Super Ultra Spirit Bomb
+		DisplayName: 超终极元气弹
 		Tooltip: Goku took it too far!
 	}
 
@@ -1227,35 +1234,35 @@ Items: {
 		DisplayName: Blood Massacre
 		Tooltip:
 			'''
-			Maximum Charges = 7
-			Right Click Hold to Charge
-			Left Click to Fire
+			最大蓄力 - 7
+			长按右键进行蓄力
+			左键点击发射
 			'''
 	}
 
 	DeathSaucerGalaxy: {
-		DisplayName: Death Saucer Galaxy
-		Tooltip: Frieza is too strong...
+		DisplayName: 追踪元气斩
+		Tooltip: 弗利萨实在是太强了……
 	}
 
 	DivineRetribution: {
-		DisplayName: Divine Retribution
-		Tooltip: Power of a god!
+		DisplayName: 神罚执行
+		Tooltip: 神明的力量！
 	}
 
 	GodSlicer: {
-		DisplayName: God Slicer
-		Tooltip: Create a blade that can slice gods
+		DisplayName: 神裂斩
+		Tooltip: 锻造一把能斩神的利刃
 	}
 
 	GodSplitter: {
-		DisplayName: God Splitter
-		Tooltip: Power of a god!
+		DisplayName: 神裂波
+		Tooltip: 神明的力量！
 	}
 
 	LegendaryBomb: {
-		DisplayName: Legendary Bomb
-		Tooltip: KABOOM!
+		DisplayName: 传说炸弹
+		Tooltip: 轰！砰！
 	}
 
 	RayGun: {
@@ -1267,45 +1274,45 @@ Items: {
 		DisplayName: Single Monday
 		Tooltip:
 			'''
-			Maximum Charges = 10
-			Right Click Hold to Charge
-			Left Click to Fire
+			最大蓄力 - 10
+			长按右键进行蓄力
+			左键点击发射
 			[C/959595:有格调的波……]
 			'''
 	}
 
 	SpiritExcalibur: {
-		DisplayName: Spirit Excalibur
-		Tooltip: A blade created from your purity
+		DisplayName: 气剑
+		Tooltip: 由你纯粹的气控制能力所创造出的利刃
 	}
 
 	BloodyKamehamehaX10: {
-		DisplayName: Bloody Kamehameha X10
+		DisplayName: 血色10倍龟派气功波
 		Tooltip:
 			'''
-			Maximum Charges = 15
-			Right Click Hold to Charge
-			Left Click to Fire
+			最大蓄力 - 15
+			长按右键进行蓄力
+			左键点击发射
 			'''
 	}
 
 	CataclysmicOrb: {
-		DisplayName: Cataclysmic Orb
-		Tooltip: It brings great destruction
+		DisplayName: 破坏玉
+		Tooltip: 带来巨大的破坏
 	}
 
 	DivineWrath: {
-		DisplayName: Divine Wrath
-		Tooltip: The wrath of deitys
+		DisplayName: 异变神圣逆鳞
+		Tooltip: 诸神之怒
 	}
 
 	EndlessMonday: {
 		DisplayName: Endless Monday
 		Tooltip:
 			'''
-			Maximum Charges = 20
-			Right Click Hold to Charge
-			Left Click to Fire
+			最大蓄力 - 20
+			长按右键进行蓄力
+			左键点击发射
 			[C/959595:最有格调的波……]
 			'''
 	}
@@ -1316,23 +1323,23 @@ Items: {
 	}
 
 	LegendaryBlaster: {
-		DisplayName: Legendary Blaster
-		Tooltip: Blasting legendary mode!
+		DisplayName: 传说气功弹
+		Tooltip: 传说形态下的气功弹！
 	}
 
 	NeoSpiritBall: {
-		DisplayName: Neo Spirit Ball
-		Tooltip: Yamcha?!?!
+		DisplayName: 新操气弹
+		Tooltip: 雅木茶？！？！
 	}
 
 	UnlimitedDonuts: {
-		DisplayName: Unlimited Donuts
-		Tooltip: Shoots many donuts that slow enemies down
+		DisplayName: 无限甜甜圈
+		Tooltip: 发射许多甜甜圈，使敌人减速
 	}
 
 	ZenoOnAStick: {
-		DisplayName: Zeno On A Stick
-		Tooltip: Nice.  Also, why?!
+		DisplayName: 棍上全王
+		Tooltip: 不错。不过……为什么啊？！
 	}
 
 	ShowCinematic: {
@@ -1341,8 +1348,8 @@ Items: {
 	}
 
 	SorrowScythe: {
-		DisplayName: Sickle of Sorrow
-		Tooltip: A scythe of divine energy, fed by your yearn for justice
+		DisplayName: 悲愤气镰
+		Tooltip: 由你对正义的渴望所滋养的充满神圣能量的镰刀
 	}
 
 	CinematicPlayer: {
@@ -1367,7 +1374,7 @@ Items: {
 
 	ZRelic: {
 		DisplayName: Z圣物
-		Tooltip: A fitting reward for a true DBCA Saiyan.
+		Tooltip: 给真正的《Dragon Ball Terraria: Calamity Addon》赛亚人的合适奖励
 	}
 }
 
@@ -1475,21 +1482,21 @@ Projectiles: {
 	InfiniteBlast.DisplayName: Infinite Blast
 	InfiniteBlastExplosion.DisplayName: Infinite Blast Explosion
 	JusticeFlashProj.DisplayName: Justice Flash弹幕
-	BlackKamehamehaBeam.DisplayName: Black Kamehameha Beam
-	BlackKamehamehaCharge.DisplayName: Black Kamehameha Charge
-	BloodyKamehamehaX10Beam.DisplayName: Bloody Kamehameha X10 Beam
-	BloodyKamehamehaX10Charge.DisplayName: Bloody Kamehameha X10 Charge
+	BlackKamehamehaBeam.DisplayName: Black气功波 Beam
+	BlackKamehamehaCharge.DisplayName: Black气功波 Charge
+	BloodyKamehamehaX10Beam.DisplayName: Bloody气功波 X10 Beam
+	BloodyKamehamehaX10Charge.DisplayName: Bloody气功波 X10 Charge
 	MasteredBeamBeam.DisplayName: Mastered Beam Beam
 	MasteredBeamCharge.DisplayName: Mastered Beam Charge
-	SupremeKamehamehaBeam.DisplayName: Supreme Kamehameha Beam
-	SupremeKamehamehaCharge.DisplayName: Supreme Kamehameha Charge
+	SupremeKamehamehaBeam.DisplayName: Supreme气功波 Beam
+	SupremeKamehamehaCharge.DisplayName: Supreme气功波 Charge
 	KiBullet.DisplayName: Ki Bullet
 	LargeExplosionProj.DisplayName: Large Explosion弹幕
-	LegendaryBlasterProj.DisplayName: Legendary Blaster弹幕
-	LegendaryBomb.DisplayName: Legendary Bomb
-	LegendaryBombExplosion.DisplayName: Legendary Bomb Explosion
-	LegendaryExplosion.DisplayName: Legendary Explosion
-	LegendaryExplosionBlast.DisplayName: Legendary Explosion Blast
+	LegendaryBlasterProj.DisplayName: 传说Blaster弹幕
+	LegendaryBomb.DisplayName: 传说Bomb
+	LegendaryBombExplosion.DisplayName: 传说Bomb Explosion
+	LegendaryExplosion.DisplayName: 传说Explosion
+	LegendaryExplosionBlast.DisplayName: 传说Explosion Blast
 	MasteredKiBeam.DisplayName: Mastered Ki Beam
 	NeoSpiritBallMini.DisplayName: Neo Spirit Ball Mini
 	NeoSpiritBallProjectile.DisplayName: Neo Spirit Ball Projectile
@@ -1499,8 +1506,8 @@ Projectiles: {
 	BloodMassacreCharge.DisplayName: Blood Massacre Charge
 	EndlessMondayBeam.DisplayName: Endless Monday Beam
 	EndlessMondayCharge.DisplayName: Endless Monday Charge
-	LegendaryCannonBeam.DisplayName: Legendary Cannon Beam
-	LegendaryCannonCharge.DisplayName: Legendary Cannon Charge
+	LegendaryCannonBeam.DisplayName: 传说Cannon Beam
+	LegendaryCannonCharge.DisplayName: 传说Cannon Charge
 	MultipleMasenkoBeam.DisplayName: Multiple Masenko Beam
 	SingleMondayBeam.DisplayName: Single Monday Beam
 	SingleMondayCharge.DisplayName: Single Monday Charge
@@ -1509,7 +1516,7 @@ Projectiles: {
 	SnowballBarrage.DisplayName: Snowball Barrage
 	SorrowScytheSlash.DisplayName: Sorrow Scythe Slash
 	EndlessDestructionBall.DisplayName: Endless Destruction Ball
-	LegendaryCrusherBall.DisplayName: Legendary Crusher Ball
+	LegendaryCrusherBall.DisplayName: 传说Crusher Ball
 	SuperUltraSpiritBombBall.DisplayName: Super Ultra Spirit Bomb Ball
 	StormArrow.DisplayName: Storm Arrow
 	SuperDestructoDiskAssaultMini.DisplayName: Super Destructo Disk Assault Mini
@@ -1527,7 +1534,7 @@ Configs: {
 
 		HardmodeFlight: {
 			Label: 困难模式飞行
-			Tooltip: 让飞行成为仅限困难模式后的机制
+			Tooltip: 飞行成为仅限困难模式后的机制
 		}
 	}
 }
