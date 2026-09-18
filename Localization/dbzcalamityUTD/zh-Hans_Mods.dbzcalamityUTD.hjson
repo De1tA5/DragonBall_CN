@@ -321,7 +321,7 @@ Items: {
 			提升20%气攻击速度
 			减少10%气消耗
 			增加7%闪避概率（每次闪避消耗330气）
-			提升蓄力速度
+			提升气功波类攻击蓄力速度
 			获得狩猎药水的效果
 			闪避后，气伤害乘算1.3倍持续一段时间
 			'''
@@ -538,7 +538,7 @@ Items: {
 			增加75点最大生命值
 			提升7点武器最大蓄力段数
 			提升气回复速度
-			大幅提升蓄力速度
+			大幅提升气功波类攻击蓄力速度
 			'''
 	}
 
@@ -571,7 +571,7 @@ Items: {
 			增加750点最大气值
 			提升5点武器最大蓄力段数
 			提升气回复速度
-			提升蓄力速度
+			提升气功波类攻击蓄力速度
 			'''
 	}
 
@@ -637,7 +637,7 @@ Items: {
 			增加1350点最大气值
 			提升8点武器最大蓄力段数
 			提升气回复速度
-			大幅提升提升蓄力速度
+			大幅提升气功波类攻击蓄力速度
 			'''
 	}
 
@@ -1146,7 +1146,7 @@ Items: {
 
 	UltraSnowballBarrage: {
 		DisplayName: 究极连续雪球
-		Tooltip: 更冷的连段
+		Tooltip: 更“酷”的连段
 	}
 
 	AngelicStaff: {
@@ -1176,7 +1176,7 @@ Items: {
 	}
 
 	TrickBurst: {
-		DisplayName: Trick Burst
+		DisplayName: 彩纸把戏
 		Tooltip: 哈哈哈
 	}
 
@@ -1202,12 +1202,12 @@ Items: {
 
 	GalacticDonut: {
 		DisplayName: 金光闪闪超级甜甜圈
-		Tooltip: Slow enemies down with a ring
+		Tooltip: 光环能减慢敌怪移动速度
 	}
 
 	JusticeFlash: {
-		DisplayName: Justice Flash
-		Tooltip: A blast for freedom
+		DisplayName: 正义闪光
+		Tooltip: 为了自由的气功弹
 	}
 
 	LegendaryCannon: {
@@ -1221,17 +1221,17 @@ Items: {
 	}
 
 	SuperDestructoDiskAssault: {
-		DisplayName: Super Destructo Disk Assault
-		Tooltip: Krillin is learning...
+		DisplayName: 超级元气斩强袭
+		Tooltip: 克林正所学的……
 	}
 
 	SuperUltraSpiritBomb: {
 		DisplayName: 超终极元气弹
-		Tooltip: Goku took it too far!
+		Tooltip: 悟空做得太绝了！
 	}
 
 	BloodMassacre: {
-		DisplayName: Blood Massacre
+		DisplayName: 血腥屠杀
 		Tooltip:
 			'''
 			最大蓄力 - 7
@@ -1266,12 +1266,12 @@ Items: {
 	}
 
 	RayGun: {
-		DisplayName: Ray Blaster
-		Tooltip: Zap!
+		DisplayName: 激光爆能枪
+		Tooltip: 咻！
 	}
 
 	SingleMonday: {
-		DisplayName: Single Monday
+		DisplayName: 单日
 		Tooltip:
 			'''
 			最大蓄力 - 10
@@ -1283,7 +1283,7 @@ Items: {
 
 	SpiritExcalibur: {
 		DisplayName: 气剑
-		Tooltip: 由你纯粹的气控制能力所创造出的利刃
+		Tooltip: 由你对气纯粹的控制力所创造出的利刃
 	}
 
 	BloodyKamehamehaX10: {
@@ -1307,7 +1307,7 @@ Items: {
 	}
 
 	EndlessMonday: {
-		DisplayName: Endless Monday
+		DisplayName: 无尽之日
 		Tooltip:
 			'''
 			最大蓄力 - 20
@@ -1318,8 +1318,8 @@ Items: {
 	}
 
 	GreatGodBlade: {
-		DisplayName: Great God Blade
-		Tooltip: Creates a ki blade used by the Gods
+		DisplayName: 神之巨刃
+		Tooltip: 创造一把神明所使用的气之利刃
 	}
 
 	LegendaryBlaster: {
@@ -1328,7 +1328,7 @@ Items: {
 	}
 
 	NeoSpiritBall: {
-		DisplayName: 新操气弹
+		DisplayName: Neo操气弹
 		Tooltip: 雅木茶？！？！
 	}
 
@@ -1348,18 +1348,18 @@ Items: {
 	}
 
 	SorrowScythe: {
-		DisplayName: 悲愤气镰
+		DisplayName: 悲愤之镰
 		Tooltip: 由你对正义的渴望所滋养的充满神圣能量的镰刀
 	}
 
 	CinematicPlayer: {
-		DisplayName: Cinematic Player
+		DisplayName: 单独玩家电影动画
 		Tooltip: ""
 	}
 
 	AddBossRush: {
-		Tooltip: ""
-		DisplayName: Add Boss Rush
+		Tooltip: 通过Boss Rush等级提高一级
+		DisplayName: 增加Boss Rush等级
 	}
 
 	NewCinematicTest: {
@@ -1368,7 +1368,7 @@ Items: {
 	}
 
 	CinematicTest: {
-		DisplayName: Cinematic 测试
+		DisplayName: 电影动画测试
 		Tooltip: ""
 	}
 
@@ -1383,149 +1383,149 @@ NPCs: {
 		DisplayName: 大长老穆利
 
 		TownNPCMood: {
-			Content: I guess this isn't so bad.  The longer I'm here, the less I miss Namek.
-			NoHome: I don't seem to belong here, and I can't return to Namek!
-			FarFromHome: I hope my NEW home doesn't blow up, too!
-			LoveSpace: This is great!  I haven't felt like this since being on Namek!
-			DislikeCrowded: There was much more room at my house on Namek...
-			HateCrowded: If only all of these people were on Namek when it blew up!
-			LoveBiome: This reminds me of Namek!
-			LikeBiome: Not quite Namek, but it'll do!
-			DislikeBiome: I feel far too alienated here.  Ironic...
-			LoveNPC: What are these emotions I feel fore {NPCName}?}
-			LikeNPC: That {NPCName}; what a friendly individual!
-			DislikeNPC: "{NPCName} is really getting under my skin."
-			HateNPC: "{NPCName} is a real jerk!"
-			LikeNPC_Princess: "{NPCName} is royalty?"
-			Princess_LovesNPC: "{NPCName} is such a lovely individual!"
+			Content: 我想这也没那么糟。在这待得越久，我就越不想念那美克星。
+			NoHome: 我似乎不属于这里，但我也无法回到那美克星！
+			FarFromHome: 希望我的新家不会也像那美克星一样爆炸！
+			LoveSpace: 太棒了！自从在那美克星以来，我已经很久没有这种感觉了！
+			DislikeCrowded: 在那美克星家里的大小要比这宽敞得多……
+			HateCrowded: 要是这些人都在那美克星爆炸时一起消失就好了！
+			LoveBiome: 这让我想起了那美克星！
+			LikeBiome: 虽然不完全比得上那美克星，但也还行！
+			DislikeBiome: 我在这里感到太格格不入了。真是讽刺……
+			LoveNPC: 我对{NPCName}产生了些究竟是什么的感情？
+			LikeNPC: 那个{NPCName}，真是个友善的人！
+			DislikeNPC: "{NPCName}真让我心烦。"
+			HateNPC: "{NPCName}真让人厌烦！"
+			LikeNPC_Princess: "{NPCName}是皇家成员？"
+			Princess_LovesNPC: "{NPCName}真是个讨人喜爱的人！"
 		}
 
-		Census.SpawnCondition: Conditions unknown
+		Census.SpawnCondition: 击败骷髅王后入住
 	}
 
-	GreenWyvernBody.DisplayName: Green Wyvern Body
-	GreenWyvernBody2.DisplayName: Green Wyvern Body2
-	GreenWyvernBody3.DisplayName: Green Wyvern Body3
-	GreenWyvernHead.DisplayName: Green Wyvern Head
-	GreenWyvernLegs.DisplayName: Green Wyvern Legs
-	GreenWyvernTail.DisplayName: Green Wyvern Tail
+	GreenWyvernBody.DisplayName: 绿飞龙身体
+	GreenWyvernBody2.DisplayName: 绿飞龙身体2
+	GreenWyvernBody3.DisplayName: 绿飞龙身体3
+	GreenWyvernHead.DisplayName: 绿飞龙头
+	GreenWyvernLegs.DisplayName: 绿飞龙腿
+	GreenWyvernTail.DisplayName: 绿飞龙尾巴
 
 	Zeno: {
 		DisplayName: 全王
 		TownNPCMood: {
-			Content: I like it here!
-			NoHome: Having a home would be fun.
-			FarFromHome: I wish I was having fun at home.
-			LoveSpace: This place is super fun!
-			DislikeCrowded: These people are not very fun.
-			HateCrowded: I will erase everybody here.
-			LoveBiome: This environment is so fun!
-			LikeBiome: This area is fun.
-			DislikeBiome: This place is not fun.
-			LoveNPC: "{NPCName} is such a fun friend!"
-			LikeNPC: "{NPCName} is fun!"
-			DislikeNPC: "{NPCName} isn't very fun."
-			HateNPC: I will erase {NPCName}
-			LikeNPC_Princess: "{NPCName} is a good friend."
-			Princess_LovesNPC: "{NPCName} is royalty?  So fun!"
+			Content: 我喜欢这！
+			NoHome: 有个家应该会很有趣。
+			FarFromHome: 真希望我现在能在家里玩得开心。
+			LoveSpace: 这个地方超级有趣！
+			DislikeCrowded: 这些人不太好玩。
+			HateCrowded: 我要把这里所有人抹除。
+			LoveBiome: 这个环境太有趣了！
+			LikeBiome: 这个区域挺有趣的。
+			DislikeBiome: 这个地方一点也不好玩。
+			LoveNPC: "{NPCName}真是个有趣的朋友！"
+			LikeNPC: "{NPCName}很有趣"
+			DislikeNPC: "{NPCName}一点也不有趣。"
+			HateNPC: 我要抹除{NPCName}。
+			LikeNPC_Princess: "{NPCName}是个好朋友。"
+			Princess_LovesNPC: "{NPCName}是皇家成员？这太有趣了！"
 		}
 
-		Census.SpawnCondition: Conditions unknown
+		Census.SpawnCondition: 通过Boss Rush至少1级
 	}
 }
 
 Projectiles: {
-	SorrowScytheProjectile1.DisplayName: Sorrow Scythe Projectile1
-	SorrowScytheProjectile2.DisplayName: Sorrow Scythe Projectile2
-	SorrowScytheProjectile3.DisplayName: Sorrow Scythe Projectile3
-	AngelicBlast.DisplayName: Angelic Blast
-	AviationTrail.DisplayName: Aviation Trail
-	CataclysmicOrbLong.DisplayName: Cataclysmic Orb Long
-	CataclysmicOrbProj.DisplayName: Cataclysmic Orb弹幕
-	DivineRetributionLong.DisplayName: Divine Retribution Long
-	DivineRetributionProj.DisplayName: Divine Retribution弹幕
-	GodSplitterLong.DisplayName: God Splitter Long
-	GodSplitterProj.DisplayName: God Splitter弹幕
-	BloodflareProj.DisplayName: Bloodflare弹幕
-	DeathSaucerGalaxyProj.DisplayName: Death Saucer Galaxy弹幕
-	DivineWrathBall.DisplayName: Divine Wrath Ball
-	DragonDefaultSummon.DisplayName: Dragon Default Summon
-	DragonProjectile.DisplayName: Dragon Projectile
-	LargeDragonDefaultSummon.DisplayName: Large Dragon Default Summon
-	LargeDragonProjectile.DisplayName: Large Dragon Projectile
-	EnergyBladeProj.DisplayName: Energy Blade弹幕
-	GodSlicerProj.DisplayName: God Slicer弹幕
-	GreatGodBladeProj.DisplayName: Great God Blade弹幕
-	SpiritExcalibur.DisplayName: Spirit Excalibur
-	UltimateBladeProj.DisplayName: Ultimate Blade弹幕
-	EnothermicSword.DisplayName: Enothermic Sword
-	ExplosionProj.DisplayName: Explosion弹幕
-	FireBreathProj.DisplayName: Fire Breath弹幕
-	FireBreathTrail.DisplayName: Fire Breath Trail
+	SorrowScytheProjectile1.DisplayName: 悲愤之镰弹幕1
+	SorrowScytheProjectile2.DisplayName: 悲愤之镰弹幕2
+	SorrowScytheProjectile3.DisplayName: 悲愤之镰弹幕3
+	AngelicBlast.DisplayName: 天使爆弹
+	AviationTrail.DisplayName: 飞行靴轨迹
+	CataclysmicOrbLong.DisplayName: 破坏玉长条弹幕
+	CataclysmicOrbProj.DisplayName: 破坏玉弹幕
+	DivineRetributionLong.DisplayName: 神罚执行长条弹幕
+	DivineRetributionProj.DisplayName: 神罚执行弹幕
+	GodSplitterLong.DisplayName: 神裂波长条弹幕
+	GodSplitterProj.DisplayName: 神裂波弹幕
+	BloodflareProj.DisplayName: 血炎弹幕
+	DeathSaucerGalaxyProj.DisplayName: 追踪元气斩弹幕
+	DivineWrathBall.DisplayName: 异变神圣逆鳞
+	DragonDefaultSummon.DisplayName: 小龙召唤弹幕
+	DragonProjectile.DisplayName: 小龙弹幕
+	LargeDragonDefaultSummon.DisplayName: 大龙召唤弹幕
+	LargeDragonProjectile.DisplayName: 大龙弹幕
+	EnergyBladeProj.DisplayName: 能量手刀弹幕
+	GodSlicerProj.DisplayName: 神裂斩弹幕
+	GreatGodBladeProj.DisplayName: 神之巨刃弹幕
+	SpiritExcalibur.DisplayName: 气剑
+	UltimateBladeProj.DisplayName: 终极气刃弹幕
+	EnothermicSword.DisplayName: 内热剑
+	ExplosionProj.DisplayName: 爆炸弹幕
+	FireBreathProj.DisplayName: 火焰吐息弹幕
+	FireBreathTrail.DisplayName: 火焰吐息轨迹
 	GalacticDonutProj.DisplayName: 金光闪闪超级甜甜圈弹幕
-	DragonGolfBallProj.DisplayName: Dragon 高尔夫球弹幕
-	LSSJ1GolfBallProj.DisplayName: L S S J1 高尔夫球弹幕
-	LSSJ2GolfBallProj.DisplayName: L S S J2 高尔夫球弹幕
-	LSSJ3GolfBallProj.DisplayName: L S S J3 高尔夫球弹幕
-	SSJ1GolfBallProj.DisplayName: S S J1 高尔夫球弹幕
-	SSJ2GolfBallProj.DisplayName: S S J2 高尔夫球弹幕
-	SSJ3GolfBallProj.DisplayName: S S J3 高尔夫球弹幕
-	SSJBEGolfBallProj.DisplayName: S S J B E 高尔夫球弹幕
-	SSJBGolfBallProj.DisplayName: S S J B 高尔夫球弹幕
-	SSJGGolfBallProj.DisplayName: S S J G 高尔夫球弹幕
-	SSJRGolfBallProj.DisplayName: S S J R 高尔夫球弹幕
-	UEGolfBallProj.DisplayName: U E 高尔夫球弹幕
-	UIGolfBallProj.DisplayName: U I 高尔夫球弹幕
-	UISignGolfBallProj.DisplayName: U I Sign 高尔夫球弹幕
-	HydroDamageOrb.DisplayName: Hydro Damage Orb
-	HydroHealOrb.DisplayName: Hydro Heal Orb
-	InfiniteBlast.DisplayName: Infinite Blast
-	InfiniteBlastExplosion.DisplayName: Infinite Blast Explosion
-	JusticeFlashProj.DisplayName: Justice Flash弹幕
-	BlackKamehamehaBeam.DisplayName: Black气功波 Beam
-	BlackKamehamehaCharge.DisplayName: Black气功波 Charge
-	BloodyKamehamehaX10Beam.DisplayName: Bloody气功波 X10 Beam
-	BloodyKamehamehaX10Charge.DisplayName: Bloody气功波 X10 Charge
-	MasteredBeamBeam.DisplayName: Mastered Beam Beam
-	MasteredBeamCharge.DisplayName: Mastered Beam Charge
-	SupremeKamehamehaBeam.DisplayName: Supreme气功波 Beam
-	SupremeKamehamehaCharge.DisplayName: Supreme气功波 Charge
-	KiBullet.DisplayName: Ki Bullet
-	LargeExplosionProj.DisplayName: Large Explosion弹幕
-	LegendaryBlasterProj.DisplayName: 传说Blaster弹幕
-	LegendaryBomb.DisplayName: 传说Bomb
-	LegendaryBombExplosion.DisplayName: 传说Bomb Explosion
-	LegendaryExplosion.DisplayName: 传说Explosion
-	LegendaryExplosionBlast.DisplayName: 传说Explosion Blast
-	MasteredKiBeam.DisplayName: Mastered Ki Beam
-	NeoSpiritBallMini.DisplayName: Neo Spirit Ball Mini
-	NeoSpiritBallProjectile.DisplayName: Neo Spirit Ball Projectile
-	AngelicBeamBeam.DisplayName: Angelic Beam Beam
-	AngelicBeamCharge.DisplayName: Angelic Beam Charge
-	BloodMassacreBeam.DisplayName: Blood Massacre Beam
-	BloodMassacreCharge.DisplayName: Blood Massacre Charge
-	EndlessMondayBeam.DisplayName: Endless Monday Beam
-	EndlessMondayCharge.DisplayName: Endless Monday Charge
-	LegendaryCannonBeam.DisplayName: 传说Cannon Beam
-	LegendaryCannonCharge.DisplayName: 传说Cannon Charge
-	MultipleMasenkoBeam.DisplayName: Multiple Masenko Beam
-	SingleMondayBeam.DisplayName: Single Monday Beam
-	SingleMondayCharge.DisplayName: Single Monday Charge
-	PowerPoleProjectile.DisplayName: Power Pole Projectile
-	RayBlast.DisplayName: Ray Blast
-	SnowballBarrage.DisplayName: Snowball Barrage
+	DragonGolfBallProj.DisplayName: 龙珠高尔夫球弹幕
+	LSSJ1GolfBallProj.DisplayName: 传说超级赛亚人1高尔夫球弹幕
+	LSSJ2GolfBallProj.DisplayName: 传说超级赛亚人2高尔夫球弹幕
+	LSSJ3GolfBallProj.DisplayName: 传说超级赛亚人3高尔夫球弹幕
+	SSJ1GolfBallProj.DisplayName: 超级赛亚人1高尔夫球弹幕
+	SSJ2GolfBallProj.DisplayName: 超级赛亚人2高尔夫球弹幕
+	SSJ3GolfBallProj.DisplayName: 超级赛亚人3高尔夫球弹幕
+	SSJBEGolfBallProj.DisplayName: 超级赛亚人蓝进化高尔夫球弹幕
+	SSJBGolfBallProj.DisplayName: 超级赛亚人蓝高尔夫球弹幕
+	SSJGGolfBallProj.DisplayName: 超级赛亚人之神高尔夫球弹幕
+	SSJRGolfBallProj.DisplayName: 超级赛亚人桃红高尔夫球弹幕
+	UEGolfBallProj.DisplayName: 自我极意功高尔夫球弹幕
+	UIGolfBallProj.DisplayName: 自在极意功高尔夫球弹幕
+	UISignGolfBallProj.DisplayName: 自在极意兆高尔夫球弹幕
+	HydroDamageOrb.DisplayName: 渊泉伤害球
+	HydroHealOrb.DisplayName: 渊泉治疗球
+	InfiniteBlast.DisplayName: 无限气功弹
+	InfiniteBlastExplosion.DisplayName: 无限气功弹爆炸
+	JusticeFlashProj.DisplayName: 正义闪光弹幕
+	BlackKamehamehaBeam.DisplayName: 黑色龟派气功波射线
+	BlackKamehamehaCharge.DisplayName: 黑色龟派气功波蓄力
+	BloodyKamehamehaX10Beam.DisplayName: 血色10倍龟派气功波射线
+	BloodyKamehamehaX10Charge.DisplayName: 血色10倍龟派气功波蓄力
+	MasteredBeamBeam.DisplayName: 大师气功波射线
+	MasteredBeamCharge.DisplayName: 大师气功波蓄力
+	SupremeKamehamehaBeam.DisplayName: 至高龟派气功波射线
+	SupremeKamehamehaCharge.DisplayName: 至高龟派气功波蓄力
+	KiBullet.DisplayName: 气子弹
+	LargeExplosionProj.DisplayName: 大爆炸弹幕
+	LegendaryBlasterProj.DisplayName: 传说气功弹弹幕
+	LegendaryBomb.DisplayName: 传说炸弹
+	LegendaryBombExplosion.DisplayName: 传说炸弹爆炸
+	LegendaryExplosion.DisplayName: 传说爆炸
+	LegendaryExplosionBlast.DisplayName: 传说爆炸爆弹
+	MasteredKiBeam.DisplayName: 大师气功波气射线
+	NeoSpiritBallMini.DisplayName: Neo操气弹迷你弹幕
+	NeoSpiritBallProjectile.DisplayName: Neo操气弹弹幕
+	AngelicBeamBeam.DisplayName: 天使射线射线
+	AngelicBeamCharge.DisplayName: 天使射线蓄力
+	BloodMassacreBeam.DisplayName: 血腥屠杀射线
+	BloodMassacreCharge.DisplayName: 血腥屠杀蓄力
+	EndlessMondayBeam.DisplayName: 无尽之日射线
+	EndlessMondayCharge.DisplayName: 无尽之日蓄力
+	LegendaryCannonBeam.DisplayName: 传说气功炮射线
+	LegendaryCannonCharge.DisplayName: 传说气功炮蓄力
+	MultipleMasenkoBeam.DisplayName: Multiple Masenko射线
+	SingleMondayBeam.DisplayName: 单日射线
+	SingleMondayCharge.DisplayName: 单日蓄力
+	PowerPoleProjectile.DisplayName: 如意棒弹幕
+	RayBlast.DisplayName: 激光爆弹
+	SnowballBarrage.DisplayName: 连续雪球
 	SorrowScytheSlash.DisplayName: Sorrow Scythe Slash
-	EndlessDestructionBall.DisplayName: Endless Destruction Ball
-	LegendaryCrusherBall.DisplayName: 传说Crusher Ball
-	SuperUltraSpiritBombBall.DisplayName: Super Ultra Spirit Bomb Ball
-	StormArrow.DisplayName: Storm Arrow
-	SuperDestructoDiskAssaultMini.DisplayName: Super Destructo Disk Assault Mini
-	SuperDestructoDiskAssaultProj.DisplayName: Super Destructo Disk Assault弹幕
-	TidalKiJavelin.DisplayName: Tidal Ki Javelin
-	TrickBurstProj.DisplayName: Trick Burst弹幕
-	TrickBurstProjectile.DisplayName: Trick Burst Projectile
-	ZenoBlast.DisplayName: Zeno Blast
-	HolyWrathExplosion.DisplayName: Holy Wrath Explosion
+	EndlessDestructionBall.DisplayName: 无尽破坏
+	LegendaryCrusherBall.DisplayName: 传说粉碎弹
+	SuperUltraSpiritBombBall.DisplayName: 超终极元气弹
+	StormArrow.DisplayName: 风暴箭矢
+	SuperDestructoDiskAssaultMini.DisplayName: 超级元气斩强袭迷你弹幕
+	SuperDestructoDiskAssaultProj.DisplayName: 超级元气斩强袭弹幕
+	TidalKiJavelin.DisplayName: 潮汐气标枪
+	TrickBurstProj.DisplayName: 彩纸把戏弹幕
+	TrickBurstProjectile.DisplayName: 彩纸把戏手持弹幕
+	ZenoBlast.DisplayName: 全王爆弹
+	HolyWrathExplosion.DisplayName: 神圣逆鳞爆炸
 }
 
 Configs: {
