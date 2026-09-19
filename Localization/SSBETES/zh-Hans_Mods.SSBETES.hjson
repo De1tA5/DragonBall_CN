@@ -1,6 +1,6 @@
 Keybinds: {
 	"Power Up (SSBE Mod).DisplayName": Power Up (SSBE Mod)
-	Ability.DisplayName: 邪恶赛亚人和传说极限突破
+	Ability.DisplayName: 邪恶赛亚人和传说限界突破
 }
 
 Buffs: {
@@ -197,12 +197,12 @@ Buffs: {
 	}
 
 	LimitBreakCooldown: {
-		DisplayName: 极限突破冷却
-		Description: 你的身体正在从刚刚的极限突破中恢复过来
+		DisplayName: 限界突破冷却
+		Description: 你的身体正在从刚刚的限界突破中恢复过来
 	}
 
 	LimitBreakerBuff: {
-		DisplayName: 传说极限突破
+		DisplayName: 传说限界突破
 		Description: something something
 	}
 

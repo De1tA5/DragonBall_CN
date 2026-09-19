@@ -3,6 +3,7 @@ using DragonBall_CN.Common.DBZGoatLib;
 using System.Collections.Generic;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
+using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.SSBETES
 {
@@ -18,9 +19,9 @@ namespace DragonBall_CN.Common.SSBETES
             ["EvilSaiyanBuff"] = "邪恶赛亚人",
             ["SSJ3FPBuff"] = "超级赛亚人3全功率",
             //传说
-            ["IKARIBuff"] = "狂暴",
+            ["IKARIBuff"] = "狂怒",
             ["FPSSJBuff"] = "传说超级赛亚人全功率",
-            ["LimitBreakerBuff"] = "传说极限突破",
+            ["LimitBreakerBuff"] = "传说限界突破",
             //常规
             ["FSSJBuff"] = "拟态超级赛亚人",
             ["SSJFPBuff"] = "超级赛亚人全功率",
@@ -52,7 +53,12 @@ namespace DragonBall_CN.Common.SSBETES
         {
             if (ModLoader.HasMod(blueAddon))
             {
-                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, blueAddon, false);
+                //ProcessTriggers在筛选时必须加入否则变身按键会失效，目前不明
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, blueAddon, false,filters: new() 
+                {
+                    MethodFilter = MethodFilter.MatchNames(
+                        "PostUpdateEquips", "PostUpdate", "Kill", "ModifyBuffText", "OnChatButtonClicked", "OnConsumeItem", "ProcessTriggers")
+                });
             }
         }
 

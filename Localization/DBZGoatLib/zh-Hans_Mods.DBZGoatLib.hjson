@@ -1,0 +1,42 @@
+Mods: {
+	DBZGoatLib: {
+		Configs: {
+			Headers: {
+				Bar: 气槽设置
+				Menu: 变身菜单设置
+			}
+
+			KiBarX: {
+				Label: 气槽X轴坐标
+				Tooltip: 气槽在屏幕上的水平位置
+			}
+
+			KiBarY: {
+				Label: 气槽Y轴坐标
+				Tooltip: 气槽在屏幕上的垂直位置
+			}
+
+			ShowKi: {
+				Label: 显示气数值
+				Tooltip: 一直显示气槽 当前/最大 数值
+			}
+
+			UseNewKiBar: {
+				Label: 使用新气槽
+				Tooltip: 使用新设计的气槽替换原版气槽
+			}
+
+			TransMenuX: {
+				Label: 变身菜单X轴位置
+				Tooltip: 变身菜单在屏幕上的水平位置
+			}
+
+			TransMenuY: {
+				Label: 变身菜单Y轴位置
+				Tooltip: 变身菜单在屏幕上的垂直位置
+			}
+
+			DBZConfig.DisplayName: DBZ配置
+		}
+	}
+}

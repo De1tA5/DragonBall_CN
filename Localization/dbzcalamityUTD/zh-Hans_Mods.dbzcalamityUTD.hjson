@@ -204,7 +204,7 @@ Items: {
 	ExtraPair: {
 		DisplayName: 成骨双臂
 		Tooltip:
-			''' 
+			'''
 			你的气攻击有8%概率发射2次
 			[C/959595:译者补充：实际上是排除了原版所有职业，理论上其他模组职业也有加成]
 			'''
@@ -333,7 +333,7 @@ Items: {
 			'''
 			增加12%气伤害
 			集中敌怪使其冻结
-			''' 
+			'''
 	}
 
 	FrostburnBandana: {
@@ -396,7 +396,7 @@ Items: {
 	SSJ4Item: {
 		DisplayName: 超级赛亚人4物品
 		Tooltip:
-			''' 
+			'''
 			一件不提供任意额外效果的时装饰品
 			[C/959595:译者补充：击败亵渎天神后，处于丛林环境敌怪有1%概率掉落]
 			'''
@@ -790,7 +790,7 @@ Items: {
 	}
 
 	LimitBreaker: {
-		DisplayName: 传说极限突破器
+		DisplayName: 传说限界突破器
 		Tooltip:
 			'''
 			增加传说超级赛亚人的力量
@@ -826,7 +826,7 @@ Items: {
 	}
 
 	Zenkai5: {
-		DisplayName: 全开之魂 
+		DisplayName: 全开之魂
 		Tooltip: 增加5点最大全开值
 	}
 
@@ -953,7 +953,7 @@ Items: {
 	FlameOfPurity: {
 		DisplayName: 纯净之焰
 		Tooltip:
-			''' 
+			'''
 			仅有那些纯净生物才能释放的火焰
 			[C/959595:译者补充：击败亵渎天神后，处于神圣环境敌怪有25%概率掉落]
 			'''
@@ -962,7 +962,7 @@ Items: {
 	GreenDragonScale: {
 		DisplayName: 绿龙鳞
 		Tooltip:
-			''' 
+			'''
 			龙的鳞片能保护它们免受大多数伤害
 			[C/959595:译者补充：飞龙掉落]
 			'''
@@ -981,7 +981,7 @@ Items: {
 	GodlyKiCrystal: {
 		DisplayName: 神之气水晶
 		Tooltip:
-			''' 
+			'''
 			神明的结晶
 			[C/959595:译者补充：击败神明吞噬者后，处于深渊环境敌怪有75%概率掉落]
 			'''
@@ -990,7 +990,7 @@ Items: {
 	ShiningKiCrystal: {
 		DisplayName: 闪耀气水晶
 		Tooltip:
-			''' 
+			'''
 			你能感受到新获得的能量
 			[C/959595:译者补充：击败月亮领主后，处于神圣环境敌怪有50%概率掉落]
 			'''
@@ -999,7 +999,7 @@ Items: {
 	UnlimitedKiCrystal: {
 		DisplayName: 无限气水晶
 		Tooltip:
-			''' 
+			'''
 			它的力量似乎没有极限
 			[C/959595:译者补充：击败犽戎后，处于雪原环境敌怪有50%概率掉落]
 			'''
@@ -1008,7 +1008,7 @@ Items: {
 	WarmKiCrystal: {
 		DisplayName: 温暖气水晶
 		Tooltip:
-			''' 
+			'''
 			蕴含足以产生热量的能量
 			[C/959595:译者补充：击败亵渎天神后，处于星辉瘟疫环境敌怪有75%概率掉落]
 			'''
@@ -1022,7 +1022,7 @@ Items: {
 	SoulofDeath: {
 		DisplayName: 死亡之魂
 		Tooltip:
-			''' 
+			'''
 			因死亡的气息而变强的灵魂
 			[C/959595:译者补充：渊海灾虫掉落，酸雨事件敌怪有20%概率掉落]
 			'''
@@ -1031,7 +1031,7 @@ Items: {
 	SoulofEternity: {
 		DisplayName: 永恒之魂
 		Tooltip:
-			''' 
+			'''
 			与无尽苦难伴行的灵魂
 			[C/959595:译者补充：海鳝、桨鱼和大嘴鳗有20%概率掉落]
 			'''
@@ -1040,7 +1040,7 @@ Items: {
 	SoulofLegends: {
 		DisplayName: 传说之魂
 		Tooltip:
-			''' 
+			'''
 			传说的纯粹精华
 			[C/959595:译者补充：亵渎天神、痴愚金龙、神明吞噬者、犽戎和噬魂幽花掉落]
 			'''
@@ -1049,7 +1049,7 @@ Items: {
 	Zenite: {
 		DisplayName: 天顶锭
 		Tooltip:
-			''' 
+			'''
 			一块近乎坚不可摧的锭
 			[C/959595:译者补充：拥有全王的祝福增益时，附近敌怪有4%概率掉落]
 			'''
@@ -1412,6 +1412,7 @@ NPCs: {
 
 	Zeno: {
 		DisplayName: 全王
+
 		TownNPCMood: {
 			Content: 我喜欢这！
 			NoHome: 有个家应该会很有趣。

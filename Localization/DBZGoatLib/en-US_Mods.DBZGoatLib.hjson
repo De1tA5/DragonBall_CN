@@ -1,0 +1,42 @@
+Mods: {
+	DBZGoatLib: {
+		Configs: {
+			Headers: {
+				Bar: Ki Bar Settings.
+				Menu: Transformation Menu Settings.
+			}
+
+			KiBarX: {
+				Label: Ki Bar X postion.
+				Tooltip: Ki bar's horizontal position on the screen.
+			}
+
+			KiBarY: {
+				Label: Ki Bar Y postion.
+				Tooltip: Ki bar's vertical position on the screen.
+			}
+
+			ShowKi: {
+				Label: Show Ki values.
+				Tooltip: Show Current/Max Ki at all times.
+			}
+
+			UseNewKiBar: {
+				Label: Use new Ki Bar.
+				Tooltip: Replace DBT's Ki Bar with a new original design.
+			}
+
+			TransMenuX: {
+				Label: Transformation Menu X position.
+				Tooltip: Transformation Menu's horizontal position on the screen.
+			}
+
+			TransMenuY: {
+				Label: Transformation Menu Y position.
+				Tooltip: Transformation Menu's vertical position on the screen.
+			}
+
+			DBZConfig.DisplayName: D B Z Config
+		}
+	}
+}

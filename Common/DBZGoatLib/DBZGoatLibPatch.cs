@@ -11,14 +11,14 @@ using Terraria;
 using Terraria.IO;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
-using static Terraria.ModLoader.PlayerDrawLayer;
+using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.DBZGoatLib
 {
     [JITWhenModsEnabled("DBZGoatLib")]
     public class DBZGoatLibPatch : ModSystem
     {
-        private readonly string dragonBallLib = "DBZGoatLib";
+        private static readonly string dragonBallLib = "DBZGoatLib";
         private static Dictionary<string, string> NewUnlockHints = new()
         {
             ["SSJ1Buff"] = "唯有在强敌面前经历失败，真正的力量才会觉醒\n[C/959595:译者补充：击败骷髅王后Boss战死亡4次，必定变身，死亡次数可积攒]",
@@ -36,6 +36,11 @@ namespace DragonBall_CN.Common.DBZGoatLib
             if (ModLoader.HasMod(dragonBallLib))
             {
                 TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false);
+                //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false, filters: new()
+                //{
+                //    MethodFilter = MethodFilter.MatchNames("HandleMasteryGain", "OnInitialize", "MasteryBarMouseOver", "Update", "BuildTooltip"),
+                //    TypeFilter = TigerForceLocalizationLib.Filters.TypeFilter.MatchAny(TigerForceLocalizationLib.Filters.TypeFilter.MatchFullName("TransformationMenu"))
+                //});
             }
         }
 
@@ -156,7 +161,7 @@ namespace DragonBall_CN.Common.DBZGoatLib
 
             ILHook hook = new(methodInfo, il =>
             {
-                ILCursor c = new (il);
+                ILCursor c = new(il);
                 if (!c.TryGotoNext(MoveType.Before, instruction => instruction.MatchRet()))
                     return;
                 c.EmitDelegate<Func<Node[], Node[]>>(nodes =>
@@ -217,7 +222,7 @@ namespace DragonBall_CN.Common.DBZGoatLib
         public static bool TryRemovePanel(string panelName)
         {
             int index = UIHandler.Panels.FindIndex((TransformationPanel panel) => panel.Name == panelName);
-            if (index > -1) 
+            if (index > -1)
             {
                 UIHandler.Panels.RemoveAt(index);
                 return true;
@@ -235,14 +240,14 @@ namespace DragonBall_CN.Common.DBZGoatLib
         {
             if (!mod.TryFind<ModBuff>(buffName, out ModBuff buff))
                 return false;
-            
+
             int index = TransformationHandler.Transformations.FindIndex((TransformationInfo buffInfo) => buffInfo.buffKeyName == buffName && buffInfo.buffID == buff.Type);
-            if (index > -1) 
+            if (index > -1)
             {
                 TransformationHandler.Transformations.RemoveAt(index);
                 return true;
             }
-            return false; 
+            return false;
         }
 
         public override void Unload()

@@ -1,0 +1,6337 @@
+CinematicScreen: {
+	Update: {
+		1: {
+			// OldString: dbzcalamityUTD/Sounds/BoomSound
+			// NewString: dbzcalamityUTD/Sounds/BoomSound
+		}
+	}
+
+	UpdateCinematic: {
+		1: {
+			/* OldString:
+				'''
+				Join the TerrariaBallSuper Discord server, to see what's planned! 
+				Link: https://discord.gg/superstudios
+				''' */
+			NewString:
+				'''
+				如果你想了解《TerrariaBallSuper》的最新计划，可以加入Discord服务器：
+				链接：https://discord.gg/superstudios
+				'''
+		}
+	}
+}
+
+dbzcalamityGFX: {
+	LoadGFX: {
+		1: {
+			// OldString: dbzcalamityUTD/UI/Buttons/UIButtonImage
+			// NewString: dbzcalamityUTD/UI/Buttons/UIButtonImage
+		}
+
+		2: {
+			// OldString: dbzcalamityUTD/UI/Buttons/PUIButtonImage
+			// NewString: dbzcalamityUTD/UI/Buttons/PUIButtonImage
+		}
+
+		3: {
+			// OldString: dbzcalamityUTD/UI/Buttons/UEButtonImage
+			// NewString: dbzcalamityUTD/UI/Buttons/UEButtonImage
+		}
+
+		4: {
+			// OldString: dbzcalamityUTD/UI/TransMenuBack
+			// NewString: dbzcalamityUTD/UI/TransMenuBack
+		}
+
+		5: {
+			// OldString: DBZMODPORT/UI/Bg
+			// NewString: DBZMODPORT/UI/Bg
+		}
+
+		6: {
+			// OldString: dbzcalamityUTD/UI/BackPanel
+			// NewString: dbzcalamityUTD/UI/BackPanel
+		}
+
+		7: {
+			// OldString: DBZMODPORT/UI/KiBar
+			// NewString: DBZMODPORT/UI/KiBar
+		}
+	}
+}
+
+DBZCalamityNPC: {
+	PreKill: {
+		1: {
+			// OldString: CalamityMod
+			// NewString: CalamityMod
+		}
+
+		2: {
+			// OldString: GetDifficultyActive
+			// NewString: GetDifficultyActive
+		}
+
+		3: {
+			// OldString: bossrush
+			// NewString: bossrush
+		}
+
+		4: {
+			// OldString: Providence
+			// NewString: Providence
+		}
+
+		5: {
+			// OldString: DevourerofGodsHead
+			// NewString: DevourerofGodsHead
+		}
+
+		6: {
+			// OldString: DevourerofGodsTail
+			// NewString: DevourerofGodsTail
+		}
+
+		7: {
+			// OldString: Grand Zeno rewards your courage with a new item in his shop
+			NewString: 全王因你的勇气而在商店中赐予你一件新物品
+		}
+	}
+
+	OnKill: {
+		1: {
+			// OldString: CalamityMod
+			// NewString: CalamityMod
+		}
+
+		2: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+
+		3: {
+			// OldString: A sudden burst of energy comes from The Hallow.
+			NewString: 神圣之地突然爆发出一股能量
+		}
+
+		4: {
+			// OldString: AquaticScourgeHead
+			// NewString: AquaticScourgeHead
+		}
+
+		5: {
+			// OldString: The thrill of combat quiets to a lull of instinct.
+			NewString: 战斗的狂热渐渐消散，只剩下本能的静默
+		}
+
+		6: {
+			// OldString: Dragonfolly
+			// NewString: Dragonfolly
+		}
+
+		7: {
+			// OldString: Your mind clears, an angelic power overcomes you.
+			NewString: 你的思绪逐渐清明，一股天使之力席卷全身
+		}
+
+		8: {
+			// OldString: StormWeaverHead
+			// NewString: StormWeaverHead
+		}
+
+		9: {
+			// OldString: Your pride surges; the power of destruction consumes you.
+			NewString: 你的傲气高涨，毁灭的力量将你吞噬
+		}
+
+		10: {
+			// OldString: Signus
+			// NewString: Signus
+		}
+
+		11: {
+			// OldString: Your pride surges; the power of destruction consumes you..
+			NewString: 你的傲气高涨，毁灭的力量将你吞噬
+		}
+
+		12: {
+			// OldString: CeaselessVoid
+			// NewString: CeaselessVoid
+		}
+
+		13: {
+			// OldString: SupremeCalamitas
+			// NewString: SupremeCalamitas
+		}
+
+		14: {
+			// OldString: dbzcalamityUTD/UI/Cinematic/CinematicText
+			// NewString: dbzcalamityUTD/UI/Cinematic/CinematicText
+		}
+
+		15: {
+			// OldString: dbzcalamityUTD/UI/Cinematic/TBSLogo
+			// NewString: dbzcalamityUTD/UI/Cinematic/TBSLogo
+		}
+
+		16: {
+			// OldString: dbzcalamityUTD/Sounds/TBS
+			// NewString: dbzcalamityUTD/Sounds/TBS
+		}
+
+		17: {
+			// OldString: Providence
+			// NewString: Providence
+		}
+
+		18: {
+			// OldString: The Astral Infection gives off unusual heat.
+			NewString: 星幻感染散发出异常的热量
+		}
+
+		19: {
+			// OldString: DevourerofGodsHead
+			// NewString: DevourerofGodsHead
+		}
+
+		20: {
+			// OldString: DevourerofGodsTail
+			// NewString: DevourerofGodsTail
+		}
+
+		21: {
+			// OldString: The Gods have descended into the Abyss.
+			NewString: 神明已降临于深渊之中
+		}
+
+		22: {
+			// OldString: Yharon
+			// NewString: Yharon
+		}
+
+		23: {
+			// OldString: The release of the jungle's heat has made the cold stronger
+			NewString: 丛林所释放的的热量，使寒冷更为刺骨
+		}
+
+		24: {
+			// OldString: AstrumDeusHead
+			// NewString: AstrumDeusHead
+		}
+
+		25: {
+			// OldString: RadiantFragment
+			// NewString: RadiantFragment
+		}
+
+		26: {
+			// OldString: AcidEel
+			// NewString: AcidEel
+		}
+
+		27: {
+			// OldString: NuclearTerror
+			// NewString: NuclearTerror
+		}
+
+		28: {
+			// OldString: NuclearToad
+			// NewString: NuclearToad
+		}
+
+		29: {
+			// OldString: Skyfin
+			// NewString: Skyfin
+		}
+
+		30: {
+			// OldString: Radiator
+			// NewString: Radiator
+		}
+
+		31: {
+			// OldString: FlakCrab
+			// NewString: FlakCrab
+		}
+
+		32: {
+			// OldString: IrradiatedSlime
+			// NewString: IrradiatedSlime
+		}
+
+		33: {
+			// OldString: Orthocera
+			// NewString: Orthocera
+		}
+
+		34: {
+			// OldString: SulphurousSkater
+			// NewString: SulphurousSkater
+		}
+
+		35: {
+			// OldString: Trilobite
+			// NewString: Trilobite
+		}
+
+		36: {
+			// OldString: CragmawMire
+			// NewString: CragmawMire
+		}
+
+		37: {
+			// OldString: GammaSlime
+			// NewString: GammaSlime
+		}
+
+		38: {
+			// OldString: MorayEel
+			// NewString: MorayEel
+		}
+
+		39: {
+			// OldString: OarfishHead
+			// NewString: OarfishHead
+		}
+
+		40: {
+			// OldString: GulperEelHead
+			// NewString: GulperEelHead
+		}
+
+		41: {
+			// OldString: Polterghast
+			// NewString: Polterghast
+		}
+
+		42: {
+			// OldString: GetBossDowned
+			// NewString: GetBossDowned
+		}
+
+		43: {
+			// OldString: providence
+			// NewString: providence
+		}
+
+		44: {
+			// OldString: GetInZone
+			// NewString: GetInZone
+		}
+
+		45: {
+			// OldString: astral
+			// NewString: astral
+		}
+
+		46: {
+			// OldString: devourerofgods
+			// NewString: devourerofgods
+		}
+
+		47: {
+			// OldString: abyss
+			// NewString: abyss
+		}
+
+		48: {
+			// OldString: yharon
+			// NewString: yharon
+		}
+	}
+
+	ModifyActiveShop: {
+		1: {
+			// OldString: Shop
+			// NewString: Shop
+		}
+	}
+}
+
+dbzcalamityPlayer: {
+	ProcessTriggers: {
+		1: {
+			// OldString: EnoflameBonus
+			// NewString: EnoflameBonus
+		}
+
+		2: {
+			// OldString: DestroyerBuff
+			// NewString: DestroyerBuff
+		}
+
+		3: {
+			// OldString: UIBuff
+			// NewString: UIBuff
+		}
+
+		4: {
+			// OldString: WeaponCooldown
+			// NewString: WeaponCooldown
+		}
+
+		5: {
+			// OldString: BloodflareProj
+			// NewString: BloodflareProj
+		}
+	}
+
+	StartUI: {
+		1: {
+			// OldString: UIBuff
+			// NewString: UIBuff
+		}
+	}
+
+	StartPUI: {
+		1: {
+			// OldString: PUIBuff
+			// NewString: PUIBuff
+		}
+	}
+
+	StartUE: {
+		1: {
+			// OldString: UEBuff
+			// NewString: UEBuff
+		}
+	}
+
+	SaveData: {
+		1: {
+			// OldString: hallowMessage
+			// NewString: hallowMessage
+		}
+
+		2: {
+			// OldString: astralMessage
+			// NewString: astralMessage
+		}
+
+		3: {
+			// OldString: abyssMessage
+			// NewString: abyssMessage
+		}
+
+		4: {
+			// OldString: snowMessage
+			// NewString: snowMessage
+		}
+
+		5: {
+			// OldString: uiAchieved
+			// NewString: uiAchieved
+		}
+
+		6: {
+			// OldString: puiAchieved
+			// NewString: puiAchieved
+		}
+
+		7: {
+			// OldString: ueAchieved
+			// NewString: ueAchieved
+		}
+
+		8: {
+			// OldString: zenkaiAmount
+			// NewString: zenkaiAmount
+		}
+
+		9: {
+			// OldString: kiEssence6
+			// NewString: kiEssence6
+		}
+
+		10: {
+			// OldString: fragment6
+			// NewString: fragment6
+		}
+
+		11: {
+			// OldString: kiProficiency
+			// NewString: kiProficiency
+		}
+
+		12: {
+			// OldString: kiProficiencyTier
+			// NewString: kiProficiencyTier
+		}
+
+		13: {
+			// OldString: maxZenkai
+			// NewString: maxZenkai
+		}
+
+		14: {
+			// OldString: zenkai5
+			// NewString: zenkai5
+		}
+
+		15: {
+			// OldString: zenkai10
+			// NewString: zenkai10
+		}
+
+		16: {
+			// OldString: zenkai15
+			// NewString: zenkai15
+		}
+
+		17: {
+			// OldString: lssjRevive
+			// NewString: lssjRevive
+		}
+
+		18: {
+			// OldString: AngelicKiCurrentFloat
+			// NewString: AngelicKiCurrentFloat
+		}
+
+		19: {
+			// OldString: masteredMessageUI
+			// NewString: masteredMessageUI
+		}
+
+		20: {
+			// OldString: masteredMessageUE
+			// NewString: masteredMessageUE
+		}
+
+		21: {
+			// OldString: masteredMessagePUI
+			// NewString: masteredMessagePUI
+		}
+
+		22: {
+			// OldString: TBSTeaserShown
+			// NewString: TBSTeaserShown
+		}
+	}
+
+	LoadData: {
+		1: {
+			// OldString: hallowMessage
+			// NewString: hallowMessage
+		}
+
+		2: {
+			// OldString: astralMessage
+			// NewString: astralMessage
+		}
+
+		3: {
+			// OldString: abyssMessage
+			// NewString: abyssMessage
+		}
+
+		4: {
+			// OldString: snowMessage
+			// NewString: snowMessage
+		}
+
+		5: {
+			// OldString: uiAchieved
+			// NewString: uiAchieved
+		}
+
+		6: {
+			// OldString: puiAchieved
+			// NewString: puiAchieved
+		}
+
+		7: {
+			// OldString: ueAchieved
+			// NewString: ueAchieved
+		}
+
+		8: {
+			// OldString: zenkaiAmount
+			// NewString: zenkaiAmount
+		}
+
+		9: {
+			// OldString: kiEssence6
+			// NewString: kiEssence6
+		}
+
+		10: {
+			// OldString: fragment6
+			// NewString: fragment6
+		}
+
+		11: {
+			// OldString: kiProficiency
+			// NewString: kiProficiency
+		}
+
+		12: {
+			// OldString: kiProficiencyTier
+			// NewString: kiProficiencyTier
+		}
+
+		13: {
+			// OldString: maxZenkai
+			// NewString: maxZenkai
+		}
+
+		14: {
+			// OldString: zenkai5
+			// NewString: zenkai5
+		}
+
+		15: {
+			// OldString: zenkai10
+			// NewString: zenkai10
+		}
+
+		16: {
+			// OldString: zenkai15
+			// NewString: zenkai15
+		}
+
+		17: {
+			// OldString: lssjRevive
+			// NewString: lssjRevive
+		}
+
+		18: {
+			// OldString: KiCurrentFloat
+			// NewString: KiCurrentFloat
+		}
+
+		19: {
+			// OldString: AngelicKiCurrent
+			// NewString: AngelicKiCurrent
+		}
+
+		20: {
+			// OldString: AngelicKiCurrentFloat
+			// NewString: AngelicKiCurrentFloat
+		}
+
+		21: {
+			// OldString: masteredMessageUI
+			// NewString: masteredMessageUI
+		}
+
+		22: {
+			// OldString: masteredMessageUE
+			// NewString: masteredMessageUE
+		}
+
+		23: {
+			// OldString: masteredMessagePUI
+			// NewString: masteredMessagePUI
+		}
+
+		24: {
+			// OldString: TBSTeaserShown
+			// NewString: TBSTeaserShown
+		}
+	}
+
+	PreUpdate: {
+		1: {
+			// OldString: AviationTrail
+			// NewString: AviationTrail
+		}
+	}
+
+	PostUpdateEquips: {
+		1: {
+			// OldString: CalamityMod
+			// NewString: CalamityMod
+		}
+
+		2: {
+			// OldString: AdrenalineMode
+			// NewString: AdrenalineMode
+		}
+
+		3: {
+			// OldString: RageMode
+			// NewString: RageMode
+		}
+
+		4: {
+			// OldString: TidalKiJavelin
+			// NewString: TidalKiJavelin
+		}
+
+		5: {
+			// OldString: MasteredFire
+			// NewString: MasteredFire
+		}
+	}
+
+	PostUpdate: {
+		1: {
+			// OldString: Legendary
+			// NewString: Legendary
+		}
+
+		2: {
+			// OldString: DragonDefaultSummon
+			// NewString: DragonDefaultSummon
+		}
+
+		3: {
+			// OldString: DragonDefaultSummonBuff
+			// NewString: DragonDefaultSummonBuff
+		}
+
+		4: {
+			// OldString: LargeDragonDefaultSummon
+			// NewString: LargeDragonDefaultSummon
+		}
+
+		5: {
+			// OldString: LargeDragonDefaultSummonBuff
+			// NewString: LargeDragonDefaultSummonBuff
+		}
+
+		6: {
+			// OldString: UnknownAngelic
+			// NewString: UnknownAngelic
+		}
+
+		7: {
+			// OldString: AngelicTrait
+			// NewString: AngelicTrait
+		}
+
+		8: {
+			// OldString: HeatBuff
+			// NewString: HeatBuff
+		}
+
+		9: {
+			// OldString: OverheatBuff
+			// NewString: OverheatBuff
+		}
+
+		10: {
+			// OldString: " pushed their Android Engine too far."
+			NewString: 将他们的人造人引擎发挥至极限
+		}
+
+		11: {
+			// OldString: UIBuff
+			// NewString: UIBuff
+		}
+
+		12: {
+			// OldString: Your Ultra Instinct has reached Max Mastery.
+			NewString: 你对自在极意兆的掌握度已经达到最大
+		}
+
+		13: {
+			// OldString: Your Perfected Ultra Instinct has reached Max Mastery.
+			NewString: 你对自在极意功的掌握度已经达到最大
+		}
+
+		14: {
+			// OldString: UEBuff
+			// NewString: UEBuff
+		}
+
+		15: {
+			// OldString: Your Ultra Ego has reached Max Mastery.
+			NewString: 你对自我极意功的掌握度已经达到最大
+		}
+	}
+
+	Shoot: {
+		1: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+
+		2: {
+			// OldString: InfiniteBarrage
+			// NewString: InfiniteBarrage
+		}
+
+		3: {
+			// OldString: BlightedFang
+			// NewString: BlightedFang
+		}
+	}
+
+	TownNPCCount: {
+		1: {
+			// OldString: Zeno
+			// NewString: Zeno
+		}
+	}
+
+	IsInLSSJForm: {
+		1: {
+			// OldString: Legendary
+			// NewString: Legendary
+		}
+
+		2: {
+			// OldString: lssj
+			// NewString: lssj
+		}
+	}
+
+	PreKill: {
+		1: {
+			// OldString: LSSJRevCooldown
+			// NewString: LSSJRevCooldown
+		}
+	}
+
+	FreeDodge: {
+		1: {
+			// OldString: dbzcalamityUTD/Sounds/UIDodge
+			// NewString: dbzcalamityUTD/Sounds/UIDodge
+		}
+
+		2: {
+			// OldString: Dodged!
+			NewString: 闪避！
+		}
+
+		3: {
+			// OldString: Not enough Ki to Dodge!
+			NewString: 没有足够的气来闪避！
+		}
+	}
+
+	PostHurt: {
+		1: {
+			// OldString: XenoDodgeCooldown
+			// NewString: XenoDodgeCooldown
+		}
+	}
+
+	OnHitNPCWithProj: {
+		1: {
+			// OldString: LargeExplosionProj
+			// NewString: LargeExplosionProj
+		}
+
+		2: {
+			// OldString: ExplosionProj
+			// NewString: ExplosionProj
+		}
+
+		3: {
+			// OldString: HydroDamageOrb
+			// NewString: HydroDamageOrb
+		}
+	}
+
+	HitCheck: {
+		1: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+
+		2: {
+			// OldString: HydroHealOrb
+			// NewString: HydroHealOrb
+		}
+
+		3: {
+			// OldString: HydroDamageOrb
+			// NewString: HydroDamageOrb
+		}
+
+		4: {
+			// OldString: ExplosionProj
+			// NewString: ExplosionProj
+		}
+
+		5: {
+			// OldString: LargeExplosionProj
+			// NewString: LargeExplosionProj
+		}
+	}
+
+	ProficiencyEffects: {
+		1: {
+			// OldString: Ki proficiency increased!
+			NewString: 气职业熟练度提升！
+		}
+	}
+
+	<PreUpdate>b__160_0: {
+		1: {
+			// OldString: AviationTrail
+			// NewString: AviationTrail
+		}
+	}
+
+	<Kill>b__170_0: {
+		1: {
+			// OldString: SorrowScytheSlash
+			// NewString: SorrowScytheSlash
+		}
+	}
+}
+
+dbzcalamityUTD: {
+	get_DBZMODPORT: {
+		1: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+	}
+
+	Load: {
+		1: {
+			// OldString: Special Attack
+			// NewString: Special Attack
+		}
+
+		2: {
+			// OldString: G
+			// NewString: G
+		}
+
+		3: {
+			// OldString: Ultra Instinct
+			// NewString: Ultra Instinct
+		}
+
+		4: {
+			// OldString: U
+			// NewString: U
+		}
+
+		5: {
+			// OldString: DBZMODPORT/Effects/CircleShader
+			// NewString: DBZMODPORT/Effects/CircleShader
+		}
+
+		6: {
+			// OldString: Pass1
+			// NewString: Pass1
+		}
+
+		7: {
+			// OldString: One Star Dragon Ball
+			// NewString: One Star Dragon Ball
+		}
+
+		8: {
+			// OldString: Two Star Dragon Ball
+			// NewString: Two Star Dragon Ball
+		}
+
+		9: {
+			// OldString: Three Star Dragon Ball
+			// NewString: Three Star Dragon Ball
+		}
+
+		10: {
+			// OldString: Four Star Dragon Ball
+			// NewString: Four Star Dragon Ball
+		}
+
+		11: {
+			// OldString: Five Star Dragon Ball
+			// NewString: Five Star Dragon Ball
+		}
+
+		12: {
+			// OldString: Six Star Dragon Ball
+			// NewString: Six Star Dragon Ball
+		}
+
+		13: {
+			// OldString: Seven Star Dragon Ball
+			// NewString: Seven Star Dragon Ball
+		}
+	}
+}
+
+DBZCalamityWorld: {
+	PostWorldGen: {
+		1: {
+			// OldString: PowerPole
+			// NewString: PowerPole
+		}
+	}
+
+	SaveWorldData: {
+		1: {
+			// OldString: OverheatBarX
+			// NewString: OverheatBarX
+		}
+
+		2: {
+			// OldString: OverheatBarY
+			// NewString: OverheatBarY
+		}
+
+		3: {
+			// OldString: bossRushReached.obj
+			// NewString: bossRushReached.obj
+		}
+	}
+
+	LoadWorldData: {
+		1: {
+			// OldString: OverheatBarX
+			// NewString: OverheatBarX
+		}
+
+		2: {
+			// OldString: OverheatBarY
+			// NewString: OverheatBarY
+		}
+
+		3: {
+			// OldString: bossRushReached.obj
+			// NewString: bossRushReached.obj
+		}
+	}
+
+	ModifyInterfaceLayers: {
+		1: {
+			// OldString: dbzcalamityUTD: Overheat Bar
+			// NewString: dbzcalamityUTD: Overheat Bar
+		}
+
+		2: {
+			// OldString: dbzcalamityUTD: Cinematic
+			// NewString: dbzcalamityUTD: Cinematic
+		}
+
+		3: {
+			// OldString: dbzcalamityUTD: CinematicScreen
+			// NewString: dbzcalamityUTD: CinematicScreen
+		}
+	}
+}
+
+KiProjectileChecks: {
+	AI: {
+		1: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+	}
+
+	OnHitNPC: {
+		1: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+
+		2: {
+			// OldString: GodslayerDebuff
+			// NewString: GodslayerDebuff
+		}
+	}
+
+	ModifyHitNPC: {
+		1: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+
+		2: {
+			// OldString: PowerPoleProjectile
+			// NewString: PowerPoleProjectile
+		}
+	}
+}
+
+ReforgeFixBeamItem: {
+	ChoosePrefix: {
+		1: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+
+		2: {
+			// OldString: BalancedPrefix
+			// NewString: BalancedPrefix
+		}
+
+		3: {
+			// OldString: CondensedPrefix
+			// NewString: CondensedPrefix
+		}
+
+		4: {
+			// OldString: MystifyingPrefix
+			// NewString: MystifyingPrefix
+		}
+
+		5: {
+			// OldString: UnstablePrefix
+			// NewString: UnstablePrefix
+		}
+
+		6: {
+			// OldString: FlawedPrefix
+			// NewString: FlawedPrefix
+		}
+
+		7: {
+			// OldString: BoostedPrefix
+			// NewString: BoostedPrefix
+		}
+
+		8: {
+			// OldString: NegatedPrefix
+			// NewString: NegatedPrefix
+		}
+
+		9: {
+			// OldString: OutrageousPrefix
+			// NewString: OutrageousPrefix
+		}
+
+		10: {
+			// OldString: PoweredPrefix
+			// NewString: PoweredPrefix
+		}
+
+		11: {
+			// OldString: FlashyPrefix
+			// NewString: FlashyPrefix
+		}
+
+		12: {
+			// OldString: InfusedPrefix
+			// NewString: InfusedPrefix
+		}
+
+		13: {
+			// OldString: DistractedPrefix
+			// NewString: DistractedPrefix
+		}
+
+		14: {
+			// OldString: DestructivePrefix
+			// NewString: DestructivePrefix
+		}
+
+		15: {
+			// OldString: MasteredPrefix
+			// NewString: MasteredPrefix
+		}
+
+		16: {
+			// OldString: TranscendedPrefix
+			// NewString: TranscendedPrefix
+		}
+	}
+}
+
+ReforgeFixKiItem: {
+	ChoosePrefix: {
+		1: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+
+		2: {
+			// OldString: BalancedPrefix
+			// NewString: BalancedPrefix
+		}
+
+		3: {
+			// OldString: CondensedPrefix
+			// NewString: CondensedPrefix
+		}
+
+		4: {
+			// OldString: MystifyingPrefix
+			// NewString: MystifyingPrefix
+		}
+
+		5: {
+			// OldString: UnstablePrefix
+			// NewString: UnstablePrefix
+		}
+
+		6: {
+			// OldString: FlawedPrefix
+			// NewString: FlawedPrefix
+		}
+
+		7: {
+			// OldString: BoostedPrefix
+			// NewString: BoostedPrefix
+		}
+
+		8: {
+			// OldString: NegatedPrefix
+			// NewString: NegatedPrefix
+		}
+
+		9: {
+			// OldString: OutrageousPrefix
+			// NewString: OutrageousPrefix
+		}
+
+		10: {
+			// OldString: PoweredPrefix
+			// NewString: PoweredPrefix
+		}
+
+		11: {
+			// OldString: FlashyPrefix
+			// NewString: FlashyPrefix
+		}
+
+		12: {
+			// OldString: InfusedPrefix
+			// NewString: InfusedPrefix
+		}
+
+		13: {
+			// OldString: DistractedPrefix
+			// NewString: DistractedPrefix
+		}
+
+		14: {
+			// OldString: DestructivePrefix
+			// NewString: DestructivePrefix
+		}
+
+		15: {
+			// OldString: MasteredPrefix
+			// NewString: MasteredPrefix
+		}
+
+		16: {
+			// OldString: TranscendedPrefix
+			// NewString: TranscendedPrefix
+		}
+	}
+}
+
+UITextures: {
+	LoadGfx: {
+		1: {
+			// OldString: dbzcalamityUTD/UI/OverheatBar
+			// NewString: dbzcalamityUTD/UI/OverheatBar
+		}
+
+		2: {
+			// OldString: dbzcalamityUTD/UI/OverheatBarHealthLoss
+			// NewString: dbzcalamityUTD/UI/OverheatBarHealthLoss
+		}
+	}
+}
+
+LegendaryWeapon: {
+	LegendaryWeaponBoostCalc: {
+		1: {
+			// OldString: Legendary
+			// NewString: Legendary
+		}
+
+		2: {
+			// OldString: lssj
+			// NewString: lssj
+		}
+	}
+
+	ModifyTooltips: {
+		1: {
+			// OldString: LegendaryKiDrain
+			// NewString: LegendaryKiDrain
+		}
+
+		2: {
+			// OldString: ""
+			// NewString: ""
+		}
+
+		3: {
+			// OldString: "Consumes "
+			NewString: 消耗
+		}
+
+		4: {
+			// OldString: " Ki "
+			NewString: 气
+		}
+
+		5: {
+			// OldString: TechniqueType
+			// NewString: TechniqueType
+		}
+
+		6: {
+			// OldString: " Technique "
+			NewString: 技术
+		}
+
+		7: {
+			// OldString: LegendaryTooltip
+			// NewString: LegendaryTooltip
+		}
+
+		8: {
+			// OldString: Being a legend makes this weapon even stronger!
+			NewString: 处于传说赛亚人形态使武器更为强大！
+		}
+	}
+}
+
+Effects: {
+	Animations: {
+		Aura: {
+			CustomAuraAnimations: {
+				GetAnimationSpriteName: {
+					1: {
+						// OldString: Effects/Animations/Aura/{0}
+						// NewString: Effects/Animations/Aura/{0}
+					}
+				}
+			}
+		}
+	}
+}
+
+Util: {
+	AngelicTrait: {
+		Name: {
+			1: {
+				// OldString: Angelic
+				// NewString: Angelic
+			}
+		}
+	}
+
+	DBCATree: {
+		Name: {
+			1: {
+				// OldString: DBCA Forms
+				// NewString: DBCA Forms
+			}
+		}
+
+		Nodes: {
+			1: {
+				// OldString: UEBuff
+				// NewString: UEBuff
+			}
+
+			2: {
+				// OldString: dbzcalamityUTD/UI/Buttons/UEButtonImage
+				// NewString: dbzcalamityUTD/UI/Buttons/UEButtonImage
+			}
+
+			3: {
+				// OldString: Through victory against the sentinels of the devourer can pave the way for power.
+				// NewString: Through victory against the sentinels of the devourer can pave the way for power.
+			}
+
+			4: {
+				// OldString: PUIBuff
+				// NewString: PUIBuff
+			}
+
+			5: {
+				// OldString: dbzcalamityUTD/UI/Buttons/PUIButtonImage
+				// NewString: dbzcalamityUTD/UI/Buttons/PUIButtonImage
+			}
+
+			6: {
+				// OldString: Confrontation against the embodiment of folly can awaken divine instinct.
+				// NewString: Confrontation against the embodiment of folly can awaken divine instinct.
+			}
+
+			7: {
+				// OldString: UIBuff
+				// NewString: UIBuff
+			}
+
+			8: {
+				// OldString: dbzcalamityUTD/UI/Buttons/UIButtonImage
+				// NewString: dbzcalamityUTD/UI/Buttons/UIButtonImage
+			}
+
+			9: {
+				// OldString: Through defeat of the wyrm of the sulphuric seas one attain heightened combat instinct.
+				// NewString: Through defeat of the wyrm of the sulphuric seas one attain heightened combat instinct.
+			}
+		}
+	}
+}
+
+Tiles: {
+	SuperTable: {
+		SetStaticDefaults: {
+			1: {
+				// OldString: DBZMODPORT
+				// NewString: DBZMODPORT
+			}
+
+			2: {
+				// OldString: KaiTable
+				// NewString: KaiTable
+			}
+
+			3: {
+				// OldString: ZTable
+				// NewString: ZTable
+			}
+		}
+	}
+}
+
+Projectiles: {
+	DivineWrathBall: {
+		AI: {
+			1: {
+				// OldString: dbzcalamityUTD/Sounds/SuperNovaCharge
+				// NewString: dbzcalamityUTD/Sounds/SuperNovaCharge
+			}
+
+			2: {
+				// OldString: dbzcalamityUTD/Sounds/SuperNovaThrow
+				// NewString: dbzcalamityUTD/Sounds/SuperNovaThrow
+			}
+		}
+	}
+
+	GalacticDonutProj: {
+		OnHitNPC: {
+			1: {
+				// OldString: GalacticDonutDebuff
+				// NewString: GalacticDonutDebuff
+			}
+		}
+
+		OnHitPlayer: {
+			1: {
+				// OldString: GalacticDonutDebuff
+				// NewString: GalacticDonutDebuff
+			}
+		}
+	}
+
+	InfiniteBlast: {
+		OnKill: {
+			1: {
+				// OldString: ""
+				// NewString: ""
+			}
+		}
+	}
+
+	LegendaryBomb: {
+		OnKill: {
+			1: {
+				// OldString: LegendaryBombExplosion
+				// NewString: LegendaryBombExplosion
+			}
+		}
+	}
+
+	LegendaryExplosion: {
+		AI: {
+			1: {
+				// OldString: dbzcalamityUTD/Sounds/SpiritBombCharge
+				// NewString: dbzcalamityUTD/Sounds/SpiritBombCharge
+			}
+
+			2: {
+				// OldString: dbzcalamityUTD/Sounds/SpiritBombFire
+				// NewString: dbzcalamityUTD/Sounds/SpiritBombFire
+			}
+		}
+	}
+
+	MasteredKiBeam: {
+		AI: {
+			1: {
+				// OldString: DBZMODPORT
+				// NewString: DBZMODPORT
+			}
+
+			2: {
+				// OldString: KiBeamProjectile
+				// NewString: KiBeamProjectile
+			}
+		}
+	}
+
+	NeoSpiritBallMini: {
+		AI: {
+			1: {
+				// OldString: NeoSpiritBallProjectile
+				// NewString: NeoSpiritBallProjectile
+			}
+		}
+	}
+
+	PowerPoleProjectile: {
+		AI: {
+			1: {
+				// OldString: PowerPole
+				// NewString: PowerPole
+			}
+		}
+	}
+
+	StormArrow: {
+		AI: {
+			1: {
+				// OldString: StormFireBuff
+				// NewString: StormFireBuff
+			}
+
+			2: {
+				// OldString: +0.1 s
+				// NewString: +0.1 s
+			}
+		}
+	}
+
+	Kamehamehas: {
+		SupremeKamehameha: {
+			SupremeKamehamehaBeam: {
+				SetDefaults: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+						// NewString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+					}
+				}
+			}
+
+			SupremeKamehamehaCharge: {
+				SetDefaults: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+						// NewString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+					}
+				}
+			}
+		}
+
+		MasteredBeam: {
+			MasteredBeamBeam: {
+				SetDefaults: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+						// NewString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+					}
+				}
+
+				OnHitNPC: {
+					1: {
+						// OldString: MasteredKiBeam
+						// NewString: MasteredKiBeam
+					}
+				}
+			}
+
+			MasteredBeamCharge: {
+				SetDefaults: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+						// NewString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+					}
+				}
+			}
+		}
+
+		BloodyKamehamehaX10: {
+			BloodyKamehamehaX10Beam: {
+				SetDefaults: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+						// NewString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+					}
+				}
+			}
+
+			BloodyKamehamehaX10Charge: {
+				SetDefaults: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+						// NewString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+					}
+				}
+			}
+		}
+
+		BlackKamehameha: {
+			BlackKamehamehaBeam: {
+				SetDefaults: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+						// NewString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+					}
+				}
+			}
+
+			BlackKamehamehaCharge: {
+				SetDefaults: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+						// NewString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+					}
+				}
+			}
+		}
+	}
+
+	SpiritBombs: {
+		EndlessDestructionBall: {
+			AI: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/SpiritBombCharge
+					// NewString: dbzcalamityUTD/Sounds/SpiritBombCharge
+				}
+
+				2: {
+					// OldString: dbzcalamityUTD/Sounds/SpiritBombFire
+					// NewString: dbzcalamityUTD/Sounds/SpiritBombFire
+				}
+			}
+		}
+
+		LegendaryCrusherBall: {
+			AI: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/SpiritBombCharge
+					// NewString: dbzcalamityUTD/Sounds/SpiritBombCharge
+				}
+
+				2: {
+					// OldString: dbzcalamityUTD/Sounds/SpiritBombFire
+					// NewString: dbzcalamityUTD/Sounds/SpiritBombFire
+				}
+			}
+		}
+
+		SuperUltraSpiritBombBall: {
+			AI: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/SpiritBombCharge
+					// NewString: dbzcalamityUTD/Sounds/SpiritBombCharge
+				}
+
+				2: {
+					// OldString: dbzcalamityUTD/Sounds/SpiritBombFire
+					// NewString: dbzcalamityUTD/Sounds/SpiritBombFire
+				}
+			}
+		}
+	}
+
+	OtherBeams: {
+		AngelicBeamBeam: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+					// NewString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+				}
+			}
+		}
+
+		AngelicBeamCharge: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+					// NewString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+				}
+			}
+		}
+
+		BloodMassacreBeam: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+					// NewString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+				}
+			}
+		}
+
+		BloodMassacreCharge: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+					// NewString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+				}
+			}
+		}
+
+		EndlessMondayBeam: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+					// NewString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+				}
+			}
+		}
+
+		EndlessMondayCharge: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+					// NewString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+				}
+			}
+		}
+
+		LegendaryCannonBeam: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+					// NewString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+				}
+			}
+		}
+
+		LegendaryCannonCharge: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+					// NewString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+				}
+			}
+		}
+
+		MultipleMasenkoBeam: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/MultipleMasenkoFire
+					// NewString: dbzcalamityUTD/Sounds/MultipleMasenkoFire
+				}
+			}
+		}
+
+		SingleMondayBeam: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+					// NewString: dbzcalamityUTD/Sounds/Kamehameha10Fire
+				}
+			}
+		}
+
+		SingleMondayCharge: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+					// NewString: dbzcalamityUTD/Sounds/Kamehameha10Charge
+				}
+			}
+		}
+	}
+
+	FireBreath: {
+		FireBreathProj: {
+			AI: {
+				1: {
+					// OldString: FireBreathTrail
+					// NewString: FireBreathTrail
+				}
+			}
+		}
+	}
+}
+
+NPCs: {
+	ElderMoori: {
+		SetNPCNameList: {
+			1: {
+				// OldString: Grand Elder Moori
+				NewString: 大长老穆利
+			}
+		}
+
+		GetChat: {
+			1: {
+				// OldString: I wish I could've golfed back on Namek.
+				NewString: 我真希望我当初能在那美克星打高尔夫。
+			}
+
+			2: {
+				// OldString: Do you know about the Namekian dragon balls?
+				NewString: 你知道那美克星龙珠吗？
+			}
+
+			3: {
+				// OldString: I guess this place is ok, but I prefer the green sky of Namek.
+				NewString: 我觉得这地方还行，但我更喜欢那美克星的绿色天空。
+			}
+
+			4: {
+				// OldString: This... Hallow.  It makes me feel like I'm back on Namek.
+				NewString: 这片……神圣之地。让我感觉像回到了那美克星。
+			}
+
+			5: {
+				// OldString: I've got some cool stuff to show you!
+				NewString: 我有一些很酷的东西要给你看！
+			}
+
+			6: {
+				// OldString: I never thought I'd see the mythical Super Saiyan.
+				NewString: 我从没想过能见到传说中的超级赛亚人。
+			}
+		}
+
+		SetChatButtons: {
+			1: {
+				// OldString: Shop
+				NewString: 商店
+			}
+		}
+
+		OnChatButtonClicked: {
+			1: {
+				// OldString: Shop
+				// NewString: Shop
+			}
+		}
+
+		AddShops: {
+			1: {
+				// OldString: Shop
+				// NewString: Shop
+			}
+		}
+
+		SetBestiary: {
+			1: {
+				// OldString: The Elder of one of the Namekian villages.  He happens to enjoy golfing, as well as collecting Dragon Balls.
+				NewString: 那美克星某个村庄的长老。他碰巧喜欢打高尔夫，也喜欢收集龙珠。
+			}
+		}
+	}
+
+	GreenWyvernHead: {
+		SpawnChance: {
+			1: {
+				// OldString: CalamityMod
+				// NewString: CalamityMod
+			}
+
+			2: {
+				// OldString: GetBossDowned
+				// NewString: GetBossDowned
+			}
+
+			3: {
+				// OldString: devourerofgods
+				// NewString: devourerofgods
+			}
+		}
+	}
+
+	Zeno: {
+		SetDefaults: {
+			1: {
+				// OldString: CalamityMod
+				// NewString: CalamityMod
+			}
+
+			2: {
+				// OldString: SetDamageReduction
+				// NewString: SetDamageReduction
+			}
+		}
+
+		SetNPCNameList: {
+			1: {
+				// OldString: Grand Zeno
+				NewString: 全王
+			}
+		}
+
+		GetChat: {
+			1: {
+				// OldString: Are you going to try the boss rush again?
+				NewString: 你又要去尝试Boss Rush了吗？
+			}
+
+			2: {
+				// OldString: Peepee poopoo.
+				NewString: Peepee poopoo。
+			}
+
+			3: {
+				// OldString: Have you opened a [i:
+				NewString: 你还没打开过[i:
+			}
+
+			4: {
+				// OldString: KiCrystalBag
+				// NewString: KiCrystalBag
+			}
+
+			5: {
+				// OldString: "] yet?"
+				NewString: "]吗？"
+			}
+
+			6: {
+				// OldString: It was fun seeing you fight!
+				NewString: 看你在战斗真是有趣
+			}
+
+			7: {
+				// OldString: Have you gotten stronger?
+				NewString: 你变强了吗？
+			}
+
+			8: {
+				// OldString: Please don't attempt to kill me.
+				NewString: 请不要试图杀我。
+			}
+
+			9: {
+				// OldString: Hey, do you want to be my friend? Take this [i:
+				NewString: 嘿，你想和我做朋友吗？拿着这个[i:
+			}
+
+			10: {
+				// OldString: ZenosButton
+				// NewString: ZenosButton
+			}
+
+			11: {
+				// OldString: "]!"
+				NewString: "]！"
+			}
+		}
+
+		SetChatButtons: {
+			1: {
+				// OldString: Shop
+				NewString: 商店
+			}
+		}
+
+		OnChatButtonClicked: {
+			1: {
+				// OldString: Shop
+				// NewString: Shop
+			}
+		}
+
+		AddShops: {
+			1: {
+				// OldString: Shop
+				// NewString: Shop
+			}
+		}
+
+		TownNPCAttackProj: {
+			1: {
+				// OldString: ZenoBlast
+				// NewString: ZenoBlast
+			}
+		}
+
+		SetBestiary: {
+			1: {
+				// OldString: The Omni-King is the supreme ruler of all the Multiverse and seemingly its most powerful being.
+				NewString: 全王是所有多元宇宙的至高统治者，似乎也是其中最为强大的存在。
+			}
+		}
+	}
+}
+
+Network: {
+	PlayerPacketHandler: {
+		ReceiveFormUnlock: {
+			1: {
+				// OldString: The thrill of combat quiets to a lull of instinct.
+				NewString: 战斗的狂热渐渐消散，只剩下本能的静默
+			}
+
+			2: {
+				// OldString: The purity of the heavens empties your mind.
+				NewString: 天堂的纯净涤净了你的思绪
+			}
+
+			3: {
+				// OldString: The destructive tendencies of the gods compel you.
+				NewString: 神明的毁灭本性驱使着你
+			}
+		}
+	}
+}
+
+Items: {
+	SuperTableItem: {
+		SetDefaults: {
+			1: {
+				// OldString: SuperTable
+				// NewString: SuperTable
+			}
+		}
+
+		AddRecipes: {
+			1: {
+				// OldString: DBZMODPORT
+				// NewString: DBZMODPORT
+			}
+
+			2: {
+				// OldString: CalamityMod
+				// NewString: CalamityMod
+			}
+
+			3: {
+				// OldString: KaiTableItem
+				// NewString: KaiTableItem
+			}
+
+			4: {
+				// OldString: GodlyKiCrystal
+				// NewString: GodlyKiCrystal
+			}
+
+			5: {
+				// OldString: UeliaceBar
+				// NewString: UeliaceBar
+			}
+
+			6: {
+				// OldString: CosmiliteBar
+				// NewString: CosmiliteBar
+			}
+		}
+	}
+
+	ZRelicTile: {
+		get_RelicTextureName: {
+			1: {
+				// OldString: dbzcalamityUTD/Items/ZRelicTile
+				// NewString: dbzcalamityUTD/Items/ZRelicTile
+			}
+		}
+
+		get_Texture: {
+			1: {
+				// OldString: dbzcalamityUTD/Items/RelicPedestal
+				// NewString: dbzcalamityUTD/Items/RelicPedestal
+			}
+		}
+
+		SetStaticDefaults: {
+			1: {
+				// OldString: Z-Relic
+				// NewString: Z-Relic
+			}
+		}
+	}
+
+	Armor: {
+		CalamityHelmets: {
+			AerospecHood: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: AerospecBreastplate
+						// NewString: AerospecBreastplate
+					}
+
+					3: {
+						// OldString: AerospecLeggings
+						// NewString: AerospecLeggings
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						/* OldString:
+							'''
+							Taking over 25 damage in one hit will cause a spread of homing feathers to fall
+							Allows you to fall more quickly and disables fall damage
+							5% Increased ki crit chance and movement speed
+							Maximum Ki increased by 300.
+							''' */
+						NewString:
+							'''
+							一次性受到超过25点伤害会召唤追踪羽毛从天而降
+							增加下落速度，免疫摔落伤害
+							增加5%气暴击率和移动速度
+							增加300点最大气值
+							'''
+					}
+
+					3: {
+						// OldString: SetSetBonus
+						// NewString: SetSetBonus
+					}
+
+					4: {
+						// OldString: aeroSet
+						// NewString: aeroSet
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: AerialiteBar
+						// NewString: AerialiteBar
+					}
+				}
+			}
+
+			AuricTeslaBattleBand: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: AuricTeslaBodyArmor
+						// NewString: AuricTeslaBodyArmor
+					}
+
+					3: {
+						// OldString: AuricTeslaCuisses
+						// NewString: AuricTeslaCuisses
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						/* OldString:
+							'''
+							Tarragon, Bloodflare, God Slayer, and Silva armor effects
+							All projectiles spawn healing auric orbs on enemy hits
+							Max run speed and acceleration boosted by 10 % 
+							25% increased Ki damage and crit chance and 30% decreased Ki usage
+							+12 Maximum Charges
+							Strong beam attacks charge much faster
+							''' */
+						NewString:
+							'''
+							龙蒿套装、血炎套装和弑神者套装和始源林海套装的套装奖励
+							所有弹幕在命中敌怪时会生成治疗玩家的金源球
+							提升10%最大奔跑速度和加速度
+							增加25%气伤害和暴击率
+							减少30%气消耗
+							增加12点武器最大蓄力段数
+							提升气功波类攻击蓄力速度
+							'''
+					}
+
+					3: {
+						// OldString: SetSetBonus
+						// NewString: SetSetBonus
+					}
+
+					4: {
+						// OldString: auric
+						// NewString: auric
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: SilvaHeadgear
+						// NewString: SilvaHeadgear
+					}
+
+					3: {
+						// OldString: GodSlayerHood
+						// NewString: GodSlayerHood
+					}
+
+					4: {
+						// OldString: BloodflareDemonHead
+						// NewString: BloodflareDemonHead
+					}
+
+					5: {
+						// OldString: TarragonHood
+						// NewString: TarragonHood
+					}
+
+					6: {
+						// OldString: AuricBar
+						// NewString: AuricBar
+					}
+
+					7: {
+						// OldString: CosmicAnvil
+						// NewString: CosmicAnvil
+					}
+				}
+			}
+
+			BloodflareDemonHead: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: BloodflareBodyArmor
+						// NewString: BloodflareBodyArmor
+					}
+
+					3: {
+						// OldString: BloodflareCuisses
+						// NewString: BloodflareCuisses
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						/* OldString:
+							'''
+							Greatly increases life regen
+							Enemies below 50 % life have a chance to drop hearts, mana stars and ki orbs when struck
+							35% Decreased Ki usage
+							+6 Maximum Charges
+							Attacks drain 40% less ki while transformed
+							Pressing 'Special Attack' will shoot a blast that heals on hit
+							''' */
+						NewString:
+							'''
+							大幅提升生命再生速度
+							击中一个生命值低于50%的敌怪有概率掉落红心、魔力星和气珠
+							减少35%气消耗
+							增加6点武器最大蓄力段数
+							变身后降低40%气消耗
+							按下 [特殊攻击] 键释放命中时治疗玩家的血炎气弹
+							'''
+					}
+
+					3: {
+						// OldString: SetSetBonus
+						// NewString: SetSetBonus
+					}
+
+					4: {
+						// OldString: bloodflare
+						// NewString: bloodflare
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: BloodstoneCore
+						// NewString: BloodstoneCore
+					}
+
+					3: {
+						// OldString: RuinousSoul
+						// NewString: RuinousSoul
+					}
+				}
+			}
+
+			DaedalusBand: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: DaedalusBreastplate
+						// NewString: DaedalusBreastplate
+					}
+
+					3: {
+						// OldString: DaedalusLeggings
+						// NewString: DaedalusLeggings
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* OldString:
+							'''
+							You have a 20% chance to absorb attacks
+							Getting hit gives you ki based on the damage
+							Absorbed attacks give five times more ki
+							Increased ki regen
+							Maximum Ki increased by 1250.
+							''' */
+						NewString:
+							'''
+							有20%概率吸收攻击
+							根据受到的伤害回复你一定量的气
+							吸收攻击时提供5倍的气
+							提升气回复速度
+							增加1250点最大气值
+							'''
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: VerstaltiteBar
+						// NewString: VerstaltiteBar
+					}
+
+					3: {
+						// OldString: EssenceofEleum
+						// NewString: EssenceofEleum
+					}
+				}
+			}
+
+			GodSlayerHood: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: GodSlayerChestplate
+						// NewString: GodSlayerChestplate
+					}
+
+					3: {
+						// OldString: GodSlayerLeggings
+						// NewString: GodSlayerLeggings
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						/* OldString:
+							'''
+							+10 Maximum Charges
+							Strong beam attacks charge much faster
+							Hits might give a special debuff that deals damage and gives you ki
+							Taking heavy damage recovers a large portion of your ki
+							''' */
+						NewString:
+							'''
+							增加10点武器最大蓄力段数
+							提升气功波类攻击蓄力速度
+							击中时会施加特殊减益，造成伤害并提供你气
+							受到超过100点伤害时会回复大量气
+							'''
+					}
+
+					3: {
+						// OldString: SetSetBonus
+						// NewString: SetSetBonus
+					}
+
+					4: {
+						// OldString: godslayer
+						// NewString: godslayer
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CosmiliteBar
+						// NewString: CosmiliteBar
+					}
+
+					3: {
+						// OldString: AscendantSpiritEssence
+						// NewString: AscendantSpiritEssence
+					}
+
+					4: {
+						// OldString: CosmicAnvil
+						// NewString: CosmicAnvil
+					}
+				}
+			}
+
+			HydrothermicBand: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: AtaxiaArmor
+						// NewString: AtaxiaArmor
+					}
+
+					3: {
+						// OldString: AtaxiaSubligar
+						// NewString: AtaxiaSubligar
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						/* OldString:
+							'''
+							Inferno effect at below 50% life
+							You have a 20% chance to emit a blazing explosion when you are hit
+							Ki Attacks create either a damaging or a ki repleneshing orb
+							8% Increased Ki Damage
+							Increased passive ki regen
+							Maximum Ki increased by 1850.
+							''' */
+						NewString:
+							'''
+							生命值低于50%时获得狱火药水效果
+							你受伤时有20%的概率会在原地产生一场烈焰爆炸
+							气攻击会生成一个造成伤害或回复气的光球
+							增加8%气伤害
+							提升气回复速度
+							增加1850点最大气值
+							'''
+					}
+
+					3: {
+						// OldString: SetSetBonus
+						// NewString: SetSetBonus
+					}
+
+					4: {
+						// OldString: hydrothermic
+						// NewString: hydrothermic
+					}
+
+					5: {
+						// OldString: MakeHeatImmune
+						// NewString: MakeHeatImmune
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CruptixBar
+						// NewString: CruptixBar
+					}
+
+					3: {
+						// OldString: EssenceofHavoc
+						// NewString: EssenceofHavoc
+					}
+				}
+			}
+
+			ReaverHood: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: ReaverScaleMail
+						// NewString: ReaverScaleMail
+					}
+
+					3: {
+						// OldString: ReaverCuisses
+						// NewString: ReaverCuisses
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* OldString:
+							'''
+							Your attacks have a chance to shoot an additional ki bullet
+							Increased ki regen
+							Maximum Ki increased by 1300.
+							''' */
+						NewString:
+							'''
+							你的攻击有概率射出额外的气子弹
+							提升气回复速度
+							增加1300点最大气值
+							'''
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: DraedonBar
+						// NewString: DraedonBar
+					}
+
+					3: {
+						// OldString: EssenceofCinder
+						// NewString: EssenceofCinder
+					}
+				}
+			}
+
+			SilvaHeadgear: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: SilvaArmor
+						// NewString: SilvaArmor
+					}
+
+					3: {
+						// OldString: SilvaLeggings
+						// NewString: SilvaLeggings
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						/* OldString:
+							'''
+
+							All projectiles spawn healing leaf orbs on enemy hits
+							Max run speed and acceleration boosted by 5 %
+							If you are reduced to 1 HP, you will not die from any further damage for 10 seconds
+							If you get reduced to 1 HP again while this effect is active you will lose 100 max life
+							This effect only triggers once per life and if you are reduced to 400 max life the invincibility effect will stop
+							Your max life will return to normal if you die
+							+6 Maximum Charges
+							Strong beam attacks charge much faster
+							Your attacks have a chance to regenerate your ki and health
+							After the Silva invulnerability time your ki weapons will do 10% more damage
+							''' */
+						NewString:
+							'''
+
+							所有弹幕在命中敌怪时会生成治疗玩家的林海光球
+							提升5%最大奔跑速度和加速度
+							
+							Max run speed and acceleration boosted by 5 %
+							If you are reduced to 1 HP, you will not die from any further damage for 10 seconds
+							If you get reduced to 1 HP again while this effect is active you will lose 100 max life
+							This effect only triggers once per life and if you are reduced to 400 max life the invincibility effect will stop
+							Your max life will return to normal if you die
+							+6 Maximum Charges
+							Strong beam attacks charge much faster
+							Your attacks have a chance to regenerate your ki and health
+							After the Silva invulnerability time your ki weapons will do 10% more damage
+							'''
+					}
+
+					3: {
+						// OldString: SetSetBonus
+						// NewString: SetSetBonus
+					}
+
+					4: {
+						// OldString: silva
+						// NewString: silva
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: EffulgentFeather
+						// NewString: EffulgentFeather
+					}
+
+					3: {
+						// OldString: AnyGoldBar
+						// NewString: AnyGoldBar
+					}
+
+					4: {
+						// OldString: PlantyMush
+						// NewString: PlantyMush
+					}
+
+					5: {
+						// OldString: AscendantSpiritEssence
+						// NewString: AscendantSpiritEssence
+					}
+
+					6: {
+						// OldString: CosmicAnvil
+						// NewString: CosmicAnvil
+					}
+				}
+			}
+
+			StatigelBand: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: StatigelArmor
+						// NewString: StatigelArmor
+					}
+
+					3: {
+						// OldString: StatigelGreaves
+						// NewString: StatigelGreaves
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						/* OldString:
+							'''
+							When you take over 100 damage in one hit you become immune to damage for an extended period of time
+							Grants an extra jump and increased jump height
+							30% increased jump speed
+							-5% Decreased Ki usage
+							Maximum Ki increased by 500.
+							''' */
+						/* NewString:
+							'''
+							When you take over 100 damage in one hit you become immune to damage for an extended period of time
+							Grants an extra jump and increased jump height
+							30% increased jump speed
+							-5% Decreased Ki usage
+							Maximum Ki increased by 500.
+							''' */
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: PurifiedGel
+						// NewString: PurifiedGel
+					}
+
+					3: {
+						// OldString: StaticRefiner
+						// NewString: StaticRefiner
+					}
+				}
+			}
+
+			TarragonHood: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: TarragonBreastplate
+						// NewString: TarragonBreastplate
+					}
+
+					3: {
+						// OldString: TarragonLeggings
+						// NewString: TarragonLeggings
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						/* OldString:
+							'''
+							Reduces enemy spawn rates
+							Increased heart pickup range
+							Enemies have a chance to drop extra hearts on death
+							13% Increased Ki Damage
+							15% Decreased Ki usage
+							+2 Maximum Charges
+							Pressing `Armor Bonus` rapidly converts ki into health
+							''' */
+						/* NewString:
+							'''
+							Reduces enemy spawn rates
+							Increased heart pickup range
+							Enemies have a chance to drop extra hearts on death
+							13% Increased Ki Damage
+							15% Decreased Ki usage
+							+2 Maximum Charges
+							Pressing `Armor Bonus` rapidly converts ki into health
+							''' */
+					}
+
+					3: {
+						// OldString: SetSetBonus
+						// NewString: SetSetBonus
+					}
+
+					4: {
+						// OldString: tarragon
+						// NewString: tarragon
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: UeliaceBar
+						// NewString: UeliaceBar
+					}
+
+					3: {
+						// OldString: DivineGeode
+						// NewString: DivineGeode
+					}
+				}
+			}
+
+			VictideHood: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: VictideBreastplate
+						// NewString: VictideBreastplate
+					}
+
+					3: {
+						// OldString: VictideLeggings
+						// NewString: VictideLeggings
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						/* OldString:
+							'''
+							When using any weapon you have a 10% chance to throw a returning seashell projectile
+							This seashell does true damage and does not benefit from any damage class
+							Provides increased underwater mobility and slightly reduces breath loss in the abyss
+							Increased life regen, ki damage and regen while submerged in a liquid
+							Maximum Ki increased by 250.
+							''' */
+						/* NewString:
+							'''
+							When using any weapon you have a 10% chance to throw a returning seashell projectile
+							This seashell does true damage and does not benefit from any damage class
+							Provides increased underwater mobility and slightly reduces breath loss in the abyss
+							Increased life regen, ki damage and regen while submerged in a liquid
+							Maximum Ki increased by 250.
+							''' */
+					}
+
+					3: {
+						// OldString: SetSetBonus
+						// NewString: SetSetBonus
+					}
+
+					4: {
+						// OldString: victide
+						// NewString: victide
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: VictideBar
+						// NewString: VictideBar
+					}
+				}
+			}
+
+			WulfrumHood: {
+				IsArmorSet: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: WulfrumArmor
+						// NewString: WulfrumArmor
+					}
+
+					3: {
+						// OldString: WulfrumLeggings
+						// NewString: WulfrumLeggings
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* OldString:
+							'''
+							+3 defense
+							+5 defense when below 50% life
+							Maximum Ki increased by 150.
+							''' */
+						/* NewString:
+							'''
+							+3 defense
+							+5 defense when below 50% life
+							Maximum Ki increased by 150.
+							''' */
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: WulfrumShard
+						// NewString: WulfrumShard
+					}
+
+					3: {
+						// OldString: EnergyCore
+						// NewString: EnergyCore
+					}
+				}
+			}
+		}
+
+		ArmorSets: {
+			AngelGleaves: {
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CalamitousEssence
+						// NewString: CalamitousEssence
+					}
+
+					3: {
+						// OldString: IncrediblyDivineThreads
+						// NewString: IncrediblyDivineThreads
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			AngelRing: {
+				IsArmorSet: {
+					1: {
+						// OldString: AngelRobes
+						// NewString: AngelRobes
+					}
+
+					2: {
+						// OldString: AngelGleaves
+						// NewString: AngelGleaves
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* OldString:
+							'''
+							34% Increased Ki damage
+							+14% Ki Crit rate
+							15% Decreased Ki usage
+							Damage increases the longer you don't get hit
+							+9 Maximum Charges
+							Increases defense by 20%
+							Slightly boosts damage based on defense
+							+3% Dodge chance
+							''' */
+						/* NewString:
+							'''
+							34% Increased Ki damage
+							+14% Ki Crit rate
+							15% Decreased Ki usage
+							Damage increases the longer you don't get hit
+							+9 Maximum Charges
+							Increases defense by 20%
+							Slightly boosts damage based on defense
+							+3% Dodge chance
+							''' */
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CalamitousEssence
+						// NewString: CalamitousEssence
+					}
+
+					3: {
+						// OldString: IncrediblyDivineThreads
+						// NewString: IncrediblyDivineThreads
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			AngelRobes: {
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CalamitousEssence
+						// NewString: CalamitousEssence
+					}
+
+					3: {
+						// OldString: IncrediblyDivineThreads
+						// NewString: IncrediblyDivineThreads
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			DestructionGodBottoms: {
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: ExoPrism
+						// NewString: ExoPrism
+					}
+
+					3: {
+						// OldString: IncrediblyDivineThreads
+						// NewString: IncrediblyDivineThreads
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			DestructionGodTop: {
+				IsArmorSet: {
+					1: {
+						// OldString: DestructionGodBottoms
+						// NewString: DestructionGodBottoms
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* OldString:
+							'''
+							26% Increased Ki damage
+							+7% Ki Crit rate
+							14% Decreased Ki usage
+							+6 Maximum Charges
+							Strong beam attacks have their charge speed further increased
+							Pressing `Armor Bonus` drains half your current health but increases your damage for a short while
+							This can't be used be if your HP is below 30%
+							Damage increases at lower HP
+							Decreases max HP by 25%
+							The amount of HP decreased also increases damage and crit chance
+							Boosts Ultra Ego in max damage boost and damage boost gain
+							''' */
+						/* NewString:
+							'''
+							26% Increased Ki damage
+							+7% Ki Crit rate
+							14% Decreased Ki usage
+							+6 Maximum Charges
+							Strong beam attacks have their charge speed further increased
+							Pressing `Armor Bonus` drains half your current health but increases your damage for a short while
+							This can't be used be if your HP is below 30%
+							Damage increases at lower HP
+							Decreases max HP by 25%
+							The amount of HP decreased also increases damage and crit chance
+							Boosts Ultra Ego in max damage boost and damage boost gain
+							''' */
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: ExoPrism
+						// NewString: ExoPrism
+					}
+
+					3: {
+						// OldString: IncrediblyDivineThreads
+						// NewString: IncrediblyDivineThreads
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			DragonHelm: {
+				IsArmorSet: {
+					1: {
+						// OldString: DragonScalemail
+						// NewString: DragonScalemail
+					}
+
+					2: {
+						// OldString: DragonScalelegs
+						// NewString: DragonScalelegs
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* OldString:
+							'''
+							Increases the effectivity of power wishes
+							Creates a small dragon that attacks enemies
+							Attacks have a chance to create an explosion
+							8% Increased Ki damage and crit rate
+							18% Decreased Ki usage
+							''' */
+						/* NewString:
+							'''
+							Increases the effectivity of power wishes
+							Creates a small dragon that attacks enemies
+							Attacks have a chance to create an explosion
+							8% Increased Ki damage and crit rate
+							18% Decreased Ki usage
+							''' */
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CosmiliteBar
+						// NewString: CosmiliteBar
+					}
+
+					3: {
+						// OldString: GreenDragonScale
+						// NewString: GreenDragonScale
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			DragonScalelegs: {
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CosmiliteBar
+						// NewString: CosmiliteBar
+					}
+
+					3: {
+						// OldString: GreenDragonScale
+						// NewString: GreenDragonScale
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			DragonScalemail: {
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: CosmiliteBar
+						// NewString: CosmiliteBar
+					}
+
+					3: {
+						// OldString: GreenDragonScale
+						// NewString: GreenDragonScale
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			EnoflameBand: {
+				IsArmorSet: {
+					1: {
+						// OldString: EnoflameBreastplate
+						// NewString: EnoflameBreastplate
+					}
+
+					2: {
+						// OldString: EnoflameLeggings
+						// NewString: EnoflameLeggings
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* OldString:
+							'''
+							Attacks occassionally spawn 6 swords
+							These swords attack the targeted enemy
+							Pressing `Armor Bonus` increases your Ki damage and usage for a short while
+							+1500 Max Ki
+							''' */
+						/* NewString:
+							'''
+							Attacks occassionally spawn 6 swords
+							These swords attack the targeted enemy
+							Pressing `Armor Bonus` increases your Ki damage and usage for a short while
+							+1500 Max Ki
+							''' */
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: DivineGeode
+						// NewString: DivineGeode
+					}
+
+					3: {
+						// OldString: EnothermicBar
+						// NewString: EnothermicBar
+					}
+				}
+			}
+
+			EnoflameBreastplate: {
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: DivineGeode
+						// NewString: DivineGeode
+					}
+
+					3: {
+						// OldString: EnothermicBar
+						// NewString: EnothermicBar
+					}
+				}
+			}
+
+			EnoflameLeggings: {
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: DivineGeode
+						// NewString: DivineGeode
+					}
+
+					3: {
+						// OldString: EnothermicBar
+						// NewString: EnothermicBar
+					}
+				}
+			}
+
+			LegendaryDragonHelm: {
+				IsArmorSet: {
+					1: {
+						// OldString: LegendaryDragonScalemail
+						// NewString: LegendaryDragonScalemail
+					}
+
+					2: {
+						// OldString: LegendaryDragonScalelegs
+						// NewString: LegendaryDragonScalelegs
+					}
+				}
+
+				UpdateArmorSet: {
+					1: {
+						/* OldString:
+							'''
+							Power wishes now grant you incredible power
+							Creates a dragon that attacks enemies
+							Attacks have a chance to create a large explosion
+							Strength from near-death fights is 1.5x bigger
+							14% Increased Ki damage
+							+10% Ki Crit rate
+							24% Decreased Ki usage
+							''' */
+						/* NewString:
+							'''
+							Power wishes now grant you incredible power
+							Creates a dragon that attacks enemies
+							Attacks have a chance to create a large explosion
+							Strength from near-death fights is 1.5x bigger
+							14% Increased Ki damage
+							+10% Ki Crit rate
+							24% Decreased Ki usage
+							''' */
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: RedDragonScale
+						// NewString: RedDragonScale
+					}
+
+					2: {
+						// OldString: DragonHelm
+						// NewString: DragonHelm
+					}
+
+					3: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			LegendaryDragonScalelegs: {
+				AddRecipes: {
+					1: {
+						// OldString: RedDragonScale
+						// NewString: RedDragonScale
+					}
+
+					2: {
+						// OldString: DragonScalelegs
+						// NewString: DragonScalelegs
+					}
+
+					3: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			LegendaryDragonScalemail: {
+				AddRecipes: {
+					1: {
+						// OldString: RedDragonScale
+						// NewString: RedDragonScale
+					}
+
+					2: {
+						// OldString: DragonScalemail
+						// NewString: DragonScalemail
+					}
+
+					3: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+		}
+	}
+
+	Weapons: {
+		PowerPole: {
+			SetDefaults: {
+				1: {
+					// OldString: PowerPoleProjectile
+					// NewString: PowerPoleProjectile
+				}
+			}
+		}
+
+		ZenoOnAStick: {
+			SetDefaults: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/SwordSlash
+					// NewString: dbzcalamityUTD/Sounds/SwordSlash
+				}
+			}
+		}
+
+		Tier_9: {
+			BloodyKamehamehaX10: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: BloodyKamehamehaX10Charge
+						// NewString: BloodyKamehamehaX10Charge
+					}
+
+					2: {
+						// OldString: Beam
+						// NewString: Beam
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: GodlyKiCrystal
+						// NewString: GodlyKiCrystal
+					}
+
+					3: {
+						// OldString: BlackKamehameha
+						// NewString: BlackKamehameha
+					}
+
+					4: {
+						// OldString: BloodMassacre
+						// NewString: BloodMassacre
+					}
+
+					5: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			CataclysmicOrb: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Barrage
+						// NewString: Barrage
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: GodlyKiCrystal
+						// NewString: GodlyKiCrystal
+					}
+
+					2: {
+						// OldString: DivineEnergy
+						// NewString: DivineEnergy
+					}
+
+					3: {
+						// OldString: GodSplitter
+						// NewString: GodSplitter
+					}
+
+					4: {
+						// OldString: DivineRetribution
+						// NewString: DivineRetribution
+					}
+
+					5: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			DivineWrath: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: DivineWrathBall
+						// NewString: DivineWrathBall
+					}
+
+					2: {
+						// OldString: Massive Blast
+						// NewString: Massive Blast
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: GodlyKiCrystal
+						// NewString: GodlyKiCrystal
+					}
+
+					3: {
+						// OldString: HolyWrath
+						// NewString: HolyWrath
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			EndlessMonday: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: EndlessMondayCharge
+						// NewString: EndlessMondayCharge
+					}
+
+					2: {
+						// OldString: Beam
+						// NewString: Beam
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: GodlyKiCrystal
+						// NewString: GodlyKiCrystal
+					}
+
+					2: {
+						// OldString: SoulofEternity
+						// NewString: SoulofEternity
+					}
+
+					3: {
+						// OldString: SingleMonday
+						// NewString: SingleMonday
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			GreatGodBlade: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/EnergyCharge
+						// NewString: dbzcalamityUTD/Sounds/EnergyCharge
+					}
+
+					2: {
+						// OldString: Blade
+						// NewString: Blade
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: GodlyKiCrystal
+						// NewString: GodlyKiCrystal
+					}
+
+					3: {
+						// OldString: CosmiliteBar
+						// NewString: CosmiliteBar
+					}
+
+					4: {
+						// OldString: GodSlicer
+						// NewString: GodSlicer
+					}
+
+					5: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			LegendaryBlaster: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Barrage
+						// NewString: Barrage
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: GodlyKiCrystal
+						// NewString: GodlyKiCrystal
+					}
+
+					2: {
+						// OldString: SoulofLegends
+						// NewString: SoulofLegends
+					}
+
+					3: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			NeoSpiritBall: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: NeoSpiritBallProjectile
+						// NewString: NeoSpiritBallProjectile
+					}
+
+					2: {
+						// OldString: Unique
+						// NewString: Unique
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					3: {
+						// OldString: GodlyKiCrystal
+						// NewString: GodlyKiCrystal
+					}
+
+					4: {
+						// OldString: CosmiliteBar
+						// NewString: CosmiliteBar
+					}
+
+					5: {
+						// OldString: SpiritBall
+						// NewString: SpiritBall
+					}
+
+					6: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			UnlimitedDonuts: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kiblast1
+						// NewString: dbzcalamityUTD/Sounds/Kiblast1
+					}
+
+					2: {
+						// OldString: Donut
+						// NewString: Donut
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: GodlyKiCrystal
+						// NewString: GodlyKiCrystal
+					}
+
+					2: {
+						// OldString: GalacticDonut
+						// NewString: GalacticDonut
+					}
+
+					3: {
+						// OldString: SuperDestructoDiskAssault
+						// NewString: SuperDestructoDiskAssault
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+		}
+
+		Tier_8: {
+			BloodMassacre: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: BloodMassacreCharge
+						// NewString: BloodMassacreCharge
+					}
+
+					2: {
+						// OldString: Beam
+						// NewString: Beam
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: WarmKiCrystal
+						// NewString: WarmKiCrystal
+					}
+
+					4: {
+						// OldString: BloodOrb
+						// NewString: BloodOrb
+					}
+
+					5: {
+						// OldString: BlightedFang
+						// NewString: BlightedFang
+					}
+
+					6: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			DeathSaucerGalaxy: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Disk
+						// NewString: Disk
+					}
+
+					2: {
+						// OldString: dbzcalamityUTD/Sounds/DiscFire
+						// NewString: dbzcalamityUTD/Sounds/DiscFire
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: WarmKiCrystal
+						// NewString: WarmKiCrystal
+					}
+
+					3: {
+						// OldString: SoulofDeath
+						// NewString: SoulofDeath
+					}
+
+					4: {
+						// OldString: SuperDestructoDiskAssault
+						// NewString: SuperDestructoDiskAssault
+					}
+
+					5: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			DivineRetribution: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Barrage
+						// NewString: Barrage
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: WarmKiCrystal
+						// NewString: WarmKiCrystal
+					}
+
+					4: {
+						// OldString: DivineEnergy
+						// NewString: DivineEnergy
+					}
+
+					5: {
+						// OldString: CoreofCalamity
+						// NewString: CoreofCalamity
+					}
+
+					6: {
+						// OldString: BlackBlitz
+						// NewString: BlackBlitz
+					}
+
+					7: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			GodSlicer: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: GodSlicerProj
+						// NewString: GodSlicerProj
+					}
+
+					2: {
+						// OldString: dbzcalamityUTD/Sounds/EnergyCharge
+						// NewString: dbzcalamityUTD/Sounds/EnergyCharge
+					}
+
+					3: {
+						// OldString: Blade
+						// NewString: Blade
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: WarmKiCrystal
+						// NewString: WarmKiCrystal
+					}
+
+					3: {
+						// OldString: DivineEnergy
+						// NewString: DivineEnergy
+					}
+
+					4: {
+						// OldString: EnergyBlade
+						// NewString: EnergyBlade
+					}
+
+					5: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			GodSplitter: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Barrage
+						// NewString: Barrage
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: WarmKiCrystal
+						// NewString: WarmKiCrystal
+					}
+
+					4: {
+						// OldString: DivineEnergy
+						// NewString: DivineEnergy
+					}
+
+					5: {
+						// OldString: BlackBlitz
+						// NewString: BlackBlitz
+					}
+
+					6: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			LegendaryBomb: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: LegendaryBomb
+						// NewString: LegendaryBomb
+					}
+
+					2: {
+						// OldString: Bomb
+						// NewString: Bomb
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: WarmKiCrystal
+						// NewString: WarmKiCrystal
+					}
+
+					3: {
+						// OldString: SoulofLegends
+						// NewString: SoulofLegends
+					}
+
+					4: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			RayGun: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Blast
+						// NewString: Blast
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: WarmKiCrystal
+						// NewString: WarmKiCrystal
+					}
+
+					3: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			SingleMonday: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: SingleMondayCharge
+						// NewString: SingleMondayCharge
+					}
+
+					2: {
+						// OldString: Beam
+						// NewString: Beam
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: WarmKiCrystal
+						// NewString: WarmKiCrystal
+					}
+
+					3: {
+						// OldString: DoubleSunday
+						// NewString: DoubleSunday
+					}
+
+					4: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			SpiritExcalibur: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: SpiritExcalibur
+						// NewString: SpiritExcalibur
+					}
+
+					2: {
+						// OldString: dbzcalamityUTD/Sounds/EnergyCharge
+						// NewString: dbzcalamityUTD/Sounds/EnergyCharge
+					}
+
+					3: {
+						// OldString: Blade
+						// NewString: Blade
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: WarmKiCrystal
+						// NewString: WarmKiCrystal
+					}
+
+					3: {
+						// OldString: DivineEnergy
+						// NewString: DivineEnergy
+					}
+
+					4: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+		}
+
+		Tier_7: {
+			BlackKamehameha: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: BlackKamehamehaCharge
+						// NewString: BlackKamehamehaCharge
+					}
+
+					2: {
+						// OldString: Beam
+						// NewString: Beam
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: ShiningKiCrystal
+						// NewString: ShiningKiCrystal
+					}
+
+					4: {
+						// OldString: UnholyEssence
+						// NewString: UnholyEssence
+					}
+
+					5: {
+						// OldString: Kamehamehax10
+						// NewString: Kamehamehax10
+					}
+
+					6: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			EnergyBlade: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: EnergyBladeProj
+						// NewString: EnergyBladeProj
+					}
+
+					2: {
+						// OldString: dbzcalamityUTD/Sounds/EnergyCharge
+						// NewString: dbzcalamityUTD/Sounds/EnergyCharge
+					}
+
+					3: {
+						// OldString: Blade
+						// NewString: Blade
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: ShiningKiCrystal
+						// NewString: ShiningKiCrystal
+					}
+
+					3: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			FireBreath: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kiblast1
+						// NewString: dbzcalamityUTD/Sounds/Kiblast1
+					}
+
+					2: {
+						// OldString: Breath
+						// NewString: Breath
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: ShiningKiCrystal
+						// NewString: ShiningKiCrystal
+					}
+
+					3: {
+						// OldString: DemonicSoul
+						// NewString: DemonicSoul
+					}
+
+					4: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			GalacticDonut: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: GalacticDonutProj
+						// NewString: GalacticDonutProj
+					}
+
+					2: {
+						// OldString: dbzcalamityUTD/Sounds/Kiblast1
+						// NewString: dbzcalamityUTD/Sounds/Kiblast1
+					}
+
+					3: {
+						// OldString: Donut
+						// NewString: Donut
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: ShiningKiCrystal
+						// NewString: ShiningKiCrystal
+					}
+
+					3: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			JusticeFlash: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Barrage
+						// NewString: Barrage
+					}
+
+					2: {
+						// OldString: dbzcalamityUTD/Sounds/Kiblast1
+						// NewString: dbzcalamityUTD/Sounds/Kiblast1
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: ShiningKiCrystal
+						// NewString: ShiningKiCrystal
+					}
+
+					3: {
+						// OldString: SuperEnergyBarrage
+						// NewString: SuperEnergyBarrage
+					}
+
+					4: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			LegendaryCannon: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Beam
+						// NewString: Beam
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: ShiningKiCrystal
+						// NewString: ShiningKiCrystal
+					}
+
+					3: {
+						// OldString: SoulofLegends
+						// NewString: SoulofLegends
+					}
+
+					4: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+
+				ModifyTooltips: {
+					1: {
+						// OldString: ""
+						// NewString: ""
+					}
+
+					2: {
+						// OldString: Being a legend makes this weapon even stronger!
+						// NewString: Being a legend makes this weapon even stronger!
+					}
+				}
+			}
+
+			SuperDestructoDiskAssault: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Disk
+						// NewString: Disk
+					}
+
+					2: {
+						// OldString: dbzcalamityUTD/Sounds/DiscFire
+						// NewString: dbzcalamityUTD/Sounds/DiscFire
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: ShiningKiCrystal
+						// NewString: ShiningKiCrystal
+					}
+
+					3: {
+						// OldString: DestructoDiskAssault
+						// NewString: DestructoDiskAssault
+					}
+
+					4: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			SuperUltraSpiritBomb: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Massive Blast
+						// NewString: Massive Blast
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: ShiningKiCrystal
+						// NewString: ShiningKiCrystal
+					}
+
+					4: {
+						// OldString: UnholyEssence
+						// NewString: UnholyEssence
+					}
+
+					5: {
+						// OldString: SuperSpiritBomb
+						// NewString: SuperSpiritBomb
+					}
+
+					6: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+		}
+
+		Tier_2: {
+			TrickBurst: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Diversion
+						// NewString: Diversion
+					}
+				}
+
+				ModifyTooltips: {
+					1: {
+						// OldString: kiDrainTooltip
+						// NewString: kiDrainTooltip
+					}
+
+					2: {
+						// OldString: ""
+						// NewString: ""
+					}
+
+					3: {
+						// OldString: "Consumes "
+						// NewString: "Consumes "
+					}
+
+					4: {
+						// OldString: " Ki "
+						// NewString: " Ki "
+					}
+
+					5: {
+						// OldString: Credit
+						// NewString: Credit
+					}
+
+					6: {
+						// OldString: Kolodity's item
+						// NewString: Kolodity's item
+					}
+
+					7: {
+						// OldString: " ki "
+						// NewString: " ki "
+					}
+				}
+			}
+
+			TrickBurst+<>c: {
+				<ModifyTooltips>b__11_0: {
+					1: {
+						// OldString: Knockback
+						// NewString: Knockback
+					}
+				}
+
+				<ModifyTooltips>b__11_1: {
+					1: {
+						// OldString: Damage
+						// NewString: Damage
+					}
+
+					2: {
+						// OldString: Terraria
+						// NewString: Terraria
+					}
+				}
+			}
+		}
+
+		Tier_11: {
+			AngelicStaff: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: AngelicBlast
+						// NewString: AngelicBlast
+					}
+
+					2: {
+						// OldString: AngelicBeamCharge
+						// NewString: AngelicBeamCharge
+					}
+
+					3: {
+						// OldString: Blast and Beam
+						// NewString: Blast and Beam
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: UnlimitedKiCrystal
+						// NewString: UnlimitedKiCrystal
+					}
+
+					2: {
+						// OldString: DivinePlate
+						// NewString: DivinePlate
+					}
+
+					3: {
+						// OldString: Zenite
+						// NewString: Zenite
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			LegendaryExplosion: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: LegendaryExplosion
+						// NewString: LegendaryExplosion
+					}
+
+					2: {
+						// OldString: Massive Blast
+						// NewString: Massive Blast
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: UnlimitedKiCrystal
+						// NewString: UnlimitedKiCrystal
+					}
+
+					2: {
+						// OldString: SoulofLegends
+						// NewString: SoulofLegends
+					}
+
+					3: {
+						// OldString: DivinePlate
+						// NewString: DivinePlate
+					}
+
+					4: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+
+				ModifyTooltips: {
+					1: {
+						// OldString: Consumes constantly growing amount of Ki
+						// NewString: Consumes constantly growing amount of Ki
+					}
+				}
+			}
+
+			SupremeKamehameha: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: SupremeKamehamehaCharge
+						// NewString: SupremeKamehamehaCharge
+					}
+
+					2: {
+						// OldString: Beam
+						// NewString: Beam
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: UnlimitedKiCrystal
+						// NewString: UnlimitedKiCrystal
+					}
+
+					3: {
+						// OldString: DivinePlate
+						// NewString: DivinePlate
+					}
+
+					4: {
+						// OldString: Kamehameha
+						// NewString: Kamehameha
+					}
+
+					5: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			AngelicStaff+<>c__DisplayClass9_0: {
+				<CanUseItem>b__0: {
+					1: {
+						// OldString: AngelicBeamBeam
+						// NewString: AngelicBeamBeam
+					}
+
+					2: {
+						// OldString: AngelicBeamCharge
+						// NewString: AngelicBeamCharge
+					}
+				}
+			}
+
+			LegendaryExplosion+<>c: {
+				<ModifyTooltips>b__6_0: {
+					1: {
+						// OldString: LegendaryKiDrain
+						// NewString: LegendaryKiDrain
+					}
+				}
+			}
+		}
+
+		Tier_10: {
+			EndlessDestruction: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: EndlessDestructionBall
+						// NewString: EndlessDestructionBall
+					}
+
+					2: {
+						// OldString: Massive Blast
+						// NewString: Massive Blast
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: UnlimitedKiCrystal
+						// NewString: UnlimitedKiCrystal
+					}
+
+					4: {
+						// OldString: AuricBar
+						// NewString: AuricBar
+					}
+
+					5: {
+						// OldString: BigBangAttack
+						// NewString: BigBangAttack
+					}
+
+					6: {
+						// OldString: SuperUltraSpiritBomb
+						// NewString: SuperUltraSpiritBomb
+					}
+
+					7: {
+						// OldString: DivineWrath
+						// NewString: DivineWrath
+					}
+
+					8: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			InfiniteBarrage: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kiblast1
+						// NewString: dbzcalamityUTD/Sounds/Kiblast1
+					}
+
+					2: {
+						// OldString: Barrage
+						// NewString: Barrage
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: UnlimitedKiCrystal
+						// NewString: UnlimitedKiCrystal
+					}
+
+					4: {
+						// OldString: AuricBar
+						// NewString: AuricBar
+					}
+
+					5: {
+						// OldString: UnlimitedDonuts
+						// NewString: UnlimitedDonuts
+					}
+
+					6: {
+						// OldString: CataclysmicOrb
+						// NewString: CataclysmicOrb
+					}
+
+					7: {
+						// OldString: DeathSaucerGalaxy
+						// NewString: DeathSaucerGalaxy
+					}
+
+					8: {
+						// OldString: SuperDestructoDiskAssault
+						// NewString: SuperDestructoDiskAssault
+					}
+
+					9: {
+						// OldString: RadialJavelin
+						// NewString: RadialJavelin
+					}
+
+					10: {
+						// OldString: BlindingBlade
+						// NewString: BlindingBlade
+					}
+
+					11: {
+						// OldString: TrapShooter
+						// NewString: TrapShooter
+					}
+
+					12: {
+						// OldString: BlightedFang
+						// NewString: BlightedFang
+					}
+
+					13: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			LegendaryCrusher: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: LegendaryCrusherBall
+						// NewString: LegendaryCrusherBall
+					}
+
+					2: {
+						// OldString: Massive Blast
+						// NewString: Massive Blast
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: UnlimitedKiCrystal
+						// NewString: UnlimitedKiCrystal
+					}
+
+					2: {
+						// OldString: SoulofLegends
+						// NewString: SoulofLegends
+					}
+
+					3: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			MasteredBeam: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: MasteredBeamCharge
+						// NewString: MasteredBeamCharge
+					}
+
+					2: {
+						// OldString: Beam
+						// NewString: Beam
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: UnlimitedKiCrystal
+						// NewString: UnlimitedKiCrystal
+					}
+
+					4: {
+						// OldString: DarksunFragment
+						// NewString: DarksunFragment
+					}
+
+					5: {
+						// OldString: BloodyKamehamehaX10
+						// NewString: BloodyKamehamehaX10
+					}
+
+					6: {
+						// OldString: EndlessMonday
+						// NewString: EndlessMonday
+					}
+
+					7: {
+						// OldString: FinalShine
+						// NewString: FinalShine
+					}
+
+					8: {
+						// OldString: KiBeam
+						// NewString: KiBeam
+					}
+
+					9: {
+						// OldString: SpecialBeamCannon
+						// NewString: SpecialBeamCannon
+					}
+
+					10: {
+						// OldString: CandyLaser
+						// NewString: CandyLaser
+					}
+
+					11: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			UltimateBlade: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: UltimateBladeProj
+						// NewString: UltimateBladeProj
+					}
+
+					2: {
+						// OldString: dbzcalamityUTD/Sounds/EnergyCharge
+						// NewString: dbzcalamityUTD/Sounds/EnergyCharge
+					}
+
+					3: {
+						// OldString: Blade
+						// NewString: Blade
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: UnlimitedKiCrystal
+						// NewString: UnlimitedKiCrystal
+					}
+
+					3: {
+						// OldString: DarksunFragment
+						// NewString: DarksunFragment
+					}
+
+					4: {
+						// OldString: GreatGodBlade
+						// NewString: GreatGodBlade
+					}
+
+					5: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			UltraSnowballBarrage: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: dbzcalamityUTD/Sounds/Kiblast1
+						// NewString: dbzcalamityUTD/Sounds/Kiblast1
+					}
+
+					2: {
+						// OldString: Barrage
+						// NewString: Barrage
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: UnlimitedKiCrystal
+						// NewString: UnlimitedKiCrystal
+					}
+
+					3: {
+						// OldString: FreezingBandana
+						// NewString: FreezingBandana
+					}
+
+					4: {
+						// OldString: IceTalisman
+						// NewString: IceTalisman
+					}
+
+					5: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+
+				ModifyTooltips: {
+					1: {
+						// OldString: kiDrainTooltip
+						// NewString: kiDrainTooltip
+					}
+
+					2: {
+						// OldString: ""
+						// NewString: ""
+					}
+
+					3: {
+						// OldString: "Consumes "
+						// NewString: "Consumes "
+					}
+
+					4: {
+						// OldString: " Ki "
+						// NewString: " Ki "
+					}
+
+					5: {
+						// OldString: " ki "
+						// NewString: " ki "
+					}
+
+					6: {
+						// OldString: ThePostalGamer's item
+						// NewString: ThePostalGamer's item
+					}
+				}
+			}
+
+			UltraSnowballBarrage+<>c: {
+				<ModifyTooltips>b__6_0: {
+					1: {
+						// OldString: Damage
+						// NewString: Damage
+					}
+
+					2: {
+						// OldString: Terraria
+						// NewString: Terraria
+					}
+				}
+			}
+		}
+
+		SorrowScythe: {
+			SorrowScythe: {
+				ProjectileInitialize: {
+					1: {
+						// OldString: Blade
+						// NewString: Blade
+					}
+
+					2: {
+						// OldString: dbzcalamityUTD/Sounds/EnergyCharge
+						// NewString: dbzcalamityUTD/Sounds/EnergyCharge
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: GodlyKiCrystal
+						// NewString: GodlyKiCrystal
+					}
+
+					2: {
+						// OldString: GodSlicer
+						// NewString: GodSlicer
+					}
+
+					3: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+		}
+	}
+
+	Test: {
+		AngelicTestItem: {
+			UseItem: {
+				1: {
+					// OldString: Angelic
+					// NewString: Angelic
+				}
+			}
+		}
+
+		CinematicTest: {
+			UseItem: {
+				1: {
+					// OldString: dbzcalamityUTD/UI/Cinematic/CinematicText
+					// NewString: dbzcalamityUTD/UI/Cinematic/CinematicText
+				}
+
+				2: {
+					// OldString: dbzcalamityUTD/UI/Cinematic/TBSLogo
+					// NewString: dbzcalamityUTD/UI/Cinematic/TBSLogo
+				}
+
+				3: {
+					// OldString: dbzcalamityUTD/Sounds/TBS
+					// NewString: dbzcalamityUTD/Sounds/TBS
+				}
+			}
+		}
+	}
+
+	Materials: {
+		DivineEnergy: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				3: {
+					// OldString: WarmKiCrystal
+					// NewString: WarmKiCrystal
+				}
+
+				4: {
+					// OldString: UeliaceBar
+					// NewString: UeliaceBar
+				}
+
+				5: {
+					// OldString: BarofLife
+					// NewString: BarofLife
+				}
+
+				6: {
+					// OldString: DivineGeode
+					// NewString: DivineGeode
+				}
+
+				7: {
+					// OldString: KaiTable
+					// NewString: KaiTable
+				}
+			}
+		}
+
+		EnothermicBar: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: DemonicSoul
+					// NewString: DemonicSoul
+				}
+
+				3: {
+					// OldString: FlameOfPurity
+					// NewString: FlameOfPurity
+				}
+			}
+		}
+
+		IncrediblyDivineThreads: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				3: {
+					// OldString: DivineThreads
+					// NewString: DivineThreads
+				}
+
+				4: {
+					// OldString: DivineEnergy
+					// NewString: DivineEnergy
+				}
+
+				5: {
+					// OldString: AuricBar
+					// NewString: AuricBar
+				}
+
+				6: {
+					// OldString: SuperTable
+					// NewString: SuperTable
+				}
+			}
+		}
+
+		KiCrystalBag: {
+			RightClick: {
+				1: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				2: {
+					// OldString: GetBossDowned
+					// NewString: GetBossDowned
+				}
+
+				3: {
+					// OldString: providence
+					// NewString: providence
+				}
+
+				4: {
+					// OldString: devourerofgods
+					// NewString: devourerofgods
+				}
+
+				5: {
+					// OldString: yharon
+					// NewString: yharon
+				}
+			}
+		}
+	}
+
+	Consumables: {
+		CinematicPlayer: {
+			UseItem: {
+				1: {
+					// OldString: dbzcalamityUTD/UI/Cinematic/CinematicText
+					// NewString: dbzcalamityUTD/UI/Cinematic/CinematicText
+				}
+
+				2: {
+					// OldString: dbzcalamityUTD/UI/Cinematic/TBSLogo
+					// NewString: dbzcalamityUTD/UI/Cinematic/TBSLogo
+				}
+
+				3: {
+					// OldString: dbzcalamityUTD/Sounds/TBS
+					// NewString: dbzcalamityUTD/Sounds/TBS
+				}
+			}
+		}
+
+		LimitBreaker: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				3: {
+					// OldString: RadiantFragment
+					// NewString: RadiantFragment
+				}
+
+				4: {
+					// OldString: KaiTable
+					// NewString: KaiTable
+				}
+			}
+		}
+
+		ZenosBlessing: {
+			SetDefaults: {
+				1: {
+					// OldString: ZenosBlessing
+					// NewString: ZenosBlessing
+				}
+			}
+		}
+
+		ZenkaiSoul: {
+			Zenkai10: {
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: AngerKiCrystal
+						// NewString: AngerKiCrystal
+					}
+
+					3: {
+						// OldString: ZTable
+						// NewString: ZTable
+					}
+				}
+			}
+
+			Zenkai15: {
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: ShiningKiCrystal
+						// NewString: ShiningKiCrystal
+					}
+
+					4: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			Zenkai5: {
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: StableKiCrystal
+						// NewString: StableKiCrystal
+					}
+
+					3: {
+						// OldString: ZTable
+						// NewString: ZTable
+					}
+				}
+			}
+		}
+
+		KiEssences: {
+			KiEssence6: {
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: WarmKiCrystal
+						// NewString: WarmKiCrystal
+					}
+
+					4: {
+						// OldString: EffulgentFeather
+						// NewString: EffulgentFeather
+					}
+
+					5: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+		}
+	}
+
+	Accessories: {
+		AndroidEngine: {
+			AddRecipes: {
+				1: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				2: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				3: {
+					// OldString: RuinousSoul
+					// NewString: RuinousSoul
+				}
+
+				4: {
+					// OldString: CruptixBar
+					// NewString: CruptixBar
+				}
+
+				5: {
+					// OldString: UnholyEssence
+					// NewString: UnholyEssence
+				}
+
+				6: {
+					// OldString: CoreofCalamity
+					// NewString: CoreofCalamity
+				}
+
+				7: {
+					// OldString: MeldBlob
+					// NewString: MeldBlob
+				}
+
+				8: {
+					// OldString: StarblightSoot
+					// NewString: StarblightSoot
+				}
+
+				9: {
+					// OldString: KaiTable
+					// NewString: KaiTable
+				}
+			}
+		}
+
+		AviationBoots: {
+			AddRecipes: {
+				1: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				2: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				3: {
+					// OldString: WulfrumShard
+					// NewString: WulfrumShard
+				}
+
+				4: {
+					// OldString: EnergyCore
+					// NewString: EnergyCore
+				}
+
+				5: {
+					// OldString: ZTable
+					// NewString: ZTable
+				}
+			}
+		}
+
+		BurningBandana: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: DemonicSoul
+					// NewString: DemonicSoul
+				}
+
+				3: {
+					// OldString: ZTable
+					// NewString: ZTable
+				}
+			}
+		}
+
+		FinalShield: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: PhantomShield
+					// NewString: PhantomShield
+				}
+
+				3: {
+					// OldString: BattleKit
+					// NewString: BattleKit
+				}
+
+				4: {
+					// OldString: Zenite
+					// NewString: Zenite
+				}
+
+				5: {
+					// OldString: SuperTable
+					// NewString: SuperTable
+				}
+			}
+		}
+
+		FreezingBandana: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				3: {
+					// OldString: VerstaltiteBar
+					// NewString: VerstaltiteBar
+				}
+
+				4: {
+					// OldString: ZTable
+					// NewString: ZTable
+				}
+			}
+		}
+
+		FrostburnBandana: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: BurningBandana
+					// NewString: BurningBandana
+				}
+
+				3: {
+					// OldString: FreezingBandana
+					// NewString: FreezingBandana
+				}
+
+				4: {
+					// OldString: BloodstainedBandana
+					// NewString: BloodstainedBandana
+				}
+
+				5: {
+					// OldString: KaiTable
+					// NewString: KaiTable
+				}
+			}
+		}
+
+		GrandMinisterVanity: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: KaiTable
+					// NewString: KaiTable
+				}
+			}
+		}
+
+		KiLevelMeter: {
+			ModifyTooltips: {
+				1: {
+					// OldString: ""
+					// NewString: ""
+				}
+
+				2: {
+					// OldString: Tells you how high your ki proficiency is
+					// NewString: Tells you how high your ki proficiency is
+				}
+
+				3: {
+					// OldString: While equipped you will gain ki proficiency faster
+					// NewString: While equipped you will gain ki proficiency faster
+				}
+
+				4: {
+					// OldString: The higher your ki level the higher your ki damage, critical strike chance and lower your ki usage
+					// NewString: The higher your ki level the higher your ki damage, critical strike chance and lower your ki usage
+				}
+
+				5: {
+					// OldString: "Ki proficiency (max of 12500): "
+					// NewString: "Ki proficiency (max of 12500): "
+				}
+
+				6: {
+					// OldString: "Ki level (max of 15): "
+					// NewString: "Ki level (max of 15): "
+				}
+
+				7: {
+					// OldString: "Ki damage increase: "
+					// NewString: "Ki damage increase: "
+				}
+
+				8: {
+					// OldString: %
+					// NewString: %
+				}
+
+				9: {
+					// OldString: "Ki crit increase: "
+					// NewString: "Ki crit increase: "
+				}
+
+				10: {
+					// OldString: "Ki usage decrease: "
+					// NewString: "Ki usage decrease: "
+				}
+			}
+		}
+
+		PinkPotara: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				3: {
+					// OldString: UnholyEssence
+					// NewString: UnholyEssence
+				}
+
+				4: {
+					// OldString: GreenPotara
+					// NewString: GreenPotara
+				}
+
+				5: {
+					// OldString: KaiTable
+					// NewString: KaiTable
+				}
+			}
+		}
+
+		RainbowBandana: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: FrostburnBandana
+					// NewString: FrostburnBandana
+				}
+
+				3: {
+					// OldString: InfuserRainbow
+					// NewString: InfuserRainbow
+				}
+
+				4: {
+					// OldString: KaiTable
+					// NewString: KaiTable
+				}
+			}
+		}
+
+		RingOfAll: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: RingOfMisfortune
+					// NewString: RingOfMisfortune
+				}
+
+				3: {
+					// OldString: RainbowBandana
+					// NewString: RainbowBandana
+				}
+
+				4: {
+					// OldString: Zenite
+					// NewString: Zenite
+				}
+
+				5: {
+					// OldString: SuperTable
+					// NewString: SuperTable
+				}
+			}
+
+			ModifyTooltips: {
+				1: {
+					// OldString: ""
+					// NewString: ""
+				}
+
+				2: {
+					// OldString: % Increased Ki damage
+					// NewString: % Increased Ki damage
+				}
+
+				3: {
+					// OldString: % Increased Ki crit rate
+					// NewString: % Increased Ki crit rate
+				}
+			}
+		}
+
+		SaiyanTail: {
+			SetDefaults: {
+				1: {
+					// OldString: Ocean
+					// NewString: Ocean
+				}
+			}
+		}
+
+		XenoCloak: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				3: {
+					// OldString: UeliaceBar
+					// NewString: UeliaceBar
+				}
+
+				4: {
+					// OldString: KaiTable
+					// NewString: KaiTable
+				}
+			}
+		}
+
+		ZenkaiMeter: {
+			ModifyTooltips: {
+				1: {
+					// OldString: ""
+					// NewString: ""
+				}
+
+				2: {
+					// OldString: "'Tells you your stats related to Zenkai'"
+					// NewString: "'Tells you your stats related to Zenkai'"
+				}
+
+				3: {
+					// OldString: /
+					// NewString: /
+				}
+
+				4: {
+					// OldString: " Zenkai already experienced"
+					// NewString: " Zenkai already experienced"
+				}
+
+				5: {
+					// OldString: % Increase to Zenkai boosts
+					// NewString: % Increase to Zenkai boosts
+				}
+
+				6: {
+					// OldString: Zenkai currently active
+					// NewString: Zenkai currently active
+				}
+
+				7: {
+					// OldString: " seconds to increase your Zenkai"
+					// NewString: " seconds to increase your Zenkai"
+				}
+
+				8: {
+					// OldString: Zenkai not currently active
+					// NewString: Zenkai not currently active
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: ScouterT2
+					// NewString: ScouterT2
+				}
+
+				3: {
+					// OldString: ScrapMetal
+					// NewString: ScrapMetal
+				}
+
+				4: {
+					// OldString: ZTable
+					// NewString: ZTable
+				}
+			}
+		}
+
+		ZenkaiUpgraders: {
+			ZenkaiAmulet: {
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: InfectedArmorPlating
+						// NewString: InfectedArmorPlating
+					}
+
+					4: {
+						// OldString: SoulofEntity
+						// NewString: SoulofEntity
+					}
+
+					5: {
+						// OldString: ZenkaiOrb
+						// NewString: ZenkaiOrb
+					}
+
+					6: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			ZenkaiCrown: {
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: DarksunFragment
+						// NewString: DarksunFragment
+					}
+
+					4: {
+						// OldString: CrystalliteAlleviate
+						// NewString: CrystalliteAlleviate
+					}
+
+					5: {
+						// OldString: ZenkaiRing
+						// NewString: ZenkaiRing
+					}
+
+					6: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			ZenkaiOrb: {
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: PureKiCrystal
+						// NewString: PureKiCrystal
+					}
+
+					4: {
+						// OldString: DepthCells
+						// NewString: DepthCells
+					}
+
+					5: {
+						// OldString: ZenkaiCharm
+						// NewString: ZenkaiCharm
+					}
+
+					6: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+
+			ZenkaiRing: {
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: UnholyEssence
+						// NewString: UnholyEssence
+					}
+
+					4: {
+						// OldString: UeliaceBar
+						// NewString: UeliaceBar
+					}
+
+					5: {
+						// OldString: SoulofDeath
+						// NewString: SoulofDeath
+					}
+
+					6: {
+						// OldString: ZenkaiAmulet
+						// NewString: ZenkaiAmulet
+					}
+
+					7: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+		}
+
+		BossDrops: {
+			DiamondStorm: {
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					3: {
+						// OldString: StormOfFire
+						// NewString: StormOfFire
+					}
+
+					4: {
+						// OldString: BlackDiamondShell
+						// NewString: BlackDiamondShell
+					}
+
+					5: {
+						// OldString: SuperTable
+						// NewString: SuperTable
+					}
+				}
+			}
+
+			RingOfMisfortune: {
+				ModifyTooltips: {
+					1: {
+						// OldString: ""
+						// NewString: ""
+					}
+
+					2: {
+						// OldString: % Increased Ki damage
+						// NewString: % Increased Ki damage
+					}
+
+					3: {
+						// OldString: % Increased Ki crit rate
+						// NewString: % Increased Ki crit rate
+					}
+				}
+			}
+
+			Scheusslich: {
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: HemoTouch
+						// NewString: HemoTouch
+					}
+
+					3: {
+						// OldString: ShadowEye
+						// NewString: ShadowEye
+					}
+
+					4: {
+						// OldString: ExtraPair
+						// NewString: ExtraPair
+					}
+
+					5: {
+						// OldString: SoulofEntity
+						// NewString: SoulofEntity
+					}
+
+					6: {
+						// OldString: ZTable
+						// NewString: ZTable
+					}
+				}
+			}
+
+			StrainingSoul: {
+				AddRecipes: {
+					1: {
+						// OldString: DBZMODPORT
+						// NewString: DBZMODPORT
+					}
+
+					2: {
+						// OldString: SoulofFlames
+						// NewString: SoulofFlames
+					}
+
+					3: {
+						// OldString: KaioCrystal
+						// NewString: KaioCrystal
+					}
+
+					4: {
+						// OldString: KaiTable
+						// NewString: KaiTable
+					}
+				}
+			}
+		}
+	}
+}
+
+Buffs: {
+	DragonDefaultSummonBuff: {
+		Update: {
+			1: {
+				// OldString: DragonDefaultSummon
+				// NewString: DragonDefaultSummon
+			}
+		}
+	}
+
+	HeatBuff: {
+		AssembleHeatDesc: {
+			1: {
+				// OldString: You might overheat!
+				// NewString: You might overheat!
+			}
+
+			2: {
+				/* OldString:
+					'''
+
+					Heat: 
+					''' */
+				/* NewString:
+					'''
+
+					Heat: 
+					''' */
+			}
+
+			3: {
+				// OldString: /70
+				// NewString: /70
+			}
+		}
+	}
+
+	LargeDragonDefaultSummonBuff: {
+		Update: {
+			1: {
+				// OldString: LargeDragonDefaultSummon
+				// NewString: LargeDragonDefaultSummon
+			}
+		}
+	}
+
+	OverheatBuff: {
+		AssembleHeatDesc: {
+			1: {
+				// OldString: You might overheat!
+				// NewString: You might overheat!
+			}
+
+			2: {
+				/* OldString:
+					'''
+
+					Heat: 
+					''' */
+				/* NewString:
+					'''
+
+					Heat: 
+					''' */
+			}
+
+			3: {
+				// OldString: /70
+				// NewString: /70
+			}
+		}
+	}
+
+	SSJForms: {
+		PUIBuff: {
+			ModifyBuffText: {
+				1: {
+					/* OldString:
+						'''
+
+						+
+						''' */
+					/* NewString:
+						'''
+
+						+
+						''' */
+				}
+
+				2: {
+					// OldString: P
+					// NewString: P
+				}
+
+				3: {
+					// OldString: " Dodge Chance (Costs "
+					// NewString: " Dodge Chance (Costs "
+				}
+
+				4: {
+					// OldString: F1
+					// NewString: F1
+				}
+
+				5: {
+					// OldString: " Ki)"
+					// NewString: " Ki)"
+				}
+			}
+
+			IsDiscovered: {
+				1: {
+					// OldString: ModPlayer
+					// NewString: ModPlayer
+				}
+
+				2: {
+					// OldString: ssjbAchieved
+					// NewString: ssjbAchieved
+				}
+
+				3: {
+					// OldString: lssj3Achieved
+					// NewString: lssj3Achieved
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Perfected Ultra Instinct
+					// NewString: Perfected Ultra Instinct
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/UIStart
+					// NewString: dbzcalamityUTD/Sounds/UIStart
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					// OldString: dbzcalamityUTD/Hairs/PUIHair
+					// NewString: dbzcalamityUTD/Hairs/PUIHair
+				}
+			}
+		}
+
+		UEBuff: {
+			ModifyBuffText: {
+				1: {
+					/* OldString:
+						'''
+
+						Damage increases as you take damage and remain in battle (Max +
+						''' */
+					/* NewString:
+						'''
+
+						Damage increases as you take damage and remain in battle (Max +
+						''' */
+				}
+
+				2: {
+					// OldString: P
+					// NewString: P
+				}
+
+				3: {
+					// OldString: )
+					// NewString: )
+				}
+			}
+
+			IsDiscovered: {
+				1: {
+					// OldString: ModPlayer
+					// NewString: ModPlayer
+				}
+
+				2: {
+					// OldString: ssjbAchieved
+					// NewString: ssjbAchieved
+				}
+
+				3: {
+					// OldString: lssj3Achieved
+					// NewString: lssj3Achieved
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Ultra Ego
+					// NewString: Ultra Ego
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/UIStart
+					// NewString: dbzcalamityUTD/Sounds/UIStart
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					// OldString: dbzcalamityUTD/Hairs/UEHair
+					// NewString: dbzcalamityUTD/Hairs/UEHair
+				}
+			}
+		}
+
+		UIBuff: {
+			BuildUIDescription: {
+				1: {
+					// OldString: +
+					// NewString: +
+				}
+
+				2: {
+					// OldString: P
+					// NewString: P
+				}
+
+				3: {
+					// OldString: " Speed"
+					// NewString: " Speed"
+				}
+
+				4: {
+					// OldString: P2
+					// NewString: P2
+				}
+
+				5: {
+					// OldString: " Dodge Chance (Costs "
+					// NewString: " Dodge Chance (Costs "
+				}
+
+				6: {
+					// OldString: F1
+					// NewString: F1
+				}
+
+				7: {
+					// OldString: " ki)"
+					// NewString: " ki)"
+				}
+
+				8: {
+					// OldString: "Ki Drain "
+					// NewString: "Ki Drain "
+				}
+
+				9: {
+					// OldString: N0
+					// NewString: N0
+				}
+
+				10: {
+					// OldString: "/s, "
+					// NewString: "/s, "
+				}
+
+				11: {
+					// OldString: /s when mastered
+					// NewString: /s when mastered
+				}
+			}
+
+			IsDiscovered: {
+				1: {
+					// OldString: ModPlayer
+					// NewString: ModPlayer
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Ultra Instinct
+					// NewString: Ultra Instinct
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: dbzcalamityUTD/Sounds/UIStart
+					// NewString: dbzcalamityUTD/Sounds/UIStart
+				}
+
+				2: {
+					// OldString: ""
+					// NewString: ""
+				}
+			}
+		}
+
+		PUIBuff+<>c: {
+			<IsDiscovered>b__8_0: {
+				1: {
+					// OldString: MyPlayer
+					// NewString: MyPlayer
+				}
+			}
+		}
+
+		UEBuff+<>c: {
+			<IsDiscovered>b__8_0: {
+				1: {
+					// OldString: MyPlayer
+					// NewString: MyPlayer
+				}
+			}
+		}
+
+		UIBuff+<>c: {
+			<IsDiscovered>b__11_0: {
+				1: {
+					// OldString: MyPlayer
+					// NewString: MyPlayer
+				}
+			}
+		}
+	}
+}
+
+DBZCalamityWorld+<>c: {
+	<ModifyInterfaceLayers>b__19_0: {
+		1: {
+			// OldString: Vanilla: Mouse Text
+			// NewString: Vanilla: Mouse Text
+		}
+	}
+}

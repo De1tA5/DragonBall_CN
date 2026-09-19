@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
+using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.GohanForms
 {
@@ -31,7 +32,10 @@ namespace DragonBall_CN.Common.GohanForms
         {
             if (ModLoader.HasMod(gohanForms)) 
             {
-                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, gohanForms, false);
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, gohanForms, false, filters: new() 
+                {
+                    MethodFilter = MethodFilter.MatchNames("SetChatButtons", "OnChatButtonClicked", "GetChat", "PostUpdate", "ProcessTriggers")
+                });
             }
         }
 

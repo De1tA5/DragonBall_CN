@@ -2175,7 +2175,7 @@ Buffs: {
 		LimitBreakerBuff: {
 			FormName: {
 				1: {
-					NewString: 传说极限突破
+					NewString: 传说限界突破
 					// OldString: Limit Breaker
 				}
 			}

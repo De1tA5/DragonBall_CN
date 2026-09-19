@@ -8,7 +8,7 @@ using Terraria.ModLoader;
 
 namespace DragonBall_CN.Common.DBTBalanceRevived
 {
-    //TODO - 支持热重载？
+    //TODO - 支持热重载？ 自动注册LocalizationPatch文件夹下的所有本地化补丁？
     public static class LocalizationPatchHelper
     {
         /// <summary>

@@ -12,8 +12,8 @@ Items: {
 	}
 
 	SSJ4LBItem: {
-		DisplayName: 极限突破
-		Tooltip: 解锁超级赛亚人4极限突破
+		DisplayName: 限界突破
+		Tooltip: 解锁超级赛亚人4限界突破
 	}
 
 	SSJ4Fur: {
@@ -64,7 +64,7 @@ Buffs: {
 	}
 
 	SSJ4LBBuff: {
-		DisplayName: 超级赛亚人4极限突破
+		DisplayName: 超级赛亚人4限界突破
 		Description: Mods.oozaru144port.Buffs.SSJ4LBBuff.Description
 	}
 
@@ -79,7 +79,7 @@ Buffs: {
 	}
 
 	LSSJ4LBBuff: {
-		DisplayName: 传说超级赛亚人4极限突破
+		DisplayName: 传说超级赛亚人4限界突破
 		Description: Mods.oozaru144port.Buffs.LSSJ4LBBuff.Description
 	}
 }
