@@ -1,0 +1,446 @@
+Transformations: {
+	BOFLBuff: {
+		CanTransform: {
+			1: {
+				OldString: Angelic
+				NewString: Angelic
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Barrier Of Light
+				NewString: Barrier Of Light
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: GFAE/Assets/BOFLHair
+				NewString: GFAE/Assets/BOFLHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSB
+				NewString: DBZMODPORT/Sounds/SSB
+			}
+		}
+
+		ModifyBuffText: {
+			1: {
+				OldString:
+					'''
+
+					Increased health regeneration.
+					'''
+				NewString:
+					'''
+
+					Increased health regeneration.
+					'''
+			}
+		}
+	}
+
+	SSJ2RBuff: {
+		AuraData: {
+			1: {
+				OldString: GFAE/Assets/SSJ3RAura
+				NewString: GFAE/Assets/SSJ3RAura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				OldString: Angelic
+				NewString: Angelic
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Super Saiyan Rose 2
+				NewString: Super Saiyan Rose 2
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: DBZMODPORT/Hairs/God/SSJRHair
+				NewString: DBZMODPORT/Hairs/God/SSJRHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSB
+				NewString: DBZMODPORT/Sounds/SSB
+			}
+		}
+
+		ModifyBuffText: {
+			1: {
+				OldString:
+					'''
+
+					Increased health regeneration.
+					'''
+				NewString:
+					'''
+
+					Increased health regeneration.
+					'''
+			}
+		}
+	}
+
+	SSJ3RBuff: {
+		AuraData: {
+			1: {
+				OldString: GFAE/Assets/SSJ3RAura
+				NewString: GFAE/Assets/SSJ3RAura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				OldString: Angelic
+				NewString: Angelic
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Super Saiyan Rose 3
+				NewString: Super Saiyan Rose 3
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: GFAE/Assets/SSJ3RHair
+				NewString: GFAE/Assets/SSJ3RHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSB
+				NewString: DBZMODPORT/Sounds/SSB
+			}
+		}
+
+		ModifyBuffText: {
+			1: {
+				OldString:
+					'''
+
+					Increased health regeneration.
+					'''
+				NewString:
+					'''
+
+					Increased health regeneration.
+					'''
+			}
+		}
+	}
+}
+
+Assets: {
+	AEPlayer: {
+		PostUpdate: {
+			1: {
+				OldString: Angelic
+				NewString: Angelic
+			}
+
+			2: {
+				OldString: BOFLBuff
+				NewString: BOFLBuff
+			}
+
+			3: {
+				OldString: The power of gods now obeys you!
+				NewString: The power of gods now obeys you!
+			}
+		}
+
+		ProcessTriggers: {
+			1: {
+				OldString: Angelic
+				NewString: Angelic
+			}
+
+			2: {
+				OldString: SSJ2RBuff
+				NewString: SSJ2RBuff
+			}
+
+			3: {
+				OldString: SSJ3RBuff
+				NewString: SSJ3RBuff
+			}
+
+			4: {
+				OldString: BOFLBuff
+				NewString: BOFLBuff
+			}
+		}
+
+		Rose3Transform: {
+			1: {
+				OldString: DBZMODPORT/Sounds/GroundRumble
+				NewString: DBZMODPORT/Sounds/GroundRumble
+			}
+		}
+
+		SaveData: {
+			1: {
+				OldString: GFAE_SSJ3RAchieved
+				NewString: GFAE_SSJ3RAchieved
+			}
+
+			2: {
+				OldString: GFAE_SSJ3RUnlockMsg
+				NewString: GFAE_SSJ3RUnlockMsg
+			}
+
+			3: {
+				OldString: GFAE_SSJ2RAchieved
+				NewString: GFAE_SSJ2RAchieved
+			}
+
+			4: {
+				OldString: GFAE_SSJ2RUnlockMsg
+				NewString: GFAE_SSJ2RUnlockMsg
+			}
+
+			5: {
+				OldString: GFAE_BOFLAchieved
+				NewString: GFAE_BOFLAchieved
+			}
+
+			6: {
+				OldString: GFAE_BOFLUnlockMsg
+				NewString: GFAE_BOFLUnlockMsg
+			}
+		}
+
+		LoadData: {
+			1: {
+				OldString: GFAE_SSJ3RAchieved
+				NewString: GFAE_SSJ3RAchieved
+			}
+
+			2: {
+				OldString: GFAE_SSJ3RUnlockMsg
+				NewString: GFAE_SSJ3RUnlockMsg
+			}
+
+			3: {
+				OldString: GFAE_SSJ2RAchieved
+				NewString: GFAE_SSJ2RAchieved
+			}
+
+			4: {
+				OldString: GFAE_SSJ2RUnlockMsg
+				NewString: GFAE_SSJ2RUnlockMsg
+			}
+
+			5: {
+				OldString: GFAE_BOFLAchieved
+				NewString: GFAE_BOFLAchieved
+			}
+
+			6: {
+				OldString: GFAE_BOFLUnlockMsg
+				NewString: GFAE_BOFLUnlockMsg
+			}
+		}
+	}
+
+	Layers: {
+		Lightning: {
+			EffectLayer: {
+				Draw: {
+					1: {
+						OldString: GFAE/Assets/Layers/Lightning/LightningRose2
+						NewString: GFAE/Assets/Layers/Lightning/LightningRose2
+					}
+
+					2: {
+						OldString: GFAE/Assets/Layers/Lightning/LightningRose3
+						NewString: GFAE/Assets/Layers/Lightning/LightningRose3
+					}
+				}
+			}
+
+			RingLayer: {
+				Draw: {
+					1: {
+						OldString: GFAE/Assets/Layers/Lightning/LightRing
+						NewString: GFAE/Assets/Layers/Lightning/LightRing
+					}
+
+					2: {
+						OldString: GFAE/Assets/Layers/Lightning/LightRingLeft
+						NewString: GFAE/Assets/Layers/Lightning/LightRingLeft
+					}
+				}
+			}
+		}
+	}
+
+	Effects: {
+		Rose3EffectAura: {
+			Kill: {
+				1: {
+					OldString: SSJ3RBuff
+					NewString: SSJ3RBuff
+				}
+
+				2: {
+					OldString: Now you can control pure energy!
+					NewString: Now you can control pure energy!
+				}
+
+				3: {
+					OldString: GFAE/Sounds/SSJRose3Transform
+					NewString: GFAE/Sounds/SSJRose3Transform
+				}
+			}
+		}
+
+		Transformation: {
+			TransformEffect: {
+				Draw: {
+					1: {
+						OldString: GFAE/Assets/Layers/Transformation/SSJR3
+						NewString: GFAE/Assets/Layers/Transformation/SSJR3
+					}
+
+					2: {
+						OldString: GFAE/Assets/Layers/Transformation/SSJR2
+						NewString: GFAE/Assets/Layers/Transformation/SSJR2
+					}
+				}
+			}
+		}
+	}
+
+	AEPlayer+BSSFPanel: {
+		Name: {
+			1: {
+				OldString: Angelic Expansion
+				NewString: Angelic Expansion
+			}
+		}
+
+		Nodes: {
+			1: {
+				OldString: SSJ2RBuff
+				NewString: SSJ2RBuff
+			}
+
+			2: {
+				OldString: GFAE/Transformations/SSJ2RBuff
+				NewString: GFAE/Transformations/SSJ2RBuff
+			}
+
+			3: {
+				OldString: Adaptation to your strongest form is the key to power. (Angelic trait required)
+				NewString: Adaptation to your strongest form is the key to power. (Angelic trait required)
+			}
+
+			4: {
+				OldString: SSJ3RBuff
+				NewString: SSJ3RBuff
+			}
+
+			5: {
+				OldString: GFAE/Transformations/SSJ3RBuff
+				NewString: GFAE/Transformations/SSJ3RBuff
+			}
+
+			6: {
+				OldString: One may break through the limits in fight with the Profaned Goddess. (Angelic trait required)
+				NewString: One may break through the limits in fight with the Profaned Goddess. (Angelic trait required)
+			}
+
+			7: {
+				OldString: BOFLBuff
+				NewString: BOFLBuff
+			}
+
+			8: {
+				OldString: GFAE/Transformations/BOFLBuff
+				NewString: GFAE/Transformations/BOFLBuff
+			}
+
+			9: {
+				OldString: Ectoplasmic dungeon creature will help you reach heights that mortals cannot achieve. (Angelic trait required)
+				NewString: Ectoplasmic dungeon creature will help you reach heights that mortals cannot achieve. (Angelic trait required)
+			}
+		}
+
+		UnlockConditionSSJ2R: {
+			1: {
+				OldString: Angelic
+				NewString: Angelic
+			}
+		}
+
+		DiscoverConditionSSJ2R: {
+			1: {
+				OldString: Angelic
+				NewString: Angelic
+			}
+		}
+
+		UnlockConditionSSJ3R: {
+			1: {
+				OldString: Angelic
+				NewString: Angelic
+			}
+		}
+
+		DiscoverConditionSSJ3R: {
+			1: {
+				OldString: Angelic
+				NewString: Angelic
+			}
+		}
+
+		UnlockConditionBOFL: {
+			1: {
+				OldString: Angelic
+				NewString: Angelic
+			}
+		}
+
+		DiscoverConditionBOFL: {
+			1: {
+				OldString: Angelic
+				NewString: Angelic
+			}
+		}
+	}
+}

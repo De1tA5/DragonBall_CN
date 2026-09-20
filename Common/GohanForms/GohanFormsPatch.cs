@@ -44,6 +44,7 @@ namespace DragonBall_CN.Common.GohanForms
             if (!ModLoader.TryGetMod(gohanForms, out Mod mod))
                 return;
 
+            //形态名称
             foreach (var form in FormNames)
             {
                 if (!ModelHelper.TryModifyFormName(mod, "GohanForms.Transformations.", form.Key, form.Value))
@@ -53,6 +54,7 @@ namespace DragonBall_CN.Common.GohanForms
             if (!ModelHelper.TryGetNodes(mod, "GohanForms.Assets.GOHPlayer+BSSFPanel", out Node[] nodes))
                 return;
 
+            //解锁条件
             for (int i = 0; i < nodes.Length; i++) 
             {
                 if (NewUnlockHints.TryGetValue(nodes[i].BuffKeyName, out string newUnlockHint))

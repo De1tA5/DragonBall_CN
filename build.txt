@@ -4,5 +4,5 @@ version = 1.0
 side = Client
 modReferences = DBZMODPORT
 weakReferences = DBZGoatLib
-sortBefore = oozaru144port , SSBETES , GohanForms , DBTBalanceRevived , dbzcalamityUTD
+sortBefore = oozaru144port , SSBETES , GohanForms , DBTBalanceRevived , dbzcalamityUTD , GFAE
 dllReferences = TigerForceLocalizationLib

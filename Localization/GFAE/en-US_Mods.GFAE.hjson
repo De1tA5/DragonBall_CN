@@ -1,0 +1,70 @@
+Buffs: {
+	BOFLBuff: {
+		DisplayName: Barrier Of Light
+		Description:
+			'''
+			Damage +590.00%  | Speed +355.00%
+			Defense +54 | Ki Costs +65.00%
+			Ki Drain 330/s, 120/s when mastered
+			'''
+	}
+
+	SSJ2RBuff: {
+		DisplayName: Super Saiyan Rose 2
+		Description:
+			'''
+			Damage +450.00%  | Speed +300.00%
+			Defense +43 | Ki Costs +50.00%
+			Ki Drain 246/s, 120/s when mastered
+			'''
+	}
+
+	SSJ3RBuff: {
+		DisplayName: Super Saiyan Rose 3
+		Description:
+			'''
+			Damage +520.00%  | Speed +335.00%
+			Defense +48 | Ki Costs +70.00%
+			Ki Drain 310/s, 145/s when mastered
+			'''
+	}
+
+	Corruption: {
+		DisplayName: Corruption
+		Description: Your ki converts to health.
+	}
+}
+
+Items: {
+	BOFLItem: {
+		DisplayName: Godly Potaras
+		Tooltip: Unlocks Barrier Of Light for Angelic Trait
+	}
+
+	CrimsonMask: {
+		DisplayName: Crimson Mask
+		Tooltip: ""
+	}
+
+	SSJ2RItem: {
+		DisplayName: SSR2 Unlock Item
+		Tooltip: ""
+	}
+
+	SSJ3RItem: {
+		DisplayName: Pink Energy Holder
+		Tooltip: Unlocks SSR3 for Angelic Trait
+	}
+
+	GodlyPotaras: {
+		DisplayName: Godly Potaras
+		Tooltip: Divine energy flows through them
+	}
+}
+
+Projectiles: {
+	Rose3Effect.DisplayName: Rose3 Effect
+	Rose3EffectCenter.DisplayName: Rose3 Effect Center
+	Rose3EffectAura.DisplayName: Rose3 Effect Aura
+	Rose3EffectNear.DisplayName: Rose3 Effect Near
+}

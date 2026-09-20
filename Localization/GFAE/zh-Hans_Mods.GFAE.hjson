@@ -1,0 +1,70 @@
+Buffs: {
+	BOFLBuff: {
+		DisplayName: 光之壁
+		Description:
+			'''
+			Damage +590.00%  | Speed +355.00%
+			Defense +54 | Ki Costs +65.00%
+			Ki Drain 330/s, 120/s when mastered
+			'''
+	}
+
+	SSJ2RBuff: {
+		DisplayName: 超级赛亚人桃红2
+		Description:
+			'''
+			Damage +450.00%  | Speed +300.00%
+			Defense +43 | Ki Costs +50.00%
+			Ki Drain 246/s, 120/s when mastered
+			'''
+	}
+
+	SSJ3RBuff: {
+		DisplayName: 超级赛亚人桃红3
+		Description:
+			'''
+			Damage +520.00%  | Speed +335.00%
+			Defense +48 | Ki Costs +70.00%
+			Ki Drain 310/s, 145/s when mastered
+			'''
+	}
+
+	Corruption: {
+		DisplayName: 腐化
+		Description: 你的气转变为生命值
+	}
+}
+
+Items: {
+	BOFLItem: {
+		DisplayName: 神之坡塔拉耳环
+		Tooltip: 为天使资质解锁光之壁
+	}
+
+	CrimsonMask: {
+		DisplayName: Crimson Mask
+		Tooltip: ""
+	}
+
+	SSJ2RItem: {
+		DisplayName: 超级赛亚人桃红2解锁物品
+		Tooltip: ""
+	}
+
+	SSJ3RItem: {
+		DisplayName: 粉色能量容器
+		Tooltip: 为天使资质解锁超级赛亚人桃红3
+	}
+
+	GodlyPotaras: {
+		DisplayName: 神之坡塔拉耳环
+		Tooltip: 神明能量在耳环内流淌
+	}
+}
+
+Projectiles: {
+	Rose3Effect.DisplayName: 桃红3特效
+	Rose3EffectCenter.DisplayName: 桃红3特效中心
+	Rose3EffectAura.DisplayName: 桃红3特效气焰
+	Rose3EffectNear.DisplayName: 桃红3特效附近
+}

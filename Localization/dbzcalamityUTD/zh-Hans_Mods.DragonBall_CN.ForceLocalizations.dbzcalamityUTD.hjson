@@ -6245,7 +6245,7 @@ Buffs: {
 
 				3: {
 					// OldString: " Speed"
-					NewString: "移动速度"
+					NewString: 移动速度
 				}
 
 				4: {
@@ -6255,7 +6255,7 @@ Buffs: {
 
 				5: {
 					// OldString: " Dodge Chance (Costs "
-					NewString: "闪避率（消耗"
+					NewString: 闪避率（消耗
 				}
 
 				6: {
@@ -6265,7 +6265,7 @@ Buffs: {
 
 				7: {
 					// OldString: " ki)"
-					NewString: "气）"
+					NewString: 气）
 				}
 
 				8: {
@@ -6280,7 +6280,7 @@ Buffs: {
 
 				10: {
 					// OldString: "/s, "
-					NewString: "/s （精通时"
+					NewString: /s （精通时
 				}
 
 				11: {

@@ -14,8 +14,22 @@ namespace DragonBall_CN
 
         public static DBCPatchConfig Instance;
 
+        #region bug修复
+        [Header("ExtraPatches")]
+
+        [ReloadRequired]
+        [DefaultValue(true)]
+        public bool DBZMODPORTMapEntryFix { get; set; }
+
         [ReloadRequired]
         [DefaultValue(true)]
         public bool HideDBTBalanceTransformationTree { get; set; }
+        #endregion
+
+        #region 夹带私货
+
+        //[Header("SpecialContent")]
+
+        #endregion
     }
 }

@@ -20,7 +20,7 @@ Dragon Ball Terraria: Blue Evolution Addon
 
 Dragon Ball Terraria: Calamity Addon reuploaded
 “Ancient”（天使，为其他玩家提供“天使恩典”增益，并减少“自在极意功”和“自在极意兆”闪避的气消耗）
-
+ 
 如何快速精通变身形态？
 原版提供了精通工具，每次提升25%，但一些形态则没有
 这里推荐直接使用DragonLens，，找到“编辑玩家”选项，在模组字段搜索“master”，即可对对应形态直接调整（1=100%）
@@ -179,7 +179,17 @@ Dragon Ball Terraria: Calamity Addon reuploaded - dbzcalamityUTD
 自我极意功
 击败风暴编制者、西格纳斯和无尽虚空之中任意一个
 
+Angelic Expansion for Dragon Ball: Calamity Addon - GFAE
 
+以下为天使资质专属
+超级赛亚人桃红2
+超级赛亚人桃红掌握度达到100%
+
+超级赛亚人桃红3
+超级赛亚人桃红2掌握度达到100%，并击败亵渎天神
+
+光之壁
+超级赛亚人桃红3掌握度达到100%，并击败噬魂幽花
 
 后记：
 本人并非资深龙珠迷，制作该汉化纯个人兴趣
