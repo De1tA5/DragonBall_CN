@@ -26,7 +26,7 @@ namespace DragonBall_CN.Common.dbzcalamityUTD
         {
             ["UIBuff"] = "通过击败硫磺海的妖虫，便能获得更敏锐的战斗本能\n[C/959595:译者补充：击败渊海灾虫即可解锁]",
             ["UEBuff"] = "通过战胜神明吞噬者的护卫，便能为这股力量铺平道路\n[C/959595:译者补充：击败风暴编制者、西格纳斯和无尽虚空之中的任意一个即可解锁]",
-            ["PUIBuff"] = "与愚钝化身的对峙，能够唤醒神明的本能\n[C/959595:译者补充：击败痴愚金龙即可解锁]"
+            ["PUIBuff"] = "与愚钝化身的对峙，能够觉醒神明的本能\n[C/959595:译者补充：击败痴愚金龙即可解锁]"
         };
         public override void PostSetupContent()
         {
@@ -36,7 +36,7 @@ namespace DragonBall_CN.Common.dbzcalamityUTD
                 {
                     MethodFilter = MethodFilter.MatchNames(
                         "UpdateCinematic", "PreKill", "OnKill", "ProcessTriggers", "PostUpdate", "FreeDodge", "GetChat", "SetChatButtons", "SetBestiary",
-                        "SetNPCNameList", "ReceiveFormUnlock", "UpdateArmorSet", "ModifyTooltips")
+                        "SetNPCNameList", "ReceiveFormUnlock", "UpdateArmorSet", "ModifyTooltips", "ProjectileInitialize", "AssembleHeatDesc", "ModifyBuffText", "BuildUIDescription")
                 });
             }
         }

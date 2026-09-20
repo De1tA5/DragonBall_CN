@@ -18,6 +18,9 @@ namespace DragonBall_CN.Common.DBZMODPORT
             if (!ModLoader.TryGetMod(dragonBall, out Mod mod))
                 return;
 
+            if (!DBCPatchConfig.Instance.DBZMODPORTMapEntryFix)
+                return;
+
             ModTile? zTableTile = mod.Find<ModTile>("ZTable");
             ModTile? kaiTableTile = mod.Find<ModTile>("KaiTable");
 

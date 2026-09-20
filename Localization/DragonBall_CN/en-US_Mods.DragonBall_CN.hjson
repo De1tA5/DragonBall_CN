@@ -1,9 +1,15 @@
 Configs: {
 	DBCPatchConfig: {
 		DisplayName: D B C Patch Config
+		Headers.ExtraPatches: Extra Patches Header
 
 		HideDBTBalanceTransformationTree: {
 			Label: Hide D B T Balance Transformation Tree
+			Tooltip: ""
+		}
+
+		DBZMODPORTMapEntryFix: {
+			Label: D B Z M O D P O R T Map Entry Fix
 			Tooltip: ""
 		}
 	}

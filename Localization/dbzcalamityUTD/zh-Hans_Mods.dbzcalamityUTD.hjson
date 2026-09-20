@@ -353,12 +353,7 @@ Items: {
 
 	KiLevelMeter: {
 		DisplayName: 气等级测量器
-		Tooltip:
-			'''
-			显示你的气职业熟练度
-			装备此物品时更快获得熟练度
-			气熟练度等级越高，气伤害、暴击率越高且气消耗也减少
-			'''
+		Tooltip: ""
 	}
 
 	PinkPotara: {

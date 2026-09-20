@@ -1,13 +1,26 @@
 Configs: {
 	DBCPatchConfig: {
 		DisplayName: 汉化补丁额外配置
+		Headers.ExtraPatches: 额外修复
 
 		HideDBTBalanceTransformationTree: {
-			Label: 移除《Dragon Ball Terraria: Rebalanced: Revived》的传说超级赛亚人4
+			Label: 移除《Dragon Ball Terraria: Rebalanced: Revived》的传说超赛4
 			Tooltip:
 				'''
-				如果你同时安装了《Dragon Ball Terraria: Rebalanced: Revived》和《Oozaru》
-				可以启用该选项，从而使用《Oozaru》的传说超级赛亚人4
+				启用该选项，会禁用《Dragon Ball Terraria: Rebalanced: Revived》传说超级赛亚人4
+				该修复用于你同时安装了《Dragon Ball Terraria: Rebalanced: Revived》和《Oozaru》
+				两者都包含传说超级赛亚人4，但《Oozaru》还有进一步的升级形态，且兼容前置库更好
+				[C/FF3E00:默认启用，切换该选项需重新加载]
+				'''
+		}
+
+		DBZMODPORTMapEntryFix: {
+			Label: 龙珠本体制作站
+			Tooltip:
+				'''
+				启用该选项，修复龙珠本体的使用合成表mod时，龙珠Z桌和龙珠改桌乱码问题
+				由于本体模组未注册2个物块MapEntry，导致合成表mod会出现长串代码
+				[C/FF3E00:默认启用，切换该选项需重新加载]
 				'''
 		}
 	}
