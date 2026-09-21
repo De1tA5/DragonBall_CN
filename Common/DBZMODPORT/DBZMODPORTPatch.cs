@@ -52,16 +52,19 @@ namespace DragonBall_CN.Common.DBZMODPORT
         {
             if (ModLoader.HasMod(dragonBall))
             {
-                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBall, false);
-                //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBall, false, filters: new() 
-                //{
-                //    MethodFilter = MethodFilter.MatchNames(
-                //        "AssembleTransBuffDescription", "UpdateArmorSet", "UseItem", "OnPickup", 
-                //        "SelectButtonAwakening", "SelectButtonGenetics", "SelectButtonImmortality", "SelectButtonWealth", "SelectButtonPower", "OnInitialize", 
-                //        "TrySelectingSSJR", "TrySelectingSSJB", "TrySelectingSSJG", "TrySelectingLSSJ3", "TrySelectingLSSJ2", "TrySelectingLSSJ", "TrySelectingSSJ3", "TrySelectingSSJ2", "TrySelectingSSJ1",
-                //        "Update", "PostUpdate", "PostDrawFullScreenMap", "ModifyTooltips", "OnKilledNPC", "PreKill" , "OnKill", "AwakeningFormUnlock" , "LSSJ2TextSelect", "ProcessTriggers"),
-                //    TypeFilter = TypeFilter.MismatchFullName("DBZMODPORT.DBZWorld")
-                //});
+                //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBall, false);
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBall, false, filters: new()
+                {
+                    MethodFilter = MethodFilter.MatchNames(
+                        "AssembleTransBuffDescription", "UpdateArmorSet", "UseItem", "OnPickup",
+                        "SelectButtonAwakening", "SelectButtonGenetics", "SelectButtonImmortality", "SelectButtonWealth", "SelectButtonPower", "OnInitialize",
+                        "TrySelectingSSJR", "TrySelectingSSJB", "TrySelectingSSJG", "TrySelectingLSSJ3", "TrySelectingLSSJ2", "TrySelectingLSSJ", "TrySelectingSSJ3", "TrySelectingSSJ2", "TrySelectingSSJ1",
+                        "Update", "PostUpdate", "PostDrawFullScreenMap", "ModifyTooltips", "OnKilledNPC", "PreKill", "OnKill", "AwakeningFormUnlock", "LSSJ2TextSelect", "ProcessTriggers")
+                });
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBall, false, filters: new() 
+                {
+                    TypeFilter = TypeFilter.MatchFullName("DBZMODPORT.Util.TransformationHelper")
+                });
             }
         }
     }

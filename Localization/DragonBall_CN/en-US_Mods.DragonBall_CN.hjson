@@ -12,5 +12,10 @@ Configs: {
 			Label: D B Z M O D P O R T Map Entry Fix
 			Tooltip: ""
 		}
+
+		SSJ5FurRecipeFix: {
+			Label: S S J5 Fur Recipe Fix
+			Tooltip: ""
+		}
 	}
 }

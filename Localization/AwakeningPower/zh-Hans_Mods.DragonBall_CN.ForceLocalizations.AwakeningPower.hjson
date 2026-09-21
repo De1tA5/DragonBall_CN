@@ -1,0 +1,308 @@
+KeybindPlayer: {
+	ProcessTriggers: {
+		1: {
+			// OldString: FullPowerBuff
+			// NewString: FullPowerBuff
+		}
+
+		2: {
+			// OldString: ShatteredLimitsBuff
+			// NewString: ShatteredLimitsBuff
+		}
+	}
+}
+
+KeybindSystem: {
+	Load: {
+		1: {
+			// OldString: TransformKey
+			// NewString: TransformKey
+		}
+
+		2: {
+			// OldString: F
+			// NewString: F
+		}
+
+		3: {
+			// OldString: Charge
+			// NewString: Charge
+		}
+
+		4: {
+			// OldString: C
+			// NewString: C
+		}
+	}
+}
+
+Content: {
+	Transformations: {
+		DBTContentPlayer: {
+			SaveData: {
+				1: {
+					// OldString: FullPowerAchieved
+					// NewString: FullPowerAchieved
+				}
+
+				2: {
+					// OldString: ShatteredLimitsAchieved
+					// NewString: ShatteredLimitsAchieved
+				}
+			}
+
+			LoadData: {
+				1: {
+					// OldString: FullPowerAchieved
+					// NewString: FullPowerAchieved
+				}
+
+				2: {
+					// OldString: ShatteredLimitsAchieved
+					// NewString: ShatteredLimitsAchieved
+				}
+			}
+		}
+
+		ShatteredLimitsUnlock: {
+			OnKill: {
+				1: {
+					// OldString: " has shattered their limits!"
+					NewString: 已经突破了自己的极限！
+				}
+			}
+		}
+
+		FullPowerBuff: {
+			AuraData: {
+				1: {
+					// OldString: DBZGoatLib/Assets/BaseAura
+					// NewString: DBZGoatLib/Assets/BaseAura
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Full Power
+					// NewString: Full Power
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: DBZMODPORT/Sounds/SSJAscension
+					// NewString: DBZMODPORT/Sounds/SSJAscension
+				}
+
+				2: {
+					// OldString: DBZMODPORT/Sounds/SSJAura
+					// NewString: DBZMODPORT/Sounds/SSJAura
+				}
+			}
+
+			BuildFixedTooltip: {
+				1: {
+					// OldString: "Damage "
+					NewString: "伤害 "
+				}
+
+				2: {
+					// OldString: ""
+					// NewString: ""
+				}
+
+				3: {
+					// OldString: +
+					// NewString: +
+				}
+
+				4: {
+					// OldString: P2
+					// NewString: P2
+				}
+
+				5: {
+					// OldString: " | "
+					// NewString: " | "
+				}
+
+				6: {
+					// OldString: "Speed "
+					NewString: "移动速度 "
+				}
+
+				7: {
+					// OldString: "Ki Costs "
+					NewString: "气消耗 "
+				}
+
+				8: {
+					// OldString: "Ki Drain "
+					NewString: "气损失 "
+				}
+
+				9: {
+					// OldString: N0
+					// NewString: N0
+				}
+
+				10: {
+					// OldString: "/s | "
+					NewString: /s （精通时
+				}
+
+				11: {
+					// OldString: "Mastered Ki Drain "
+					NewString: ""
+				}
+
+				12: {
+					// OldString: /s
+					NewString: /s）
+				}
+			}
+		}
+
+		ShatteredLimitsBuff: {
+			AuraData: {
+				1: {
+					// OldString: DBZGoatLib/Assets/BaseAura
+					// NewString: DBZGoatLib/Assets/BaseAura
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Shattered Limits
+					// NewString: Shattered Limits
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: DBZMODPORT/Sounds/SSJAscension
+					// NewString: DBZMODPORT/Sounds/SSJAscension
+				}
+
+				2: {
+					// OldString: DBZMODPORT/Sounds/SSJ3
+					// NewString: DBZMODPORT/Sounds/SSJ3
+				}
+			}
+
+			BuildFixedTooltip: {
+				1: {
+					// OldString: "Damage "
+					NewString: "伤害 "
+				}
+
+				2: {
+					// OldString: ""
+					// NewString: ""
+				}
+
+				3: {
+					// OldString: +
+					// NewString: +
+				}
+
+				4: {
+					// OldString: P2
+					// NewString: P2
+				}
+
+				5: {
+					// OldString: " | "
+					// NewString: " | "
+				}
+
+				6: {
+					// OldString: "Speed "
+					NewString: "移动速度 "
+				}
+
+				7: {
+					// OldString: "Ki Costs "
+					NewString: "气消耗 "
+				}
+
+				8: {
+					// OldString: "Ki Drain "
+					NewString: "气损失 "
+				}
+
+				9: {
+					// OldString: N0
+					// NewString: N0
+				}
+
+				10: {
+					// OldString: "/s | "
+					NewString: /s （精通时
+				}
+
+				11: {
+					// OldString: "Mastered Ki Drain "
+					NewString: ""
+				}
+
+				12: {
+					// OldString: /s
+					NewString: /s）
+				}
+			}
+		}
+
+		FullPowerPanel: {
+			Name: {
+				1: {
+					// OldString: Awakening Power
+					// NewString: Awakening Power
+				}
+			}
+
+			Nodes: {
+				1: {
+					// OldString: FullPowerBuff
+					// NewString: FullPowerBuff
+				}
+
+				2: {
+					// OldString: AwakeningPower/Content/Transformations/FullPowerBuff
+					// NewString: AwakeningPower/Content/Transformations/FullPowerBuff
+				}
+
+				3: {
+					// OldString: Only by harnessing ones energy (craft full power item).
+					// NewString: Only by harnessing ones energy (craft full power item).
+				}
+
+				4: {
+					// OldString: ShatteredLimitsBuff
+					// NewString: ShatteredLimitsBuff
+				}
+
+				5: {
+					// OldString: AwakeningPower/Content/Transformations/ShatteredLimitsBuff
+					// NewString: AwakeningPower/Content/Transformations/ShatteredLimitsBuff
+				}
+
+				6: {
+					// OldString: " Kill A demonic Beast."
+					// NewString: " Kill A demonic Beast."
+				}
+			}
+		}
+	}
+
+	Items: {
+		TranquilKiCrystal: {
+			UseItem: {
+				1: {
+					// OldString: " has unlocked their Full Power!"
+					NewString: 已解锁全功率形态！
+				}
+			}
+		}
+	}
+}

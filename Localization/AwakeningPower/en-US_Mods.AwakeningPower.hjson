@@ -1,0 +1,83 @@
+Configs: {
+	SettingsAura: {
+		AuraAlpha: {
+			Tooltip: ""
+			Label: Aura Alpha
+		}
+
+		AuraBlue: {
+			Tooltip: ""
+			Label: Aura Blue
+		}
+
+		AuraGreen: {
+			Tooltip: ""
+			Label: Aura Green
+		}
+
+		AuraRed: {
+			Tooltip: ""
+			Label: Aura Red
+		}
+
+		DisplayName: Settings Aura
+	}
+}
+
+Projectiles.KiHomingProjectile.DisplayName: Ki Homing Projectile
+
+Items: {
+	TranquilKiCrystal: {
+		Tooltip:
+			'''
+			You Feel Relaxed and Calm. 
+			Unlocks Full Power.
+			'''
+		DisplayName: Tranquil Ki Crystal
+	}
+
+	KiFocusPotion: {
+		Tooltip: Increases Ki damge by 10%.
+		DisplayName: Ki Surge Potion
+	}
+
+	Ki_Essence: {
+		DisplayName: Ki Essence
+		Tooltip: ""
+	}
+
+	PowerStone: {
+		DisplayName: Power Stone
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	ShatteredLimitsBuff: {
+		Description:
+			'''
+			Damage +15% | Speed +15% | Ki cost + 15%
+			Ki drain 48/s | Mastery Ki drain 24/s
+			'''
+		DisplayName: Shattered Limits
+	}
+
+	FullPowerBuff: {
+		Description:
+			'''
+			Damage +10% | Speed +10% | Ki cost + 10%
+			Ki drain 36/s | Mastery ki drain 18/s
+			'''
+		DisplayName: Full Power
+	}
+
+	KiFocusBuff: {
+		Description: Increased Ki damage by 10%
+		DisplayName: Ki Surge Buff
+	}
+}
+
+Keybinds: {
+	Charge.DisplayName: Charge
+	TransformKey.DisplayName: Transform Key
+}

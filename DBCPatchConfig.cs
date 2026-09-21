@@ -24,6 +24,10 @@ namespace DragonBall_CN
         [ReloadRequired]
         [DefaultValue(true)]
         public bool HideDBTBalanceTransformationTree { get; set; }
+
+        [ReloadRequired]
+        [DefaultValue(true)]
+        public bool SSJ5FurRecipeFix { get; set; }
         #endregion
 
         #region 夹带私货

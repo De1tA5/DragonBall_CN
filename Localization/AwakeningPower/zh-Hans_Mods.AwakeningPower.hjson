@@ -1,0 +1,83 @@
+Configs: {
+	SettingsAura: {
+		AuraAlpha: {
+			Tooltip: ""
+			Label: 气焰光环透明度
+		}
+
+		AuraBlue: {
+			Tooltip: ""
+			Label: 气焰光环蓝色
+		}
+
+		AuraGreen: {
+			Tooltip: ""
+			Label: 气焰光环绿色
+		}
+
+		AuraRed: {
+			Tooltip: ""
+			Label: 气焰光环红色
+		}
+
+		DisplayName: 设置气焰光环
+	}
+}
+
+Projectiles.KiHomingProjectile.DisplayName: 气追踪弹幕
+
+Items: {
+	TranquilKiCrystal: {
+		Tooltip:
+			'''
+			你感到自在又平静
+			解锁全功率形态
+			'''
+		DisplayName: 宁静气结晶
+	}
+
+	KiFocusPotion: {
+		Tooltip: 增加10%气伤害
+		DisplayName: 气涌动药水
+	}
+
+	Ki_Essence: {
+		DisplayName: 气精华
+		Tooltip: ""
+	}
+
+	PowerStone: {
+		DisplayName: Power Stone
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	ShatteredLimitsBuff: {
+		Description:
+			'''
+			Damage +15% | Speed +15% | Ki cost + 15%
+			Ki drain 48/s | Mastery Ki drain 24/s
+			'''
+		DisplayName: 突破极限
+	}
+
+	FullPowerBuff: {
+		Description:
+			'''
+			Damage +10% | Speed +10% | Ki cost + 10%
+			Ki drain 36/s | Mastery ki drain 18/s
+			'''
+		DisplayName: 全功率
+	}
+
+	KiFocusBuff: {
+		Description: 增加10%气伤害
+		DisplayName: 气气涌动
+	}
+}
+
+Keybinds: {
+	Charge.DisplayName: 蓄力（仅限本模组形态）
+	TransformKey.DisplayName: 变身（仅限本模组形态）
+}

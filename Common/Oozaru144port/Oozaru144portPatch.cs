@@ -76,6 +76,9 @@ namespace DragonBall_CN.Common.Oozaru144port
             if (!ModLoader.TryGetMod(Oozaru, out Mod mod))
                 return;
 
+            if (!DBCPatchConfig.Instance.SSJ5FurRecipeFix)
+                return;
+
             if (!mod.TryFind<ModItem>("SSJ5Fur", out ModItem SSJ5Fur) ||
                 !mod.TryFind<ModItem>("SSJ4Fur", out ModItem SSJ4Fur))
                 return;
