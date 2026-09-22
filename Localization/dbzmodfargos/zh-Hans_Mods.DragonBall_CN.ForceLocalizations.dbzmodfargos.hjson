@@ -1,0 +1,1171 @@
+DBZFargosPlayer: {
+	SaveData: {
+		1: {
+			// OldString: AbyssMessage
+			// NewString: AbyssMessage
+		}
+
+		2: {
+			// OldString: CosmicMessage
+			// NewString: CosmicMessage
+		}
+
+		3: {
+			// OldString: AbomMessage
+			// NewString: AbomMessage
+		}
+	}
+
+	LoadData: {
+		1: {
+			// OldString: AbyssMessage
+			// NewString: AbyssMessage
+		}
+
+		2: {
+			// OldString: CosmicMessage
+			// NewString: CosmicMessage
+		}
+
+		3: {
+			// OldString: AbomMessage
+			// NewString: AbomMessage
+		}
+	}
+}
+
+DBZmodfargosNPC: {
+	OnKill: {
+		1: {
+			// OldString: A dormant power erupts from the deep ocean.
+			// NewString: A dormant power erupts from the deep ocean.
+		}
+
+		2: {
+			// OldString: The sky shines bright with cosmic power.
+			// NewString: The sky shines bright with cosmic power.
+		}
+
+		3: {
+			// OldString: A strange Ki can be felt radiating from the shimmering lake deep underground.
+			// NewString: A strange Ki can be felt radiating from the shimmering lake deep underground.
+		}
+	}
+}
+
+Content: {
+	Projectiles: {
+		GodPunisher: {
+			OnKill: {
+				1: {
+					// OldString: ""
+					// NewString: ""
+				}
+			}
+		}
+
+		RevengeDeathBall: {
+			AI: {
+				1: {
+					// OldString: DBZMODPORT/Sounds/SpiritBombCharge
+					// NewString: DBZMODPORT/Sounds/SpiritBombCharge
+				}
+
+				2: {
+					// OldString: DBZMODPORT/Sounds/SpiritBombFire
+					// NewString: DBZMODPORT/Sounds/SpiritBombFire
+				}
+			}
+		}
+
+		SSDeadlyBomber: {
+			OnKill: {
+				1: {
+					// OldString: ""
+					// NewString: ""
+				}
+			}
+		}
+
+		TimeClockProj: {
+			OnKill: {
+				1: {
+					// OldString: ""
+					// NewString: ""
+				}
+			}
+		}
+	}
+
+	Items: {
+		BlackFusionEnchantment: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: BlackFusionShirt
+					// NewString: BlackFusionShirt
+				}
+
+				3: {
+					// OldString: BlackFusionPants
+					// NewString: BlackFusionPants
+				}
+
+				4: {
+					// OldString: TimeRing
+					// NewString: TimeRing
+				}
+
+				5: {
+					// OldString: BuldariumSigmite
+					// NewString: BuldariumSigmite
+				}
+
+				6: {
+					// OldString: HolyWrath
+					// NewString: HolyWrath
+				}
+
+				7: {
+					// OldString: BlightedFang
+					// NewString: BlightedFang
+				}
+			}
+		}
+
+		DeathBeam: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Laser
+					// NewString: Laser
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: CosmicKiCrystal
+					// NewString: CosmicKiCrystal
+				}
+
+				4: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		DemonEnchantment: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: DemonShirt
+					// NewString: DemonShirt
+				}
+
+				3: {
+					// OldString: DemonLeggings
+					// NewString: DemonLeggings
+				}
+
+				4: {
+					// OldString: InfuserRainbow
+					// NewString: InfuserRainbow
+				}
+
+				5: {
+					// OldString: SpiritCharm
+					// NewString: SpiritCharm
+				}
+
+				6: {
+					// OldString: SpecialBeamCannon
+					// NewString: SpecialBeamCannon
+				}
+
+				7: {
+					// OldString: HellzoneGrenade
+					// NewString: HellzoneGrenade
+				}
+			}
+		}
+
+		DisasterEraser: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Beam
+					// NewString: Beam
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: AbominableKiCrystal
+					// NewString: AbominableKiCrystal
+				}
+
+				4: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		DragonFist: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Beam
+					// NewString: Beam
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: AbyssalKiCrystal
+					// NewString: AbyssalKiCrystal
+				}
+			}
+		}
+
+		EliteSaiyanEnchantment: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: EliteSaiyanBreastplate
+					// NewString: EliteSaiyanBreastplate
+				}
+
+				3: {
+					// OldString: EliteSaiyanLeggings
+					// NewString: EliteSaiyanLeggings
+				}
+
+				4: {
+					// OldString: ZenkaiCharm
+					// NewString: ZenkaiCharm
+				}
+
+				5: {
+					// OldString: MetamoranSash
+					// NewString: MetamoranSash
+				}
+
+				6: {
+					// OldString: FinalFlash
+					// NewString: FinalFlash
+				}
+
+				7: {
+					// OldString: Kamehamehax10
+					// NewString: Kamehamehax10
+				}
+			}
+		}
+
+		FinalSpiritCannon: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Beam
+					// NewString: Beam
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: AbominableKiCrystal
+					// NewString: AbominableKiCrystal
+				}
+
+				4: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		FriezaForce: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				3: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				4: {
+					// OldString: SaiyanScoutEnchantment
+					// NewString: SaiyanScoutEnchantment
+				}
+
+				5: {
+					// OldString: TurtleHermitEnchantment
+					// NewString: TurtleHermitEnchantment
+				}
+
+				6: {
+					// OldString: SaiyanBattleEnchantment
+					// NewString: SaiyanBattleEnchantment
+				}
+
+				7: {
+					// OldString: DemonEnchantment
+					// NewString: DemonEnchantment
+				}
+
+				8: {
+					// OldString: BlackFusionEnchantment
+					// NewString: BlackFusionEnchantment
+				}
+
+				9: {
+					// OldString: EliteSaiyanEnchantment
+					// NewString: EliteSaiyanEnchantment
+				}
+
+				10: {
+					// OldString: RadiantEnchantment
+					// NewString: RadiantEnchantment
+				}
+
+				11: {
+					// OldString: CosmicKiCrystal
+					// NewString: CosmicKiCrystal
+				}
+
+				12: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		GiganticBurst: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Beam
+					// NewString: Beam
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: CosmicKiCrystal
+					// NewString: CosmicKiCrystal
+				}
+
+				4: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		GodPunisher: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Blast
+					// NewString: Blast
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: AbominableKiCrystal
+					// NewString: AbominableKiCrystal
+				}
+
+				4: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		HolyTimeJudgement: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Barrage
+					// NewString: Barrage
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: AbyssalKiCrystal
+					// NewString: AbyssalKiCrystal
+				}
+			}
+		}
+
+		ProminenceFlash: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Beam
+					// NewString: Beam
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: AbominableKiCrystal
+					// NewString: AbominableKiCrystal
+				}
+
+				4: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		RadiantEnchantment: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: RadiantVisor
+					// NewString: RadiantVisor
+				}
+
+				3: {
+					// OldString: RadiantScalepiece
+					// NewString: RadiantScalepiece
+				}
+
+				4: {
+					// OldString: RadiantGreaves
+					// NewString: RadiantGreaves
+				}
+
+				5: {
+					// OldString: RadiantTotem
+					// NewString: RadiantTotem
+				}
+
+				6: {
+					// OldString: CrystalliteAlleviate
+					// NewString: CrystalliteAlleviate
+				}
+
+				7: {
+					// OldString: MajinNucleus
+					// NewString: MajinNucleus
+				}
+
+				8: {
+					// OldString: BlindingBlade
+					// NewString: BlindingBlade
+				}
+
+				9: {
+					// OldString: RadialJavelin
+					// NewString: RadialJavelin
+				}
+			}
+		}
+
+		RevengeDeathBall: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Massive Blast
+					// NewString: Massive Blast
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: CosmicKiCrystal
+					// NewString: CosmicKiCrystal
+				}
+
+				4: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		SaiyanBattleEnchantment: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: SaiyanBreastplate
+					// NewString: SaiyanBreastplate
+				}
+
+				3: {
+					// OldString: SaiyanLeggings
+					// NewString: SaiyanLeggings
+				}
+
+				4: {
+					// OldString: PureEnergyCirclet
+					// NewString: PureEnergyCirclet
+				}
+
+				5: {
+					// OldString: BloodstainedBandana
+					// NewString: BloodstainedBandana
+				}
+
+				6: {
+					// OldString: GalickGun
+					// NewString: GalickGun
+				}
+
+				7: {
+					// OldString: BigBangAttack
+					// NewString: BigBangAttack
+				}
+			}
+		}
+
+		SaiyanScoutEnchantment: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: SaiyanScoutScalemail
+					// NewString: SaiyanScoutScalemail
+				}
+
+				3: {
+					// OldString: SaiyanScoutPants
+					// NewString: SaiyanScoutPants
+				}
+
+				4: {
+					// OldString: BattleKit
+					// NewString: BattleKit
+				}
+
+				5: {
+					// OldString: EarthenArcanium
+					// NewString: EarthenArcanium
+				}
+
+				6: {
+					// OldString: DoubleSunday
+					// NewString: DoubleSunday
+				}
+
+				7: {
+					// OldString: KiBlast
+					// NewString: KiBlast
+				}
+			}
+		}
+
+		SaiyanSoul: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				3: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				4: {
+					// OldString: SuperSaiyanEssence
+					// NewString: SuperSaiyanEssence
+				}
+
+				5: {
+					// OldString: Scattershot
+					// NewString: Scattershot
+				}
+
+				6: {
+					// OldString: TrapShooter
+					// NewString: TrapShooter
+				}
+
+				7: {
+					// OldString: CandyLaser
+					// NewString: CandyLaser
+				}
+
+				8: {
+					// OldString: SuperEnergyBarrage
+					// NewString: SuperEnergyBarrage
+				}
+
+				9: {
+					// OldString: DestructoDiskAssault
+					// NewString: DestructoDiskAssault
+				}
+
+				10: {
+					// OldString: SuperSpiritBomb
+					// NewString: SuperSpiritBomb
+				}
+
+				11: {
+					// OldString: FinalShine
+					// NewString: FinalShine
+				}
+
+				12: {
+					// OldString: AbyssalKiCrystal
+					// NewString: AbyssalKiCrystal
+				}
+			}
+		}
+
+		SouloftheDestroyerGod: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				3: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				4: {
+					// OldString: FargowiltasSouls
+					// NewString: FargowiltasSouls
+				}
+
+				5: {
+					// OldString: SaiyanSoul
+					// NewString: SaiyanSoul
+				}
+
+				6: {
+					// OldString: FriezaForce
+					// NewString: FriezaForce
+				}
+
+				7: {
+					// OldString: AbomEnergy
+					// NewString: AbomEnergy
+				}
+
+				8: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		SSDeadlyBarrage: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Barrage
+					// NewString: Barrage
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: AbominableKiCrystal
+					// NewString: AbominableKiCrystal
+				}
+
+				4: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		SSDeadlyBomber: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Massive Blast
+					// NewString: Massive Blast
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: AbominableKiCrystal
+					// NewString: AbominableKiCrystal
+				}
+
+				4: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		SuperSaiyanEssence: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: KiBeam
+					// NewString: KiBeam
+				}
+
+				3: {
+					// OldString: EnergyWave
+					// NewString: EnergyWave
+				}
+
+				4: {
+					// OldString: DestructoDisk
+					// NewString: DestructoDisk
+				}
+
+				5: {
+					// OldString: SpiritBall
+					// NewString: SpiritBall
+				}
+
+				6: {
+					// OldString: EnergyShot
+					// NewString: EnergyShot
+				}
+
+				7: {
+					// OldString: SpiritualEmblem
+					// NewString: SpiritualEmblem
+				}
+			}
+		}
+
+		SwordofHope: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Unique
+					// NewString: Unique
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				4: {
+					// OldString: TrunksSword
+					// NewString: TrunksSword
+				}
+
+				5: {
+					// OldString: AbyssalKiCrystal
+					// NewString: AbyssalKiCrystal
+				}
+			}
+		}
+
+		TemporalHolyRay: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Beam
+					// NewString: Beam
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: AbyssalKiCrystal
+					// NewString: AbyssalKiCrystal
+				}
+			}
+		}
+
+		TimeClock: {
+			ProjectileInitialize: {
+				1: {
+					// OldString: Blast
+					// NewString: Blast
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: CosmicKiCrystal
+					// NewString: CosmicKiCrystal
+				}
+
+				4: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		TurtleHermitEnchantment: {
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: HermitGi
+					// NewString: HermitGi
+				}
+
+				3: {
+					// OldString: HermitPants
+					// NewString: HermitPants
+				}
+
+				4: {
+					// OldString: SenzuBag
+					// NewString: SenzuBag
+				}
+
+				5: {
+					// OldString: KaioCrystal
+					// NewString: KaioCrystal
+				}
+
+				6: {
+					// OldString: Kamehameha
+					// NewString: Kamehameha
+				}
+
+				7: {
+					// OldString: SpiritBomb
+					// NewString: SpiritBomb
+				}
+			}
+		}
+	}
+
+	Armor: {
+		ShatteredLimits: {
+			UpdateArmorSet: {
+				1: {
+					// OldString: 20% increased Ki damage. Insane Ki regen. Gain a chance to dodge attacks using Ultra Instinct!
+					// NewString: 20% increased Ki damage. Insane Ki regen. Gain a chance to dodge attacks using Ultra Instinct!
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: FargowiltasSouls
+					// NewString: FargowiltasSouls
+				}
+
+				4: {
+					// OldString: AbomEnergy
+					// NewString: AbomEnergy
+				}
+
+				5: {
+					// OldString: AbominableKiCrystal
+					// NewString: AbominableKiCrystal
+				}
+
+				6: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		ShatteredLimitsGi: {
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: FargowiltasSouls
+					// NewString: FargowiltasSouls
+				}
+
+				4: {
+					// OldString: AbomEnergy
+					// NewString: AbomEnergy
+				}
+
+				5: {
+					// OldString: AbominableKiCrystal
+					// NewString: AbominableKiCrystal
+				}
+
+				6: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		ShatteredLimitsGiPants: {
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: FargowiltasSouls
+					// NewString: FargowiltasSouls
+				}
+
+				4: {
+					// OldString: AbomEnergy
+					// NewString: AbomEnergy
+				}
+
+				5: {
+					// OldString: AbominableKiCrystal
+					// NewString: AbominableKiCrystal
+				}
+
+				6: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+
+		ShatteredLimitsSign: {
+			UpdateArmorSet: {
+				1: {
+					// OldString: 20% increased Ki damage. Insane Ki regen. Gain a chance to dodge attacks using Ultra Instinct!
+					// NewString: 20% increased Ki damage. Insane Ki regen. Gain a chance to dodge attacks using Ultra Instinct!
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: dbzmodfargos
+					// NewString: dbzmodfargos
+				}
+
+				2: {
+					// OldString: Fargowiltas
+					// NewString: Fargowiltas
+				}
+
+				3: {
+					// OldString: FargowiltasSouls
+					// NewString: FargowiltasSouls
+				}
+
+				4: {
+					// OldString: AbomEnergy
+					// NewString: AbomEnergy
+				}
+
+				5: {
+					// OldString: AbominableKiCrystal
+					// NewString: AbominableKiCrystal
+				}
+
+				6: {
+					// OldString: CrucibleCosmosSheet
+					// NewString: CrucibleCosmosSheet
+				}
+			}
+		}
+	}
+}

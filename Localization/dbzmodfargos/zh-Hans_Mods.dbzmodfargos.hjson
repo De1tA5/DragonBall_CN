@@ -1,0 +1,422 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	A: {
+		DisplayName: A
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	SaiyanBattleEnchantment: {
+		DisplayName: 战斗赛亚人魔石
+		Tooltip:
+			'''
+			增加1000点最大气值
+			增加气珠拾取范围
+			提升气回复速度
+			增加15%气伤害
+			减少8%气消耗
+			获得纯粹能量圆环和血染头巾的效果
+			“我会让你见识赛亚人精英的力量！”
+			'''
+	}
+
+	TurtleHermitEnchantment: {
+		DisplayName: 龟仙人魔石
+		Tooltip:
+			'''
+			增加500点最大气值
+			提升集气速度
+			提升气回复速度
+			减少15%气消耗
+			提升2点武器最大蓄力段数
+			获得仙豆袋的效果
+			“也许就算是下等战士的弃子，只要下定决心，也能超越精英！”
+			'''
+	}
+
+	SaiyanScoutEnchantment: {
+		DisplayName: 侦察赛亚人魔石
+		Tooltip:
+			'''
+			增加500点最大气值
+			提升集气速度
+			提升气回复速度
+			提升飞行速度
+			减少飞行时气消耗
+			减少10%气消耗
+			增加10%气伤害
+			提升15%气攻击速度
+			提升1点武器最大蓄力段数
+			获得战斗套件和大地秘核的效果
+			“感受你沸腾的赛亚人血脉吧！！”
+			'''
+	}
+
+	DemonEnchantment: {
+		DisplayName: 恶魔魔石
+		Tooltip:
+			'''
+			按下 [套装奖励] 键使你获得恶魔超载，在此期间拥有无限气
+			增加1500点最大气值
+			提升1点武器最大蓄力段数
+			获得灵魂护符和龙晶灌注器的效果
+			“我既不是神仙，也不是比克”
+			'''
+	}
+
+	BlackFusionEnchantment: {
+		DisplayName: 黑色融合魔石
+		Tooltip:
+			'''
+			在Boss存活时全职业伤害会缓慢提升，最高提升300%
+			增加1500点最大气值
+			增加100点最大生命值
+			提升2点武器最大蓄力段数
+			获得时之戒和巴德尔结晶的效果
+			“凡人真是可悲”
+			'''
+	}
+
+	EliteSaiyanEnchantment: {
+		DisplayName: 精英赛亚人魔石
+		Tooltip:
+			'''
+			受到致命伤害会立刻回满全部生命值并在一段时间内造成2倍伤害
+			有1分钟冷却时间
+			增加2000点最大气值
+			减少30%气消耗
+			增加150点最大生命值
+			提升3点武器最大蓄力段数
+			获得梅塔摩尔腰带的效果
+			“可就在那短短的时间里，我们赛亚人战士一次又一次突破了自身的极限”
+			'''
+	}
+
+	RadiantEnchantment: {
+		DisplayName: 辐辉魔石
+		Tooltip:
+			'''
+			击中敌怪会回复随机量的气，并向附近敌人发射追踪弹幕
+			增加5000点最大气值
+			大幅提升气回复速度
+			大幅提升生命再生速度
+			提升集气时的移动速度
+			增加20%气伤害
+			增加200点最大生命值
+			提升4点武器最大蓄力段数
+			“我的力量正不断提升……快压制不住了！”
+			'''
+	}
+
+	SuperSaiyanEssence: {
+		DisplayName: 超级赛亚人精华
+		Tooltip:
+			'''
+			增加18%气伤害
+			增加8%气暴击率
+			增加1000点最大气值
+			“这只是个开始……”
+			'''
+	}
+
+	SaiyanSoul: {
+		DisplayName: 赛亚人之魂
+		Tooltip:
+			'''
+			增加22%气伤害
+			增加10%气暴击率
+			提升20%气攻击速度
+			增加10%气击退力
+			减少20%气消耗
+			增加7000点最大气值
+			提升6点武器最大蓄力段数
+			“只能靠我了……我……我要改变未来！”
+			'''
+	}
+
+	FriezaForce: {
+		DisplayName: 弗利萨之力
+		Tooltip:
+			'''
+			增加10000点最大气值
+			提升飞行速度
+			减少飞行时气消耗
+			增加气珠的拾取范围
+			提升集气速度
+			大幅提升气回复速度
+			大幅提升生命再生速度
+			增加30%气伤害
+			增加12%气暴击率
+			减少30%气消耗
+			提升30%气攻击速度
+			增加500点最大生命值
+			提升10点武器最大蓄力段数
+			[i:dbzmodfargos/SaiyanScoutEnchantment] 获得战斗套件和大地秘核的效果
+			[i:dbzmodfargos/TurtleHermitEnchantment] 获得获得仙豆袋的效果
+			[i:dbzmodfargos/SaiyanBattleEnchantment] 获得纯粹能量圆环和血染头巾的效果
+			[i:dbzmodfargos/DemonEnchantment] 按下 [套装奖励] 键使你获得恶魔超载，在此期间拥有无限气
+			[i:dbzmodfargos/DemonEnchantment] 获得灵魂护符和龙晶灌注器的效果
+			[i:dbzmodfargos/BlackFusionEnchantment] 在Boss存活时全职业伤害会缓慢提升，最高提升300%
+			[i:dbzmodfargos/BlackFusionEnchantment] 获得时之戒和巴德尔结晶的效果
+			[i:dbzmodfargos/EliteSaiyanEnchantment] 受到致命伤害会立刻回满全部生命值并在一段时间内造成2倍伤害
+			[i:dbzmodfargos/EliteSaiyanEnchantment] 获得梅塔摩尔腰带的效果
+			[i:dbzmodfargos/RadiantEnchantment] 击中敌怪会回复随机量的气，并向附近敌人发射追踪弹幕
+			“我要把你和这整颗星球全部轰成尘埃！”
+			'''
+	}
+
+	SouloftheDestroyerGod: {
+		DisplayName: 破坏神之魂
+		Tooltip:
+			'''
+			增加20000点最大气值
+			提升飞行速度
+			减少飞行时气消耗
+			增加气珠的拾取范围
+			提升集气速度
+			大幅提升气回复速度
+			大幅提升生命再生速度
+			增加50%气伤害
+			增加20%气暴击率
+			减少40%气消耗
+			提升40%气攻击速度
+			增加500点最大生命值
+			提升20点武器最大蓄力段数
+			[i:dbzmodfargos/SaiyanScoutEnchantment] 获得战斗套件和大地秘核的效果
+			[i:dbzmodfargos/TurtleHermitEnchantment] 获得获得仙豆袋的效果
+			[i:dbzmodfargos/SaiyanBattleEnchantment] 获得纯粹能量圆环和血染头巾的效果
+			[i:dbzmodfargos/DemonEnchantment] 按下 [套装奖励] 键使你获得恶魔超载，在此期间拥有无限气
+			[i:dbzmodfargos/DemonEnchantment] 获得灵魂护符和龙晶灌注器的效果
+			[i:dbzmodfargos/BlackFusionEnchantment] 在Boss存活时全职业伤害会缓慢提升，最高提升300%
+			[i:dbzmodfargos/BlackFusionEnchantment] 获得时之戒和巴德尔结晶的效果
+			[i:dbzmodfargos/EliteSaiyanEnchantment] 受到致命伤害会立刻回满全部生命值并在一段时间内造成2倍伤害
+			[i:dbzmodfargos/EliteSaiyanEnchantment] 获得梅塔摩尔腰带的效果
+			[i:dbzmodfargos/RadiantEnchantment] 击中敌怪会回复随机量的气，并向附近敌人发射追踪弹幕
+			“在创造之前……必须先有破坏”
+			'''
+	}
+
+	GiganticBurst: {
+		DisplayName: Gigantic Burst
+		Tooltip: ""
+	}
+
+	RevengeDeathBall: {
+		DisplayName: Revenge Death Ball
+		Tooltip: ""
+	}
+
+	SSDeadlyBomber: {
+		DisplayName: S. S. Deadly Bomber
+		Tooltip: "'You're done!'"
+	}
+
+	AbyssalKiCrystal: {
+		DisplayName: 深渊气水晶
+		Tooltip: 
+			'''
+			深渊的远古之怒于其中躁动
+			[C/959595:译者补充：击败月亮领主后，在海洋环境击败敌怪有85%概率掉落]
+			'''
+	}
+
+	AbominableKiCrystal: {
+		DisplayName: 憎恶气水晶
+		Tooltip:
+			''' 
+			融合万灵之魂栖居于此
+			[C/959595:译者补充：击败憎恶后，在微光环境击败敌怪有85%概率掉落]
+			'''
+	}
+
+	CosmicKiCrystal: {
+		DisplayName: 宇宙气水晶
+		Tooltip:
+			''' 
+			宇宙的非凡之力蕴藏于其中
+			[C/959595:译者补充：击败厄里达诺斯，宇宙英灵后，在太空高度击败敌怪有85%概率掉落]
+			'''
+	}
+
+	BlasterShell: {
+		DisplayName: Blaster Shell
+		Tooltip: ""
+	}
+
+	FinalSpiritCannon: {
+		DisplayName: Final Spirit Cannon
+		Tooltip: "'This is going to change everything!'"
+	}
+
+	SabisBattleSuit: {
+		DisplayName: Sabi's Battle Suit
+		Tooltip: Battle armour of a fabled Saiyan of legend.
+	}
+
+	SabisLeggings: {
+		DisplayName: Sabi's Leggings
+		Tooltip: Battle armour of a fabled Saiyan of legend.
+	}
+
+	RexsCoat: {
+		DisplayName: Rex's Coat
+		Tooltip: The coat of a legendary Saiyan warrior.
+	}
+
+	RexsPants: {
+		DisplayName: Rex's Pants
+		Tooltip: The pants of a legendary Saiyan warrior.
+	}
+
+	DragonFist: {
+		DisplayName: 龙拳
+		Tooltip: ""
+	}
+
+	SwordofHope: {
+		DisplayName: 希望之剑
+		Tooltip: ""
+	}
+
+	GodPunisher: {
+		DisplayName: God Punisher
+		Tooltip: ""
+	}
+
+	TimeClock: {
+		DisplayName: Time Clock
+		Tooltip: ""
+	}
+
+	SoaringFist: {
+		DisplayName: Soaring Fist
+		Tooltip: ""
+	}
+
+	ShatteredLimitsGi: {
+		DisplayName: Shattered Limits Gi
+		Tooltip:
+			'''
+			15% increased Ki damage
+			10% increased Ki critical strike chance
+			Reduces damage taken by 10%
+			Increased life regen
+			'''
+	}
+
+	ShatteredLimitsGiPants: {
+		DisplayName: Shattered Limits Pants
+		Tooltip:
+			'''
+			10% increased Ki damage
+			10% increased Ki critical strike chance
+			20% increased movement speed
+			'''
+	}
+
+	ShatteredLimits: {
+		DisplayName: Shattered Limits
+		Tooltip:
+			'''
+			10% increased Ki damage
+			10% increased Ki critical strike chance
+			'So, this is the power of Ultra Instinct.'
+			'''
+	}
+
+	ShatteredLimitsSign: {
+		DisplayName: Shattered Limits -Sign-
+		Tooltip:
+			'''
+			10% increased Ki damage
+			10% increased Ki critical strike chance
+			'''
+	}
+
+	DeathBeam: {
+		DisplayName: Death Beam
+		Tooltip: ""
+	}
+
+	TemporalJudgement: {
+		DisplayName: Temporal Judgement
+		Tooltip: ""
+	}
+
+	HolyTimeJudgement: {
+		DisplayName: Holy Time Judgement
+		Tooltip: ""
+	}
+
+	TemporalHolyRay: {
+		DisplayName: Temporal Holy Ray
+		Tooltip: ""
+	}
+
+	DisasterEraser: {
+		DisplayName: Désastre Eraser
+		Tooltip: ""
+	}
+
+	SSDeadlyBarrage: {
+		DisplayName: S. S. Deadly Barrage
+		Tooltip: ""
+	}
+
+	ProminenceFlash: {
+		DisplayName: Prominence Flash
+		Tooltip: ""
+	}
+
+	BrownSaiyanTail: {
+		DisplayName: Brown Saiyan Tail
+		Tooltip: ""
+	}
+
+	BlackSaiyanTail: {
+		DisplayName: Black Saiyan Tail
+		Tooltip: ""
+	}
+
+	RedSaiyanTail: {
+		DisplayName: Red Saiyan Tail
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	GiganticBurstBeam.DisplayName: Gigantic Burst
+	GiganticBurstCharge.DisplayName: Gigantic Burst Charge
+	RevengeDeathBall.DisplayName: Revenge Death Ball
+	SSDeadlyBomber.DisplayName: S. S. Deadly Bomber
+	BlasterShellBlast.DisplayName: Blaster Shell
+	FinalSpiritCannonBeam.DisplayName: Final Spirit Cannon
+	FinalSpiritCannonCharge.DisplayName: Final Spirit Cannon Charge
+	DragonFistBeam.DisplayName: Dragon Fist
+	DragonFistCharge.DisplayName: Dragon Fist Charge
+	GodPunisher.DisplayName: God Punisher
+	TimeClockProj.DisplayName: Time Clock
+	SoaringFistProj.DisplayName: Soaring Fist
+	DeathBeam.DisplayName: Death Beam
+	HolyTimeJudgement.DisplayName: Holy Time Judgement
+	HolyTimeJudgement2.DisplayName: Holy Time Judgement
+	TemporalHolyRayBeam.DisplayName: Temporal Holy Ray
+	TemporalHolyRayCharge.DisplayName: Temporal Holy Ray Charge
+	DisasterEraserBeam.DisplayName: Désastre Eraser
+	DisasterEraserCharge.DisplayName: Disaster Eraser Charge
+	SSDeadlyBarrageProjectile.DisplayName: S S Deadly Barrage
+	ProminenceFlashBeam.DisplayName: Prominence Flash
+	ProminenceFlashCharge.DisplayName: Prominence Flash Charge
+}
+
+Buffs: {
+	ShatteredLimitsBuff: {
+		DisplayName: Shattered Limits
+		Description: You've broken past your limits and entered the realm of the gods.
+	}
+}

@@ -1,0 +1,410 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	A: {
+		DisplayName: A
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	SaiyanBattleEnchantment: {
+		DisplayName: Saiyan Battle Enchantment
+		Tooltip:
+			'''
+			Increases your max Ki by 1000
+			Increased Ki orb pickup range
+			Increased Ki regen
+			15% increased Ki damage
+			8% reduced Ki Usage
+			Effects of Pure Energy Circlet and Bloodstained Bandana
+			'I will show you the power of a Saiyan Elite!'
+			'''
+	}
+
+	TurtleHermitEnchantment: {
+		DisplayName: Turtle Hermit Enchantment
+		Tooltip:
+			'''
+			Increases your max Ki by 500
+			Increased Ki charge speed
+			Increased Ki regen
+			15% reduced Ki usage
+			+2 Maximum Charges
+			Effects of Senzu Bean Bag
+			'Maybe even a lower class outcast can surpass an elite if he puts his mind to it!'
+			'''
+	}
+
+	SaiyanScoutEnchantment: {
+		DisplayName: Saiyan Scout Enchantment
+		Tooltip:
+			'''
+			Increases your max Ki by 500
+			Increased Ki charge speed
+			Increased Ki regen
+			Increased Flight speed
+			Reduced Flight Ki usage
+			10% reduced Ki usage
+			10% increased Ki damage
+			15% increased Ki cast speed
+			+1 Maximum Charge
+			Effects of Battle Kit and Earthen Arcanium
+			'Feel your Saiyan blood stir!!'
+			'''
+	}
+
+	DemonEnchantment: {
+		DisplayName: Demon Enchantment
+		Tooltip:
+			'''
+			Press the Armor Bonus key to gain infinite Ki for a short time
+			Increases your max Ki by 1500
+			+1 Maximum Charge
+			Effects of Spirit Charm and Dragon Ki Infuser
+			'I am neither Kami nor Piccolo.'
+			'''
+	}
+
+	BlackFusionEnchantment: {
+		DisplayName: Black Fusion Enchantment
+		Tooltip:
+			'''
+			All damage is slowly increased while a boss is alive, up to 300%
+			Increases your max Ki by 1500
+			+100 max Life
+			+2 Maximum Charges
+			Effects of Time Ring and Buldarium Sigmite
+			'Mortals truly are pathetic.'
+			'''
+	}
+
+	EliteSaiyanEnchantment: {
+		DisplayName: Elite Saiyan Enchantment
+		Tooltip:
+			'''
+			Taking fatal damage will instead restore you to max life with 2x damage for a short time
+			1 minute cooldown
+			Increased your max Ki by 2000
+			30% reduced Ki usage
+			+150 max Life
+			+3 Maximum Charges
+			Effects of Metamoran Sash
+			'Yet in that brief time span, we Saiyan warriors have shattered our limits - time after time.'
+			'''
+	}
+
+	RadiantEnchantment: {
+		DisplayName: Radiant Enchantment
+		Tooltip:
+			'''
+			Hitting enemies heals a random amount of Ki and fires off homing projectiles at nearby enemies
+			Increases your max Ki by 5000
+			Massively increased Ki regen
+			Massively increased Life regen
+			Increased speed while charging
+			20% increased Ki damage
+			+200 max Life
+			+4 Maximum Charges
+			'My power is rising... It's overflowing!'
+			'''
+	}
+
+	SuperSaiyanEssence: {
+		DisplayName: Super Saiyan Essence
+		Tooltip:
+			'''
+			18% increased Ki damage
+			8% increased Ki critical strike chance
+			Increases your max Ki by 1000
+			'This is only the beginning...'
+			'''
+	}
+
+	SaiyanSoul: {
+		DisplayName: Saiyan Soul
+		Tooltip:
+			'''
+			22% increased Ki damage
+			10% increased Ki critical strike chance
+			20% increased Ki cast speed
+			10% increased Ki knockback
+			20% reduced Ki usage
+			Increases your max Ki by 7000
+			+6 Maximum Charges
+			'It's up to me... I'm... I'm gonna change the future!'
+			'''
+	}
+
+	FriezaForce: {
+		DisplayName: Frieza Force
+		Tooltip:
+			'''
+			Increases your max Ki by 10000
+			Increased Flight speed
+			Reduced Flight Ki usage
+			Increased Ki orb pickup range
+			Increased Ki charge speed
+			Massively increased Ki regen
+			Massively increased Life regen
+			30% increased Ki damage
+			12% increased Ki critical strike chance
+			30% reduced Ki usage
+			30% increased Ki casting speed
+			+500 max Life
+			+10 Maximum Charges
+			[i/dH4sIAG+j3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDGLBiZmViXnByfmlJa55yRmJeSW5qXkljAzMaYlljAwAwpnerj4AAAA=:6410] Effects of Battle Kit and Earthen Arcanium
+			[i/dH4sIAKCj3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDOIhpUUlOakeqUW5mSWueckZiXklual5JYwMzGmJZYwMANBYw+w/AAAA:6413] Effects of Senzu Bean Bag
+			[i/dH4sIAMCj3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDOLBiZmViXlOiSUlOamueckZiXklual5JYwMzGmJZYwMAE2QRJ8/AAAA:6409] Effects of Pure Energy Circlet and Bloodstained Bandana
+			[i/dH4sIAO6j3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDAIuqbn5ea55yRmJeSW5qXkljAzMaYlljAwAZtn8IjgAAAA=:6405] Press the Armor Bonus key to gain infinite ki for a short time
+			[i/dH4sIAO6j3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDAIuqbn5ea55yRmJeSW5qXkljAzMaYlljAwAZtn8IjgAAAA=:6405] Effects of Spirit Charm and Dragon Ki Infuser
+			[i/dH4sIADWk3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDGJOOYnJ2W6lxZn5ea55yRmJeSW5qXkljAzMaYlljAwAiEGJ6D4AAAA=:6404] All damage is slowly increased while a boss is alive, up to 300%
+			[i/dH4sIADWk3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDGJOOYnJ2W6lxZn5ea55yRmJeSW5qXkljAzMaYlljAwAiEGJ6D4AAAA=:6404] Effects of Time Ring and Buldarium Sigmite
+			[i/dH4sIAHSk3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDGKuOZklqcGJmZWJea55yRmJeSW5qXklDAAF/es6NwAAAA==:6406] Taking fatal damage will instead restore you to max life with 2x damage for a short time
+			[i/dH4sIAHSk3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDGKuOZklqcGJmZWJea55yRmJeSW5qXklDAAF/es6NwAAAA==:6406] Effects of Metamoran Sash
+			[i/dH4sIAMWk3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDEJBiSmZiXklrnnJGUAqNzWvhJGBOS2xjJEBAPgo0Bo6AAAA:6408] Hitting enemies heals a random amount of Ki and fires off homing projectiles at nearby enemies
+			'I'll reduce you and this entire planet to dust!'
+			'''
+	}
+
+	SouloftheDestroyerGod: {
+		DisplayName: Soul of the Destroyer God
+		Tooltip:
+			'''
+			Increases your max Ki by 20000
+			Increased Flight speed
+			Reduced Flight Ki usage
+			Increased Ki orb pickup range
+			Increased Ki charge speed
+			Massively increased Ki regen
+			Massively increased Life regen
+			50% increased Ki damage
+			20% increased Ki critical strike chance
+			40% reduced Ki usage
+			40% increased Ki casting speed
+			+500 max Life
+			+20 Maximum Charges
+			[i/dH4sIAG+j3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDGLBiZmViXnByfmlJa55yRmJeSW5qXkljAzMaYlljAwAwpnerj4AAAA=:6410] Effects of Battle Kit and Earthen Arcanium
+			[i/dH4sIAKCj3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDOIhpUUlOakeqUW5mSWueckZiXklual5JYwMzGmJZYwMANBYw+w/AAAA:6413] Effects of Senzu Bean Bag
+			[i/dH4sIAMCj3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDOLBiZmViXlOiSUlOamueckZiXklual5JYwMzGmJZYwMAE2QRJ8/AAAA:6409] Effects of Pure Energy Circlet and Bloodstained Bandana
+			[i/dH4sIAO6j3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDAIuqbn5ea55yRmJeSW5qXkljAzMaYlljAwAZtn8IjgAAAA=:6405] Press the Armor Bonus key to gain infinite ki for a short time
+			[i/dH4sIAO6j3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDAIuqbn5ea55yRmJeSW5qXkljAzMaYlljAwAZtn8IjgAAAA=:6405] Effects of Spirit Charm and Dragon Ki Infuser
+			[i/dH4sIADWk3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDGJOOYnJ2W6lxZn5ea55yRmJeSW5qXkljAzMaYlljAwAiEGJ6D4AAAA=:6404] All damage is slowly increased while a boss is alive, up to 300%
+			[i/dH4sIADWk3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDGJOOYnJ2W6lxZn5ea55yRmJeSW5qXkljAzMaYlljAwAiEGJ6D4AAAA=:6404] Effects of Time Ring and Buldarium Sigmite
+			[i/dH4sIAHSk3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDGKuOZklqcGJmZWJea55yRmJeSW5qXklDAAF/es6NwAAAA==:6406] Taking fatal damage will instead restore you to max life with 2x damage for a short time
+			[i/dH4sIAHSk3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDGKuOZklqcGJmZWJea55yRmJeSW5qXklDAAF/es6NwAAAA==:6406] Effects of Metamoran Sash
+			[i/dH4sIAMWk3WcA/+NiYOBgYM7NT2HgSUmqAtJpiUXp+cUcDCx5ibmpDEJBiSmZiXklrnnJGUAqNzWvhJGBOS2xjJEBAPgo0Bo6AAAA:6408] Hitting enemies heals a random amount of Ki and fires off homing projectiles at nearby enemies
+			'Before creation... must come destruction.'
+			'''
+	}
+
+	GiganticBurst: {
+		DisplayName: Gigantic Burst
+		Tooltip: ""
+	}
+
+	RevengeDeathBall: {
+		DisplayName: Revenge Death Ball
+		Tooltip: ""
+	}
+
+	SSDeadlyBomber: {
+		DisplayName: S. S. Deadly Bomber
+		Tooltip: "'You're done!'"
+	}
+
+	AbyssalKiCrystal: {
+		DisplayName: Abyssal Ki Crystal
+		Tooltip: "'The ancient wrath of the deep lives within.'"
+	}
+
+	AbominableKiCrystal: {
+		DisplayName: Abominable Ki Crystal
+		Tooltip: "'The amalgamated spirits of the world live within.'"
+	}
+
+	CosmicKiCrystal: {
+		DisplayName: Cosmic Ki Crystal
+		Tooltip: "'The incredible power of the Cosmos lives within.'"
+	}
+
+	BlasterShell: {
+		DisplayName: Blaster Shell
+		Tooltip: ""
+	}
+
+	FinalSpiritCannon: {
+		DisplayName: Final Spirit Cannon
+		Tooltip: "'This is going to change everything!'"
+	}
+
+	SabisBattleSuit: {
+		DisplayName: Sabi's Battle Suit
+		Tooltip: Battle armour of a fabled Saiyan of legend.
+	}
+
+	SabisLeggings: {
+		DisplayName: Sabi's Leggings
+		Tooltip: Battle armour of a fabled Saiyan of legend.
+	}
+
+	RexsCoat: {
+		DisplayName: Rex's Coat
+		Tooltip: The coat of a legendary Saiyan warrior.
+	}
+
+	RexsPants: {
+		DisplayName: Rex's Pants
+		Tooltip: The pants of a legendary Saiyan warrior.
+	}
+
+	DragonFist: {
+		DisplayName: Dragon Fist
+		Tooltip: ""
+	}
+
+	SwordofHope: {
+		DisplayName: Sword of Hope
+		Tooltip: ""
+	}
+
+	GodPunisher: {
+		DisplayName: God Punisher
+		Tooltip: ""
+	}
+
+	TimeClock: {
+		DisplayName: Time Clock
+		Tooltip: ""
+	}
+
+	SoaringFist: {
+		DisplayName: Soaring Fist
+		Tooltip: ""
+	}
+
+	ShatteredLimitsGi: {
+		DisplayName: Shattered Limits Gi
+		Tooltip:
+			'''
+			15% increased Ki damage
+			10% increased Ki critical strike chance
+			Reduces damage taken by 10%
+			Increased life regen
+			'''
+	}
+
+	ShatteredLimitsGiPants: {
+		DisplayName: Shattered Limits Pants
+		Tooltip:
+			'''
+			10% increased Ki damage
+			10% increased Ki critical strike chance
+			20% increased movement speed
+			'''
+	}
+
+	ShatteredLimits: {
+		DisplayName: Shattered Limits
+		Tooltip:
+			'''
+			10% increased Ki damage
+			10% increased Ki critical strike chance
+			'So, this is the power of Ultra Instinct.'
+			'''
+	}
+
+	ShatteredLimitsSign: {
+		DisplayName: Shattered Limits -Sign-
+		Tooltip:
+			'''
+			10% increased Ki damage
+			10% increased Ki critical strike chance
+			'''
+	}
+
+	DeathBeam: {
+		DisplayName: Death Beam
+		Tooltip: ""
+	}
+
+	TemporalJudgement: {
+		DisplayName: Temporal Judgement
+		Tooltip: ""
+	}
+
+	HolyTimeJudgement: {
+		DisplayName: Holy Time Judgement
+		Tooltip: ""
+	}
+
+	TemporalHolyRay: {
+		DisplayName: Temporal Holy Ray
+		Tooltip: ""
+	}
+
+	DisasterEraser: {
+		DisplayName: Désastre Eraser
+		Tooltip: ""
+	}
+
+	SSDeadlyBarrage: {
+		DisplayName: S. S. Deadly Barrage
+		Tooltip: ""
+	}
+
+	ProminenceFlash: {
+		DisplayName: Prominence Flash
+		Tooltip: ""
+	}
+
+	BrownSaiyanTail: {
+		DisplayName: Brown Saiyan Tail
+		Tooltip: ""
+	}
+
+	BlackSaiyanTail: {
+		DisplayName: Black Saiyan Tail
+		Tooltip: ""
+	}
+
+	RedSaiyanTail: {
+		DisplayName: Red Saiyan Tail
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	GiganticBurstBeam.DisplayName: Gigantic Burst
+	GiganticBurstCharge.DisplayName: Gigantic Burst Charge
+	RevengeDeathBall.DisplayName: Revenge Death Ball
+	SSDeadlyBomber.DisplayName: S. S. Deadly Bomber
+	BlasterShellBlast.DisplayName: Blaster Shell
+	FinalSpiritCannonBeam.DisplayName: Final Spirit Cannon
+	FinalSpiritCannonCharge.DisplayName: Final Spirit Cannon Charge
+	DragonFistBeam.DisplayName: Dragon Fist
+	DragonFistCharge.DisplayName: Dragon Fist Charge
+	GodPunisher.DisplayName: God Punisher
+	TimeClockProj.DisplayName: Time Clock
+	SoaringFistProj.DisplayName: Soaring Fist
+	DeathBeam.DisplayName: Death Beam
+	HolyTimeJudgement.DisplayName: Holy Time Judgement
+	HolyTimeJudgement2.DisplayName: Holy Time Judgement
+	TemporalHolyRayBeam.DisplayName: Temporal Holy Ray
+	TemporalHolyRayCharge.DisplayName: Temporal Holy Ray Charge
+	DisasterEraserBeam.DisplayName: Désastre Eraser
+	DisasterEraserCharge.DisplayName: Disaster Eraser Charge
+	SSDeadlyBarrageProjectile.DisplayName: S S Deadly Barrage
+	ProminenceFlashBeam.DisplayName: Prominence Flash
+	ProminenceFlashCharge.DisplayName: Prominence Flash Charge
+}
+
+Buffs: {
+	ShatteredLimitsBuff: {
+		DisplayName: Shattered Limits
+		Description: You've broken past your limits and entered the realm of the gods.
+	}
+}

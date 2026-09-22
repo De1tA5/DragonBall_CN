@@ -786,7 +786,7 @@ Items: {
 	}
 
 	TimeRing: {
-		DisplayName: 时间之戒
+		DisplayName: 时之戒
 		Tooltip:
 			'''
 			大幅提升生命再生速度
