@@ -1,6 +1,6 @@
 Keybinds: {
 	"Special Attack.DisplayName": 特殊攻击
-	"Ultra Instinct.DisplayName": 自在极意功
+	"Ultra Instinct.DisplayName": 自在极意兆
 }
 
 Tiles.SuperTable.MapEntry: 龙珠超桌
@@ -964,7 +964,7 @@ Items: {
 	}
 
 	IncrediblyDivineThreads: {
-		DisplayName: 富集神圣丝缕
+		DisplayName: 非凡神圣丝缕
 		Tooltip: 被神明的力量所强化，这种材料已达到巅峰
 	}
 
