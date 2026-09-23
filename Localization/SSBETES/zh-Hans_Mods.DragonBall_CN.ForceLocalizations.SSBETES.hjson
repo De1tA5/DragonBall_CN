@@ -1527,7 +1527,7 @@ Assets: {
 
 		PostUpdateEquips: {
 			8: {
-				NewString: 你已变身传说超级赛亚人全功率
+				NewString: 你已变身全功率超级赛亚人
 				// OldString: You have entered Full Power Super Saiyan
 			}
 
@@ -2322,7 +2322,7 @@ Buffs: {
 
 			FormName: {
 				1: {
-					NewString: 传说超级赛亚人全功率
+					NewString: 全功率超级赛亚人
 					// OldString: Full Power Super Saiyan
 				}
 			}

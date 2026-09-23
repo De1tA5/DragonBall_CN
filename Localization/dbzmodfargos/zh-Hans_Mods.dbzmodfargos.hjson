@@ -202,18 +202,18 @@ Items: {
 	}
 
 	GiganticBurst: {
-		DisplayName: Gigantic Burst
+		DisplayName: 巨神轰击
 		Tooltip: ""
 	}
 
 	RevengeDeathBall: {
-		DisplayName: Revenge Death Ball
+		DisplayName: 复仇死亡弹
 		Tooltip: ""
 	}
 
 	SSDeadlyBomber: {
-		DisplayName: S. S. Deadly Bomber
-		Tooltip: "'You're done!'"
+		DisplayName: S.S死亡轰炸
+		Tooltip: 结束了！
 	}
 
 	AbyssalKiCrystal: {
@@ -249,28 +249,28 @@ Items: {
 	}
 
 	FinalSpiritCannon: {
-		DisplayName: Final Spirit Cannon
-		Tooltip: "'This is going to change everything!'"
+		DisplayName: 最终气功炮
+		Tooltip: 这样一切都改变了！
 	}
 
 	SabisBattleSuit: {
-		DisplayName: Sabi's Battle Suit
-		Tooltip: Battle armour of a fabled Saiyan of legend.
+		DisplayName: Sabi的战斗服
+		Tooltip: 传奇赛亚人的战斗铠甲
 	}
 
 	SabisLeggings: {
-		DisplayName: Sabi's Leggings
-		Tooltip: Battle armour of a fabled Saiyan of legend.
+		DisplayName: Sabi的护腿
+		Tooltip: 传奇赛亚人的战斗铠甲
 	}
 
 	RexsCoat: {
-		DisplayName: Rex's Coat
-		Tooltip: The coat of a legendary Saiyan warrior.
+		DisplayName: Rex的大衣
+		Tooltip: 传奇赛亚人战士的大衣
 	}
 
 	RexsPants: {
-		DisplayName: Rex's Pants
-		Tooltip: The pants of a legendary Saiyan warrior.
+		DisplayName: Rex长裤
+		Tooltip: 传奇赛亚人战士的长裤
 	}
 
 	DragonFist: {
@@ -284,139 +284,139 @@ Items: {
 	}
 
 	GodPunisher: {
-		DisplayName: God Punisher
+		DisplayName: 神之威压
 		Tooltip: ""
 	}
 
 	TimeClock: {
-		DisplayName: Time Clock
+		DisplayName: 时之指针
 		Tooltip: ""
 	}
 
 	SoaringFist: {
-		DisplayName: Soaring Fist
+		DisplayName: 飞拳
 		Tooltip: ""
 	}
 
 	ShatteredLimitsGi: {
-		DisplayName: Shattered Limits Gi
+		DisplayName: 突破极限武道服
 		Tooltip:
 			'''
-			15% increased Ki damage
-			10% increased Ki critical strike chance
-			Reduces damage taken by 10%
-			Increased life regen
+			增加15%气伤害
+			增加10%气暴击率
+			增加10%伤害减免
+			提升生命再生速度
 			'''
 	}
 
 	ShatteredLimitsGiPants: {
-		DisplayName: Shattered Limits Pants
+		DisplayName: 突破极限武道裤
 		Tooltip:
 			'''
-			10% increased Ki damage
-			10% increased Ki critical strike chance
-			20% increased movement speed
+			增加10%气伤害
+			增加10%气暴击率
+			提升20%移动速度
 			'''
 	}
 
 	ShatteredLimits: {
-		DisplayName: Shattered Limits
+		DisplayName: 突破极限
 		Tooltip:
 			'''
-			10% increased Ki damage
-			10% increased Ki critical strike chance
-			'So, this is the power of Ultra Instinct.'
+			增加10%气伤害
+			增加10%气暴击率
+			“这就是自在极意功的力量”
 			'''
 	}
 
 	ShatteredLimitsSign: {
-		DisplayName: Shattered Limits -Sign-
+		DisplayName: 突破极限（兆）
 		Tooltip:
 			'''
-			10% increased Ki damage
-			10% increased Ki critical strike chance
+			增加10%气伤害
+			增加10%气暴击率
 			'''
 	}
 
 	DeathBeam: {
-		DisplayName: Death Beam
+		DisplayName: 死亡光束
 		Tooltip: ""
 	}
 
 	TemporalJudgement: {
-		DisplayName: Temporal Judgement
+		DisplayName: 时之审判
 		Tooltip: ""
 	}
 
 	HolyTimeJudgement: {
-		DisplayName: Holy Time Judgement
+		DisplayName: 时之圣裁
 		Tooltip: ""
 	}
 
 	TemporalHolyRay: {
-		DisplayName: Temporal Holy Ray
+		DisplayName: 时之圣光
 		Tooltip: ""
 	}
 
 	DisasterEraser: {
-		DisplayName: Désastre Eraser
+		DisplayName: 灾厄抹除炮
 		Tooltip: ""
 	}
 
 	SSDeadlyBarrage: {
-		DisplayName: S. S. Deadly Barrage
+		DisplayName: S.S连续死亡弹
 		Tooltip: ""
 	}
 
 	ProminenceFlash: {
-		DisplayName: Prominence Flash
+		DisplayName: 日珥冲击
 		Tooltip: ""
 	}
 
 	BrownSaiyanTail: {
-		DisplayName: Brown Saiyan Tail
+		DisplayName: 棕色赛亚人尾巴
 		Tooltip: ""
 	}
 
 	BlackSaiyanTail: {
-		DisplayName: Black Saiyan Tail
+		DisplayName: 黑色赛亚人尾巴
 		Tooltip: ""
 	}
 
 	RedSaiyanTail: {
-		DisplayName: Red Saiyan Tail
+		DisplayName: 红色赛亚人尾巴
 		Tooltip: ""
 	}
 }
 
 Projectiles: {
-	GiganticBurstBeam.DisplayName: Gigantic Burst
-	GiganticBurstCharge.DisplayName: Gigantic Burst Charge
-	RevengeDeathBall.DisplayName: Revenge Death Ball
-	SSDeadlyBomber.DisplayName: S. S. Deadly Bomber
+	GiganticBurstBeam.DisplayName: 巨神轰击
+	GiganticBurstCharge.DisplayName: 巨神轰击蓄力
+	RevengeDeathBall.DisplayName: 复仇死亡弹
+	SSDeadlyBomber.DisplayName: S.S连续死亡弹
 	BlasterShellBlast.DisplayName: Blaster Shell
-	FinalSpiritCannonBeam.DisplayName: Final Spirit Cannon
-	FinalSpiritCannonCharge.DisplayName: Final Spirit Cannon Charge
-	DragonFistBeam.DisplayName: Dragon Fist
-	DragonFistCharge.DisplayName: Dragon Fist Charge
-	GodPunisher.DisplayName: God Punisher
-	TimeClockProj.DisplayName: Time Clock
-	SoaringFistProj.DisplayName: Soaring Fist
-	DeathBeam.DisplayName: Death Beam
-	HolyTimeJudgement.DisplayName: Holy Time Judgement
-	HolyTimeJudgement2.DisplayName: Holy Time Judgement
-	TemporalHolyRayBeam.DisplayName: Temporal Holy Ray
-	TemporalHolyRayCharge.DisplayName: Temporal Holy Ray Charge
-	DisasterEraserBeam.DisplayName: Désastre Eraser
-	DisasterEraserCharge.DisplayName: Disaster Eraser Charge
-	SSDeadlyBarrageProjectile.DisplayName: S S Deadly Barrage
-	ProminenceFlashBeam.DisplayName: Prominence Flash
-	ProminenceFlashCharge.DisplayName: Prominence Flash Charge
+	FinalSpiritCannonBeam.DisplayName: 最终气功炮
+	FinalSpiritCannonCharge.DisplayName: 最终气功炮蓄力
+	DragonFistBeam.DisplayName: 龙拳
+	DragonFistCharge.DisplayName: 龙拳蓄力
+	GodPunisher.DisplayName: 神之威压
+	TimeClockProj.DisplayName: 时之指针
+	SoaringFistProj.DisplayName: 飞拳
+	DeathBeam.DisplayName: 死亡光束
+	HolyTimeJudgement.DisplayName: 时之圣裁
+	HolyTimeJudgement2.DisplayName: 时之圣裁2
+	TemporalHolyRayBeam.DisplayName: 时之圣光
+	TemporalHolyRayCharge.DisplayName: 时之圣光蓄力
+	DisasterEraserBeam.DisplayName: 灾厄抹除炮
+	DisasterEraserCharge.DisplayName: 灾厄抹除炮蓄力
+	SSDeadlyBarrageProjectile.DisplayName: S.S连续死亡弹
+	ProminenceFlashBeam.DisplayName: 日珥冲击
+	ProminenceFlashCharge.DisplayName: 日珥冲击蓄力
 }
 
 Buffs: {
 	ShatteredLimitsBuff: {
-		DisplayName: Shattered Limits
-		Description: You've broken past your limits and entered the realm of the gods.
+		DisplayName: 突破极限
+		Description: 你已经超越自身极限，进入了神的领域
 	}
 }
