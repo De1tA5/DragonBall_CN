@@ -405,7 +405,11 @@ Items: {
 
 	KiFragmentS: {
 		DisplayName: 精湛气碎片
-		Tooltip: 增加1000点最大气值
+		Tooltip:
+			''' 
+			增加1000点最大气值
+			[C/959595:译者补充：专家模式以上，石巨人宝藏袋掉落]
+			'''
 	}
 
 	SwordOfHope: {
