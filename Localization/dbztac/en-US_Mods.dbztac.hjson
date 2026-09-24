@@ -1,0 +1,253 @@
+Buffs: {
+	SSJ6Buff: {
+		DisplayName: Super Saiyan 6 Buff
+		Description: Mods.dbztac.Buffs.SSJ6Buff.Description
+	}
+
+	xSSJ5FPBuff: {
+		Description: Mods.dbztac.Buffs.xSSJ5FPBuff.Description
+		DisplayName: Super Saiyan 5 Full Power Buff
+	}
+
+	xSSJ5Buff: {
+		Description: Mods.dbztac.Buffs.xSSJ5Buff.Description
+		DisplayName: Super Saiyan 5 Buff
+	}
+
+	xSSJ4LBBuff: {
+		Description: Mods.dbztac.Buffs.xSSJ4LBBuff.Description
+		DisplayName: Super Saiyan 4 Limit Breaker Buff
+	}
+
+	xSSJ4FPBuff: {
+		Description: Mods.dbztac.Buffs.xSSJ4FPBuff.Description
+		DisplayName: Super Saiyan 4 Full Power Buff
+	}
+
+	xSSJ4Buff: {
+		Description: Mods.dbztac.Buffs.xSSJ4Buff.Description
+		DisplayName: Super Saiyan 4 Buff
+	}
+
+	SSJ7Buff: {
+		DisplayName: Super saiyan 7 Buff
+		Description: Mods.dbztac.Buffs.SSJ7Buff.Description
+	}
+
+	SSJ8Buff: {
+		DisplayName: Super Saiyan 8 Buff
+		Description: Mods.dbztac.Buffs.SSJ8Buff.Description
+	}
+
+	VVSBuff: {
+		DisplayName: Violet Veil Buff
+		Description: Defense +10, Ki drain 66/s, 29/s when mastered
+	}
+
+	SSJ4INBuff: {
+		DisplayName: Super saiyan 4 Golden Buff
+		Description: Mods.dbztac.Buffs.SSJ4INBuff.Description
+	}
+}
+
+Items: {
+	SSJ4FPItem: {
+		DisplayName: SSJ4 FP Item
+		Tooltip: ""
+	}
+
+	SSJ4Item: {
+		DisplayName: SSJ4 Item
+		Tooltip: ""
+	}
+
+	SSJ4LBItem: {
+		DisplayName: SSJ4 LB Item
+		Tooltip: ""
+	}
+
+	SSJ4TEST: {
+		DisplayName: SSJ4 TEST
+		Tooltip: ""
+	}
+
+	VSSJ4TEST: {
+		DisplayName: VSSJ4 TEST
+		Tooltip: ""
+	}
+
+	SSJ4FPTEST: {
+		DisplayName: SSJ4 FP TEST
+		Tooltip: ""
+	}
+
+	SSJ4LBTEST: {
+		DisplayName: SSJ4 LB TEST
+		Tooltip: ""
+	}
+
+	SSJ5FPTEST: {
+		DisplayName: SSJ5 FP TEST
+		Tooltip: ""
+	}
+
+	SSJ5TEST: {
+		DisplayName: SSJ5 TEST
+		Tooltip: ""
+	}
+
+	SSJ4Legs: {
+		DisplayName: SSJ4 Legs
+		Tooltip: ""
+	}
+
+	SSJ4Body: {
+		DisplayName: SSJ4 Body
+		Tooltip: ""
+	}
+
+	SSJ5Legs: {
+		DisplayName: SSJ5 Legs
+		Tooltip: ""
+	}
+
+	SSJ5Body: {
+		DisplayName: SSJ5 Body
+		Tooltip: ""
+	}
+
+	SSJ5FORM: {
+		DisplayName: SSJ5 FORM
+		Tooltip: Unlocks SSJ5  (Master SSJ4LB)
+	}
+
+	SSJ4LBFORM: {
+		DisplayName: SSJ4 LB FORM
+		Tooltip: Unlocks SSJ4LB  (Master SSJ4FP)
+	}
+
+	SSJ4FORM: {
+		DisplayName: SSJ4 FORM
+		Tooltip: Unlock SSJ4
+	}
+
+	SSJ4FPFORM: {
+		DisplayName: SSJ4 FP FORM
+		Tooltip: ""
+	}
+
+	SSJ6TEST: {
+		DisplayName: SSJ6 TEST
+		Tooltip: ""
+	}
+
+	SSJ6Body: {
+		DisplayName: SSJ6 Body
+		Tooltip: ""
+	}
+
+	SSJ6Legs: {
+		DisplayName: SSJ6 Legs
+		Tooltip: ""
+	}
+
+	SSJ6FORM: {
+		DisplayName: Corrupted 4 Ball
+		Tooltip: Unlocks SSJ6  (Master SSJ5FP)
+	}
+
+	NegativeCrystal: {
+		DisplayName: Negative Crystal
+		Tooltip: ""
+	}
+
+	SSJ7FORM: {
+		DisplayName: Strange Crystal Ball
+		Tooltip: Unlocks SSJ7  (Master SSJ6)
+	}
+
+	AFBodyStyle1: {
+		DisplayName: AF Body Style 1
+		Tooltip: ""
+	}
+
+	AFLegsStyle1: {
+		DisplayName: AF Legs Style 1
+		Tooltip: ""
+	}
+
+	DBHLegsStyle1: {
+		DisplayName: DBH Legs Style 1
+		Tooltip: ""
+	}
+
+	DBHBodyStyle1: {
+		DisplayName: DBH Body Style 1
+		Tooltip: ""
+	}
+
+	TY: {
+		DisplayName: Thanks you so much! ^^
+		Tooltip:
+			'''
+			This mod get more 3k subs (Dragon ball terraria AF & Calamity addon)
+			thanks to everyone to play with this and for the support
+			 love yall <3333333
+			'''
+	}
+
+	VVSFORM: {
+		DisplayName: Violet Veil Unlock
+		Tooltip: This is a shield?
+	}
+
+	SSJ4INFORM: {
+		DisplayName: Pure Bright
+		Tooltip: Unlocks SSJ4 Golden (Master SSJ7)
+	}
+
+	SSJ4INBody: {
+		DisplayName: Super saiyan 4 Golden Body
+		Tooltip: ""
+	}
+
+	SSJ8FORM: {
+		DisplayName: Compacted Dark Plasma
+		Tooltip: Unlocks SSJ 8
+	}
+
+	RingTierI: {
+		DisplayName: Ki Amulet Tier I
+		Tooltip: +2150 Max Ki
+	}
+
+	RingTierII: {
+		DisplayName: Ki Amulet Tier II
+		Tooltip: +4500 Max Ki
+	}
+
+	RingTierIII: {
+		Tooltip: +7500 Max Ki
+		DisplayName: Ki Amulet Tier III
+	}
+
+	RingTierV: {
+		Tooltip: +16500 Max Ki
+		DisplayName: Ki Amulet Tier V
+	}
+
+	RingTierUltimate: {
+		Tooltip: +30000 Max Ki
+		DisplayName: Ki Amulet Tier Ultimate
+	}
+
+	RingTierIV: {
+		Tooltip: +10500 Max Ki
+		DisplayName: Ki Amulet Tier IV
+	}
+}
+
+Keybinds: {
+	"Form Up.DisplayName": Form  Up
+	"Violet Veil.DisplayName": Violet  Veil
+}

@@ -1,0 +1,253 @@
+Buffs: {
+	SSJ6Buff: {
+		DisplayName: 超级赛亚人6
+		Description: Mods.dbztac.Buffs.SSJ6Buff.Description
+	}
+
+	xSSJ5FPBuff: {
+		Description: Mods.dbztac.Buffs.xSSJ5FPBuff.Description
+		DisplayName: 超级赛亚人5全功率
+	}
+
+	xSSJ5Buff: {
+		Description: Mods.dbztac.Buffs.xSSJ5Buff.Description
+		DisplayName: 超级赛亚人5
+	}
+
+	xSSJ4LBBuff: {
+		Description: Mods.dbztac.Buffs.xSSJ4LBBuff.Description
+		DisplayName: 超级赛亚人4限界突破
+	}
+
+	xSSJ4FPBuff: {
+		Description: Mods.dbztac.Buffs.xSSJ4FPBuff.Description
+		DisplayName: 超级赛亚人4全功率
+	}
+
+	xSSJ4Buff: {
+		Description: Mods.dbztac.Buffs.xSSJ4Buff.Description
+		DisplayName: 超级赛亚人4
+	}
+
+	SSJ7Buff: {
+		DisplayName: 超级赛亚人7
+		Description: Mods.dbztac.Buffs.SSJ7Buff.Description
+	}
+
+	SSJ8Buff: {
+		DisplayName: 超级赛亚人8
+		Description: Mods.dbztac.Buffs.SSJ8Buff.Description
+	}
+
+	VVSBuff: {
+		DisplayName: 紫色面纱
+		Description: Defense 增加10, Ki drain 66/s, 29/s when mastered
+	}
+
+	SSJ4INBuff: {
+		DisplayName: 超级赛亚人4黄金
+		Description: Mods.dbztac.Buffs.SSJ4INBuff.Description
+	}
+}
+
+Items: {
+	SSJ4FPItem: {
+		DisplayName: 超级赛亚人4 FP Item
+		Tooltip: ""
+	}
+
+	SSJ4Item: {
+		DisplayName: 超级赛亚人4 Item
+		Tooltip: ""
+	}
+
+	SSJ4LBItem: {
+		DisplayName: 超级赛亚人4 LB Item
+		Tooltip: ""
+	}
+
+	SSJ4TEST: {
+		DisplayName: 超级赛亚人4测试物品
+		Tooltip: ""
+	}
+
+	VSSJ4TEST: {
+		DisplayName: VSSJ4测试物品
+		Tooltip: ""
+	}
+
+	SSJ4FPTEST: {
+		DisplayName: 超级赛亚人4全功率测试物品
+		Tooltip: ""
+	}
+
+	SSJ4LBTEST: {
+		DisplayName: 超级赛亚人4限界突破测试物品
+		Tooltip: ""
+	}
+
+	SSJ5FPTEST: {
+		DisplayName: 超级赛亚人5全功率测试物品
+		Tooltip: ""
+	}
+
+	SSJ5TEST: {
+		DisplayName: 超级赛亚人5测试物品
+		Tooltip: ""
+	}
+
+	SSJ4Legs: {
+		DisplayName: 超级赛亚人4腿部
+		Tooltip: ""
+	}
+
+	SSJ4Body: {
+		DisplayName: 超级赛亚人4身体
+		Tooltip: ""
+	}
+
+	SSJ5Legs: {
+		DisplayName: 超级赛亚人5腿部
+		Tooltip: ""
+	}
+
+	SSJ5Body: {
+		DisplayName: 超级赛亚人5身体
+		Tooltip: ""
+	}
+
+	SSJ5FORM: {
+		DisplayName: 超级赛亚人5形态
+		Tooltip: 解锁超级赛亚人5 （需精通超级赛亚人4限界突破）
+	}
+
+	SSJ4LBFORM: {
+		DisplayName: 超级赛亚人4限界突破形态
+		Tooltip: 解锁超级赛亚人4限界突破 （需精通超级赛亚人4全功率）
+	}
+
+	SSJ4FORM: {
+		DisplayName: 超级赛亚人4形态
+		Tooltip: 解锁超级赛亚人4
+	}
+
+	SSJ4FPFORM: {
+		DisplayName: 超级赛亚人4全功率形态
+		Tooltip: ""
+	}
+
+	SSJ6TEST: {
+		DisplayName: 超级赛亚人6测试物品
+		Tooltip: ""
+	}
+
+	SSJ6Body: {
+		DisplayName: 超级赛亚人6身体
+		Tooltip: ""
+	}
+
+	SSJ6Legs: {
+		DisplayName: 超级赛亚人6腿部
+		Tooltip: ""
+	}
+
+	SSJ6FORM: {
+		DisplayName: 腐化4星龙珠
+		Tooltip: 解锁超级赛亚人6 （需精通超级赛亚人5全功率）
+	}
+
+	NegativeCrystal: {
+		DisplayName: 负能水晶
+		Tooltip: ""
+	}
+
+	SSJ7FORM: {
+		DisplayName: 奇异晶球
+		Tooltip: 解锁超级赛亚人7 （需精通超级赛亚人6）
+	}
+
+	AFBodyStyle1: {
+		DisplayName: 龙珠AF身体样式1
+		Tooltip: ""
+	}
+
+	AFLegsStyle1: {
+		DisplayName: 龙珠AF腿部样式1
+		Tooltip: ""
+	}
+
+	DBHLegsStyle1: {
+		DisplayName: 龙珠超英雄腿部样式1
+		Tooltip: ""
+	}
+
+	DBHBodyStyle1: {
+		DisplayName: 龙珠超英雄身体样式1
+		Tooltip: ""
+	}
+
+	TY: {
+		DisplayName: 太感谢大家了！^^
+		Tooltip:
+			'''
+			这个模组订阅数突破了3000（Dragon ball terraria AF & Calamity addon）
+			感谢大家的游玩与支持
+			爱你们 <3333333
+			'''
+	}
+
+	VVSFORM: {
+		DisplayName: 紫色面纱解锁物品
+		Tooltip: 这个是护盾吗？
+	}
+
+	SSJ4INFORM: {
+		DisplayName: 纯净圣光
+		Tooltip: 解锁超级赛亚人4黄金 （需精通超级赛亚人7）
+	}
+
+	SSJ4INBody: {
+		DisplayName: 超级赛亚人4黄金身体
+		Tooltip: ""
+	}
+
+	SSJ8FORM: {
+		DisplayName: 压缩暗离子体
+		Tooltip: 解锁超级赛亚人8
+	}
+
+	RingTierI: {
+		DisplayName: I阶气护符
+		Tooltip: 增加2150点最大气值
+	}
+
+	RingTierII: {
+		DisplayName: II阶气护符
+		Tooltip: 增加4500点最大气值
+	}
+
+	RingTierIII: {
+		Tooltip: 增加7500点最大气值
+		DisplayName: III阶气护符
+	}
+
+	RingTierV: {
+		Tooltip: 增加16500点最大气值
+		DisplayName: V阶气护符
+	}
+
+	RingTierUltimate: {
+		Tooltip: 增加30000点最大气值
+		DisplayName: 终极气护符
+	}
+
+	RingTierIV: {
+		Tooltip: 增加10500点最大气值
+		DisplayName: IV阶气护符
+	}
+}
+
+Keybinds: {
+	"Form Up.DisplayName": 形态强化
+	"Violet Veil.DisplayName": 紫色面纱
+}

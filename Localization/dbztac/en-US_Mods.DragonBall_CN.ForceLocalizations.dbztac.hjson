@@ -1,0 +1,1180 @@
+dbztac: {
+	Load: {
+		1: {
+			OldString: Form Up
+			NewString: Form Up
+		}
+
+		2: {
+			OldString: X
+			NewString: X
+		}
+
+		3: {
+			OldString: Violet Veil
+			NewString: Violet Veil
+		}
+
+		4: {
+			OldString: C
+			NewString: C
+		}
+	}
+}
+
+Transformations: {
+	SSJ4INBuff: {
+		AuraData: {
+			1: {
+				OldString: dbztac/Assets/SSJ4INAURA
+				NewString: dbztac/Assets/SSJ4INAURA
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Super Saiyan 4 Golden
+				NewString: Super Saiyan 4 Golden
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: dbztac/Assets/SSJ4INHair
+				NewString: dbztac/Assets/SSJ4INHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ2
+				NewString: DBZMODPORT/Sounds/SSJ2
+			}
+		}
+	}
+
+	SSJ6Buff: {
+		AuraData: {
+			1: {
+				OldString: dbztac/Assets/SSJ6AURA
+				NewString: dbztac/Assets/SSJ6AURA
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Super Saiyan 6
+				NewString: Super Saiyan 6
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: dbztac/Assets/SSJ6HAIR
+				NewString: dbztac/Assets/SSJ6HAIR
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: dbztac/Sounds/SSJ6ASC
+				NewString: dbztac/Sounds/SSJ6ASC
+			}
+
+			2: {
+				OldString: dbztac/Sounds/SSJ6
+				NewString: dbztac/Sounds/SSJ6
+			}
+		}
+	}
+
+	SSJ7Buff: {
+		AuraData: {
+			1: {
+				OldString: dbztac/Assets/SSJ7AURA
+				NewString: dbztac/Assets/SSJ7AURA
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Super Saiyan 7
+				NewString: Super Saiyan 7
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: dbztac/Assets/SSJ7HAIR
+				NewString: dbztac/Assets/SSJ7HAIR
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: dbztac/Sounds/SSJ7ASC
+				NewString: dbztac/Sounds/SSJ7ASC
+			}
+
+			2: {
+				OldString: dbztac/Sounds/SSJ7
+				NewString: dbztac/Sounds/SSJ7
+			}
+		}
+	}
+
+	SSJ8Buff: {
+		AuraData: {
+			1: {
+				OldString: dbztac/Assets/SSJ8AURA
+				NewString: dbztac/Assets/SSJ8AURA
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Super Saiyan 8
+				NewString: Super Saiyan 8
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: dbztac/Assets/SSJ8HAIR
+				NewString: dbztac/Assets/SSJ8HAIR
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ3
+				NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+	}
+
+	VVSBuff: {
+		AuraData: {
+			1: {
+				OldString: dbztac/Assets/VVSAURA
+				NewString: dbztac/Assets/VVSAURA
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Violet Veil
+				NewString: Violet Veil
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: dbztac/Sounds/VioletVeil
+				NewString: dbztac/Sounds/VioletVeil
+			}
+
+			2: {
+				OldString: ""
+				NewString: ""
+			}
+		}
+	}
+
+	xSSJ4Buff: {
+		AuraData: {
+			1: {
+				OldString: dbztac/Assets/BaseAura
+				NewString: dbztac/Assets/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Super Saiyan 4
+				NewString: Super Saiyan 4
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: dbztac/Assets/SSJ4Hair
+				NewString: dbztac/Assets/SSJ4Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJAura
+				NewString: DBZMODPORT/Sounds/SSJAura
+			}
+		}
+	}
+
+	xSSJ4FPBuff: {
+		AuraData: {
+			1: {
+				OldString: dbztac/Assets/BaseAura
+				NewString: dbztac/Assets/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Super Saiyan 4 Full Power
+				NewString: Super Saiyan 4 Full Power
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: dbztac/Assets/SSJ4FPHair
+				NewString: dbztac/Assets/SSJ4FPHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ3
+				NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+	}
+
+	xSSJ4LBBuff: {
+		AuraData: {
+			1: {
+				OldString: dbztac/Assets/BaseAura
+				NewString: dbztac/Assets/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Super Saiyan 4 Limit Breaker
+				NewString: Super Saiyan 4 Limit Breaker
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: dbztac/Assets/SSJ4LBH
+				NewString: dbztac/Assets/SSJ4LBH
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ3
+				NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+	}
+
+	xSSJ5Buff: {
+		AuraData: {
+			1: {
+				OldString: dbztac/Assets/SSJ5AURA
+				NewString: dbztac/Assets/SSJ5AURA
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Super Saiyan 5
+				NewString: Super Saiyan 5
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: dbztac/Assets/SSJ5HAIR
+				NewString: dbztac/Assets/SSJ5HAIR
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJAura
+				NewString: DBZMODPORT/Sounds/SSJAura
+			}
+		}
+	}
+
+	xSSJ5FPBuff: {
+		AuraData: {
+			1: {
+				OldString: dbztac/Assets/SSJ5FPAURA
+				NewString: dbztac/Assets/SSJ5FPAURA
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Super Saiyan 5 Full Power
+				NewString: Super Saiyan 5 Full Power
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: dbztac/Assets/SSJ5FPHAIR
+				NewString: dbztac/Assets/SSJ5FPHAIR
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ3
+				NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+	}
+}
+
+Items: {
+	SSJ4INFORM: {
+		AddRecipes: {
+			1: {
+				OldString: CalamityMod
+				NewString: CalamityMod
+			}
+
+			2: {
+				OldString: dbztac
+				NewString: dbztac
+			}
+
+			3: {
+				OldString: DivineGeode
+				NewString: DivineGeode
+			}
+
+			4: {
+				OldString: SSJ4LBFORM
+				NewString: SSJ4LBFORM
+			}
+		}
+	}
+
+	SSJ6FORM: {
+		AddRecipes: {
+			1: {
+				OldString: DBZMODPORT
+				NewString: DBZMODPORT
+			}
+
+			2: {
+				OldString: FourStarDB
+				NewString: FourStarDB
+			}
+		}
+	}
+
+	SSJ7FORM: {
+		AddRecipes: {
+			1: {
+				OldString: dbztac
+				NewString: dbztac
+			}
+
+			2: {
+				OldString: NegativeCrystal
+				NewString: NegativeCrystal
+			}
+
+			3: {
+				OldString: SSJ6FORM
+				NewString: SSJ6FORM
+			}
+		}
+	}
+
+	SSJ8FORM: {
+		AddRecipes: {
+			1: {
+				OldString: CalamityMod
+				NewString: CalamityMod
+			}
+
+			2: {
+				OldString: DarkPlasma
+				NewString: DarkPlasma
+			}
+		}
+	}
+
+	Vanity: {
+		DBH: {
+			DBHBodyStyle1: {
+				AddRecipes: {
+					1: {
+						OldString: DBZMODPORT
+						NewString: DBZMODPORT
+					}
+
+					2: {
+						OldString: CalmKiCrystal
+						NewString: CalmKiCrystal
+					}
+				}
+			}
+
+			DBHLegsStyle1: {
+				AddRecipes: {
+					1: {
+						OldString: DBZMODPORT
+						NewString: DBZMODPORT
+					}
+
+					2: {
+						OldString: CalmKiCrystal
+						NewString: CalmKiCrystal
+					}
+				}
+			}
+		}
+
+		AF: {
+			AFBodyStyle1: {
+				AddRecipes: {
+					1: {
+						OldString: DBZMODPORT
+						NewString: DBZMODPORT
+					}
+
+					2: {
+						OldString: CalmKiCrystal
+						NewString: CalmKiCrystal
+					}
+				}
+			}
+
+			AFLegsStyle1: {
+				AddRecipes: {
+					1: {
+						OldString: DBZMODPORT
+						NewString: DBZMODPORT
+					}
+
+					2: {
+						OldString: CalmKiCrystal
+						NewString: CalmKiCrystal
+					}
+				}
+			}
+
+			SSJ4INBody: {
+				AddRecipes: {
+					1: {
+						OldString: DBZMODPORT
+						NewString: DBZMODPORT
+					}
+
+					2: {
+						OldString: PureKiCrystal
+						NewString: PureKiCrystal
+					}
+				}
+			}
+
+			SSJ6Body: {
+				AddRecipes: {
+					1: {
+						OldString: DBZMODPORT
+						NewString: DBZMODPORT
+					}
+
+					2: {
+						OldString: SatanicCloth
+						NewString: SatanicCloth
+					}
+				}
+			}
+
+			SSJ6Legs: {
+				AddRecipes: {
+					1: {
+						OldString: DBZMODPORT
+						NewString: DBZMODPORT
+					}
+
+					2: {
+						OldString: SatanicCloth
+						NewString: SatanicCloth
+					}
+				}
+			}
+		}
+	}
+
+	KiCrystals: {
+		RingTierI: {
+			AddRecipes: {
+				1: {
+					OldString: DBZMODPORT
+					NewString: DBZMODPORT
+				}
+
+				2: {
+					OldString: StableKiCrystal
+					NewString: StableKiCrystal
+				}
+			}
+		}
+
+		RingTierII: {
+			AddRecipes: {
+				1: {
+					OldString: DBZMODPORT
+					NewString: DBZMODPORT
+				}
+
+				2: {
+					OldString: dbztac
+					NewString: dbztac
+				}
+
+				3: {
+					OldString: CalmKiCrystal
+					NewString: CalmKiCrystal
+				}
+
+				4: {
+					OldString: RingTierI
+					NewString: RingTierI
+				}
+			}
+		}
+
+		RingTierIII: {
+			AddRecipes: {
+				1: {
+					OldString: DBZMODPORT
+					NewString: DBZMODPORT
+				}
+
+				2: {
+					OldString: dbztac
+					NewString: dbztac
+				}
+
+				3: {
+					OldString: PridefulKiCrystal
+					NewString: PridefulKiCrystal
+				}
+
+				4: {
+					OldString: RingTierII
+					NewString: RingTierII
+				}
+			}
+		}
+
+		RingTierIV: {
+			AddRecipes: {
+				1: {
+					OldString: DBZMODPORT
+					NewString: DBZMODPORT
+				}
+
+				2: {
+					OldString: dbztac
+					NewString: dbztac
+				}
+
+				3: {
+					OldString: AngerKiCrystal
+					NewString: AngerKiCrystal
+				}
+
+				4: {
+					OldString: RingTierIII
+					NewString: RingTierIII
+				}
+			}
+		}
+
+		RingTierUltimate: {
+			AddRecipes: {
+				1: {
+					OldString: DBZMODPORT
+					NewString: DBZMODPORT
+				}
+
+				2: {
+					OldString: dbztac
+					NewString: dbztac
+				}
+
+				3: {
+					OldString: StableKiCrystal
+					NewString: StableKiCrystal
+				}
+
+				4: {
+					OldString: CalmKiCrystal
+					NewString: CalmKiCrystal
+				}
+
+				5: {
+					OldString: PridefulKiCrystal
+					NewString: PridefulKiCrystal
+				}
+
+				6: {
+					OldString: AngerKiCrystal
+					NewString: AngerKiCrystal
+				}
+
+				7: {
+					OldString: PureKiCrystal
+					NewString: PureKiCrystal
+				}
+
+				8: {
+					OldString: RingTierV
+					NewString: RingTierV
+				}
+			}
+		}
+
+		RingTierV: {
+			AddRecipes: {
+				1: {
+					OldString: DBZMODPORT
+					NewString: DBZMODPORT
+				}
+
+				2: {
+					OldString: dbztac
+					NewString: dbztac
+				}
+
+				3: {
+					OldString: PureKiCrystal
+					NewString: PureKiCrystal
+				}
+
+				4: {
+					OldString: RingTierIV
+					NewString: RingTierIV
+				}
+			}
+		}
+	}
+}
+
+Changes: {
+	NPCS: {
+		ModifyNPCLoot: {
+			1: {
+				OldString: CalamityMod
+				NewString: CalamityMod
+			}
+		}
+	}
+}
+
+Assets: {
+	DACPlayer: {
+		PostUpdate: {
+			1: {
+				OldString: You have shown again that you have exceptional abilities.
+				NewString: You have shown again that you have exceptional abilities.
+			}
+
+			2: {
+				OldString: Is this the height of this transformation?
+				NewString: Is this the height of this transformation?
+			}
+
+			3: {
+				OldString: Limit Break.. Feeling super energized!
+				NewString: Limit Break.. Feeling super energized!
+			}
+
+			4: {
+				OldString: Your power sends shockwaves through the world!
+				NewString: Your power sends shockwaves through the world!
+			}
+
+			5: {
+				OldString: Your sheer force resonates, electrifying everything it touches!
+				NewString: Your sheer force resonates, electrifying everything it touches!
+			}
+
+			6: {
+				OldString: Your aura comes out from the veins!
+				NewString: Your aura comes out from the veins!
+			}
+
+			7: {
+				OldString: You feel darkness and negativity running through your body.
+				NewString: You feel darkness and negativity running through your body.
+			}
+
+			8: {
+				OldString: MORE POWERRRRR!
+				NewString: MORE POWERRRRR!
+			}
+
+			9: {
+				OldString: This is a shield?
+				NewString: This is a shield?
+			}
+
+			10: {
+				OldString: Your yellow glow can be seen from the horizon.
+				NewString: Your yellow glow can be seen from the horizon.
+			}
+		}
+
+		ProcessTriggers: {
+			1: {
+				OldString: xSSJ4FPBuff
+				NewString: xSSJ4FPBuff
+			}
+
+			2: {
+				OldString: xSSJ4LBBuff
+				NewString: xSSJ4LBBuff
+			}
+
+			3: {
+				OldString: xSSJ5Buff
+				NewString: xSSJ5Buff
+			}
+
+			4: {
+				OldString: xSSJ5FPBuff
+				NewString: xSSJ5FPBuff
+			}
+
+			5: {
+				OldString: SSJ6Buff
+				NewString: SSJ6Buff
+			}
+
+			6: {
+				OldString: SSJ7Buff
+				NewString: SSJ7Buff
+			}
+
+			7: {
+				OldString: SSJ4INBuff
+				NewString: SSJ4INBuff
+			}
+
+			8: {
+				OldString: SSJ8Buff
+				NewString: SSJ8Buff
+			}
+
+			9: {
+				OldString: VVSBuff
+				NewString: VVSBuff
+			}
+		}
+
+		SaveData: {
+			1: {
+				OldString: dbztac_xSSJ4Achieved
+				NewString: dbztac_xSSJ4Achieved
+			}
+
+			2: {
+				OldString: dbztac_xSSJ4UnlockMsg
+				NewString: dbztac_xSSJ4UnlockMsg
+			}
+
+			3: {
+				OldString: dbztac_xSSJ4FPAchieved
+				NewString: dbztac_xSSJ4FPAchieved
+			}
+
+			4: {
+				OldString: dbztac_xSSJ4FPUnlockMsg
+				NewString: dbztac_xSSJ4FPUnlockMsg
+			}
+
+			5: {
+				OldString: dbztac_xSSJ4LBAchieved
+				NewString: dbztac_xSSJ4LBAchieved
+			}
+
+			6: {
+				OldString: dbztac_xSSJ4LBUnlockMsg
+				NewString: dbztac_xSSJ4LBUnlockMsg
+			}
+
+			7: {
+				OldString: dbztac_xSSJ5Achieved
+				NewString: dbztac_xSSJ5Achieved
+			}
+
+			8: {
+				OldString: dbztac_xSSJ5UnlockMsg
+				NewString: dbztac_xSSJ5UnlockMsg
+			}
+
+			9: {
+				OldString: dbztac_xSSJ5FPAchieved
+				NewString: dbztac_xSSJ5FPAchieved
+			}
+
+			10: {
+				OldString: dbztac_xSSJ5FPUnlockMsg
+				NewString: dbztac_xSSJ5FPUnlockMsg
+			}
+
+			11: {
+				OldString: dbztac_SSJ6Achieved
+				NewString: dbztac_SSJ6Achieved
+			}
+
+			12: {
+				OldString: dbztac_SSJ6UnlockMsg
+				NewString: dbztac_SSJ6UnlockMsg
+			}
+
+			13: {
+				OldString: dbztac_SSJ7Achieved
+				NewString: dbztac_SSJ7Achieved
+			}
+
+			14: {
+				OldString: dbztac_SSJ7UnlockMsg
+				NewString: dbztac_SSJ7UnlockMsg
+			}
+
+			15: {
+				OldString: dbztac_VVSAchieved
+				NewString: dbztac_VVSAchieved
+			}
+
+			16: {
+				OldString: dbztac_VVSUnlockMsg
+				NewString: dbztac_VVSUnlockMsg
+			}
+
+			17: {
+				OldString: dbztac_SSJ4INAchieved
+				NewString: dbztac_SSJ4INAchieved
+			}
+
+			18: {
+				OldString: dbztac_SSJ4INUnlockMsg
+				NewString: dbztac_SSJ4INUnlockMsg
+			}
+
+			19: {
+				OldString: dbztac_SSJ8Achieved
+				NewString: dbztac_SSJ8Achieved
+			}
+
+			20: {
+				OldString: dbztac_SSJ8UnlockMsg
+				NewString: dbztac_SSJ8UnlockMsg
+			}
+		}
+
+		LoadData: {
+			1: {
+				OldString: dbztac_xSSJ4Achieved
+				NewString: dbztac_xSSJ4Achieved
+			}
+
+			2: {
+				OldString: dbztac_xSSJ4UnlockMsg
+				NewString: dbztac_xSSJ4UnlockMsg
+			}
+
+			3: {
+				OldString: dbztac_xSSJ4FPAchieved
+				NewString: dbztac_xSSJ4FPAchieved
+			}
+
+			4: {
+				OldString: dbztac_xSSJ4FPUnlockMsg
+				NewString: dbztac_xSSJ4FPUnlockMsg
+			}
+
+			5: {
+				OldString: dbztac_xSSJ4LBAchieved
+				NewString: dbztac_xSSJ4LBAchieved
+			}
+
+			6: {
+				OldString: dbztac_xSSJ4LBUnlockMsg
+				NewString: dbztac_xSSJ4LBUnlockMsg
+			}
+
+			7: {
+				OldString: dbztac_xSSJ5Achieved
+				NewString: dbztac_xSSJ5Achieved
+			}
+
+			8: {
+				OldString: dbztac_xSSJ5UnlockMsg
+				NewString: dbztac_xSSJ5UnlockMsg
+			}
+
+			9: {
+				OldString: dbztac_xSSJ5FPAchieved
+				NewString: dbztac_xSSJ5FPAchieved
+			}
+
+			10: {
+				OldString: dbztac_xSSJ5FPUnlockMsg
+				NewString: dbztac_xSSJ5FPUnlockMsg
+			}
+
+			11: {
+				OldString: dbztac_SSJ6Achieved
+				NewString: dbztac_SSJ6Achieved
+			}
+
+			12: {
+				OldString: dbztac_SSJ6UnlockMsg
+				NewString: dbztac_SSJ6UnlockMsg
+			}
+
+			13: {
+				OldString: dbztac_SSJ7Achieved
+				NewString: dbztac_SSJ7Achieved
+			}
+
+			14: {
+				OldString: dbztac_SSJ7UnlockMsg
+				NewString: dbztac_SSJ7UnlockMsg
+			}
+
+			15: {
+				OldString: dbztac_VVSAchieved
+				NewString: dbztac_VVSAchieved
+			}
+
+			16: {
+				OldString: dbztac_VVSUnlockMsg
+				NewString: dbztac_VVSUnlockMsg
+			}
+
+			17: {
+				OldString: dbztac_SSJ4INAchieved
+				NewString: dbztac_SSJ4INAchieved
+			}
+
+			18: {
+				OldString: dbztac_SSJ4INUnlockMsg
+				NewString: dbztac_SSJ4INUnlockMsg
+			}
+
+			19: {
+				OldString: dbztac_SSJ8Achieved
+				NewString: dbztac_SSJ8Achieved
+			}
+
+			20: {
+				OldString: dbztac_SSJ8UnlockMsg
+				NewString: dbztac_SSJ8UnlockMsg
+			}
+		}
+	}
+
+	DACPlayer+xSSJ4Panel: {
+		Name: {
+			1: {
+				OldString: AF & others Forms
+				NewString: AF & others Forms
+			}
+		}
+
+		Nodes: {
+			1: {
+				OldString: xSSJ4Buff
+				NewString: xSSJ4Buff
+			}
+
+			2: {
+				OldString: dbztac/Transformations/xSSJ4Buff
+				NewString: dbztac/Transformations/xSSJ4Buff
+			}
+
+			3: {
+				OldString: A toxic creature hide something..(Plaguebringer goliath))
+				NewString: A toxic creature hide something..(Plaguebringer goliath))
+			}
+
+			4: {
+				OldString: xSSJ4FPBuff
+				NewString: xSSJ4FPBuff
+			}
+
+			5: {
+				OldString: dbztac/Transformations/xSSJ4FPBuff
+				NewString: dbztac/Transformations/xSSJ4FPBuff
+			}
+
+			6: {
+				OldString: Train hard in SSJ4
+				NewString: Train hard in SSJ4
+			}
+
+			7: {
+				OldString: xSSJ4LBBuff
+				NewString: xSSJ4LBBuff
+			}
+
+			8: {
+				OldString: dbztac/Transformations/xSSJ4LBBuff
+				NewString: dbztac/Transformations/xSSJ4LBBuff
+			}
+
+			9: {
+				OldString: Fighting to a galaxy god make push your limits(Moon Lord)
+				NewString: Fighting to a galaxy god make push your limits(Moon Lord)
+			}
+
+			10: {
+				OldString: xSSJ5Buff
+				NewString: xSSJ5Buff
+			}
+
+			11: {
+				OldString: dbztac/Transformations/xSSJ5Buff
+				NewString: dbztac/Transformations/xSSJ5Buff
+			}
+
+			12: {
+				OldString: This is a bird? (Dragonfolly)
+				NewString: This is a bird? (Dragonfolly)
+			}
+
+			13: {
+				OldString: xSSJ5FPBuff
+				NewString: xSSJ5FPBuff
+			}
+
+			14: {
+				OldString: dbztac/Transformations/xSSJ5FPBuff
+				NewString: dbztac/Transformations/xSSJ5FPBuff
+			}
+
+			15: {
+				OldString: Train hard in SSJ5
+				NewString: Train hard in SSJ5
+			}
+
+			16: {
+				OldString: SSJ6Buff
+				NewString: SSJ6Buff
+			}
+
+			17: {
+				OldString: dbztac/Transformations/SSJ6Buff
+				NewString: dbztac/Transformations/SSJ6Buff
+			}
+
+			18: {
+				OldString: The 4 ball and a night soul..
+				NewString: The 4 ball and a night soul..
+			}
+
+			19: {
+				OldString: SSJ7Buff
+				NewString: SSJ7Buff
+			}
+
+			20: {
+				OldString: dbztac/Transformations/SSJ7Buff
+				NewString: dbztac/Transformations/SSJ7Buff
+			}
+
+			21: {
+				OldString: "Strange Crystal Ball can wrap you in something without return "
+				NewString: "Strange Crystal Ball can wrap you in something without return "
+			}
+
+			22: {
+				OldString: SSJ8Buff
+				NewString: SSJ8Buff
+			}
+
+			23: {
+				OldString: dbztac/Transformations/SSJ8Buff
+				NewString: dbztac/Transformations/SSJ8Buff
+			}
+
+			24: {
+				OldString: Craft Compacted Dark Plasma
+				NewString: Craft Compacted Dark Plasma
+			}
+
+			25: {
+				OldString: VVSBuff
+				NewString: VVSBuff
+			}
+
+			26: {
+				OldString: dbztac/Transformations/VVSBuff
+				NewString: dbztac/Transformations/VVSBuff
+			}
+
+			27: {
+				OldString: Mushroom monster (Crabulon)
+				NewString: Mushroom monster (Crabulon)
+			}
+
+			28: {
+				OldString: SSJ4INBuff
+				NewString: SSJ4INBuff
+			}
+
+			29: {
+				OldString: dbztac/Transformations/SSJ4INBuff
+				NewString: dbztac/Transformations/SSJ4INBuff
+			}
+
+			30: {
+				OldString: Craft (Pure Bright)
+				NewString: Craft (Pure Bright)
+			}
+		}
+	}
+}
