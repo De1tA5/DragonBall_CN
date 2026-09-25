@@ -13,6 +13,7 @@ namespace DragonBall_CN.Common.dbzcalamityUTD
 {
     public class dbzcalamityUTDPatch:ModSystem
     {
+        //修复套装奖励
         private static readonly string dragonBallCalamity = "dbzcalamityUTD";
 
         private static Dictionary<string, string> FormNames = new()
@@ -64,5 +65,7 @@ namespace DragonBall_CN.Common.dbzcalamityUTD
                         Mod.Logger.Info("Replace Success");
             }
         }
+
+
     }
 }

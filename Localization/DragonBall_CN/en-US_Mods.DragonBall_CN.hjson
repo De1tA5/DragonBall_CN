@@ -17,5 +17,10 @@ Configs: {
 			Label: S S J5 Fur Recipe Fix
 			Tooltip: ""
 		}
+
+		GokuItemsRecipeFix: {
+			Label: Goku Items Recipe Fix
+			Tooltip: ""
+		}
 	}
 }

@@ -33,5 +33,15 @@ Configs: {
 				[C/FF3E00:默认启用，切换该选项需重新加载]
 				'''
 		}
+
+		GokuItemsRecipeFix: {
+			Label: 修复《Dragon Ball Terraria: Better Projectile Visuals》悟空物品配方
+			Tooltip: 
+				'''
+				启用该选项，修复模组无法合成部分悟空强化物品的配方
+				由于dbzcalamity不再更新，因此需要换成dbzcalamityUTD的物品才能合成
+				[C/FF3E00:默认启用，切换该选项需重新加载]
+				'''
+		}
 	}
 }

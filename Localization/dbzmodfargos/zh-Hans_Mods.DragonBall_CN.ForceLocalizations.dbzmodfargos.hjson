@@ -1023,7 +1023,7 @@ Content: {
 				1: {
 					// OldString: 20% increased Ki damage. Insane Ki regen. Gain a chance to dodge attacks using Ultra Instinct!
 					NewString:
-						''' 
+						'''
 
 						增加20%气伤害
 						极大幅提升气回复速度
@@ -1139,7 +1139,7 @@ Content: {
 				1: {
 					// OldString: 20% increased Ki damage. Insane Ki regen. Gain a chance to dodge attacks using Ultra Instinct!
 					NewString:
-						''' 
+						'''
 
 						增加20%气伤害
 						极大幅提升气回复速度

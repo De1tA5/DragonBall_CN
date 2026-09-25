@@ -1,0 +1,715 @@
+NPCs: {
+	Goku: {
+		DisplayName: Goku
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+			LikeBiome: I like {BiomeName}.
+			DislikeBiome: I dislike {BiomeName}.
+			HateBiome: I hate {BiomeName}.
+			DislikeNPC: I dislike {NPCName}.
+		}
+	}
+
+	Beerus: {
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			HateBiome: I hate {BiomeName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Beerus
+	}
+}
+
+Projectiles: {
+	KiBlastGoku.DisplayName: Ki Blast Goku
+	DragonFistHead.DisplayName: Dragon Fist Head
+	DragonFistBody.DisplayName: Dragon Fist Body
+	DragonFistTail.DisplayName: Dragon Fist Tail
+	FistProj.DisplayName: Fist Proj
+	SSJ3Effectremake.DisplayName: S S J3 Effectremake
+	GolemStarProjectile.DisplayName: Golem Star Projectile
+	MeteorFistProj.DisplayName: Meteor Fist Proj
+	MeteorShieldProjectile.DisplayName: Meteor Shield Projectile
+	KaiokenFistProj.DisplayName: Kaioken Fist Proj
+	KaiokenShieldProjectile.DisplayName: Kaioken Shield Projectile
+	StarFallFistProj.DisplayName: Star Fall Fist Proj
+	StarFallShieldProjectile.DisplayName: Star Fall Shield Projectile
+	RadiantFistProj.DisplayName: Radiant Fist Proj
+	RadiantShieldProjectile.DisplayName: Radiant Shield Projectile
+	TrunksSwordMaxSwing.DisplayName: Trunks Sword Max Swing
+	TrunksSwordSwing.DisplayName: Trunks Sword Swing
+	MechFistProj.DisplayName: Mech Fist Proj
+	MechShieldProjectile.DisplayName: Mech Shield Projectile
+	WormBody.DisplayName: Worm Body
+	WormHead.DisplayName: Worm Head
+	WormTail.DisplayName: Worm Tail
+	MegaMechFistProj.DisplayName: Mega Mech Fist Proj
+	retLaser.DisplayName: ret Laser
+	Betterlightning.DisplayName: Betterlightning
+	ThunderFistProj.DisplayName: Thunder Fist Proj
+	BlazingGauntletProj.DisplayName: Blazing Gauntlet Proj
+	FireShield.DisplayName: Fire Shield
+	SpiritBomb.DisplayName: Spirit Bomb
+	Blast.DisplayName: Blast
+	StarDustFallProj.DisplayName: Star Dust Fall Proj
+	BurningAttackProj.DisplayName: Burning Attack Proj
+	BurningattackHold.DisplayName: Burningattack Hold
+	kamehameha.DisplayName: kamehameha
+	kamehamehaKaioken.DisplayName: kamehameha Kaioken
+	DragonFistBodyWeapon.DisplayName: Dragon Fist Body Weapon
+	DragonFistHeadWeapon.DisplayName: Dragon Fist Head Weapon
+	DragonFistTailWeapon.DisplayName: Dragon Fist Tail Weapon
+	DragonGauntletProj.DisplayName: Dragon Gauntlet Proj
+	MultiModeProjectile.DisplayName: Multi Mode Projectile
+	BlastKI.DisplayName: Blast K I
+	LegendaryProj.DisplayName: Legendary Proj
+	BeerusFistProj.DisplayName: Beerus Fist Proj
+	CosmicFlame.DisplayName: Cosmic Flame
+	HopeSwordSwing.DisplayName: Hope Sword Swing
+	WaveOfStarsProj.DisplayName: Wave Of Stars Proj
+	HopeSwordMaxSwing.DisplayName: Hope Sword Max Swing
+	InfernadoRevenge.DisplayName: Infernado Revenge
+	UltraFistProj.DisplayName: Ultra Fist Proj
+	UltraShieldProjectile.DisplayName: Ultra Shield Projectile
+	UltraBeamProj.DisplayName: Ultra Beam Proj
+	UltraKamehamehaCharge.DisplayName: Ultra Kamehameha Charge
+	CosmicLightningProj.DisplayName: Cosmic Lightning Proj
+	HakaiTraps.DisplayName: Hakai Traps
+	BlueFistProj.DisplayName: Blue Fist Proj
+	BlackScytheSwing.DisplayName: Black Scythe Swing
+	GelBullet.DisplayName: Gel Bullet
+	HomingRedLaser.DisplayName: Homing Red Laser
+	WeakHakaiBolt.DisplayName: Weak Hakai Bolt
+	HakaiOrbTelegraph.DisplayName: Hakai Orb Telegraph
+	HomingPurpleLaser.DisplayName: Homing Purple Laser
+	BeerusEnergyBall.DisplayName: Beerus Energy Ball
+	BaseBlast.DisplayName: Base Blast
+}
+
+Buffs: {
+	MeteorDefenseBuff: {
+		DisplayName: Rush Attack
+		Description: Higher Defense.
+	}
+
+	KaiokenDefenseBuff: {
+		DisplayName: Kaioken Rush Attack
+		Description: Higher Defense.
+	}
+
+	StarFallDefenseBuff: {
+		DisplayName: Star Fall parry
+		Description: Higher Defense.
+	}
+
+	SoulBondCooldownDebuff: {
+		DisplayName: Fusion Cooldown
+		Description: You can't fuse yet.
+	}
+
+	SoulBondedBuff: {
+		DisplayName: Fusion
+		Description: You and your partners' stats are added together and then given a 50% boost.
+	}
+
+	SoulBondActiveBuff: {
+		DisplayName: Fusion
+		Description: You and your partners' stats are added together and then given a 50% boost.
+	}
+
+	SoulBondCooldownBuff: {
+		DisplayName: Fusion Cooldown
+		Description: You can't fuse yet.
+	}
+
+	RadiantGauntletCooldown: {
+		DisplayName: Radiant Cooldown
+		Description: You can't use your right click attack
+	}
+
+	MechGauntletCooldown: {
+		DisplayName: Mech Punch Cooldown
+		Description: You can't use your right click attack
+	}
+
+	ThunderGauntletCooldown: {
+		DisplayName: Thunder Cooldown
+		Description: You can't use your right click attack
+	}
+
+	FireCooldown: {
+		DisplayName: Fire Cooldown
+		Description: You can't use your right click ability
+	}
+
+	FlamingBuff: {
+		DisplayName: Flaming Buff
+		Description: The flaming shield reflects projectiles that only deal 30% or less damage to you back
+	}
+
+	SolarBuff: {
+		DisplayName: Solar Buff
+		Description: Mods.BetterDBT.Buffs.SolarBuff.Description
+	}
+
+	EnchantedBuff: {
+		DisplayName: Enchanted Buff
+		Description: Mods.BetterDBT.Buffs.EnchantedBuff.Description
+	}
+
+	HallowBuff: {
+		DisplayName: Hallow Buff
+		Description: Mods.BetterDBT.Buffs.HallowBuff.Description
+	}
+
+	DragonCooldown: {
+		DisplayName: Dragon Cooldown
+		Description: Mods.BetterDBT.Buffs.DragonCooldown.Description
+	}
+
+	DefenseBoostBuff: {
+		DisplayName: Defense Boost Buff
+		Description: Mods.BetterDBT.Buffs.DefenseBoostBuff.Description
+	}
+
+	BlueEvoBuff: {
+		DisplayName: SSBE
+		Description: ""
+	}
+
+	HolyBuff: {
+		DisplayName: SSJR2
+		Description: ""
+	}
+
+	KaiokenBlueBuff: {
+		DisplayName: SSB Kaioken
+		Description: ""
+	}
+
+	MUIBuff: {
+		DisplayName: Signs of ultra Instinct
+		Description: Mods.BetterDBT.Buffs.MUIBuff.Description
+	}
+
+	WrathBuff: {
+		DisplayName: Wrathful
+		Description: ""
+	}
+
+	RageBuff: {
+		DisplayName: Evil Saiyan
+		Description: ""
+	}
+
+	UltraGauntletCooldown: {
+		DisplayName: Ultra Gauntlet Cooldown
+		Description: You can't use Ultra combo
+	}
+
+	UltraGauntletattack: {
+		DisplayName: Ultra Combo attack
+		Description: ""
+	}
+
+	EvilBuff: {
+		DisplayName: Evil Saiyan
+		Description: ""
+	}
+
+	BlueFistCooldown: {
+		DisplayName: Blue Fist Cooldown
+		Description: Mods.BetterDBT.Buffs.BlueFistCooldown.Description
+	}
+
+	ssjRageBuff: {
+		DisplayName: ssj Rage Buff
+		Description: Mods.BetterDBT.Buffs.ssjRageBuff.Description
+	}
+
+	UltraEgoBuff: {
+		DisplayName: Ultra Ego Buff
+		Description: Mods.BetterDBT.Buffs.UltraEgoBuff.Description
+	}
+
+	DebuffHakai: {
+		Description: Mods.BetterDBT.Buffs.DebuffHakai.Description
+		DisplayName: Debuff Hakai
+	}
+}
+
+Items: {
+	SoulBondingAmulet: {
+		DisplayName: False Fusion Necklace
+		Tooltip:
+			'''
+			Fuses 2 players together for a short amount of time
+			Check controls for the Fusion ui 
+			'''
+	}
+
+	MeteorCombo: {
+		Tooltip: Right click attack: Basic Rush, Deals 3 times damage and launches the player to the cursor
+		DisplayName: Basic Combo
+	}
+
+	KaiokenComboItem: {
+		DisplayName: Kaioken Fist
+		Tooltip: Right click attack: Kaioken Rush, Deals 3 times damage and launches the player to the cursor
+	}
+
+	StarFallItem: {
+		DisplayName: Star Fist
+		Tooltip: Right click ability: Star Counter, When hit while using this you'll summon 6 stars from the sky that'll deal 60 damage
+	}
+
+	RadiantGauntletItem: {
+		DisplayName: Radiant Gauntlet
+		Tooltip: Right click attack: Radiant Charge, Deals 4 times damage and launches the player to the cursor
+	}
+
+	MechGauntletItem: {
+		DisplayName: Mech Gauntlet
+		Tooltip:
+			'''
+			Right click attack: Mech Punch, Deals 2 times damage,
+			the red fist will summon laser beams on death in a random direction
+			the green fist ignites enemies with cursed flame 
+			'''
+	}
+
+	ThunderFist: {
+		DisplayName: Thunder Fist
+		Tooltip: Right click attack: Lightning Throw, Deals 2 times damage,
+	}
+
+	BlazingGauntlet: {
+		DisplayName: Blazing Gauntlet
+		Tooltip: Right click ability: Fire shield, The flaming shield reflects projectiles that only deal 30% or lower of your hp back where they came from
+	}
+
+	StardustFall: {
+		DisplayName: Stardust Fall
+		Tooltip: ""
+	}
+
+	BurningAttack: {
+		DisplayName: Burning Attack
+		Tooltip: ""
+	}
+
+	GodSoul: {
+		DisplayName: God Soul
+		Tooltip: ""
+	}
+
+	PolterghastSoul: {
+		DisplayName: Polterghast Soul
+		Tooltip: ""
+	}
+
+	WitchSoul: {
+		DisplayName: Witch Soul
+		Tooltip: ""
+	}
+
+	GokuSenzuBean: {
+		DisplayName: Goku's Senzu Bean
+		Tooltip: ""
+	}
+
+	DragonGauntlet: {
+		DisplayName: Dragon Fist
+		Tooltip: Right click attack: DRAGON FIST, summon a large dragon that'll chase after enemies
+	}
+
+	StatEditorItem: {
+		DisplayName: Customizable KI weapon
+		Tooltip:
+			'''
+			Use right click to open the ui
+			you can use points to upgrade your weapons stats
+			you can gain points by beating bosses and events
+			to add points to a stat left click any sword icon, to remove points right click. you can also hold shift + (anyclick) to remove/add 10 points
+			to leave the ui press on the top right icon, to apply the changes you've made press the icon under the leave icon.
+			Keep this item selected in your hotbar to keep the ui open
+			'''
+	}
+
+	LegendaryFist: {
+		DisplayName: Legendary Fist
+		Tooltip: Right click attack: Legndary Crusher, Grabs a nearby enemy and damages the enemy 5 times.
+	}
+
+	NDSpawn: {
+		DisplayName: Dragon Ball Terminus
+		Tooltip: Summon nameless deity without going to the garden
+	}
+
+	UltraKI: {
+		DisplayName: Ultra KI Crystal
+		Tooltip: The next level
+	}
+
+	CosmicCharm: {
+		DisplayName: Cosmic Charm
+		Tooltip:
+			'''
+			24% Increased Ki damage
+			All damage increased by 18%
+			+1000 Max Ki
+			14% reduced damage
+			+3 Max minions
+			Greatly increased life regen
+			All crit increased by 18%
+			'''
+	}
+
+	UltraKIFragment: {
+		DisplayName: Ultra KI Fragment
+		Tooltip: Increases your max ki by 3000
+	}
+
+	UltraKIPotion: {
+		DisplayName: Ultra KI Potion
+		Tooltip: Restores 6500 Ki.
+	}
+
+	UltraKIScroll: {
+		DisplayName: Ultra KI Scroll
+		Tooltip: Increases your ki charge rate
+	}
+
+	CosmicKISprayer: {
+		DisplayName: Cosmic KI Sprayer
+		Tooltip: Shoots out Powerful Flames
+	}
+
+	HopeSword: {
+		DisplayName: Sword of Hope
+		Tooltip: Every 4th hit will do double damage
+	}
+
+	WaveOfStars: {
+		DisplayName: Wave of Stars
+		Tooltip: ""
+	}
+
+	SignsUI: {
+		DisplayName: Signs of UI
+		Tooltip: Unlocks UI
+	}
+
+	BlueKaioken: {
+		DisplayName: Blue Kaioken
+		Tooltip: Unlocks Blue Kaioken
+	}
+
+	BossRushSigil: {
+		DisplayName: Boss Rush Sigil
+		Tooltip: Summons boss rush
+	}
+
+	BOL: {
+		DisplayName: SSJR2
+		Tooltip: Unlocks SSJR2
+	}
+
+	SSBE: {
+		DisplayName: SSBE
+		Tooltip: Unlocks SSBE
+	}
+
+	SSJR: {
+		DisplayName: Evil Saiyan
+		Tooltip: Unlocks Evil Saiyan
+	}
+
+	Wrathful: {
+		DisplayName: Wrathful
+		Tooltip: Unlocks Wrathful
+	}
+
+	UltraFruit: {
+		DisplayName: Ultra Fruit
+		Tooltip: "Increases hp by 100, and defense by 10 "
+	}
+
+	UltraDye: {
+		DisplayName: Ultra Dye
+		Tooltip: ""
+	}
+
+	BlackHoleDye: {
+		DisplayName: Black Hole Dye
+		Tooltip: ""
+	}
+
+	HeartShaderDye: {
+		DisplayName: Heart Shader Dye
+		Tooltip: ""
+	}
+
+	ShaderAuraDye: {
+		DisplayName: Shader Aura Dye
+		Tooltip: ""
+	}
+
+	UltraGauntlet: {
+		DisplayName: Ultra Gauntlet
+		Tooltip: Right click attack: Ultra Rush, Teleports you to a nearby enemies and damages them.
+	}
+
+	UltraKamehameha: {
+		DisplayName: Ultra Kamehameha
+		Tooltip: ""
+	}
+
+	BookOfInfo: {
+		DisplayName: Book of Info (dbt:Better Projectile Visuals)
+		Tooltip: left click to open or close
+	}
+
+	HakaiKI: {
+		DisplayName: Hakai K I
+		Tooltip: ""
+	}
+
+	CosmicLightning: {
+		DisplayName: Cosmic Lightning
+		Tooltip: ""
+	}
+
+	BlueFist: {
+		DisplayName: Blue Fist
+		Tooltip: ""
+	}
+
+	BlackScythe: {
+		DisplayName: Black Scythe
+		Tooltip: ""
+	}
+
+	PowerBoost: {
+		DisplayName: Power Boost
+		Tooltip: ""
+	}
+
+	SpeedBoost: {
+		DisplayName: Speed Boost
+		Tooltip: ""
+	}
+
+	SSJRage: {
+		DisplayName: S S J Rage
+		Tooltip: ""
+	}
+
+	kamehamehabeamDye: {
+		DisplayName: kamehamehabeam Dye
+		Tooltip: ""
+	}
+
+	KameShaderDye: {
+		DisplayName: Kame Shader Dye
+		Tooltip: ""
+	}
+
+	UEUnlock: {
+		DisplayName: U E Unlock
+		Tooltip: ""
+	}
+
+	NebulaKIChestplate: {
+		DisplayName: Nebula K I Chestplate
+		Tooltip: ""
+	}
+
+	NebulaKILeggings: {
+		DisplayName: Nebula K I Leggings
+		Tooltip: ""
+	}
+
+	RadiKILeggings: {
+		DisplayName: Radi K I Leggings
+		Tooltip: ""
+	}
+
+	RaidKIChestplate: {
+		DisplayName: Raid K I Chestplate
+		Tooltip: ""
+	}
+
+	SolarKIChestplate: {
+		DisplayName: Solar K I Chestplate
+		Tooltip: ""
+	}
+
+	SolarKILeggings: {
+		DisplayName: Solar K I Leggings
+		Tooltip: ""
+	}
+
+	StardustKIChestplate: {
+		DisplayName: Stardust K I Chestplate
+		Tooltip: ""
+	}
+
+	StardustKILeggings: {
+		DisplayName: Stardust K I Leggings
+		Tooltip: ""
+	}
+
+	VortexKIChestplate: {
+		DisplayName: Vortex K I Chestplate
+		Tooltip: ""
+	}
+
+	VortexKILeggings: {
+		DisplayName: Vortex K I Leggings
+		Tooltip: ""
+	}
+
+	NebulaKIHelmet: {
+		SetBonus: Mods.BetterDBT.Items.NebulaKIHelmet.SetBonus
+		DisplayName: Nebula K I Helmet
+		Tooltip: ""
+	}
+
+	RadiKIHelmet: {
+		SetBonus: Mods.BetterDBT.Items.RadiKIHelmet.SetBonus
+		DisplayName: Radi K I Helmet
+		Tooltip: ""
+	}
+
+	SolarKIHelmet: {
+		SetBonus: Mods.BetterDBT.Items.SolarKIHelmet.SetBonus
+		DisplayName: Solar K I Helmet
+		Tooltip: ""
+	}
+
+	StardustKIHelmet: {
+		SetBonus: Mods.BetterDBT.Items.StardustKIHelmet.SetBonus
+		DisplayName: Stardust K I Helmet
+		Tooltip: ""
+	}
+
+	VortexKIHelmet: {
+		SetBonus: Mods.BetterDBT.Items.VortexKIHelmet.SetBonus
+		DisplayName: Vortex K I Helmet
+		Tooltip: ""
+	}
+}
+
+Configs: {
+	DragonSettings: {
+		DisplayName: Dragon Settings
+
+		Headers: {
+			Items: Items Header
+			Graphics: Graphics Header
+			Content: Content Header
+			Reworks: Reworks Header
+			Others: Others Header
+		}
+
+		BetterHitBoxes: {
+			Label: Hitbox Fix
+			Tooltip: Fixes Projectle hitboxes by making them square
+		}
+
+		MoreContent: {
+			Label: Extra Content
+			Tooltip: Addes Chief's Dragonball content
+		}
+
+		TrunksRework: {
+			Label: Sword Reworks
+			Tooltip: Reworks all swords in the dbt mod
+		}
+
+		SendStartupMessage: {
+			Label: Disable Message
+			Tooltip: ""
+		}
+
+		EnableGoku: {
+			Label: Goku
+			Tooltip: this allows Goku to spawn in (lunatic cultist has to be defeated to let goku spawn in and help with boss fights)
+		}
+
+		KIReworks: {
+			Label: KI Weapon Reworks
+			Tooltip: ""
+		}
+
+		ClassForms: {
+			Label: Class Forms
+			Tooltip: ""
+		}
+
+		DyeShaderBeams: {
+			Label: DyeShaderBeams
+			Tooltip: ""
+		}
+
+		NerfForms: {
+			Label: Nerf SS Forms
+			Tooltip: ""
+		}
+	}
+
+	DragonSettingsPlayerSide: {
+		DisplayName: Dragon Settings Player Side
+
+		Headers: {
+			UI: UI Header
+			Effects: Effects Header
+		}
+
+		KeyBindsetting: {
+			Label: Custom ki blast uses a keybind
+			Tooltip: ""
+		}
+
+		FlightTrail: {
+			Label: Flight Trail
+			Tooltip: ""
+		}
+	}
+}
+
+Keybinds: {
+	"Boost Spirit Bomb.DisplayName": Boost Spirit Bomb
+	"Toggle Forms UI.DisplayName": Toggle Forms UI
+	"Use Fusion attack.DisplayName": Use Fusion attack
+	"Toggle Fusion UI.DisplayName": Toggle Fusion UI
+	"Goku HP UI.DisplayName": Goku HP UI
+	"Custom Ki Blast menu.DisplayName": Custom Ki Blast menu
+	Transform.DisplayName: Transform
+	"Transfrom Menu.DisplayName": Transfrom Menu
+	"Fusion UI.DisplayName": Fusion UI
+}
+
+UI: {
+	RageResource: Rage : {0} / {1}
+	GODResource: GOD Energy : {0} / {1}
+}

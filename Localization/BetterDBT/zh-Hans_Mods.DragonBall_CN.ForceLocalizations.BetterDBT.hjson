@@ -1,0 +1,4964 @@
+BetterDBT: {
+	Load: {
+		1: {
+			// OldString: SetStaticDefaults
+			// NewString: SetStaticDefaults
+		}
+
+		2: {
+			// OldString: Update
+			// NewString: Update
+		}
+
+		3: {
+			// OldString: Transform
+			// NewString: Transform
+		}
+
+		4: {
+			// OldString: Custom Ki Blast menu
+			// NewString: Custom Ki Blast menu
+		}
+
+		5: {
+			// OldString: Fusion UI
+			// NewString: Fusion UI
+		}
+
+		6: {
+			// OldString: Transfrom Menu
+			// NewString: Transfrom Menu
+		}
+
+		7: {
+			// OldString: Goku HP UI
+			// NewString: Goku HP UI
+		}
+
+		8: {
+			// OldString: DBZMODPORT
+			// NewString: DBZMODPORT
+		}
+
+		9: {
+			// OldString: dbzcalamity
+			// NewString: dbzcalamity
+		}
+
+		10: {
+			// OldString: GoatLib
+			// NewString: GoatLib
+		}
+	}
+
+	HandlePacket: {
+		1: {
+			// OldString: "TransformRequest: invalid playerID "
+			// NewString: "TransformRequest: invalid playerID "
+		}
+
+		2: {
+			// OldString: "TransformRequest: player "
+			// NewString: "TransformRequest: player "
+		}
+
+		3: {
+			// OldString: " not active"
+			// NewString: " not active"
+		}
+
+		4: {
+			// OldString: "TransformRequest: invalid form "
+			// NewString: "TransformRequest: invalid form "
+		}
+
+		5: {
+			// OldString: " from player "
+			// NewString: " from player "
+		}
+	}
+}
+
+ScrapedTooltipGlobalItem: {
+	ModifyTooltips: {
+		1: {
+			// OldString: unused
+			// NewString: unused
+		}
+
+		2: {
+			// OldString: You need to turn on the New Content setting in the dbt better projectile viusals config to use this
+			NewString: 你需要在配置中启用“额外内容”设置，才能使用该物品
+		}
+	}
+}
+
+Reworks: {
+	KIBlastRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+		}
+	}
+
+	KIBeamRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/ShineFlare
+				// NewString: BetterDBT/Textures/ShineFlare
+			}
+
+			3: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+		}
+	}
+
+	EndlessRework: {
+		IsLoadingEnabled: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+		}
+
+		Load: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+
+			2: {
+				// OldString: EndlessDestructionBall
+				// NewString: EndlessDestructionBall
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/SpinnyThing
+				// NewString: BetterDBT/Textures/SpinnyThing
+			}
+		}
+	}
+
+	EnergyBlastBarrageRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/StarTrail
+				// NewString: BetterDBT/Textures/StarTrail
+			}
+		}
+	}
+
+	DestructoDiskRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+		}
+	}
+
+	BloodTheifRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+		}
+	}
+
+	HellZoneGrenadeRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+		}
+	}
+
+	HellZoneGrenadeExtraRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+		}
+	}
+
+	EnergyShootRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+		}
+	}
+
+	TrapShooterRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+		}
+	}
+
+	TrapShooterBlastRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/GlowShine
+				// NewString: BetterDBT/Textures/GlowShine
+			}
+		}
+	}
+
+	ScatterShotRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+		}
+	}
+
+	SupernovaBombRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Sun
+				// NewString: BetterDBT/Textures/Sun
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+		}
+	}
+
+	SuperEnergyBarrageRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+		}
+	}
+
+	SuperEnergyBarrageBlastRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/GlowShine
+				// NewString: BetterDBT/Textures/GlowShine
+			}
+		}
+	}
+
+	SpiritBallRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+		}
+	}
+
+	DSARework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+		}
+	}
+
+	DSAReworkMini: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/SuperDestructoDiskAssaultProj
+				// NewString: BetterDBT/Textures/SuperDestructoDiskAssaultProj
+			}
+		}
+	}
+
+	DSAItemRework: {
+		SetDefaults: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/DiscFire
+				// NewString: DBZMODPORT/Sounds/DiscFire
+			}
+		}
+	}
+
+	SuperSpiritBombRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+		}
+	}
+
+	HolyWrathRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Sun
+				// NewString: BetterDBT/Textures/Sun
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+		}
+	}
+
+	BlackPowerBallRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+		}
+	}
+
+	CandyLaserBlastRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+		}
+	}
+
+	SUSpiritBombRework: {
+		IsLoadingEnabled: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+		}
+
+		Load: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+
+			2: {
+				// OldString: SuperUltraSpiritBombBall
+				// NewString: SuperUltraSpiritBombBall
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+		}
+	}
+
+	SDSARework: {
+		IsLoadingEnabled: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+		}
+
+		Load: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+
+			2: {
+				// OldString: SuperDestructoDiskAssaultProj
+				// NewString: SuperDestructoDiskAssaultProj
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/SuperDestructoDiskAssaultProj
+				// NewString: BetterDBT/Textures/SuperDestructoDiskAssaultProj
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+		}
+	}
+
+	JFRework: {
+		IsLoadingEnabled: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+		}
+
+		Load: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+
+			2: {
+				// OldString: JusticeFlashProj
+				// NewString: JusticeFlashProj
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+		}
+	}
+
+	LegendaryBomb: {
+		IsLoadingEnabled: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+		}
+
+		Load: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+
+			2: {
+				// OldString: LegendaryBomb
+				// NewString: LegendaryBomb
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+
+			3: {
+				// OldString: BetterDBT/Textures/GlowShine
+				// NewString: BetterDBT/Textures/GlowShine
+			}
+		}
+	}
+
+	LegendaryBombBlast: {
+		IsLoadingEnabled: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+		}
+
+		Load: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+
+			2: {
+				// OldString: LegendaryBombExplosion
+				// NewString: LegendaryBombExplosion
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/GlowShine
+				// NewString: BetterDBT/Textures/GlowShine
+			}
+		}
+	}
+
+	LegendaryBlaster: {
+		IsLoadingEnabled: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+		}
+
+		Load: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+
+			2: {
+				// OldString: LegendaryBlasterProj
+				// NewString: LegendaryBlasterProj
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+		}
+	}
+
+	DustFixerSystem: {
+		IsLoadingEnabled: {
+			1: {
+				// OldString: DBZMODPORT
+				// NewString: DBZMODPORT
+			}
+		}
+
+		Load: {
+			1: {
+				// OldString: DBZMODPORT
+				// NewString: DBZMODPORT
+			}
+
+			2: {
+				// OldString: StarMuzzleFlash
+				// NewString: StarMuzzleFlash
+			}
+		}
+	}
+
+	SSJEffect: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/GlowShine
+				// NewString: BetterDBT/Textures/GlowShine
+			}
+		}
+	}
+
+	SSJ2Effect: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/GlowShine
+				// NewString: BetterDBT/Textures/GlowShine
+			}
+		}
+	}
+
+	SSJ2Effect2: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+				// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+			}
+		}
+	}
+
+	SSJ3Effectremake: {
+		AI: {
+			1: {
+				// OldString: ""
+				// NewString: ""
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/GlowShine
+				// NewString: BetterDBT/Textures/GlowShine
+			}
+		}
+	}
+
+	LSSJ2Effect: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/GlowShine
+				// NewString: BetterDBT/Textures/GlowShine
+			}
+		}
+	}
+
+	Forms: {
+		BetterDBTBuffHooks: {
+			SetStaticDefaults_Hook: {
+				1: {
+					// OldString: GetType
+					// NewString: GetType
+				}
+
+				2: {
+					// OldString: damageMulti
+					// NewString: damageMulti
+				}
+
+				3: {
+					// OldString: speedMulti
+					// NewString: speedMulti
+				}
+
+				4: {
+					// OldString: baseDefenceBonus
+					// NewString: baseDefenceBonus
+				}
+
+				5: {
+					// OldString: kiDrainRate
+					// NewString: kiDrainRate
+				}
+
+				6: {
+					// OldString: kiDrainRateWithMastery
+					// NewString: kiDrainRateWithMastery
+				}
+
+				7: {
+					// OldString: MinDamage
+					// NewString: MinDamage
+				}
+
+				8: {
+					// OldString: MaxDamage
+					// NewString: MaxDamage
+				}
+			}
+
+			BuildTooltip_Hook: {
+				1: {
+					// OldString: "Damage "
+					// NewString: "Damage "
+				}
+
+				2: {
+					// OldString: ""
+					// NewString: ""
+				}
+
+				3: {
+					// OldString: +
+					// NewString: +
+				}
+
+				4: {
+					// OldString: P2
+					// NewString: P2
+				}
+
+				5: {
+					// OldString: "; Speed "
+					// NewString: "; Speed "
+				}
+
+				6: {
+					// OldString: "Defense "
+					// NewString: "Defense "
+				}
+
+				7: {
+					// OldString: "; Ki Costs "
+					// NewString: "; Ki Costs "
+				}
+
+				8: {
+					// OldString: "Ki Drain "
+					// NewString: "Ki Drain "
+				}
+
+				9: {
+					// OldString: N0
+					// NewString: N0
+				}
+
+				10: {
+					// OldString: "/s, "
+					// NewString: "/s, "
+				}
+
+				11: {
+					// OldString: /s when mastered
+					// NewString: /s when mastered
+				}
+
+				12: {
+					// OldString: Life Drain: -
+					// NewString: Life Drain: -
+				}
+
+				13: {
+					// OldString: /s.
+					// NewString: /s.
+				}
+			}
+
+			Update_Hook: {
+				1: {
+					// OldString: TryGetValue
+					// NewString: TryGetValue
+				}
+
+				2: {
+					// OldString: GetType
+					// NewString: GetType
+				}
+			}
+		}
+	}
+
+	ScatterShotRework+SpiritBombRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+		}
+	}
+
+	ScatterShotRework+BigBangAttackRework: {
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/Boost
+				// NewString: BetterDBT/Textures/Boost
+			}
+		}
+	}
+
+	LSSJ+PlayerTrailHandler: {
+		DrawEffects: {
+			1: {
+				// OldString: BetterDBT/Textures/Blast
+				// NewString: BetterDBT/Textures/Blast
+			}
+		}
+	}
+}
+
+NewContent: {
+	WikiUIState: {
+		OnInitialize: {
+			1: {
+				// OldString: Wiki
+				// NewString: Wiki
+			}
+
+			2: {
+				// OldString: < Back
+				NewString: <返回
+			}
+
+			3: {
+				// OldString: Close Book
+				NewString: 关闭书本
+			}
+		}
+
+		ShowMainPage: {
+			1: {
+				// OldString: Wiki - Main
+				NewString: Wiki - 主页
+			}
+
+			2: {
+				// OldString: Main
+				// NewString: Main
+			}
+
+			3: {
+				// OldString: Content
+				NewString: 内容
+			}
+
+			4: {
+				// OldString: Reworks
+				NewString: 重做
+			}
+
+			5: {
+				// OldString: Config Settings
+				NewString: 配置设置
+			}
+
+			6: {
+				// OldString: Upate Notes
+				NewString: 更新日志
+			}
+
+			7: {
+				// OldString: Coming Soon
+				NewString: 即将到来
+			}
+		}
+
+		ShowContentPage: {
+			1: {
+				// OldString: Content
+				NewString: 内容
+			}
+
+			2: {
+				// OldString: Weapons
+				NewString: 武器
+			}
+
+			3: {
+				// OldString: Boss Rush
+				// NewString: Boss Rush
+			}
+
+			4: {
+				// OldString: Fusion
+				NewString: 融合
+			}
+		}
+
+		ShowReworksPage: {
+			1: {
+				// OldString: Reworks
+				NewString: 重做
+			}
+
+			2: {
+				// OldString: Trunks Sword (details coming soon)
+				NewString: 特兰克斯的剑 （具体改动即将到来）
+			}
+
+			3: {
+				// OldString: Destructo Disc (details coming soon)
+				NewString: 元气斩 （具体改动即将到来）
+			}
+		}
+
+		ConfigSettingsPage: {
+			1: {
+				// OldString: Configs
+				NewString: 配置
+			}
+
+			2: {
+				// OldString: SettingPage
+				// NewString: SettingPage
+			}
+
+			3: {
+				// OldString: Server Side.
+				// NewString: Server Side.
+			}
+
+			4: {
+				// OldString: Projectile hitbox fix, this makes all hitboxes sqaure.
+				// NewString: Projectile hitbox fix, this makes all hitboxes sqaure.
+			}
+
+			5: {
+				// OldString: Sword Weapon Reworks, fixes swords in the dbt mod.
+				// NewString: Sword Weapon Reworks, fixes swords in the dbt mod.
+			}
+
+			6: {
+				// OldString: KI Weapon Reworks, reworks some dbt weapons
+				// NewString: KI Weapon Reworks, reworks some dbt weapons
+			}
+
+			7: {
+				// OldString: SS form Reworks, nerfs all forms.
+				// NewString: SS form Reworks, nerfs all forms.
+			}
+
+			8: {
+				// OldString: New Content, allows you to use fusion, fist weapons.
+				// NewString: New Content, allows you to use fusion, fist weapons.
+			}
+
+			9: {
+				// OldString: Goku, this just lets goku spawn in and help you.
+				// NewString: Goku, this just lets goku spawn in and help you.
+			}
+
+			10: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			11: {
+				// OldString: Player Side.
+				// NewString: Player Side.
+			}
+
+			12: {
+				// OldString: Custom ki blast uses Right-click, if turned off it'll use a keybind.
+				// NewString: Custom ki blast uses Right-click, if turned off it'll use a keybind.
+			}
+
+			13: {
+				// OldString: Flight Trail, just gives flight a cool trail.
+				// NewString: Flight Trail, just gives flight a cool trail.
+			}
+		}
+
+		ShowComingSoonPage: {
+			1: {
+				// OldString: Coming Soon
+				NewString: 即将到来
+			}
+
+			2: {
+				// OldString: ComingSoon
+				// NewString: ComingSoon
+			}
+
+			3: {
+				// OldString: Future planned content will appear here.
+				// NewString: Future planned content will appear here.
+			}
+
+			4: {
+				// OldString: Boss Reworks for Boss Rush.
+				// NewString: Boss Reworks for Boss Rush.
+			}
+
+			5: {
+				// OldString: Rework all Forms
+				// NewString: Rework all Forms
+			}
+
+			6: {
+				// OldString: Rework all weapons and armor.
+				// NewString: Rework all weapons and armor.
+			}
+
+			7: {
+				// OldString: Ultra Mage weapon for the ultra ki tier.
+				// NewString: Ultra Mage weapon for the ultra ki tier.
+			}
+
+			8: {
+				// OldString: New config settings for nerfing ss forms (Done).
+				// NewString: New config settings for nerfing ss forms (Done).
+			}
+
+			9: {
+				// OldString: Finish Wiki Book.
+				NewString: 完成Wiki之书
+			}
+
+			10: {
+				// OldString: Ultra Ego.
+				NewString: 自我极意功
+			}
+
+			11: {
+				// OldString: BetterDBT/NewContent/BossRush/items/Forms/UEUnlock
+				// NewString: BetterDBT/NewContent/BossRush/items/Forms/UEUnlock
+			}
+
+			12: {
+				// OldString: Ultra Ki variant.
+				// NewString: Ultra Ki variant.
+			}
+
+			13: {
+				// OldString: BetterDBT/NewContent/BossRush/items/UltraDKI
+				// NewString: BetterDBT/NewContent/BossRush/items/UltraDKI
+			}
+
+			14: {
+				// OldString: Lord Beerus Boss Fight.
+				// NewString: Lord Beerus Boss Fight.
+			}
+
+			15: {
+				// OldString: BetterDBT/NewContent/Beerus/BeerusIcon
+				NewString: DragonBall_CN/Assets/LocaliztionPatchTextures/Empty
+			}
+		}
+
+		ShowWeaponsClass: {
+			1: {
+				// OldString: Weapons
+				// NewString: Weapons
+			}
+
+			2: {
+				// OldString: Fist Sub Class
+				// NewString: Fist Sub Class
+			}
+
+			3: {
+				// OldString: Normal ki Weapons and other weapons(details coming soon).
+				// NewString: Normal ki Weapons and other weapons(details coming soon).
+			}
+		}
+
+		FusionPage: {
+			1: {
+				// OldString: Fusion
+				// NewString: Fusion
+			}
+
+			2: {
+				// OldString: FusionPage
+				// NewString: FusionPage
+			}
+
+			3: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			4: {
+				// OldString: BetterDBT/NewContent/SoulBondingAmulet
+				// NewString: BetterDBT/NewContent/SoulBondingAmulet
+			}
+
+			5: {
+				// OldString: To obtain fusion, you'll need to kill all mech bosses,
+				// NewString: To obtain fusion, you'll need to kill all mech bosses,
+			}
+
+			6: {
+				// OldString: and then wait for 5 minutes for the items to spawn near the player.
+				// NewString: and then wait for 5 minutes for the items to spawn near the player.
+			}
+
+			7: {
+				// OldString: The fusion power stat starts out at 0% (maxing out at 50%),
+				// NewString: The fusion power stat starts out at 0% (maxing out at 50%),
+			}
+
+			8: {
+				// OldString: it'll increase by a small amount every second as long as the players are fused.
+				// NewString: it'll increase by a small amount every second as long as the players are fused.
+			}
+
+			9: {
+				// OldString: Fusion only lasts for 5 minutes and it has a cooldown of 15 minutes.
+				// NewString: Fusion only lasts for 5 minutes and it has a cooldown of 15 minutes.
+			}
+
+			10: {
+				// OldString: Fusion will break if the players are too far away from each other (50 blocks),
+				// NewString: Fusion will break if the players are too far away from each other (50 blocks),
+			}
+
+			11: {
+				// OldString: or if one player dies.
+				// NewString: or if one player dies.
+			}
+
+			12: {
+				// OldString: Fusion effects. defense, damage, hp, mana, flight time, aggro, attack speed, luck
+				// NewString: Fusion effects. defense, damage, hp, mana, flight time, aggro, attack speed, luck
+			}
+
+			13: {
+				// OldString: Check Controls for fusion UI
+				// NewString: Check Controls for fusion UI
+			}
+		}
+
+		BossRushPage: {
+			1: {
+				// OldString: Boss Rush
+				// NewString: Boss Rush
+			}
+
+			2: {
+				// OldString: BossRushPage
+				// NewString: BossRushPage
+			}
+
+			3: {
+				// OldString: Boss Rush is a post moonlord event that'll give you rewards depending on what you-
+				// NewString: Boss Rush is a post moonlord event that'll give you rewards depending on what you-
+			}
+
+			4: {
+				// OldString: -you do during the event
+				// NewString: -you do during the event
+			}
+
+			5: {
+				// OldString: Heres a list of the bosses in order
+				// NewString: Heres a list of the bosses in order
+			}
+
+			6: {
+				// OldString: QueenSlimeBoss
+				// NewString: QueenSlimeBoss
+			}
+
+			7: {
+				// OldString: Twins
+				// NewString: Twins
+			}
+
+			8: {
+				// OldString: SkeletronPrime
+				// NewString: SkeletronPrime
+			}
+
+			9: {
+				// OldString: TheDestroyer
+				// NewString: TheDestroyer
+			}
+
+			10: {
+				// OldString: Betsy
+				// NewString: Betsy
+			}
+
+			11: {
+				// OldString: Plantera
+				// NewString: Plantera
+			}
+
+			12: {
+				// OldString: Golem
+				// NewString: Golem
+			}
+
+			13: {
+				// OldString: DukeFishron
+				// NewString: DukeFishron
+			}
+
+			14: {
+				// OldString: Empress of Light
+				// NewString: Empress of Light
+			}
+
+			15: {
+				// OldString: Moon Lord
+				// NewString: Moon Lord
+			}
+
+			16: {
+				// OldString: Rewards
+				// NewString: Rewards
+			}
+		}
+
+		RewardsPage: {
+			1: {
+				// OldString: Rewards
+				// NewString: Rewards
+			}
+
+			2: {
+				// OldString: Ultra KI Crystal.
+				// NewString: Ultra KI Crystal.
+			}
+
+			3: {
+				// OldString: BetterDBT/NewContent/BossRush/items/UltraKI
+				// NewString: BetterDBT/NewContent/BossRush/items/UltraKI
+			}
+
+			4: {
+				// OldString: Signs of Ultra Instinct, No hit boss rush
+				// NewString: Signs of Ultra Instinct, No hit boss rush
+			}
+
+			5: {
+				// OldString: BetterDBT/NewContent/BossRush/items/Forms/SignsUI
+				// NewString: BetterDBT/NewContent/BossRush/items/Forms/SignsUI
+			}
+
+			6: {
+				// OldString: SSB Kaioken, Beat Boss rush with kaioken on for the whole time
+				// NewString: SSB Kaioken, Beat Boss rush with kaioken on for the whole time
+			}
+
+			7: {
+				// OldString: BetterDBT/NewContent/BossRush/items/Forms/BlueKaioken
+				// NewString: BetterDBT/NewContent/BossRush/items/Forms/BlueKaioken
+			}
+
+			8: {
+				// OldString: "SSB evolution, Beat without dying "
+				// NewString: "SSB evolution, Beat without dying "
+			}
+
+			9: {
+				// OldString: BetterDBT/NewContent/BossRush/items/Forms/SSBE
+				// NewString: BetterDBT/NewContent/BossRush/items/Forms/SSBE
+			}
+
+			10: {
+				// OldString: Wrathful, don't take more than 2k damage
+				// NewString: Wrathful, don't take more than 2k damage
+			}
+
+			11: {
+				// OldString: BetterDBT/NewContent/BossRush/items/Forms/Wrathful
+				// NewString: BetterDBT/NewContent/BossRush/items/Forms/Wrathful
+			}
+
+			12: {
+				// OldString: SSJR 2, SpeedRun Boss rush
+				// NewString: SSJR 2, SpeedRun Boss rush
+			}
+
+			13: {
+				// OldString: BetterDBT/NewContent/BossRush/items/Forms/BOL
+				// NewString: BetterDBT/NewContent/BossRush/items/Forms/BOL
+			}
+
+			14: {
+				// OldString: Check Controls for Forms UI
+				// NewString: Check Controls for Forms UI
+			}
+		}
+
+		ShowFistSubClassWeapons: {
+			1: {
+				// OldString: Fist Sub Class
+				// NewString: Fist Sub Class
+			}
+
+			2: {
+				// OldString: FistSubClassWeapons
+				// NewString: FistSubClassWeapons
+			}
+
+			3: {
+				// OldString: Basic Combo
+				// NewString: Basic Combo
+			}
+
+			4: {
+				// OldString: Kaioken Combo
+				// NewString: Kaioken Combo
+			}
+
+			5: {
+				// OldString: Star Fist
+				// NewString: Star Fist
+			}
+
+			6: {
+				// OldString: Blazing Gauntlet
+				// NewString: Blazing Gauntlet
+			}
+
+			7: {
+				// OldString: Mech Gauntlet
+				// NewString: Mech Gauntlet
+			}
+
+			8: {
+				// OldString: Thunder Fist
+				// NewString: Thunder Fist
+			}
+
+			9: {
+				// OldString: Dragon Gauntlet
+				// NewString: Dragon Gauntlet
+			}
+
+			10: {
+				// OldString: Radiant Gauntlet
+				// NewString: Radiant Gauntlet
+			}
+
+			11: {
+				// OldString: Legendary Fist
+				// NewString: Legendary Fist
+			}
+
+			12: {
+				// OldString: Ultra Combo
+				// NewString: Ultra Combo
+			}
+		}
+
+		ShowFistpage: {
+			1: {
+				// OldString: Fist Weapon_
+				// NewString: Fist Weapon_
+			}
+
+			2: {
+				// OldString: " "
+				// NewString: " "
+			}
+
+			3: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			4: {
+				// OldString: Basic Combo
+				// NewString: Basic Combo
+			}
+
+			5: {
+				// OldString: Ultra Combo
+				// NewString: Ultra Combo
+			}
+
+			6: {
+				// OldString: Kaioken Combo
+				// NewString: Kaioken Combo
+			}
+
+			7: {
+				// OldString: Mech Gauntlet
+				// NewString: Mech Gauntlet
+			}
+
+			8: {
+				// OldString: Star Fist
+				// NewString: Star Fist
+			}
+
+			9: {
+				// OldString: Blazing Gauntlet
+				// NewString: Blazing Gauntlet
+			}
+
+			10: {
+				// OldString: Radiant Gauntlet
+				// NewString: Radiant Gauntlet
+			}
+
+			11: {
+				// OldString: Thunder Fist
+				// NewString: Thunder Fist
+			}
+
+			12: {
+				// OldString: Dragon Gauntlet
+				// NewString: Dragon Gauntlet
+			}
+
+			13: {
+				// OldString: Legendary Fist
+				// NewString: Legendary Fist
+			}
+
+			14: {
+				// OldString: Name: Basic Combo
+				// NewString: Name: Basic Combo
+			}
+
+			15: {
+				// OldString: Type: Fist Weapon
+				// NewString: Type: Fist Weapon
+			}
+
+			16: {
+				// OldString: Base Damage: 22
+				// NewString: Base Damage: 22
+			}
+
+			17: {
+				// OldString: Velocity: 8
+				// NewString: Velocity: 8
+			}
+
+			18: {
+				// OldString: Use time: 14
+				// NewString: Use time: 14
+			}
+
+			19: {
+				// OldString: Ki Drain: 8
+				// NewString: Ki Drain: 8
+			}
+
+			20: {
+				// OldString: Crafting Items: 30 Stable KI Crystals
+				// NewString: Crafting Items: 30 Stable KI Crystals
+			}
+
+			21: {
+				// OldString: Crafting Tile: Z table
+				// NewString: Crafting Tile: Z table
+			}
+
+			22: {
+				// OldString: Special Attack: Basic Rush, Deals 3 times damage and
+				// NewString: Special Attack: Basic Rush, Deals 3 times damage and
+			}
+
+			23: {
+				// OldString: launches the player to the cursor
+				// NewString: launches the player to the cursor
+			}
+
+			24: {
+				// OldString: Name: Kaioken Combo
+				// NewString: Name: Kaioken Combo
+			}
+
+			25: {
+				// OldString: Base Damage: 28
+				// NewString: Base Damage: 28
+			}
+
+			26: {
+				// OldString: Velocity: 9
+				// NewString: Velocity: 9
+			}
+
+			27: {
+				// OldString: Ki Drain: 30
+				// NewString: Ki Drain: 30
+			}
+
+			28: {
+				// OldString: Crafting Items: 30 Stable KI Crystals, 12 Demonite/crimtane ore
+				// NewString: Crafting Items: 30 Stable KI Crystals, 12 Demonite/crimtane ore
+			}
+
+			29: {
+				// OldString: Special Attack: Kaioken Rush, Deals 3 times damage and
+				// NewString: Special Attack: Kaioken Rush, Deals 3 times damage and
+			}
+
+			30: {
+				// OldString: " launches the player to the cursor"
+				// NewString: " launches the player to the cursor"
+			}
+
+			31: {
+				// OldString: Name: Star Fist
+				// NewString: Name: Star Fist
+			}
+
+			32: {
+				// OldString: Base Damage: 35
+				// NewString: Base Damage: 35
+			}
+
+			33: {
+				// OldString: Velocity: 9.2
+				// NewString: Velocity: 9.2
+			}
+
+			34: {
+				// OldString: Use time: 12
+				// NewString: Use time: 12
+			}
+
+			35: {
+				// OldString: Ki Drain: 60
+				// NewString: Ki Drain: 60
+			}
+
+			36: {
+				// OldString: Crafting Items: 30 calm KI Crystals, 18 Astral Essentia
+				// NewString: Crafting Items: 30 calm KI Crystals, 18 Astral Essentia
+			}
+
+			37: {
+				// OldString: Special Attack: Star Counter, When hit while using this you'll
+				// NewString: Special Attack: Star Counter, When hit while using this you'll
+			}
+
+			38: {
+				// OldString: summon 6 stars from the sky that'll deal 60 damage
+				// NewString: summon 6 stars from the sky that'll deal 60 damage
+			}
+
+			39: {
+				// OldString: Name: Blazing Gauntlet
+				// NewString: Name: Blazing Gauntlet
+			}
+
+			40: {
+				// OldString: Base Damage: 70
+				// NewString: Base Damage: 70
+			}
+
+			41: {
+				// OldString: Ki Drain: 85
+				// NewString: Ki Drain: 85
+			}
+
+			42: {
+				// OldString: Crafting Items: 30 Prideful KI Crystals, 18 Hellstone bars
+				// NewString: Crafting Items: 30 Prideful KI Crystals, 18 Hellstone bars
+			}
+
+			43: {
+				// OldString: Special Attack: Fire shield, The flaming shield reflects projectiles that
+				// NewString: Special Attack: Fire shield, The flaming shield reflects projectiles that
+			}
+
+			44: {
+				// OldString: only deal 30% or lower of your hp back where they came from
+				// NewString: only deal 30% or lower of your hp back where they came from
+			}
+
+			45: {
+				// OldString: Name: Mech Gauntlet
+				// NewString: Name: Mech Gauntlet
+			}
+
+			46: {
+				// OldString: Base Damage: 90
+				// NewString: Base Damage: 90
+			}
+
+			47: {
+				// OldString: Velocity: 12
+				// NewString: Velocity: 12
+			}
+
+			48: {
+				// OldString: Use time: 9
+				// NewString: Use time: 9
+			}
+
+			49: {
+				// OldString: Ki Drain: 100
+				// NewString: Ki Drain: 100
+			}
+
+			50: {
+				// OldString: Crafting Items: 30 Angry KI Crystals, 5 Souls of Entity
+				// NewString: Crafting Items: 30 Angry KI Crystals, 5 Souls of Entity
+			}
+
+			51: {
+				// OldString: Special Attack: Right click attack: Mech Punch, Deals 2 times damage
+				// NewString: Special Attack: Right click attack: Mech Punch, Deals 2 times damage
+			}
+
+			52: {
+				// OldString: the red fist will summon laser beams on death in a random direction
+				// NewString: the red fist will summon laser beams on death in a random direction
+			}
+
+			53: {
+				// OldString: the green fist ignites enemies with cursed flame
+				// NewString: the green fist ignites enemies with cursed flame
+			}
+
+			54: {
+				// OldString: Name: Thunder Fist
+				// NewString: Name: Thunder Fist
+			}
+
+			55: {
+				// OldString: Base Damage: 65
+				// NewString: Base Damage: 65
+			}
+
+			56: {
+				// OldString: Velocity: 13.5
+				// NewString: Velocity: 13.5
+			}
+
+			57: {
+				// OldString: Use time: 8
+				// NewString: Use time: 8
+			}
+
+			58: {
+				// OldString: Ki Drain: 120
+				// NewString: Ki Drain: 120
+			}
+
+			59: {
+				// OldString: Crafting Items: 35 Pure KI Crystals
+				// NewString: Crafting Items: 35 Pure KI Crystals
+			}
+
+			60: {
+				// OldString: Special Attack: Right click attack: Lightning Throw, Deals 2 times damage
+				// NewString: Special Attack: Right click attack: Lightning Throw, Deals 2 times damage
+			}
+
+			61: {
+				// OldString: Name: Dragon Gauntlet
+				// NewString: Name: Dragon Gauntlet
+			}
+
+			62: {
+				// OldString: Base Damage: 120
+				// NewString: Base Damage: 120
+			}
+
+			63: {
+				// OldString: Velocity: 14.5
+				// NewString: Velocity: 14.5
+			}
+
+			64: {
+				// OldString: Use time: 11
+				// NewString: Use time: 11
+			}
+
+			65: {
+				// OldString: Ki Drain: 140
+				// NewString: Ki Drain: 140
+			}
+
+			66: {
+				// OldString: Crafting Items: 30 Pure KI Crystals, 12 Demonic Souls
+				// NewString: Crafting Items: 30 Pure KI Crystals, 12 Demonic Souls
+			}
+
+			67: {
+				// OldString: Crafting Tile: Kai table
+				// NewString: Crafting Tile: Kai table
+			}
+
+			68: {
+				// OldString: Special Attack: Dragon fist, summon a large dragon that'll
+				// NewString: Special Attack: Dragon fist, summon a large dragon that'll
+			}
+
+			69: {
+				// OldString: chase after enemies
+				// NewString: chase after enemies
+			}
+
+			70: {
+				// OldString: Name: Radiant Gauntlet
+				// NewString: Name: Radiant Gauntlet
+			}
+
+			71: {
+				// OldString: Base Damage: 180
+				// NewString: Base Damage: 180
+			}
+
+			72: {
+				// OldString: Velocity: 14
+				// NewString: Velocity: 14
+			}
+
+			73: {
+				// OldString: Ki Drain: 200
+				// NewString: Ki Drain: 200
+			}
+
+			74: {
+				// OldString: Crafting Items: 30 Radiant Fragments
+				// NewString: Crafting Items: 30 Radiant Fragments
+			}
+
+			75: {
+				// OldString: Crafting Tile: Ancient Manipulator
+				// NewString: Crafting Tile: Ancient Manipulator
+			}
+
+			76: {
+				// OldString: Special Attack: Radiant Charge, Deals 4 times damage and
+				// NewString: Special Attack: Radiant Charge, Deals 4 times damage and
+			}
+
+			77: {
+				// OldString: Name: Legendary Fist
+				// NewString: Name: Legendary Fist
+			}
+
+			78: {
+				// OldString: Base Damage: 200
+				// NewString: Base Damage: 200
+			}
+
+			79: {
+				// OldString: Velocity: 10
+				// NewString: Velocity: 10
+			}
+
+			80: {
+				// OldString: Ki Drain: 280
+				// NewString: Ki Drain: 280
+			}
+
+			81: {
+				// OldString: Crafting Items: 18 Radiant Fragments, 1 trap shooter
+				// NewString: Crafting Items: 18 Radiant Fragments, 1 trap shooter
+			}
+
+			82: {
+				// OldString: Special Attack: Legndary Crusher, Grabs a nearby enemy and.
+				// NewString: Special Attack: Legndary Crusher, Grabs a nearby enemy and.
+			}
+
+			83: {
+				// OldString: damages the enemy 5 times.
+				// NewString: damages the enemy 5 times.
+			}
+
+			84: {
+				// OldString: Name: Ultra Combo
+				// NewString: Name: Ultra Combo
+			}
+
+			85: {
+				// OldString: Base Damage: 230
+				// NewString: Base Damage: 230
+			}
+
+			86: {
+				// OldString: Velocity: 20
+				// NewString: Velocity: 20
+			}
+
+			87: {
+				// OldString: Use time: 10
+				// NewString: Use time: 10
+			}
+
+			88: {
+				// OldString: Crafting Items: 10 Ultra KI Crystals
+				// NewString: Crafting Items: 10 Ultra KI Crystals
+			}
+
+			89: {
+				// OldString: Crafting Tile: Kai Table
+				// NewString: Crafting Tile: Kai Table
+			}
+
+			90: {
+				// OldString: Special Attack: Ultra Rush, Teleports you to nearby enemies and
+				// NewString: Special Attack: Ultra Rush, Teleports you to nearby enemies and
+			}
+
+			91: {
+				// OldString: damages them
+				// NewString: damages them
+			}
+
+			92: {
+				// OldString: "Unknown weapon: "
+				// NewString: "Unknown weapon: "
+			}
+		}
+
+		ShowKIWeapons: {
+			1: {
+				// OldString: KI Weapons
+				// NewString: KI Weapons
+			}
+
+			2: {
+				// OldString: KIWeapons
+				// NewString: KIWeapons
+			}
+
+			3: {
+				// OldString: Burning Attack
+				// NewString: Burning Attack
+			}
+
+			4: {
+				// OldString: StarDust Fall
+				// NewString: StarDust Fall
+			}
+
+			5: {
+				// OldString: Ultra Kamehameha
+				// NewString: Ultra Kamehameha
+			}
+		}
+
+		ShowKIWeaponspage: {
+			1: {
+				// OldString: KI Weapon_
+				// NewString: KI Weapon_
+			}
+
+			2: {
+				// OldString: " "
+				// NewString: " "
+			}
+
+			3: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			4: {
+				// OldString: Burning Attack
+				// NewString: Burning Attack
+			}
+
+			5: {
+				// OldString: StarDust Fall
+				// NewString: StarDust Fall
+			}
+
+			6: {
+				// OldString: Ultra Kamehameha
+				// NewString: Ultra Kamehameha
+			}
+
+			7: {
+				// OldString: Name: Burning Attack
+				// NewString: Name: Burning Attack
+			}
+
+			8: {
+				// OldString: Type: Charging KI Blast
+				// NewString: Type: Charging KI Blast
+			}
+
+			9: {
+				// OldString: Base Damage: ???
+				// NewString: Base Damage: ???
+			}
+
+			10: {
+				// OldString: Crafting: ???
+				// NewString: Crafting: ???
+			}
+
+			11: {
+				// OldString: Ki Drain: ???
+				// NewString: Ki Drain: ???
+			}
+
+			12: {
+				// OldString: Special Effect: ???
+				// NewString: Special Effect: ???
+			}
+
+			13: {
+				// OldString: Extra info: ???
+				// NewString: Extra info: ???
+			}
+
+			14: {
+				// OldString: Name: StarDust Fall
+				// NewString: Name: StarDust Fall
+			}
+
+			15: {
+				// OldString: Type: KI Blast
+				// NewString: Type: KI Blast
+			}
+
+			16: {
+				// OldString: Name: Ultra Kamehameha
+				// NewString: Name: Ultra Kamehameha
+			}
+
+			17: {
+				// OldString: Type: Beam
+				// NewString: Type: Beam
+			}
+
+			18: {
+				// OldString: "Unknown weapon: "
+				// NewString: "Unknown weapon: "
+			}
+		}
+
+		ShowOtherWeapons: {
+			1: {
+				// OldString: Other Weapons
+				// NewString: Other Weapons
+			}
+
+			2: {
+				// OldString: OtherWeapons
+				// NewString: OtherWeapons
+			}
+
+			3: {
+				// OldString: Sword of Hope
+				// NewString: Sword of Hope
+			}
+
+			4: {
+				// OldString: Wave of Stars
+				// NewString: Wave of Stars
+			}
+
+			5: {
+				// OldString: Cosmic KI Sprayer
+				// NewString: Cosmic KI Sprayer
+			}
+		}
+
+		ShowOtherWeaponspage: {
+			1: {
+				// OldString: Other Weapon_
+				// NewString: Other Weapon_
+			}
+
+			2: {
+				// OldString: " "
+				// NewString: " "
+			}
+
+			3: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			4: {
+				// OldString: Sword of Hope
+				// NewString: Sword of Hope
+			}
+
+			5: {
+				// OldString: Wave of Stars
+				// NewString: Wave of Stars
+			}
+
+			6: {
+				// OldString: Cosmic KI Sprayer
+				// NewString: Cosmic KI Sprayer
+			}
+
+			7: {
+				// OldString: Name: Sword of Hope
+				// NewString: Name: Sword of Hope
+			}
+
+			8: {
+				// OldString: Type: Melee Sword
+				// NewString: Type: Melee Sword
+			}
+
+			9: {
+				// OldString: Base Damage: ???
+				// NewString: Base Damage: ???
+			}
+
+			10: {
+				// OldString: Crafting: ???
+				// NewString: Crafting: ???
+			}
+
+			11: {
+				// OldString: Ki Drain: ???
+				// NewString: Ki Drain: ???
+			}
+
+			12: {
+				// OldString: Special Effect: ???
+				// NewString: Special Effect: ???
+			}
+
+			13: {
+				// OldString: Extra info: ???
+				// NewString: Extra info: ???
+			}
+
+			14: {
+				// OldString: Name: Wave of Stars
+				// NewString: Name: Wave of Stars
+			}
+
+			15: {
+				// OldString: Type: Summon Whip
+				// NewString: Type: Summon Whip
+			}
+
+			16: {
+				// OldString: Name: Cosmic KI Sprayer
+				// NewString: Name: Cosmic KI Sprayer
+			}
+
+			17: {
+				// OldString: Type: Ranger Flamethrower
+				// NewString: Type: Ranger Flamethrower
+			}
+
+			18: {
+				// OldString: "Unknown weapon: "
+				// NewString: "Unknown weapon: "
+			}
+		}
+
+		ChangeNotes: {
+			1: {
+				// OldString: Update Notes
+				// NewString: Update Notes
+			}
+
+			2: {
+				// OldString: UpdatePage
+				// NewString: UpdatePage
+			}
+
+			3: {
+				// OldString: "2.0"
+				// NewString: "2.0"
+			}
+
+			4: {
+				// OldString: 2.0.1+2.0.2
+				// NewString: 2.0.1+2.0.2
+			}
+
+			5: {
+				// OldString: 2.0.3
+				// NewString: 2.0.3
+			}
+
+			6: {
+				// OldString: 2.0.4
+				// NewString: 2.0.4
+			}
+
+			7: {
+				// OldString: 2.0.5
+				// NewString: 2.0.5
+			}
+		}
+
+		Updates: {
+			1: {
+				// OldString: Update_
+				// NewString: Update_
+			}
+
+			2: {
+				// OldString: " "
+				// NewString: " "
+			}
+
+			3: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			4: {
+				// OldString: "2.0"
+				// NewString: "2.0"
+			}
+
+			5: {
+				// OldString: 2.0.1 + 2.0.2
+				// NewString: 2.0.1 + 2.0.2
+			}
+
+			6: {
+				// OldString: 2.0.3
+				// NewString: 2.0.3
+			}
+
+			7: {
+				// OldString: 2.0.4
+				// NewString: 2.0.4
+			}
+
+			8: {
+				// OldString: 2.0.5
+				// NewString: 2.0.5
+			}
+
+			9: {
+				// OldString: Added ultra ki tier.
+				// NewString: Added ultra ki tier.
+			}
+
+			10: {
+				// OldString: 5 new weapons.
+				// NewString: 5 new weapons.
+			}
+
+			11: {
+				// OldString: 3 new Perma Upgrades.
+				// NewString: 3 new Perma Upgrades.
+			}
+
+			12: {
+				// OldString: 6 new forms.
+				// NewString: 6 new forms.
+			}
+
+			13: {
+				// OldString: Goku should work better in servers now
+				// NewString: Goku should work better in servers now
+			}
+
+			14: {
+				// OldString: updated some ui stuff.
+				// NewString: updated some ui stuff.
+			}
+
+			15: {
+				// OldString: added new config settings.
+				// NewString: added new config settings.
+			}
+
+			16: {
+				// OldString: added wiki book.
+				// NewString: added wiki book.
+			}
+
+			17: {
+				// OldString: Added Boss rush mode.
+				// NewString: Added Boss rush mode.
+			}
+
+			18: {
+				// OldString: 2.0.1
+				// NewString: 2.0.1
+			}
+
+			19: {
+				// OldString: Fixed wiki book, it crashed if put into the magic storage.
+				// NewString: Fixed wiki book, it crashed if put into the magic storage.
+			}
+
+			20: {
+				// OldString: 2.0.2
+				// NewString: 2.0.2
+			}
+
+			21: {
+				// OldString: Updated wiki book.
+				// NewString: Updated wiki book.
+			}
+
+			22: {
+				// OldString: Added weapons page with all fist type weapons.
+				// NewString: Added weapons page with all fist type weapons.
+			}
+
+			23: {
+				// OldString: The back button no longer puts you at the main page, it takes you back by a page now.
+				// NewString: The back button no longer puts you at the main page, it takes you back by a page now.
+			}
+
+			24: {
+				// OldString: Added config page and update page.
+				// NewString: Added config page and update page.
+			}
+
+			25: {
+				// OldString: Added flight trails.
+				// NewString: Added flight trails.
+			}
+
+			26: {
+				// OldString: Fixed ultra ki fragment, it doesn't break the ki stat anymore
+				// NewString: Fixed ultra ki fragment, it doesn't break the ki stat anymore
+			}
+
+			27: {
+				// OldString: Fixed Custom KI blast, it can no longer give stats to other items
+				// NewString: Fixed Custom KI blast, it can no longer give stats to other items
+			}
+
+			28: {
+				// OldString: Added form nerfs
+				// NewString: Added form nerfs
+			}
+
+			29: {
+				// OldString: Updated Trails.
+				// NewString: Updated Trails.
+			}
+
+			30: {
+				// OldString: Added Ultra Mage weapon for the ultra ki tier.
+				// NewString: Added Ultra Mage weapon for the ultra ki tier.
+			}
+
+			31: {
+				// OldString: Added Giant Sphere Type, Ki Disc Type.
+				// NewString: Added Giant Sphere Type, Ki Disc Type.
+			}
+
+			32: {
+				// OldString: Added Ultra Color to custom ki blast.
+				// NewString: Added Ultra Color to custom ki blast.
+			}
+
+			33: {
+				// OldString: Fixed ultra weapons prices.
+				// NewString: Fixed ultra weapons prices.
+			}
+
+			34: {
+				// OldString: Life steal nerfed, it heals less the higher attack speed you have.
+				// NewString: Life steal nerfed, it heals less the higher attack speed you have.
+			}
+
+			35: {
+				// OldString: Changed Bounce and phase to secondary effects.
+				// NewString: Changed Bounce and phase to secondary effects.
+			}
+
+			36: {
+				// OldString: bossrush should work on servers now.
+				// NewString: bossrush should work on servers now.
+			}
+
+			37: {
+				// OldString: Removed Bossrush command.
+				// NewString: Removed Bossrush command.
+			}
+
+			38: {
+				// OldString: Added Close book Button.
+				// NewString: Added Close book Button.
+			}
+
+			39: {
+				// OldString: Fixed Cosmic Charm recipe.
+				// NewString: Fixed Cosmic Charm recipe.
+			}
+
+			40: {
+				// OldString: Added SSJ Rage.
+				// NewString: Added SSJ Rage.
+			}
+
+			41: {
+				// OldString: Added some cool effects to ultra kamehameha.
+				// NewString: Added some cool effects to ultra kamehameha.
+			}
+
+			42: {
+				// OldString: "Unknown weapon: "
+				// NewString: "Unknown weapon: "
+			}
+		}
+
+		<OnInitialize>b__6_0: {
+			1: {
+				// OldString: Fist Weapon_
+				// NewString: Fist Weapon_
+			}
+
+			2: {
+				// OldString: Update_
+				// NewString: Update_
+			}
+
+			3: {
+				// OldString: FistSubClassWeapons
+				// NewString: FistSubClassWeapons
+			}
+
+			4: {
+				// OldString: FusionPage
+				// NewString: FusionPage
+			}
+
+			5: {
+				// OldString: BossRushPage
+				// NewString: BossRushPage
+			}
+
+			6: {
+				// OldString: Weapons
+				// NewString: Weapons
+			}
+		}
+	}
+
+	WikiUISystem: {
+		ModifyInterfaceLayers: {
+			1: {
+				// OldString: BetterDBT: Wiki UI
+				// NewString: BetterDBT: Wiki UI
+			}
+		}
+	}
+
+	SyncPlayer: {
+		OnEnterWorld: {
+			1: {
+				// OldString: Dragon Ball Terraria Better Projectile Visuals: if you want to use the fists subclass and fusion and have Goku spawn in, go to the config and enable extra content. (you can disable this message in the config)
+				NewString:
+					'''
+					Dragon Ball Terraria Better Projectile Visuals： 
+					如果你想使用拳套副职业和融合系统，并让悟空出现，请在配置选项中启用额外内容
+					（你可以在配置中禁用此消息）
+					'''
+			}
+
+			2: {
+				// OldString: The new changes to goku has made him very buggy on servers, I'll try to make him work on servers asap
+				NewString: 对悟空的新改动让他在服务器上变得非常容易出bug，我会尽快让他能在服务器上正常工作
+			}
+		}
+
+		PreUpdate: {
+			1: {
+				// OldString: " died due to Fusion Breaking"
+				NewString: 死于融合破裂
+			}
+		}
+	}
+
+	SoulBondingAmulet: {
+		SetDefaults: {
+			1: {
+				// OldString: unused
+				// NewString: unused
+			}
+		}
+
+		PreDrawInWorld: {
+			1: {
+				// OldString: BetterDBT/Textures/ShineFlare
+				// NewString: BetterDBT/Textures/ShineFlare
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+		}
+
+		PostDrawInInventory: {
+			1: {
+				// OldString: BetterDBT/Textures/ShineFlare
+				// NewString: BetterDBT/Textures/ShineFlare
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+		}
+	}
+
+	ItemCheckerSystem: {
+		PostUpdateWorld: {
+			1: {
+				// OldString: You have to many fusion items!
+				NewString: 你的融合物品太多了！
+			}
+		}
+	}
+
+	FusionNameUIState: {
+		OnInitialize: {
+			1: {
+				// OldString: Fusion Boost: +0%
+				NewString: 融合加成： +0%
+			}
+
+			2: {
+				// OldString: <
+				// NewString: <
+			}
+
+			3: {
+				// OldString: >
+				// NewString: >
+			}
+
+			4: {
+				// OldString: Close
+				// NewString: Close
+			}
+		}
+
+		Update: {
+			1: {
+				// OldString: Fusion Boost: +
+				// NewString: Fusion Boost: +
+			}
+
+			2: {
+				// OldString: "0.0"
+				// NewString: "0.0"
+			}
+
+			3: {
+				// OldString: %
+				// NewString: %
+			}
+		}
+
+		GetDustLabel: {
+			1: {
+				// OldString: "Dust Effect: "
+				// NewString: "Dust Effect: "
+			}
+		}
+
+		GetDustID: {
+			1: {
+				// OldString: Magic
+				// NewString: Magic
+			}
+
+			2: {
+				// OldString: Terra
+				// NewString: Terra
+			}
+
+			3: {
+				// OldString: Smoke
+				// NewString: Smoke
+			}
+
+			4: {
+				// OldString: water
+				// NewString: water
+			}
+
+			5: {
+				// OldString: Frost
+				// NewString: Frost
+			}
+
+			6: {
+				// OldString: Fire
+				// NewString: Fire
+			}
+
+			7: {
+				// OldString: Rune
+				// NewString: Rune
+			}
+
+			8: {
+				// OldString: Snow
+				// NewString: Snow
+			}
+
+			9: {
+				// OldString: Shadow Flame
+				// NewString: Shadow Flame
+			}
+
+			10: {
+				// OldString: Ultra Bright
+				// NewString: Ultra Bright
+			}
+
+			11: {
+				// OldString: Firework Red
+				// NewString: Firework Red
+			}
+
+			12: {
+				// OldString: Crystal
+				// NewString: Crystal
+			}
+
+			13: {
+				// OldString: Shimmer
+				// NewString: Shimmer
+			}
+
+			14: {
+				// OldString: Diamond
+				// NewString: Diamond
+			}
+
+			15: {
+				// OldString: Gold Coin
+				// NewString: Gold Coin
+			}
+
+			16: {
+				// OldString: Lightning
+				// NewString: Lightning
+			}
+
+			17: {
+				// OldString: Cursed
+				// NewString: Cursed
+			}
+
+			18: {
+				// OldString: Dungeon Spirit
+				// NewString: Dungeon Spirit
+			}
+
+			19: {
+				// OldString: Enchanted Gold
+				// NewString: Enchanted Gold
+			}
+
+			20: {
+				// OldString: The Destroyer
+				// NewString: The Destroyer
+			}
+
+			21: {
+				// OldString: Life Drain
+				// NewString: Life Drain
+			}
+		}
+	}
+
+	FusionNameSystem: {
+		ModifyInterfaceLayers: {
+			1: {
+				// OldString: Fusion Name UI
+				// NewString: Fusion Name UI
+			}
+		}
+	}
+
+	GolemStarSystem: {
+		SaveWorldData: {
+			1: {
+				// OldString: starEventTriggered
+				// NewString: starEventTriggered
+			}
+		}
+
+		LoadWorldData: {
+			1: {
+				// OldString: starEventTriggered
+				// NewString: starEventTriggered
+			}
+		}
+	}
+
+	GolemStarProjectile: {
+		get_Texture: {
+			1: {
+				// OldString: BetterDBT/Textures/LightTrail_1
+				// NewString: BetterDBT/Textures/LightTrail_1
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: BetterDBT/Textures/Gloworb
+				// NewString: BetterDBT/Textures/Gloworb
+			}
+
+			2: {
+				// OldString: BetterDBT/Textures/GlowShine
+				// NewString: BetterDBT/Textures/GlowShine
+			}
+		}
+	}
+
+	DistanceUI: {
+		OnInitialize: {
+			1: {
+				// OldString: ""
+				// NewString: ""
+			}
+		}
+
+		Draw: {
+			1: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			2: {
+				// OldString: "Distance: "
+				// NewString: "Distance: "
+			}
+
+			3: {
+				// OldString: " tiles"
+				// NewString: " tiles"
+			}
+		}
+	}
+
+	DistanceUISystem: {
+		ModifyInterfaceLayers: {
+			1: {
+				// OldString: SoulBondingAmulet Distance UI
+				// NewString: SoulBondingAmulet Distance UI
+			}
+		}
+	}
+
+	weapons: {
+		NKA: {
+			StarDustFall: {
+				StardustFall: {
+					SetDefaults: {
+						1: {
+							// OldString: Blast
+							// NewString: Blast
+						}
+					}
+				}
+
+				StarDustFallProj: {
+					PreDraw: {
+						1: {
+							// OldString: BetterDBT/Textures/Gloworb
+							// NewString: BetterDBT/Textures/Gloworb
+						}
+
+						2: {
+							// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+							// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+						}
+					}
+				}
+			}
+
+			HDSG: {
+				StatEditorUIState: {
+					OnInitialize: {
+						1: {
+							// OldString: "Points: "
+							NewString: "点数： "
+						}
+
+						2: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/AttackIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/AttackIcon
+						}
+
+						3: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/AttackSpeedIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/AttackSpeedIcon
+						}
+
+						4: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/CritIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/CritIcon
+						}
+
+						5: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/ShootSpeedIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/ShootSpeedIcon
+						}
+
+						6: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastIcon
+						}
+
+						7: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastEXIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastEXIcon
+						}
+
+						8: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastPenIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastPenIcon
+						}
+
+						9: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastHomingIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastHomingIcon
+						}
+
+						10: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastMuitIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastMuitIcon
+						}
+
+						11: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastLargeIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastLargeIcon
+						}
+
+						12: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastDiscIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KIBlastDiscIcon
+						}
+
+						13: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastOrbit
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastOrbit
+						}
+
+						14: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastReturn
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastReturn
+						}
+
+						15: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastLockon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastLockon
+						}
+
+						16: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/NoneIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/NoneIcon
+						}
+
+						17: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/HitRegenIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/HitRegenIcon
+						}
+
+						18: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/HitKIIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/HitKIIcon
+						}
+
+						19: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/HitDamageIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/HitDamageIcon
+						}
+
+						20: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/HitDefIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/HitDefIcon
+						}
+
+						21: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastBounceIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastBounceIcon
+						}
+
+						22: {
+							// OldString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastPhaseIcon
+							// NewString: BetterDBT/NewContent/weapons/NKA/HDSG/KiBlastPhaseIcon
+						}
+
+						23: {
+							// OldString: Terraria/Images/UI/PanelBackground
+							// NewString: Terraria/Images/UI/PanelBackground
+						}
+
+						24: {
+							// OldString: Terraria/Images/UI/ButtonDelete
+							// NewString: Terraria/Images/UI/ButtonDelete
+						}
+
+						25: {
+							// OldString: Close
+							// NewString: Close
+						}
+
+						26: {
+							// OldString: Terraria/Images/UI/ButtonPlay
+							// NewString: Terraria/Images/UI/ButtonPlay
+						}
+
+						27: {
+							// OldString: Apply
+							// NewString: Apply
+						}
+					}
+
+					AllocatePoint: {
+						1: {
+							// OldString: "Points: "
+							// NewString: "Points: "
+						}
+					}
+				}
+
+				StatEditorUISystem: {
+					ModifyInterfaceLayers: {
+						1: {
+							// OldString: Stat Editor UI
+							// NewString: Stat Editor UI
+						}
+					}
+				}
+
+				ColorStorageGlobalItem: {
+					SaveData: {
+						1: {
+							// OldString: colorIndex
+							// NewString: colorIndex
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: colorIndex
+							// NewString: colorIndex
+						}
+					}
+				}
+
+				AIStyleStorageItem: {
+					SaveData: {
+						1: {
+							// OldString: aiMode
+							// NewString: aiMode
+						}
+
+						2: {
+							// OldString: ai1Mode
+							// NewString: ai1Mode
+						}
+
+						3: {
+							// OldString: bonusDamage
+							// NewString: bonusDamage
+						}
+
+						4: {
+							// OldString: bonusSpeed
+							// NewString: bonusSpeed
+						}
+
+						5: {
+							// OldString: bonusCritChance
+							// NewString: bonusCritChance
+						}
+
+						6: {
+							// OldString: bonusShootSpeed
+							// NewString: bonusShootSpeed
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: aiMode
+							// NewString: aiMode
+						}
+
+						2: {
+							// OldString: ai1Mode
+							// NewString: ai1Mode
+						}
+
+						3: {
+							// OldString: bonusDamage
+							// NewString: bonusDamage
+						}
+
+						4: {
+							// OldString: bonusSpeed
+							// NewString: bonusSpeed
+						}
+
+						5: {
+							// OldString: bonusCritChance
+							// NewString: bonusCritChance
+						}
+
+						6: {
+							// OldString: bonusShootSpeed
+							// NewString: bonusShootSpeed
+						}
+					}
+				}
+
+				MultiModeProjectile: {
+					PreDraw: {
+						1: {
+							// OldString: BetterDBT/Textures/DiscTypeProj
+							// NewString: BetterDBT/Textures/DiscTypeProj
+						}
+
+						2: {
+							// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+							// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+						}
+
+						3: {
+							// OldString: BetterDBT/Textures/Gloworb
+							// NewString: BetterDBT/Textures/Gloworb
+						}
+					}
+				}
+
+				BlastKI: {
+					get_CustomTexture: {
+						1: {
+							// OldString: BetterDBT/Textures/Gloworb
+							// NewString: BetterDBT/Textures/Gloworb
+						}
+					}
+
+					PreDraw: {
+						1: {
+							// OldString: BetterDBT/Textures/Gloworb
+							// NewString: BetterDBT/Textures/Gloworb
+						}
+					}
+				}
+
+				StatEditorUISystem+<>c: {
+					<ModifyInterfaceLayers>b__6_0: {
+						1: {
+							// OldString: Vanilla: Mouse Text
+							// NewString: Vanilla: Mouse Text
+						}
+					}
+				}
+			}
+
+			BurningAttack: {
+				BurningAttack: {
+					SetDefaults: {
+						1: {
+							// OldString: Blast
+							// NewString: Blast
+						}
+					}
+				}
+
+				BurningAttackProj: {
+					OnKill: {
+						1: {
+							// OldString: ""
+							// NewString: ""
+						}
+					}
+
+					PreDraw: {
+						1: {
+							// OldString: BetterDBT/Textures/Gloworb
+							// NewString: BetterDBT/Textures/Gloworb
+						}
+
+						2: {
+							// OldString: BetterDBT/Textures/GlowShine
+							// NewString: BetterDBT/Textures/GlowShine
+						}
+
+						3: {
+							// OldString: BetterDBT/Textures/SmallGreyscaleCircle
+							// NewString: BetterDBT/Textures/SmallGreyscaleCircle
+						}
+					}
+				}
+			}
+		}
+
+		StarFallCombo: {
+			StarFallItem: {
+				SetDefaults: {
+					1: {
+						// OldString: Blast
+						// NewString: Blast
+					}
+
+					2: {
+						// OldString: unused
+						// NewString: unused
+					}
+				}
+			}
+
+			StarFallFistProj: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/GlowShine
+						// NewString: BetterDBT/Textures/GlowShine
+					}
+
+					2: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+
+					3: {
+						// OldString: BetterDBT/Textures/LightTrail_1
+						// NewString: BetterDBT/Textures/LightTrail_1
+					}
+				}
+			}
+
+			StarFallShieldProjectile: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/GlowShine
+						// NewString: BetterDBT/Textures/GlowShine
+					}
+
+					2: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+		}
+
+		RadCombo: {
+			RadiantFistProj: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+
+			RadiantShieldProjectile: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/Blast
+						// NewString: BetterDBT/Textures/Blast
+					}
+				}
+			}
+
+			RadiantGauntletItem: {
+				SetDefaults: {
+					1: {
+						// OldString: Blast
+						// NewString: Blast
+					}
+
+					2: {
+						// OldString: unused
+						// NewString: unused
+					}
+				}
+			}
+		}
+
+		MechanicalFist: {
+			MechFistProj: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/NewContent/weapons/MechanicalFist/MechFistProjRed
+						// NewString: BetterDBT/NewContent/weapons/MechanicalFist/MechFistProjRed
+					}
+
+					2: {
+						// OldString: BetterDBT/NewContent/weapons/MechanicalFist/MechFistProj
+						// NewString: BetterDBT/NewContent/weapons/MechanicalFist/MechFistProj
+					}
+
+					3: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+
+			MegaMechFistProj: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/NewContent/weapons/MechanicalFist/MechFistProjRed
+						// NewString: BetterDBT/NewContent/weapons/MechanicalFist/MechFistProjRed
+					}
+
+					2: {
+						// OldString: BetterDBT/NewContent/weapons/MechanicalFist/MechFistProj
+						// NewString: BetterDBT/NewContent/weapons/MechanicalFist/MechFistProj
+					}
+
+					3: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+
+			retLaser: {
+				get_Texture: {
+					1: {
+						// OldString: Terraria/Images/Projectile_100
+						// NewString: Terraria/Images/Projectile_100
+					}
+				}
+			}
+
+			MechGauntletItem: {
+				SetDefaults: {
+					1: {
+						// OldString: Blast
+						// NewString: Blast
+					}
+
+					2: {
+						// OldString: unused
+						// NewString: unused
+					}
+				}
+			}
+		}
+
+		LightingFist: {
+			ThunderFist: {
+				SetDefaults: {
+					1: {
+						// OldString: Blast
+						// NewString: Blast
+					}
+
+					2: {
+						// OldString: unused
+						// NewString: unused
+					}
+				}
+			}
+
+			ThunderFistProj: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+		}
+
+		KaiokenCombo: {
+			KaiokenComboItem: {
+				SetDefaults: {
+					1: {
+						// OldString: Blast
+						// NewString: Blast
+					}
+
+					2: {
+						// OldString: unused
+						// NewString: unused
+					}
+				}
+			}
+
+			KaiokenFistProj: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+
+			KaiokenShieldProjectile: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/Blast
+						// NewString: BetterDBT/Textures/Blast
+					}
+				}
+			}
+		}
+
+		FlamingFist: {
+			BlazingGauntlet: {
+				SetDefaults: {
+					1: {
+						// OldString: Blast
+						// NewString: Blast
+					}
+
+					2: {
+						// OldString: unused
+						// NewString: unused
+					}
+				}
+			}
+
+			BlazingGauntletProj: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+		}
+
+		DragonCombo: {
+			DragonGauntlet: {
+				SetDefaults: {
+					1: {
+						// OldString: Blast
+						// NewString: Blast
+					}
+
+					2: {
+						// OldString: unused
+						// NewString: unused
+					}
+				}
+			}
+
+			DragonGauntletProj: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+		}
+
+		BrolyCombo: {
+			LegendaryFist: {
+				SetDefaults: {
+					1: {
+						// OldString: Blast
+						// NewString: Blast
+					}
+
+					2: {
+						// OldString: unused
+						// NewString: unused
+					}
+				}
+			}
+
+			LegendaryProj: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+		}
+
+		BasicCombo: {
+			MeteorCombo: {
+				SetDefaults: {
+					1: {
+						// OldString: Blast
+						// NewString: Blast
+					}
+
+					2: {
+						// OldString: unused
+						// NewString: unused
+					}
+				}
+			}
+
+			MeteorFistProj: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+
+			MeteorShieldProjectile: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+		}
+	}
+
+	WeaponReworks: {
+		TrunksReworkSword: {
+			SetDefaults: {
+				1: {
+					// OldString: DBZMODPORT/Sounds/SwordSlash
+					// NewString: DBZMODPORT/Sounds/SwordSlash
+				}
+			}
+		}
+	}
+
+	SonGoku: {
+		Blast: {
+			get_Texture: {
+				1: {
+					// OldString: BetterDBT/Textures/Blast
+					// NewString: BetterDBT/Textures/Blast
+				}
+			}
+		}
+
+		Goku: {
+			EnterForm: {
+				1: {
+					// OldString: BetterDBT/NewContent/SonGoku/Goku
+					// NewString: BetterDBT/NewContent/SonGoku/Goku
+				}
+
+				2: {
+					// OldString: BetterDBT/NewContent/SonGoku/GokuSsj
+					// NewString: BetterDBT/NewContent/SonGoku/GokuSsj
+				}
+
+				3: {
+					// OldString: BetterDBT/NewContent/SonGoku/GokuSSB
+					// NewString: BetterDBT/NewContent/SonGoku/GokuSSB
+				}
+
+				4: {
+					// OldString: BetterDBT/NewContent/SonGoku/GokuGod
+					// NewString: BetterDBT/NewContent/SonGoku/GokuGod
+				}
+
+				5: {
+					// OldString: BetterDBT/NewContent/SonGoku/GokuMui
+					// NewString: BetterDBT/NewContent/SonGoku/GokuMui
+				}
+
+				6: {
+					// OldString: ""
+					// NewString: ""
+				}
+
+				7: {
+					// OldString: This is a Super Saiyan
+					// NewString: This is a Super Saiyan
+				}
+
+				8: {
+					// OldString: Now we're getting serious
+					// NewString: Now we're getting serious
+				}
+
+				9: {
+					// OldString: I'm gonna slap some sense into you!
+					// NewString: I'm gonna slap some sense into you!
+				}
+
+				10: {
+					// OldString: Now this... is Super Saiyan Blue.
+					// NewString: Now this... is Super Saiyan Blue.
+				}
+
+				11: {
+					// OldString: You heartless bastard!
+					// NewString: You heartless bastard!
+				}
+
+				12: {
+					// OldString: This is Super Saiyan God.
+					// NewString: This is Super Saiyan God.
+				}
+
+				13: {
+					// OldString: Here we go!
+					// NewString: Here we go!
+				}
+
+				14: {
+					// OldString: This is Ultra Instinct.
+					// NewString: This is Ultra Instinct.
+				}
+
+				15: {
+					// OldString: I’ve entered a new realm of power.
+					// NewString: I’ve entered a new realm of power.
+				}
+
+				16: {
+					// OldString: I won't let anyone hurt my friends!
+					// NewString: I won't let anyone hurt my friends!
+				}
+
+				17: {
+					// OldString: "Goku: "
+					// NewString: "Goku: "
+				}
+			}
+
+			AI: {
+				1: {
+					// OldString: BetterDBT/NewContent/SonGoku/Goku
+					// NewString: BetterDBT/NewContent/SonGoku/Goku
+				}
+
+				2: {
+					// OldString: BetterDBT/NewContent/SonGoku/GokuSsj
+					// NewString: BetterDBT/NewContent/SonGoku/GokuSsj
+				}
+
+				3: {
+					// OldString: BetterDBT/NewContent/SonGoku/GokuSSB
+					// NewString: BetterDBT/NewContent/SonGoku/GokuSSB
+				}
+
+				4: {
+					// OldString: BetterDBT/NewContent/SonGoku/GokuGod
+					// NewString: BetterDBT/NewContent/SonGoku/GokuGod
+				}
+
+				5: {
+					// OldString: BetterDBT/NewContent/SonGoku/GokuMui
+					// NewString: BetterDBT/NewContent/SonGoku/GokuMui
+				}
+
+				6: {
+					// OldString: ""
+					// NewString: ""
+				}
+
+				7: {
+					// OldString: Nice, I got some new senzu beans!
+					// NewString: Nice, I got some new senzu beans!
+				}
+
+				8: {
+					// OldString: I found some senzu beans on the floor!
+					// NewString: I found some senzu beans on the floor!
+				}
+
+				9: {
+					// OldString: Senzu beans? Sweet!
+					// NewString: Senzu beans? Sweet!
+				}
+
+				10: {
+					// OldString: "Goku: "
+					// NewString: "Goku: "
+				}
+
+				11: {
+					// OldString: +
+					// NewString: +
+				}
+
+				12: {
+					// OldString: I'm lucky that I have this senzu bean!
+					// NewString: I'm lucky that I have this senzu bean!
+				}
+
+				13: {
+					// OldString: Time to use a senzu bean!
+					// NewString: Time to use a senzu bean!
+				}
+
+				14: {
+					// OldString: A senzu bean! Just what I needed!
+					// NewString: A senzu bean! Just what I needed!
+				}
+			}
+
+			FormAI: {
+				1: {
+					// OldString: Goku: Ka...
+					// NewString: Goku: Ka...
+				}
+
+				2: {
+					// OldString: Goku: Me...
+					// NewString: Goku: Me...
+				}
+
+				3: {
+					// OldString: Goku: Ha...
+					// NewString: Goku: Ha...
+				}
+
+				4: {
+					// OldString: Goku: HAAAA!!
+					// NewString: Goku: HAAAA!!
+				}
+
+				5: {
+					// OldString: DRAGON FIST!
+					// NewString: DRAGON FIST!
+				}
+
+				6: {
+					// OldString: Goku: DRAGON FIST
+					// NewString: Goku: DRAGON FIST
+				}
+			}
+
+			EnterKaioken: {
+				1: {
+					// OldString: DBZMODPORT/Sounds/KaioAuraStart
+					// NewString: DBZMODPORT/Sounds/KaioAuraStart
+				}
+
+				2: {
+					// OldString: KAIOKEN!
+					// NewString: KAIOKEN!
+				}
+
+				3: {
+					// OldString: Goku: KAIOKEN!
+					// NewString: Goku: KAIOKEN!
+				}
+			}
+
+			ModifyHitByProjectile: {
+				1: {
+					// OldString: You're going to have to better than that!
+					// NewString: You're going to have to better than that!
+				}
+
+				2: {
+					// OldString: Is that all you got?
+					// NewString: Is that all you got?
+				}
+
+				3: {
+					// OldString: I know you can hit harder than that
+					// NewString: I know you can hit harder than that
+				}
+
+				4: {
+					// OldString: Heh, that tickled.
+					// NewString: Heh, that tickled.
+				}
+			}
+
+			SetChatButtons: {
+				1: {
+					// OldString: Want to fight someone strong?
+					// NewString: Want to fight someone strong?
+				}
+
+				2: {
+					// OldString: Thanks for the help
+					// NewString: Thanks for the help
+				}
+			}
+
+			PreDraw: {
+				1: {
+					// OldString: BetterDBT/NewContent/SonGoku/SuperKaiokenAura
+					// NewString: BetterDBT/NewContent/SonGoku/SuperKaiokenAura
+				}
+
+				2: {
+					// OldString: BetterDBT/NewContent/SonGoku/SSJ3Aura
+					// NewString: BetterDBT/NewContent/SonGoku/SSJ3Aura
+				}
+
+				3: {
+					// OldString: BetterDBT/NewContent/SonGoku/GodAura
+					// NewString: BetterDBT/NewContent/SonGoku/GodAura
+				}
+
+				4: {
+					// OldString: BetterDBT/NewContent/SonGoku/SSJBAura
+					// NewString: BetterDBT/NewContent/SonGoku/SSJBAura
+				}
+			}
+
+			GetChat: {
+				1: {
+					// OldString: Don't worry, I've got your back!
+					// NewString: Don't worry, I've got your back!
+				}
+
+				2: {
+					// OldString: Who are we going to fight?
+					// NewString: Who are we going to fight?
+				}
+
+				3: {
+					// OldString: I'm getting excited for this next fight.
+					// NewString: I'm getting excited for this next fight.
+				}
+
+				4: {
+					// OldString: This is gonna be fun!
+					// NewString: This is gonna be fun!
+				}
+
+				5: {
+					// OldString: I love a good challenge!
+					// NewString: I love a good challenge!
+				}
+
+				6: {
+					// OldString: Hey it's me goku
+					// NewString: Hey it's me goku
+				}
+
+				7: {
+					// OldString: Who are we going to fight next?
+					// NewString: Who are we going to fight next?
+				}
+
+				8: {
+					// OldString: You're pretty strong, we should spar sometime.
+					// NewString: You're pretty strong, we should spar sometime.
+				}
+
+				9: {
+					// OldString: Wanna grab something to eat later?
+					// NewString: Wanna grab something to eat later?
+				}
+			}
+
+			SetBestiary: {
+				1: {
+					// OldString: The hope of the universe.
+					// NewString: The hope of the universe.
+				}
+			}
+		}
+
+		GokuProgressionWorld: {
+			SaveWorldData: {
+				1: {
+					// OldString: PolterBoost
+					// NewString: PolterBoost
+				}
+
+				2: {
+					// OldString: YharonBoost
+					// NewString: YharonBoost
+				}
+
+				3: {
+					// OldString: CalamitasBoost
+					// NewString: CalamitasBoost
+				}
+
+				4: {
+					// OldString: GokuSavedHeals
+					// NewString: GokuSavedHeals
+				}
+			}
+
+			LoadWorldData: {
+				1: {
+					// OldString: PolterBoost
+					// NewString: PolterBoost
+				}
+
+				2: {
+					// OldString: YharonBoost
+					// NewString: YharonBoost
+				}
+
+				3: {
+					// OldString: CalamitasBoost
+					// NewString: CalamitasBoost
+				}
+
+				4: {
+					// OldString: GokuSavedHeals
+					// NewString: GokuSavedHeals
+				}
+			}
+		}
+
+		NPCHealthUIState: {
+			OnInitialize: {
+				1: {
+					// OldString: BetterDBT/NewContent/SonGoku/Items/SenzuBag
+					// NewString: BetterDBT/NewContent/SonGoku/Items/SenzuBag
+				}
+
+				2: {
+					// OldString: BetterDBT/NewContent/SonGoku/Items/SoulTexture
+					// NewString: BetterDBT/NewContent/SonGoku/Items/SoulTexture
+				}
+
+				3: {
+					// OldString: --
+					// NewString: --
+				}
+
+				4: {
+					// OldString: HP: --
+					// NewString: HP: --
+				}
+			}
+
+			Update: {
+				1: {
+					// OldString: "HP: "
+					// NewString: "HP: "
+				}
+
+				2: {
+					// OldString: /
+					// NewString: /
+				}
+
+				3: {
+					// OldString: " ("
+					// NewString: " ("
+				}
+
+				4: {
+					// OldString: "0.0"
+					// NewString: "0.0"
+				}
+
+				5: {
+					// OldString: %)
+					// NewString: %)
+				}
+
+				6: {
+					// OldString: Dead
+					// NewString: Dead
+				}
+
+				7: {
+					// OldString: No target found
+					// NewString: No target found
+				}
+
+				8: {
+					// OldString: BetterDBT/NewContent/SonGoku/Items/BlankSoul
+					// NewString: BetterDBT/NewContent/SonGoku/Items/BlankSoul
+				}
+
+				9: {
+					// OldString: BetterDBT/NewContent/SonGoku/Items/SoulTexture
+					// NewString: BetterDBT/NewContent/SonGoku/Items/SoulTexture
+				}
+
+				10: {
+					// OldString: BetterDBT/NewContent/SonGoku/Items/BlankSenzu
+					// NewString: BetterDBT/NewContent/SonGoku/Items/BlankSenzu
+				}
+
+				11: {
+					// OldString: BetterDBT/NewContent/SonGoku/Items/GokuSenzuBean
+					// NewString: BetterDBT/NewContent/SonGoku/Items/GokuSenzuBean
+				}
+
+				12: {
+					// OldString: BetterDBT/NewContent/SonGoku/Items/BlankBook
+					// NewString: BetterDBT/NewContent/SonGoku/Items/BlankBook
+				}
+
+				13: {
+					// OldString: BetterDBT/NewContent/SonGoku/Items/RedBook
+					// NewString: BetterDBT/NewContent/SonGoku/Items/RedBook
+				}
+
+				14: {
+					// OldString: BetterDBT/NewContent/SonGoku/Items/PurpleBook
+					// NewString: BetterDBT/NewContent/SonGoku/Items/PurpleBook
+				}
+			}
+
+			Draw: {
+				1: {
+					// OldString: Advanced Combat Techniques
+					// NewString: Advanced Combat Techniques
+				}
+
+				2: {
+					// OldString: Advanced Combat Techniques: Volume Two
+					// NewString: Advanced Combat Techniques: Volume Two
+				}
+
+				3: {
+					// OldString: Unlock after beating Polterghast and crafting the Polterghast soul
+					// NewString: Unlock after beating Polterghast and crafting the Polterghast soul
+				}
+
+				4: {
+					// OldString: Unlock after beating Dog and crafting the God soul
+					// NewString: Unlock after beating Dog and crafting the God soul
+				}
+
+				5: {
+					// OldString: Unlock after beating Supreme Calamitas and crafting the witch soul
+					// NewString: Unlock after beating Supreme Calamitas and crafting the witch soul
+				}
+
+				6: {
+					// OldString: 1 is Dropped by The Old Duke, 1 is Dropped by Yharon, 1 is Dropped by Storm Weaver
+					// NewString: 1 is Dropped by The Old Duke, 1 is Dropped by Yharon, 1 is Dropped by Storm Weaver
+				}
+			}
+		}
+
+		NPCHealthUISystem: {
+			ModifyInterfaceLayers: {
+				1: {
+					// OldString: NPC Health UI
+					// NewString: NPC Health UI
+				}
+			}
+		}
+
+		MyModSystem: {
+			SaveWorldData: {
+				1: {
+					// OldString: droppedFromBoss1
+					// NewString: droppedFromBoss1
+				}
+
+				2: {
+					// OldString: droppedFromBoss2
+					// NewString: droppedFromBoss2
+				}
+
+				3: {
+					// OldString: droppedFromBoss3
+					// NewString: droppedFromBoss3
+				}
+			}
+
+			LoadWorldData: {
+				1: {
+					// OldString: droppedFromBoss1
+					// NewString: droppedFromBoss1
+				}
+
+				2: {
+					// OldString: droppedFromBoss2
+					// NewString: droppedFromBoss2
+				}
+
+				3: {
+					// OldString: droppedFromBoss3
+					// NewString: droppedFromBoss3
+				}
+			}
+		}
+
+		Dropsenzu: {
+			OnKill: {
+				1: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				2: {
+					// OldString: OldDuke
+					// NewString: OldDuke
+				}
+
+				3: {
+					// OldString: Providence
+					// NewString: Providence
+				}
+
+				4: {
+					// OldString: Yharon
+					// NewString: Yharon
+				}
+			}
+		}
+
+		Items: {
+			PowerStuff: {
+				SaveData: {
+					1: {
+						// OldString: Power
+						// NewString: Power
+					}
+				}
+
+				LoadData: {
+					1: {
+						// OldString: Power
+						// NewString: Power
+					}
+				}
+			}
+
+			PolterghastSoul: {
+				UseItem: {
+					1: {
+						// OldString: Goku is stronger now
+						NewString: 悟空现在变得更强大了
+					}
+
+					2: {
+						// OldString: Goku has already absorbed this power.
+						NewString: 悟空已经吸收过这股力量
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: dbzcalamity
+						// NewString: dbzcalamity
+					}
+
+					3: {
+						// OldString: RuinousSoul
+						// NewString: RuinousSoul
+					}
+
+					4: {
+						// OldString: WarmKiCrystal
+						// NewString: WarmKiCrystal
+					}
+				}
+			}
+
+			GodSoul: {
+				UseItem: {
+					1: {
+						// OldString: Goku is stronger now
+						// NewString: Goku is stronger now
+					}
+
+					2: {
+						// OldString: Goku has already absorbed this power.
+						// NewString: Goku has already absorbed this power.
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: dbzcalamity
+						// NewString: dbzcalamity
+					}
+
+					3: {
+						// OldString: CosmiliteBar
+						// NewString: CosmiliteBar
+					}
+
+					4: {
+						// OldString: GodlyKiCrystal
+						// NewString: GodlyKiCrystal
+					}
+				}
+			}
+
+			WitchSoul: {
+				UseItem: {
+					1: {
+						// OldString: Goku is stronger now
+						// NewString: Goku is stronger now
+					}
+
+					2: {
+						// OldString: Goku has already absorbed this power.
+						// NewString: Goku has already absorbed this power.
+					}
+				}
+
+				AddRecipes: {
+					1: {
+						// OldString: CalamityMod
+						// NewString: CalamityMod
+					}
+
+					2: {
+						// OldString: dbzcalamity
+						// NewString: dbzcalamity
+					}
+
+					3: {
+						// OldString: AshesofAnnihilation
+						// NewString: AshesofAnnihilation
+					}
+
+					4: {
+						// OldString: UnlimitedKiCrystal
+						// NewString: UnlimitedKiCrystal
+					}
+				}
+			}
+
+			GokuSenzuBean: {
+				UseItem: {
+					1: {
+						// OldString: Goku can't hold any more Senzu Beans!
+						// NewString: Goku can't hold any more Senzu Beans!
+					}
+
+					2: {
+						// OldString: "Goku heal count: "
+						// NewString: "Goku heal count: "
+					}
+
+					3: {
+						// OldString: /3
+						// NewString: /3
+					}
+				}
+			}
+
+			SpeedStuff: {
+				SaveData: {
+					1: {
+						// OldString: Speed
+						// NewString: Speed
+					}
+				}
+
+				LoadData: {
+					1: {
+						// OldString: Speed
+						// NewString: Speed
+					}
+				}
+			}
+		}
+
+		Attacks: {
+			FistProj: {
+				PreDraw: {
+					1: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+		}
+
+		NPCHealthUISystem+<>c: {
+			<ModifyInterfaceLayers>b__4_0: {
+				1: {
+					// OldString: Vanilla: Mouse Text
+					// NewString: Vanilla: Mouse Text
+				}
+			}
+		}
+	}
+
+	NamelessSpawn: {
+		NDSpawn: {
+			CanUseItem: {
+				1: {
+					// OldString: NoxusBoss
+					// NewString: NoxusBoss
+				}
+
+				2: {
+					// OldString: NamelessDeityBoss
+					// NewString: NamelessDeityBoss
+				}
+			}
+
+			PreDrawInWorld: {
+				1: {
+					// OldString: BetterDBT/Textures/ShineFlare
+					// NewString: BetterDBT/Textures/ShineFlare
+				}
+
+				2: {
+					// OldString: BetterDBT/Textures/Gloworb
+					// NewString: BetterDBT/Textures/Gloworb
+				}
+			}
+
+			PostDrawInInventory: {
+				1: {
+					// OldString: BetterDBT/Textures/ShineFlare
+					// NewString: BetterDBT/Textures/ShineFlare
+				}
+
+				2: {
+					// OldString: BetterDBT/Textures/Gloworb
+					// NewString: BetterDBT/Textures/Gloworb
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: CalamityMod
+					// NewString: CalamityMod
+				}
+
+				2: {
+					// OldString: NoxusBoss
+					// NewString: NoxusBoss
+				}
+
+				3: {
+					// OldString: Terminus
+					// NewString: Terminus
+				}
+
+				4: {
+					// OldString: MetallicChunk
+					// NewString: MetallicChunk
+				}
+			}
+		}
+	}
+
+	FormTechs: {
+		BuffSelectorUIState: {
+			OnInitialize: {
+				1: {
+					// OldString: Select Form
+					// NewString: Select Form
+				}
+
+				2: {
+					// OldString: BetterDBT/NewContent/FormTechs/EvilIcon
+					// NewString: BetterDBT/NewContent/FormTechs/EvilIcon
+				}
+
+				3: {
+					// OldString: BetterDBT/NewContent/FormTechs/KaiokenBlueIcon
+					// NewString: BetterDBT/NewContent/FormTechs/KaiokenBlueIcon
+				}
+
+				4: {
+					// OldString: BetterDBT/NewContent/FormTechs/BlueEvoIcon
+					// NewString: BetterDBT/NewContent/FormTechs/BlueEvoIcon
+				}
+
+				5: {
+					// OldString: BetterDBT/NewContent/FormTechs/HolyIcon
+					// NewString: BetterDBT/NewContent/FormTechs/HolyIcon
+				}
+
+				6: {
+					// OldString: BetterDBT/NewContent/FormTechs/WrathIcon
+					// NewString: BetterDBT/NewContent/FormTechs/WrathIcon
+				}
+
+				7: {
+					// OldString: BetterDBT/NewContent/FormTechs/MUIIcon
+					// NewString: BetterDBT/NewContent/FormTechs/MUIIcon
+				}
+
+				8: {
+					// OldString: BetterDBT/NewContent/FormTechs/RageIcon
+					// NewString: BetterDBT/NewContent/FormTechs/RageIcon
+				}
+
+				9: {
+					// OldString: BetterDBT/NewContent/FormTechs/UltraEgoIcon
+					// NewString: BetterDBT/NewContent/FormTechs/UltraEgoIcon
+				}
+			}
+		}
+
+		BuffSelectorUISystem: {
+			ModifyInterfaceLayers: {
+				1: {
+					// OldString: Stat Editor UI
+					// NewString: Stat Editor UI
+				}
+			}
+		}
+
+		BuffSelectorPlayer: {
+			GetAuraRotationAndPosition: {
+				1: {
+					// OldString: BetterDBT/NewContent/SonGoku/SuperKaiokenAura
+					// NewString: BetterDBT/NewContent/SonGoku/SuperKaiokenAura
+				}
+			}
+
+			DrawEffects: {
+				1: {
+					// OldString: BetterDBT/NewContent/SonGoku/SuperKaiokenAura
+					// NewString: BetterDBT/NewContent/SonGoku/SuperKaiokenAura
+				}
+
+				2: {
+					// OldString: BetterDBT/NewContent/FormTechs/WrathfulAura
+					// NewString: BetterDBT/NewContent/FormTechs/WrathfulAura
+				}
+
+				3: {
+					// OldString: BetterDBT/NewContent/FormTechs/EvilAura
+					// NewString: BetterDBT/NewContent/FormTechs/EvilAura
+				}
+
+				4: {
+					// OldString: BetterDBT/NewContent/FormTechs/SSJR2Aura
+					// NewString: BetterDBT/NewContent/FormTechs/SSJR2Aura
+				}
+
+				5: {
+					// OldString: BetterDBT/NewContent/FormTechs/UltraEgo
+					// NewString: BetterDBT/NewContent/FormTechs/UltraEgo
+				}
+
+				6: {
+					// OldString: BetterDBT/NewContent/FormTechs/SSBEAura
+					// NewString: BetterDBT/NewContent/FormTechs/SSBEAura
+				}
+			}
+		}
+
+		FormSelectionPlayer: {
+			SaveData: {
+				1: {
+					// OldString: selectedForm
+					// NewString: selectedForm
+				}
+			}
+
+			LoadData: {
+				1: {
+					// OldString: selectedForm
+					// NewString: selectedForm
+				}
+			}
+		}
+
+		WeakHakaiBolt: {
+			PreDraw: {
+				1: {
+					// OldString: BetterDBT/Textures/GlowShine
+					// NewString: BetterDBT/Textures/GlowShine
+				}
+
+				2: {
+					// OldString: BetterDBT/Textures/Gloworb
+					// NewString: BetterDBT/Textures/Gloworb
+				}
+
+				3: {
+					// OldString: BetterDBT/Textures/LightTrail_1
+					// NewString: BetterDBT/Textures/LightTrail_1
+				}
+			}
+		}
+
+		UIs: {
+			HakaiResourceBar: {
+				OnInitialize: {
+					1: {
+						// OldString: BetterDBT/NewContent/FormTechs/UIs/HakaResourceFrame
+						// NewString: BetterDBT/NewContent/FormTechs/UIs/HakaResourceFrame
+					}
+
+					2: {
+						// OldString: 0/0
+						// NewString: 0/0
+					}
+				}
+			}
+
+			BloodResourceUISystem: {
+				Load: {
+					1: {
+						// OldString: UI
+						// NewString: UI
+					}
+
+					2: {
+						// OldString: .GODResource
+						// NewString: .GODResource
+					}
+				}
+
+				ModifyInterfaceLayers: {
+					1: {
+						// OldString: BlastClass: Explosive GOD Energy
+						// NewString: BlastClass: Explosive GOD Energy
+					}
+				}
+			}
+
+			WarthfulResourceBar: {
+				OnInitialize: {
+					1: {
+						// OldString: BetterDBT/NewContent/FormTechs/UIs/WrathfulResourceBar
+						// NewString: BetterDBT/NewContent/FormTechs/UIs/WrathfulResourceBar
+					}
+
+					2: {
+						// OldString: 0/0
+						// NewString: 0/0
+					}
+				}
+			}
+
+			WrathfulResourceUISystem: {
+				Load: {
+					1: {
+						// OldString: UI
+						// NewString: UI
+					}
+
+					2: {
+						// OldString: .RageResource
+						// NewString: .RageResource
+					}
+				}
+
+				ModifyInterfaceLayers: {
+					1: {
+						// OldString: BetterDBT: Rage
+						// NewString: BetterDBT: Rage
+					}
+				}
+			}
+
+			BloodResourceUISystem+<>c: {
+				<ModifyInterfaceLayers>b__8_0: {
+					1: {
+						// OldString: Vanilla: Resource Bars
+						// NewString: Vanilla: Resource Bars
+					}
+				}
+			}
+
+			WrathfulResourceUISystem+<>c: {
+				<ModifyInterfaceLayers>b__8_0: {
+					1: {
+						// OldString: Vanilla: Resource Bars
+						// NewString: Vanilla: Resource Bars
+					}
+				}
+			}
+		}
+
+		BuffSelectorUISystem+<>c: {
+			<ModifyInterfaceLayers>b__7_0: {
+				1: {
+					// OldString: Vanilla: Mouse Text
+					// NewString: Vanilla: Mouse Text
+				}
+			}
+		}
+	}
+
+	BossRush: {
+		BossRushSystem: {
+			SpawnNextBoss: {
+				1: {
+					// OldString: The Twins awaken!
+					NewString: 双子魔眼已苏醒！
+				}
+
+				2: {
+					// OldString: " has appeared!"
+					NewString: 已出现！
+				}
+			}
+
+			GiveRewards: {
+				1: {
+					// OldString: Kaioken Blue has been unlocked!
+					NewString: 超级赛亚人蓝界王拳已解锁！
+				}
+
+				2: {
+					// OldString: UI Sign has been unlocked!
+					NewString: 自在极意兆已解锁！
+				}
+
+				3: {
+					// OldString: Super Saiyan Blue Evolution unlocked!
+					NewString: 超级赛亚人蓝进化已解锁！
+				}
+
+				4: {
+					// OldString: Wrathful unlocked!
+					NewString: 狂怒已解锁！
+				}
+
+				5: {
+					// OldString: Super Saiyan Rose 2 unlocked!
+					NewString: 超级赛亚人桃红2已解锁！
+				}
+			}
+		}
+
+		GelBullet: {
+			get_Texture: {
+				1: {
+					// OldString: BetterDBT/Textures/LightTrail_1
+					// NewString: BetterDBT/Textures/LightTrail_1
+				}
+			}
+		}
+
+		HomingRedLaser: {
+			PreDraw: {
+				1: {
+					// OldString: BetterDBT/Textures/Blast
+					// NewString: BetterDBT/Textures/Blast
+				}
+
+				2: {
+					// OldString: BetterDBT/Textures/ShineFlare
+					// NewString: BetterDBT/Textures/ShineFlare
+				}
+
+				3: {
+					// OldString: BetterDBT/Textures/Gloworb
+					// NewString: BetterDBT/Textures/Gloworb
+				}
+			}
+		}
+
+		items: {
+			BossRushSigil: {
+				SetDefaults: {
+					1: {
+						// OldString: unused
+						// NewString: unused
+					}
+				}
+			}
+
+			UltraKI: {
+				PreDrawInWorld: {
+					1: {
+						// OldString: BetterDBT/Textures/ShineFlare
+						// NewString: BetterDBT/Textures/ShineFlare
+					}
+
+					2: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+
+				PostDrawInInventory: {
+					1: {
+						// OldString: BetterDBT/Textures/ShineFlare
+						// NewString: BetterDBT/Textures/ShineFlare
+					}
+
+					2: {
+						// OldString: BetterDBT/Textures/Gloworb
+						// NewString: BetterDBT/Textures/Gloworb
+					}
+				}
+			}
+
+			WaveofStars: {
+				WaveOfStarsProj: {
+					DrawWhipTrail: {
+						1: {
+							// OldString: BetterDBT/Textures/LightTrail_1
+							// NewString: BetterDBT/Textures/LightTrail_1
+						}
+					}
+				}
+			}
+
+			Upgrades: {
+				HeartShaderDye: {
+					SetStaticDefaults: {
+						1: {
+							// OldString: NewContent/BossRush/items/Upgrades/HeartShader
+							// NewString: NewContent/BossRush/items/Upgrades/HeartShader
+						}
+
+						2: {
+							// OldString: DyePass
+							// NewString: DyePass
+						}
+
+						3: {
+							// OldString: Images/Misc/Perlin
+							// NewString: Images/Misc/Perlin
+						}
+					}
+				}
+
+				KameShaderDye: {
+					SetStaticDefaults: {
+						1: {
+							// OldString: NewContent/BossRush/items/Upgrades/kameShader
+							// NewString: NewContent/BossRush/items/Upgrades/kameShader
+						}
+
+						2: {
+							// OldString: DyePass
+							// NewString: DyePass
+						}
+
+						3: {
+							// OldString: Images/Misc/Perlin
+							// NewString: Images/Misc/Perlin
+						}
+					}
+				}
+
+				lifebloodoverlay: {
+					PostDrawResource: {
+						1: {
+							// OldString: Images/UI/PlayerResourceSets/FancyClassic/
+							// NewString: Images/UI/PlayerResourceSets/FancyClassic/
+						}
+
+						2: {
+							// OldString: Images/UI/PlayerResourceSets/HorizontalBars/
+							// NewString: Images/UI/PlayerResourceSets/HorizontalBars/
+						}
+
+						3: {
+							// OldString: HP_Panel_Middle
+							// NewString: HP_Panel_Middle
+						}
+
+						4: {
+							// OldString: Heart_Fill
+							// NewString: Heart_Fill
+						}
+
+						5: {
+							// OldString: Heart_Fill_B
+							// NewString: Heart_Fill_B
+						}
+
+						6: {
+							// OldString: HP_Fill
+							// NewString: HP_Fill
+						}
+
+						7: {
+							// OldString: HP_Fill_Honey
+							// NewString: HP_Fill_Honey
+						}
+
+						8: {
+							// OldString: Heart_Left
+							// NewString: Heart_Left
+						}
+
+						9: {
+							// OldString: Heart_Middle
+							// NewString: Heart_Middle
+						}
+
+						10: {
+							// OldString: Heart_Right
+							// NewString: Heart_Right
+						}
+
+						11: {
+							// OldString: Heart_Right_Fancy
+							// NewString: Heart_Right_Fancy
+						}
+
+						12: {
+							// OldString: Heart_Single_Fancy
+							// NewString: Heart_Single_Fancy
+						}
+					}
+
+					DrawClassicFancyOverlay: {
+						1: {
+							// OldString: BetterDBT/NewContent/BossRush/items/Upgrades/lifebloodoverlay
+							// NewString: BetterDBT/NewContent/BossRush/items/Upgrades/lifebloodoverlay
+						}
+					}
+
+					DrawFancyPanelOverlay: {
+						1: {
+							// OldString: Images/UI/PlayerResourceSets/FancyClassic/
+							// NewString: Images/UI/PlayerResourceSets/FancyClassic/
+						}
+
+						2: {
+							// OldString: Heart_Single_Fancy
+							// NewString: Heart_Single_Fancy
+						}
+
+						3: {
+							// OldString: Heart_Left
+							// NewString: Heart_Left
+						}
+
+						4: {
+							// OldString: Heart_Middle
+							// NewString: Heart_Middle
+						}
+
+						5: {
+							// OldString: BetterDBT/NewContent/BossRush/items/Upgrades/lifebloodoverlay_Panel
+							// NewString: BetterDBT/NewContent/BossRush/items/Upgrades/lifebloodoverlay_Panel
+						}
+					}
+
+					DrawBarsOverlay: {
+						1: {
+							// OldString: BetterDBT/NewContent/BossRush/items/Upgrades/lifebloodoverlaybars_Fill
+							// NewString: BetterDBT/NewContent/BossRush/items/Upgrades/lifebloodoverlaybars_Fill
+						}
+					}
+
+					DrawBarsPanelOverlay: {
+						1: {
+							// OldString: BetterDBT/NewContent/BossRush/items/Upgrades/lifebloodoverlaybars_Panel
+							// NewString: BetterDBT/NewContent/BossRush/items/Upgrades/lifebloodoverlaybars_Panel
+						}
+					}
+				}
+
+				lifebloodbuffeffect: {
+					SaveData: {
+						1: {
+							// OldString: lifebloodupdate
+							// NewString: lifebloodupdate
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: lifebloodupdate
+							// NewString: lifebloodupdate
+						}
+					}
+				}
+
+				KIStuff: {
+					SaveData: {
+						1: {
+							// OldString: fragmentUltra
+							// NewString: fragmentUltra
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: fragmentUltra
+							// NewString: fragmentUltra
+						}
+					}
+				}
+
+				KISroll: {
+					SaveData: {
+						1: {
+							// OldString: ScrollUltra
+							// NewString: ScrollUltra
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: ScrollUltra
+							// NewString: ScrollUltra
+						}
+					}
+				}
+			}
+
+			UltraCombo: {
+				UltraFistProj: {
+					PreDraw: {
+						1: {
+							// OldString: BetterDBT/Textures/Gloworb
+							// NewString: BetterDBT/Textures/Gloworb
+						}
+					}
+				}
+
+				UltraGauntlet: {
+					SetDefaults: {
+						1: {
+							// OldString: Blast
+							// NewString: Blast
+						}
+
+						2: {
+							// OldString: unused
+							// NewString: unused
+						}
+					}
+				}
+
+				UltraKamehameha: {
+					ProjectileInitialize: {
+						1: {
+							// OldString: Beam
+							// NewString: Beam
+						}
+					}
+				}
+
+				UltraBeamProj: {
+					SetDefaults: {
+						1: {
+							// OldString: DBZMODPORT/Sounds/Kamehameha10Fire
+							// NewString: DBZMODPORT/Sounds/Kamehameha10Fire
+						}
+					}
+				}
+
+				UltraKamehamehaCharge: {
+					SetDefaults: {
+						1: {
+							// OldString: DBZMODPORT/Sounds/Kamehameha10Charge
+							// NewString: DBZMODPORT/Sounds/Kamehameha10Charge
+						}
+					}
+				}
+			}
+
+			SwordOfHope: {
+				HopeSword: {
+					SetDefaults: {
+						1: {
+							// OldString: DBZMODPORT/Sounds/SwordSlash
+							// NewString: DBZMODPORT/Sounds/SwordSlash
+						}
+					}
+				}
+			}
+
+			Forms: {
+				BlueKaiokenUnlock: {
+					SaveData: {
+						1: {
+							// OldString: BlueKai
+							// NewString: BlueKai
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: BlueKai
+							// NewString: BlueKai
+						}
+					}
+				}
+
+				BOLUnlock: {
+					SaveData: {
+						1: {
+							// OldString: BOL
+							// NewString: BOL
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: BOL
+							// NewString: BOL
+						}
+					}
+				}
+
+				SignsUIUnlock: {
+					SaveData: {
+						1: {
+							// OldString: SignsUI
+							// NewString: SignsUI
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: SignsUI
+							// NewString: SignsUI
+						}
+					}
+				}
+
+				SSBEUnlock: {
+					SaveData: {
+						1: {
+							// OldString: SSBE
+							// NewString: SSBE
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: SSBE
+							// NewString: SSBE
+						}
+					}
+				}
+
+				SSJRUnlock: {
+					SaveData: {
+						1: {
+							// OldString: SSJR
+							// NewString: SSJR
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: SSJR
+							// NewString: SSJR
+						}
+					}
+				}
+
+				WoFLoot: {
+					OnKill: {
+						1: {
+							// OldString: " has defeated the Wall of Flesh without taking damage!"
+							NewString: 已无伤击败血肉墙！
+						}
+					}
+				}
+
+				SSJRageUnlock: {
+					SaveData: {
+						1: {
+							// OldString: SSJRage
+							// NewString: SSJRage
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: SSJRage
+							// NewString: SSJRage
+						}
+					}
+				}
+
+				UEUnlockUnlock: {
+					SaveData: {
+						1: {
+							// OldString: UE
+							// NewString: UE
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: UE
+							// NewString: UE
+						}
+					}
+				}
+
+				WrathfulUnlock: {
+					SaveData: {
+						1: {
+							// OldString: Wrathful
+							// NewString: Wrathful
+						}
+					}
+
+					LoadData: {
+						1: {
+							// OldString: Wrathful
+							// NewString: Wrathful
+						}
+					}
+				}
+			}
+
+			CosmicKISprayer: {
+				CosmicFlame: {
+					get_Texture: {
+						1: {
+							// OldString: BetterDBT/Textures/Blast
+							// NewString: BetterDBT/Textures/Blast
+						}
+					}
+				}
+			}
+		}
+	}
+
+	WikiUISystem+<>c: {
+		<ModifyInterfaceLayers>b__6_0: {
+			1: {
+				// OldString: Vanilla: Mouse Text
+				// NewString: Vanilla: Mouse Text
+			}
+		}
+	}
+
+	FusionNameSystem+<>c: {
+		<ModifyInterfaceLayers>b__4_0: {
+			1: {
+				// OldString: Vanilla: Mouse Text
+				// NewString: Vanilla: Mouse Text
+			}
+		}
+	}
+
+	DistanceUISystem+<>c: {
+		<ModifyInterfaceLayers>b__4_0: {
+			1: {
+				// OldString: Vanilla: Mouse Text
+				// NewString: Vanilla: Mouse Text
+			}
+		}
+	}
+}
+
+ScrapedTooltipGlobalItem+<>c: {
+	<ModifyTooltips>b__0_0: {
+		1: {
+			// OldString: Terraria
+			// NewString: Terraria
+		}
+
+		2: {
+			// OldString: ItemName
+			// NewString: ItemName
+		}
+	}
+}

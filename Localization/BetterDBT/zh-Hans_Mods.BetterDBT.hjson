@@ -1,0 +1,746 @@
+NPCs: {
+	Goku: {
+		DisplayName: 悟空
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+			LikeBiome: I like {BiomeName}.
+			DislikeBiome: I dislike {BiomeName}.
+			HateBiome: I hate {BiomeName}.
+			DislikeNPC: I dislike {NPCName}.
+		}
+	}
+
+	Beerus: {
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			HateBiome: I hate {BiomeName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: 比鲁斯
+	}
+}
+
+Projectiles: {
+	KiBlastGoku.DisplayName: Ki Blast Goku
+	DragonFistHead.DisplayName: Dragon Fist Head
+	DragonFistBody.DisplayName: Dragon Fist Body
+	DragonFistTail.DisplayName: Dragon Fist Tail
+	FistProj.DisplayName: Fist Proj
+	SSJ3Effectremake.DisplayName: S S J3 Effectremake
+	GolemStarProjectile.DisplayName: Golem Star Projectile
+	MeteorFistProj.DisplayName: Meteor Fist Proj
+	MeteorShieldProjectile.DisplayName: Meteor Shield Projectile
+	KaiokenFistProj.DisplayName: Kaioken Fist Proj
+	KaiokenShieldProjectile.DisplayName: Kaioken Shield Projectile
+	StarFallFistProj.DisplayName: Star Fall Fist Proj
+	StarFallShieldProjectile.DisplayName: Star Fall Shield Projectile
+	RadiantFistProj.DisplayName: Radiant Fist Proj
+	RadiantShieldProjectile.DisplayName: Radiant Shield Projectile
+	TrunksSwordMaxSwing.DisplayName: Trunks Sword Max Swing
+	TrunksSwordSwing.DisplayName: Trunks Sword Swing
+	MechFistProj.DisplayName: Mech Fist Proj
+	MechShieldProjectile.DisplayName: Mech Shield Projectile
+	WormBody.DisplayName: Worm Body
+	WormHead.DisplayName: Worm Head
+	WormTail.DisplayName: Worm Tail
+	MegaMechFistProj.DisplayName: Mega Mech Fist Proj
+	retLaser.DisplayName: ret Laser
+	Betterlightning.DisplayName: Betterlightning
+	ThunderFistProj.DisplayName: Thunder Fist Proj
+	BlazingGauntletProj.DisplayName: Blazing Gauntlet Proj
+	FireShield.DisplayName: Fire Shield
+	SpiritBomb.DisplayName: Spirit Bomb
+	Blast.DisplayName: Blast
+	StarDustFallProj.DisplayName: Star Dust Fall Proj
+	BurningAttackProj.DisplayName: Burning Attack Proj
+	BurningattackHold.DisplayName: Burningattack Hold
+	kamehameha.DisplayName: kamehameha
+	kamehamehaKaioken.DisplayName: kamehameha Kaioken
+	DragonFistBodyWeapon.DisplayName: Dragon Fist Body Weapon
+	DragonFistHeadWeapon.DisplayName: Dragon Fist Head Weapon
+	DragonFistTailWeapon.DisplayName: Dragon Fist Tail Weapon
+	DragonGauntletProj.DisplayName: Dragon Gauntlet Proj
+	MultiModeProjectile.DisplayName: Multi Mode Projectile
+	BlastKI.DisplayName: Blast K I
+	LegendaryProj.DisplayName: Legendary Proj
+	BeerusFistProj.DisplayName: Beerus Fist Proj
+	CosmicFlame.DisplayName: Cosmic Flame
+	HopeSwordSwing.DisplayName: 希望之剑挥舞
+	WaveOfStarsProj.DisplayName: Wave Of Stars Proj
+	HopeSwordMaxSwing.DisplayName: 希望之剑最大挥舞
+	InfernadoRevenge.DisplayName: Infernado Revenge
+	UltraFistProj.DisplayName: 究极Fist Proj
+	UltraShieldProjectile.DisplayName: 究极Shield Projectile
+	UltraBeamProj.DisplayName: 究极Beam Proj
+	UltraKamehamehaCharge.DisplayName: 究极Kamehameha Charge
+	CosmicLightningProj.DisplayName: Cosmic Lightning Proj
+	HakaiTraps.DisplayName: Hakai Traps
+	BlueFistProj.DisplayName: Blue Fist Proj
+	BlackScytheSwing.DisplayName: Black Scythe Swing
+	GelBullet.DisplayName: Gel Bullet
+	HomingRedLaser.DisplayName: Homing Red Laser
+	WeakHakaiBolt.DisplayName: Weak Hakai Bolt
+	HakaiOrbTelegraph.DisplayName: Hakai Orb Telegraph
+	HomingPurpleLaser.DisplayName: Homing Purple Laser
+	BeerusEnergyBall.DisplayName: Beerus Energy Ball
+	BaseBlast.DisplayName: Base Blast
+}
+
+Buffs: {
+	MeteorDefenseBuff: {
+		DisplayName: Rush Attack
+		Description: Higher Defense.
+	}
+
+	KaiokenDefenseBuff: {
+		DisplayName: Kaioken Rush Attack
+		Description: Higher Defense.
+	}
+
+	StarFallDefenseBuff: {
+		DisplayName: Star Fall parry
+		Description: Higher Defense.
+	}
+
+	SoulBondCooldownDebuff: {
+		DisplayName: Fusion Cooldown
+		Description: You can't fuse yet.
+	}
+
+	SoulBondedBuff: {
+		DisplayName: Fusion
+		Description: You and your partners' stats are added together and then given a 50% boost.
+	}
+
+	SoulBondActiveBuff: {
+		DisplayName: Fusion
+		Description: You and your partners' stats are added together and then given a 50% boost.
+	}
+
+	SoulBondCooldownBuff: {
+		DisplayName: Fusion Cooldown
+		Description: You can't fuse yet.
+	}
+
+	RadiantGauntletCooldown: {
+		DisplayName: Radiant Cooldown
+		Description: You can't use your right click attack
+	}
+
+	MechGauntletCooldown: {
+		DisplayName: Mech Punch Cooldown
+		Description: You can't use your right click attack
+	}
+
+	ThunderGauntletCooldown: {
+		DisplayName: Thunder Cooldown
+		Description: You can't use your right click attack
+	}
+
+	FireCooldown: {
+		DisplayName: Fire Cooldown
+		Description: You can't use your right click ability
+	}
+
+	FlamingBuff: {
+		DisplayName: Flaming Buff
+		Description: The flaming shield reflects projectiles that only deal 30% or less damage to you back
+	}
+
+	SolarBuff: {
+		DisplayName: Solar Buff
+		Description: Mods.BetterDBT.Buffs.SolarBuff.Description
+	}
+
+	EnchantedBuff: {
+		DisplayName: Enchanted Buff
+		Description: Mods.BetterDBT.Buffs.EnchantedBuff.Description
+	}
+
+	HallowBuff: {
+		DisplayName: Hallow Buff
+		Description: Mods.BetterDBT.Buffs.HallowBuff.Description
+	}
+
+	DragonCooldown: {
+		DisplayName: Dragon Cooldown
+		Description: Mods.BetterDBT.Buffs.DragonCooldown.Description
+	}
+
+	DefenseBoostBuff: {
+		DisplayName: Defense Boost Buff
+		Description: Mods.BetterDBT.Buffs.DefenseBoostBuff.Description
+	}
+
+	BlueEvoBuff: {
+		DisplayName: SSBE
+		Description: ""
+	}
+
+	HolyBuff: {
+		DisplayName: SSJR2
+		Description: ""
+	}
+
+	KaiokenBlueBuff: {
+		DisplayName: SSB Kaioken
+		Description: ""
+	}
+
+	MUIBuff: {
+		DisplayName: 自在极意兆
+		Description: Mods.BetterDBT.Buffs.MUIBuff.Description
+	}
+
+	WrathBuff: {
+		DisplayName: 狂怒
+		Description: ""
+	}
+
+	RageBuff: {
+		DisplayName: 邪恶赛亚人
+		Description: ""
+	}
+
+	UltraGauntletCooldown: {
+		DisplayName: 究极拳套冷却
+		Description: 你无法使用究极连段
+	}
+
+	UltraGauntletattack: {
+		DisplayName: 究极Combo attack
+		Description: ""
+	}
+
+	EvilBuff: {
+		DisplayName: Evil Saiyan
+		Description: ""
+	}
+
+	BlueFistCooldown: {
+		DisplayName: Blue Fist Cooldown
+		Description: Mods.BetterDBT.Buffs.BlueFistCooldown.Description
+	}
+
+	ssjRageBuff: {
+		DisplayName: ssj Rage Buff
+		Description: Mods.BetterDBT.Buffs.ssjRageBuff.Description
+	}
+
+	UltraEgoBuff: {
+		DisplayName: 究极Ego Buff
+		Description: Mods.BetterDBT.Buffs.UltraEgoBuff.Description
+	}
+
+	DebuffHakai: {
+		Description: Mods.BetterDBT.Buffs.DebuffHakai.Description
+		DisplayName: Debuff Hakai
+	}
+}
+
+Items: {
+	SoulBondingAmulet: {
+		DisplayName: False Fusion Necklace
+		Tooltip:
+			'''
+			Fuses 2 players together for a short amount of time
+			Check controls for the Fusion ui 
+			'''
+	}
+
+	MeteorCombo: {
+		Tooltip: Right click attack: Basic Rush, Deals 3 times damage and launches the player to the cursor
+		DisplayName: Basic Combo
+	}
+
+	KaiokenComboItem: {
+		DisplayName: Kaioken Fist
+		Tooltip: Right click attack: Kaioken Rush, Deals 3 times damage and launches the player to the cursor
+	}
+
+	StarFallItem: {
+		DisplayName: Star Fist
+		Tooltip: Right click ability: Star Counter, When hit while using this you'll summon 6 stars from the sky that'll deal 60 damage
+	}
+
+	RadiantGauntletItem: {
+		DisplayName: Radiant Gauntlet
+		Tooltip: Right click attack: Radiant Charge, Deals 4 times damage and launches the player to the cursor
+	}
+
+	MechGauntletItem: {
+		DisplayName: Mech Gauntlet
+		Tooltip:
+			'''
+			Right click attack: Mech Punch, Deals 2 times damage,
+			the red fist will summon laser beams on death in a random direction
+			the green fist ignites enemies with cursed flame 
+			'''
+	}
+
+	ThunderFist: {
+		DisplayName: Thunder Fist
+		Tooltip: Right click attack: Lightning Throw, Deals 2 times damage,
+	}
+
+	BlazingGauntlet: {
+		DisplayName: Blazing Gauntlet
+		Tooltip: Right click ability: Fire shield, The flaming shield reflects projectiles that only deal 30% or lower of your hp back where they came from
+	}
+
+	StardustFall: {
+		DisplayName: Stardust Fall
+		Tooltip: ""
+	}
+
+	BurningAttack: {
+		DisplayName: Burning Attack
+		Tooltip: ""
+	}
+
+	GodSoul: {
+		DisplayName: 神之魂
+		Tooltip: "[C/959595:译者补充：请将《龙珠汉化全集》配置选项中修复打开，才能补充其配方]"
+	}
+
+	PolterghastSoul: {
+		DisplayName: 噬魂幽花之魂
+		Tooltip: "[C/959595:译者补充：请将《龙珠汉化全集》配置选项中修复打开，才能补充其配方]"
+	}
+
+	WitchSoul: {
+		DisplayName: 至尊女巫之魂
+		Tooltip: "[C/959595:译者补充：请将《龙珠汉化全集》配置选项中修复打开，才能补充其配方]"
+	}
+
+	GokuSenzuBean: {
+		DisplayName: 悟空的仙豆
+		Tooltip: "[C/959595:译者补充：击败硫海遗爵、亵渎天神和犽戎掉落，有且只掉落一次]"
+	}
+
+	DragonGauntlet: {
+		DisplayName: 龙拳
+		Tooltip: 右键攻击：龙拳，召唤一条巨龙追击敌怪
+	}
+
+	StatEditorItem: {
+		DisplayName: 自定义气武器
+		Tooltip:
+			'''
+			持有武器右键点击打开UI
+			你可以使用点数提升武器属性
+			你可以通过击败Boss和完成事件获得点数
+			左键点击图标增加点数，右键点击图标移除点数
+			你也可以按住Shift再任意点击，一次移除/增加10点
+			要离开UI，点击右上角的离开图标
+			要应用更改，点击离开图标的下方图标
+			将此物品保持在快捷栏中选中，即可保持UI打开
+			[C/959595:译者补充：该武器十分复杂，左上属性从左到右分别为：攻击、攻击速度、暴击率、弹幕速度]
+			[C/959595:左下从左到右分别为：武器弹幕AI、武器弹幕额外属性]
+			[C/959595:武器弹幕AI：]
+			[C/959595:普通气弹]
+			[C/959595:追踪 （击败世纪之花）]
+			[C/959595:多发 （击败史莱姆皇后）]
+			[C/959595:元气斩 （击败骷髅王）]
+			[C/959595:环绕 （击败克苏鲁之眼）]
+			[C/959595:反折 （击败蜂王）]
+			[C/959595:二段追踪 （击败任意机械Boss）]
+			[C/959595:武器弹幕额外属性：]
+			[C/959595:无]
+			[C/959595:生命窃取 （击败任意机械Boss）]
+			[C/959595:爆炸 （击败史莱姆皇后）]
+			[C/959595:防御增益 （击败独眼巨鹿）]
+			[C/959595:反弹 （击败世界吞噬者或克苏鲁之脑）]
+			[C/959595:穿墙 （击败骷髅王）]
+			'''
+	}
+
+	LegendaryFist: {
+		DisplayName: 传说之拳
+		Tooltip: 右键攻击：传说粉碎，抓住附近的一名敌怪并对其造成5次伤害
+	}
+
+	NDSpawn: {
+		DisplayName: 龙珠终末石
+		Tooltip:
+			'''
+			无需进入永恒花园即可召唤无名光神
+			[C/959595:译者补充：需启用《众神之怒》]
+			'''
+	}
+
+	UltraKI: {
+		DisplayName: 究极气水晶
+		Tooltip: 下一个境界
+	}
+
+	CosmicCharm: {
+		DisplayName: 寰宇护符
+		Tooltip:
+			'''
+			增加24%气伤害
+			增加18%原版其他职业伤害
+			增加18%暴击率
+			增加1000点最大气值
+			增加14%伤害减免
+			增加3个最大仆从栏
+			大幅提升生命再生速度
+			'''
+	}
+
+	UltraKIFragment: {
+		DisplayName: 究极气碎片
+		Tooltip: 增加3000点最大气值
+	}
+
+	UltraKIPotion: {
+		DisplayName: 究极回气药水
+		Tooltip: 回复6500气
+	}
+
+	UltraKIScroll: {
+		DisplayName: 究极气卷轴
+		Tooltip: 提升集气速度
+	}
+
+	CosmicKISprayer: {
+		DisplayName: 寰宇气喷火器
+		Tooltip: 发射强力的火焰
+	}
+
+	HopeSword: {
+		DisplayName: 希望之剑
+		Tooltip: 每第4次攻击会造成双倍伤害
+	}
+
+	WaveOfStars: {
+		DisplayName: 群星波动
+		Tooltip: ""
+	}
+
+	SignsUI: {
+		DisplayName: 自在极意兆
+		Tooltip: 解锁自在极意兆
+	}
+
+	BlueKaioken: {
+		DisplayName: 超级赛亚人蓝界王拳
+		Tooltip: 解锁超级赛亚人蓝界王拳
+	}
+
+	BossRushSigil: {
+		DisplayName: Boss Rush符印
+		Tooltip: 召唤Boss Rush
+	}
+
+	BOL: {
+		DisplayName: 超级赛亚人桃红2
+		Tooltip: 解锁超级赛亚人桃红2
+	}
+
+	SSBE: {
+		DisplayName: 超级赛亚人蓝进化
+		Tooltip: 解锁超级赛亚人蓝进化
+	}
+
+	SSJR: {
+		DisplayName: 邪恶赛亚人
+		Tooltip: 解锁邪恶赛亚人
+	}
+
+	Wrathful: {
+		DisplayName: 狂怒
+		Tooltip: 解锁狂怒
+	}
+
+	UltraFruit: {
+		DisplayName: 究极之果
+		Tooltip:
+			'''
+			增加100点最大生命值
+			增加10点防御
+			'''
+	}
+
+	UltraDye: {
+		DisplayName: 究极染料
+		Tooltip: ""
+	}
+
+	BlackHoleDye: {
+		DisplayName: 黑洞染料
+		Tooltip: ""
+	}
+
+	HeartShaderDye: {
+		DisplayName: 心之着色染料
+		Tooltip: ""
+	}
+
+	ShaderAuraDye: {
+		DisplayName: Shader Aura染料
+		Tooltip: ""
+	}
+
+	UltraGauntlet: {
+		DisplayName: 究极拳套
+		Tooltip: 右键攻击：究极冲刺，将你传送到附近敌怪并造成伤害
+	}
+
+	UltraKamehameha: {
+		DisplayName: 究极龟派气功波
+		Tooltip: ""
+	}
+
+	BookOfInfo: {
+		DisplayName: 信息之书
+		Tooltip: 左键点击打开或关闭
+	}
+
+	HakaiKI: {
+		DisplayName: Hakai K I
+		Tooltip: ""
+	}
+
+	CosmicLightning: {
+		DisplayName: 寰宇闪电
+		Tooltip: ""
+	}
+
+	BlueFist: {
+		DisplayName: Blue Fist
+		Tooltip: ""
+	}
+
+	BlackScythe: {
+		DisplayName: Black Scythe
+		Tooltip: ""
+	}
+
+	PowerBoost: {
+		DisplayName: 力量增幅
+		Tooltip: ""
+	}
+
+	SpeedBoost: {
+		DisplayName: 速度增幅
+		Tooltip: ""
+	}
+
+	SSJRage: {
+		DisplayName: S S J Rage
+		Tooltip: ""
+	}
+
+	kamehamehabeamDye: {
+		DisplayName: kamehamehabeam染料
+		Tooltip: ""
+	}
+
+	KameShaderDye: {
+		DisplayName: 龟仙人着色染料
+		Tooltip: ""
+	}
+
+	UEUnlock: {
+		DisplayName: U E Unlock
+		Tooltip: ""
+	}
+
+	NebulaKIChestplate: {
+		DisplayName: Nebula K I Chestplate
+		Tooltip: ""
+	}
+
+	NebulaKILeggings: {
+		DisplayName: Nebula K I Leggings
+		Tooltip: ""
+	}
+
+	RadiKILeggings: {
+		DisplayName: Radi K I Leggings
+		Tooltip: ""
+	}
+
+	RaidKIChestplate: {
+		DisplayName: Raid K I Chestplate
+		Tooltip: ""
+	}
+
+	SolarKIChestplate: {
+		DisplayName: Solar K I Chestplate
+		Tooltip: ""
+	}
+
+	SolarKILeggings: {
+		DisplayName: Solar K I Leggings
+		Tooltip: ""
+	}
+
+	StardustKIChestplate: {
+		DisplayName: Stardust K I Chestplate
+		Tooltip: ""
+	}
+
+	StardustKILeggings: {
+		DisplayName: Stardust K I Leggings
+		Tooltip: ""
+	}
+
+	VortexKIChestplate: {
+		DisplayName: Vortex K I Chestplate
+		Tooltip: ""
+	}
+
+	VortexKILeggings: {
+		DisplayName: Vortex K I Leggings
+		Tooltip: ""
+	}
+
+	NebulaKIHelmet: {
+		SetBonus: Mods.BetterDBT.Items.NebulaKIHelmet.SetBonus
+		DisplayName: Nebula K I Helmet
+		Tooltip: ""
+	}
+
+	RadiKIHelmet: {
+		SetBonus: Mods.BetterDBT.Items.RadiKIHelmet.SetBonus
+		DisplayName: Radi K I Helmet
+		Tooltip: ""
+	}
+
+	SolarKIHelmet: {
+		SetBonus: Mods.BetterDBT.Items.SolarKIHelmet.SetBonus
+		DisplayName: Solar K I Helmet
+		Tooltip: ""
+	}
+
+	StardustKIHelmet: {
+		SetBonus: Mods.BetterDBT.Items.StardustKIHelmet.SetBonus
+		DisplayName: Stardust K I Helmet
+		Tooltip: ""
+	}
+
+	VortexKIHelmet: {
+		SetBonus: Mods.BetterDBT.Items.VortexKIHelmet.SetBonus
+		DisplayName: Vortex K I Helmet
+		Tooltip: ""
+	}
+}
+
+Configs: {
+	DragonSettings: {
+		DisplayName: 龙珠设置
+
+		Headers: {
+			Items: 物品
+			Graphics: 图形
+			Content: 内容
+			Reworks: 重做
+			Others: 其他
+		}
+
+		BetterHitBoxes: {
+			Label: 碰撞箱修复
+			Tooltip: 通过将弹幕碰撞箱改为方形来修复其命中判定
+		}
+
+		MoreContent: {
+			Label: 额外内容
+			Tooltip: 添加Chief的龙珠内容 （Chief就是该模组的作者）
+		}
+
+		TrunksRework: {
+			Label: 剑重做
+			Tooltip: 重做泰拉龙珠内的所有剑武器
+		}
+
+		SendStartupMessage: {
+			Label: 禁用进入世界信息
+			Tooltip: 禁用进入世界时，聊天框显示的文本
+		}
+
+		EnableGoku: {
+			Label: 悟空
+			Tooltip:
+				'''
+				启用该选项后，允许悟空生成
+				必须先击败拜月教邪教徒后，悟空才会出现并在Boss战中帮助你
+				'''
+		}
+
+		KIReworks: {
+			Label: 气武器重做
+			Tooltip: ""
+		}
+
+		ClassForms: {
+			Label: Class Forms
+			Tooltip: ""
+		}
+
+		DyeShaderBeams: {
+			Label: 染料ShaderBeams
+			Tooltip: ""
+		}
+
+		NerfForms: {
+			Label: 削弱超级赛亚人形态
+			Tooltip: 启用该选项后，会削弱原版《泰拉龙珠》所有变身
+		}
+	}
+
+	DragonSettingsPlayerSide: {
+		DisplayName: 玩家设置
+
+		Headers: {
+			UI: UI
+			Effects: 特效
+		}
+
+		KeyBindsetting: {
+			Label: 自定义气武器使用快捷键
+			Tooltip: 该选项未实装，无任何效果
+		}
+
+		FlightTrail: {
+			Label: 飞行轨迹
+			Tooltip: 启用后，在飞行时会产生轨迹
+		}
+	}
+}
+
+Keybinds: {
+	"Boost Spirit Bomb.DisplayName": 强化元气弹
+	"Toggle Forms UI.DisplayName": 切换形态界面
+	"Use Fusion attack.DisplayName": 使用融合攻击
+	"Toggle Fusion UI.DisplayName": 切换融合界面
+	"Goku HP UI.DisplayName": 悟空属性界面
+	"Custom Ki Blast menu.DisplayName": 自定义气武器界面（未实装）
+	Transform.DisplayName: 变身
+	"Transfrom Menu.DisplayName": 变身菜单
+	"Fusion UI.DisplayName": 融合界面
+}
+
+UI: {
+	RageResource: Rage : {0} / {1}
+	GODResource: GOD Energy : {0} / {1}
+}

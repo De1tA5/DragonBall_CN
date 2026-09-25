@@ -218,7 +218,7 @@ Items: {
 
 	AbyssalKiCrystal: {
 		DisplayName: 深渊气水晶
-		Tooltip: 
+		Tooltip:
 			'''
 			深渊的远古之怒于其中躁动
 			[C/959595:译者补充：击败月亮领主后，在海洋环境击败敌怪有85%概率掉落]
@@ -228,7 +228,7 @@ Items: {
 	AbominableKiCrystal: {
 		DisplayName: 憎恶气水晶
 		Tooltip:
-			''' 
+			'''
 			融合万灵之魂栖居于此
 			[C/959595:译者补充：击败憎恶后，在微光环境击败敌怪有85%概率掉落]
 			'''
@@ -237,7 +237,7 @@ Items: {
 	CosmicKiCrystal: {
 		DisplayName: 宇宙气水晶
 		Tooltip:
-			''' 
+			'''
 			宇宙的非凡之力蕴藏于其中
 			[C/959595:译者补充：击败厄里达诺斯，宇宙英灵后，在太空高度击败敌怪有85%概率掉落]
 			'''
