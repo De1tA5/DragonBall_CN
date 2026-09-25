@@ -1,7 +1,11 @@
 Configs: {
 	DBCPatchConfig: {
 		DisplayName: D B C Patch Config
-		Headers.ExtraPatches: Extra Patches Header
+
+		Headers: {
+			ExtraPatches: Extra Patches Header
+			SpecialContent: Special Content Header
+		}
 
 		HideDBTBalanceTransformationTree: {
 			Label: Hide D B T Balance Transformation Tree
@@ -20,6 +24,35 @@ Configs: {
 
 		GokuItemsRecipeFix: {
 			Label: Goku Items Recipe Fix
+			Tooltip: ""
+		}
+
+		AutoTransformation: {
+			Label: Auto Transformation
+			Tooltip: ""
+		}
+	}
+
+	SubConfig: {
+		Tooltip: ""
+
+		enableFullPowerBuff: {
+			Label: enable Full Power Buff
+			Tooltip: ""
+		}
+
+		enableShatteredLimitsBuff: {
+			Label: enable Shattered Limits Buff
+			Tooltip: ""
+		}
+
+		enableUIBuff: {
+			Label: enable U I Buff
+			Tooltip: ""
+		}
+
+		enableVVSBuff: {
+			Label: enable V V S Buff
 			Tooltip: ""
 		}
 	}

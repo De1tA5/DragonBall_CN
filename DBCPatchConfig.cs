@@ -37,8 +37,50 @@ namespace DragonBall_CN
 
         #region 夹带私货
 
-        //[Header("SpecialContent")]
+        [Header("SpecialContent")]
 
+        public SubConfig AutoTransformation = new SubConfig();
+
+        #endregion
+
+        #region 自定义数据
+        [SeparatePage]
+        public class SubConfig 
+        {
+            [DefaultValue(false)]
+            public bool enableFullPowerBuff;
+
+            [DefaultValue(false)]
+            public bool enableShatteredLimitsBuff;
+
+            [DefaultValue(false)]
+            public bool enableUIBuff;
+
+            [DefaultValue(false)]
+            public bool enableVVSBuff;
+
+
+            //下面内容用于调试
+            //public override string ToString()
+            //{
+            //    return $"{enableFullPowerBuff} {enableShatteredLimitsBuff} {enableUIBuff} {enableVVSBuff}";
+            //}
+
+            public override bool Equals(object obj)
+            {
+                if (obj is SubConfig other)
+                    return enableFullPowerBuff == other.enableFullPowerBuff &&
+                        enableShatteredLimitsBuff == other.enableShatteredLimitsBuff &&
+                        enableUIBuff == other.enableUIBuff &&
+                        enableVVSBuff == other.enableVVSBuff;
+                return base.Equals(obj);
+            }
+
+            public override int GetHashCode()
+            {
+                return new { enableFullPowerBuff, enableShatteredLimitsBuff, enableUIBuff, enableVVSBuff }.GetHashCode();
+            }
+        }
         #endregion
     }
 }

@@ -1,7 +1,11 @@
 Configs: {
 	DBCPatchConfig: {
 		DisplayName: 汉化补丁额外配置
-		Headers.ExtraPatches: 额外修复
+
+		Headers: {
+			ExtraPatches: 额外修复
+			SpecialContent: 夹带私货
+		}
 
 		HideDBTBalanceTransformationTree: {
 			Label: 移除《Dragon Ball Terraria: Rebalanced: Revived》的传说超赛4
@@ -36,12 +40,45 @@ Configs: {
 
 		GokuItemsRecipeFix: {
 			Label: 修复《Dragon Ball Terraria: Better Projectile Visuals》悟空物品配方
-			Tooltip: 
+			Tooltip:
 				'''
 				启用该选项，修复模组无法合成部分悟空强化物品的配方
 				由于dbzcalamity不再更新，因此需要换成dbzcalamityUTD的物品才能合成
 				[C/FF3E00:默认启用，切换该选项需重新加载]
 				'''
+		}
+
+		AutoTransformation: {
+			Label: 自动变身
+			Tooltip:
+				''' 
+				额外内容，允许玩家变身时一键获得所有可叠加形态
+				[C/FF3E00:默认禁用]
+				'''
+		}
+	}
+
+	SubConfig: {
+		Tooltip: ""
+
+		enableFullPowerBuff: {
+			Label: 全功率
+			Tooltip: ""
+		}
+
+		enableShatteredLimitsBuff: {
+			Label: 突破极限
+			Tooltip: ""
+		}
+
+		enableUIBuff: {
+			Label: 自在极意兆
+			Tooltip: ""
+		}
+
+		enableVVSBuff: {
+			Label: 紫色面纱
+			Tooltip: ""
 		}
 	}
 }
