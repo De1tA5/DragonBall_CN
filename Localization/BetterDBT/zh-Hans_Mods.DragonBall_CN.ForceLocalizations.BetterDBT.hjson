@@ -1009,7 +1009,7 @@ NewContent: {
 
 			4: {
 				// OldString: Boss Reworks for Boss Rush.
-				NewString:Boss Rush的Boss重做
+				NewString: Boss Rush的Boss重做
 			}
 
 			5: {
@@ -1165,7 +1165,7 @@ NewContent: {
 
 			3: {
 				// OldString: Boss Rush is a post moonlord event that'll give you rewards depending on what you-
-				NewString:  Boss Rush是月亮领主后的一个事件
+				NewString: Boss Rush是月亮领主后的一个事件
 			}
 
 			4: {
@@ -2644,7 +2644,7 @@ NewContent: {
 
 			2: {
 				// OldString: "Distance: "
-				NewString: "距离："
+				NewString: 距离：
 			}
 
 			3: {
@@ -3630,7 +3630,7 @@ NewContent: {
 
 				4: {
 					// OldString: This is gonna be fun!
-					NewString:  这一定会很有趣！
+					NewString: 这一定会很有趣！
 				}
 
 				5: {
@@ -3640,7 +3640,7 @@ NewContent: {
 
 				6: {
 					// OldString: Hey it's me goku
-					NewString:  嘿，是我，悟空。
+					NewString: 嘿，是我，悟空。
 				}
 
 				7: {

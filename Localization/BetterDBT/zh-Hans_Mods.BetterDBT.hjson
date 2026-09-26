@@ -192,27 +192,52 @@ Buffs: {
 
 	BlueEvoBuff: {
 		DisplayName: 超级赛亚人蓝进化
-		Description: ""
+		Description: 
+			'''
+			增加10%伤害
+			增加15点防御
+			你的生命值越低，获得的防御越高
+			'''
 	}
 
 	HolyBuff: {
 		DisplayName: 超级赛亚人桃红2
-		Description: ""
+		Description: 
+			'''
+			增加10%伤害
+			增加5点防御
+			提升2点生命再生速度
+			'''
 	}
 
 	KaiokenBlueBuff: {
 		DisplayName: 超级赛亚人蓝界王拳
-		Description: ""
+		Description: 
+			'''
+			增加25%伤害
+			增加5点防御
+			减少18点生命再生速度
+			'''
 	}
 
 	MUIBuff: {
 		DisplayName: 自在极意兆
-		Description: Mods.BetterDBT.Buffs.MUIBuff.Description
+		Description: 
+			'''
+			提升20%移动速度
+			自动回避敌怪
+			'''
 	}
 
 	WrathBuff: {
 		DisplayName: 狂怒
-		Description: ""
+		Description: 
+			'''
+			增加10%伤害
+			增加10点防御
+			提升15%移动速度
+			受到伤害越多，你会变得更强大（最高30%伤害加成）
+			'''
 	}
 
 	RageBuff: {
@@ -232,7 +257,13 @@ Buffs: {
 
 	EvilBuff: {
 		DisplayName: 邪恶赛亚人
-		Description: ""
+		Description: 
+			'''
+			增加5%伤害
+			提升5移动速度
+			减少10点防御
+			减少1点生命再生速度
+			'''
 	}
 
 	BlueFistCooldown: {
@@ -242,12 +273,16 @@ Buffs: {
 
 	ssjRageBuff: {
 		DisplayName: 超级赛亚人暴怒
-		Description: Mods.BetterDBT.Buffs.ssjRageBuff.Description
+		Description: 
+			'''
+			增加15%伤害
+			增加8点防御
+			'''
 	}
 
 	UltraEgoBuff: {
 		DisplayName: 自我极意功
-		Description: Mods.BetterDBT.Buffs.UltraEgoBuff.Description
+		Description: 你的生命值越低，你就越强大
 	}
 
 	DebuffHakai: {
