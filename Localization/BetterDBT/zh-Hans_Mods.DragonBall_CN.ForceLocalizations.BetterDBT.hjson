@@ -718,7 +718,7 @@ Reworks: {
 			BuildTooltip_Hook: {
 				1: {
 					// OldString: "Damage "
-					// NewString: "Damage "
+					NewString: "伤害 "
 				}
 
 				2: {
@@ -738,22 +738,22 @@ Reworks: {
 
 				5: {
 					// OldString: "; Speed "
-					// NewString: "; Speed "
+					NewString: "| 移动速度 "
 				}
 
 				6: {
 					// OldString: "Defense "
-					// NewString: "Defense "
+					NewString: "防御 "
 				}
 
 				7: {
 					// OldString: "; Ki Costs "
-					// NewString: "; Ki Costs "
+					NewString: "| 气消耗 "
 				}
 
 				8: {
 					// OldString: "Ki Drain "
-					// NewString: "Ki Drain "
+					NewString: "气损失 "
 				}
 
 				9: {
@@ -763,22 +763,22 @@ Reworks: {
 
 				10: {
 					// OldString: "/s, "
-					// NewString: "/s, "
+					NewString: /s （精通时
 				}
 
 				11: {
 					// OldString: /s when mastered
-					// NewString: /s when mastered
+					NewString: /s）
 				}
 
 				12: {
 					// OldString: Life Drain: -
-					// NewString: Life Drain: -
+					NewString: 生命损失： -
 				}
 
 				13: {
 					// OldString: /s.
-					// NewString: /s.
+					NewString: /s
 				}
 			}
 
@@ -915,12 +915,12 @@ NewContent: {
 
 			2: {
 				// OldString: Trunks Sword (details coming soon)
-				NewString: 特兰克斯的剑 （具体改动即将到来）
+				NewString: 特兰克斯的剑 （详情敬请期待）
 			}
 
 			3: {
 				// OldString: Destructo Disc (details coming soon)
-				NewString: 元气斩 （具体改动即将到来）
+				NewString: 元气斩 （详情敬请期待）
 			}
 		}
 
@@ -937,37 +937,37 @@ NewContent: {
 
 			3: {
 				// OldString: Server Side.
-				// NewString: Server Side.
+				NewString: 服务器端
 			}
 
 			4: {
 				// OldString: Projectile hitbox fix, this makes all hitboxes sqaure.
-				// NewString: Projectile hitbox fix, this makes all hitboxes sqaure.
+				NewString: 弹幕碰撞框修复，使所有碰撞框变为方形
 			}
 
 			5: {
 				// OldString: Sword Weapon Reworks, fixes swords in the dbt mod.
-				// NewString: Sword Weapon Reworks, fixes swords in the dbt mod.
+				NewString: 剑武器重做，修复泰拉龙珠的剑
 			}
 
 			6: {
 				// OldString: KI Weapon Reworks, reworks some dbt weapons
-				// NewString: KI Weapon Reworks, reworks some dbt weapons
+				NewString: 气武器重做，重做泰拉龙珠部分武器
 			}
 
 			7: {
 				// OldString: SS form Reworks, nerfs all forms.
-				// NewString: SS form Reworks, nerfs all forms.
+				NewString: 超级赛亚人形态重做，削弱所有形态
 			}
 
 			8: {
 				// OldString: New Content, allows you to use fusion, fist weapons.
-				// NewString: New Content, allows you to use fusion, fist weapons.
+				NewString: 新内容，允许你使用融合、拳套武器
 			}
 
 			9: {
 				// OldString: Goku, this just lets goku spawn in and help you.
-				// NewString: Goku, this just lets goku spawn in and help you.
+				NewString: 悟空，让悟空能被生成并帮助你
 			}
 
 			10: {
@@ -977,17 +977,17 @@ NewContent: {
 
 			11: {
 				// OldString: Player Side.
-				// NewString: Player Side.
+				NewString: 玩家相关
 			}
 
 			12: {
 				// OldString: Custom ki blast uses Right-click, if turned off it'll use a keybind.
-				// NewString: Custom ki blast uses Right-click, if turned off it'll use a keybind.
+				NewString: 自定义气武器默认使用右键打开界面，关闭该选项后改用按键打开（未实装）
 			}
 
 			13: {
 				// OldString: Flight Trail, just gives flight a cool trail.
-				// NewString: Flight Trail, just gives flight a cool trail.
+				NewString: 飞行轨迹，提供更酷的飞行轨迹
 			}
 		}
 
@@ -1004,32 +1004,32 @@ NewContent: {
 
 			3: {
 				// OldString: Future planned content will appear here.
-				// NewString: Future planned content will appear here.
+				NewString: 未来计划内容如下
 			}
 
 			4: {
 				// OldString: Boss Reworks for Boss Rush.
-				// NewString: Boss Reworks for Boss Rush.
+				NewString:Boss Rush的Boss重做
 			}
 
 			5: {
 				// OldString: Rework all Forms
-				// NewString: Rework all Forms
+				NewString: 重做所有形态
 			}
 
 			6: {
 				// OldString: Rework all weapons and armor.
-				// NewString: Rework all weapons and armor.
+				NewString: 重做所有武器和盔甲
 			}
 
 			7: {
 				// OldString: Ultra Mage weapon for the ultra ki tier.
-				// NewString: Ultra Mage weapon for the ultra ki tier.
+				NewString: 究极魔法武器
 			}
 
 			8: {
 				// OldString: New config settings for nerfing ss forms (Done).
-				// NewString: New config settings for nerfing ss forms (Done).
+				NewString: 新配置用于削弱超级赛亚人形态（已完成）
 			}
 
 			9: {
@@ -1049,7 +1049,7 @@ NewContent: {
 
 			12: {
 				// OldString: Ultra Ki variant.
-				// NewString: Ultra Ki variant.
+				NewString: 究极气水晶的其他变种
 			}
 
 			13: {
@@ -1059,7 +1059,7 @@ NewContent: {
 
 			14: {
 				// OldString: Lord Beerus Boss Fight.
-				// NewString: Lord Beerus Boss Fight.
+				NewString: 比鲁斯Boss战
 			}
 
 			15: {
@@ -1071,24 +1071,24 @@ NewContent: {
 		ShowWeaponsClass: {
 			1: {
 				// OldString: Weapons
-				// NewString: Weapons
+				NewString: 武器
 			}
 
 			2: {
 				// OldString: Fist Sub Class
-				// NewString: Fist Sub Class
+				NewString: 拳套职业
 			}
 
 			3: {
 				// OldString: Normal ki Weapons and other weapons(details coming soon).
-				// NewString: Normal ki Weapons and other weapons(details coming soon).
+				NewString: 普通气武器和其他武器（详情敬请期待）
 			}
 		}
 
 		FusionPage: {
 			1: {
 				// OldString: Fusion
-				// NewString: Fusion
+				NewString: 融合
 			}
 
 			2: {
@@ -1108,47 +1108,47 @@ NewContent: {
 
 			5: {
 				// OldString: To obtain fusion, you'll need to kill all mech bosses,
-				// NewString: To obtain fusion, you'll need to kill all mech bosses,
+				NewString: 获取融合功能，你想需要击败所有机械Boss
 			}
 
 			6: {
 				// OldString: and then wait for 5 minutes for the items to spawn near the player.
-				// NewString: and then wait for 5 minutes for the items to spawn near the player.
+				NewString: 然后等待5分钟，伪融合项链就会在玩家附近生成
 			}
 
 			7: {
 				// OldString: The fusion power stat starts out at 0% (maxing out at 50%),
-				// NewString: The fusion power stat starts out at 0% (maxing out at 50%),
+				NewString: 融合力量属性初始为0%（最高为 50%）
 			}
 
 			8: {
 				// OldString: it'll increase by a small amount every second as long as the players are fused.
-				// NewString: it'll increase by a small amount every second as long as the players are fused.
+				NewString: 只要玩家处于融合状态，它每秒都会有小幅提升
 			}
 
 			9: {
 				// OldString: Fusion only lasts for 5 minutes and it has a cooldown of 15 minutes.
-				// NewString: Fusion only lasts for 5 minutes and it has a cooldown of 15 minutes.
+				NewString: 融合仅持续5分钟，冷却时间为15分钟
 			}
 
 			10: {
 				// OldString: Fusion will break if the players are too far away from each other (50 blocks),
-				// NewString: Fusion will break if the players are too far away from each other (50 blocks),
+				NewString: 如果玩家彼此距离过远超过50 格，或者其中一名玩家死亡
 			}
 
 			11: {
 				// OldString: or if one player dies.
-				// NewString: or if one player dies.
+				NewString: 融合将会解除
 			}
 
 			12: {
 				// OldString: Fusion effects. defense, damage, hp, mana, flight time, aggro, attack speed, luck
-				// NewString: Fusion effects. defense, damage, hp, mana, flight time, aggro, attack speed, luck
+				NewString: 融合效果：防御、伤害、生命值、魔力、飞行时间、仇恨、攻击速度、幸运
 			}
 
 			13: {
 				// OldString: Check Controls for fusion UI
-				// NewString: Check Controls for fusion UI
+				NewString: 打开融合界面以查看
 			}
 		}
 
@@ -1165,84 +1165,84 @@ NewContent: {
 
 			3: {
 				// OldString: Boss Rush is a post moonlord event that'll give you rewards depending on what you-
-				// NewString: Boss Rush is a post moonlord event that'll give you rewards depending on what you-
+				NewString:  Boss Rush是月亮领主后的一个事件
 			}
 
 			4: {
 				// OldString: -you do during the event
-				// NewString: -you do during the event
+				NewString: 会根据你在事件中的表现给予你奖励
 			}
 
 			5: {
 				// OldString: Heres a list of the bosses in order
-				// NewString: Heres a list of the bosses in order
+				NewString: 以下是按顺序生成的Boss列表
 			}
 
 			6: {
 				// OldString: QueenSlimeBoss
-				// NewString: QueenSlimeBoss
+				NewString: 史莱姆皇后
 			}
 
 			7: {
 				// OldString: Twins
-				// NewString: Twins
+				NewString: 双子魔眼
 			}
 
 			8: {
 				// OldString: SkeletronPrime
-				// NewString: SkeletronPrime
+				NewString: 机械骷髅王
 			}
 
 			9: {
 				// OldString: TheDestroyer
-				// NewString: TheDestroyer
+				NewString: 毁灭者
 			}
 
 			10: {
 				// OldString: Betsy
-				// NewString: Betsy
+				NewString: 双足翼龙
 			}
 
 			11: {
 				// OldString: Plantera
-				// NewString: Plantera
+				NewString: 世纪之花
 			}
 
 			12: {
 				// OldString: Golem
-				// NewString: Golem
+				NewString: 石巨人
 			}
 
 			13: {
 				// OldString: DukeFishron
-				// NewString: DukeFishron
+				NewString: 猪龙鱼公爵
 			}
 
 			14: {
 				// OldString: Empress of Light
-				// NewString: Empress of Light
+				NewString: 光之女皇
 			}
 
 			15: {
 				// OldString: Moon Lord
-				// NewString: Moon Lord
+				NewString: 月亮领主
 			}
 
 			16: {
 				// OldString: Rewards
-				// NewString: Rewards
+				NewString: 奖励
 			}
 		}
 
 		RewardsPage: {
 			1: {
 				// OldString: Rewards
-				// NewString: Rewards
+				NewString: 奖励
 			}
 
 			2: {
 				// OldString: Ultra KI Crystal.
-				// NewString: Ultra KI Crystal.
+				NewString: 究极气水晶
 			}
 
 			3: {
@@ -1252,7 +1252,7 @@ NewContent: {
 
 			4: {
 				// OldString: Signs of Ultra Instinct, No hit boss rush
-				// NewString: Signs of Ultra Instinct, No hit boss rush
+				NewString: 自在极意兆 （无伤Boss Rush）
 			}
 
 			5: {
@@ -1262,7 +1262,7 @@ NewContent: {
 
 			6: {
 				// OldString: SSB Kaioken, Beat Boss rush with kaioken on for the whole time
-				// NewString: SSB Kaioken, Beat Boss rush with kaioken on for the whole time
+				NewString: 超级赛亚人蓝界王拳 （全程使用界王拳通过Boss Rush）
 			}
 
 			7: {
@@ -1272,7 +1272,7 @@ NewContent: {
 
 			8: {
 				// OldString: "SSB evolution, Beat without dying "
-				// NewString: "SSB evolution, Beat without dying "
+				NewString: 超级赛亚人蓝进化 （未死亡情况下通过Boss Rush）
 			}
 
 			9: {
@@ -1282,7 +1282,7 @@ NewContent: {
 
 			10: {
 				// OldString: Wrathful, don't take more than 2k damage
-				// NewString: Wrathful, don't take more than 2k damage
+				NewString: 狂怒 （受到的总伤害不超过2000）
 			}
 
 			11: {
@@ -1292,7 +1292,7 @@ NewContent: {
 
 			12: {
 				// OldString: SSJR 2, SpeedRun Boss rush
-				// NewString: SSJR 2, SpeedRun Boss rush
+				NewString: 超级赛亚人桃红2 （10分钟内速通Boss Rush）
 			}
 
 			13: {
@@ -1302,14 +1302,14 @@ NewContent: {
 
 			14: {
 				// OldString: Check Controls for Forms UI
-				// NewString: Check Controls for Forms UI
+				NewString: 打开变身界面以查看
 			}
 		}
 
 		ShowFistSubClassWeapons: {
 			1: {
 				// OldString: Fist Sub Class
-				// NewString: Fist Sub Class
+				NewString: 拳套职业
 			}
 
 			2: {
@@ -1319,27 +1319,27 @@ NewContent: {
 
 			3: {
 				// OldString: Basic Combo
-				// NewString: Basic Combo
+				NewString: 基础连段
 			}
 
 			4: {
 				// OldString: Kaioken Combo
-				// NewString: Kaioken Combo
+				NewString: 界王拳
 			}
 
 			5: {
 				// OldString: Star Fist
-				// NewString: Star Fist
+				NewString: 星之拳
 			}
 
 			6: {
 				// OldString: Blazing Gauntlet
-				// NewString: Blazing Gauntlet
+				NewString: 炽焰拳套
 			}
 
 			7: {
 				// OldString: Mech Gauntlet
-				// NewString: Mech Gauntlet
+				NewString: Mech Gauntlet
 			}
 
 			8: {
@@ -1386,7 +1386,7 @@ NewContent: {
 
 			4: {
 				// OldString: Basic Combo
-				// NewString: Basic Combo
+				NewString: 基础连段
 			}
 
 			5: {
@@ -2446,14 +2446,14 @@ NewContent: {
 
 			4: {
 				// OldString: Close
-				// NewString: Close
+				NewString: 关闭
 			}
 		}
 
 		Update: {
 			1: {
 				// OldString: Fusion Boost: +
-				// NewString: Fusion Boost: +
+				NewString: 融合增幅： +
 			}
 
 			2: {
@@ -2470,29 +2470,29 @@ NewContent: {
 		GetDustLabel: {
 			1: {
 				// OldString: "Dust Effect: "
-				// NewString: "Dust Effect: "
+				NewString: "粒子效果： "
 			}
 		}
 
 		GetDustID: {
 			1: {
 				// OldString: Magic
-				// NewString: Magic
+				NewString: 魔法
 			}
 
 			2: {
 				// OldString: Terra
-				// NewString: Terra
+				NewString: 大地
 			}
 
 			3: {
 				// OldString: Smoke
-				// NewString: Smoke
+				NewString: 烟雾
 			}
 
 			4: {
 				// OldString: water
-				// NewString: water
+				NewString: 水
 			}
 
 			5: {
@@ -2502,22 +2502,22 @@ NewContent: {
 
 			6: {
 				// OldString: Fire
-				// NewString: Fire
+				NewString: 火焰
 			}
 
 			7: {
 				// OldString: Rune
-				// NewString: Rune
+				NewString: 符文
 			}
 
 			8: {
 				// OldString: Snow
-				// NewString: Snow
+				NewString: 雪
 			}
 
 			9: {
 				// OldString: Shadow Flame
-				// NewString: Shadow Flame
+				NewString: 暗影焰
 			}
 
 			10: {
@@ -2527,7 +2527,7 @@ NewContent: {
 
 			11: {
 				// OldString: Firework Red
-				// NewString: Firework Red
+				NewString: 红色烟火
 			}
 
 			12: {
@@ -2537,17 +2537,17 @@ NewContent: {
 
 			13: {
 				// OldString: Shimmer
-				// NewString: Shimmer
+				NewString: 微光
 			}
 
 			14: {
 				// OldString: Diamond
-				// NewString: Diamond
+				NewString: 钻石
 			}
 
 			15: {
 				// OldString: Gold Coin
-				// NewString: Gold Coin
+				NewString: 金币
 			}
 
 			16: {
@@ -2644,12 +2644,12 @@ NewContent: {
 
 			2: {
 				// OldString: "Distance: "
-				// NewString: "Distance: "
+				NewString: "距离："
 			}
 
 			3: {
 				// OldString: " tiles"
-				// NewString: " tiles"
+				NewString: 格
 			}
 		}
 	}
@@ -3381,57 +3381,57 @@ NewContent: {
 
 				7: {
 					// OldString: This is a Super Saiyan
-					// NewString: This is a Super Saiyan
+					NewString: 这就是超级赛亚人。
 				}
 
 				8: {
 					// OldString: Now we're getting serious
-					// NewString: Now we're getting serious
+					NewString: 现在我们要认真了。
 				}
 
 				9: {
 					// OldString: I'm gonna slap some sense into you!
-					// NewString: I'm gonna slap some sense into you!
+					NewString: 我要把你打醒！
 				}
 
 				10: {
 					// OldString: Now this... is Super Saiyan Blue.
-					// NewString: Now this... is Super Saiyan Blue.
+					NewString: 现在这个……就是超级赛亚人蓝。
 				}
 
 				11: {
 					// OldString: You heartless bastard!
-					// NewString: You heartless bastard!
+					NewString: 你这个没心没肺的混蛋！
 				}
 
 				12: {
 					// OldString: This is Super Saiyan God.
-					// NewString: This is Super Saiyan God.
+					NewString: 这就是超级赛亚人之神。
 				}
 
 				13: {
 					// OldString: Here we go!
-					// NewString: Here we go!
+					NewString: 要上了！
 				}
 
 				14: {
 					// OldString: This is Ultra Instinct.
-					// NewString: This is Ultra Instinct.
+					NewString: 这就是自在极意功。
 				}
 
 				15: {
 					// OldString: I’ve entered a new realm of power.
-					// NewString: I’ve entered a new realm of power.
+					NewString: 我已踏入全新的力量境界。
 				}
 
 				16: {
 					// OldString: I won't let anyone hurt my friends!
-					// NewString: I won't let anyone hurt my friends!
+					NewString: 我不会让任何人伤害我的朋友！
 				}
 
 				17: {
 					// OldString: "Goku: "
-					// NewString: "Goku: "
+					NewString: "悟空： "
 				}
 			}
 
@@ -3468,22 +3468,22 @@ NewContent: {
 
 				7: {
 					// OldString: Nice, I got some new senzu beans!
-					// NewString: Nice, I got some new senzu beans!
+					NewString: 不错，我拿到了一些新的仙豆！
 				}
 
 				8: {
 					// OldString: I found some senzu beans on the floor!
-					// NewString: I found some senzu beans on the floor!
+					NewString: 我在地上发现了一些仙豆！
 				}
 
 				9: {
 					// OldString: Senzu beans? Sweet!
-					// NewString: Senzu beans? Sweet!
+					NewString: 仙豆？太棒了！
 				}
 
 				10: {
 					// OldString: "Goku: "
-					// NewString: "Goku: "
+					NewString: "悟空： "
 				}
 
 				11: {
@@ -3493,49 +3493,49 @@ NewContent: {
 
 				12: {
 					// OldString: I'm lucky that I have this senzu bean!
-					// NewString: I'm lucky that I have this senzu bean!
+					NewString: 幸好我有这颗仙豆！
 				}
 
 				13: {
 					// OldString: Time to use a senzu bean!
-					// NewString: Time to use a senzu bean!
+					NewString: 是时候使用仙豆了！
 				}
 
 				14: {
 					// OldString: A senzu bean! Just what I needed!
-					// NewString: A senzu bean! Just what I needed!
+					NewString: 一颗仙豆！正是我需要的！
 				}
 			}
 
 			FormAI: {
 				1: {
 					// OldString: Goku: Ka...
-					// NewString: Goku: Ka...
+					NewString: 悟空： 龟……
 				}
 
 				2: {
 					// OldString: Goku: Me...
-					// NewString: Goku: Me...
+					NewString: 悟空： 派……
 				}
 
 				3: {
 					// OldString: Goku: Ha...
-					// NewString: Goku: Ha...
+					NewString: 悟空： 气……
 				}
 
 				4: {
 					// OldString: Goku: HAAAA!!
-					// NewString: Goku: HAAAA!!
+					NewString: 悟空： 功波！！
 				}
 
 				5: {
 					// OldString: DRAGON FIST!
-					// NewString: DRAGON FIST!
+					NewString: 龙拳！
 				}
 
 				6: {
 					// OldString: Goku: DRAGON FIST
-					// NewString: Goku: DRAGON FIST
+					NewString: 悟空： 龙拳
 				}
 			}
 
@@ -3547,46 +3547,46 @@ NewContent: {
 
 				2: {
 					// OldString: KAIOKEN!
-					// NewString: KAIOKEN!
+					NewString: 界王拳！
 				}
 
 				3: {
 					// OldString: Goku: KAIOKEN!
-					// NewString: Goku: KAIOKEN!
+					NewString: 悟空： 界王拳！
 				}
 			}
 
 			ModifyHitByProjectile: {
 				1: {
 					// OldString: You're going to have to better than that!
-					// NewString: You're going to have to better than that!
+					NewString: 你还得再加把劲才行！
 				}
 
 				2: {
 					// OldString: Is that all you got?
-					// NewString: Is that all you got?
+					NewString: 这就是你全部本事吗？
 				}
 
 				3: {
 					// OldString: I know you can hit harder than that
-					// NewString: I know you can hit harder than that
+					NewString: 我知道你能打得更狠。
 				}
 
 				4: {
 					// OldString: Heh, that tickled.
-					// NewString: Heh, that tickled.
+					NewString: 呵，这是挠痒痒吧。
 				}
 			}
 
 			SetChatButtons: {
 				1: {
 					// OldString: Want to fight someone strong?
-					// NewString: Want to fight someone strong?
+					NewString: 想和强者打一场吗？
 				}
 
 				2: {
 					// OldString: Thanks for the help
-					// NewString: Thanks for the help
+					NewString: 谢谢你的帮忙。
 				}
 			}
 
@@ -3615,54 +3615,54 @@ NewContent: {
 			GetChat: {
 				1: {
 					// OldString: Don't worry, I've got your back!
-					// NewString: Don't worry, I've got your back!
+					NewString: 别担心，我会做你的后盾！
 				}
 
 				2: {
 					// OldString: Who are we going to fight?
-					// NewString: Who are we going to fight?
+					NewString: 我们要和谁战斗？
 				}
 
 				3: {
 					// OldString: I'm getting excited for this next fight.
-					// NewString: I'm getting excited for this next fight.
+					NewString: 我已经开始期待下一场战斗了。
 				}
 
 				4: {
 					// OldString: This is gonna be fun!
-					// NewString: This is gonna be fun!
+					NewString:  这一定会很有趣！
 				}
 
 				5: {
 					// OldString: I love a good challenge!
-					// NewString: I love a good challenge!
+					NewString: 我喜欢精彩的挑战！
 				}
 
 				6: {
 					// OldString: Hey it's me goku
-					// NewString: Hey it's me goku
+					NewString:  嘿，是我，悟空。
 				}
 
 				7: {
 					// OldString: Who are we going to fight next?
-					// NewString: Who are we going to fight next?
+					NewString: 我们接下来要和谁战斗？
 				}
 
 				8: {
 					// OldString: You're pretty strong, we should spar sometime.
-					// NewString: You're pretty strong, we should spar sometime.
+					NewString: 你挺强的，我们改天切磋一下吧。
 				}
 
 				9: {
 					// OldString: Wanna grab something to eat later?
-					// NewString: Wanna grab something to eat later?
+					NewString: 待会儿要不要一起去吃点东西？
 				}
 			}
 
 			SetBestiary: {
 				1: {
 					// OldString: The hope of the universe.
-					// NewString: The hope of the universe.
+					NewString: 宇宙的希望
 				}
 			}
 		}
@@ -3811,32 +3811,32 @@ NewContent: {
 			Draw: {
 				1: {
 					// OldString: Advanced Combat Techniques
-					// NewString: Advanced Combat Techniques
+					NewString: 先进战斗技术
 				}
 
 				2: {
 					// OldString: Advanced Combat Techniques: Volume Two
-					// NewString: Advanced Combat Techniques: Volume Two
+					NewString: 先进战斗技术：卷二
 				}
 
 				3: {
 					// OldString: Unlock after beating Polterghast and crafting the Polterghast soul
-					// NewString: Unlock after beating Polterghast and crafting the Polterghast soul
+					NewString: 击败噬魂幽花并制作噬魂幽花魂晶后解锁
 				}
 
 				4: {
 					// OldString: Unlock after beating Dog and crafting the God soul
-					// NewString: Unlock after beating Dog and crafting the God soul
+					NewString: 击败神明吞噬者并制作神之魂晶后解锁
 				}
 
 				5: {
 					// OldString: Unlock after beating Supreme Calamitas and crafting the witch soul
-					// NewString: Unlock after beating Supreme Calamitas and crafting the witch soul
+					NewString: 击败至尊女巫，灾厄并制作至尊女巫魂晶后解锁
 				}
 
 				6: {
 					// OldString: 1 is Dropped by The Old Duke, 1 is Dropped by Yharon, 1 is Dropped by Storm Weaver
-					// NewString: 1 is Dropped by The Old Duke, 1 is Dropped by Yharon, 1 is Dropped by Storm Weaver
+					NewString: 硫海遗爵、亵渎天神和犽戎各掉落1颗
 				}
 			}
 		}
@@ -3931,12 +3931,12 @@ NewContent: {
 				UseItem: {
 					1: {
 						// OldString: Goku is stronger now
-						NewString: 悟空现在变得更强大了
+						NewString: 悟空现在变得更为强大了
 					}
 
 					2: {
 						// OldString: Goku has already absorbed this power.
-						NewString: 悟空已经吸收过这股力量
+						NewString: 悟空已经吸收过这股力量了
 					}
 				}
 
@@ -3967,12 +3967,12 @@ NewContent: {
 				UseItem: {
 					1: {
 						// OldString: Goku is stronger now
-						// NewString: Goku is stronger now
+						NewString: 悟空现在变得更为强大了
 					}
 
 					2: {
 						// OldString: Goku has already absorbed this power.
-						// NewString: Goku has already absorbed this power.
+						NewString: 悟空已经吸收过这股力量了
 					}
 				}
 
@@ -4003,12 +4003,12 @@ NewContent: {
 				UseItem: {
 					1: {
 						// OldString: Goku is stronger now
-						// NewString: Goku is stronger now
+						NewString: 悟空现在变得更为强大了
 					}
 
 					2: {
 						// OldString: Goku has already absorbed this power.
-						// NewString: Goku has already absorbed this power.
+						NewString: 悟空已经吸收过这股力量了
 					}
 				}
 
@@ -4039,12 +4039,12 @@ NewContent: {
 				UseItem: {
 					1: {
 						// OldString: Goku can't hold any more Senzu Beans!
-						// NewString: Goku can't hold any more Senzu Beans!
+						NewString: 悟空没法持有更多的仙豆了！
 					}
 
 					2: {
 						// OldString: "Goku heal count: "
-						// NewString: "Goku heal count: "
+						NewString: "悟空治疗量：  "
 					}
 
 					3: {
@@ -4159,7 +4159,7 @@ NewContent: {
 			OnInitialize: {
 				1: {
 					// OldString: Select Form
-					// NewString: Select Form
+					NewString: 选择形态
 				}
 
 				2: {

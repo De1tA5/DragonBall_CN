@@ -318,17 +318,17 @@ Items: {
 	}
 
 	GodSoul: {
-		DisplayName: 神之魂
+		DisplayName: 神之魂晶
 		Tooltip: "[C/959595:译者补充：请将《龙珠汉化全集》配置选项中修复打开，才能补充其配方]"
 	}
 
 	PolterghastSoul: {
-		DisplayName: 噬魂幽花之魂
+		DisplayName: 噬魂幽花魂晶
 		Tooltip: "[C/959595:译者补充：请将《龙珠汉化全集》配置选项中修复打开，才能补充其配方]"
 	}
 
 	WitchSoul: {
-		DisplayName: 至尊女巫之魂
+		DisplayName: 至尊女巫魂晶
 		Tooltip: "[C/959595:译者补充：请将《龙珠汉化全集》配置选项中修复打开，才能补充其配方]"
 	}
 
