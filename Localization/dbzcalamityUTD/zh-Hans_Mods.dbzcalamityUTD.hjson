@@ -1266,7 +1266,7 @@ Items: {
 	}
 
 	SingleMonday: {
-		DisplayName: 单日
+		DisplayName: 孤凌月曜
 		Tooltip:
 			'''
 			最大蓄力 - 10
@@ -1302,7 +1302,7 @@ Items: {
 	}
 
 	EndlessMonday: {
-		DisplayName: 无尽之日
+		DisplayName: 无尽月曜
 		Tooltip:
 			'''
 			最大蓄力 - 20
@@ -1500,13 +1500,13 @@ Projectiles: {
 	AngelicBeamCharge.DisplayName: 天使射线蓄力
 	BloodMassacreBeam.DisplayName: 血腥屠杀射线
 	BloodMassacreCharge.DisplayName: 血腥屠杀蓄力
-	EndlessMondayBeam.DisplayName: 无尽之日射线
-	EndlessMondayCharge.DisplayName: 无尽之日蓄力
+	EndlessMondayBeam.DisplayName: 无尽月曜射线
+	EndlessMondayCharge.DisplayName: 无尽月曜蓄力
 	LegendaryCannonBeam.DisplayName: 传说气功炮射线
 	LegendaryCannonCharge.DisplayName: 传说气功炮蓄力
 	MultipleMasenkoBeam.DisplayName: Multiple Masenko射线
-	SingleMondayBeam.DisplayName: 单日射线
-	SingleMondayCharge.DisplayName: 单日蓄力
+	SingleMondayBeam.DisplayName: 孤凌月曜射线
+	SingleMondayCharge.DisplayName: 孤凌月曜蓄力
 	PowerPoleProjectile.DisplayName: 如意棒弹幕
 	RayBlast.DisplayName: 激光爆弹
 	SnowballBarrage.DisplayName: 连续雪球
