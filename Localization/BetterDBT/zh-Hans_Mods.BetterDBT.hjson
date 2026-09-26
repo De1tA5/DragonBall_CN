@@ -39,130 +39,130 @@ NPCs: {
 }
 
 Projectiles: {
-	KiBlastGoku.DisplayName: Ki Blast Goku
-	DragonFistHead.DisplayName: Dragon Fist Head
-	DragonFistBody.DisplayName: Dragon Fist Body
-	DragonFistTail.DisplayName: Dragon Fist Tail
-	FistProj.DisplayName: Fist Proj
-	SSJ3Effectremake.DisplayName: S S J3 Effectremake
-	GolemStarProjectile.DisplayName: Golem Star Projectile
-	MeteorFistProj.DisplayName: Meteor Fist Proj
-	MeteorShieldProjectile.DisplayName: Meteor Shield Projectile
-	KaiokenFistProj.DisplayName: Kaioken Fist Proj
-	KaiokenShieldProjectile.DisplayName: Kaioken Shield Projectile
-	StarFallFistProj.DisplayName: Star Fall Fist Proj
-	StarFallShieldProjectile.DisplayName: Star Fall Shield Projectile
-	RadiantFistProj.DisplayName: Radiant Fist Proj
-	RadiantShieldProjectile.DisplayName: Radiant Shield Projectile
-	TrunksSwordMaxSwing.DisplayName: Trunks Sword Max Swing
-	TrunksSwordSwing.DisplayName: Trunks Sword Swing
-	MechFistProj.DisplayName: Mech Fist Proj
-	MechShieldProjectile.DisplayName: Mech Shield Projectile
-	WormBody.DisplayName: Worm Body
-	WormHead.DisplayName: Worm Head
-	WormTail.DisplayName: Worm Tail
-	MegaMechFistProj.DisplayName: Mega Mech Fist Proj
-	retLaser.DisplayName: ret Laser
-	Betterlightning.DisplayName: Betterlightning
-	ThunderFistProj.DisplayName: Thunder Fist Proj
-	BlazingGauntletProj.DisplayName: Blazing Gauntlet Proj
-	FireShield.DisplayName: Fire Shield
+	KiBlastGoku.DisplayName: 悟空气功弹
+	DragonFistHead.DisplayName: 龙拳头部
+	DragonFistBody.DisplayName: 龙拳身体
+	DragonFistTail.DisplayName: 龙拳尾部
+	FistProj.DisplayName: 拳弹幕
+	SSJ3Effectremake.DisplayName: 超级赛亚人3特效重做
+	GolemStarProjectile.DisplayName: 魔像星弹幕
+	MeteorFistProj.DisplayName: 基础拳套弹幕
+	MeteorShieldProjectile.DisplayName: 基础护盾弹幕
+	KaiokenFistProj.DisplayName: 界王拳弹幕
+	KaiokenShieldProjectile.DisplayName: 界王拳护盾弹幕
+	StarFallFistProj.DisplayName: 星之拳弹幕
+	StarFallShieldProjectile.DisplayName: 星之拳护盾弹幕
+	RadiantFistProj.DisplayName: 辐辉拳套弹幕
+	RadiantShieldProjectile.DisplayName: 辐辉护盾弹幕
+	TrunksSwordMaxSwing.DisplayName: 特兰克斯的剑最大挥舞
+	TrunksSwordSwing.DisplayName: 特兰克斯的剑挥舞
+	MechFistProj.DisplayName: 机械拳套弹幕
+	MechShieldProjectile.DisplayName: 机械护盾弹幕
+	WormBody.DisplayName: 机械蠕虫身体
+	WormHead.DisplayName: 机械蠕虫头部
+	WormTail.DisplayName: 机械蠕虫尾部
+	MegaMechFistProj.DisplayName: 巨大机械拳套弹幕
+	retLaser.DisplayName: 红色激光
+	Betterlightning.DisplayName: 雷拳闪电
+	ThunderFistProj.DisplayName: 雷拳弹幕
+	BlazingGauntletProj.DisplayName: 炽焰拳套弹幕
+	FireShield.DisplayName: 火焰护盾
 	SpiritBomb.DisplayName: Spirit Bomb
-	Blast.DisplayName: Blast
-	StarDustFallProj.DisplayName: Star Dust Fall Proj
-	BurningAttackProj.DisplayName: Burning Attack Proj
-	BurningattackHold.DisplayName: Burningattack Hold
-	kamehameha.DisplayName: kamehameha
-	kamehamehaKaioken.DisplayName: kamehameha Kaioken
-	DragonFistBodyWeapon.DisplayName: Dragon Fist Body Weapon
-	DragonFistHeadWeapon.DisplayName: Dragon Fist Head Weapon
-	DragonFistTailWeapon.DisplayName: Dragon Fist Tail Weapon
-	DragonGauntletProj.DisplayName: Dragon Gauntlet Proj
-	MultiModeProjectile.DisplayName: Multi Mode Projectile
-	BlastKI.DisplayName: Blast K I
-	LegendaryProj.DisplayName: Legendary Proj
-	BeerusFistProj.DisplayName: Beerus Fist Proj
-	CosmicFlame.DisplayName: Cosmic Flame
+	Blast.DisplayName: 气弹
+	StarDustFallProj.DisplayName: 星尘陨落弹幕
+	BurningAttackProj.DisplayName: 燃烧攻击弹幕
+	BurningattackHold.DisplayName: 燃烧攻击手持弹幕
+	kamehameha.DisplayName: 龟派气功波
+	kamehamehaKaioken.DisplayName: 界王拳龟派气功波
+	DragonFistBodyWeapon.DisplayName: 武器龙拳身体
+	DragonFistHeadWeapon.DisplayName: 武器龙拳头部
+	DragonFistTailWeapon.DisplayName: 武器龙拳尾部
+	DragonGauntletProj.DisplayName: 龙拳弹幕
+	MultiModeProjectile.DisplayName: 多种模式弹幕
+	BlastKI.DisplayName: 气爆炸
+	LegendaryProj.DisplayName: 传说拳套弹幕
+	BeerusFistProj.DisplayName: Beerus Fist弹幕
+	CosmicFlame.DisplayName: 寰宇火焰
 	HopeSwordSwing.DisplayName: 希望之剑挥舞
-	WaveOfStarsProj.DisplayName: Wave Of Stars Proj
+	WaveOfStarsProj.DisplayName: 群星波动弹幕
 	HopeSwordMaxSwing.DisplayName: 希望之剑最大挥舞
 	InfernadoRevenge.DisplayName: Infernado Revenge
-	UltraFistProj.DisplayName: 究极Fist Proj
-	UltraShieldProjectile.DisplayName: 究极Shield Projectile
-	UltraBeamProj.DisplayName: 究极Beam Proj
-	UltraKamehamehaCharge.DisplayName: 究极Kamehameha Charge
-	CosmicLightningProj.DisplayName: Cosmic Lightning Proj
+	UltraFistProj.DisplayName: 究极拳套弹幕
+	UltraShieldProjectile.DisplayName: 究极拳套护盾幕
+	UltraBeamProj.DisplayName: 究极龟派气功波射线
+	UltraKamehamehaCharge.DisplayName: 究极龟派气功波蓄力
+	CosmicLightningProj.DisplayName: 寰宇闪电弹幕
 	HakaiTraps.DisplayName: Hakai Traps
-	BlueFistProj.DisplayName: Blue Fist Proj
+	BlueFistProj.DisplayName: 蓝拳弹幕
 	BlackScytheSwing.DisplayName: Black Scythe Swing
-	GelBullet.DisplayName: Gel Bullet
-	HomingRedLaser.DisplayName: Homing Red Laser
-	WeakHakaiBolt.DisplayName: Weak Hakai Bolt
+	GelBullet.DisplayName: 凝胶子弹
+	HomingRedLaser.DisplayName: 追踪红色激光
+	WeakHakaiBolt.DisplayName: 弱化破坏光弹
 	HakaiOrbTelegraph.DisplayName: Hakai Orb Telegraph
 	HomingPurpleLaser.DisplayName: Homing Purple Laser
 	BeerusEnergyBall.DisplayName: Beerus Energy Ball
-	BaseBlast.DisplayName: Base Blast
+	BaseBlast.DisplayName: 基础爆炸
 }
 
 Buffs: {
 	MeteorDefenseBuff: {
-		DisplayName: Rush Attack
-		Description: Higher Defense.
+		DisplayName: 冲刺攻击
+		Description: 更高的防御
 	}
 
 	KaiokenDefenseBuff: {
-		DisplayName: Kaioken Rush Attack
-		Description: Higher Defense.
+		DisplayName: 界王拳冲刺攻击
+		Description: 更高的防御
 	}
 
 	StarFallDefenseBuff: {
-		DisplayName: Star Fall parry
-		Description: Higher Defense.
+		DisplayName: 星辰陨落格挡
+		Description: 更高的防御
 	}
 
 	SoulBondCooldownDebuff: {
-		DisplayName: Fusion Cooldown
-		Description: You can't fuse yet.
+		DisplayName: 融合冷却
+		Description: 你无法融合
 	}
 
 	SoulBondedBuff: {
-		DisplayName: Fusion
-		Description: You and your partners' stats are added together and then given a 50% boost.
+		DisplayName: 融合
+		Description: 你和你的伙伴的属性会相加，并获得50%的加成
 	}
 
 	SoulBondActiveBuff: {
-		DisplayName: Fusion
-		Description: You and your partners' stats are added together and then given a 50% boost.
+		DisplayName: 融合
+		Description: 你和你的伙伴的属性会相加，并获得50%的加成
 	}
 
 	SoulBondCooldownBuff: {
-		DisplayName: Fusion Cooldown
-		Description: You can't fuse yet.
+		DisplayName: 融合冷却
+		Description: 你无法融合
 	}
 
 	RadiantGauntletCooldown: {
-		DisplayName: Radiant Cooldown
-		Description: You can't use your right click attack
+		DisplayName: 辐辉冷却
+		Description: 你无法使用拳套的右键能力
 	}
 
 	MechGauntletCooldown: {
-		DisplayName: Mech Punch Cooldown
-		Description: You can't use your right click attack
+		DisplayName: 机械重拳冷却
+		Description: 你无法使用拳套的右键能力
 	}
 
 	ThunderGauntletCooldown: {
-		DisplayName: Thunder Cooldown
-		Description: You can't use your right click attack
+		DisplayName: 闪电冷却
+		Description: 你无法使用拳套的右键能力
 	}
 
 	FireCooldown: {
-		DisplayName: Fire Cooldown
-		Description: You can't use your right click ability
+		DisplayName: 火焰护盾冷却
+		Description: 你无法使用拳套的右键能力
 	}
 
 	FlamingBuff: {
-		DisplayName: Flaming Buff
-		Description: The flaming shield reflects projectiles that only deal 30% or less damage to you back
+		DisplayName: 火焰护盾
+		Description: 火焰护盾会反弹些只对你造成30%或更低伤害的弹幕
 	}
 
 	SolarBuff: {
@@ -181,27 +181,27 @@ Buffs: {
 	}
 
 	DragonCooldown: {
-		DisplayName: Dragon Cooldown
+		DisplayName: 龙拳冷却
 		Description: Mods.BetterDBT.Buffs.DragonCooldown.Description
 	}
 
 	DefenseBoostBuff: {
-		DisplayName: Defense Boost Buff
+		DisplayName: 防御增幅
 		Description: Mods.BetterDBT.Buffs.DefenseBoostBuff.Description
 	}
 
 	BlueEvoBuff: {
-		DisplayName: SSBE
+		DisplayName: 超级赛亚人蓝进化
 		Description: ""
 	}
 
 	HolyBuff: {
-		DisplayName: SSJR2
+		DisplayName: 超级赛亚人桃红2
 		Description: ""
 	}
 
 	KaiokenBlueBuff: {
-		DisplayName: SSB Kaioken
+		DisplayName: 超级赛亚人蓝界王拳
 		Description: ""
 	}
 
@@ -226,27 +226,27 @@ Buffs: {
 	}
 
 	UltraGauntletattack: {
-		DisplayName: 究极Combo attack
+		DisplayName: 究极连段攻击
 		Description: ""
 	}
 
 	EvilBuff: {
-		DisplayName: Evil Saiyan
+		DisplayName: 邪恶赛亚人
 		Description: ""
 	}
 
 	BlueFistCooldown: {
-		DisplayName: Blue Fist Cooldown
+		DisplayName: 蓝拳冷却
 		Description: Mods.BetterDBT.Buffs.BlueFistCooldown.Description
 	}
 
 	ssjRageBuff: {
-		DisplayName: ssj Rage Buff
+		DisplayName: 超级赛亚人暴怒
 		Description: Mods.BetterDBT.Buffs.ssjRageBuff.Description
 	}
 
 	UltraEgoBuff: {
-		DisplayName: 究极Ego Buff
+		DisplayName: 自我极意功
 		Description: Mods.BetterDBT.Buffs.UltraEgoBuff.Description
 	}
 
@@ -258,61 +258,62 @@ Buffs: {
 
 Items: {
 	SoulBondingAmulet: {
-		DisplayName: False Fusion Necklace
+		DisplayName: 伪融合项链
 		Tooltip:
 			'''
-			Fuses 2 players together for a short amount of time
-			Check controls for the Fusion ui 
+			2名玩家能在短时间内融合
+			查看融合界面以操作
+			[C/959595:译者补充：击败所有机械Boss后，会在一定时间后从天而降]
 			'''
 	}
 
 	MeteorCombo: {
-		Tooltip: Right click attack: Basic Rush, Deals 3 times damage and launches the player to the cursor
-		DisplayName: Basic Combo
+		Tooltip: 右键攻击：基础冲刺-造成3倍伤害，并将玩家移动到光标所在位置
+		DisplayName: 基础连段
 	}
 
 	KaiokenComboItem: {
-		DisplayName: Kaioken Fist
-		Tooltip: Right click attack: Kaioken Rush, Deals 3 times damage and launches the player to the cursor
+		DisplayName: 界王拳
+		Tooltip: 右键攻击：界王拳冲刺-造成3倍伤害，并将玩家移动到光标所在位置
 	}
 
 	StarFallItem: {
-		DisplayName: Star Fist
-		Tooltip: Right click ability: Star Counter, When hit while using this you'll summon 6 stars from the sky that'll deal 60 damage
+		DisplayName: 星之拳
+		Tooltip: 右键技能：星辰反击-使用期间被击中时，召唤6颗从天而降的星辰，造成60点伤害
 	}
 
 	RadiantGauntletItem: {
-		DisplayName: Radiant Gauntlet
-		Tooltip: Right click attack: Radiant Charge, Deals 4 times damage and launches the player to the cursor
+		DisplayName: 辐辉拳套
+		Tooltip: 右键攻击：辐辉冲锋-造成4倍伤害，并将玩家移动到光标所在位置
 	}
 
 	MechGauntletItem: {
-		DisplayName: Mech Gauntlet
+		DisplayName: 机械拳套
 		Tooltip:
 			'''
-			Right click attack: Mech Punch, Deals 2 times damage,
-			the red fist will summon laser beams on death in a random direction
-			the green fist ignites enemies with cursed flame 
+			右键攻击：机械重拳-造成2倍伤害
+			红色拳套会召唤激光束并向随机方向射出
+			绿色拳套会用诅咒焰点燃敌人
 			'''
 	}
 
 	ThunderFist: {
-		DisplayName: Thunder Fist
-		Tooltip: Right click attack: Lightning Throw, Deals 2 times damage,
+		DisplayName: 雷拳
+		Tooltip: 右键攻击：闪电投掷-投射数道闪电，造成两倍伤害
 	}
 
 	BlazingGauntlet: {
-		DisplayName: Blazing Gauntlet
-		Tooltip: Right click ability: Fire shield, The flaming shield reflects projectiles that only deal 30% or lower of your hp back where they came from
+		DisplayName: 炽焰拳套
+		Tooltip: 右键技能：火焰护盾-火焰护盾会反弹只对你造成最大生命值30%或以下伤害的弹幕
 	}
 
 	StardustFall: {
-		DisplayName: Stardust Fall
+		DisplayName: 星尘陨落
 		Tooltip: ""
 	}
 
 	BurningAttack: {
-		DisplayName: Burning Attack
+		DisplayName: 燃烧攻击
 		Tooltip: ""
 	}
 
@@ -338,7 +339,7 @@ Items: {
 
 	DragonGauntlet: {
 		DisplayName: 龙拳
-		Tooltip: 右键攻击：龙拳，召唤一条巨龙追击敌怪
+		Tooltip: 右键攻击：龙拳-召唤一条巨龙追击敌怪
 	}
 
 	StatEditorItem: {
@@ -375,7 +376,7 @@ Items: {
 
 	LegendaryFist: {
 		DisplayName: 传说之拳
-		Tooltip: 右键攻击：传说粉碎，抓住附近的一名敌怪并对其造成5次伤害
+		Tooltip: 右键攻击：传说粉碎-抓住附近的一名敌怪并对其造成5次伤害
 	}
 
 	NDSpawn: {
@@ -389,7 +390,11 @@ Items: {
 
 	UltraKI: {
 		DisplayName: 究极气水晶
-		Tooltip: 下一个境界
+		Tooltip:
+			'''
+			下一个境界
+			[C/959595:译者补充：使用Boss Rush符印并挑战成功后提供的奖励]
+			'''
 	}
 
 	CosmicCharm: {
@@ -546,7 +551,7 @@ Items: {
 	}
 
 	SSJRage: {
-		DisplayName: S S J Rage
+		DisplayName: 超级赛亚人暴怒
 		Tooltip: ""
 	}
 
@@ -561,7 +566,7 @@ Items: {
 	}
 
 	UEUnlock: {
-		DisplayName: U E Unlock
+		DisplayName: 自我极意功解锁道具
 		Tooltip: ""
 	}
 
@@ -741,6 +746,6 @@ Keybinds: {
 }
 
 UI: {
-	RageResource: Rage : {0} / {1}
-	GODResource: GOD Energy : {0} / {1}
+	RageResource: 怒气： {0} / {1}
+	GODResource: 神之能量： {0} / {1}
 }
