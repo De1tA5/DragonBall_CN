@@ -1012,12 +1012,12 @@ Model: {
 
 			4: {
 				// OldString: " "
-				// NewString: " "
+				NewString: " | "
 			}
 
 			5: {
 				// OldString: " | Speed "
-				NewString: " | 移动速度 "
+				NewString: "移动速度 "
 			}
 
 			6: {
