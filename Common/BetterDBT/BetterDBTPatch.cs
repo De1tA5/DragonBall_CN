@@ -42,22 +42,28 @@ namespace DragonBall_CN.Common.BetterDBT
             {
                 TigerForceLocalizationHelper.LocalizeAll(Mod.Name, BDBP, false);
                 //其他方法
-                //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, BDBP, false, filters: new()
-                //{
-                //    MethodFilter = MethodFilter.MatchNames(
-                //    "ModifyTooltips", "PostUpdateWorld", "PreUpdate", "OnEnterWorld","OnKill",
-                //    "UseItem","BuildTooltip_Hook")
-                //});
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, BDBP, false, filters: new()
+                {
+                    MethodFilter = MethodFilter.MatchNames(
+                    "ModifyTooltips", "PostUpdateWorld", "PreUpdate", "OnEnterWorld", "OnKill",
+                    "UseItem", "BuildTooltip_Hook","Update", "OnInitialize", "GetDustLabel","Draw")
+                });
                 //整个wikiUI
-                //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, BDBP, false, filters: new()
-                //{
-                //    TypeFilter = TypeFilter.MatchFullNames("BetterDBT.NewContent.WikiUIState")
-                //});
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, BDBP, false, filters: new()
+                {
+                    TypeFilter = TigerForceLocalizationLib.Filters.TypeFilter.MatchFullNames("BetterDBT.NewContent.WikiUIState")
+                });
                 //整个BossRush
-                //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, BDBP, false, filters: new()
-                //{
-                //    TypeFilter = TypeFilter.MatchFullNames("BetterDBT.NewContent.BossRush.BossRushSystem")
-                //});
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, BDBP, false, filters: new()
+                {
+                    TypeFilter = TigerForceLocalizationLib.Filters.TypeFilter.MatchFullNames("BetterDBT.NewContent.BossRush.BossRushSystem")
+                });
+                //悟空
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, BDBP, false, filters: new()
+                {
+                    TypeFilter = TigerForceLocalizationLib.Filters.TypeFilter.MatchFullNames("BetterDBT.NewContent.SonGoku.Goku")
+                });
+
             }
 
         }
