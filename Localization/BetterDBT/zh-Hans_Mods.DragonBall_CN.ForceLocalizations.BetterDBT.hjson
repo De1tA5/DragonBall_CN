@@ -1319,27 +1319,27 @@ NewContent: {
 
 			3: {
 				// OldString: Basic Combo
-				NewString: 基础连段
+				// NewString: Basic Combo
 			}
 
 			4: {
 				// OldString: Kaioken Combo
-				NewString: 界王拳
+				// NewString: Kaioken Combo
 			}
 
 			5: {
 				// OldString: Star Fist
-				NewString: 星之拳
+				// NewString: Star Fist
 			}
 
 			6: {
 				// OldString: Blazing Gauntlet
-				NewString: 炽焰拳套
+				// NewString: Blazing Gauntlet
 			}
 
 			7: {
 				// OldString: Mech Gauntlet
-				NewString: Mech Gauntlet
+				// NewString: Mech Gauntlet
 			}
 
 			8: {
@@ -1386,7 +1386,7 @@ NewContent: {
 
 			4: {
 				// OldString: Basic Combo
-				NewString: 基础连段
+				// NewString: Basic Combo
 			}
 
 			5: {
@@ -1436,397 +1436,397 @@ NewContent: {
 
 			14: {
 				// OldString: Name: Basic Combo
-				// NewString: Name: Basic Combo
+				NewString: 名称： 基础连段
 			}
 
 			15: {
 				// OldString: Type: Fist Weapon
-				// NewString: Type: Fist Weapon
+				NewString: 武器类型： 拳套武器
 			}
 
 			16: {
 				// OldString: Base Damage: 22
-				// NewString: Base Damage: 22
+				NewString: 基础伤害： 22
 			}
 
 			17: {
 				// OldString: Velocity: 8
-				// NewString: Velocity: 8
+				NewString: 弹幕速度： 8
 			}
 
 			18: {
 				// OldString: Use time: 14
-				// NewString: Use time: 14
+				NewString: 使用时间： 14
 			}
 
 			19: {
 				// OldString: Ki Drain: 8
-				// NewString: Ki Drain: 8
+				NewString: 气消耗： 8
 			}
 
 			20: {
-				// OldString: Crafting Items: 30 Stable KI Crystals
-				// NewString: Crafting Items: 30 Stable KI Crystals
+				// OldString: Crafting Items: 30个稳定气水晶
+				NewString: 合成材料： 30个稳定气水晶
 			}
 
 			21: {
 				// OldString: Crafting Tile: Z table
-				// NewString: Crafting Tile: Z table
+				NewString: 制作站： 龙珠Z桌
 			}
 
 			22: {
 				// OldString: Special Attack: Basic Rush, Deals 3 times damage and
-				// NewString: Special Attack: Basic Rush, Deals 3 times damage and
+				NewString: 特殊攻击： 基础冲刺， 造成3倍伤害
 			}
 
 			23: {
 				// OldString: launches the player to the cursor
-				// NewString: launches the player to the cursor
+				NewString: 并将玩家移动到光标所在位置
 			}
 
 			24: {
 				// OldString: Name: Kaioken Combo
-				// NewString: Name: Kaioken Combo
+				NewString: 名称： 界王拳
 			}
 
 			25: {
 				// OldString: Base Damage: 28
-				// NewString: Base Damage: 28
+				NewString: 基础伤害： 28
 			}
 
 			26: {
 				// OldString: Velocity: 9
-				// NewString: Velocity: 9
+				NewString: 弹幕速度： 9
 			}
 
 			27: {
 				// OldString: Ki Drain: 30
-				// NewString: Ki Drain: 30
+				NewString: 气消耗： 30
 			}
 
 			28: {
-				// OldString: Crafting Items: 30 Stable KI Crystals, 12 Demonite/crimtane ore
-				// NewString: Crafting Items: 30 Stable KI Crystals, 12 Demonite/crimtane ore
+				// OldString: Crafting Items: 30个稳定气水晶, 12 Demonite/crimtane ore
+				NewString: 合成材料： 30个稳定气水晶， 12个猩红矿/魔矿
 			}
 
 			29: {
 				// OldString: Special Attack: Kaioken Rush, Deals 3 times damage and
-				// NewString: Special Attack: Kaioken Rush, Deals 3 times damage and
+				NewString: 特殊攻击： 界王拳冲刺， 造成3倍伤害
 			}
 
 			30: {
 				// OldString: " launches the player to the cursor"
-				// NewString: " launches the player to the cursor"
+				NewString: 并将玩家移动到光标所在位置
 			}
 
 			31: {
 				// OldString: Name: Star Fist
-				// NewString: Name: Star Fist
+				NewString: 名称： 星之拳
 			}
 
 			32: {
 				// OldString: Base Damage: 35
-				// NewString: Base Damage: 35
+				NewString: 基础伤害： 35
 			}
 
 			33: {
 				// OldString: Velocity: 9.2
-				// NewString: Velocity: 9.2
+				NewString: 弹幕速度： 9.2
 			}
 
 			34: {
 				// OldString: Use time: 12
-				// NewString: Use time: 12
+				NewString: 使用时间： 12
 			}
 
 			35: {
 				// OldString: Ki Drain: 60
-				// NewString: Ki Drain: 60
+				NewString: 气消耗： 60
 			}
 
 			36: {
-				// OldString: Crafting Items: 30 calm KI Crystals, 18 Astral Essentia
-				// NewString: Crafting Items: 30 calm KI Crystals, 18 Astral Essentia
+				// OldString: Crafting Items: 30平静气水晶, 18 Astral Essentia
+				NewString: 合成材料： 30平静气水晶， 18个星辉精华
 			}
 
 			37: {
 				// OldString: Special Attack: Star Counter, When hit while using this you'll
-				// NewString: Special Attack: Star Counter, When hit while using this you'll
+				NewString: 特殊攻击： 星辰反击， 使用期间被击中时
 			}
 
 			38: {
 				// OldString: summon 6 stars from the sky that'll deal 60 damage
-				// NewString: summon 6 stars from the sky that'll deal 60 damage
+				NewString: 召唤6颗从天而降的星辰，造成60点伤害
 			}
 
 			39: {
 				// OldString: Name: Blazing Gauntlet
-				// NewString: Name: Blazing Gauntlet
+				NewString: 名称： 炽焰拳套
 			}
 
 			40: {
 				// OldString: Base Damage: 70
-				// NewString: Base Damage: 70
+				NewString: 基础伤害： 70
 			}
 
 			41: {
 				// OldString: Ki Drain: 85
-				// NewString: Ki Drain: 85
+				NewString: 气消耗： 85
 			}
 
 			42: {
 				// OldString: Crafting Items: 30 Prideful KI Crystals, 18 Hellstone bars
-				// NewString: Crafting Items: 30 Prideful KI Crystals, 18 Hellstone bars
+				NewString: 合成材料： 30个傲慢气水晶， 18个狱石锭
 			}
 
 			43: {
 				// OldString: Special Attack: Fire shield, The flaming shield reflects projectiles that
-				// NewString: Special Attack: Fire shield, The flaming shield reflects projectiles that
+				NewString: 特殊攻击： 火焰护盾， 火焰护盾会反弹
 			}
 
 			44: {
 				// OldString: only deal 30% or lower of your hp back where they came from
-				// NewString: only deal 30% or lower of your hp back where they came from
+				NewString: 只对你造成最大生命值30%或以下伤害的弹幕
 			}
 
 			45: {
 				// OldString: Name: Mech Gauntlet
-				// NewString: Name: Mech Gauntlet
+				NewString: 名称： 机械拳套
 			}
 
 			46: {
 				// OldString: Base Damage: 90
-				// NewString: Base Damage: 90
+				NewString: 基础伤害： 90
 			}
 
 			47: {
 				// OldString: Velocity: 12
-				// NewString: Velocity: 12
+				NewString: 弹幕速度： 12
 			}
 
 			48: {
 				// OldString: Use time: 9
-				// NewString: Use time: 9
+				NewString: 使用时间： 9
 			}
 
 			49: {
 				// OldString: Ki Drain: 100
-				// NewString: Ki Drain: 100
+				NewString: 气消耗： 100
 			}
 
 			50: {
 				// OldString: Crafting Items: 30 Angry KI Crystals, 5 Souls of Entity
-				// NewString: Crafting Items: 30 Angry KI Crystals, 5 Souls of Entity
+				NewString: 合成材料： 30个愤怒气水晶， 5个实体之魂
 			}
 
 			51: {
 				// OldString: Special Attack: Right click attack: Mech Punch, Deals 2 times damage
-				// NewString: Special Attack: Right click attack: Mech Punch, Deals 2 times damage
+				NewString: 特殊攻击： 机械重拳， 造成2倍伤害
 			}
 
 			52: {
 				// OldString: the red fist will summon laser beams on death in a random direction
-				// NewString: the red fist will summon laser beams on death in a random direction
+				NewString: 红色拳套会召唤激光束并向随机方向射出
 			}
 
 			53: {
 				// OldString: the green fist ignites enemies with cursed flame
-				// NewString: the green fist ignites enemies with cursed flame
+				NewString: 绿色拳套会用诅咒焰点燃敌人
 			}
 
 			54: {
 				// OldString: Name: Thunder Fist
-				// NewString: Name: Thunder Fist
+				NewString: 名称： 雷拳
 			}
 
 			55: {
 				// OldString: Base Damage: 65
-				// NewString: Base Damage: 65
+				NewString: 基础伤害： 65
 			}
 
 			56: {
 				// OldString: Velocity: 13.5
-				// NewString: Velocity: 13.5
+				NewString: 弹幕速度： 13.5
 			}
 
 			57: {
 				// OldString: Use time: 8
-				// NewString: Use time: 8
+				NewString: 使用时间： 8
 			}
 
 			58: {
 				// OldString: Ki Drain: 120
-				// NewString: Ki Drain: 120
+				NewString: 气消耗： 120
 			}
 
 			59: {
 				// OldString: Crafting Items: 35 Pure KI Crystals
-				// NewString: Crafting Items: 35 Pure KI Crystals
+				NewString: 合成材料： 35个纯粹气水晶
 			}
 
 			60: {
 				// OldString: Special Attack: Right click attack: Lightning Throw, Deals 2 times damage
-				// NewString: Special Attack: Right click attack: Lightning Throw, Deals 2 times damage
+				NewString: 特殊攻击： 闪电投掷， 投射数道闪电，造成两倍伤害
 			}
 
 			61: {
 				// OldString: Name: Dragon Gauntlet
-				// NewString: Name: Dragon Gauntlet
+				NewString: 名称： 龙拳
 			}
 
 			62: {
 				// OldString: Base Damage: 120
-				// NewString: Base Damage: 120
+				NewString: 基础伤害： 120
 			}
 
 			63: {
 				// OldString: Velocity: 14.5
-				// NewString: Velocity: 14.5
+				NewString: 弹幕速度： 14.5
 			}
 
 			64: {
 				// OldString: Use time: 11
-				// NewString: Use time: 11
+				NewString: 使用时间： 11
 			}
 
 			65: {
 				// OldString: Ki Drain: 140
-				// NewString: Ki Drain: 140
+				NewString: 气消耗： 140
 			}
 
 			66: {
 				// OldString: Crafting Items: 30 Pure KI Crystals, 12 Demonic Souls
-				// NewString: Crafting Items: 30 Pure KI Crystals, 12 Demonic Souls
+				NewString: 合成材料： 30个纯粹气水晶， 12个恶魔之魂
 			}
 
 			67: {
 				// OldString: Crafting Tile: Kai table
-				// NewString: Crafting Tile: Kai table
+				NewString: 制作站： 龙珠改桌
 			}
 
 			68: {
 				// OldString: Special Attack: Dragon fist, summon a large dragon that'll
-				// NewString: Special Attack: Dragon fist, summon a large dragon that'll
+				NewString: 特殊攻击： 龙拳， 召唤一条巨龙追击敌怪
 			}
 
 			69: {
 				// OldString: chase after enemies
-				// NewString: chase after enemies
+				NewString: ""
 			}
 
 			70: {
 				// OldString: Name: Radiant Gauntlet
-				// NewString: Name: Radiant Gauntlet
+				NewString: 名称： 辐辉拳套
 			}
 
 			71: {
 				// OldString: Base Damage: 180
-				// NewString: Base Damage: 180
+				NewString: 基础伤害： 180
 			}
 
 			72: {
 				// OldString: Velocity: 14
-				// NewString: Velocity: 14
+				NewString: 弹幕速度： 14
 			}
 
 			73: {
 				// OldString: Ki Drain: 200
-				// NewString: Ki Drain: 200
+				NewString: 气消耗： 200
 			}
 
 			74: {
 				// OldString: Crafting Items: 30 Radiant Fragments
-				// NewString: Crafting Items: 30 Radiant Fragments
+				NewString: 合成材料： 30个辐辉碎片
 			}
 
 			75: {
 				// OldString: Crafting Tile: Ancient Manipulator
-				// NewString: Crafting Tile: Ancient Manipulator
+				NewString: 制作站： 远古操纵机
 			}
 
 			76: {
 				// OldString: Special Attack: Radiant Charge, Deals 4 times damage and
-				// NewString: Special Attack: Radiant Charge, Deals 4 times damage and
+				NewString: 特殊攻击： 辐辉冲锋， 造成4倍伤害并将玩家移动到光标所在位置
 			}
 
 			77: {
 				// OldString: Name: Legendary Fist
-				// NewString: Name: Legendary Fist
+				NewString: 名称： 传说之拳
 			}
 
 			78: {
 				// OldString: Base Damage: 200
-				// NewString: Base Damage: 200
+				NewString: 基础伤害： 200
 			}
 
 			79: {
 				// OldString: Velocity: 10
-				// NewString: Velocity: 10
+				NewString: 弹幕速度： 10
 			}
 
 			80: {
 				// OldString: Ki Drain: 280
-				// NewString: Ki Drain: 280
+				NewString: 气消耗： 280
 			}
 
 			81: {
 				// OldString: Crafting Items: 18 Radiant Fragments, 1 trap shooter
-				// NewString: Crafting Items: 18 Radiant Fragments, 1 trap shooter
+				NewString: 合成材料： 18个辐辉碎片， 1个束缚气弹
 			}
 
 			82: {
 				// OldString: Special Attack: Legndary Crusher, Grabs a nearby enemy and.
-				// NewString: Special Attack: Legndary Crusher, Grabs a nearby enemy and.
+				NewString: 特殊攻击： 传说粉碎， 抓住附近的一名敌怪并对其造成5次伤害
 			}
 
 			83: {
 				// OldString: damages the enemy 5 times.
-				// NewString: damages the enemy 5 times.
+				NewString: ""
 			}
 
 			84: {
 				// OldString: Name: Ultra Combo
-				// NewString: Name: Ultra Combo
+				NewString: 名称： 究极拳套
 			}
 
 			85: {
 				// OldString: Base Damage: 230
-				// NewString: Base Damage: 230
+				NewString: 基础伤害： 230
 			}
 
 			86: {
 				// OldString: Velocity: 20
-				// NewString: Velocity: 20
+				NewString: 弹幕速度： 20
 			}
 
 			87: {
 				// OldString: Use time: 10
-				// NewString: Use time: 10
+				NewString: 使用时间： 10
 			}
 
 			88: {
 				// OldString: Crafting Items: 10 Ultra KI Crystals
-				// NewString: Crafting Items: 10 Ultra KI Crystals
+				NewString: 合成材料： 10个究极气水晶
 			}
 
 			89: {
 				// OldString: Crafting Tile: Kai Table
-				// NewString: Crafting Tile: Kai Table
+				NewString: 制作站： 龙珠改桌
 			}
 
 			90: {
 				// OldString: Special Attack: Ultra Rush, Teleports you to nearby enemies and
-				// NewString: Special Attack: Ultra Rush, Teleports you to nearby enemies and
+				NewString: 特殊攻击： 究极冲刺， 将你传送到附近敌怪并造成伤害
 			}
 
 			91: {
 				// OldString: damages them
-				// NewString: damages them
+				NewString: ""
 			}
 
 			92: {
 				// OldString: "Unknown weapon: "
-				// NewString: "Unknown weapon: "
+				NewString: "未知武器： "
 			}
 		}
 
@@ -1890,17 +1890,17 @@ NewContent: {
 
 			7: {
 				// OldString: Name: Burning Attack
-				// NewString: Name: Burning Attack
+				NewString: 名称： Burning Attack
 			}
 
 			8: {
 				// OldString: Type: Charging KI Blast
-				// NewString: Type: Charging KI Blast
+				NewString: 武器类型： Charging KI Blast
 			}
 
 			9: {
 				// OldString: Base Damage: ???
-				// NewString: Base Damage: ???
+				NewString: 基础伤害： ???
 			}
 
 			10: {
@@ -1910,7 +1910,7 @@ NewContent: {
 
 			11: {
 				// OldString: Ki Drain: ???
-				// NewString: Ki Drain: ???
+				NewString: 气消耗： ???
 			}
 
 			12: {
@@ -1925,22 +1925,22 @@ NewContent: {
 
 			14: {
 				// OldString: Name: StarDust Fall
-				// NewString: Name: StarDust Fall
+				NewString: 名称： StarDust Fall
 			}
 
 			15: {
 				// OldString: Type: KI Blast
-				// NewString: Type: KI Blast
+				NewString: 武器类型： KI Blast
 			}
 
 			16: {
 				// OldString: Name: Ultra Kamehameha
-				// NewString: Name: Ultra Kamehameha
+				NewString: 名称： Ultra Kamehameha
 			}
 
 			17: {
 				// OldString: Type: Beam
-				// NewString: Type: Beam
+				NewString: 武器类型： Beam
 			}
 
 			18: {
@@ -2009,17 +2009,17 @@ NewContent: {
 
 			7: {
 				// OldString: Name: Sword of Hope
-				// NewString: Name: Sword of Hope
+				NewString: 名称： Sword of Hope
 			}
 
 			8: {
 				// OldString: Type: Melee Sword
-				// NewString: Type: Melee Sword
+				NewString: 武器类型： Melee Sword
 			}
 
 			9: {
 				// OldString: Base Damage: ???
-				// NewString: Base Damage: ???
+				NewString: 基础伤害： ???
 			}
 
 			10: {
@@ -2029,7 +2029,7 @@ NewContent: {
 
 			11: {
 				// OldString: Ki Drain: ???
-				// NewString: Ki Drain: ???
+				NewString: 气消耗： ???
 			}
 
 			12: {
@@ -2044,22 +2044,22 @@ NewContent: {
 
 			14: {
 				// OldString: Name: Wave of Stars
-				// NewString: Name: Wave of Stars
+				NewString: 名称： Wave of Stars
 			}
 
 			15: {
 				// OldString: Type: Summon Whip
-				// NewString: Type: Summon Whip
+				NewString: 武器类型： Summon Whip
 			}
 
 			16: {
 				// OldString: Name: Cosmic KI Sprayer
-				// NewString: Name: Cosmic KI Sprayer
+				NewString: 名称： Cosmic KI Sprayer
 			}
 
 			17: {
 				// OldString: Type: Ranger Flamethrower
-				// NewString: Type: Ranger Flamethrower
+				NewString: 武器类型： Ranger Flamethrower
 			}
 
 			18: {
@@ -2071,7 +2071,7 @@ NewContent: {
 		ChangeNotes: {
 			1: {
 				// OldString: Update Notes
-				// NewString: Update Notes
+				NewString: 更新日志
 			}
 
 			2: {
@@ -2148,47 +2148,47 @@ NewContent: {
 
 			9: {
 				// OldString: Added ultra ki tier.
-				// NewString: Added ultra ki tier.
+				NewString: 增加究极气等级
 			}
 
 			10: {
 				// OldString: 5 new weapons.
-				// NewString: 5 new weapons.
+				NewString: 5件新武器
 			}
 
 			11: {
 				// OldString: 3 new Perma Upgrades.
-				// NewString: 3 new Perma Upgrades.
+				NewString: 3个永久加成物品
 			}
 
 			12: {
 				// OldString: 6 new forms.
-				// NewString: 6 new forms.
+				NewString: 6个新形态
 			}
 
 			13: {
 				// OldString: Goku should work better in servers now
-				// NewString: Goku should work better in servers now
+				NewString: 悟空能在服务器上能更好地运行
 			}
 
 			14: {
 				// OldString: updated some ui stuff.
-				// NewString: updated some ui stuff.
+				NewString: 更新了一些界面相关的东西
 			}
 
 			15: {
 				// OldString: added new config settings.
-				// NewString: added new config settings.
+				NewString: 增加新的配置设置
 			}
 
 			16: {
 				// OldString: added wiki book.
-				// NewString: added wiki book.
+				NewString: 增加了Wiki之书
 			}
 
 			17: {
 				// OldString: Added Boss rush mode.
-				// NewString: Added Boss rush mode.
+				NewString: 增加Boss Rush模式
 			}
 
 			18: {
@@ -2198,7 +2198,7 @@ NewContent: {
 
 			19: {
 				// OldString: Fixed wiki book, it crashed if put into the magic storage.
-				// NewString: Fixed wiki book, it crashed if put into the magic storage.
+				NewString: 修复Wiki之书放进魔法存储中导致游戏崩溃的Bug
 			}
 
 			20: {
@@ -2208,112 +2208,112 @@ NewContent: {
 
 			21: {
 				// OldString: Updated wiki book.
-				// NewString: Updated wiki book.
+				NewString: 更新Wiki之书
 			}
 
 			22: {
 				// OldString: Added weapons page with all fist type weapons.
-				// NewString: Added weapons page with all fist type weapons.
+				NewString: 新增武器页面，包含所有拳套类武器
 			}
 
 			23: {
 				// OldString: The back button no longer puts you at the main page, it takes you back by a page now.
-				// NewString: The back button no longer puts you at the main page, it takes you back by a page now.
+				NewString: 返回按钮不再将你带到主页面，现在它只会让你后退一页
 			}
 
 			24: {
 				// OldString: Added config page and update page.
-				// NewString: Added config page and update page.
+				NewString: 增加配置页和更新页
 			}
 
 			25: {
 				// OldString: Added flight trails.
-				// NewString: Added flight trails.
+				NewString: 增加飞行轨迹
 			}
 
 			26: {
 				// OldString: Fixed ultra ki fragment, it doesn't break the ki stat anymore
-				// NewString: Fixed ultra ki fragment, it doesn't break the ki stat anymore
+				NewString: 修复究极气碎片，它不再会破坏气职业属性
 			}
 
 			27: {
 				// OldString: Fixed Custom KI blast, it can no longer give stats to other items
-				// NewString: Fixed Custom KI blast, it can no longer give stats to other items
+				NewString: 修复了自定义气武器，它不再会为其他物品提供属性
 			}
 
 			28: {
 				// OldString: Added form nerfs
-				// NewString: Added form nerfs
+				NewString: 增加对变身形态的削弱
 			}
 
 			29: {
 				// OldString: Updated Trails.
-				// NewString: Updated Trails.
+				NewString: 更新轨迹
 			}
 
 			30: {
 				// OldString: Added Ultra Mage weapon for the ultra ki tier.
-				// NewString: Added Ultra Mage weapon for the ultra ki tier.
+				NewString: 为究极气等级增加究极魔法武器
 			}
 
 			31: {
 				// OldString: Added Giant Sphere Type, Ki Disc Type.
-				// NewString: Added Giant Sphere Type, Ki Disc Type.
+				NewString: 增加巨大气弹型、元气斩型
 			}
 
 			32: {
 				// OldString: Added Ultra Color to custom ki blast.
-				// NewString: Added Ultra Color to custom ki blast.
+				NewString: 为自定义气武器增加究极颜色
 			}
 
 			33: {
 				// OldString: Fixed ultra weapons prices.
-				// NewString: Fixed ultra weapons prices.
+				NewString: 修复究极武器价格问题
 			}
 
 			34: {
 				// OldString: Life steal nerfed, it heals less the higher attack speed you have.
-				// NewString: Life steal nerfed, it heals less the higher attack speed you have.
+				NewString: 削弱生命窃取，攻击速度越高，治疗的效果就越低
 			}
 
 			35: {
 				// OldString: Changed Bounce and phase to secondary effects.
-				// NewString: Changed Bounce and phase to secondary effects.
+				NewString: 将自定义气武器中“反弹”和“穿墙”移至次要效果
 			}
 
 			36: {
 				// OldString: bossrush should work on servers now.
-				// NewString: bossrush should work on servers now.
+				NewString: Boss Rush可以在服务器上运行
 			}
 
 			37: {
 				// OldString: Removed Bossrush command.
-				// NewString: Removed Bossrush command.
+				NewString: 移除Boss Rush命令
 			}
 
 			38: {
 				// OldString: Added Close book Button.
-				// NewString: Added Close book Button.
+				NewString: 增加关闭书本按钮
 			}
 
 			39: {
 				// OldString: Fixed Cosmic Charm recipe.
-				// NewString: Fixed Cosmic Charm recipe.
+				NewString: 修复寰宇护符配方
 			}
 
 			40: {
 				// OldString: Added SSJ Rage.
-				// NewString: Added SSJ Rage.
+				NewString: 增加超级赛亚人暴怒形态
 			}
 
 			41: {
 				// OldString: Added some cool effects to ultra kamehameha.
-				// NewString: Added some cool effects to ultra kamehameha.
+				NewString: 为究极龟派气功波加入更酷的特效
 			}
 
 			42: {
 				// OldString: "Unknown weapon: "
-				// NewString: "Unknown weapon: "
+				NewString: "未知武器：  "
 			}
 		}
 

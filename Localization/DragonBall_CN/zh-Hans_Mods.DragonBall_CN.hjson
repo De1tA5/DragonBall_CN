@@ -51,7 +51,7 @@ Configs: {
 		AutoTransformation: {
 			Label: 自动变身
 			Tooltip:
-				''' 
+				'''
 				额外内容，允许玩家变身时一键获得所有可叠加形态
 				[C/FF3E00:默认禁用]
 				'''

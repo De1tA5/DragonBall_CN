@@ -182,17 +182,17 @@ Buffs: {
 
 	DragonCooldown: {
 		DisplayName: 龙拳冷却
-		Description: Mods.BetterDBT.Buffs.DragonCooldown.Description
+		Description: 你无法使用拳套的右键能力
 	}
 
 	DefenseBoostBuff: {
 		DisplayName: 防御增幅
-		Description: Mods.BetterDBT.Buffs.DefenseBoostBuff.Description
+		Description: 增加10点防御
 	}
 
 	BlueEvoBuff: {
 		DisplayName: 超级赛亚人蓝进化
-		Description: 
+		Description:
 			'''
 			增加10%伤害
 			增加15点防御
@@ -202,7 +202,7 @@ Buffs: {
 
 	HolyBuff: {
 		DisplayName: 超级赛亚人桃红2
-		Description: 
+		Description:
 			'''
 			增加10%伤害
 			增加5点防御
@@ -212,7 +212,7 @@ Buffs: {
 
 	KaiokenBlueBuff: {
 		DisplayName: 超级赛亚人蓝界王拳
-		Description: 
+		Description:
 			'''
 			增加25%伤害
 			增加5点防御
@@ -222,7 +222,7 @@ Buffs: {
 
 	MUIBuff: {
 		DisplayName: 自在极意兆
-		Description: 
+		Description:
 			'''
 			提升20%移动速度
 			自动回避敌怪
@@ -231,7 +231,7 @@ Buffs: {
 
 	WrathBuff: {
 		DisplayName: 狂怒
-		Description: 
+		Description:
 			'''
 			增加10%伤害
 			增加10点防御
@@ -257,7 +257,7 @@ Buffs: {
 
 	EvilBuff: {
 		DisplayName: 邪恶赛亚人
-		Description: 
+		Description:
 			'''
 			增加5%伤害
 			提升5移动速度
@@ -273,7 +273,7 @@ Buffs: {
 
 	ssjRageBuff: {
 		DisplayName: 超级赛亚人暴怒
-		Description: 
+		Description:
 			'''
 			增加15%伤害
 			增加8点防御
