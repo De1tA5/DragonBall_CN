@@ -1,19 +1,14 @@
 ﻿using DBZGoatLib.Model;
 using DragonBall_CN.Common.DBZGoatLib;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
 using TigerForceLocalizationLib.Filters;
-using Terraria.Utilities;
 
 
 namespace DragonBall_CN.Common.SatanicDBT
 {
-    public class SatanicDBTPatch:ModSystem
+    public class SatanicDBTPatch : ModSystem
     {
         private static readonly string Sin = "SatanicDBT";
         private static Dictionary<string, string> FormNames = new()
@@ -29,19 +24,19 @@ namespace DragonBall_CN.Common.SatanicDBT
 
         private static Dictionary<string, string> NewUnlockHints = new()
         {
-            ["Envy"] = "有概率随机抽取\n[C/959595:译者补充：详细请见思想抽取器的描述补充或变身文档]",
-            ["Gluttony"] = "有概率随机抽取\n[C/959595:译者补充：详细请见思想抽取器的描述补充或变身文档]",
-            ["Greed"] = "有概率随机抽取\n[C/959595:译者补充：详细请见思想抽取器的描述补充或变身文档]",
-            ["Lust"] = "有概率随机抽取\n[C/959595:译者补充：详细请见思想抽取器的描述补充或变身文档]",
-            ["Pride"] = "有概率随机抽取\n[C/959595:译者补充：详细请见思想抽取器的描述补充或变身文档]",
-            ["Sloth"] = "有概率随机抽取\n[C/959595:译者补充：详细请见思想抽取器的描述补充或变身文档]",
-            ["Wrath"] = "有概率随机抽取\n[C/959595:译者补充：详细请见思想抽取器的描述补充或变身文档]",
+            ["Envy"] = "有随机概率抽取\n[C/959595:译者补充：详细请见思想抽取器的译者补充文本或变身文档]",
+            ["Gluttony"] = "有随机概率抽取\n[C/959595:译者补充：详细请见思想抽取器的译者补充文本或变身文档]",
+            ["Greed"] = "有随机概率抽取\n[C/959595:译者补充：详细请见思想抽取器的译者补充文本或变身文档]",
+            ["Lust"] = "有随机概率抽取\n[C/959595:译者补充：详细请见思想抽取器的译者补充文本或变身文档]",
+            ["Pride"] = "有随机概率抽取\n[C/959595:译者补充：详细请见思想抽取器的译者补充文本或变身文档]",
+            ["Sloth"] = "有随机概率抽取\n[C/959595:译者补充：详细请见思想抽取器的译者补充文本或变身文档]",
+            ["Wrath"] = "有随机概率抽取\n[C/959595:译者补充：详细请见思想抽取器的译者补充文本或变身文档]",
 
         };
 
         public override void PostSetupContent()
         {
-            if (ModLoader.HasMod(Sin)) 
+            if (ModLoader.HasMod(Sin))
             {
                 TigerForceLocalizationHelper.LocalizeAll(Mod.Name, Sin, false, filters: new()
                 {
