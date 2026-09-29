@@ -1,0 +1,243 @@
+Buffs: {
+	LSSJ10FPCooldown: {
+		DisplayName: 禁忌之力冷却
+		Description: 你的身体必须休息才能使用这股力量
+	}
+
+	LSSJ10FPBuff: {
+		DisplayName: 传说超级赛亚人10禁忌之力
+		Description:
+			'''
+			伤害 +1,300.00%  | 移动速度 +50.00%
+			防御 +300 | 气消耗 +100.00%
+			'''
+	}
+
+	LSSJ5Buff: {
+		DisplayName: 传说超级赛亚人5
+		Description:
+			'''
+			Damage +400.00%  | Speed +250.00%
+			Defense +100 | Ki Costs +170.00%
+			Ki Drain 300/s, 150/s when mastered
+			'''
+	}
+
+	LSSJ6Buff: {
+		DisplayName: 传说超级赛亚人6
+		Description:
+			'''
+			Damage +400.00%  | Speed +200.00%
+			Defense +140 | Ki Costs +150.00%
+			Ki Drain 240/s, 120/s when mastered
+			'''
+	}
+
+	LSSJ7Buff: {
+		DisplayName: 传说超级赛亚人7
+		Description:
+			'''
+			Damage +500.00%  | Speed +100.00%
+			Defense +160 | Ki Costs +170.00%
+			Ki Drain 270/s, 120/s when mastered
+			'''
+	}
+
+	LSSJ8Buff: {
+		DisplayName: 传说超级赛亚人8
+		Description:
+			'''
+			Damage +560.00%  | Speed +50.00%
+			Defense +200 | Ki Costs +150.00%
+			Ki Drain 360/s, 180/s when mastered
+			'''
+	}
+
+	LSSJ9Buff: {
+		DisplayName: 传说超级赛亚人9
+		Description:
+			'''
+			Damage +600.00%  | Speed +150.00%
+			Defense +240 | Ki Costs +150.00%
+			Ki Drain 240/s, 120/s when mastered
+			'''
+	}
+
+	LSSJ9FPBuff: {
+		DisplayName: 传说超级赛亚人9全功率
+		Description:
+			'''
+			Damage +800.00%  | Speed +100.00%
+			Defense +240 | Ki Costs +150.00%
+			Ki Drain 180/s, 90/s when mastered
+			'''
+	}
+
+	SSJ10FPBuff: {
+		DisplayName: 超级赛亚人10禁忌之力
+		Description:
+			'''
+			伤害 +1,400.00%  | 移动速度 +50.00%
+			防御 +150 | 气消耗 +100.00%
+			'''
+	}
+
+	K7SSJ5Buff: {
+		DisplayName: 超级赛亚人5
+		Description:
+			'''
+			Damage +440.00%  | Speed +250.00%
+			Ki Costs +120.00%
+			Ki Drain 180/s, 90/s when mastered
+			'''
+	}
+
+	K7SSJ6Buff: {
+		DisplayName: 超级赛亚人6
+		Description:
+			'''
+			Damage +500.00%  | Speed +200.00%
+			Defense +20 | Ki Costs +150.00%
+			Ki Drain 192/s, 96/s when mastered
+			'''
+	}
+
+	K7SSJ7Buff: {
+		DisplayName: 超级赛亚人7
+		Description:
+			'''
+			Damage +560.00%  | Speed +200.00%
+			Defense +20 | Ki Costs +150.00%
+			Ki Drain 240/s, 120/s when mastered
+			'''
+	}
+
+	SSJ8Buff: {
+		DisplayName: 超级赛亚人8
+		Description:
+			'''
+			Damage +600.00%  | Speed +200.00%
+			Defense +100 | Ki Costs +150.00%
+			Ki Drain 240/s, 120/s when mastered
+			'''
+	}
+
+	SSJ9Buff: {
+		DisplayName: 超级赛亚人9
+		Description:
+			'''
+			Damage +640.00%  | Speed +150.00%
+			Defense +50 | Ki Costs +150.00%
+			Ki Drain 180/s, 90/s when mastered
+			'''
+	}
+
+	SSJ9FPBuff: {
+		DisplayName: 超级赛亚人9全功率
+		Description:
+			'''
+			Damage +900.00%  | Speed +100.00%
+			Defense +60 | Ki Costs +150.00%
+			Ki Drain 300/s, 120/s when mastered
+			'''
+	}
+}
+
+Items: {
+	LSSJ10FPUnlock: {
+		DisplayName: 盘中巫毒玩偶
+		Tooltip: 如此骇人的举动，当然会给予你一股强大却危险的力量，使用时务必小心
+	}
+
+	LSSJ6Unlock: {
+		DisplayName: 邪能灌注龙珠
+		Tooltip: 这也许是获得新力量的关键？
+	}
+
+	LSSJ9Unlock: {
+		DisplayName: 纯粹徽章
+		Tooltip: 你距离获得终极力量只差这一步-使用这个徽章
+	}
+
+	SSJ10FPCheat: {
+		DisplayName: 超级赛亚人10作弊物品
+		Tooltip: 移除超级赛亚人10和传说超级赛亚人10的时间限制
+	}
+
+	SSJ5Unlock: {
+		DisplayName: 幻影赛亚人之魂
+		Tooltip: 突破极限，超越已知的超级赛亚人形态
+	}
+
+	SSJ8Unlock: {
+		DisplayName: 邪教徒的赛亚人知识
+		Tooltip:
+			''' 
+			使用后，获得如何融合超级赛亚人3和5以及传说超级赛亚人3和5的知识
+			[C/959595:译者补充：解锁超级赛亚人8和传说超级赛亚人，因为3+5=8……]
+			'''
+	}
+
+	LSSJ5DebugItem: {
+		DisplayName: 传说超级赛亚人5解锁物品
+		Tooltip: 突破极限
+	}
+}
+
+Configs: {
+	BalanceConfig: {
+		DisplayName: 平衡配置
+
+		UseHair: {
+			Label: Use Hair
+			Tooltip: ""
+		}
+	}
+
+	BalanceConfigServer: {
+		DisplayName: 服务器平衡配置
+
+		ChargeRework: {
+			Label: Charge Rework
+			Tooltip: ""
+		}
+
+		LongerTransform: {
+			Label: Longer Transform
+			Tooltip: ""
+		}
+
+		SSJTweaks: {
+			Label: S S J Tweaks
+			Tooltip: ""
+		}
+	}
+}
+
+
+// Assets: {
+// 	Label: Server Settings
+
+// 	UseHair: {
+// 		Label: Replace Hair/Arm with hair:
+// 		Tooltip: (Janky) Replace the player chest piece with red-ish hair.
+// 	}
+
+// 	ChargeRework: {
+// 		Header: Toggleable Balance Adjustments
+// 		Label: Beam weapon rework
+// 		Tooltip: Changes beam ki weapons to always take 3 seconds to charge.\nMore Charges still mean more damage.
+// 	}
+
+// 	LongerTransform: {
+// 		Header: Longer transformation times
+// 		Label: 
+// 	}
+
+// 	SSJTweaks: {
+// 		Header: 超级赛亚人Transformation Tweaks
+// 		Label: Rebalances the bonuses granted by transformations to reduce power creep.
+// 	}
+
+	
+// }

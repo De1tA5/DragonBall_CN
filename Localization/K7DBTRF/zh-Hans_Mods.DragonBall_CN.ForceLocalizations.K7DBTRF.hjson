@@ -1,0 +1,1446 @@
+Model: {
+	BuffLayer: {
+		Draw: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Body
+				// NewString: K7DBTRF/Assets/LSSJ5Body
+			}
+
+			2: {
+				// OldString: K7DBTRF/Assets/LSSJ5Arms
+				// NewString: K7DBTRF/Assets/LSSJ5Arms
+			}
+		}
+	}
+
+	RippedLayer: {
+		Draw: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Arms
+				// NewString: K7DBTRF/Assets/LSSJ5Arms
+			}
+		}
+	}
+}
+
+Items: {
+	Consumables: {
+		LSSJ10FPUnlock: {
+			OnConsumeItem: {
+				1: {
+					// OldString: Legendary
+					// NewString: Legendary
+				}
+
+				2: {
+					// OldString: " could not attain the forbidden power and died"
+					// NewString: " could not attain the forbidden power and died"
+				}
+
+				3: {
+					// OldString: The forbidden power is in your hands, do not stay on it for a minute
+					// NewString: The forbidden power is in your hands, do not stay on it for a minute
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: KaiTable
+					// NewString: KaiTable
+				}
+			}
+		}
+
+		LSSJ6Unlock: {
+			OnConsumeItem: {
+				1: {
+					// OldString: The dragon ball fuses onto your body, powering further your SSJ5, you call this SSJ6
+					// NewString: The dragon ball fuses onto your body, powering further your SSJ5, you call this SSJ6
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: PridefulKiCrystal
+					// NewString: PridefulKiCrystal
+				}
+
+				3: {
+					// OldString: FourStarDB
+					// NewString: FourStarDB
+				}
+
+				4: {
+					// OldString: KaiTable
+					// NewString: KaiTable
+				}
+			}
+		}
+
+		LSSJ9Unlock: {
+			OnConsumeItem: {
+				1: {
+					// OldString: The purity of the hallow combined with the guardian of the world create a new form of holiness and abhorrence!
+					// NewString: The purity of the hallow combined with the guardian of the world create a new form of holiness and abhorrence!
+				}
+			}
+
+			AddRecipes: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: PureKiCrystal
+					// NewString: PureKiCrystal
+				}
+
+				3: {
+					// OldString: SpiritualEmblem
+					// NewString: SpiritualEmblem
+				}
+
+				4: {
+					// OldString: KaiTable
+					// NewString: KaiTable
+				}
+			}
+		}
+
+		SSJ10FPCheat: {
+			OnConsumeItem: {
+				1: {
+					// OldString: You have now unlimited SSJ10/LSSJ10 usage
+					// NewString: You have now unlimited SSJ10/LSSJ10 usage
+				}
+
+				2: {
+					// OldString: You no longer have unlimited SSJ10/LSSJ10 usage
+					// NewString: You no longer have unlimited SSJ10/LSSJ10 usage
+				}
+			}
+		}
+
+		SSJ5Unlock: {
+			UseItem: {
+				1: {
+					// OldString: Legendary
+					// NewString: Legendary
+				}
+			}
+
+			OnConsumeItem: {
+				1: {
+					// OldString: You unlocked an unknown form of legend, select the form and transform as usual
+					// NewString: You unlocked an unknown form of legend, select the form and transform as usual
+				}
+
+				2: {
+					// OldString: You unlocked a form unknown to all, select the form and transform as usual
+					// NewString: You unlocked a form unknown to all, select the form and transform as usual
+				}
+			}
+		}
+
+		SSJ8Unlock: {
+			OnConsumeItem: {
+				1: {
+					// OldString: You successfully add 2 forms together! The new power of LSSJ8 covers you!
+					// NewString: You successfully add 2 forms together! The new power of LSSJ8 covers you!
+				}
+
+				2: {
+					// OldString: You successfully add 2 forms together! The new power of SSJ8 covers you!
+					// NewString: You successfully add 2 forms together! The new power of SSJ8 covers you!
+				}
+			}
+		}
+	}
+}
+
+Buffs: {
+	K7SSJ5Buff: {
+		FormName: {
+			1: {
+				// OldString: Super Saiyan 5
+				// NewString: Super Saiyan 5
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/SSJ5Hair
+				// NewString: K7DBTRF/Assets/SSJ5Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+
+	K7SSJ6Buff: {
+		FormName: {
+			1: {
+				// OldString: Super Saiyan 6
+				// NewString: Super Saiyan 6
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/SSJ6Hair
+				// NewString: K7DBTRF/Assets/SSJ6Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+
+	K7SSJ7Buff: {
+		FormName: {
+			1: {
+				// OldString: Super Saiyan 7
+				// NewString: Super Saiyan 7
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/SSJ7Hair
+				// NewString: K7DBTRF/Assets/SSJ7Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+
+	LSSJ10FPBuff: {
+		FormName: {
+			1: {
+				// OldString: Legendary Super Saiyan 10 The Forbidden Power
+				// NewString: Legendary Super Saiyan 10 The Forbidden Power
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ10FPHair
+				// NewString: K7DBTRF/Assets/LSSJ10FPHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+
+		Update: {
+			1: {
+				// OldString: " used the forbidden power for too long and banished into mist"
+				// NewString: " used the forbidden power for too long and banished into mist"
+			}
+		}
+
+		ModifyBuffText: {
+			1: {
+				/* OldString:
+					'''
+					True LSSJ10, The Ultimate Forbidden Power
+					 Damage: +400% | Speed: +100% | Defense: +200
+					 You can now stay up to 2 minutes
+					''' */
+				/* NewString:
+					'''
+					True LSSJ10, The Ultimate Forbidden Power
+					 Damage: +400% | Speed: +100% | Defense: +200
+					 You can now stay up to 2 minutes
+					''' */
+			}
+
+			2: {
+				/* OldString:
+					'''
+					True LSSJ10, The Ultimate Forbidden Power
+					 Damage: +1900% | Speed: +100% | Defense: +400
+					 You can now stay up to 2 minutes
+					''' */
+				/* NewString:
+					'''
+					True LSSJ10, The Ultimate Forbidden Power
+					 Damage: +1900% | Speed: +100% | Defense: +400
+					 You can now stay up to 2 minutes
+					''' */
+			}
+		}
+	}
+
+	LSSJ5Buff: {
+		FormName: {
+			1: {
+				// OldString: Legendary Super Saiyan 5
+				// NewString: Legendary Super Saiyan 5
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Hair
+				// NewString: K7DBTRF/Assets/LSSJ5Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+
+	LSSJ6Buff: {
+		FormName: {
+			1: {
+				// OldString: Legendary Super Saiyan 6
+				// NewString: Legendary Super Saiyan 6
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ6Hair
+				// NewString: K7DBTRF/Assets/LSSJ6Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+
+	LSSJ7Buff: {
+		FormName: {
+			1: {
+				// OldString: Legendary Super Saiyan 7
+				// NewString: Legendary Super Saiyan 7
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ7Hair
+				// NewString: K7DBTRF/Assets/LSSJ7Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+
+	LSSJ8Buff: {
+		FormName: {
+			1: {
+				// OldString: Legendary Super Saiyan 8
+				// NewString: Legendary Super Saiyan 8
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ8Hair
+				// NewString: K7DBTRF/Assets/LSSJ8Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+
+	LSSJ9Buff: {
+		FormName: {
+			1: {
+				// OldString: Legendary Super Saiyan 9
+				// NewString: Legendary Super Saiyan 9
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ9Hair
+				// NewString: K7DBTRF/Assets/LSSJ9Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+
+	LSSJ9FPBuff: {
+		FormName: {
+			1: {
+				// OldString: Legendary Super Saiyan 9 Full Power
+				// NewString: Legendary Super Saiyan 9 Full Power
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ9FPHair
+				// NewString: K7DBTRF/Assets/LSSJ9FPHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+
+	SSJ10FPBuff: {
+		FormName: {
+			1: {
+				// OldString: Super Saiyan 10 The Forbidden Power
+				// NewString: Super Saiyan 10 The Forbidden Power
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/SSJ10FPHair
+				// NewString: K7DBTRF/Assets/SSJ10FPHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+
+		Update: {
+			1: {
+				// OldString: " used the forbidden power for too long and banished into mist"
+				// NewString: " used the forbidden power for too long and banished into mist"
+			}
+		}
+
+		ModifyBuffText: {
+			1: {
+				/* OldString:
+					'''
+					True SSJ10, The Ultimate Forbidden Power
+					 Damage: +650% | Speed: +100%
+					 You can now stay up to 2 minutes
+					''' */
+				/* NewString:
+					'''
+					True SSJ10, The Ultimate Forbidden Power
+					 Damage: +650% | Speed: +100%
+					 You can now stay up to 2 minutes
+					''' */
+			}
+
+			2: {
+				/* OldString:
+					'''
+					True SSJ10, The Ultimate Forbidden Power
+					 Damage: +2000% | Speed: +100%
+					 You can now stay up to 2 minutes
+					''' */
+				/* NewString:
+					'''
+					True SSJ10, The Ultimate Forbidden Power
+					 Damage: +2000% | Speed: +100%
+					 You can now stay up to 2 minutes
+					''' */
+			}
+		}
+	}
+
+	SSJ8Buff: {
+		FormName: {
+			1: {
+				// OldString: Super Saiyan 8
+				// NewString: Super Saiyan 8
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/SSJ8Hair
+				// NewString: K7DBTRF/Assets/SSJ8Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+
+	SSJ9Buff: {
+		FormName: {
+			1: {
+				// OldString: Super Saiyan 9
+				// NewString: Super Saiyan 9
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/SSJ9Hair
+				// NewString: K7DBTRF/Assets/SSJ9Hair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+
+	SSJ9FPBuff: {
+		FormName: {
+			1: {
+				// OldString: Super Saiyan 9 Full Power
+				// NewString: Super Saiyan 9 Full Power
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				// OldString: K7DBTRF/Assets/SSJ9FPHair
+				// NewString: K7DBTRF/Assets/SSJ9FPHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJ3
+				// NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+
+		AuraData: {
+			1: {
+				// OldString: K7DBTRF/Assets/LSSJ5Aura
+				// NewString: K7DBTRF/Assets/LSSJ5Aura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+	}
+}
+
+Assets: {
+	KPlayer: {
+		PostUpdateEquips: {
+			1: {
+				// OldString: dbzcalamity
+				// NewString: dbzcalamity
+			}
+
+			2: {
+				// OldString: ModPlayer
+				// NewString: ModPlayer
+			}
+
+			3: {
+				// OldString: dodgeChange
+				// NewString: dodgeChange
+			}
+
+			4: {
+				// OldString: SetValue
+				// NewString: SetValue
+			}
+
+			5: {
+				// OldString: GetValue
+				// NewString: GetValue
+			}
+		}
+
+		PostUpdate: {
+			1: {
+				/* OldString:
+					'''
+					You went beyond potential, break all limits and go further!
+					While in Legendary Super Saiyain 4 form press the Transform button once more to reach higher power.
+					''' */
+				/* NewString:
+					'''
+					You went beyond potential, break all limits and go further!
+					While in Legendary Super Saiyain 4 form press the Transform button once more to reach higher power.
+					''' */
+			}
+
+			2: {
+				// OldString: DBZMODPORT
+				// NewString: DBZMODPORT
+			}
+
+			3: {
+				// OldString: You accepted evil ki, it covers your body, a new form is born!
+				// NewString: You accepted evil ki, it covers your body, a new form is born!
+			}
+
+			4: {
+				// OldString: You stack together LSSJ3 and LSSJ5, the combination of 2 forms creates abysmal power!
+				// NewString: You stack together LSSJ3 and LSSJ5, the combination of 2 forms creates abysmal power!
+			}
+
+			5: {
+				// OldString: You achieve the most dangerous power a saiyan can have, beware of it
+				// NewString: You achieve the most dangerous power a saiyan can have, beware of it
+			}
+		}
+
+		SaveData: {
+			1: {
+				// OldString: K7DBTRF_LSSJ5Achieved
+				// NewString: K7DBTRF_LSSJ5Achieved
+			}
+
+			2: {
+				// OldString: K7DBTRF_LSSJ5UnlockMsg
+				// NewString: K7DBTRF_LSSJ5UnlockMsg
+			}
+
+			3: {
+				// OldString: K7DBTRF_LSSJ6Achieved
+				// NewString: K7DBTRF_LSSJ6Achieved
+			}
+
+			4: {
+				// OldString: K7DBTRF_LSSJ6UnlockMsg
+				// NewString: K7DBTRF_LSSJ6UnlockMsg
+			}
+
+			5: {
+				// OldString: K7DBTRF_LSSJ7UnlockMsg
+				// NewString: K7DBTRF_LSSJ7UnlockMsg
+			}
+
+			6: {
+				// OldString: K7DBTRF_LSSJ8Achieved
+				// NewString: K7DBTRF_LSSJ8Achieved
+			}
+
+			7: {
+				// OldString: K7DBTRF_LSSJ8UnlockMsg
+				// NewString: K7DBTRF_LSSJ8UnlockMsg
+			}
+
+			8: {
+				// OldString: K7DBTRF_LSSJ9Achieved
+				// NewString: K7DBTRF_LSSJ9Achieved
+			}
+
+			9: {
+				// OldString: K7DBTRF_LSSJ9UnlockMsg
+				// NewString: K7DBTRF_LSSJ9UnlockMsg
+			}
+
+			10: {
+				// OldString: K7DBTRF_LSSJ9FPAchieved
+				// NewString: K7DBTRF_LSSJ9FPAchieved
+			}
+
+			11: {
+				// OldString: K7DBTRF_LSSJ9FPUnlockMsg
+				// NewString: K7DBTRF_LSSJ9FPUnlockMsg
+			}
+
+			12: {
+				// OldString: K7DBTRF_LSSJ10FPAchieved
+				// NewString: K7DBTRF_LSSJ10FPAchieved
+			}
+
+			13: {
+				// OldString: K7DBTRF_LSSJ10FPUnlockMsg
+				// NewString: K7DBTRF_LSSJ10FPUnlockMsg
+			}
+
+			14: {
+				// OldString: K7DBTRF_SSJ5Achieved
+				// NewString: K7DBTRF_SSJ5Achieved
+			}
+
+			15: {
+				// OldString: K7DBTRF_SSJ5UnlockMsg
+				// NewString: K7DBTRF_SSJ5UnlockMsg
+			}
+
+			16: {
+				// OldString: K7DBTRF_SSJ6Achieved
+				// NewString: K7DBTRF_SSJ6Achieved
+			}
+
+			17: {
+				// OldString: K7DBTRF_SSJ6UnlockMsg
+				// NewString: K7DBTRF_SSJ6UnlockMsg
+			}
+
+			18: {
+				// OldString: K7DBTRF_SSJ7UnlockMsg
+				// NewString: K7DBTRF_SSJ7UnlockMsg
+			}
+
+			19: {
+				// OldString: K7DBTRF_SSJ8Achieved
+				// NewString: K7DBTRF_SSJ8Achieved
+			}
+
+			20: {
+				// OldString: K7DBTRF_SSJ8UnlockMsg
+				// NewString: K7DBTRF_SSJ8UnlockMsg
+			}
+
+			21: {
+				// OldString: K7DBTRF_SSJ9Achieved
+				// NewString: K7DBTRF_SSJ9Achieved
+			}
+
+			22: {
+				// OldString: K7DBTRF_SSJ9UnlockMsg
+				// NewString: K7DBTRF_SSJ9UnlockMsg
+			}
+
+			23: {
+				// OldString: K7DBTRF_SSJ9FPAchieved
+				// NewString: K7DBTRF_SSJ9FPAchieved
+			}
+
+			24: {
+				// OldString: K7DBTRF_SSJ9FPUnlockMsg
+				// NewString: K7DBTRF_SSJ9FPUnlockMsg
+			}
+
+			25: {
+				// OldString: K7DBTRF_SSJ10FPAchieved
+				// NewString: K7DBTRF_SSJ10FPAchieved
+			}
+
+			26: {
+				// OldString: K7DBTRF_SSJ10FPUnlockMsg
+				// NewString: K7DBTRF_SSJ10FPUnlockMsg
+			}
+
+			27: {
+				// OldString: K7DBTRF_SSJ10Cheat
+				// NewString: K7DBTRF_SSJ10Cheat
+			}
+		}
+
+		LoadData: {
+			1: {
+				// OldString: K7DBTRF_LSSJ5Achieved
+				// NewString: K7DBTRF_LSSJ5Achieved
+			}
+
+			2: {
+				// OldString: K7DBTRF_LSSJ5UnlockMsg
+				// NewString: K7DBTRF_LSSJ5UnlockMsg
+			}
+
+			3: {
+				// OldString: K7DBTRF_LSSJ6Achieved
+				// NewString: K7DBTRF_LSSJ6Achieved
+			}
+
+			4: {
+				// OldString: K7DBTRF_LSSJ6UnlockMsg
+				// NewString: K7DBTRF_LSSJ6UnlockMsg
+			}
+
+			5: {
+				// OldString: K7DBTRF_LSSJ8Achieved
+				// NewString: K7DBTRF_LSSJ8Achieved
+			}
+
+			6: {
+				// OldString: K7DBTRF_LSSJ8UnlockMsg
+				// NewString: K7DBTRF_LSSJ8UnlockMsg
+			}
+
+			7: {
+				// OldString: K7DBTRF_LSSJ9Achieved
+				// NewString: K7DBTRF_LSSJ9Achieved
+			}
+
+			8: {
+				// OldString: K7DBTRF_LSSJ9UnlockMsg
+				// NewString: K7DBTRF_LSSJ9UnlockMsg
+			}
+
+			9: {
+				// OldString: K7DBTRF_LSSJ9FPAchieved
+				// NewString: K7DBTRF_LSSJ9FPAchieved
+			}
+
+			10: {
+				// OldString: K7DBTRF_LSSJ9FPUnlockMsg
+				// NewString: K7DBTRF_LSSJ9FPUnlockMsg
+			}
+
+			11: {
+				// OldString: K7DBTRF_LSSJ10FPAchieved
+				// NewString: K7DBTRF_LSSJ10FPAchieved
+			}
+
+			12: {
+				// OldString: K7DBTRF_LSSJ10FPUnlockMsg
+				// NewString: K7DBTRF_LSSJ10FPUnlockMsg
+			}
+
+			13: {
+				// OldString: K7DBTRF_SSJ5Achieved
+				// NewString: K7DBTRF_SSJ5Achieved
+			}
+
+			14: {
+				// OldString: K7DBTRF_SSJ5UnlockMsg
+				// NewString: K7DBTRF_SSJ5UnlockMsg
+			}
+
+			15: {
+				// OldString: K7DBTRF_SSJ6Achieved
+				// NewString: K7DBTRF_SSJ6Achieved
+			}
+
+			16: {
+				// OldString: K7DBTRF_SSJ6UnlockMsg
+				// NewString: K7DBTRF_SSJ6UnlockMsg
+			}
+
+			17: {
+				// OldString: K7DBTRF_SSJ8Achieved
+				// NewString: K7DBTRF_SSJ8Achieved
+			}
+
+			18: {
+				// OldString: K7DBTRF_SSJ8UnlockMsg
+				// NewString: K7DBTRF_SSJ8UnlockMsg
+			}
+
+			19: {
+				// OldString: K7DBTRF_SSJ9Achieved
+				// NewString: K7DBTRF_SSJ9Achieved
+			}
+
+			20: {
+				// OldString: K7DBTRF_SSJ9UnlockMsg
+				// NewString: K7DBTRF_SSJ9UnlockMsg
+			}
+
+			21: {
+				// OldString: K7DBTRF_SSJ9FPAchieved
+				// NewString: K7DBTRF_SSJ9FPAchieved
+			}
+
+			22: {
+				// OldString: K7DBTRF_SSJ9FPUnlockMsg
+				// NewString: K7DBTRF_SSJ9FPUnlockMsg
+			}
+
+			23: {
+				// OldString: K7DBTRF_SSJ10FPAchieved
+				// NewString: K7DBTRF_SSJ10FPAchieved
+			}
+
+			24: {
+				// OldString: K7DBTRF_SSJ10FPUnlockMsg
+				// NewString: K7DBTRF_SSJ10FPUnlockMsg
+			}
+
+			25: {
+				// OldString: K7DBTRF_SSJ10Cheat
+				// NewString: K7DBTRF_SSJ10Cheat
+			}
+		}
+
+		ResetEffects: {
+			1: {
+				// OldString: DBZMODPORT
+				// NewString: DBZMODPORT
+			}
+		}
+	}
+
+	LSSJAFPanel: {
+		Condition: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+
+		Name: {
+			1: {
+				// OldString: Legendary Alternative Future
+				// NewString: Legendary Alternative Future
+			}
+		}
+
+		Nodes: {
+			1: {
+				// OldString: LSSJ5Buff
+				// NewString: LSSJ5Buff
+			}
+
+			2: {
+				// OldString: K7DBTRF/Buffs/LSSJ5Buff
+				// NewString: K7DBTRF/Buffs/LSSJ5Buff
+			}
+
+			3: {
+				// OldString: You did well, but what if you risked the fate of the world again to perfect your skill? (Kill moon lord)
+				// NewString: You did well, but what if you risked the fate of the world again to perfect your skill? (Kill moon lord)
+			}
+
+			4: {
+				// OldString: LSSJ6Buff
+				// NewString: LSSJ6Buff
+			}
+
+			5: {
+				// OldString: K7DBTRF/Buffs/LSSJ6Buff
+				// NewString: K7DBTRF/Buffs/LSSJ6Buff
+			}
+
+			6: {
+				// OldString: Consume the 4 star dragon ball combined with evil prideful essence (Craft  evil infused dragon ball)
+				// NewString: Consume the 4 star dragon ball combined with evil prideful essence (Craft  evil infused dragon ball)
+			}
+
+			7: {
+				// OldString: LSSJ7Buff
+				// NewString: LSSJ7Buff
+			}
+
+			8: {
+				// OldString: K7DBTRF/Buffs/LSSJ7Buff
+				// NewString: K7DBTRF/Buffs/LSSJ7Buff
+			}
+
+			9: {
+				// OldString: I think you should just train harder with your new form (Master LSSJ6)
+				// NewString: I think you should just train harder with your new form (Master LSSJ6)
+			}
+
+			10: {
+				// OldString: LSSJ8Buff
+				// NewString: LSSJ8Buff
+			}
+
+			11: {
+				// OldString: K7DBTRF/Buffs/LSSJ8Buff
+				// NewString: K7DBTRF/Buffs/LSSJ8Buff
+			}
+
+			12: {
+				// OldString: Can you defeat a crazed cultist after mastering many forms? (Defeat Lunatic cultist while having LSSJ6)
+				// NewString: Can you defeat a crazed cultist after mastering many forms? (Defeat Lunatic cultist while having LSSJ6)
+			}
+
+			13: {
+				// OldString: LSSJ9Buff
+				// NewString: LSSJ9Buff
+			}
+
+			14: {
+				// OldString: K7DBTRF/Buffs/LSSJ9Buff
+				// NewString: K7DBTRF/Buffs/LSSJ9Buff
+			}
+
+			15: {
+				// OldString: The emblem of the guardian of hell could be infused wth pure ki and unlock new power (Craft the pure emblem)
+				// NewString: The emblem of the guardian of hell could be infused wth pure ki and unlock new power (Craft the pure emblem)
+			}
+
+			16: {
+				// OldString: LSSJ9FPBuff
+				// NewString: LSSJ9FPBuff
+			}
+
+			17: {
+				// OldString: K7DBTRF/Buffs/LSSJ9FPBuff
+				// NewString: K7DBTRF/Buffs/LSSJ9FPBuff
+			}
+
+			18: {
+				// OldString: Consume the pure emblem and it also gets unlocked with LSSJ9
+				// NewString: Consume the pure emblem and it also gets unlocked with LSSJ9
+			}
+
+			19: {
+				// OldString: LSSJ10FPBuff
+				// NewString: LSSJ10FPBuff
+			}
+
+			20: {
+				// OldString: K7DBTRF/Buffs/LSSJ10FPBuff
+				// NewString: K7DBTRF/Buffs/LSSJ10FPBuff
+			}
+
+			21: {
+				// OldString: Eat the voodoo doll of your first friend, and you will get dark power (Craft voodoo doll on a plate)
+				// NewString: Eat the voodoo doll of your first friend, and you will get dark power (Craft voodoo doll on a plate)
+			}
+		}
+	}
+
+	SSJAFPanel: {
+		Condition: {
+			1: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+
+		Name: {
+			1: {
+				// OldString: Alternative Future
+				// NewString: Alternative Future
+			}
+		}
+
+		Nodes: {
+			1: {
+				// OldString: K7SSJ5Buff
+				// NewString: K7SSJ5Buff
+			}
+
+			2: {
+				// OldString: K7DBTRF/Buffs/K7SSJ5Buff
+				// NewString: K7DBTRF/Buffs/K7SSJ5Buff
+			}
+
+			3: {
+				/* OldString:
+					'''
+					You should kill the moon lord again to improve your new power
+					 If it does not unlock, use the unlock item the moon lord drops
+					''' */
+				/* NewString:
+					'''
+					You should kill the moon lord again to improve your new power
+					 If it does not unlock, use the unlock item the moon lord drops
+					''' */
+			}
+
+			4: {
+				// OldString: K7SSJ6Buff
+				// NewString: K7SSJ6Buff
+			}
+
+			5: {
+				// OldString: K7DBTRF/Buffs/K7SSJ6Buff
+				// NewString: K7DBTRF/Buffs/K7SSJ6Buff
+			}
+
+			6: {
+				// OldString: Consume the 4 star dragon ball combined with evil prideful essence
+				// NewString: Consume the 4 star dragon ball combined with evil prideful essence
+			}
+
+			7: {
+				// OldString: K7SSJ7Buff
+				// NewString: K7SSJ7Buff
+			}
+
+			8: {
+				// OldString: K7DBTRF/Buffs/K7SSJ7Buff
+				// NewString: K7DBTRF/Buffs/K7SSJ7Buff
+			}
+
+			9: {
+				// OldString: I think you should just train harder with your new form (Master SSJ6)
+				// NewString: I think you should just train harder with your new form (Master SSJ6)
+			}
+
+			10: {
+				// OldString: SSJ8Buff
+				// NewString: SSJ8Buff
+			}
+
+			11: {
+				// OldString: K7DBTRF/Buffs/SSJ8Buff
+				// NewString: K7DBTRF/Buffs/SSJ8Buff
+			}
+
+			12: {
+				/* OldString:
+					'''
+					Can you defeat a crazed cultist after mastering many forms? (Defeat Lunatic cultist while having SSJ6)
+					 Or use the unlock item dropped from Lunatic Cultist
+					''' */
+				/* NewString:
+					'''
+					Can you defeat a crazed cultist after mastering many forms? (Defeat Lunatic cultist while having SSJ6)
+					 Or use the unlock item dropped from Lunatic Cultist
+					''' */
+			}
+
+			13: {
+				// OldString: SSJ9Buff
+				// NewString: SSJ9Buff
+			}
+
+			14: {
+				// OldString: K7DBTRF/Buffs/SSJ9Buff
+				// NewString: K7DBTRF/Buffs/SSJ9Buff
+			}
+
+			15: {
+				// OldString: The emblem of the guardian of hell could be infused wth pure ki and unlock new powe (Craft the pure emblem)
+				// NewString: The emblem of the guardian of hell could be infused wth pure ki and unlock new powe (Craft the pure emblem)
+			}
+
+			16: {
+				// OldString: SSJ9FPBuff
+				// NewString: SSJ9FPBuff
+			}
+
+			17: {
+				// OldString: K7DBTRF/Buffs/SSJ9FPBuff
+				// NewString: K7DBTRF/Buffs/SSJ9FPBuff
+			}
+
+			18: {
+				// OldString: See SSJ9
+				// NewString: See SSJ9
+			}
+
+			19: {
+				// OldString: SSJ10FPBuff
+				// NewString: SSJ10FPBuff
+			}
+
+			20: {
+				// OldString: K7DBTRF/Buffs/SSJ10FPBuff
+				// NewString: K7DBTRF/Buffs/SSJ10FPBuff
+			}
+
+			21: {
+				// OldString: Eat the voodoo doll of your first friend, and you will get dark power (Craft voodoo doll on a plate)
+				// NewString: Eat the voodoo doll of your first friend, and you will get dark power (Craft voodoo doll on a plate)
+			}
+		}
+	}
+
+	KPlayer+<>c: {
+		<PostUpdateEquips>b__47_0: {
+			1: {
+				// OldString: dbzcalamityPlayer
+				// NewString: dbzcalamityPlayer
+			}
+		}
+	}
+}

@@ -1,0 +1,208 @@
+Buffs: {
+	LSSJ10FPCooldown: {
+		DisplayName: Forbidden Power Cooldown
+		Description: Your body must rest from using these powers
+	}
+
+	LSSJ10FPBuff: {
+		DisplayName: Legendary Super Saiyan 10 The Forbidden Power
+		Description:
+			'''
+			Damage +1,300.00%  | Speed +50.00%
+			Defense +300 | Ki Costs +100.00%
+
+			'''
+	}
+
+	LSSJ5Buff: {
+		DisplayName: Legendary Super Saiyan 5
+		Description:
+			'''
+			Damage +400.00%  | Speed +250.00%
+			Defense +100 | Ki Costs +170.00%
+			Ki Drain 300/s, 150/s when mastered
+			'''
+	}
+
+	LSSJ6Buff: {
+		DisplayName: Legendary Super Saiyan 6
+		Description:
+			'''
+			Damage +400.00%  | Speed +200.00%
+			Defense +140 | Ki Costs +150.00%
+			Ki Drain 240/s, 120/s when mastered
+			'''
+	}
+
+	LSSJ7Buff: {
+		DisplayName: Legendary Super Saiyan 7
+		Description:
+			'''
+			Damage +500.00%  | Speed +100.00%
+			Defense +160 | Ki Costs +170.00%
+			Ki Drain 270/s, 120/s when mastered
+			'''
+	}
+
+	LSSJ8Buff: {
+		DisplayName: Legendary Super Saiyan 8
+		Description:
+			'''
+			Damage +560.00%  | Speed +50.00%
+			Defense +200 | Ki Costs +150.00%
+			Ki Drain 360/s, 180/s when mastered
+			'''
+	}
+
+	LSSJ9Buff: {
+		DisplayName: Legendary Super Saiyan 9
+		Description:
+			'''
+			Damage +600.00%  | Speed +150.00%
+			Defense +240 | Ki Costs +150.00%
+			Ki Drain 240/s, 120/s when mastered
+			'''
+	}
+
+	LSSJ9FPBuff: {
+		DisplayName: Legendary Super Saiyan 9 Full Power
+		Description:
+			'''
+			Damage +800.00%  | Speed +100.00%
+			Defense +240 | Ki Costs +150.00%
+			Ki Drain 180/s, 90/s when mastered
+			'''
+	}
+
+	SSJ10FPBuff: {
+		DisplayName: Super Saiyan 10 The Forbidden Power
+		Description:
+			'''
+			Damage +1,400.00%  | Speed +50.00%
+			Defense +150 | Ki Costs +100.00%
+
+			'''
+	}
+
+	K7SSJ5Buff: {
+		DisplayName: Super Saiyan 5
+		Description:
+			'''
+			Damage +440.00%  | Speed +250.00%
+			Ki Costs +120.00%
+			Ki Drain 180/s, 90/s when mastered
+			'''
+	}
+
+	K7SSJ6Buff: {
+		DisplayName: Super Saiyan 6
+		Description:
+			'''
+			Damage +500.00%  | Speed +200.00%
+			Defense +20 | Ki Costs +150.00%
+			Ki Drain 192/s, 96/s when mastered
+			'''
+	}
+
+	K7SSJ7Buff: {
+		DisplayName: Super Saiyan 7
+		Description:
+			'''
+			Damage +560.00%  | Speed +200.00%
+			Defense +20 | Ki Costs +150.00%
+			Ki Drain 240/s, 120/s when mastered
+			'''
+	}
+
+	SSJ8Buff: {
+		DisplayName: Super Saiyan 8
+		Description:
+			'''
+			Damage +600.00%  | Speed +200.00%
+			Defense +100 | Ki Costs +150.00%
+			Ki Drain 240/s, 120/s when mastered
+			'''
+	}
+
+	SSJ9Buff: {
+		DisplayName: Super Saiyan 9
+		Description:
+			'''
+			Damage +640.00%  | Speed +150.00%
+			Defense +50 | Ki Costs +150.00%
+			Ki Drain 180/s, 90/s when mastered
+			'''
+	}
+
+	SSJ9FPBuff: {
+		DisplayName: Super Saiyan 9 Full Power
+		Description:
+			'''
+			Damage +900.00%  | Speed +100.00%
+			Defense +60 | Ki Costs +150.00%
+			Ki Drain 300/s, 120/s when mastered
+			'''
+	}
+}
+
+Items: {
+	LSSJ10FPUnlock: {
+		DisplayName: Voodoo Doll on a plate
+		Tooltip: Such macabre action would of course give you an humongous yet dangerous power, be careful how you use it
+	}
+
+	LSSJ6Unlock: {
+		DisplayName: Evil Infused Dragon Ball
+		Tooltip: May be the key for a new power?
+	}
+
+	LSSJ9Unlock: {
+		DisplayName: Pure Emblem
+		Tooltip: You are close to achieve ultimate power, consume this item
+	}
+
+	SSJ10FPCheat: {
+		DisplayName: SSJ10Cheat
+		Tooltip: Removes the time limit of SSJ10 and LSSJ10
+	}
+
+	SSJ5Unlock: {
+		DisplayName: Phantasmal Saiyan Soul
+		Tooltip: Go overdrive,above the known SSJ forms
+	}
+
+	SSJ8Unlock: {
+		DisplayName: Cultist knowledge of Saiyans
+		Tooltip: Consume the knowledge of how to fuse SSJ3/LSSJ3 and SSJ5/LSSJ5
+	}
+
+	LSSJ5DebugItem: {
+		DisplayName: LSSJ5 Unlock Item
+		Tooltip: Go Overdrive
+	}
+}
+
+Assets: {
+	Label: Server Settings
+
+	UseHair: {
+		Label: Replace Hair/Arm with hair:
+		Tooltip: (Janky) Replace the player chest piece with red-ish hair.
+	}
+
+	ChargeRework: {
+		Header: Toggleable Balance Adjustments
+		Label: Beam weapon rework
+		Tooltip: Changes beam ki weapons to always take 3 seconds to charge.\nMore Charges still mean more damage.
+	}
+
+	LongerTransform: {
+		Header: Longer transformation times
+		Label: Makes transforming into SSJ forms require holding the button for a small duration.
+	}
+
+	SSJTweaks: {
+		Header: Super Saiyan Transformation Tweaks
+		Label: Rebalances the bonuses granted by transformations to reduce power creep.
+	}
+}
