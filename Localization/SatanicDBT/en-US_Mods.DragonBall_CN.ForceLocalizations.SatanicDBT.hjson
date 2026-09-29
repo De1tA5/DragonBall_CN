@@ -1,0 +1,861 @@
+SatanicPlayer: {
+	SaveData: {
+		1: {
+			OldString: isSInful
+			NewString: isSInful
+		}
+
+		2: {
+			OldString: PrideAchieved
+			NewString: PrideAchieved
+		}
+
+		3: {
+			OldString: PrideUnlockMsg
+			NewString: PrideUnlockMsg
+		}
+
+		4: {
+			OldString: masteredMessagePride
+			NewString: masteredMessagePride
+		}
+
+		5: {
+			OldString: SlothAchieved
+			NewString: SlothAchieved
+		}
+
+		6: {
+			OldString: SlothUnlockMsg
+			NewString: SlothUnlockMsg
+		}
+
+		7: {
+			OldString: masteredMessageSloth
+			NewString: masteredMessageSloth
+		}
+
+		8: {
+			OldString: LustAchieved
+			NewString: LustAchieved
+		}
+
+		9: {
+			OldString: LustUnlockMsg
+			NewString: LustUnlockMsg
+		}
+
+		10: {
+			OldString: masteredMessageLust
+			NewString: masteredMessageLust
+		}
+
+		11: {
+			OldString: GluttonyAchieved
+			NewString: GluttonyAchieved
+		}
+
+		12: {
+			OldString: GluttonyUnlockMsg
+			NewString: GluttonyUnlockMsg
+		}
+
+		13: {
+			OldString: masteredMessageGluttony
+			NewString: masteredMessageGluttony
+		}
+
+		14: {
+			OldString: WrathAchieved
+			NewString: WrathAchieved
+		}
+
+		15: {
+			OldString: WratUnlockMsg
+			NewString: WratUnlockMsg
+		}
+
+		16: {
+			OldString: masteredMessageWrath
+			NewString: masteredMessageWrath
+		}
+
+		17: {
+			OldString: EnvyAchieved
+			NewString: EnvyAchieved
+		}
+
+		18: {
+			OldString: EnvyUnlockMsg
+			NewString: EnvyUnlockMsg
+		}
+
+		19: {
+			OldString: masteredMessageEnvy
+			NewString: masteredMessageEnvy
+		}
+
+		20: {
+			OldString: GreedAchieved
+			NewString: GreedAchieved
+		}
+
+		21: {
+			OldString: GreedUnlockMsg
+			NewString: GreedUnlockMsg
+		}
+
+		22: {
+			OldString: masteredMessageGreed
+			NewString: masteredMessageGreed
+		}
+
+		23: {
+			OldString: hasSinned
+			NewString: hasSinned
+		}
+
+		24: {
+			OldString: chooseSinNames
+			NewString: chooseSinNames
+		}
+
+		25: {
+			OldString: chooseSinBools
+			NewString: chooseSinBools
+		}
+	}
+
+	LoadData: {
+		1: {
+			OldString: isSinful
+			NewString: isSinful
+		}
+
+		2: {
+			OldString: PrideAchieved
+			NewString: PrideAchieved
+		}
+
+		3: {
+			OldString: PrideUnlockMsg
+			NewString: PrideUnlockMsg
+		}
+
+		4: {
+			OldString: masteredMessagePride
+			NewString: masteredMessagePride
+		}
+
+		5: {
+			OldString: SlothAchieved
+			NewString: SlothAchieved
+		}
+
+		6: {
+			OldString: SlothUnlockMsg
+			NewString: SlothUnlockMsg
+		}
+
+		7: {
+			OldString: masteredMessageSloth
+			NewString: masteredMessageSloth
+		}
+
+		8: {
+			OldString: LustAchieved
+			NewString: LustAchieved
+		}
+
+		9: {
+			OldString: LustUnlockMsg
+			NewString: LustUnlockMsg
+		}
+
+		10: {
+			OldString: masteredMessageLust
+			NewString: masteredMessageLust
+		}
+
+		11: {
+			OldString: GluttonyAchieved
+			NewString: GluttonyAchieved
+		}
+
+		12: {
+			OldString: GluttonyUnlockMsg
+			NewString: GluttonyUnlockMsg
+		}
+
+		13: {
+			OldString: masteredMessageGluttony
+			NewString: masteredMessageGluttony
+		}
+
+		14: {
+			OldString: WrathAchieved
+			NewString: WrathAchieved
+		}
+
+		15: {
+			OldString: WratUnlockMsg
+			NewString: WratUnlockMsg
+		}
+
+		16: {
+			OldString: masteredMessageWrath
+			NewString: masteredMessageWrath
+		}
+
+		17: {
+			OldString: EnvyAchieved
+			NewString: EnvyAchieved
+		}
+
+		18: {
+			OldString: EnvyUnlockMsg
+			NewString: EnvyUnlockMsg
+		}
+
+		19: {
+			OldString: masteredMessageEnvy
+			NewString: masteredMessageEnvy
+		}
+
+		20: {
+			OldString: GreedAchieved
+			NewString: GreedAchieved
+		}
+
+		21: {
+			OldString: GreedUnlockMsg
+			NewString: GreedUnlockMsg
+		}
+
+		22: {
+			OldString: masteredMessageGreed
+			NewString: masteredMessageGreed
+		}
+
+		23: {
+			OldString: hasSinned
+			NewString: hasSinned
+		}
+
+		24: {
+			OldString: chooseSinNames
+			NewString: chooseSinNames
+		}
+
+		25: {
+			OldString: chooseSinBools
+			NewString: chooseSinBools
+		}
+	}
+
+	PostUpdate: {
+		1: {
+			OldString: Envy
+			NewString: Envy
+		}
+
+		2: {
+			OldString: Gluttony
+			NewString: Gluttony
+		}
+
+		3: {
+			OldString: Greed
+			NewString: Greed
+		}
+
+		4: {
+			OldString: Lust
+			NewString: Lust
+		}
+
+		5: {
+			OldString: Pride
+			NewString: Pride
+		}
+
+		6: {
+			OldString: Sloth
+			NewString: Sloth
+		}
+
+		7: {
+			OldString: Wrath
+			NewString: Wrath
+		}
+
+		8: {
+			OldString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." ENVY'''
+			NewString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." ENVY'''
+		}
+
+		9: {
+			OldString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." GLUTTONY'''
+			NewString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." GLUTTONY'''
+		}
+
+		10: {
+			OldString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." GREED'''
+			NewString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." GREED'''
+		}
+
+		11: {
+			OldString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." LUST'''
+			NewString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." LUST'''
+		}
+
+		12: {
+			OldString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." PRIDE'''
+			NewString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." PRIDE'''
+		}
+
+		13: {
+			OldString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." SLOTH'''
+			NewString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." SLOTH'''
+		}
+
+		14: {
+			OldString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." WRATH'''
+			NewString: '''"Lucifer has taken a liking to the way you do things here in the mortal realm." WRATH'''
+		}
+	}
+}
+
+SatanicTree: {
+	Name: {
+		1: {
+			OldString: Sins
+			NewString: Sins
+		}
+	}
+
+	Nodes: {
+		1: {
+			OldString: Sloth
+			NewString: Sloth
+		}
+
+		2: {
+			OldString: SatanicDBT/Content/Forms/Sloth
+			NewString: SatanicDBT/Content/Forms/Sloth
+		}
+
+		3: {
+			OldString: ...
+			NewString: ...
+		}
+
+		4: {
+			OldString: Gluttony
+			NewString: Gluttony
+		}
+
+		5: {
+			OldString: SatanicDBT/Content/Forms/Gluttony
+			NewString: SatanicDBT/Content/Forms/Gluttony
+		}
+
+		6: {
+			OldString: Wrath
+			NewString: Wrath
+		}
+
+		7: {
+			OldString: SatanicDBT/Content/Forms/Wrath
+			NewString: SatanicDBT/Content/Forms/Wrath
+		}
+
+		8: {
+			OldString: Pride
+			NewString: Pride
+		}
+
+		9: {
+			OldString: SatanicDBT/Content/Forms/Pride
+			NewString: SatanicDBT/Content/Forms/Pride
+		}
+
+		10: {
+			OldString: Greed
+			NewString: Greed
+		}
+
+		11: {
+			OldString: SatanicDBT/Content/Forms/Greed
+			NewString: SatanicDBT/Content/Forms/Greed
+		}
+
+		12: {
+			OldString: Envy
+			NewString: Envy
+		}
+
+		13: {
+			OldString: SatanicDBT/Content/Forms/Envy
+			NewString: SatanicDBT/Content/Forms/Envy
+		}
+
+		14: {
+			OldString: Lust
+			NewString: Lust
+		}
+
+		15: {
+			OldString: SatanicDBT/Content/Forms/Lust
+			NewString: SatanicDBT/Content/Forms/Lust
+		}
+	}
+}
+
+SinSystemPlayer: {
+	SaveData: {
+		1: {
+			OldString: sinNames1
+			NewString: sinNames1
+		}
+
+		2: {
+			OldString: sinPoints
+			NewString: sinPoints
+		}
+
+		3: {
+			OldString: sinNames2
+			NewString: sinNames2
+		}
+
+		4: {
+			OldString: sinBools
+			NewString: sinBools
+		}
+	}
+
+	LoadData: {
+		1: {
+			OldString: sinNames1
+			NewString: sinNames1
+		}
+
+		2: {
+			OldString: sinPoints
+			NewString: sinPoints
+		}
+
+		3: {
+			OldString: sinNames2
+			NewString: sinNames2
+		}
+
+		4: {
+			OldString: sinBools
+			NewString: sinBools
+		}
+	}
+
+	PostUpdate: {
+		1: {
+			OldString: Envy
+			NewString: Envy
+		}
+
+		2: {
+			OldString: Gluttony
+			NewString: Gluttony
+		}
+
+		3: {
+			OldString: Greed
+			NewString: Greed
+		}
+
+		4: {
+			OldString: Lust
+			NewString: Lust
+		}
+
+		5: {
+			OldString: Pride
+			NewString: Pride
+		}
+
+		6: {
+			OldString: Sloth
+			NewString: Sloth
+		}
+
+		7: {
+			OldString: Wrath
+			NewString: Wrath
+		}
+	}
+}
+
+Content: {
+	Items: {
+		Consumables: {
+			ThoughtExtractor: {
+				OnConsumeItem: {
+					1: {
+						OldString: I'm jealous of everyone around me
+						NewString: I'm jealous of everyone around me
+					}
+
+					2: {
+						OldString: Envy
+						NewString: Envy
+					}
+
+					3: {
+						OldString: I'm such a pig
+						NewString: I'm such a pig
+					}
+
+					4: {
+						OldString: Gluttony
+						NewString: Gluttony
+					}
+
+					5: {
+						OldString: I will be wealthy
+						NewString: I will be wealthy
+					}
+
+					6: {
+						OldString: Greed
+						NewString: Greed
+					}
+
+					7: {
+						OldString: I'll do anything for pleasure
+						NewString: I'll do anything for pleasure
+					}
+
+					8: {
+						OldString: Lust
+						NewString: Lust
+					}
+
+					9: {
+						OldString: I am better than everyone around me
+						NewString: I am better than everyone around me
+					}
+
+					10: {
+						OldString: Pride
+						NewString: Pride
+					}
+
+					11: {
+						OldString: I like to sit around and do nothing
+						NewString: I like to sit around and do nothing
+					}
+
+					12: {
+						OldString: Sloth
+						NewString: Sloth
+					}
+
+					13: {
+						OldString: I'll Get power by whatever means necessary
+						NewString: I'll Get power by whatever means necessary
+					}
+
+					14: {
+						OldString: Wrath
+						NewString: Wrath
+					}
+				}
+			}
+
+			Debug: {
+				SinfulTraitItem: {
+					UseItem: {
+						1: {
+							OldString: Sinful
+							NewString: Sinful
+						}
+					}
+				}
+
+				Sins: {
+					EnvySin: {
+						OnConsumeItem: {
+							1: {
+								OldString: I'm jealous of everyone around me
+								NewString: I'm jealous of everyone around me
+							}
+
+							2: {
+								OldString: Envy
+								NewString: Envy
+							}
+						}
+					}
+
+					GluttonySin: {
+						OnConsumeItem: {
+							1: {
+								OldString: I'm such a pig
+								NewString: I'm such a pig
+							}
+
+							2: {
+								OldString: Gluttony
+								NewString: Gluttony
+							}
+						}
+					}
+
+					GreedSin: {
+						OnConsumeItem: {
+							1: {
+								OldString: I will be wealthy
+								NewString: I will be wealthy
+							}
+
+							2: {
+								OldString: Greed
+								NewString: Greed
+							}
+						}
+					}
+
+					LustSin: {
+						OnConsumeItem: {
+							1: {
+								OldString: I'll do anything for pleasure
+								NewString: I'll do anything for pleasure
+							}
+
+							2: {
+								OldString: Lust
+								NewString: Lust
+							}
+						}
+					}
+
+					PrideSin: {
+						OnConsumeItem: {
+							1: {
+								OldString: I am better than everyone around me
+								NewString: I am better than everyone around me
+							}
+
+							2: {
+								OldString: Pride
+								NewString: Pride
+							}
+						}
+					}
+
+					SlothSin: {
+						OnConsumeItem: {
+							1: {
+								OldString: I like to sit around and do nothing
+								NewString: I like to sit around and do nothing
+							}
+
+							2: {
+								OldString: Sloth
+								NewString: Sloth
+							}
+						}
+					}
+
+					WrathSin: {
+						OnConsumeItem: {
+							1: {
+								OldString: I'll Get power by whatever means necessary
+								NewString: I'll Get power by whatever means necessary
+							}
+
+							2: {
+								OldString: Wrath
+								NewString: Wrath
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	Traits: {
+		SinfulTrait: {
+			Name: {
+				1: {
+					OldString: Sinful
+					NewString: Sinful
+				}
+			}
+		}
+	}
+
+	Forms: {
+		Envy: {
+			AuraData: {
+				1: {
+					OldString: SatanicDBT/Assets/Envy
+					NewString: SatanicDBT/Assets/Envy
+				}
+			}
+
+			FormName: {
+				1: {
+					OldString: Envy
+					NewString: Envy
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					OldString: ""
+					NewString: ""
+				}
+			}
+		}
+
+		Gluttony: {
+			AuraData: {
+				1: {
+					OldString: SatanicDBT/Assets/Gluttony
+					NewString: SatanicDBT/Assets/Gluttony
+				}
+			}
+
+			FormName: {
+				1: {
+					OldString: Gluttony
+					NewString: Gluttony
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					OldString: ""
+					NewString: ""
+				}
+			}
+		}
+
+		Greed: {
+			AuraData: {
+				1: {
+					OldString: SatanicDBT/Assets/Greed
+					NewString: SatanicDBT/Assets/Greed
+				}
+			}
+
+			FormName: {
+				1: {
+					OldString: Greed
+					NewString: Greed
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					OldString: ""
+					NewString: ""
+				}
+			}
+		}
+
+		Lust: {
+			AuraData: {
+				1: {
+					OldString: SatanicDBT/Assets/Lust
+					NewString: SatanicDBT/Assets/Lust
+				}
+			}
+
+			FormName: {
+				1: {
+					OldString: Lust
+					NewString: Lust
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					OldString: ""
+					NewString: ""
+				}
+			}
+		}
+
+		Pride: {
+			AuraData: {
+				1: {
+					OldString: SatanicDBT/Assets/Pride
+					NewString: SatanicDBT/Assets/Pride
+				}
+			}
+
+			FormName: {
+				1: {
+					OldString: Pride
+					NewString: Pride
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					OldString: ""
+					NewString: ""
+				}
+			}
+		}
+
+		Sloth: {
+			AuraData: {
+				1: {
+					OldString: SatanicDBT/Assets/Sloth
+					NewString: SatanicDBT/Assets/Sloth
+				}
+			}
+
+			FormName: {
+				1: {
+					OldString: Sloth
+					NewString: Sloth
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					OldString: ""
+					NewString: ""
+				}
+			}
+		}
+
+		Wrath: {
+			AuraData: {
+				1: {
+					OldString: SatanicDBT/Assets/Wrath
+					NewString: SatanicDBT/Assets/Wrath
+				}
+			}
+
+			FormName: {
+				1: {
+					OldString: Wrath
+					NewString: Wrath
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					OldString: ""
+					NewString: ""
+				}
+			}
+		}
+	}
+}

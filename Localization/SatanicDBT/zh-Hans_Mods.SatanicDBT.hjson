@@ -1,0 +1,97 @@
+Buffs: {
+	Envy: {
+		DisplayName: 嫉妒
+		Description: Mods.SatanicDBT.Buffs.Envy.Description
+	}
+
+	Gluttony: {
+		DisplayName: 暴食
+		Description: Mods.SatanicDBT.Buffs.Gluttony.Description
+	}
+
+	Greed: {
+		DisplayName: 贪婪
+		Description: Mods.SatanicDBT.Buffs.Greed.Description
+	}
+
+	Lust: {
+		DisplayName: 色欲
+		Description: Mods.SatanicDBT.Buffs.Lust.Description
+	}
+
+	Pride: {
+		DisplayName: 傲慢
+		Description: Mods.SatanicDBT.Buffs.Pride.Description
+	}
+
+	Sloth: {
+		DisplayName: 懒惰
+		Description: Mods.SatanicDBT.Buffs.Sloth.Description
+	}
+
+	Wrath: {
+		DisplayName: 暴怒
+		Description: Mods.SatanicDBT.Buffs.Wrath.Description
+	}
+
+	SinfulBuff: {
+		DisplayName: 罪孽
+		Description: 你这可耻的罪人……
+	}
+}
+
+Items: {
+	ThoughtExtractor: {
+		Tooltip:
+			'''
+			揭露你最深处的秘密
+			[C/959595:译者补充：玩家新建角色时开局获取]
+			[C/959595:使用后会随机给予你“七宗罪”中随机一个大罪]
+			[C/959595:当你的资质为“罪孽”时（0.2的权重），且每过30秒，会为每个大罪增加罪孽值]
+			[C/959595:当对应大罪的罪孽值达到150点时，会加入变身抽取池中]
+			[C/959595:在击败邪恶Boss后，在任意Boss战中，你的血量低于最大生命值的一半时]
+			[C/959595:会随机从变身抽取池中选择一个提供变身，你只能拥有1个大罪变身]
+			'''
+		DisplayName: 思想抽取器
+	}
+
+	SinfulTraitItem: {
+		Tooltip: 给予你罪孽资质
+		DisplayName: 罪孽资质物品
+	}
+
+	WrathSin: {
+		Tooltip: 将罪孽设置为暴怒，并增加150点暴怒值
+		DisplayName: 暴怒之罪
+	}
+
+	SlothSin: {
+		Tooltip: 将罪孽设置为懒惰，并增加150点懒惰值
+		DisplayName: 懒惰之罪
+	}
+
+	PrideSin: {
+		Tooltip: 将罪孽设置为傲慢，并增加150点傲慢值
+		DisplayName: 傲慢之罪
+	}
+
+	LustSin: {
+		Tooltip: 将罪孽设置为色欲，并增加150点色欲值
+		DisplayName: 色欲之罪
+	}
+
+	GreedSin: {
+		Tooltip: 将罪孽设置为贪婪，并增加150点贪婪值
+		DisplayName: 贪婪之罪
+	}
+
+	GluttonySin: {
+		Tooltip: 将罪孽设置为暴食，并增加150点暴食值
+		DisplayName: 暴食之罪
+	}
+
+	EnvySin: {
+		Tooltip: 将罪孽设置为嫉妒，并增加150点嫉妒值
+		DisplayName: 嫉妒之罪
+	}
+}

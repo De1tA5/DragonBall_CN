@@ -1,0 +1,88 @@
+Buffs: {
+	Envy: {
+		DisplayName: Envy
+		Description: Mods.SatanicDBT.Buffs.Envy.Description
+	}
+
+	Gluttony: {
+		DisplayName: Gluttony
+		Description: Mods.SatanicDBT.Buffs.Gluttony.Description
+	}
+
+	Greed: {
+		DisplayName: Greed
+		Description: Mods.SatanicDBT.Buffs.Greed.Description
+	}
+
+	Lust: {
+		DisplayName: Lust
+		Description: Mods.SatanicDBT.Buffs.Lust.Description
+	}
+
+	Pride: {
+		DisplayName: Pride
+		Description: Mods.SatanicDBT.Buffs.Pride.Description
+	}
+
+	Sloth: {
+		DisplayName: Sloth
+		Description: Mods.SatanicDBT.Buffs.Sloth.Description
+	}
+
+	Wrath: {
+		DisplayName: Wrath
+		Description: Mods.SatanicDBT.Buffs.Wrath.Description
+	}
+
+	SinfulBuff: {
+		DisplayName: Sinful
+		Description: You sinful disgrace...
+	}
+}
+
+Items: {
+	ThoughtExtractor: {
+		Tooltip: Reveals your deepest secrets.
+		DisplayName: Thought Extractor
+	}
+
+	SinfulTraitItem: {
+		Tooltip: ""
+		DisplayName: Sinful Trait Item
+	}
+
+	WrathSin: {
+		Tooltip: ""
+		DisplayName: Wrath Sin
+	}
+
+	SlothSin: {
+		Tooltip: ""
+		DisplayName: Sloth Sin
+	}
+
+	PrideSin: {
+		Tooltip: ""
+		DisplayName: Pride Sin
+	}
+
+	LustSin: {
+		Tooltip: ""
+		DisplayName: Lust Sin
+	}
+
+	GreedSin: {
+		Tooltip: ""
+		DisplayName: Greed Sin
+	}
+
+	GluttonySin: {
+		Tooltip: ""
+		DisplayName: Gluttony Sin
+	}
+
+	EnvySin: {
+		Tooltip: ""
+		DisplayName: Envy Sin
+	}
+}
