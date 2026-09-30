@@ -73,7 +73,7 @@ Buffs: {
 
 	KiFocusBuff: {
 		Description: 增加10%气伤害
-		DisplayName: 气气涌动
+		DisplayName: 气涌动
 	}
 }
 
