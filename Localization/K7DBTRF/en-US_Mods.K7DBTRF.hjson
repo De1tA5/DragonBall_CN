@@ -182,27 +182,32 @@ Items: {
 	}
 }
 
-Assets: {
-	Label: Server Settings
+Configs: {
+	BalanceConfig: {
+		DisplayName: Balance Config
 
-	UseHair: {
-		Label: Replace Hair/Arm with hair:
-		Tooltip: (Janky) Replace the player chest piece with red-ish hair.
+		UseHair: {
+			Label: Use Hair
+			Tooltip: ""
+		}
 	}
 
-	ChargeRework: {
-		Header: Toggleable Balance Adjustments
-		Label: Beam weapon rework
-		Tooltip: Changes beam ki weapons to always take 3 seconds to charge.\nMore Charges still mean more damage.
-	}
+	BalanceConfigServer: {
+		DisplayName: Balance Config Server
 
-	LongerTransform: {
-		Header: Longer transformation times
-		Label: Makes transforming into SSJ forms require holding the button for a small duration.
-	}
+		ChargeRework: {
+			Label: Charge Rework
+			Tooltip: ""
+		}
 
-	SSJTweaks: {
-		Header: Super Saiyan Transformation Tweaks
-		Label: Rebalances the bonuses granted by transformations to reduce power creep.
+		LongerTransform: {
+			Label: Longer Transform
+			Tooltip: ""
+		}
+
+		SSJTweaks: {
+			Label: S S J Tweaks
+			Tooltip: ""
+		}
 	}
 }

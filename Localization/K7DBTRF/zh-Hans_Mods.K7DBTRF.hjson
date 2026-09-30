@@ -146,17 +146,29 @@ Buffs: {
 Items: {
 	LSSJ10FPUnlock: {
 		DisplayName: 盘中巫毒玩偶
-		Tooltip: 如此骇人的举动，当然会给予你一股强大却危险的力量，使用时务必小心
+		Tooltip:
+			'''
+			如此骇人的举动，当然会给予你一股强大却危险的力量，使用时务必小心
+			[C/959595:译者补充：请确保已解锁超级赛亚人9，否则使用会导致你死亡]
+			'''
 	}
 
 	LSSJ6Unlock: {
 		DisplayName: 邪能灌注龙珠
-		Tooltip: 这也许是获得新力量的关键？
+		Tooltip:
+			'''
+			这也许是获得新力量的关键？
+			[C/959595:译者补充：解锁超级赛亚人6]
+			'''
 	}
 
 	LSSJ9Unlock: {
 		DisplayName: 纯粹徽章
-		Tooltip: 你距离获得终极力量只差这一步-使用这个徽章
+		Tooltip:
+			'''
+			你距离获得终极力量只差这一步-使用这个徽章
+			[C/959595:译者补充：解锁超级赛亚人9]
+			'''
 	}
 
 	SSJ10FPCheat: {
@@ -166,15 +178,19 @@ Items: {
 
 	SSJ5Unlock: {
 		DisplayName: 幻影赛亚人之魂
-		Tooltip: 突破极限，超越已知的超级赛亚人形态
+		Tooltip:
+			'''
+			突破极限，超越已知的超级赛亚人形态
+			[C/959595:译者补充：解锁超级赛亚人5]
+			'''
 	}
 
 	SSJ8Unlock: {
 		DisplayName: 邪教徒的赛亚人知识
 		Tooltip:
-			''' 
+			'''
 			使用后，获得如何融合超级赛亚人3和5以及传说超级赛亚人3和5的知识
-			[C/959595:译者补充：解锁超级赛亚人8和传说超级赛亚人，因为3+5=8……]
+			[C/959595:译者补充：解锁超级赛亚人8和传说超级赛亚人8，因为3+5=8……]
 			'''
 	}
 
@@ -189,8 +205,8 @@ Configs: {
 		DisplayName: 平衡配置
 
 		UseHair: {
-			Label: Use Hair
-			Tooltip: ""
+			Label: 变身额外毛发
+			Tooltip: 启用后，变身传说超级赛亚人5会有额外毛发
 		}
 	}
 
@@ -198,46 +214,18 @@ Configs: {
 		DisplayName: 服务器平衡配置
 
 		ChargeRework: {
-			Label: Charge Rework
-			Tooltip: ""
+			Label: 集气重做
+			Tooltip: 未实装，无任何效果
 		}
 
 		LongerTransform: {
-			Label: Longer Transform
-			Tooltip: ""
+			Label: 延长变身所需时间
+			Tooltip: 未实装，无任何效果
 		}
 
 		SSJTweaks: {
-			Label: S S J Tweaks
-			Tooltip: ""
+			Label: 超级赛亚人调整
+			Tooltip: 调整本模组所有超级赛亚人形态的属性，基本都为削弱
 		}
 	}
 }
-
-
-// Assets: {
-// 	Label: Server Settings
-
-// 	UseHair: {
-// 		Label: Replace Hair/Arm with hair:
-// 		Tooltip: (Janky) Replace the player chest piece with red-ish hair.
-// 	}
-
-// 	ChargeRework: {
-// 		Header: Toggleable Balance Adjustments
-// 		Label: Beam weapon rework
-// 		Tooltip: Changes beam ki weapons to always take 3 seconds to charge.\nMore Charges still mean more damage.
-// 	}
-
-// 	LongerTransform: {
-// 		Header: Longer transformation times
-// 		Label: 
-// 	}
-
-// 	SSJTweaks: {
-// 		Header: 超级赛亚人Transformation Tweaks
-// 		Label: Rebalances the bonuses granted by transformations to reduce power creep.
-// 	}
-
-	
-// }

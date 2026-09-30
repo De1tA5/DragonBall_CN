@@ -34,12 +34,12 @@ Items: {
 
 				2: {
 					// OldString: " could not attain the forbidden power and died"
-					// NewString: " could not attain the forbidden power and died"
+					NewString: 未能获得禁忌之力并就此死亡
 				}
 
 				3: {
 					// OldString: The forbidden power is in your hands, do not stay on it for a minute
-					// NewString: The forbidden power is in your hands, do not stay on it for a minute
+					NewString: 禁忌之力已被你掌握，别保持该形态超过一分钟
 				}
 			}
 
@@ -60,7 +60,7 @@ Items: {
 			OnConsumeItem: {
 				1: {
 					// OldString: The dragon ball fuses onto your body, powering further your SSJ5, you call this SSJ6
-					// NewString: The dragon ball fuses onto your body, powering further your SSJ5, you call this SSJ6
+					NewString: 龙珠融入到你的身体里，进一步强化你的超级赛亚人5，你称其为超级赛亚人6
 				}
 			}
 
@@ -91,7 +91,7 @@ Items: {
 			OnConsumeItem: {
 				1: {
 					// OldString: The purity of the hallow combined with the guardian of the world create a new form of holiness and abhorrence!
-					// NewString: The purity of the hallow combined with the guardian of the world create a new form of holiness and abhorrence!
+					NewString: 神圣的纯净之力与守护世界之力融合，催生出一种全新的神圣与憎恶之力！
 				}
 			}
 
@@ -122,12 +122,12 @@ Items: {
 			OnConsumeItem: {
 				1: {
 					// OldString: You have now unlimited SSJ10/LSSJ10 usage
-					// NewString: You have now unlimited SSJ10/LSSJ10 usage
+					NewString: 你现在可以无限使用超级赛亚人10和传说超级赛亚人10
 				}
 
 				2: {
 					// OldString: You no longer have unlimited SSJ10/LSSJ10 usage
-					// NewString: You no longer have unlimited SSJ10/LSSJ10 usage
+					NewString: 你不再能无限使用超级赛亚人10和传说超级赛亚人10
 				}
 			}
 		}
@@ -143,12 +143,12 @@ Items: {
 			OnConsumeItem: {
 				1: {
 					// OldString: You unlocked an unknown form of legend, select the form and transform as usual
-					// NewString: You unlocked an unknown form of legend, select the form and transform as usual
+					NewString: 你解锁了一个未知的传说形态，选择它并像往常一样变身
 				}
 
 				2: {
 					// OldString: You unlocked a form unknown to all, select the form and transform as usual
-					// NewString: You unlocked a form unknown to all, select the form and transform as usual
+					NewString: 你解锁了一个无人知晓的形态，选择它并像往常一样变身
 				}
 			}
 		}
@@ -157,12 +157,12 @@ Items: {
 			OnConsumeItem: {
 				1: {
 					// OldString: You successfully add 2 forms together! The new power of LSSJ8 covers you!
-					// NewString: You successfully add 2 forms together! The new power of LSSJ8 covers you!
+					NewString: 你成功将两种形态合二为一！传说超级赛亚人8的力量覆盖你全身
 				}
 
 				2: {
 					// OldString: You successfully add 2 forms together! The new power of SSJ8 covers you!
-					// NewString: You successfully add 2 forms together! The new power of SSJ8 covers you!
+					NewString: 你成功将两种形态合二为一！超级赛亚人8的力量覆盖你全身
 				}
 			}
 		}
@@ -340,7 +340,7 @@ Buffs: {
 		Update: {
 			1: {
 				// OldString: " used the forbidden power for too long and banished into mist"
-				// NewString: " used the forbidden power for too long and banished into mist"
+				NewString: 使用禁忌之力太久，最终化为迷雾消散
 			}
 		}
 
@@ -352,12 +352,12 @@ Buffs: {
 					 Damage: +400% | Speed: +100% | Defense: +200
 					 You can now stay up to 2 minutes
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					True LSSJ10, The Ultimate Forbidden Power
-					 Damage: +400% | Speed: +100% | Defense: +200
-					 You can now stay up to 2 minutes
-					''' */
+					[C/FF2600:真·传说超级赛亚人10， 究极禁忌之力]
+					伤害： +400% | 移动速度： +100% | 防御： +200
+					你现在最多可以保持该形态2分钟
+					'''
 			}
 
 			2: {
@@ -367,12 +367,12 @@ Buffs: {
 					 Damage: +1900% | Speed: +100% | Defense: +400
 					 You can now stay up to 2 minutes
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					True LSSJ10, The Ultimate Forbidden Power
-					 Damage: +1900% | Speed: +100% | Defense: +400
-					 You can now stay up to 2 minutes
-					''' */
+					[C/FF2600:真·传说超级赛亚人10， 究极禁忌之力]
+					伤害： +1900% | 移动速度： +100% | 防御： +400
+					你现在最多可以保持该形态2分钟
+					'''
 			}
 		}
 	}
@@ -673,7 +673,7 @@ Buffs: {
 		Update: {
 			1: {
 				// OldString: " used the forbidden power for too long and banished into mist"
-				// NewString: " used the forbidden power for too long and banished into mist"
+				NewString: 使用禁忌之力太久，最终化为迷雾消散
 			}
 		}
 
@@ -685,12 +685,12 @@ Buffs: {
 					 Damage: +650% | Speed: +100%
 					 You can now stay up to 2 minutes
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					True SSJ10, The Ultimate Forbidden Power
-					 Damage: +650% | Speed: +100%
-					 You can now stay up to 2 minutes
-					''' */
+					[C/FF2600:真·超级赛亚人10， 究极禁忌之力]
+					伤害： +650% | 移动速度： +100%
+					你现在最多可以保持该形态2分钟
+					'''
 			}
 
 			2: {
@@ -700,12 +700,12 @@ Buffs: {
 					 Damage: +2000% | Speed: +100%
 					 You can now stay up to 2 minutes
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					True SSJ10, The Ultimate Forbidden Power
-					 Damage: +2000% | Speed: +100%
-					 You can now stay up to 2 minutes
-					''' */
+					[C/FF2600:真·超级赛亚人10， 究极禁忌之力]
+					伤害： +2000% | 移动速度： +100%
+					你现在最多可以保持该形态2分钟
+					'''
 			}
 		}
 	}
@@ -873,11 +873,12 @@ Assets: {
 					You went beyond potential, break all limits and go further!
 					While in Legendary Super Saiyain 4 form press the Transform button once more to reach higher power.
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					You went beyond potential, break all limits and go further!
-					While in Legendary Super Saiyain 4 form press the Transform button once more to reach higher power.
-					''' */
+					你超越了潜能，打破所有极限，更进一步！
+					在传说超级赛亚人4形态下，再按一次 [变身] 键，即可获得更强的力量
+					[C/959595:译者补充：实际上不行因为代码没写]
+					'''
 			}
 
 			2: {
@@ -887,17 +888,17 @@ Assets: {
 
 			3: {
 				// OldString: You accepted evil ki, it covers your body, a new form is born!
-				// NewString: You accepted evil ki, it covers your body, a new form is born!
+				NewString: 你接受了邪恶的气，它覆盖你全身，全新的形态就此诞生！
 			}
 
 			4: {
 				// OldString: You stack together LSSJ3 and LSSJ5, the combination of 2 forms creates abysmal power!
-				// NewString: You stack together LSSJ3 and LSSJ5, the combination of 2 forms creates abysmal power!
+				NewString: 你将传说超级赛亚人3和传说超级赛亚人5叠加在一起，2种形态的结合产生了深渊般的力量！
 			}
 
 			5: {
 				// OldString: You achieve the most dangerous power a saiyan can have, beware of it
-				// NewString: You achieve the most dangerous power a saiyan can have, beware of it
+				NewString: 你已获得赛亚人所能拥有的最危险力量，务必小心
 			}
 		}
 
