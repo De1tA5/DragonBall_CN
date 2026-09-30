@@ -20,9 +20,6 @@ namespace DragonBall_CN.Common.DBTBalanceRevived
                 MethodFilter = MethodFilter.MatchName("BuildTooltip_Hook")
             });
 
-
-           
-
             //开启Oozaru，将禁用DBTrebalance的传说超级赛亚人4的变身BUFF
             //由于Oozaru和DBTrebalance的传说超级赛亚人4的类名相同
             //又因为模组加载顺序，及先加载DBTrebalance后加载Oozaru，会导致系统错误变身选择前者
@@ -30,8 +27,12 @@ namespace DragonBall_CN.Common.DBTBalanceRevived
             {
                 if (ModelHelper.TryRemoveTransformationBuff(mod, "LSSJ4Buff"))
                 {
-
                     Mod.Logger.Info("Remove Buff Succes");
+                }
+                //开启Oozaru，将禁用DBTrebalance的传说超级赛亚人4的变身树
+                if (ModelHelper.TryRemovePanel("LSSJ Partial Tree"))
+                {
+                    Mod.Logger.Info("Remove Panel Succes");
                 }
             }
         }
@@ -45,20 +46,6 @@ namespace DragonBall_CN.Common.DBTBalanceRevived
             LocalizationPatchHelper.LoadLocalizationFile(Balance, "DBZMODPORT");
         }
 
-        public override void SetStaticDefaults()
-        {
-            if (!ModLoader.TryGetMod(Balance, out Mod mod))
-                return;
-
-            //开启Oozaru，将禁用DBTrebalance的传说超级赛亚人4的变身树
-            if (DBCPatchConfig.Instance.HideDBTBalanceTransformationTree)
-            {
-                if (ModelHelper.TryRemovePanel("LSSJ Partial Tree"))
-                {
-                    Mod.Logger.Info("Remove Panel Succes");
-                }
-            }
-        }
         public override void Load()
         {
 

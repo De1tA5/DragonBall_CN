@@ -1465,7 +1465,7 @@ NewContent: {
 			}
 
 			20: {
-				// OldString: Crafting Items: 30个稳定气水晶
+				// OldString: Crafting Items: 30 Stable KI Crystals
 				NewString: 合成材料： 30个稳定气水晶
 			}
 
@@ -1505,7 +1505,7 @@ NewContent: {
 			}
 
 			28: {
-				// OldString: Crafting Items: 30个稳定气水晶, 12 Demonite/crimtane ore
+				// OldString: Crafting Items: 30 Stable KI Crystals, 12 Demonite/crimtane ore
 				NewString: 合成材料： 30个稳定气水晶， 12个猩红矿/魔矿
 			}
 
@@ -1545,7 +1545,7 @@ NewContent: {
 			}
 
 			36: {
-				// OldString: Crafting Items: 30平静气水晶, 18 Astral Essentia
+				// OldString: Crafting Items: 30 calm KI Crystals, 18 Astral Essentia
 				NewString: 合成材料： 30平静气水晶， 18个星辉精华
 			}
 

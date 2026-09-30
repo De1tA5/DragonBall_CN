@@ -5,13 +5,10 @@ using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using Terraria;
-using Terraria.IO;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
-using TigerForceLocalizationLib.Filters;
+using static Terraria.ModLoader.PlayerDrawLayer;
 
 namespace DragonBall_CN.Common.DBZGoatLib
 {
@@ -114,6 +111,32 @@ namespace DragonBall_CN.Common.DBZGoatLib
         }
 
         /// <summary>
+        /// 单个替换Node[]中BuffKeyName
+        /// </summary>
+        /// <param name="nodes"></param>
+        /// <param name="index"></param>
+        /// <param name="newUnlockHint"></param>
+        /// <returns></returns>
+        public static bool TryReplaceBuffKeyName(Node[] nodes, int index, string newKeyName)
+        {
+
+            if (nodes is null || index < 0 || index >= nodes.Length)
+                return false;
+
+            Node node = nodes[index];
+            FieldInfo? keyNameField = typeof(Node)?.GetField("BuffKeyName", flags);
+
+            if (keyNameField is null)
+                return false;
+
+            object boxedNode = node;
+            keyNameField.SetValue(boxedNode, newKeyName);
+            nodes[index] = (Node)boxedNode;
+
+            return true;
+        }
+
+        /// <summary>
         /// 获取TransformationTree的Nodes
         /// </summary>
         /// <param name="mod">对应附属模组</param>
@@ -167,7 +190,6 @@ namespace DragonBall_CN.Common.DBZGoatLib
                 c.EmitDelegate<Func<Node[], Node[]>>(nodes =>
                     {
                         TryReplaceUnlockHint(nodes, index, newUnlockHint);
-
                         return nodes;
                     });
                 //if (!TryGetNodes(mod, typeFullName, out Node[] modifiedNodes))
@@ -183,6 +205,48 @@ namespace DragonBall_CN.Common.DBZGoatLib
 
             return true;
         }
+
+        /// <summary>
+        /// 修改Node的BuffKeyName
+        /// </summary>
+        /// <param name="mod"></param>
+        /// <param name="typeFullName"></param>
+        /// <param name="index"></param>
+        /// <param name="newUnlockHint"></param>
+        /// <returns></returns>
+        public static bool TryModifyNodesBuffKey(Mod mod, string typeFullName, int index, string newKeyName)
+        {
+            Type? type = mod?.Code.GetType(typeFullName);
+
+            MethodInfo? methodInfo = type?.GetMethod("Nodes", flags);
+
+            if (methodInfo is null)
+                return false;
+
+            ILHook hook = new(methodInfo, il =>
+            {
+                ILCursor c = new(il);
+                if (!c.TryGotoNext(MoveType.Before, instruction => instruction.MatchRet()))
+                    return;
+                c.EmitDelegate<Func<Node[], Node[]>>(nodes =>
+                {
+                    TryReplaceBuffKeyName(nodes, index, newKeyName);
+                    return nodes;
+                });
+                //if (!TryGetNodes(mod, typeFullName, out Node[] modifiedNodes))
+                //    return;
+                //if (!TryReplaceUnlockHint(modifiedNodes, index, newUnlockHint))
+                //    return;
+                //c.Goto(0);
+                //c.EmitDelegate<Func<Node[]>>(() => modifiedNodes);
+                //c.Emit(OpCodes.Ret);
+
+            });
+            ILHooks.Add(hook);
+
+            return true;
+        }
+
 
         /// <summary>
         /// 替换变身菜单，鼠标悬浮图标显示的变身名称以及变身时显示名称

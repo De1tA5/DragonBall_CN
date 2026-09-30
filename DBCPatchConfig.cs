@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 using Terraria.ModLoader.Config;
 
 namespace DragonBall_CN
 {
-    public class DBCPatchConfig:ModConfig
+    public class DBCPatchConfig : ModConfig
     {
         public override ConfigScope Mode => ConfigScope.ClientSide;
 
@@ -22,7 +17,7 @@ namespace DragonBall_CN
         public bool DBZMODPORTMapEntryFix { get; set; }
 
         [ReloadRequired]
-        [DefaultValue(true)]
+        [DefaultValue(false)]
         public bool HideDBTBalanceTransformationTree { get; set; }
 
         [ReloadRequired]
@@ -33,6 +28,10 @@ namespace DragonBall_CN
         [ReloadRequired]
         [DefaultValue(true)]
         public bool GokuItemsRecipeFix { get; set; }
+
+        [ReloadRequired]
+        [DefaultValue(false)]
+        public bool HideSSJ8Transformation { get; set; }
         #endregion
 
         #region 夹带私货
@@ -45,7 +44,7 @@ namespace DragonBall_CN
 
         #region 自定义数据
         [SeparatePage]
-        public class SubConfig 
+        public class SubConfig
         {
             [DefaultValue(false)]
             public bool enableFullPowerBuff;

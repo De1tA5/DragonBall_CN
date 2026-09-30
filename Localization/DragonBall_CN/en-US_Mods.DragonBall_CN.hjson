@@ -31,6 +31,11 @@ Configs: {
 			Label: Auto Transformation
 			Tooltip: ""
 		}
+
+		HideSSJ8Transformation: {
+			Label: Hide S S J8 Transformation
+			Tooltip: ""
+		}
 	}
 
 	SubConfig: {

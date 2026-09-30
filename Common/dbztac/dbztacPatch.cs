@@ -41,12 +41,20 @@ namespace DragonBall_CN.Common.dbztac
 
         public override void PostSetupContent()
         {
-            if (ModLoader.HasMod(DBZF))
+            if (!ModLoader.TryGetMod(DBZF, out Mod mod))
+                return;
+
+            TigerForceLocalizationHelper.LocalizeAll(Mod.Name, DBZF, false, filters: new() 
             {
-                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, DBZF, false, filters: new() 
+                MethodFilter = MethodFilter.MatchNames("PostUpdate", "ProcessTriggers")
+            });
+
+            if (DBCPatchConfig.Instance.HideSSJ8Transformation)
+            {
+                if (ModelHelper.TryRemoveTransformationBuff(mod, "SSJ8Buff"))
                 {
-                    MethodFilter = MethodFilter.MatchNames("PostUpdate", "ProcessTriggers")
-                });
+                    Mod.Logger.Info("Remove Buff Succes");
+                }
             }
         }
 

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
-using Terraria;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
 using TigerForceLocalizationLib.Filters;
@@ -13,7 +12,7 @@ namespace DragonBall_CN.Common.BetterDBT
         private readonly static string BDBP = "BetterDBT";
 
         //Buff效果
-        private readonly static string[] newBuffTooltips = 
+        private readonly static string[] newBuffTooltips =
             new string[8] {
                 "邪恶： \n增加5%伤害\n提升5%移动速度\n减少10点防御\n减少1点生命再生速度\n可以与任意超级赛亚人/传说超级赛亚人叠加",
                 "超级赛亚人蓝界王拳： \n增加25%伤害\n增加5点防御\n减少18点生命再生速度\n可叠加于超级赛亚人蓝形态",
@@ -46,7 +45,7 @@ namespace DragonBall_CN.Common.BetterDBT
                 {
                     MethodFilter = MethodFilter.MatchNames(
                     "ModifyTooltips", "PostUpdateWorld", "PreUpdate", "OnEnterWorld", "OnKill",
-                    "UseItem", "BuildTooltip_Hook","Update", "OnInitialize", "GetDustLabel","Draw")
+                    "UseItem", "BuildTooltip_Hook", "Update", "OnInitialize", "GetDustLabel", "Draw")
                 });
                 //整个wikiUI
                 TigerForceLocalizationHelper.LocalizeAll(Mod.Name, BDBP, false, filters: new()
@@ -82,7 +81,7 @@ namespace DragonBall_CN.Common.BetterDBT
             }
         }
 
-        private static bool ReflectionString(Mod mod, string fieldName ,string[] newString)
+        private static bool ReflectionString(Mod mod, string fieldName, string[] newString)
         {
             Type? systemType = mod.Code.GetType("BetterDBT.NewContent.FormTechs.BuffSelectorUISystem");
 

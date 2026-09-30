@@ -1,9 +1,4 @@
 ﻿using DBZGoatLib.Handlers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Terraria;
 using Terraria.GameInput;
 using Terraria.ModLoader;
@@ -24,7 +19,7 @@ namespace DragonBall_CN.Common.AdditionalContent
             //dbztac - 紫色面纱
             var vVS = TransformationHandler.GetTransformation("VVSBuff");
 
-            if (TransformationHandler.TransformKey.JustPressed) 
+            if (TransformationHandler.TransformKey.JustPressed)
             {
                 if (fullPower is not null && DBCPatchConfig.Instance.AutoTransformation.enableFullPowerBuff)
                     TransformationHandler.Transform(Player, fullPower.Value);
