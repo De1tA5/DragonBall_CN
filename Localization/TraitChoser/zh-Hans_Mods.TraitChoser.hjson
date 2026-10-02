@@ -1,0 +1,67 @@
+Items: {
+	AncientItem: {
+		DisplayName: 远古基因
+		Tooltip:
+			'''
+			给予你远古资质
+			需要《Dragon Ball Terraria: Blue Evolution Addon》模组
+			'''
+	}
+
+	AngelicItem: {
+		DisplayName: 天使基因
+		Tooltip:
+			'''
+			给予你天使资质
+			需要《Dragon Ball Terraria: Calamity Addon reuploaded》模组
+			'''
+	}
+
+	GODItem: {
+		DisplayName: GOD基因
+		Tooltip:
+			'''
+			Gives GOD Trait 
+			Traits Plus Addon required
+			[C/959595:译者补充：无法正常游玩故不做汉化]
+			'''
+	}
+
+	LegendaryItem: {
+		DisplayName: 传说基因
+		Tooltip: 给予你传说资质
+	}
+
+	SinfulItem: {
+		DisplayName: 罪孽基因
+		Tooltip:
+			'''
+			给予你罪孽资质
+			需要《Dragon Ball Terraria: Satanic Tendancies》模组
+			'''
+	}
+
+	PrimalItem: {
+		DisplayName: Primal基因
+		Tooltip:
+			'''
+			Gives Primal Trait 
+			Traits Plus Addon required
+			[C/959595:译者补充：无法正常游玩故不做汉化]
+			'''
+	}
+
+	ProdigyItem: {
+		DisplayName: 天才基因
+		Tooltip: 给予你天才资质
+	}
+
+	TraitItem: {
+		DisplayName: 资质物品
+		Tooltip:
+			'''
+			可以被制作为任意资质物品
+			如果直接使用会将你变为无资质
+			'''
+	}
+}

@@ -1,0 +1,65 @@
+Items: {
+	AncientItem: {
+		DisplayName: Ancient Gene
+		Tooltip:
+			'''
+			Gives Ancient Trait 
+			Blue Evolution Addon required
+			'''
+	}
+
+	AngelicItem: {
+		DisplayName: Angelic Gene
+		Tooltip:
+			'''
+			Gives Angelic Trait 
+			Calamity Addon required
+			'''
+	}
+
+	GODItem: {
+		DisplayName: GOD Gene
+		Tooltip:
+			'''
+			Gives GOD Trait 
+			Traits Plus Addon required
+			'''
+	}
+
+	LegendaryItem: {
+		DisplayName: Legendary Gene
+		Tooltip: Gives Legendary Trait
+	}
+
+	SinfulItem: {
+		DisplayName: Sinful Gene
+		Tooltip:
+			'''
+			Gives Sinful Trait 
+			Satanic Tendancies Addon required
+			'''
+	}
+
+	PrimalItem: {
+		DisplayName: Primal Gene
+		Tooltip:
+			'''
+			Gives Primal Trait 
+			Traits Plus Addon required
+			'''
+	}
+
+	ProdigyItem: {
+		DisplayName: Prodigy Gene
+		Tooltip: Gives Prodigy Trait
+	}
+
+	TraitItem: {
+		DisplayName: Trait Item
+		Tooltip:
+			'''
+			Can be crafted to any Trait
+			Makes you Traitless if used
+			'''
+	}
+}
