@@ -48,14 +48,6 @@ namespace DragonBall_CN.Common.dbztac
             {
                 MethodFilter = MethodFilter.MatchNames("PostUpdate", "ProcessTriggers")
             });
-
-            if (DBCPatchConfig.Instance.HideSSJ8Transformation)
-            {
-                if (ModelHelper.TryRemoveTransformationBuff(mod, "SSJ8Buff"))
-                {
-                    Mod.Logger.Info("Remove Buff Succes");
-                }
-            }
         }
 
         public override void Load()

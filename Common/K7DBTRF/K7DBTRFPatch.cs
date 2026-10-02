@@ -56,7 +56,7 @@ namespace DragonBall_CN.Common.K7DBTRF
             {
                 TigerForceLocalizationHelper.LocalizeAll(Mod.Name, Custom, false, filters: new()
                 {
-                    MethodFilter = MethodFilter.MatchNames("OnConsumeItem", "ModifyBuffText", "Update", "PostUpdate")
+                    MethodFilter = MethodFilter.MatchNames("OnConsumeItem", "ModifyBuffText", "Update", "PostUpdate" , "ProcessTriggers")
                 });
             }
 

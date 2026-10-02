@@ -5,5 +5,5 @@ side = Client
 includeSource = true
 modReferences = DBZMODPORT
 weakReferences = DBZGoatLib
-sortBefore = oozaru144port , SSBETES , GohanForms , DBTBalanceRevived , dbzcalamityUTD , GFAE , AwakeningPower , dbztac , SatanicDBT , K7DBTRF
+sortBefore = oozaru144port , SSBETES , GohanForms , DBTBalanceRevived , dbzcalamityUTD , GFAE , AwakeningPower , dbztac , SatanicDBT , K7DBTRF , XV2Forms
 dllReferences = TigerForceLocalizationLib

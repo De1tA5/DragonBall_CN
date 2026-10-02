@@ -31,7 +31,10 @@ namespace DragonBall_CN
 
         [ReloadRequired]
         [DefaultValue(false)]
-        public bool HideSSJ8Transformation { get; set; }
+        public bool FixConflictBuffKey { get; set; }
+
+        [DefaultValue(false)]
+        public bool DebugMode { get; set; }
         #endregion
 
         #region 夹带私货

@@ -1,5 +1,7 @@
 ﻿using DBZGoatLib.Handlers;
 using DBZGoatLib.Model;
+using log4net;
+using log4net.Repository.Hierarchy;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
@@ -8,7 +10,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
-using static Terraria.ModLoader.PlayerDrawLayer;
+using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.DBZGoatLib
 {
@@ -32,12 +34,14 @@ namespace DragonBall_CN.Common.DBZGoatLib
         {
             if (ModLoader.HasMod(dragonBallLib))
             {
-                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false);
-                //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false, filters: new()
-                //{
-                //    MethodFilter = MethodFilter.MatchNames("HandleMasteryGain", "OnInitialize", "MasteryBarMouseOver", "Update", "BuildTooltip"),
-                //    TypeFilter = TigerForceLocalizationLib.Filters.TypeFilter.MatchAny(TigerForceLocalizationLib.Filters.TypeFilter.MatchFullName("TransformationMenu"))
-                //});
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false, filters: new()
+                {
+                    MethodFilter = MethodFilter.MatchNames("HandleMasteryGain", "OnInitialize", "MasteryBarMouseOver", "Update", "BuildTooltip"),
+                });
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false, filters: new()
+                {
+                    TypeFilter = TigerForceLocalizationLib.Filters.TypeFilter.MatchFullName("DBZGoatLib.UI.TransformationMenu")
+                });
             }
         }
 
@@ -80,6 +84,7 @@ namespace DragonBall_CN.Common.DBZGoatLib
     [JITWhenModsEnabled("DBZGoatLib")]
     public class ModelHelper : ModSystem
     {
+        private static ILog modLogger => ModContent.GetInstance<DragonBall_CN>().Logger;
         private static readonly BindingFlags flags = BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic;
         private static List<ILHook> ILHooks = new();
 
@@ -160,6 +165,14 @@ namespace DragonBall_CN.Common.DBZGoatLib
                 return false;
 
             nodes = methodInfo?.Invoke(instance, null) as Node[];
+            if (DBCPatchConfig.Instance.DebugMode) 
+            {
+                foreach (var node in nodes) 
+                {
+                    modLogger.Info($"Node Name:{node.BuffKeyName}, Node UnlockHint:{node.UnlockHint}");
+                }
+            }
+                
 
             return true;
         }
@@ -274,7 +287,10 @@ namespace DragonBall_CN.Common.DBZGoatLib
                 c.Emit(OpCodes.Ret);
             });
             ILHooks.Add(hook);
-
+            if (DBCPatchConfig.Instance.DebugMode) 
+            {
+                modLogger.Info($"Old Name:{buffKeyName},New Name:{newName}");
+            }
             return true;
         }
 
@@ -289,6 +305,8 @@ namespace DragonBall_CN.Common.DBZGoatLib
             if (index > -1)
             {
                 UIHandler.Panels.RemoveAt(index);
+                if(DBCPatchConfig.Instance.DebugMode)
+                    modLogger.Info($"Remove {panelName} Success");
                 return true;
             }
             return false;
@@ -309,6 +327,8 @@ namespace DragonBall_CN.Common.DBZGoatLib
             if (index > -1)
             {
                 TransformationHandler.Transformations.RemoveAt(index);
+                if (DBCPatchConfig.Instance.DebugMode)
+                    modLogger.Info($"Remove {buffName} Success");
                 return true;
             }
             return false;

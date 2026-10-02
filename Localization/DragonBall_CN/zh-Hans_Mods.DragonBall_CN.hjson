@@ -58,15 +58,25 @@ Configs: {
 				'''
 		}
 
-		HideSSJ8Transformation: {
-			Label: 移除《Dragon Ball Terraria: AF & Calamity Addon》的超级赛亚人8
+		FixConflictBuffKey: {
+			Label: 修复内部名重复的变身形态
 			Tooltip:
 				'''
-				启用该选项，会禁用《Dragon Ball Terraria: AF & Calamity Addon》的超级赛亚人8增益
-				由于《Dragon Ball Terraria: AF & Calamity Addon》和《Kirby7's DBTR Custom Forms》的超级赛亚人8内部名称相同
-				导致前者会把后者的超级赛亚人8覆盖，而且由于2个附属均为完整的变身树，无法单独禁用一个变身
-				因此，该修复只能折中将前者禁用，请根据你游玩需要启用
+				启用该选项，会修复内部名重复的变身形态（仅限处于不同面板的变身），包括
+				《Dragon Ball Terraria: AF & Calamity Addon》和《Kirby7's DBTR Custom Forms》的超级赛亚人8
+				启用后会根据变身面板直接来决定正确的变身形态
+				由于前置库没有使用更为精准的Buff ID来查找对应变身Buff导致的
 				[C/FF3E00:默认禁用，切换该选项需重新加载]
+				'''
+		}
+
+		DebugMode: {
+			Label: Debug模式
+			Tooltip: 
+				'''
+				正常游玩不需要启用
+				仅为汉化补丁开发者使用的DeBug模式
+				[C/FF3E00:默认禁用]
 				'''
 		}
 	}

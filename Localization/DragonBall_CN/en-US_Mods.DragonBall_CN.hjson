@@ -36,6 +36,16 @@ Configs: {
 			Label: Hide S S J8 Transformation
 			Tooltip: ""
 		}
+
+		FixConflictBuffKey: {
+			Label: Fix Conflict Buff Key
+			Tooltip: ""
+		}
+
+		DebugMode: {
+			Label: Debug Mode
+			Tooltip: ""
+		}
 	}
 
 	SubConfig: {
