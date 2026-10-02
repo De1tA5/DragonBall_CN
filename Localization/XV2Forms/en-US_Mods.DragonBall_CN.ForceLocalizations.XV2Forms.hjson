@@ -1,0 +1,483 @@
+XV2Forms: {
+	Load: {
+		1: {
+			OldString: Limit Breaker Transform
+			NewString: Limit Breaker Transform
+		}
+
+		2: {
+			OldString: Z
+			NewString: Z
+		}
+	}
+}
+
+Transformations: {
+	DivineBeastBuff: {
+		AuraData: {
+			1: {
+				OldString: DBZGoatLib/Assets/BaseAura
+				NewString: DBZGoatLib/Assets/BaseAura
+			}
+		}
+
+		CanTransform: {
+			1: {
+				OldString: Prodigy
+				NewString: Prodigy
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Beast
+				NewString: Beast
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSG
+				NewString: DBZMODPORT/Sounds/SSG
+			}
+		}
+	}
+
+	LimitBreakerBuff: {
+		AuraData: {
+			1: {
+				OldString: DBZGoatLib/Assets/BaseAura
+				NewString: DBZGoatLib/Assets/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Limit Breaker
+				NewString: Limit Breaker
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/KaioAuraAscend
+				NewString: DBZMODPORT/Sounds/KaioAuraAscend
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJAura
+				NewString: DBZMODPORT/Sounds/SSJAura
+			}
+		}
+	}
+
+	StackableUltimateBuff: {
+		AuraData: {
+			1: {
+				OldString: DBZGoatLib/Assets/BaseAura
+				NewString: DBZGoatLib/Assets/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Ultimate
+				NewString: Ultimate
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/SSJAscension
+				NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJ3
+				NewString: DBZMODPORT/Sounds/SSJ3
+			}
+		}
+	}
+
+	SupervillainBuff: {
+		AuraData: {
+			1: {
+				OldString: DBZGoatLib/Assets/BaseAura
+				NewString: DBZGoatLib/Assets/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Supervillain
+				NewString: Supervillain
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/KaioAuraAscend
+				NewString: DBZMODPORT/Sounds/KaioAuraAscend
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSJAura
+				NewString: DBZMODPORT/Sounds/SSJAura
+			}
+		}
+	}
+
+	UltraSupervillainBuff: {
+		AuraData: {
+			1: {
+				OldString: DBZGoatLib/Assets/BaseAura
+				NewString: DBZGoatLib/Assets/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Ultra Supervillain
+				NewString: Ultra Supervillain
+			}
+		}
+
+		HairTexturePath: {
+			1: {
+				OldString: XV2Forms/Assets/Hair/UltraSupervillainHair
+				NewString: XV2Forms/Assets/Hair/UltraSupervillainHair
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/Awakening
+				NewString: DBZMODPORT/Sounds/Awakening
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSG
+				NewString: DBZMODPORT/Sounds/SSG
+			}
+		}
+	}
+
+	VillainousBuff: {
+		AuraData: {
+			1: {
+				OldString: DBZGoatLib/Assets/BaseAura
+				NewString: DBZGoatLib/Assets/BaseAura
+			}
+		}
+
+		FormName: {
+			1: {
+				OldString: Villainous
+				NewString: Villainous
+			}
+		}
+
+		SoundData: {
+			1: {
+				OldString: DBZMODPORT/Sounds/Awakening
+				NewString: DBZMODPORT/Sounds/Awakening
+			}
+
+			2: {
+				OldString: DBZMODPORT/Sounds/SSG
+				NewString: DBZMODPORT/Sounds/SSG
+			}
+		}
+	}
+}
+
+Items: {
+	SupervillainItem: {
+		OnConsumeItem: {
+			1: {
+				OldString: VillainousBuff
+				NewString: VillainousBuff
+			}
+		}
+	}
+}
+
+Assets: {
+	WPlayer: {
+		PostUpdate: {
+			1: {
+				OldString: LimitBreakerBuff
+				NewString: LimitBreakerBuff
+			}
+
+			2: {
+				OldString: VillainousBuff
+				NewString: VillainousBuff
+			}
+
+			3: {
+				OldString: You feel an evil start to weigh on your mind.
+				NewString: You feel an evil start to weigh on your mind.
+			}
+
+			4: {
+				OldString: You have unlocked the supervillain form.
+				NewString: You have unlocked the supervillain form.
+			}
+
+			5: {
+				OldString: Your supervillain form has been powered up.
+				NewString: Your supervillain form has been powered up.
+			}
+
+			6: {
+				OldString: Prodigy
+				NewString: Prodigy
+			}
+		}
+
+		PostUpdateEquips: {
+			1: {
+				OldString: DBZMODPORT/Sounds/Explosion
+				NewString: DBZMODPORT/Sounds/Explosion
+			}
+		}
+
+		SaveData: {
+			1: {
+				OldString: XV2Forms_VillainousAchieved
+				NewString: XV2Forms_VillainousAchieved
+			}
+
+			2: {
+				OldString: XV2Forms_VillainousUnlockMsg
+				NewString: XV2Forms_VillainousUnlockMsg
+			}
+
+			3: {
+				OldString: XV2Forms_SupervillainAchieved
+				NewString: XV2Forms_SupervillainAchieved
+			}
+
+			4: {
+				OldString: XV2Forms_SupervillainUnlockMsg
+				NewString: XV2Forms_SupervillainUnlockMsg
+			}
+
+			5: {
+				OldString: XV2Forms_UltraSupervillainAchieved
+				NewString: XV2Forms_UltraSupervillainAchieved
+			}
+
+			6: {
+				OldString: XV2Forms_UltraSupervillainUnlockMsg
+				NewString: XV2Forms_UltraSupervillainUnlockMsg
+			}
+
+			7: {
+				OldString: XV2Forms_LimitBreakerAchieved
+				NewString: XV2Forms_LimitBreakerAchieved
+			}
+
+			8: {
+				OldString: XV2Forms_LimitBreakerUnlockMsg
+				NewString: XV2Forms_LimitBreakerUnlockMsg
+			}
+
+			9: {
+				OldString: XV2Forms_UltimateAchieved
+				NewString: XV2Forms_UltimateAchieved
+			}
+
+			10: {
+				OldString: XV2Forms_UltimateUnlockMsg
+				NewString: XV2Forms_UltimateUnlockMsg
+			}
+
+			11: {
+				OldString: XV2Forms_BeastAchieved
+				NewString: XV2Forms_BeastAchieved
+			}
+
+			12: {
+				OldString: XV2Forms_BeastUnlockMsg
+				NewString: XV2Forms_BeastUnlockMsg
+			}
+		}
+
+		LoadData: {
+			1: {
+				OldString: XV2Forms_VillainousAchieved
+				NewString: XV2Forms_VillainousAchieved
+			}
+
+			2: {
+				OldString: XV2Forms_VillainousUnlockMsg
+				NewString: XV2Forms_VillainousUnlockMsg
+			}
+
+			3: {
+				OldString: XV2Forms_SupervillainAchieved
+				NewString: XV2Forms_SupervillainAchieved
+			}
+
+			4: {
+				OldString: XV2Forms_SupervillainUnlockMsg
+				NewString: XV2Forms_SupervillainUnlockMsg
+			}
+
+			5: {
+				OldString: XV2Forms_UltraSupervillainAchieved
+				NewString: XV2Forms_UltraSupervillainAchieved
+			}
+
+			6: {
+				OldString: XV2Forms_UltraSupervillainUnlockMsg
+				NewString: XV2Forms_UltraSupervillainUnlockMsg
+			}
+
+			7: {
+				OldString: XV2Forms_LimitBreakerAchieved
+				NewString: XV2Forms_LimitBreakerAchieved
+			}
+
+			8: {
+				OldString: XV2Forms_LimitBreakerUnlockMsg
+				NewString: XV2Forms_LimitBreakerUnlockMsg
+			}
+
+			9: {
+				OldString: XV2Forms_UltimateAchieved
+				NewString: XV2Forms_UltimateAchieved
+			}
+
+			10: {
+				OldString: XV2Forms_UltimateUnlockMsg
+				NewString: XV2Forms_UltimateUnlockMsg
+			}
+
+			11: {
+				OldString: XV2Forms_BeastAchieved
+				NewString: XV2Forms_BeastAchieved
+			}
+
+			12: {
+				OldString: XV2Forms_BeastUnlockMsg
+				NewString: XV2Forms_BeastUnlockMsg
+			}
+		}
+
+		ProcessTriggers: {
+			1: {
+				OldString: LimitBreakerBuff
+				NewString: LimitBreakerBuff
+			}
+		}
+	}
+
+	WPlayer+XV2TranformationTree: {
+		Name: {
+			1: {
+				OldString: XV2 Forms
+				NewString: XV2 Forms
+			}
+		}
+
+		Nodes: {
+			1: {
+				OldString: VillainousBuff
+				NewString: VillainousBuff
+			}
+
+			2: {
+				OldString: XV2Forms/Transformations/SupervillainBuff
+				NewString: XV2Forms/Transformations/SupervillainBuff
+			}
+
+			3: {
+				OldString: Let the evil control you for one last effort (Get to low health while fighting skeletron).
+				NewString: Let the evil control you for one last effort (Get to low health while fighting skeletron).
+			}
+
+			4: {
+				OldString: SupervillainBuff
+				NewString: SupervillainBuff
+			}
+
+			5: {
+				OldString: Let the dark magic control you (Consume supervillain item).
+				NewString: Let the dark magic control you (Consume supervillain item).
+			}
+
+			6: {
+				OldString: UltraSupervillainBuff
+				NewString: UltraSupervillainBuff
+			}
+
+			7: {
+				OldString: XV2Forms/Transformations/UltraSupervillainBuff
+				NewString: XV2Forms/Transformations/UltraSupervillainBuff
+			}
+
+			8: {
+				OldString: Your supervillain form has been powered up. (Master supervillain form)
+				NewString: Your supervillain form has been powered up. (Master supervillain form)
+			}
+		}
+	}
+
+	WPlayer+ExtraFormsTransformationTree: {
+		Name: {
+			1: {
+				OldString: Extra Forms
+				NewString: Extra Forms
+			}
+		}
+
+		Nodes: {
+			1: {
+				OldString: LimitBreakerBuff
+				NewString: LimitBreakerBuff
+			}
+
+			2: {
+				OldString: XV2Forms/Transformations/LimitBreakerBuff
+				NewString: XV2Forms/Transformations/LimitBreakerBuff
+			}
+
+			3: {
+				OldString: ""
+				NewString: ""
+			}
+
+			4: {
+				OldString: StackableUltimateBuff
+				NewString: StackableUltimateBuff
+			}
+
+			5: {
+				OldString: XV2Forms/Transformations/StackableUltimateBuff
+				NewString: XV2Forms/Transformations/StackableUltimateBuff
+			}
+		}
+
+		UnlockConditionUltimate: {
+			1: {
+				OldString: Prodigy
+				NewString: Prodigy
+			}
+		}
+
+		DiscoverConditionUltimate: {
+			1: {
+				OldString: Prodigy
+				NewString: Prodigy
+			}
+		}
+	}
+}

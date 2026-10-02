@@ -72,7 +72,7 @@ Configs: {
 
 		DebugMode: {
 			Label: Debug模式
-			Tooltip: 
+			Tooltip:
 				'''
 				正常游玩不需要启用
 				仅为汉化补丁开发者使用的DeBug模式
@@ -101,6 +101,11 @@ Configs: {
 
 		enableVVSBuff: {
 			Label: 紫色面纱
+			Tooltip: ""
+		}
+
+		enableStackableUltimate: {
+			Label: 究极
 			Tooltip: ""
 		}
 	}

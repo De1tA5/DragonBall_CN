@@ -61,6 +61,8 @@ namespace DragonBall_CN
             [DefaultValue(false)]
             public bool enableVVSBuff;
 
+            [DefaultValue(false)]
+            public bool enableStackableUltimate;
 
             //下面内容用于调试
             //public override string ToString()

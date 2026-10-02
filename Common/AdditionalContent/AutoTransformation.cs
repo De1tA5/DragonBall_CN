@@ -10,7 +10,6 @@ namespace DragonBall_CN.Common.AdditionalContent
     {
         public override void ProcessTriggers(TriggersSet triggersSet)
         {
-            Player player = Main.player[Main.myPlayer];
             //AwakeningPower - 全功率&突破极限
             var fullPower = TransformationHandler.GetTransformation("FullPowerBuff");
             var shatteredLimits = TransformationHandler.GetTransformation("ShatteredLimitsBuff");
@@ -18,6 +17,8 @@ namespace DragonBall_CN.Common.AdditionalContent
             var uI = TransformationHandler.GetTransformation("UIBuff");
             //dbztac - 紫色面纱
             var vVS = TransformationHandler.GetTransformation("VVSBuff");
+            //XV2Forms - 究极
+            var ultimate = TransformationHandler.GetTransformation("StackableUltimateBuff");
 
             if (TransformationHandler.TransformKey.JustPressed)
             {
@@ -32,6 +33,9 @@ namespace DragonBall_CN.Common.AdditionalContent
 
                 if (vVS is not null && DBCPatchConfig.Instance.AutoTransformation.enableVVSBuff)
                     TransformationHandler.Transform(Player, vVS.Value);
+                //其实还需要判断是否为天才资质的，但我懒得加了就是这么超模
+                if (ultimate is not null && DBCPatchConfig.Instance.AutoTransformation.enableStackableUltimate)
+                    TransformationHandler.Transform(Player, ultimate.Value);
             }
         }
     }

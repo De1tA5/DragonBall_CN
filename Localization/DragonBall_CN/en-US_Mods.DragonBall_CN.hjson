@@ -32,11 +32,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-		HideSSJ8Transformation: {
-			Label: Hide S S J8 Transformation
-			Tooltip: ""
-		}
-
 		FixConflictBuffKey: {
 			Label: Fix Conflict Buff Key
 			Tooltip: ""
@@ -68,6 +63,11 @@ Configs: {
 
 		enableVVSBuff: {
 			Label: enable V V S Buff
+			Tooltip: ""
+		}
+
+		enableStackableUltimate: {
+			Label: enable Stackable Ultimate
 			Tooltip: ""
 		}
 	}

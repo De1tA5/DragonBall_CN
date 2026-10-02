@@ -1,0 +1,45 @@
+Buffs: {
+	SupervillainBuff: {
+		DisplayName: Supervillain
+		Description: Mods.XV2Forms.Buffs.SupervillainBuff.Description
+	}
+
+	UltraSupervillainBuff: {
+		DisplayName: Ultra Supervillain
+		Description: Mods.XV2Forms.Buffs.UltraSupervillainBuff.Description
+	}
+
+	VillainousBuff: {
+		DisplayName: Villainous
+		Description: Mods.XV2Forms.Buffs.VillainousBuff.Description
+	}
+
+	LimitBreakerBuff: {
+		Description: Mods.XV2Forms.Buffs.LimitBreakerBuff.Description
+		DisplayName: Limit Breaker
+	}
+
+	LimitBreakerCooldown: {
+		DisplayName: Limit Breaker Cooldown
+		Description: Your body is recovering from a recent limit break.
+	}
+
+	StackableUltimateBuff: {
+		Description: Mods.XV2Forms.Buffs.StackableUltimateBuff.Description
+		DisplayName: Stackable Ultimate
+	}
+
+	DivineBeastBuff: {
+		Description: Mods.XV2Forms.Buffs.DivineBeastBuff.Description
+		DisplayName: Divine Beast
+	}
+}
+
+Items: {
+	SupervillainItem: {
+		DisplayName: Supervillain Item
+		Tooltip: ""
+	}
+}
+
+"Keybinds.Limit Breaker Transform.DisplayName": Limit Breaker Transform

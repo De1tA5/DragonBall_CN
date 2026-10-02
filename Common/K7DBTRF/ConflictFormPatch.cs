@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Terraria;
+using Terraria.Graphics.Effects;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.UI;
@@ -33,11 +34,18 @@ namespace DragonBall_CN.Common.K7DBTRF
         private Hook transNodeHook;
         private Hook getTransformationHook;
 
-        //记录不同模组的同种变身
+        //SSJ8
         private readonly static FormFilter SSJ8 = new FormFilter("SSJ8Buff", new()
         {
             ["AF & others Forms"] = "dbztac",
             ["Alternative Future"] = "K7DBTRF"
+        });
+        //Limit Breaker
+        private readonly static FormFilter LimitBreaker = new FormFilter("LimitBreakerBuff", new()
+        {
+            ["SEPBSSFPanel"] = "SSBETES",
+            ["FSSJPanel"] = "SSBETES",
+            ["Extra Forms"] = "XV2Forms"
         });
 
         internal static bool hasChangeNode;
@@ -100,20 +108,32 @@ namespace DragonBall_CN.Common.K7DBTRF
         private static TransformationInfo? BetterGetTransformation(Func<string, TransformationInfo?> orig, string buffName)
         {
             //这里加入FormFilter
-            if (TransformationHandler.Transformations.Any(x => x.buffKeyName == SSJ8.conflictBuffKey)) 
+            if (TransformationHandler.Transformations.Any(x => 
+                x.buffKeyName == SSJ8.conflictBuffKey || 
+                x.buffKeyName == LimitBreaker.conflictBuffKey)) 
             {
+                FormFilter? filter = buffName switch
+                {
+                    var name when name == SSJ8.conflictBuffKey => SSJ8,
+                    var name when name == LimitBreaker.conflictBuffKey => LimitBreaker,
+                    _ => null
+                };
+
+                if (!filter.HasValue)
+                    return orig.Invoke(buffName);
+
                 if (DBCPatchConfig.Instance.DebugMode) 
                 {
-                    Main.NewText("Has SSJ8");
+                    Main.NewText($"Has {filter.Value.conflictBuffKey}");
                     Main.NewText($"{UIHandler.Panels[currentFormPanelIndex].Name}");
                 }
 
-                if (SSJ8.modTransformationInfo.TryGetValue(currentFormPanelName, out string modName))
+                if (filter.Value.modTransformationInfo.TryGetValue(currentFormPanelName, out string modName))
                 {
                     if (ModLoader.TryGetMod(modName, out Mod mod))
                     {
                         //使用更精准的buffType进行搜索
-                        mod.TryFind<ModBuff>(SSJ8.conflictBuffKey, out ModBuff buff);
+                        mod.TryFind<ModBuff>(filter.Value.conflictBuffKey, out ModBuff buff);
                         var transformation = TransformationHandler.GetTransformation(buff.Type);
                         if (DBCPatchConfig.Instance.DebugMode)
                             Main.NewText($"transformation:{transformation.Value.buffKeyName}, modName:{mod.Name}");
@@ -130,6 +150,7 @@ namespace DragonBall_CN.Common.K7DBTRF
             return orig.Invoke(buffName);
         }
 
+
         private static void LeftClickRecordNodes(Action<TransNode, UIMouseEvent> orig, TransNode self, UIMouseEvent evt)
         {
             Node node = self.Node;
@@ -137,8 +158,17 @@ namespace DragonBall_CN.Common.K7DBTRF
             if (!node.UnlockCondition(Main.CurrentPlayer) || !node.DiscoverCondition(Main.CurrentPlayer))
             {
                 SoundHandler.PlayVanillaSound(SoundID.MenuTick, Main.CurrentPlayer.position);
-                Main.NewText(node.UnlockHint);
-                return;
+                    
+                try
+                {
+                    Main.NewText(node.UnlockHint);
+                    return;
+                }
+                catch 
+                {
+                    Main.NewText($"{node.BuffKeyName} 该变身解锁文本有bug，可能是该解锁文本为空");
+                    return;
+                }
             }
 
             SoundHandler.PlayVanillaSound(SoundID.MenuTick, Main.CurrentPlayer.position);

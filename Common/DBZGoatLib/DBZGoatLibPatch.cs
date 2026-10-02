@@ -34,14 +34,17 @@ namespace DragonBall_CN.Common.DBZGoatLib
         {
             if (ModLoader.HasMod(dragonBallLib))
             {
-                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false, filters: new()
-                {
-                    MethodFilter = MethodFilter.MatchNames("HandleMasteryGain", "OnInitialize", "MasteryBarMouseOver", "Update", "BuildTooltip"),
-                });
-                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false, filters: new()
-                {
-                    TypeFilter = TigerForceLocalizationLib.Filters.TypeFilter.MatchFullName("DBZGoatLib.UI.TransformationMenu")
-                });
+                //由于TransformationMenu为闭包用filter无法挂上钩子
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false);
+                //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false, filters: new()
+                //{
+                //    TypeFilter = TigerForceLocalizationLib.Filters.TypeFilter.MatchFullNames("DBZGoatLib.UI.TransformationMenu"),
+                //});
+                //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, dragonBallLib, false, filters: new()
+                //{
+                //    MethodFilter = MethodFilter.MatchNames("HandleMasteryGain", "OnInitialize", "MasteryBarMouseOver", "Update", "BuildTooltip" , "MouseOver"),
+                //});
+                
             }
         }
 

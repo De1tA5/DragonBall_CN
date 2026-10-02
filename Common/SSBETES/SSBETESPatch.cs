@@ -21,7 +21,7 @@ namespace DragonBall_CN.Common.SSBETES
             //传说
             ["IKARIBuff"] = "狂怒",
             ["FPSSJBuff"] = "全功率超级赛亚人",
-            ["LimitBreakerBuff"] = "传说限界突破",
+            ["LimitBreakerBuff"] = "极限突破",
             //常规
             ["FSSJBuff"] = "拟态超级赛亚人",
             ["SSJFPBuff"] = "超级赛亚人全功率",

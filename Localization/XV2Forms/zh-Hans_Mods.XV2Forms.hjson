@@ -1,0 +1,49 @@
+Buffs: {
+	SupervillainBuff: {
+		DisplayName: 极恶化
+		Description: Mods.XV2Forms.Buffs.SupervillainBuff.Description
+	}
+
+	UltraSupervillainBuff: {
+		DisplayName: 超级极恶化
+		Description: Mods.XV2Forms.Buffs.UltraSupervillainBuff.Description
+	}
+
+	VillainousBuff: {
+		DisplayName: 邪恶化
+		Description: Mods.XV2Forms.Buffs.VillainousBuff.Description
+	}
+
+	LimitBreakerBuff: {
+		Description: Mods.XV2Forms.Buffs.LimitBreakerBuff.Description
+		DisplayName: 极限突破
+	}
+
+	LimitBreakerCooldown: {
+		DisplayName: 极限突破冷却
+		Description: 你的身体正在从刚刚的极限突破中恢复过来
+	}
+
+	StackableUltimateBuff: {
+		Description: Mods.XV2Forms.Buffs.StackableUltimateBuff.Description
+		DisplayName: 究极
+	}
+
+	DivineBeastBuff: {
+		Description: Mods.XV2Forms.Buffs.DivineBeastBuff.Description
+		DisplayName: 野兽
+	}
+}
+
+Items: {
+	SupervillainItem: {
+		DisplayName: 极恶化物品
+		Tooltip:
+			'''
+			在已解锁邪恶化后使用，解锁极恶化
+			[C/959595:译者补充：由血肉墙掉落]
+			'''
+	}
+}
+
+"Keybinds.Limit Breaker Transform.DisplayName": 极限突破变身
