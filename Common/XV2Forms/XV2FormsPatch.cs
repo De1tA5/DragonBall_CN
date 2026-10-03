@@ -55,8 +55,7 @@ namespace DragonBall_CN.Common.XV2Forms
             //形态名称
             foreach (var form in FormNames)
             {
-                if (!ModelHelper.TryModifyFormName(mod, "XV2Forms.Transformations.", form.Key, form.Value))
-                    Mod.Logger.Info("Replace FAILED");
+                ModelHelper.TryModifyFormName(mod, "XV2Forms.Transformations.", form.Key, form.Value);
             }
 
 
@@ -66,8 +65,7 @@ namespace DragonBall_CN.Common.XV2Forms
                 for (int i = 0; i < nodesLSSJAF.Length; i++)
                 {
                     if (NewUnlockHints.TryGetValue(nodesLSSJAF[i].BuffKeyName, out string newUnlockHint))
-                        if (ModelHelper.TryModifyNodes(mod, "XV2Forms.Assets.WPlayer+XV2TranformationTree", i, newUnlockHint))
-                            Mod.Logger.Info("Replace Success");
+                        ModelHelper.TryModifyNodes(mod, "XV2Forms.Assets.WPlayer+XV2TranformationTree", i, newUnlockHint);
                 }
             }
 
@@ -77,8 +75,7 @@ namespace DragonBall_CN.Common.XV2Forms
                 for (int i = 0; i < nodesSSJAF.Length; i++)
                 {
                     if (NewUnlockHints.TryGetValue(nodesSSJAF[i].BuffKeyName, out string newUnlockHint))
-                        if (ModelHelper.TryModifyNodes(mod, "XV2Forms.Assets.WPlayer+ExtraFormsTransformationTree", i, newUnlockHint))
-                            Mod.Logger.Info("Replace Success");
+                        ModelHelper.TryModifyNodes(mod, "XV2Forms.Assets.WPlayer+ExtraFormsTransformationTree", i, newUnlockHint);
                 }
             }
         }

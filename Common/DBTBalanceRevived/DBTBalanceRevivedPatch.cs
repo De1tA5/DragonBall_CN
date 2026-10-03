@@ -53,15 +53,13 @@ namespace DragonBall_CN.Common.DBTBalanceRevived
                 return;
 
             //变身文本翻译
-            if (!ModelHelper.TryModifyFormName(mod, "DBTBalanceRevived.Buffs.", "LSSJ4Buff", "传说超级赛亚人4"))
-                Mod.Logger.Info("Replace FAILED");
+            ModelHelper.TryModifyFormName(mod, "DBTBalanceRevived.Buffs.", "LSSJ4Buff", "传说超级赛亚人4");
 
             if (!ModelHelper.TryGetNodes(mod, "DBTBalanceRevived.Buffs.LSSJ4Panel", out Node[] nodes))
                 return;
 
             //解锁文本 - TODO禁用配置选项后导致显示Oozaru的解锁条件
-            if (ModelHelper.TryModifyNodes(mod, "DBTBalanceRevived.Buffs.LSSJ4Panel", 0, "唯有击败宇宙级的敌人，才能解锁这股力量\n[C/959595:译者补充：传说超级赛亚人3掌握度100%时，击败月亮领主解锁]"))
-                Mod.Logger.Info("Replace Success");
+            ModelHelper.TryModifyNodes(mod, "DBTBalanceRevived.Buffs.LSSJ4Panel", 0, "唯有击败宇宙级的敌人，才能解锁这股力量\n[C/959595:译者补充：传说超级赛亚人3掌握度100%时，击败月亮领主解锁]");
 
         }
     }

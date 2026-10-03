@@ -54,7 +54,7 @@ namespace DragonBall_CN.Common.SSBETES
             if (ModLoader.HasMod(blueAddon))
             {
                 //ProcessTriggers在筛选时必须加入否则变身按键会失效，目前不明
-                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, blueAddon, false,filters: new() 
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, blueAddon, false, filters: new()
                 {
                     MethodFilter = MethodFilter.MatchNames(
                         "PostUpdateEquips", "PostUpdate", "Kill", "ModifyBuffText", "OnChatButtonClicked", "OnConsumeItem", "ProcessTriggers")
@@ -70,8 +70,7 @@ namespace DragonBall_CN.Common.SSBETES
             //对变身名称的翻译
             foreach (var form in FormNames)
             {
-                if (!ModelHelper.TryModifyFormName(mod, "SSBETES.Buffs.Transformations.", form.Key, form.Value))
-                    Mod.Logger.Info("Replace FAILED");
+                ModelHelper.TryModifyFormName(mod, "SSBETES.Buffs.Transformations.", form.Key, form.Value);
             }
 
 
@@ -83,10 +82,7 @@ namespace DragonBall_CN.Common.SSBETES
                 for (int i = 0; i < nodesSEPBSSF.Length; i++)
                 {
                     if (NewUnlockHints.TryGetValue(nodesSEPBSSF[i].BuffKeyName, out string newUnlockHint))
-                    {
-                        if (ModelHelper.TryModifyNodes(mod, "SSBETES.Assets.BUPPlayer+SEPBSSFPanel", i, newUnlockHint))
-                            Mod.Logger.Info("Replace Success");
-                    }
+                        ModelHelper.TryModifyNodes(mod, "SSBETES.Assets.BUPPlayer+SEPBSSFPanel", i, newUnlockHint);
 
                 }
             }
@@ -97,10 +93,7 @@ namespace DragonBall_CN.Common.SSBETES
                 for (int i = 0; i < nodesFSSJ.Length; i++)
                 {
                     if (NewUnlockHints.TryGetValue(nodesFSSJ[i].BuffKeyName, out string newUnlockHint))
-                    {
-                        if (ModelHelper.TryModifyNodes(mod, "SSBETES.Assets.BUPPlayer+FSSJPanel", i, newUnlockHint))
-                            Mod.Logger.Info("Replace Success");
-                    }
+                        ModelHelper.TryModifyNodes(mod, "SSBETES.Assets.BUPPlayer+FSSJPanel", i, newUnlockHint);
 
                 }
 

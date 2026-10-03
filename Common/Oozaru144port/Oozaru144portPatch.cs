@@ -56,8 +56,7 @@ namespace DragonBall_CN.Common.Oozaru144port
 
             foreach (var form in FormNames)
             {
-                if (!ModelHelper.TryModifyFormName(mod, "oozaru144port.Transformations.", form.Key, form.Value))
-                    Mod.Logger.Info("Replace FAILED");
+                ModelHelper.TryModifyFormName(mod, "oozaru144port.Transformations.", form.Key, form.Value);
             }
 
             if (!ModelHelper.TryGetNodes(mod, "oozaru144port.Assets.OPlayer+SSJ4Panel", out Node[] nodes))
@@ -66,8 +65,7 @@ namespace DragonBall_CN.Common.Oozaru144port
             for (int i = 0; i < nodes.Length; i++)
             {
                 if (NewUnlockHints.TryGetValue(nodes[i].BuffKeyName, out string newUnlockHint))
-                    if (ModelHelper.TryModifyNodes(mod, "oozaru144port.Assets.OPlayer+SSJ4Panel", i, newUnlockHint))
-                        Mod.Logger.Info("Replace Success");
+                    ModelHelper.TryModifyNodes(mod, "oozaru144port.Assets.OPlayer+SSJ4Panel", i, newUnlockHint);
             }
         }
 

@@ -42,8 +42,7 @@ namespace DragonBall_CN.Common.AwakeningPower
             //形态名称
             foreach (var form in FormNames)
             {
-                if (!ModelHelper.TryModifyFormName(mod, "AwakeningPower.Content.Transformations.", form.Key, form.Value))
-                    Mod.Logger.Info("Replace FAILED");
+                ModelHelper.TryModifyFormName(mod, "AwakeningPower.Content.Transformations.", form.Key, form.Value);
             }
 
             if (!ModelHelper.TryGetNodes(mod, "AwakeningPower.Content.Transformations.FullPowerPanel", out Node[] nodes))
@@ -53,8 +52,7 @@ namespace DragonBall_CN.Common.AwakeningPower
             for (int i = 0; i < nodes.Length; i++)
             {
                 if (NewUnlockHints.TryGetValue(nodes[i].BuffKeyName, out string newUnlockHint))
-                    if (ModelHelper.TryModifyNodes(mod, "AwakeningPower.Content.Transformations.FullPowerPanel", i, newUnlockHint))
-                        Mod.Logger.Info("Replace Success");
+                    ModelHelper.TryModifyNodes(mod, "AwakeningPower.Content.Transformations.FullPowerPanel", i, newUnlockHint);
             }
         }
     }

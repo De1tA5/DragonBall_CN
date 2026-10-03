@@ -1,0 +1,273 @@
+Keybinds: {
+	"Cycle Terrarian Transformation.DisplayName": Cycle Terrarian Transformation
+	"Open Terrarian Gene UI.DisplayName": 打开泰拉人基因界面
+	"Power Down Terrarian Form.DisplayName": Power Down Terrarian Form
+	Breakthrough.DisplayName: 突破
+	"Use Technique.DisplayName": 使用技术
+	"Switch Technique Mode.DisplayName": 切换技术模式
+	"Switch Technique.DisplayName": 切换技术
+}
+
+Items: {
+	TerrarianAwakeningFruit: {
+		DisplayName: 神秘之果
+		Tooltip:
+			'''
+			一个不产自这个世界的奇特果实……
+			[C/959595:译者补充：使用后会获得泰拉人基因，导致锁定大部分变身]
+			[C/959595:如果你超级赛亚人达到100%掌握度可能会导致刷屏]
+			'''
+	}
+
+	TestTerrarianTransform: {
+		DisplayName: Test Terrarian Transform
+		Tooltip: Test item 1, it may not work or maybe it will.
+	}
+
+	ForgottenKeepsake: {
+		DisplayName: 遗忘信物
+		Tooltip:
+			'''
+			来自远古之民的信物
+			[C/959595:译者补充：使用后会获得虚弱，导致锁定大部分变身]
+			[C/959595:如果你超级赛亚人达到100%掌握度可能会导致刷屏]
+			'''
+	}
+
+	TerrarianTraitRemover: {
+		DisplayName: 泰拉人资质移除器
+		Tooltip:
+			'''
+			请谨慎使用，因为它不会移除所有东西……
+			[C/959595:译者补充：移除本模组玩家的泰拉人基因、技术和使用道具，包括玩家的资质也会清空]
+			'''
+	}
+
+	FirstTerrariansBook: {
+		DisplayName: 尘封日志
+		Tooltip:
+			'''
+			一份来自近乎被遗忘时代的残破记录
+			[C/959595:译者补充：从空岛的天域箱中获取，有且只有一本]
+			'''
+	}
+
+	BeginnersCombatManual: {
+		DisplayName: 初级战斗手册
+		Tooltip: 教授你基础的闪避与攻击
+	}
+
+	TerrarianProgressTester: {
+		DisplayName: 泰拉人变身进度测试
+		Tooltip: 改变进度
+	}
+
+	TempestFangManual: {
+		DisplayName: Tempest Fang Manual
+		Tooltip: It feels weird to touch, like touching a ball of Plasma...
+	}
+
+	TempestFangTester: {
+		DisplayName: Tempest Fang Tester
+		Tooltip: Does it really test out Tempest Fang???
+	}
+
+	AuricFlameManual: {
+		DisplayName: 金源辉焰手册
+		Tooltip:
+			'''
+			忠诚巨龙所留下的最后的礼物……
+			[C/959595:译者补充：丛林地下迷你建筑的金箱中获取]
+			'''
+	}
+
+	EternityBreakerManual: {
+		DisplayName: Eternity Breaker Manual
+		Tooltip: An item that doesnt exist...
+	}
+
+	TideKingsEdictManual: {
+		DisplayName: Tide King's Edict Manual
+		Tooltip: Some where in another Dimension maybe...
+	}
+
+	ZenkaiCrystal: {
+		DisplayName: Zenkai Crystal
+		Tooltip: A crystal filled with the hopes of a terrarian...
+	}
+
+	ZenkaiGem: {
+		DisplayName: Zenkai Gem
+		Tooltip: A gem that attracts great companions...
+	}
+
+	FlamezKhanScroll: {
+		DisplayName: Mysterious Scroll
+		Tooltip: A Technique that only a select few know, The Scroll is warm...
+	}
+
+	VortexPrototype: {
+		DisplayName: Vortex Prototype
+		Tooltip: The Cosmic Engineer would Hate this...(FR FR 100 200%!!!)
+	}
+
+	VortexScrolls: {
+		DisplayName: Vortex Heart
+		Tooltip: The embodiment of Storms
+	}
+
+	FlameMeter: {
+		DisplayName: Flame Meter
+		Tooltip: It holds auric flames for 5 seconds
+	}
+
+	FlameHeart: {
+		Tooltip: The heart of a being made entirely of Flames
+		DisplayName: Flame Heart
+	}
+
+	ZenkaiHuntTester: {
+		Tooltip: Zenkai will be set to 1000
+		DisplayName: Zenkai Hunt Tester
+	}
+
+	TechniqueTransformationManual: {
+		DisplayName: Technique Manual
+		Tooltip: Teaches how to use techniques properly
+	}
+
+	WhiteGloves: {
+		DisplayName: White Gloves
+		Tooltip: ""
+	}
+
+	VortexScrollsTester: {
+		DisplayName: Vortex Scrolls Tester
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	TerrarianGeneBuff: {
+		DisplayName: 泰拉人基因
+		Description: 泰拉瑞亚的力量已召唤你走上一条古老的道路
+	}
+
+	TerrarianZenkaiCooldownBuff: {
+		DisplayName: Season of Restoration
+		Description: Even the strongest body must recover after hardship.
+	}
+
+	TerrarianInCombatBuff: {
+		DisplayName: Trial of Battle
+		Description: Conflict reveals what lies hidden within the heart.
+	}
+
+	TerrarianZenkaiBuff: {
+		DisplayName: Terrarian Zenkai
+		Description: Hardship endured becomes strength remembered.
+	}
+
+	AwakenedBuff: {
+		DisplayName: 觉醒
+		Description: Anger has awakened a hidden power, but it seeks to master you.
+	}
+
+	ResolvedWillBuff: {
+		DisplayName: 决意
+		Description: A heart without self-control leaves the soul open to darkness.
+	}
+
+	ReinforcedSoulBuff: {
+		DisplayName: 锻魄
+		Description: Through hardship, battle, and reflection, the soul is tempered.
+	}
+
+	TrueAwakeningBuff: {
+		DisplayName: 真·觉醒
+		Description: A Terrarian exists not for glory, but to guard the worlds entrusted to them.
+	}
+
+	AuricInfusedBuff: {
+		DisplayName: 金源灌注
+		Description: Yharon surrendered the endless flame, that another might stand against tyranny.
+	}
+
+	ApexOfEternityBuff: {
+		DisplayName: 永恒之巅
+		Description: The highest calling of a Terrarian is not to possess creation, but to faithfully guard it.
+	}
+
+	ForgottenKeepsake: {
+		DisplayName: Forgotten Keepsake
+		Tooltip: It's truly a miracle that you've survived this far.
+	}
+
+	WeakTraitBuff: {
+		DisplayName: 虚弱
+		Description: Your body is fragile, but something still refuses to let you disappear.
+	}
+
+	WeakTrialBuff: {
+		DisplayName: The Rejected
+		Description: Death looked upon you with pity and passed by.\nEndure, and mercy may yet find you.
+	}
+
+	TechniqueCooldownBuff: {
+		DisplayName: 技术冷却
+		Description: 你的技术正在恢复
+	}
+
+	FocusBuff: {
+		DisplayName: 集中
+		Description:
+			'''
+			增加10%伤害和防御
+			精通时：翻倍加成，并提升40%移动速度和25%闪避率
+			'''
+	}
+
+	OverdriveBuff: {
+		DisplayName: 过载
+		Description: 增加20%伤害和防御
+	}
+}
+
+Combat: {
+	FocusBuff: {
+		DisplayName: Focus
+		Description: Damage and defense increased by 10%.\nAt full mastery: doubled bonuses, +40% speed, and 25% dodge chance.
+	}
+
+	OverdriveBuff: {
+		DisplayName: Overdrive
+		Description: Damage and defense increased by 20%.
+	}
+}
+
+Projectiles: {
+	VortexLightningRainVisual.DisplayName: Vortex Lightning Rain Visual
+	DownwardVortexLightning.DisplayName: Downward Vortex Lightning
+	AuricFlameMark.DisplayName: Auric Flame Mark
+	AuricFlameTornado.DisplayName: Auric Flame Tornado
+	AuricFlameVortex.DisplayName: Auric Flame Vortex
+	EternityBreakerDeathray.DisplayName: Eternity Breaker Deathray
+	FriendlySharknado.DisplayName: Friendly Sharknado
+	FriendlyTideSharknado.DisplayName: Friendly Tide Sharknado
+	FlamezKhanFlame.DisplayName: Flamez Khan Flame
+	FriendlyVortexLightningDeathray.DisplayName: Friendly Vortex Lightning Deathray
+	StormCrownLightningDeathray.DisplayName: Storm Crown Lightning Deathray
+	StormCrownFinalDeathray.DisplayName: Storm Crown Final Deathray
+	CataclysmScreenBolt.DisplayName: Cataclysm Screen Bolt
+	HeavenbreakerJudgmentField.DisplayName: Heavenbreaker Judgment Field
+	HeavenbreakerFinalBolt.DisplayName: Heavenbreaker Final Bolt
+	HeavenbreakerPillar.DisplayName: Heavenbreaker Pillar
+	TempestStormOrb.DisplayName: Tempest Storm Orb
+}
+
+NPCs: {
+	TideKingFishron.DisplayName: Tide King Fishron
+	FriendlyTideSharkron.DisplayName: Friendly Tide Sharkron
+}
+
+InfoDisplays.FlameMeterInfoDisplay.DisplayName: Flame Meter Info Display

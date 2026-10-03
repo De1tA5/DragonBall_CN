@@ -58,8 +58,7 @@ namespace DragonBall_CN.Common.dbztac
             //形态名称
             foreach (var form in FormNames)
             {
-                if (!ModelHelper.TryModifyFormName(mod, "dbztac.Transformations.", form.Key, form.Value))
-                    Mod.Logger.Info("Replace FAILED");
+                ModelHelper.TryModifyFormName(mod, "dbztac.Transformations.", form.Key, form.Value);
             }
 
             if (!ModelHelper.TryGetNodes(mod, "dbztac.Assets.DACPlayer+xSSJ4Panel", out Node[] nodes))
@@ -69,8 +68,7 @@ namespace DragonBall_CN.Common.dbztac
             for (int i = 0; i < nodes.Length; i++)
             {
                 if (NewUnlockHints.TryGetValue(nodes[i].BuffKeyName, out string newUnlockHint))
-                    if (ModelHelper.TryModifyNodes(mod, "dbztac.Assets.DACPlayer+xSSJ4Panel", i, newUnlockHint))
-                        Mod.Logger.Info("Replace Success");
+                    ModelHelper.TryModifyNodes(mod, "dbztac.Assets.DACPlayer+xSSJ4Panel", i, newUnlockHint);
             }
         }
     }

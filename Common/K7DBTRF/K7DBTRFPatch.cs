@@ -70,8 +70,7 @@ namespace DragonBall_CN.Common.K7DBTRF
             //形态名称
             foreach (var form in FormNames)
             {
-                if (!ModelHelper.TryModifyFormName(mod, "K7DBTRF.Buffs.", form.Key, form.Value))
-                    Mod.Logger.Info("Replace FAILED");
+                ModelHelper.TryModifyFormName(mod, "K7DBTRF.Buffs.", form.Key, form.Value);
             }
 
             //存在2个变身树，一个传说资质，一个常规
@@ -82,8 +81,8 @@ namespace DragonBall_CN.Common.K7DBTRF
                 for (int i = 0; i < nodesLSSJAF.Length; i++)
                 {
                     if (NewUnlockHints.TryGetValue(nodesLSSJAF[i].BuffKeyName, out string newUnlockHint))
-                        if (ModelHelper.TryModifyNodes(mod, "K7DBTRF.Assets.LSSJAFPanel", i, newUnlockHint))
-                            Mod.Logger.Info("Replace Success");
+                        ModelHelper.TryModifyNodes(mod, "K7DBTRF.Assets.LSSJAFPanel", i, newUnlockHint);
+                            
                 }
             }
 
@@ -93,8 +92,8 @@ namespace DragonBall_CN.Common.K7DBTRF
                 for (int i = 0; i < nodesSSJAF.Length; i++)
                 {
                     if (NewUnlockHints.TryGetValue(nodesSSJAF[i].BuffKeyName, out string newUnlockHint))
-                        if (ModelHelper.TryModifyNodes(mod, "K7DBTRF.Assets.SSJAFPanel", i, newUnlockHint))
-                            Mod.Logger.Info("Replace Success");
+                        ModelHelper.TryModifyNodes(mod, "K7DBTRF.Assets.SSJAFPanel", i, newUnlockHint);
+                            
                 }
             }
 

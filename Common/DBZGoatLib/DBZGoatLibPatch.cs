@@ -172,10 +172,9 @@ namespace DragonBall_CN.Common.DBZGoatLib
             {
                 foreach (var node in nodes) 
                 {
-                    modLogger.Info($"Node Name:{node.BuffKeyName}, Node UnlockHint:{node.UnlockHint}");
+                    modLogger.Info($"[{mod.Name}Patch]: Node Name - {node.BuffKeyName}, Node UnlockHint - {node.UnlockHint}");
                 }
             }
-                
 
             return true;
         }
@@ -218,6 +217,9 @@ namespace DragonBall_CN.Common.DBZGoatLib
 
             });
             ILHooks.Add(hook);
+
+            if (DBCPatchConfig.Instance.DebugMode)
+                modLogger.Info($"[{mod.Name}Patch]: Index - {index} , Text - {newUnlockHint}");
 
             return true;
         }
@@ -290,9 +292,9 @@ namespace DragonBall_CN.Common.DBZGoatLib
                 c.Emit(OpCodes.Ret);
             });
             ILHooks.Add(hook);
-            if (DBCPatchConfig.Instance.DebugMode) 
+            if (DBCPatchConfig.Instance.DebugMode)
             {
-                modLogger.Info($"Old Name:{buffKeyName},New Name:{newName}");
+                modLogger.Info($"[{mod.Name}Patch]: Old Name - {buffKeyName}, New Name - {newName}");
             }
             return true;
         }

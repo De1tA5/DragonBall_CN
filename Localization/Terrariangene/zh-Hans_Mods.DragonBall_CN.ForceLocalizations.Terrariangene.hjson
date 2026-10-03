@@ -1,0 +1,5506 @@
+Terrariangene: {
+	Load: {
+		1: {
+			// OldString: Open Terrarian Gene UI
+			// NewString: Open Terrarian Gene UI
+		}
+
+		2: {
+			// OldString: P
+			// NewString: P
+		}
+
+		3: {
+			// OldString: Breakthrough
+			// NewString: Breakthrough
+		}
+
+		4: {
+			// OldString: V
+			// NewString: V
+		}
+
+		5: {
+			// OldString: Use Technique
+			// NewString: Use Technique
+		}
+
+		6: {
+			// OldString: Z
+			// NewString: Z
+		}
+
+		7: {
+			// OldString: Switch Technique Mode
+			// NewString: Switch Technique Mode
+		}
+
+		8: {
+			// OldString: X
+			// NewString: X
+		}
+
+		9: {
+			// OldString: Switch Technique
+			// NewString: Switch Technique
+		}
+
+		10: {
+			// OldString: C
+			// NewString: C
+		}
+
+		11: {
+			// OldString: DBZMODPORT/Effects/CircleShader
+			// NewString: DBZMODPORT/Effects/CircleShader
+		}
+
+		12: {
+			// OldString: Pass1
+			// NewString: Pass1
+		}
+	}
+}
+
+UI: {
+	FirstTerrariansBookUI: {
+		OnInitialize: {
+			1: {
+				/* OldString:
+					'''
+					Forgotten by the world and weak as they were,
+					still they endured.
+
+					No Soul spoke their names.
+
+					No kingdom chose them.
+
+					Yet each time they were cast aside,
+					they rose once more.
+
+					The oldest fragment ends there.
+
+					"...and though all things had abandoned them..."
+
+					"...someone had not."
+					''' */
+				/* NewString:
+					'''
+					Forgotten by the world and weak as they were,
+					still they endured.
+
+					No Soul spoke their names.
+
+					No kingdom chose them.
+
+					Yet each time they were cast aside,
+					they rose once more.
+
+					The oldest fragment ends there.
+
+					"...and though all things had abandoned them..."
+
+					"...someone had not."
+					''' */
+			}
+		}
+	}
+
+	FlameMeterInfoDisplay: {
+		get_Texture: {
+			1: {
+				// OldString: Terraria/Images/UI/InfoIcon_12
+				// NewString: Terraria/Images/UI/InfoIcon_12
+			}
+		}
+
+		DisplayValue: {
+			1: {
+				// OldString: "Flame DPS: "
+				// NewString: "Flame DPS: "
+			}
+
+			2: {
+				// OldString: "0"
+				// NewString: "0"
+			}
+		}
+	}
+
+	TerrarianGeneUI: {
+		UpdateCombatClicking: {
+			1: {
+				// OldString: You must learn the previous combat art first.
+				// NewString: You must learn the previous combat art first.
+			}
+
+			2: {
+				// OldString: You learned Overdrive.
+				// NewString: You learned Overdrive.
+			}
+
+			3: {
+				// OldString: You learned Focus.
+				// NewString: You learned Focus.
+			}
+
+			4: {
+				// OldString: You lack the required training experience.
+				// NewString: You lack the required training experience.
+			}
+		}
+
+		DrawCombatArts: {
+			1: {
+				// OldString: COMBAT ARTS
+				// NewString: COMBAT ARTS
+			}
+
+			2: {
+				// OldString: "Combat TP: "
+				// NewString: "Combat TP: "
+			}
+
+			3: {
+				// OldString: "0.0"
+				// NewString: "0.0"
+			}
+
+			4: {
+				// OldString: " / "
+				// NewString: " / "
+			}
+
+			5: {
+				// OldString: "Mastery: "
+				// NewString: "Mastery: "
+			}
+
+			6: {
+				// OldString: %
+				// NewString: %
+			}
+		}
+
+		DrawCombatNode: {
+			1: {
+				// OldString: LOCK
+				// NewString: LOCK
+			}
+
+			2: {
+				// OldString: Overdrive
+				// NewString: Overdrive
+			}
+
+			3: {
+				// OldString: Focus
+				// NewString: Focus
+			}
+		}
+
+		OnInitialize: {
+			1: {
+				// OldString: TERRARIAN GENE
+				NewString: 泰拉人基因
+			}
+
+			2: {
+				// OldString: Terrariangene/Assets/UI/ZenkaiHuntZ
+				// NewString: Terrariangene/Assets/UI/ZenkaiHuntZ
+			}
+
+			3: {
+				// OldString: ""
+				// NewString: ""
+			}
+		}
+
+		UpdateMainMenu: {
+			1: {
+				/* OldString:
+					'''
+					             STATUS
+
+					               ???
+					''' */
+				NewString:
+					'''
+					              属性 
+
+					               ？？？
+					'''
+			}
+
+			2: {
+				// OldString: Ready
+				NewString: 准备就绪
+			}
+
+			3: {
+				// OldString: s
+				// NewString: s
+			}
+
+			4: {
+				// OldString: Safe
+				NewString: 安全
+			}
+
+			5: {
+				// OldString: In Combat
+				NewString: 处于战斗
+			}
+
+			6: {
+				/* OldString:
+					'''
+					             STATUS
+
+					           Terrarian
+
+					''' */
+				NewString:
+					'''
+					             属性
+
+					            泰拉人
+
+					'''
+			}
+
+			7: {
+				// OldString: "         Zenkais: "
+				NewString: "         全开： "
+			}
+
+			8: {
+				// OldString: " / "
+				// NewString: " / "
+			}
+
+			9: {
+				/* OldString: "\n\n" */
+				/* NewString: "\n\n" */
+			}
+
+			10: {
+				// OldString: "   Technique Damage Bonus: +"
+				NewString: "   技术伤害加成： +"
+			}
+
+			11: {
+				// OldString: "0"
+				// NewString: "0"
+			}
+
+			12: {
+				/* OldString:
+					'''
+					%
+
+					''' */
+				/* NewString:
+					'''
+					%
+
+					''' */
+			}
+
+			13: {
+				// OldString: "        Defense Bonus: +"
+				NewString: "         防御加成： +"
+			}
+
+			14: {
+				// OldString: "        Max Ki Bonus: +"
+				NewString: "   最大气值加成： +"
+			}
+
+			15: {
+				/* OldString: "\n" */
+				/* NewString: "\n" */
+			}
+
+			16: {
+				// OldString: "      Ki Regen Bonus: x"
+				NewString: " 气恢复速度加成： x"
+			}
+
+			17: {
+				// OldString: "0.00"
+				// NewString: "0.00"
+			}
+
+			18: {
+				// OldString: "     Battle Condition: "
+				NewString: "        战斗情况： "
+			}
+
+			19: {
+				/* OldString:
+					'''
+
+					        Recovery: 
+					''' */
+				NewString:
+					'''
+
+					        全开回复： 
+					'''
+			}
+
+			20: {
+				/* OldString:
+					'''
+
+
+					       TRAINING POINTS
+
+
+					''' */
+				NewString:
+					'''
+
+
+					           训练点数
+
+
+					'''
+			}
+
+			21: {
+				// OldString: "     TP: "
+				NewString: "     TP： "
+			}
+
+			22: {
+				// OldString: "0.0"
+				// NewString: "0.0"
+			}
+		}
+
+		UpdateTransformationClicking: {
+			1: {
+				// OldString: The omen has not revealed this path.
+				NewString: 预兆并未揭示这条道路
+			}
+		}
+
+		DrawTransformationTree: {
+			1: {
+				// OldString: PATH OF ASCENSION
+				NewString: 晋升之路
+			}
+		}
+
+		DrawTransformationNode: {
+			1: {
+				// OldString: LOCK
+				NewString: 锁定
+			}
+
+			2: {
+				// OldString: Undiscovered
+				NewString: 未发现
+			}
+		}
+
+		DrawSelectedTransformationInfo: {
+			1: {
+				// OldString: UNDISCOVERED
+				NewString: 未发现
+			}
+
+			2: {
+				// OldString: "Mastery: "
+				NewString: "掌握度： "
+			}
+
+			3: {
+				// OldString: "0.0"
+				// NewString: "0.0"
+			}
+
+			4: {
+				// OldString: %
+				// NewString: %
+			}
+		}
+
+		DrawTabHighlightsAndTooltips: {
+			1: {
+				// OldString: Zenkai Overview
+				NewString: 全开总览
+			}
+
+			2: {
+				// OldString: Zenkai Hunts
+				NewString: 全开狩猎
+			}
+
+			3: {
+				// OldString: Technique Mastery
+				// NewString: Technique Mastery
+			}
+
+			4: {
+				// OldString: Path of Ascension
+				NewString: 晋升之路
+			}
+
+			5: {
+				// OldString: Combat Arts
+				// NewString: Combat Arts
+			}
+
+			6: {
+				// OldString: Techniques
+				// NewString: Techniques
+			}
+		}
+
+		DrawSealedUI: {
+			1: {
+				// OldString: ???
+				// NewString: ???
+			}
+		}
+
+		DrawLockedTerrarianUI: {
+			1: {
+				// OldString: ???
+				// NewString: ???
+			}
+		}
+
+		WrapText: {
+			1: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			2: {
+				// OldString: " "
+				// NewString: " "
+			}
+		}
+
+		DrawTransformationRequirements: {
+			1: {
+				// OldString: Requirements:
+				NewString: 需求：
+			}
+
+			2: {
+				// OldString: /
+				// NewString: /
+			}
+
+			3: {
+				// OldString: " Zenkais"
+				NewString: " 全开"
+			}
+
+			4: {
+				// OldString: "0"
+				// NewString: "0"
+			}
+
+			5: {
+				// OldString: " TP"
+				// NewString: " TP"
+			}
+
+			6: {
+				// OldString: " Mastery 100%"
+				NewString: " 掌握度 100%"
+			}
+
+			7: {
+				// OldString: Defeat Evil Boss
+				NewString: 击败邪恶Boss
+			}
+
+			8: {
+				// OldString: Defeat Queen Bee
+				NewString: 击败蜂王
+			}
+
+			9: {
+				// OldString: "Defeat bosses in Awakened: "
+				NewString: "处于觉醒形态击败Boss： "
+			}
+
+			10: {
+				// OldString: /5
+				// NewString: /5
+			}
+
+			11: {
+				// OldString: Endure below 15% HP during boss
+				NewString:
+					'''
+					在Boss战中于生命值低于15%
+					[C/959595:译者补充：处于觉醒形态在Boss战中生命值低于15%，并保持30秒]
+					'''
+			}
+
+			12: {
+				// OldString: "Zenkais without death: "
+				NewString: "濒死时全开： "
+			}
+
+			13: {
+				// OldString: /10
+				// NewString: /10
+			}
+
+			14: {
+				// OldString: Endure below 10% HP during boss
+				NewString:
+					'''
+					在Boss战中于生命值低于10%
+					[C/959595:译者补充：玩家在战斗时生命值低于50点持续7秒，即可濒死触发全开]
+					[C/959595:处于决意形态在Boss战中生命值低于10%，并保持60秒]
+					'''
+			}
+
+			15: {
+				// OldString: Learn any Combat Art
+				// NewString: Learn any Combat Art
+			}
+
+			16: {
+				// OldString: Defeat Cultist with Combat Art active
+				// NewString: Defeat Cultist with Combat Art active
+			}
+
+			17: {
+				// OldString: Obtain Yharon's Soul
+				// NewString: Obtain Yharon's Soul
+			}
+
+			18: {
+				// OldString: Master every Terrarian form
+				// NewString: Master every Terrarian form
+			}
+
+			19: {
+				// OldString: Master every Combat Art
+				// NewString: Master every Combat Art
+			}
+
+			20: {
+				// OldString: Equip the Soul of Eternity
+				// NewString: Equip the Soul of Eternity
+			}
+		}
+
+		GetTransformationBuffKey: {
+			1: {
+				// OldString: AwakenedBuff
+				// NewString: AwakenedBuff
+			}
+
+			2: {
+				// OldString: ResolvedWillBuff
+				// NewString: ResolvedWillBuff
+			}
+
+			3: {
+				// OldString: ReinforcedSoulBuff
+				// NewString: ReinforcedSoulBuff
+			}
+
+			4: {
+				// OldString: TrueAwakeningBuff
+				// NewString: TrueAwakeningBuff
+			}
+
+			5: {
+				// OldString: AuricInfusedBuff
+				// NewString: AuricInfusedBuff
+			}
+
+			6: {
+				// OldString: ApexOfEternityBuff
+				// NewString: ApexOfEternityBuff
+			}
+		}
+
+		GetCombatBuffKey: {
+			1: {
+				// OldString: FocusBuff
+				// NewString: FocusBuff
+			}
+
+			2: {
+				// OldString: OverdriveBuff
+				// NewString: OverdriveBuff
+			}
+		}
+
+		GetTransformationIcon: {
+			1: {
+				// OldString: Terrariangene/Buffs/Transformations/AwakenedBuff
+				// NewString: Terrariangene/Buffs/Transformations/AwakenedBuff
+			}
+
+			2: {
+				// OldString: Terrariangene/Buffs/Transformations/ResolvedWillBuff
+				// NewString: Terrariangene/Buffs/Transformations/ResolvedWillBuff
+			}
+
+			3: {
+				// OldString: Terrariangene/Buffs/Transformations/ReinforcedSoulBuff
+				// NewString: Terrariangene/Buffs/Transformations/ReinforcedSoulBuff
+			}
+
+			4: {
+				// OldString: Terrariangene/Buffs/Transformations/TrueAwakeningBuff
+				// NewString: Terrariangene/Buffs/Transformations/TrueAwakeningBuff
+			}
+
+			5: {
+				// OldString: Terrariangene/Buffs/Transformations/AuricInfusedBuff
+				// NewString: Terrariangene/Buffs/Transformations/AuricInfusedBuff
+			}
+
+			6: {
+				// OldString: Terrariangene/Buffs/Transformations/ApexOfEternityBuff
+				// NewString: Terrariangene/Buffs/Transformations/ApexOfEternityBuff
+			}
+
+			7: {
+				// OldString: Terrariangene/Buffs/TerrarianGeneBuff
+				// NewString: Terrariangene/Buffs/TerrarianGeneBuff
+			}
+		}
+
+		GetCombatIcon: {
+			1: {
+				// OldString: Terrariangene/Buffs/Combat/FocusBuff
+				// NewString: Terrariangene/Buffs/Combat/FocusBuff
+			}
+
+			2: {
+				// OldString: Terrariangene/Buffs/Combat/OverdriveBuff
+				// NewString: Terrariangene/Buffs/Combat/OverdriveBuff
+			}
+
+			3: {
+				// OldString: Terrariangene/Buffs/TerrarianGeneBuff
+				// NewString: Terrariangene/Buffs/TerrarianGeneBuff
+			}
+		}
+
+		DrawTechniques: {
+			1: {
+				// OldString: TECHNIQUES
+				// NewString: TECHNIQUES
+			}
+
+			2: {
+				// OldString: Tempest Fang
+				// NewString: Tempest Fang
+			}
+
+			3: {
+				// OldString: Vortex Scrolls
+				// NewString: Vortex Scrolls
+			}
+
+			4: {
+				// OldString: Storm Fang
+				// NewString: Storm Fang
+			}
+
+			5: {
+				// OldString: Lightning Judgment
+				// NewString: Lightning Judgment
+			}
+
+			6: {
+				// OldString: Tempest Sovereign
+				// NewString: Tempest Sovereign
+			}
+
+			7: {
+				// OldString: Storm Crown
+				// NewString: Storm Crown
+			}
+
+			8: {
+				// OldString: Heavenbreaker
+				// NewString: Heavenbreaker
+			}
+
+			9: {
+				// OldString: Cataclysm
+				// NewString: Cataclysm
+			}
+
+			10: {
+				// OldString: Storm Rain Mode
+				// NewString: Storm Rain Mode
+			}
+
+			11: {
+				// OldString: Arc Mode
+				// NewString: Arc Mode
+			}
+
+			12: {
+				// OldString: Auric Flame
+				// NewString: Auric Flame
+			}
+
+			13: {
+				// OldString: Crimson Flames
+				// NewString: Crimson Flames
+			}
+
+			14: {
+				// OldString: Azure Flames
+				// NewString: Azure Flames
+			}
+
+			15: {
+				// OldString: The Dragons Flame
+				// NewString: The Dragons Flame
+			}
+
+			16: {
+				// OldString: Nova Flames
+				// NewString: Nova Flames
+			}
+
+			17: {
+				// OldString: Flamez Khan
+				// NewString: Flamez Khan
+			}
+		}
+
+		DrawTechniqueEntry: {
+			1: {
+				// OldString: ???
+				// NewString: ???
+			}
+
+			2: {
+				// OldString: "Level "
+				// NewString: "Level "
+			}
+
+			3: {
+				// OldString: "Uses: "
+				// NewString: "Uses: "
+			}
+
+			4: {
+				// OldString: Mastered
+				// NewString: Mastered
+			}
+
+			5: {
+				// OldString: Technique not learned
+				// NewString: Technique not learned
+			}
+
+			6: {
+				// OldString: " selected."
+				// NewString: " selected."
+			}
+		}
+
+		DrawTechniqueMastery: {
+			1: {
+				// OldString: TECHNIQUE MASTERY
+				// NewString: TECHNIQUE MASTERY
+			}
+
+			2: {
+				/* OldString:
+					'''
+					 mastery complete.
+
+					''' */
+				/* NewString:
+					'''
+					 mastery complete.
+
+					''' */
+			}
+
+			3: {
+				/* OldString:
+					'''
+
+					But is that it...?
+					''' */
+				/* NewString:
+					'''
+
+					But is that it...?
+					''' */
+			}
+
+			4: {
+				// OldString: "0"
+				// NewString: "0"
+			}
+
+			5: {
+				// OldString: " / "
+				// NewString: " / "
+			}
+
+			6: {
+				// OldString: " XP"
+				// NewString: " XP"
+			}
+		}
+
+		DrawTechniqueObjectiveBars: {
+			1: {
+				// OldString: Lightning
+				// NewString: Lightning
+			}
+
+			2: {
+				// OldString: Orb Damage
+				// NewString: Orb Damage
+			}
+
+			3: {
+				// OldString: Damage
+				// NewString: Damage
+			}
+
+			4: {
+				// OldString: Legendary Strikes
+				// NewString: Legendary Strikes
+			}
+
+			5: {
+				// OldString: Boss Lightning
+				// NewString: Boss Lightning
+			}
+		}
+
+		DrawSmallProgressBar: {
+			1: {
+				// OldString: ": "
+				// NewString: ": "
+			}
+
+			2: {
+				// OldString: " / "
+				// NewString: " / "
+			}
+		}
+
+		GetMasteryChallengeText: {
+			1: {
+				// OldString: Mastery complete.
+				// NewString: Mastery complete.
+			}
+
+			2: {
+				/* OldString:
+					'''
+					The art is not ready to answer.
+					Temper it in battle until the seal stirs.
+					''' */
+				/* NewString:
+					'''
+					The art is not ready to answer.
+					Temper it in battle until the seal stirs.
+					''' */
+			}
+
+			3: {
+				// OldString: Let the storm speak through every strike.
+				// NewString: Let the storm speak through every strike.
+			}
+
+			4: {
+				/* OldString:
+					'''
+					When it rains the storm has final say against mortal foes.
+					Boss final hits: 
+					''' */
+				/* NewString:
+					'''
+					When it rains the storm has final say against mortal foes.
+					Boss final hits: 
+					''' */
+			}
+
+			5: {
+				// OldString: /2
+				// NewString: /2
+			}
+
+			6: {
+				/* OldString:
+					'''
+					Crown the storm in battle and thunder.
+					Boss final hits: 
+					''' */
+				/* NewString:
+					'''
+					Crown the storm in battle and thunder.
+					Boss final hits: 
+					''' */
+			}
+
+			7: {
+				// OldString: /3
+				// NewString: /3
+			}
+
+			8: {
+				/* OldString:
+					'''
+					Let no foe escape the pull of the tempest.
+					Enemies pulled: 
+					''' */
+				/* NewString:
+					'''
+					Let no foe escape the pull of the tempest.
+					Enemies pulled: 
+					''' */
+			}
+
+			9: {
+				// OldString: /1000
+				// NewString: /1000
+			}
+
+			10: {
+				/* OldString:
+					'''
+					Master the orb where storm and gravity meet.
+					Enemies pulled: 
+					''' */
+				/* NewString:
+					'''
+					Master the orb where storm and gravity meet.
+					Enemies pulled: 
+					''' */
+			}
+
+			11: {
+				// OldString: /200
+				// NewString: /200
+			}
+
+			12: {
+				/* OldString:
+					'''
+					Destroy The False Bearer and Master The tempest.
+					Boss final hits: 
+					''' */
+				/* NewString:
+					'''
+					Destroy The False Bearer and Master The tempest.
+					Boss final hits: 
+					''' */
+			}
+
+			13: {
+				/* OldString:
+					'''
+					/8
+					Vortex Pillar: 
+					''' */
+				/* NewString:
+					'''
+					/8
+					Vortex Pillar: 
+					''' */
+			}
+
+			14: {
+				// OldString: No
+				// NewString: No
+			}
+
+			15: {
+				// OldString: Done
+				// NewString: Done
+			}
+
+			16: {
+				// OldString: Breakthrough ready.
+				// NewString: Breakthrough ready.
+			}
+
+			17: {
+				/* OldString:
+					'''
+					Feed the Flame the wicked that it may become strong enough to stop them.
+					Demon kills: 
+					''' */
+				/* NewString:
+					'''
+					Feed the Flame the wicked that it may become strong enough to stop them.
+					Demon kills: 
+					''' */
+			}
+
+			18: {
+				// OldString: /50
+				// NewString: /50
+			}
+
+			19: {
+				/* OldString:
+					'''
+					Let the Flame grow beyond and become greater.
+					Reward: Damage boost
+					''' */
+				/* NewString:
+					'''
+					Let the Flame grow beyond and become greater.
+					Reward: Damage boost
+					''' */
+			}
+
+			20: {
+				/* OldString:
+					'''
+					The Blaze of a Chaotic Dragon is the Catalyst of Destruction.
+					Betsy: 
+					''' */
+				/* NewString:
+					'''
+					The Blaze of a Chaotic Dragon is the Catalyst of Destruction.
+					Betsy: 
+					''' */
+			}
+
+			21: {
+				/* OldString:
+					'''
+
+					Reward: Dragon's Demise
+					''' */
+				/* NewString:
+					'''
+
+					Reward: Dragon's Demise
+					''' */
+			}
+
+			22: {
+				/* OldString:
+					'''
+					Burn through The Scourge's wicked scales.
+					DoG: 
+					''' */
+				/* NewString:
+					'''
+					Burn through The Scourge's wicked scales.
+					DoG: 
+					''' */
+			}
+
+			23: {
+				/* OldString:
+					'''
+
+					Reward: Cleansing Blaze
+					''' */
+				/* NewString:
+					'''
+
+					Reward: Cleansing Blaze
+					''' */
+			}
+
+			24: {
+				/* OldString:
+					'''
+					Challenge the Jungle Dragon for the Auric Flame...
+					Yharon: 
+					''' */
+				/* NewString:
+					'''
+					Challenge the Jungle Dragon for the Auric Flame...
+					Yharon: 
+					''' */
+			}
+
+			25: {
+				/* OldString:
+					'''
+
+					Reward: Final damage boost
+					''' */
+				/* NewString:
+					'''
+
+					Reward: Final damage boost
+					''' */
+			}
+
+			26: {
+				/* OldString:
+					'''
+					Overload the flame, then mark the burning path.
+					On Fire III: 
+					''' */
+				/* NewString:
+					'''
+					Overload the flame, then mark the burning path.
+					On Fire III: 
+					''' */
+			}
+
+			27: {
+				/* OldString:
+					'''
+					/100
+					Pulls: 
+					''' */
+				/* NewString:
+					'''
+					/100
+					Pulls: 
+					''' */
+			}
+
+			28: {
+				// OldString: /10000
+				// NewString: /10000
+			}
+
+			29: {
+				/* OldString:
+					'''
+					The vortex hungers. Let the flame draw them in.
+					Pulls: 
+					''' */
+				/* NewString:
+					'''
+					The vortex hungers. Let the flame draw them in.
+					Pulls: 
+					''' */
+			}
+
+			30: {
+				// OldString: /20000
+				// NewString: /20000
+			}
+
+			31: {
+				/* OldString:
+					'''
+					Twin winds awaken beneath auric fire.
+					Pulls: 
+					''' */
+				/* NewString:
+					'''
+					Twin winds awaken beneath auric fire.
+					Pulls: 
+					''' */
+			}
+
+			32: {
+				/* OldString:
+					'''
+					/25000
+					Yharon: 
+					''' */
+				/* NewString:
+					'''
+					/25000
+					Yharon: 
+					''' */
+			}
+
+			33: {
+				/* OldString:
+					'''
+					The final spark of The Jungle Dragon's Husk must be claimed.
+					Pulls: 
+					''' */
+				/* NewString:
+					'''
+					The final spark of The Jungle Dragon's Husk must be claimed.
+					Pulls: 
+					''' */
+			}
+
+			34: {
+				/* OldString:
+					'''
+					/30000
+					Yharon final hit: 
+					''' */
+				/* NewString:
+					'''
+					/30000
+					Yharon final hit: 
+					''' */
+			}
+
+			35: {
+				/* OldString:
+					'''
+					Bend the storm against machines that surpassed the auric gods.
+					Pulls: 
+					''' */
+				/* NewString:
+					'''
+					Bend the storm against machines that surpassed the auric gods.
+					Pulls: 
+					''' */
+			}
+
+			36: {
+				/* OldString:
+					'''
+					/35000
+					Exo Mechs: 
+					''' */
+				/* NewString:
+					'''
+					/35000
+					Exo Mechs: 
+					''' */
+			}
+
+			37: {
+				/* OldString:
+					'''
+					Complete the auric pull before the embodiment of calamity itself.
+					Pulls: 
+					''' */
+				/* NewString:
+					'''
+					Complete the auric pull before the embodiment of calamity itself.
+					Pulls: 
+					''' */
+			}
+
+			38: {
+				/* OldString:
+					'''
+					/40000
+					SCal: 
+					''' */
+				/* NewString:
+					'''
+					/40000
+					SCal: 
+					''' */
+			}
+
+			39: {
+				/* OldString:
+					'''
+					Let one storm erase the field of warriors before it fades.
+					Boss kills: 
+					''' */
+				/* NewString:
+					'''
+					Let one storm erase the field of warriors before it fades.
+					Boss kills: 
+					''' */
+			}
+
+			40: {
+				/* OldString:
+					'''
+					/10
+					One activation kills: 
+					''' */
+				/* NewString:
+					'''
+					/10
+					One activation kills: 
+					''' */
+			}
+
+			41: {
+				// OldString: /100
+				// NewString: /100
+			}
+
+			42: {
+				/* OldString:
+					'''
+					A true storm caster never leaves the sky restless.
+					Boss kills: 
+					''' */
+				/* NewString:
+					'''
+					A true storm caster never leaves the sky restless.
+					Boss kills: 
+					''' */
+			}
+
+			43: {
+				// OldString: /25
+				// NewString: /25
+			}
+
+			44: {
+				/* OldString:
+					'''
+					Turn the celestial beings to silence with storm power.
+					Boss kills: 
+					''' */
+				/* NewString:
+					'''
+					Turn the celestial beings to silence with storm power.
+					Boss kills: 
+					''' */
+			}
+
+			45: {
+				/* OldString:
+					'''
+					/50
+					Pillars defeated: 
+					''' */
+				/* NewString:
+					'''
+					/50
+					Pillars defeated: 
+					''' */
+			}
+
+			46: {
+				/* OldString:
+					'''
+					Let The True Guardian of the Seas be judged beneath the storm.
+					Duke Fishron: 
+					''' */
+				/* NewString:
+					'''
+					Let The True Guardian of the Seas be judged beneath the storm.
+					Duke Fishron: 
+					''' */
+			}
+
+			47: {
+				/* OldString:
+					'''
+					Cry out to the heavens that the Moon Lord may be judged.
+					Moon Lord: 
+					''' */
+				/* NewString:
+					'''
+					Cry out to the heavens that the Moon Lord may be judged.
+					Moon Lord: 
+					''' */
+			}
+
+			48: {
+				/* OldString:
+					'''
+					Slay the King of The Storms.
+					Storm Weaver: 
+					''' */
+				/* NewString:
+					'''
+					Slay the King of The Storms.
+					Storm Weaver: 
+					''' */
+			}
+
+			49: {
+				// OldString: No challenge.
+				// NewString: No challenge.
+			}
+		}
+
+		DrawTechniqueMasteryEntry: {
+			1: {
+				// OldString: "Rank "
+				// NewString: "Rank "
+			}
+
+			2: {
+				// OldString: " / "
+				// NewString: " / "
+			}
+		}
+
+		DrawFlameMeter: {
+			1: {
+				// OldString: "Flame Meter: "
+				// NewString: "Flame Meter: "
+			}
+
+			2: {
+				// OldString: " / "
+				// NewString: " / "
+			}
+
+			3: {
+				// OldString: Flame Meter: OVER LIMIT
+				// NewString: Flame Meter: OVER LIMIT
+			}
+		}
+
+		GetAuricFlameRankText: {
+			1: {
+				// OldString: Unmastered
+				NewString: 未精通
+			}
+
+			2: {
+				// OldString: Single Infernado
+				// NewString: Single Infernado
+			}
+
+			3: {
+				// OldString: Stronger Single Pull
+				// NewString: Stronger Single Pull
+			}
+
+			4: {
+				// OldString: Twin Twisters
+				// NewString: Twin Twisters
+			}
+
+			5: {
+				// OldString: Wide Twin Twisters
+				// NewString: Wide Twin Twisters
+			}
+
+			6: {
+				// OldString: Greater Auric Storm
+				// NewString: Greater Auric Storm
+			}
+
+			7: {
+				// OldString: Triple Super Tornado
+				// NewString: Triple Super Tornado
+			}
+		}
+
+		FormatLargeNumber: {
+			1: {
+				// OldString: 0.##
+				// NewString: 0.##
+			}
+
+			2: {
+				// OldString: B
+				// NewString: B
+			}
+
+			3: {
+				// OldString: M
+				// NewString: M
+			}
+
+			4: {
+				// OldString: K
+				// NewString: K
+			}
+
+			5: {
+				// OldString: "0"
+				// NewString: "0"
+			}
+		}
+
+		DrawZenkaiHunts: {
+			1: {
+				// OldString: ZENKAI HUNTS
+				NewString: 全开狩猎
+			}
+
+			2: {
+				// OldString: Locked until Moon Lord has been defeated by this character.
+				NewString: 解锁条件： 当前玩家击败月亮领主
+			}
+
+			3: {
+				// OldString: No Hunt
+				NewString: 无狩猎目标
+			}
+
+			4: {
+				// OldString: Permanent Adaptation
+				NewString: 永久适应（你能够继续提升最大全开值）
+			}
+
+			5: {
+				// OldString: +5 Max Zenkais
+				NewString: +5 最大全开
+			}
+
+			6: {
+				// OldString: +20 Max Zenkais
+				NewString: +20 最大全开
+			}
+
+			7: {
+				// OldString: Target
+				NewString: 目标
+			}
+
+			8: {
+				// OldString: Reward
+				NewString: 奖励
+			}
+
+			9: {
+				// OldString: Hunts Completed
+				NewString: 已完成狩猎
+			}
+
+			10: {
+				// OldString: Permanent Upgrades
+				NewString: 永久提升
+			}
+
+			11: {
+				// OldString: "Zenkais: "
+				NewString: "全开： "
+			}
+
+			12: {
+				// OldString: " / "
+				// NewString: " / "
+			}
+
+			13: {
+				/* OldString: "\n" */
+				/* NewString: "\n" */
+			}
+
+			14: {
+				// OldString: Ki: +
+				NewString: 最大气值： +
+			}
+
+			15: {
+				/* OldString:
+					'''
+					 Max Ki
+
+					''' */
+				NewString: " \n"
+			}
+
+			16: {
+				// OldString: Technique: +
+				NewString: 技术： +
+			}
+
+			17: {
+				/* OldString:
+					'''
+					% damage
+
+					''' */
+				NewString:
+					'''
+					% 伤害
+
+					'''
+			}
+
+			18: {
+				// OldString: Spirit: -
+				NewString: 精神（待重译）： -
+			}
+
+			19: {
+				// OldString: % Ki costs
+				NewString: % 气消耗
+			}
+
+			20: {
+				// OldString: Reroll Hunt (1 Gold)
+				NewString: 刷新狩猎目标 （1个金币）
+			}
+		}
+
+		<DrawTransformationRequirements>g__Line|64_0: {
+			1: {
+				// OldString: "✗ "
+				// NewString: "✗ "
+			}
+
+			2: {
+				// OldString: "✓ "
+				// NewString: "✓ "
+			}
+		}
+	}
+}
+
+Tiles: {
+	FlamezKhanPotDropGlobalTile: {
+		KillTile: {
+			1: {
+				// OldString: A forgotten flame emerges from the ashes...
+				// NewString: A forgotten flame emerges from the ashes...
+			}
+		}
+	}
+}
+
+Systems: {
+	DBTPreKillDetourSystem: {
+		Load: {
+			1: {
+				// OldString: PreKill
+				// NewString: PreKill
+			}
+		}
+	}
+
+	FirstTerrariansBookChestSystem: {
+		ModifyWorldGenTasks: {
+			1: {
+				// OldString: Terrariangene: Dust-Worn Journal
+				// NewString: Terrariangene: Dust-Worn Journal
+			}
+		}
+
+		PlaceBookInSkyChest: {
+			1: {
+				// OldString: Hiding a forgotten record among the clouds
+				NewString: 将一份被遗忘的记录藏于云层之中
+			}
+		}
+	}
+
+	FirstTerrariansBookUISystem: {
+		ModifyInterfaceLayers: {
+			1: {
+				// OldString: Terrariangene: First Terrarians Book
+				// NewString: Terrariangene: First Terrarians Book
+			}
+		}
+	}
+
+	TerrarianProgressionSounds: {
+		PlayTempestSwitch: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/CopperLightning
+				// NewString: Terrariangene/Assets/Sounds/CopperLightning
+			}
+		}
+
+		PlayAuricSwitch: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/yharon_screech
+				// NewString: Terrariangene/Assets/Sounds/yharon_screech
+			}
+		}
+
+		PlayFlamezSwitch: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/ASwitch
+				// NewString: Terrariangene/Assets/Sounds/ASwitch
+			}
+		}
+
+		PlayVortexSwitch: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/VortexSwitch
+				// NewString: Terrariangene/Assets/Sounds/VortexSwitch
+			}
+		}
+
+		PlayLevelSwitch: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/LevelSwitch
+				// NewString: Terrariangene/Assets/Sounds/LevelSwitch
+			}
+		}
+
+		PlayTechniqueRankUp: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/TRank
+				// NewString: Terrariangene/Assets/Sounds/TRank
+			}
+		}
+
+		PlayTechniqueReady: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/TechniqueReady
+				// NewString: Terrariangene/Assets/Sounds/TechniqueReady
+			}
+		}
+
+		PlayTechniqueXPFull: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/XP
+				// NewString: Terrariangene/Assets/Sounds/XP
+			}
+		}
+
+		PlayFormMastery: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/ASwitch
+				// NewString: Terrariangene/Assets/Sounds/ASwitch
+			}
+		}
+
+		PlayHuntComplete: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/Quest
+				// NewString: Terrariangene/Assets/Sounds/Quest
+			}
+		}
+	}
+
+	TerrarianTransformations: {
+		ApplyTerrarianVisualBuff: {
+			1: {
+				// OldString: AwakenedBuff
+				// NewString: AwakenedBuff
+			}
+
+			2: {
+				// OldString: ResolvedWillBuff
+				// NewString: ResolvedWillBuff
+			}
+
+			3: {
+				// OldString: ReinforcedSoulBuff
+				// NewString: ReinforcedSoulBuff
+			}
+
+			4: {
+				// OldString: TrueAwakeningBuff
+				// NewString: TrueAwakeningBuff
+			}
+
+			5: {
+				// OldString: AuricInfusedBuff
+				// NewString: AuricInfusedBuff
+			}
+
+			6: {
+				// OldString: ApexOfEternityBuff
+				// NewString: ApexOfEternityBuff
+			}
+		}
+	}
+
+	TerrarianUISystem: {
+		ModifyInterfaceLayers: {
+			1: {
+				// OldString: Terrariangene: Terrarian Gene UI
+				// NewString: Terrariangene: Terrarian Gene UI
+			}
+		}
+	}
+
+	FirstTerrariansBookChestSystem+<>c: {
+		<ModifyWorldGenTasks>b__0_0: {
+			1: {
+				// OldString: Final Cleanup
+				// NewString: Final Cleanup
+			}
+		}
+	}
+
+	FirstTerrariansBookUISystem+<>c: {
+		<ModifyInterfaceLayers>b__4_0: {
+			1: {
+				// OldString: Vanilla: Mouse Text
+				// NewString: Vanilla: Mouse Text
+			}
+		}
+	}
+
+	TerrarianUISystem+<>c: {
+		<ModifyInterfaceLayers>b__5_0: {
+			1: {
+				// OldString: Vanilla: Mouse Text
+				// NewString: Vanilla: Mouse Text
+			}
+		}
+	}
+}
+
+Projectiles: {
+	AuricFlameMark: {
+		get_Texture: {
+			1: {
+				// OldString: CalamityMod/Projectiles/InvisibleProj
+				// NewString: CalamityMod/Projectiles/InvisibleProj
+			}
+		}
+	}
+
+	AuricFlameTornado: {
+		get_Texture: {
+			1: {
+				// OldString: CalamityMod/Projectiles/Boss/Flarenado
+				// NewString: CalamityMod/Projectiles/Boss/Flarenado
+			}
+		}
+	}
+
+	AuricFlameVortex: {
+		get_Texture: {
+			1: {
+				// OldString: CalamityMod/Projectiles/InvisibleProj
+				// NewString: CalamityMod/Projectiles/InvisibleProj
+			}
+		}
+	}
+
+	CataclysmScreenBolt: {
+		get_Texture: {
+			1: {
+				// OldString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+				// NewString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: FargowiltasSouls.WillDeathray
+				// NewString: FargowiltasSouls.WillDeathray
+			}
+
+			2: {
+				// OldString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+				// NewString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+			}
+
+			3: {
+				// OldString: mainColor
+				// NewString: mainColor
+			}
+		}
+	}
+
+	DownwardVortexLightning: {
+		get_Texture: {
+			1: {
+				// OldString: Terraria/Images/Projectile_
+				// NewString: Terraria/Images/Projectile_
+			}
+		}
+	}
+
+	FriendlyVortexLightningDeathray: {
+		get_Texture: {
+			1: {
+				// OldString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+				// NewString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: FargowiltasSouls.WillDeathray
+				// NewString: FargowiltasSouls.WillDeathray
+			}
+
+			2: {
+				// OldString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+				// NewString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+			}
+
+			3: {
+				// OldString: mainColor
+				// NewString: mainColor
+			}
+		}
+	}
+
+	HeavenbreakerFinalBolt: {
+		get_Texture: {
+			1: {
+				// OldString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+				// NewString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: FargowiltasSouls.WillDeathray
+				// NewString: FargowiltasSouls.WillDeathray
+			}
+
+			2: {
+				// OldString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+				// NewString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+			}
+
+			3: {
+				// OldString: mainColor
+				// NewString: mainColor
+			}
+		}
+	}
+
+	HeavenbreakerPillar: {
+		get_Texture: {
+			1: {
+				// OldString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+				// NewString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: FargowiltasSouls.WillDeathray
+				// NewString: FargowiltasSouls.WillDeathray
+			}
+
+			2: {
+				// OldString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+				// NewString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+			}
+
+			3: {
+				// OldString: mainColor
+				// NewString: mainColor
+			}
+		}
+	}
+
+	StormCrownFinalDeathray: {
+		get_Texture: {
+			1: {
+				// OldString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+				// NewString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: FargowiltasSouls.WillDeathray
+				// NewString: FargowiltasSouls.WillDeathray
+			}
+
+			2: {
+				// OldString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+				// NewString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+			}
+
+			3: {
+				// OldString: mainColor
+				// NewString: mainColor
+			}
+		}
+	}
+
+	StormCrownLightningDeathray: {
+		get_Texture: {
+			1: {
+				// OldString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+				// NewString: FargowiltasSouls/Content/Bosses/Champions/Will/WillDeathray
+			}
+		}
+
+		PreDraw: {
+			1: {
+				// OldString: FargowiltasSouls.WillDeathray
+				// NewString: FargowiltasSouls.WillDeathray
+			}
+
+			2: {
+				// OldString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+				// NewString: FargowiltasSouls/Assets/ExtraTextures/Trails/WillStreak
+			}
+
+			3: {
+				// OldString: mainColor
+				// NewString: mainColor
+			}
+		}
+	}
+
+	TempestStormOrb: {
+		get_Texture: {
+			1: {
+				// OldString: CalamityMod/Projectiles/Magic/VolterionOrb
+				// NewString: CalamityMod/Projectiles/Magic/VolterionOrb
+			}
+		}
+
+		Load: {
+			1: {
+				// OldString: CalamityMod/Particles/BloomCircle
+				// NewString: CalamityMod/Particles/BloomCircle
+			}
+
+			2: {
+				// OldString: CalamityMod/Particles/PlasmaExplosion
+				// NewString: CalamityMod/Particles/PlasmaExplosion
+			}
+		}
+	}
+}
+
+Players: {
+	TerrarianAnimationDrawLayer: {
+		Draw: {
+			1: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Zenkaiboostgif
+				// NewString: Terrariangene/Assets/Textures/Effects/Zenkaiboostgif
+			}
+		}
+
+		GetTransformationTexturePath: {
+			1: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Transformations/AwakenedTransform
+				// NewString: Terrariangene/Assets/Textures/Effects/Transformations/AwakenedTransform
+			}
+
+			2: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Transformations/ResolvedWillTransform
+				// NewString: Terrariangene/Assets/Textures/Effects/Transformations/ResolvedWillTransform
+			}
+
+			3: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Transformations/ReinforcedSoulTransform
+				// NewString: Terrariangene/Assets/Textures/Effects/Transformations/ReinforcedSoulTransform
+			}
+
+			4: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Transformations/TrueAwakeningTransform
+				// NewString: Terrariangene/Assets/Textures/Effects/Transformations/TrueAwakeningTransform
+			}
+
+			5: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Transformations/AuricInfusedTransform
+				// NewString: Terrariangene/Assets/Textures/Effects/Transformations/AuricInfusedTransform
+			}
+
+			6: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Transformations/ApexOfEternityTransform
+				// NewString: Terrariangene/Assets/Textures/Effects/Transformations/ApexOfEternityTransform
+			}
+
+			7: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Transformations/FocusTransform
+				// NewString: Terrariangene/Assets/Textures/Effects/Transformations/FocusTransform
+			}
+
+			8: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Transformations/OverdriveTransform
+				// NewString: Terrariangene/Assets/Textures/Effects/Transformations/OverdriveTransform
+			}
+
+			9: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Zenkaiboostgif
+				// NewString: Terrariangene/Assets/Textures/Effects/Zenkaiboostgif
+			}
+		}
+	}
+
+	TerrarianPlayer: {
+		SavePersonalZenkaiCaps: {
+			1: {
+				// OldString: PersonalZenkaiCap
+				// NewString: PersonalZenkaiCap
+			}
+
+			2: {
+				// OldString: PersonalMoonLordDefeated
+				// NewString: PersonalMoonLordDefeated
+			}
+
+			3: {
+				// OldString: defeatedEye
+				// NewString: defeatedEye
+			}
+
+			4: {
+				// OldString: defeatedEvilBoss
+				// NewString: defeatedEvilBoss
+			}
+
+			5: {
+				// OldString: defeatedSkeletron
+				// NewString: defeatedSkeletron
+			}
+
+			6: {
+				// OldString: defeatedQueenBee
+				// NewString: defeatedQueenBee
+			}
+
+			7: {
+				// OldString: defeatedDeerclops
+				// NewString: defeatedDeerclops
+			}
+
+			8: {
+				// OldString: defeatedDestroyer
+				// NewString: defeatedDestroyer
+			}
+
+			9: {
+				// OldString: defeatedTwins
+				// NewString: defeatedTwins
+			}
+
+			10: {
+				// OldString: defeatedPrime
+				// NewString: defeatedPrime
+			}
+
+			11: {
+				// OldString: defeatedPlantera
+				// NewString: defeatedPlantera
+			}
+
+			12: {
+				// OldString: defeatedGolem
+				// NewString: defeatedGolem
+			}
+
+			13: {
+				// OldString: defeatedCultist
+				// NewString: defeatedCultist
+			}
+		}
+
+		LoadPersonalZenkaiCaps: {
+			1: {
+				// OldString: PersonalZenkaiCap
+				// NewString: PersonalZenkaiCap
+			}
+
+			2: {
+				// OldString: PersonalMoonLordDefeated
+				// NewString: PersonalMoonLordDefeated
+			}
+
+			3: {
+				// OldString: defeatedEye
+				// NewString: defeatedEye
+			}
+
+			4: {
+				// OldString: defeatedEvilBoss
+				// NewString: defeatedEvilBoss
+			}
+
+			5: {
+				// OldString: defeatedSkeletron
+				// NewString: defeatedSkeletron
+			}
+
+			6: {
+				// OldString: defeatedQueenBee
+				// NewString: defeatedQueenBee
+			}
+
+			7: {
+				// OldString: defeatedDeerclops
+				// NewString: defeatedDeerclops
+			}
+
+			8: {
+				// OldString: defeatedDestroyer
+				// NewString: defeatedDestroyer
+			}
+
+			9: {
+				// OldString: defeatedTwins
+				// NewString: defeatedTwins
+			}
+
+			10: {
+				// OldString: defeatedPrime
+				// NewString: defeatedPrime
+			}
+
+			11: {
+				// OldString: defeatedPlantera
+				// NewString: defeatedPlantera
+			}
+
+			12: {
+				// OldString: defeatedGolem
+				// NewString: defeatedGolem
+			}
+
+			13: {
+				// OldString: defeatedCultist
+				// NewString: defeatedCultist
+			}
+		}
+
+		UseAuricFlame: {
+			1: {
+				// OldString: You have not learned Auric Flame.
+				// NewString: You have not learned Auric Flame.
+			}
+
+			2: {
+				// OldString: Auric Flame
+				// NewString: Auric Flame
+			}
+
+			3: {
+				// OldString: Auric Flame!
+				// NewString: Auric Flame!
+			}
+		}
+
+		OnEnterWorld: {
+			1: {
+				// OldString: It's truly a miracle that you've survived this far.
+				// NewString: It's truly a miracle that you've survived this far.
+			}
+		}
+
+		CanUseItem: {
+			1: {
+				// OldString: Healing cannot reach you.
+				// NewString: Healing cannot reach you.
+			}
+
+			2: {
+				// OldString: Do not let your anger overcome you.
+				// NewString: Do not let your anger overcome you.
+			}
+
+			3: {
+				// OldString: Your soul must endure, but soon aid will come.
+				// NewString: Your soul must endure, but soon aid will come.
+			}
+		}
+
+		AddOverdriveCombo: {
+			1: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			2: {
+				// OldString: !!!!
+				// NewString: !!!!
+			}
+
+			3: {
+				// OldString: !!!
+				// NewString: !!!
+			}
+
+			4: {
+				// OldString: !!
+				// NewString: !!
+			}
+
+			5: {
+				// OldString: !
+				// NewString: !
+			}
+
+			6: {
+				// OldString: "Overdrive "
+				// NewString: "Overdrive "
+			}
+
+			7: {
+				// OldString: "0"
+				// NewString: "0"
+			}
+		}
+
+		FreeDodge: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/UIDodge
+				// NewString: Terrariangene/Assets/Sounds/UIDodge
+			}
+		}
+
+		PreKill: {
+			1: {
+				// OldString: Terrarian
+				// NewString: Terrarian
+			}
+
+			2: {
+				// OldString: Weak
+				// NewString: Weak
+			}
+		}
+
+		UseFlamezKhan: {
+			1: {
+				// OldString: You have not learned Flamez Khan.
+				// NewString: You have not learned Flamez Khan.
+			}
+
+			2: {
+				// OldString: Elf Melter is not unlocked.
+				// NewString: Elf Melter is not unlocked.
+			}
+
+			3: {
+				// OldString: Dragon's Demise is not unlocked.
+				// NewString: Dragon's Demise is not unlocked.
+			}
+
+			4: {
+				// OldString: Cleansing Blaze is not unlocked.
+				// NewString: Cleansing Blaze is not unlocked.
+			}
+
+			5: {
+				// OldString: !
+				// NewString: !
+			}
+
+			6: {
+				// OldString: Not enough Ki.
+				// NewString: Not enough Ki.
+			}
+		}
+
+		GetFlamezKhanName: {
+			1: {
+				// OldString: Flamez Khan
+				// NewString: Flamez Khan
+			}
+		}
+
+		AddTransformationPoints: {
+			1: {
+				// OldString: "ADDING TP: "
+				// NewString: "ADDING TP: "
+			}
+		}
+
+		HandleMasteryGain: {
+			1: {
+				// OldString: " mastered."
+				// NewString: " mastered."
+			}
+		}
+
+		HandleZenkai: {
+			1: {
+				// OldString: "Terrarian Zenkai awakened! Total: "
+				NewString: "泰拉人全开觉醒！ 总计： "
+			}
+
+			2: {
+				// OldString: /
+				// NewString: /
+			}
+		}
+
+		HandleResolvedTrial: {
+			1: {
+				// OldString: Your anger and stress are building... don't let them overcome you!
+				NewString: 你的愤怒与压力正在积聚……别让它们压垮你！
+			}
+
+			2: {
+				// OldString: You endured without giving in.
+				NewString: 你坚持住了，没有放弃
+			}
+		}
+
+		HandleReinforcedTrial: {
+			1: {
+				// OldString: Your soul is being tested. Do not break.
+				NewString: 你的灵魂正接受考验，不要破裂
+			}
+
+			2: {
+				// OldString: Your soul refuses to break.
+				NewString: 你的灵魂拒绝破裂
+			}
+		}
+
+		HandleAuricSoulTrial: {
+			1: {
+				// OldString: The endless flame has chosen another bearer.
+				// NewString: The endless flame has chosen another bearer.
+			}
+
+			2: {
+				// OldString: Yharon has left you one final gift. Seek the flames deep below... it will not be a walk in the park.
+				// NewString: Yharon has left you one final gift. Seek the flames deep below... it will not be a walk in the park.
+			}
+		}
+
+		HandleApexTrial: {
+			1: {
+				// OldString: You sought not Eternity... yet Eternity was entrusted to you.
+				// NewString: You sought not Eternity... yet Eternity was entrusted to you.
+			}
+		}
+
+		Breakthrough: {
+			1: {
+				// OldString: You have reached the end of the path.
+				NewString: 你已抵达这条道路的尽头
+			}
+
+			2: {
+				// OldString: You are not ready.
+				NewString: 你还没准备好
+			}
+
+			3: {
+				// OldString: You have not endured enough hardship.
+				NewString: 你经历的磨难还不够
+			}
+
+			4: {
+				// OldString: The omen remains silent.
+				NewString: 预兆依然保持沉默
+			}
+
+			5: {
+				// OldString: "Breakthrough: "
+				NewString: "突破： "
+			}
+
+			6: {
+				// OldString: !
+				NewString: ！
+			}
+		}
+
+		PowerDown: {
+			1: {
+				// OldString: Combat art released.
+				// NewString: Combat art released.
+			}
+
+			2: {
+				// OldString: Powered down.
+				NewString: 力量降低
+			}
+		}
+
+		TryUseCombatTransformation: {
+			1: {
+				// OldString: You have not learned this combat art yet.
+				// NewString: You have not learned this combat art yet.
+			}
+
+			2: {
+				// OldString: Overdrive.
+				// NewString: Overdrive.
+			}
+
+			3: {
+				// OldString: Focus.
+				// NewString: Focus.
+			}
+		}
+
+		TryCompleteTechniqueBreakthrough: {
+			1: {
+				// OldString: " mastery advanced: "
+				// NewString: " mastery advanced: "
+			}
+		}
+
+		GetTechniqueName: {
+			1: {
+				// OldString: Tempest Fang
+				// NewString: Tempest Fang
+			}
+
+			2: {
+				// OldString: Auric Flame
+				// NewString: Auric Flame
+			}
+
+			3: {
+				// OldString: Flamez Khan
+				// NewString: Flamez Khan
+			}
+
+			4: {
+				// OldString: Vortex Scrolls
+				// NewString: Vortex Scrolls
+			}
+
+			5: {
+				// OldString: Technique
+				// NewString: Technique
+			}
+		}
+
+		GetTechniqueTitle: {
+			1: {
+				// OldString: Unmastered
+				// NewString: Unmastered
+			}
+
+			2: {
+				// OldString: Stormborne
+				// NewString: Stormborne
+			}
+
+			3: {
+				// OldString: Fulgurite Walker
+				// NewString: Fulgurite Walker
+			}
+
+			4: {
+				// OldString: Arcbound
+				// NewString: Arcbound
+			}
+
+			5: {
+				// OldString: Fulminant Virtuoso
+				// NewString: Fulminant Virtuoso
+			}
+
+			6: {
+				// OldString: Ball Lightning Savant
+				// NewString: Ball Lightning Savant
+			}
+
+			7: {
+				// OldString: Zenith of the Tempest
+				// NewString: Zenith of the Tempest
+			}
+
+			8: {
+				// OldString: Cinderborne
+				// NewString: Cinderborne
+			}
+
+			9: {
+				// OldString: Pyric Savant
+				// NewString: Pyric Savant
+			}
+
+			10: {
+				// OldString: Caldera Disciple
+				// NewString: Caldera Disciple
+			}
+
+			11: {
+				// OldString: Conflagration Virtuoso
+				// NewString: Conflagration Virtuoso
+			}
+
+			12: {
+				// OldString: Infernado Paragon
+				// NewString: Infernado Paragon
+			}
+
+			13: {
+				// OldString: Auric Cataclysm
+				// NewString: Auric Cataclysm
+			}
+
+			14: {
+				// OldString: Initiate
+				// NewString: Initiate
+			}
+
+			15: {
+				// OldString: Adept
+				// NewString: Adept
+			}
+
+			16: {
+				// OldString: Disciple
+				// NewString: Disciple
+			}
+
+			17: {
+				// OldString: Expert
+				// NewString: Expert
+			}
+
+			18: {
+				// OldString: Grandmaster
+				// NewString: Grandmaster
+			}
+
+			19: {
+				// OldString: Stormscribe
+				// NewString: Stormscribe
+			}
+
+			20: {
+				// OldString: Volt Weaver
+				// NewString: Volt Weaver
+			}
+
+			21: {
+				// OldString: Tempest Savant
+				// NewString: Tempest Savant
+			}
+
+			22: {
+				// OldString: Fulgur Ascendant
+				// NewString: Fulgur Ascendant
+			}
+
+			23: {
+				// OldString: Heavenscourge
+				// NewString: Heavenscourge
+			}
+
+			24: {
+				// OldString: Cataclysm Incarnate
+				// NewString: Cataclysm Incarnate
+			}
+		}
+
+		SaveTechniqueMastery: {
+			1: {
+				// OldString: TechniqueMasteryXP
+				// NewString: TechniqueMasteryXP
+			}
+
+			2: {
+				// OldString: TechniqueMasteryRank
+				// NewString: TechniqueMasteryRank
+			}
+
+			3: {
+				// OldString: TechniqueReadySoundPlayed
+				// NewString: TechniqueReadySoundPlayed
+			}
+
+			4: {
+				// OldString: UsedFlameHeart
+				// NewString: UsedFlameHeart
+			}
+
+			5: {
+				// OldString: DefeatedBetsyForDragonDemise
+				// NewString: DefeatedBetsyForDragonDemise
+			}
+
+			6: {
+				// OldString: DefeatedDevourerForCleansingBlaze
+				// NewString: DefeatedDevourerForCleansingBlaze
+			}
+
+			7: {
+				// OldString: TempestDifferentBossFinalHits
+				// NewString: TempestDifferentBossFinalHits
+			}
+
+			8: {
+				// OldString: TempestBossFinalHitCount
+				// NewString: TempestBossFinalHitCount
+			}
+
+			9: {
+				// OldString: TempestLightningStrikes
+				// NewString: TempestLightningStrikes
+			}
+
+			10: {
+				// OldString: TempestEnemiesPulled
+				// NewString: TempestEnemiesPulled
+			}
+
+			11: {
+				// OldString: TempestOrbDamage
+				// NewString: TempestOrbDamage
+			}
+
+			12: {
+				// OldString: TempestDefeatedVortexPillar
+				// NewString: TempestDefeatedVortexPillar
+			}
+
+			13: {
+				// OldString: FlamezTotalDamage
+				// NewString: FlamezTotalDamage
+			}
+
+			14: {
+				// OldString: FlamezDemonKills
+				// NewString: FlamezDemonKills
+			}
+
+			15: {
+				// OldString: FlamezDefeatedBetsy
+				// NewString: FlamezDefeatedBetsy
+			}
+
+			16: {
+				// OldString: FlamezDefeatedDevourer
+				// NewString: FlamezDefeatedDevourer
+			}
+
+			17: {
+				// OldString: FlamezDefeatedYharon
+				// NewString: FlamezDefeatedYharon
+			}
+
+			18: {
+				// OldString: AuricTotalFlameMeterDamage
+				// NewString: AuricTotalFlameMeterDamage
+			}
+
+			19: {
+				// OldString: AuricOnFire3Applications
+				// NewString: AuricOnFire3Applications
+			}
+
+			20: {
+				// OldString: AuricVortexPulls
+				// NewString: AuricVortexPulls
+			}
+
+			21: {
+				// OldString: AuricDefeatedYharon
+				// NewString: AuricDefeatedYharon
+			}
+
+			22: {
+				// OldString: AuricYharonFinalHit
+				// NewString: AuricYharonFinalHit
+			}
+
+			23: {
+				// OldString: AuricDefeatedExoMechs
+				// NewString: AuricDefeatedExoMechs
+			}
+
+			24: {
+				// OldString: AuricDefeatedSupremeCalamitas
+				// NewString: AuricDefeatedSupremeCalamitas
+			}
+
+			25: {
+				// OldString: VortexHeartObtained
+				// NewString: VortexHeartObtained
+			}
+
+			26: {
+				// OldString: VortexBossKills
+				// NewString: VortexBossKills
+			}
+
+			27: {
+				// OldString: VortexOneActivationKillRecord
+				// NewString: VortexOneActivationKillRecord
+			}
+
+			28: {
+				// OldString: VortexLegendaryLightningStrikes
+				// NewString: VortexLegendaryLightningStrikes
+			}
+
+			29: {
+				// OldString: VortexPillarsDefeated
+				// NewString: VortexPillarsDefeated
+			}
+
+			30: {
+				// OldString: VortexDefeatedDukeFishron
+				// NewString: VortexDefeatedDukeFishron
+			}
+
+			31: {
+				// OldString: VortexDefeatedMoonLord
+				// NewString: VortexDefeatedMoonLord
+			}
+
+			32: {
+				// OldString: VortexDefeatedStormWeaver
+				// NewString: VortexDefeatedStormWeaver
+			}
+
+			33: {
+				// OldString: VortexBossLegendaryLightningHits
+				// NewString: VortexBossLegendaryLightningHits
+			}
+		}
+
+		LoadTechniqueMastery: {
+			1: {
+				// OldString: TechniqueMasteryXP
+				// NewString: TechniqueMasteryXP
+			}
+
+			2: {
+				// OldString: TechniqueMasteryRank
+				// NewString: TechniqueMasteryRank
+			}
+
+			3: {
+				// OldString: TechniqueReadySoundPlayed
+				// NewString: TechniqueReadySoundPlayed
+			}
+
+			4: {
+				// OldString: UsedFlameHeart
+				// NewString: UsedFlameHeart
+			}
+
+			5: {
+				// OldString: DefeatedBetsyForDragonDemise
+				// NewString: DefeatedBetsyForDragonDemise
+			}
+
+			6: {
+				// OldString: DefeatedDevourerForCleansingBlaze
+				// NewString: DefeatedDevourerForCleansingBlaze
+			}
+
+			7: {
+				// OldString: TempestDifferentBossFinalHits
+				// NewString: TempestDifferentBossFinalHits
+			}
+
+			8: {
+				// OldString: TempestBossFinalHitCount
+				// NewString: TempestBossFinalHitCount
+			}
+
+			9: {
+				// OldString: TempestLightningStrikes
+				// NewString: TempestLightningStrikes
+			}
+
+			10: {
+				// OldString: TempestEnemiesPulled
+				// NewString: TempestEnemiesPulled
+			}
+
+			11: {
+				// OldString: TempestOrbDamage
+				// NewString: TempestOrbDamage
+			}
+
+			12: {
+				// OldString: TempestDefeatedVortexPillar
+				// NewString: TempestDefeatedVortexPillar
+			}
+
+			13: {
+				// OldString: FlamezTotalDamage
+				// NewString: FlamezTotalDamage
+			}
+
+			14: {
+				// OldString: FlamezDemonKills
+				// NewString: FlamezDemonKills
+			}
+
+			15: {
+				// OldString: FlamezDefeatedBetsy
+				// NewString: FlamezDefeatedBetsy
+			}
+
+			16: {
+				// OldString: FlamezDefeatedDevourer
+				// NewString: FlamezDefeatedDevourer
+			}
+
+			17: {
+				// OldString: FlamezDefeatedYharon
+				// NewString: FlamezDefeatedYharon
+			}
+
+			18: {
+				// OldString: AuricTotalFlameMeterDamage
+				// NewString: AuricTotalFlameMeterDamage
+			}
+
+			19: {
+				// OldString: AuricOnFire3Applications
+				// NewString: AuricOnFire3Applications
+			}
+
+			20: {
+				// OldString: AuricVortexPulls
+				// NewString: AuricVortexPulls
+			}
+
+			21: {
+				// OldString: AuricDefeatedYharon
+				// NewString: AuricDefeatedYharon
+			}
+
+			22: {
+				// OldString: AuricYharonFinalHit
+				// NewString: AuricYharonFinalHit
+			}
+
+			23: {
+				// OldString: AuricDefeatedExoMechs
+				// NewString: AuricDefeatedExoMechs
+			}
+
+			24: {
+				// OldString: AuricDefeatedSupremeCalamitas
+				// NewString: AuricDefeatedSupremeCalamitas
+			}
+
+			25: {
+				// OldString: VortexHeartObtained
+				// NewString: VortexHeartObtained
+			}
+
+			26: {
+				// OldString: VortexBossKills
+				// NewString: VortexBossKills
+			}
+
+			27: {
+				// OldString: VortexOneActivationKillRecord
+				// NewString: VortexOneActivationKillRecord
+			}
+
+			28: {
+				// OldString: VortexLegendaryLightningStrikes
+				// NewString: VortexLegendaryLightningStrikes
+			}
+
+			29: {
+				// OldString: VortexPillarsDefeated
+				// NewString: VortexPillarsDefeated
+			}
+
+			30: {
+				// OldString: VortexDefeatedDukeFishron
+				// NewString: VortexDefeatedDukeFishron
+			}
+
+			31: {
+				// OldString: VortexDefeatedMoonLord
+				// NewString: VortexDefeatedMoonLord
+			}
+
+			32: {
+				// OldString: VortexDefeatedStormWeaver
+				// NewString: VortexDefeatedStormWeaver
+			}
+
+			33: {
+				// OldString: VortexBossLegendaryLightningHits
+				// NewString: VortexBossLegendaryLightningHits
+			}
+		}
+
+		SaveTechniques: {
+			1: {
+				// OldString: LearnedTempestFang
+				// NewString: LearnedTempestFang
+			}
+
+			2: {
+				// OldString: LearnedAuricFlame
+				// NewString: LearnedAuricFlame
+			}
+
+			3: {
+				// OldString: LearnedFlamezKhan
+				// NewString: LearnedFlamezKhan
+			}
+
+			4: {
+				// OldString: SelectedTechnique
+				// NewString: SelectedTechnique
+			}
+
+			5: {
+				// OldString: TechniqueCooldown
+				// NewString: TechniqueCooldown
+			}
+
+			6: {
+				// OldString: TempestFangLevel
+				// NewString: TempestFangLevel
+			}
+
+			7: {
+				// OldString: TempestFangUses
+				// NewString: TempestFangUses
+			}
+
+			8: {
+				// OldString: TempestFangMode
+				// NewString: TempestFangMode
+			}
+
+			9: {
+				// OldString: TempestFangSelectedLevel
+				// NewString: TempestFangSelectedLevel
+			}
+
+			10: {
+				// OldString: AuricFlameLevel
+				// NewString: AuricFlameLevel
+			}
+
+			11: {
+				// OldString: AuricFlameUses
+				// NewString: AuricFlameUses
+			}
+
+			12: {
+				// OldString: AuricFlameSelectedLevel
+				// NewString: AuricFlameSelectedLevel
+			}
+
+			13: {
+				// OldString: FlamezKhanLevel
+				// NewString: FlamezKhanLevel
+			}
+
+			14: {
+				// OldString: FlamezKhanUses
+				// NewString: FlamezKhanUses
+			}
+
+			15: {
+				// OldString: FlamezKhanMastery
+				// NewString: FlamezKhanMastery
+			}
+
+			16: {
+				// OldString: FlamezKhanSelectedLevel
+				// NewString: FlamezKhanSelectedLevel
+			}
+
+			17: {
+				// OldString: LearnedVortexScrolls
+				// NewString: LearnedVortexScrolls
+			}
+
+			18: {
+				// OldString: VortexScrollsLevel
+				// NewString: VortexScrollsLevel
+			}
+
+			19: {
+				// OldString: VortexScrollsUses
+				// NewString: VortexScrollsUses
+			}
+
+			20: {
+				// OldString: VortexScrollsDropped
+				// NewString: VortexScrollsDropped
+			}
+		}
+
+		LoadTechniques: {
+			1: {
+				// OldString: LearnedTempestFang
+				// NewString: LearnedTempestFang
+			}
+
+			2: {
+				// OldString: LearnedAuricFlame
+				// NewString: LearnedAuricFlame
+			}
+
+			3: {
+				// OldString: LearnedFlamezKhan
+				// NewString: LearnedFlamezKhan
+			}
+
+			4: {
+				// OldString: SelectedTechnique
+				// NewString: SelectedTechnique
+			}
+
+			5: {
+				// OldString: TechniqueCooldown
+				// NewString: TechniqueCooldown
+			}
+
+			6: {
+				// OldString: TempestFangLevel
+				// NewString: TempestFangLevel
+			}
+
+			7: {
+				// OldString: TempestFangUses
+				// NewString: TempestFangUses
+			}
+
+			8: {
+				// OldString: TempestFangMode
+				// NewString: TempestFangMode
+			}
+
+			9: {
+				// OldString: AuricFlameUses
+				// NewString: AuricFlameUses
+			}
+
+			10: {
+				// OldString: FlamezKhanLevel
+				// NewString: FlamezKhanLevel
+			}
+
+			11: {
+				// OldString: FlamezKhanUses
+				// NewString: FlamezKhanUses
+			}
+
+			12: {
+				// OldString: FlamezKhanMastery
+				// NewString: FlamezKhanMastery
+			}
+
+			13: {
+				// OldString: LearnedVortexScrolls
+				// NewString: LearnedVortexScrolls
+			}
+
+			14: {
+				// OldString: VortexScrollsLevel
+				// NewString: VortexScrollsLevel
+			}
+
+			15: {
+				// OldString: VortexScrollsUses
+				// NewString: VortexScrollsUses
+			}
+
+			16: {
+				// OldString: VortexScrollsDropped
+				// NewString: VortexScrollsDropped
+			}
+
+			17: {
+				// OldString: TempestFangSelectedLevel
+				// NewString: TempestFangSelectedLevel
+			}
+
+			18: {
+				// OldString: AuricFlameSelectedLevel
+				// NewString: AuricFlameSelectedLevel
+			}
+
+			19: {
+				// OldString: FlamezKhanSelectedLevel
+				// NewString: FlamezKhanSelectedLevel
+			}
+		}
+
+		SwitchTechniqueMode: {
+			1: {
+				// OldString: No technique mode to switch.
+				NewString: 无技巧可供切换
+			}
+
+			2: {
+				// OldString: Master the base technique before using alternate modes.
+				// NewString: Master the base technique before using alternate modes.
+			}
+
+			3: {
+				// OldString: Only Storm Fang can switch modes.
+				// NewString: Only Storm Fang can switch modes.
+			}
+
+			4: {
+				// OldString: Thunderclap Mode
+				// NewString: Thunderclap Mode
+			}
+
+			5: {
+				// OldString: Storm Fang Mode
+				// NewString: Storm Fang Mode
+			}
+
+			6: {
+				// OldString: Tempest Fang: Storm Rain Mode
+				// NewString: Tempest Fang: Storm Rain Mode
+			}
+
+			7: {
+				// OldString: Tempest Fang: Arc Mode
+				// NewString: Tempest Fang: Arc Mode
+			}
+		}
+
+		UseSelectedTechnique: {
+			1: {
+				// OldString: No technique selected.
+				// NewString: No technique selected.
+			}
+		}
+
+		TryPayTechniqueCost: {
+			1: {
+				// OldString: Not enough Ki.
+				// NewString: Not enough Ki.
+			}
+		}
+
+		CycleTechnique: {
+			1: {
+				// OldString: Technique: Tempest Fang
+				// NewString: Technique: Tempest Fang
+			}
+
+			2: {
+				// OldString: Technique: Vortex Scrolls
+				// NewString: Technique: Vortex Scrolls
+			}
+
+			3: {
+				// OldString: Technique: Auric Flame
+				// NewString: Technique: Auric Flame
+			}
+
+			4: {
+				// OldString: Technique: Flamez Khan
+				// NewString: Technique: Flamez Khan
+			}
+		}
+
+		CycleTechniqueLevel: {
+			1: {
+				// OldString: "Vortex Scrolls Level "
+				// NewString: "Vortex Scrolls Level "
+			}
+
+			2: {
+				// OldString: ": "
+				// NewString: ": "
+			}
+
+			3: {
+				// OldString: !
+				// NewString: !
+			}
+
+			4: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			5: {
+				// OldString: .
+				// NewString: .
+			}
+
+			6: {
+				// OldString: "Tempest Fang Level "
+				// NewString: "Tempest Fang Level "
+			}
+
+			7: {
+				// OldString: "Auric Flame Level "
+				// NewString: "Auric Flame Level "
+			}
+
+			8: {
+				// OldString: "Flamez Khan Level "
+				// NewString: "Flamez Khan Level "
+			}
+		}
+
+		UseTempestFang: {
+			1: {
+				// OldString: You have not learned Tempest Fang.
+				// NewString: You have not learned Tempest Fang.
+			}
+
+			2: {
+				// OldString: Tempest Fang
+				// NewString: Tempest Fang
+			}
+
+			3: {
+				// OldString: Tempest Magnet is not unlocked.
+				// NewString: Tempest Magnet is not unlocked.
+			}
+
+			4: {
+				// OldString: Storm Orb is not unlocked.
+				// NewString: Storm Orb is not unlocked.
+			}
+
+			5: {
+				// OldString: Storm Bomb is not unlocked.
+				// NewString: Storm Bomb is not unlocked.
+			}
+		}
+
+		UseLevel1Instant: {
+			1: {
+				// OldString: Tempest Fang
+				// NewString: Tempest Fang
+			}
+
+			2: {
+				// OldString: Tempest Fang!
+				// NewString: Tempest Fang!
+			}
+		}
+
+		StartLevel1Charge: {
+			1: {
+				// OldString: Tempest Fang
+				// NewString: Tempest Fang
+			}
+		}
+
+		ReleaseLevel1Charge: {
+			1: {
+				// OldString: Tempest Fang!
+				// NewString: Tempest Fang!
+			}
+		}
+
+		StartLevel2MagnetCharge: {
+			1: {
+				// OldString: Tempest Fang
+				// NewString: Tempest Fang
+			}
+
+			2: {
+				// OldString: Tempest Magnet.
+				// NewString: Tempest Magnet.
+			}
+		}
+
+		ReleaseLevel2MagnetCharge: {
+			1: {
+				// OldString: Tempest Magnet discharged.
+				// NewString: Tempest Magnet discharged.
+			}
+		}
+
+		StartLevel2MassOrbCharge: {
+			1: {
+				// OldString: Tempest Fang
+				// NewString: Tempest Fang
+			}
+
+			2: {
+				// OldString: Storm Orb forming.
+				// NewString: Storm Orb forming.
+			}
+		}
+
+		ReleaseLevel2MassOrb: {
+			1: {
+				// OldString: Storm Orb released.
+				// NewString: Storm Orb released.
+			}
+		}
+
+		StartLevel3MagnetCharge: {
+			1: {
+				// OldString: Tempest Fang
+				// NewString: Tempest Fang
+			}
+
+			2: {
+				// OldString: Tempest Fang: Storm Magnet.
+				// NewString: Tempest Fang: Storm Magnet.
+			}
+		}
+
+		ReleaseLevel3MagnetCharge: {
+			1: {
+				// OldString: Tempest Fang: Storm Magnet discharged.
+				// NewString: Tempest Fang: Storm Magnet discharged.
+			}
+		}
+
+		StartLevel3LightningBombCharge: {
+			1: {
+				// OldString: Tempest Fang
+				// NewString: Tempest Fang
+			}
+
+			2: {
+				// OldString: Tempest Fang: Storm Bomb charging.
+				// NewString: Tempest Fang: Storm Bomb charging.
+			}
+		}
+
+		ReleaseLevel3LightningBomb: {
+			1: {
+				// OldString: Tempest Fang: Storm Bomb.
+				// NewString: Tempest Fang: Storm Bomb.
+			}
+		}
+
+		SaveData: {
+			1: {
+				// OldString: HasTerrarianGene
+				// NewString: HasTerrarianGene
+			}
+
+			2: {
+				// OldString: HasWeakTrait
+				// NewString: HasWeakTrait
+			}
+
+			3: {
+				// OldString: HasRolledWeakTrait
+				// NewString: HasRolledWeakTrait
+			}
+
+			4: {
+				// OldString: WeakDeathCount
+				// NewString: WeakDeathCount
+			}
+
+			5: {
+				// OldString: WeakTrialTimer
+				// NewString: WeakTrialTimer
+			}
+
+			6: {
+				// OldString: WeakTrialActive
+				// NewString: WeakTrialActive
+			}
+
+			7: {
+				// OldString: HasCombatTraining
+				// NewString: HasCombatTraining
+			}
+
+			8: {
+				// OldString: ActiveTransformation
+				// NewString: ActiveTransformation
+			}
+
+			9: {
+				// OldString: ZenkaiCount
+				// NewString: ZenkaiCount
+			}
+
+			10: {
+				// OldString: TransformationPoints
+				// NewString: TransformationPoints
+			}
+
+			11: {
+				// OldString: ZenkaiCooldownTimer
+				// NewString: ZenkaiCooldownTimer
+			}
+
+			12: {
+				// OldString: ActiveCombatTransformation
+				// NewString: ActiveCombatTransformation
+			}
+
+			13: {
+				// OldString: CombatTransformationPoints
+				// NewString: CombatTransformationPoints
+			}
+
+			14: {
+				// OldString: AwakenedBossChallengeCount
+				// NewString: AwakenedBossChallengeCount
+			}
+
+			15: {
+				// OldString: ReinforcedDeathChallengeComplete
+				// NewString: ReinforcedDeathChallengeComplete
+			}
+
+			16: {
+				// OldString: ConsecutiveZenkaisWithoutDeath
+				// NewString: ConsecutiveZenkaisWithoutDeath
+			}
+
+			17: {
+				// OldString: DefeatedTPBosses
+				// NewString: DefeatedTPBosses
+			}
+
+			18: {
+				// OldString: UsedZenkaiCrystal
+				// NewString: UsedZenkaiCrystal
+			}
+
+			19: {
+				// OldString: UsedZenkaiGem
+				// NewString: UsedZenkaiGem
+			}
+
+			20: {
+				// OldString: ExtraZenkaisPerGain
+				// NewString: ExtraZenkaisPerGain
+			}
+
+			21: {
+				// OldString: UsedTechniqueTransformationManual
+				// NewString: UsedTechniqueTransformationManual
+			}
+
+			22: {
+				// OldString: AwakenedBossFightActive
+				// NewString: AwakenedBossFightActive
+			}
+
+			23: {
+				// OldString: AwakenedBossKiFailed
+				// NewString: AwakenedBossKiFailed
+			}
+
+			24: {
+				// OldString: DefeatedEvilBossForAwakened
+				// NewString: DefeatedEvilBossForAwakened
+			}
+
+			25: {
+				// OldString: DefeatedQueenBeeForAwakened
+				// NewString: DefeatedQueenBeeForAwakened
+			}
+
+			26: {
+				// OldString: ResolvedTrialComplete
+				// NewString: ResolvedTrialComplete
+			}
+
+			27: {
+				// OldString: TrueAwakeningTrialComplete
+				// NewString: TrueAwakeningTrialComplete
+			}
+
+			28: {
+				// OldString: AuricSoulTrialComplete
+				// NewString: AuricSoulTrialComplete
+			}
+
+			29: {
+				// OldString: AuricFlameQuestMessageShown
+				// NewString: AuricFlameQuestMessageShown
+			}
+
+			30: {
+				// OldString: ApexTrialComplete
+				// NewString: ApexTrialComplete
+			}
+
+			31: {
+				// OldString: UnlockedCombatTransformation
+				// NewString: UnlockedCombatTransformation
+			}
+
+			32: {
+				// OldString: CombatMastery
+				// NewString: CombatMastery
+			}
+
+			33: {
+				// OldString: UnlockedTransformation
+				// NewString: UnlockedTransformation
+			}
+
+			34: {
+				// OldString: TransformationOmenPlayed
+				// NewString: TransformationOmenPlayed
+			}
+
+			35: {
+				// OldString: TransformationMastery
+				// NewString: TransformationMastery
+			}
+
+			36: {
+				// OldString: TransformationMasterySoundPlayed
+				// NewString: TransformationMasterySoundPlayed
+			}
+		}
+
+		LoadData: {
+			1: {
+				// OldString: HasTerrarianGene
+				// NewString: HasTerrarianGene
+			}
+
+			2: {
+				// OldString: HasWeakTrait
+				// NewString: HasWeakTrait
+			}
+
+			3: {
+				// OldString: HasRolledWeakTrait
+				// NewString: HasRolledWeakTrait
+			}
+
+			4: {
+				// OldString: WeakDeathCount
+				// NewString: WeakDeathCount
+			}
+
+			5: {
+				// OldString: WeakTrialTimer
+				// NewString: WeakTrialTimer
+			}
+
+			6: {
+				// OldString: WeakTrialActive
+				// NewString: WeakTrialActive
+			}
+
+			7: {
+				// OldString: UsedZenkaiCrystal
+				// NewString: UsedZenkaiCrystal
+			}
+
+			8: {
+				// OldString: UsedZenkaiGem
+				// NewString: UsedZenkaiGem
+			}
+
+			9: {
+				// OldString: ExtraZenkaisPerGain
+				// NewString: ExtraZenkaisPerGain
+			}
+
+			10: {
+				// OldString: HasCombatTraining
+				// NewString: HasCombatTraining
+			}
+
+			11: {
+				// OldString: ActiveCombatTransformation
+				// NewString: ActiveCombatTransformation
+			}
+
+			12: {
+				// OldString: CombatTransformationPoints
+				// NewString: CombatTransformationPoints
+			}
+
+			13: {
+				// OldString: AwakenedBossChallengeCount
+				// NewString: AwakenedBossChallengeCount
+			}
+
+			14: {
+				// OldString: ReinforcedDeathChallengeComplete
+				// NewString: ReinforcedDeathChallengeComplete
+			}
+
+			15: {
+				// OldString: ConsecutiveZenkaisWithoutDeath
+				// NewString: ConsecutiveZenkaisWithoutDeath
+			}
+
+			16: {
+				// OldString: DefeatedTPBosses
+				// NewString: DefeatedTPBosses
+			}
+
+			17: {
+				// OldString: UsedTechniqueTransformationManual
+				// NewString: UsedTechniqueTransformationManual
+			}
+
+			18: {
+				// OldString: AwakenedBossFightActive
+				// NewString: AwakenedBossFightActive
+			}
+
+			19: {
+				// OldString: AwakenedBossKiFailed
+				// NewString: AwakenedBossKiFailed
+			}
+
+			20: {
+				// OldString: DefeatedEvilBossForAwakened
+				// NewString: DefeatedEvilBossForAwakened
+			}
+
+			21: {
+				// OldString: DefeatedQueenBeeForAwakened
+				// NewString: DefeatedQueenBeeForAwakened
+			}
+
+			22: {
+				// OldString: ResolvedTrialComplete
+				// NewString: ResolvedTrialComplete
+			}
+
+			23: {
+				// OldString: TrueAwakeningTrialComplete
+				// NewString: TrueAwakeningTrialComplete
+			}
+
+			24: {
+				// OldString: AuricSoulTrialComplete
+				// NewString: AuricSoulTrialComplete
+			}
+
+			25: {
+				// OldString: AuricFlameQuestMessageShown
+				// NewString: AuricFlameQuestMessageShown
+			}
+
+			26: {
+				// OldString: ApexTrialComplete
+				// NewString: ApexTrialComplete
+			}
+
+			27: {
+				// OldString: UnlockedCombatTransformation
+				// NewString: UnlockedCombatTransformation
+			}
+
+			28: {
+				// OldString: CombatMastery
+				// NewString: CombatMastery
+			}
+
+			29: {
+				// OldString: ActiveTransformation
+				// NewString: ActiveTransformation
+			}
+
+			30: {
+				// OldString: ZenkaiCount
+				// NewString: ZenkaiCount
+			}
+
+			31: {
+				// OldString: TransformationPoints
+				// NewString: TransformationPoints
+			}
+
+			32: {
+				// OldString: ZenkaiCooldownTimer
+				// NewString: ZenkaiCooldownTimer
+			}
+
+			33: {
+				// OldString: UnlockedTransformation
+				// NewString: UnlockedTransformation
+			}
+
+			34: {
+				// OldString: TransformationOmenPlayed
+				// NewString: TransformationOmenPlayed
+			}
+
+			35: {
+				// OldString: TransformationMastery
+				// NewString: TransformationMastery
+			}
+
+			36: {
+				// OldString: TransformationMasterySoundPlayed
+				// NewString: TransformationMasterySoundPlayed
+			}
+		}
+
+		CycleTransformation: {
+			1: {
+				// OldString: You do not have the Terrarian Gene.
+				// NewString: You do not have the Terrarian Gene.
+			}
+
+			2: {
+				// OldString: "Transformation: "
+				// NewString: "Transformation: "
+			}
+
+			3: {
+				// OldString: No Terrarian transformations unlocked.
+				// NewString: No Terrarian transformations unlocked.
+			}
+		}
+
+		HandleNoTraitWeakAwakening: {
+			1: {
+				// OldString: It's truly a miracle that you've survived this far.
+				// NewString: It's truly a miracle that you've survived this far.
+			}
+		}
+
+		HasNoDBTTrait: {
+			1: {
+				// OldString: None
+				// NewString: None
+			}
+
+			2: {
+				// OldString: No Trait
+				// NewString: No Trait
+			}
+
+			3: {
+				// OldString: NoTrait
+				// NewString: NoTrait
+			}
+
+			4: {
+				// OldString: Normal
+				// NewString: Normal
+			}
+
+			5: {
+				// OldString: Default
+				// NewString: Default
+			}
+		}
+
+		SetWeakTrait: {
+			1: {
+				// OldString: Weak
+				// NewString: Weak
+			}
+		}
+
+		ApplyWeakTraitLock: {
+			1: {
+				// OldString: Weak
+				// NewString: Weak
+			}
+
+			2: {
+				// OldString: DBZMODPORT/ProdigyTrait
+				// NewString: DBZMODPORT/ProdigyTrait
+			}
+
+			3: {
+				// OldString: DBZMODPORT/LegendaryTrait
+				// NewString: DBZMODPORT/LegendaryTrait
+			}
+
+			4: {
+				// OldString: DBZMODPORT/UnknownLegendary
+				// NewString: DBZMODPORT/UnknownLegendary
+			}
+		}
+
+		StartWeakTrial: {
+			1: {
+				// OldString: Even death saw no reason to keep you...
+				// NewString: Even death saw no reason to keep you...
+			}
+		}
+
+		FailWeakTrial: {
+			1: {
+				// OldString: The trial has ended. Nothing awakened.
+				// NewString: The trial has ended. Nothing awakened.
+			}
+		}
+
+		CompleteWeakTrial: {
+			1: {
+				// OldString: Someone finally noticed your struggle...
+				// NewString: Someone finally noticed your struggle...
+			}
+
+			2: {
+				// OldString: You've been given mercy...
+				// NewString: You've been given mercy...
+			}
+		}
+
+		SetDBTTerrarianTrait: {
+			1: {
+				// OldString: Terrarian
+				// NewString: Terrarian
+			}
+		}
+
+		RemoveOtherGenes: {
+			1: {
+				// OldString: Terrarian
+				// NewString: Terrarian
+			}
+
+			2: {
+				// OldString: DBZMODPORT/ProdigyTrait
+				// NewString: DBZMODPORT/ProdigyTrait
+			}
+
+			3: {
+				// OldString: DBZMODPORT/LegendaryTrait
+				// NewString: DBZMODPORT/LegendaryTrait
+			}
+
+			4: {
+				// OldString: DBZMODPORT/UnknownLegendary
+				// NewString: DBZMODPORT/UnknownLegendary
+			}
+		}
+
+		BlockOtherDBTForms: {
+			1: {
+				// OldString: Terrarian
+				// NewString: Terrarian
+			}
+
+			2: {
+				// OldString: Weak
+				// NewString: Weak
+			}
+
+			3: {
+				// OldString: DBZMODPORT/ProdigyTrait
+				// NewString: DBZMODPORT/ProdigyTrait
+			}
+
+			4: {
+				// OldString: DBZMODPORT/LegendaryTrait
+				// NewString: DBZMODPORT/LegendaryTrait
+			}
+
+			5: {
+				// OldString: DBZMODPORT/UnknownLegendary
+				// NewString: DBZMODPORT/UnknownLegendary
+			}
+		}
+
+		CanUseStormHeight: {
+			1: {
+				// OldString: You are above the clouds. The storm cannot reach you.
+				// NewString: You are above the clouds. The storm cannot reach you.
+			}
+
+			2: {
+				// OldString: You are too deep below. The storm cannot find a path to you.
+				// NewString: You are too deep below. The storm cannot find a path to you.
+			}
+		}
+
+		UseCataclysm: {
+			1: {
+				// OldString: Cataclysm: the sky is breaking.
+				// NewString: Cataclysm: the sky is breaking.
+			}
+		}
+
+		UpdateCataclysm: {
+			1: {
+				// OldString: The storm stops breathing.
+				// NewString: The storm stops breathing.
+			}
+
+			2: {
+				// OldString: CATACLYSM.
+				// NewString: CATACLYSM.
+			}
+		}
+
+		UpdateVortexScrollsState: {
+			1: {
+				// OldString: The storm goes silent...
+				// NewString: The storm goes silent...
+			}
+		}
+
+		StartLightningJudgment: {
+			1: {
+				// OldString: Lightning Judgment: storm awakened.
+				// NewString: Lightning Judgment: storm awakened.
+			}
+		}
+
+		UseTempestSovereign: {
+			1: {
+				// OldString: No hostile targets found.
+				// NewString: No hostile targets found.
+			}
+
+			2: {
+				// OldString: "Tempest Sovereign: "
+				// NewString: "Tempest Sovereign: "
+			}
+
+			3: {
+				// OldString: " target(s)."
+				// NewString: " target(s)."
+			}
+		}
+
+		StartStormCrown: {
+			1: {
+				// OldString: No hostile target found.
+				// NewString: No hostile target found.
+			}
+
+			2: {
+				// OldString: "Storm Crown locked: "
+				// NewString: "Storm Crown locked: "
+			}
+		}
+
+		StopStormCrown: {
+			1: {
+				// OldString: Storm Crown: heaven falls.
+				// NewString: Storm Crown: heaven falls.
+			}
+		}
+
+		GetVortexScrollsName: {
+			1: {
+				// OldString: Thunderclap!
+				// NewString: Thunderclap!
+			}
+
+			2: {
+				// OldString: Storm Fang!
+				// NewString: Storm Fang!
+			}
+
+			3: {
+				// OldString: Lightning Judgment!
+				// NewString: Lightning Judgment!
+			}
+
+			4: {
+				// OldString: Tempest Sovereign!
+				// NewString: Tempest Sovereign!
+			}
+
+			5: {
+				// OldString: Storm Crown!
+				// NewString: Storm Crown!
+			}
+
+			6: {
+				// OldString: Heavenbreaker!
+				// NewString: Heavenbreaker!
+			}
+
+			7: {
+				// OldString: Cataclysm.
+				// NewString: Cataclysm.
+			}
+
+			8: {
+				// OldString: Vortex Scrolls!
+				// NewString: Vortex Scrolls!
+			}
+		}
+
+		UseHeavenbreaker: {
+			1: {
+				// OldString: No hostile target found.
+				// NewString: No hostile target found.
+			}
+
+			2: {
+				// OldString: "Heavenbreaker: "
+				// NewString: "Heavenbreaker: "
+			}
+
+			3: {
+				// OldString: " has been sentenced."
+				// NewString: " has been sentenced."
+			}
+		}
+
+		UpdateHeavenbreaker: {
+			1: {
+				// OldString: The heavens split open.
+				// NewString: The heavens split open.
+			}
+		}
+
+		SpawnHeavenbreakerFinalBolt: {
+			1: {
+				// OldString: HEAVENBREAKER.
+				// NewString: HEAVENBREAKER.
+			}
+		}
+
+		SaveZenkaiHunts: {
+			1: {
+				// OldString: CurrentZenkaiHuntNpcType
+				// NewString: CurrentZenkaiHuntNpcType
+			}
+
+			2: {
+				// OldString: CurrentZenkaiHuntIsBoss
+				// NewString: CurrentZenkaiHuntIsBoss
+			}
+
+			3: {
+				// OldString: ZenkaiHuntsCompleted
+				// NewString: ZenkaiHuntsCompleted
+			}
+
+			4: {
+				// OldString: KiAdaptationLevel
+				// NewString: KiAdaptationLevel
+			}
+
+			5: {
+				// OldString: TechniqueOvergrowthLevel
+				// NewString: TechniqueOvergrowthLevel
+			}
+
+			6: {
+				// OldString: AdaptiveSpiritLevel
+				// NewString: AdaptiveSpiritLevel
+			}
+		}
+
+		LoadZenkaiHunts: {
+			1: {
+				// OldString: CurrentZenkaiHuntNpcType
+				// NewString: CurrentZenkaiHuntNpcType
+			}
+
+			2: {
+				// OldString: CurrentZenkaiHuntIsBoss
+				// NewString: CurrentZenkaiHuntIsBoss
+			}
+
+			3: {
+				// OldString: ZenkaiHuntsCompleted
+				// NewString: ZenkaiHuntsCompleted
+			}
+
+			4: {
+				// OldString: KiAdaptationLevel
+				// NewString: KiAdaptationLevel
+			}
+
+			5: {
+				// OldString: TechniqueOvergrowthLevel
+				// NewString: TechniqueOvergrowthLevel
+			}
+
+			6: {
+				// OldString: AdaptiveSpiritLevel
+				// NewString: AdaptiveSpiritLevel
+			}
+		}
+
+		TryCompleteZenkaiHunt: {
+			1: {
+				// OldString: Zenkai Hunt complete! Max Zenkais +
+				NewString: 全开狩猎已完成！ 最大全开值 +
+			}
+
+			2: {
+				// OldString: .
+				NewString: ""
+			}
+
+			3: {
+				// OldString: Zenkai Hunt complete! Your body continues adapting.
+				NewString: 全开狩猎已完成！ 你的身体继续适应
+			}
+		}
+
+		ApplyZenkaiHuntUpgradeRewards: {
+			1: {
+				// OldString: Ki Adaptation improved! Max Ki +
+				NewString: 气适应的到提升！ 最大气值 +
+			}
+
+			2: {
+				// OldString: .
+				NewString: ""
+			}
+
+			3: {
+				// OldString: Technique Overgrowth improved! Technique damage +
+				NewString: 技术已得到提升！ 技术伤害 +
+			}
+
+			4: {
+				// OldString: %.
+				NewString: %
+			}
+
+			5: {
+				// OldString: "Adaptive Spirit improved! Ki costs reduced by "
+				NewString: "适应精神得到提升！ 气消耗减少 "
+			}
+
+			6: {
+				// OldString: Your Terrarian body adapts from the hunt.
+				NewString: 你的泰拉人之躯在狩猎中逐渐适应
+			}
+		}
+
+		StartNewZenkaiHunt: {
+			1: {
+				// OldString: "Zenkai Hunt: defeat "
+				NewString: "全开狩猎： 击败 "
+			}
+
+			2: {
+				// OldString: .
+				NewString: ""
+			}
+		}
+
+		TryRerollZenkaiHunt: {
+			1: {
+				// OldString: Zenkai Hunt rerolled for 1 gold.
+				NewString: 全开狩猎重新刷新需要1个金币
+			}
+
+			2: {
+				// OldString: You need 1 gold to reroll your Zenkai Hunt.
+				NewString: 你需要1个金币来重新刷新全开狩猎
+			}
+		}
+
+		IsBlockedZenkaiHuntNPC: {
+			1: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			2: {
+				// OldString: " "
+				// NewString: " "
+			}
+
+			3: {
+				// OldString: mutant
+				// NewString: mutant
+			}
+
+			4: {
+				// OldString: abomination
+				// NewString: abomination
+			}
+
+			5: {
+				// OldString: calamitas
+				// NewString: calamitas
+			}
+
+			6: {
+				// OldString: yharon
+				// NewString: yharon
+			}
+
+			7: {
+				// OldString: devourer
+				// NewString: devourer
+			}
+
+			8: {
+				// OldString: dog
+				// NewString: dog
+			}
+		}
+	}
+
+	TerrarianHairDrawLayer: {
+		Draw: {
+			1: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Hair/AwakenedHair
+				// NewString: Terrariangene/Assets/Textures/Effects/Hair/AwakenedHair
+			}
+
+			2: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Hair/ResolvedWillHair
+				// NewString: Terrariangene/Assets/Textures/Effects/Hair/ResolvedWillHair
+			}
+
+			3: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Hair/ReinforcedSoulHair
+				// NewString: Terrariangene/Assets/Textures/Effects/Hair/ReinforcedSoulHair
+			}
+
+			4: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Hair/TrueAwakeningHair
+				// NewString: Terrariangene/Assets/Textures/Effects/Hair/TrueAwakeningHair
+			}
+
+			5: {
+				// OldString: Terrariangene/Assets/Textures/Effects/Hair/AuricInfusedHair
+				// NewString: Terrariangene/Assets/Textures/Effects/Hair/AuricInfusedHair
+			}
+		}
+	}
+
+	TerrarianVisualPlayer: {
+		TriggerTransformationImpact: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/Poof
+				// NewString: Terrariangene/Assets/Sounds/Poof
+			}
+
+			2: {
+				// OldString: DBZMODPORT/Sounds/SSJAscension
+				// NewString: DBZMODPORT/Sounds/SSJAscension
+			}
+		}
+
+		StartZenkaiAnimation: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/ZenkaiWhoosh
+				// NewString: Terrariangene/Assets/Sounds/ZenkaiWhoosh
+			}
+		}
+
+		StartScreenShake: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/ZenkaiBoom
+				// NewString: Terrariangene/Assets/Sounds/ZenkaiBoom
+			}
+		}
+
+		UpdateOmenRumble: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/OmenRumble
+				// NewString: Terrariangene/Assets/Sounds/OmenRumble
+			}
+		}
+
+		StartAuricTwink: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/TwinkRumble
+				// NewString: Terrariangene/Assets/Sounds/TwinkRumble
+			}
+		}
+
+		StartAuricFire: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/FireAmbience
+				// NewString: Terrariangene/Assets/Sounds/FireAmbience
+			}
+		}
+
+		StartApexDistortion: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/Distortion
+				// NewString: Terrariangene/Assets/Sounds/Distortion
+			}
+		}
+
+		PlayNextApexCustomSound: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/Poof
+				// NewString: Terrariangene/Assets/Sounds/Poof
+			}
+
+			2: {
+				// OldString: Terrariangene/Assets/Sounds/Sheesh
+				// NewString: Terrariangene/Assets/Sounds/Sheesh
+			}
+
+			3: {
+				// OldString: Terrariangene/Assets/Sounds/yharon_screech
+				// NewString: Terrariangene/Assets/Sounds/yharon_screech
+			}
+
+			4: {
+				// OldString: Terrariangene/Assets/Sounds/TwinkRumble
+				// NewString: Terrariangene/Assets/Sounds/TwinkRumble
+			}
+		}
+
+		StartTrueTwinkRumble: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/TwinkRumble
+				// NewString: Terrariangene/Assets/Sounds/TwinkRumble
+			}
+		}
+
+		UpdateOmenHair: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/PowerDown
+				// NewString: DBZMODPORT/Sounds/PowerDown
+			}
+		}
+
+		AwakenedOmen: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/Thunder
+				// NewString: Terrariangene/Assets/Sounds/Thunder
+			}
+		}
+
+		ResolvedWillOmen: {
+			1: {
+				// OldString: DBZMODPORT/Sounds/PowerDown
+				// NewString: DBZMODPORT/Sounds/PowerDown
+			}
+		}
+
+		ReinforcedSoulOmen: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/Sheesh
+				// NewString: Terrariangene/Assets/Sounds/Sheesh
+			}
+		}
+
+		AuricInfusedOmen: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/Poof
+				// NewString: Terrariangene/Assets/Sounds/Poof
+			}
+
+			2: {
+				// OldString: Terrariangene/Assets/Sounds/yharon_screech
+				// NewString: Terrariangene/Assets/Sounds/yharon_screech
+			}
+		}
+	}
+
+	TraitChoserCompatibilityPlayer: {
+		Initialize: {
+			1: {
+				// OldString: ""
+				// NewString: ""
+			}
+		}
+
+		OnEnterWorld: {
+			1: {
+				// OldString: ""
+				// NewString: ""
+			}
+		}
+
+		PostUpdate: {
+			1: {
+				// OldString: TraitChoser
+				// NewString: TraitChoser
+			}
+
+			2: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			3: {
+				// OldString: Prodigy
+				// NewString: Prodigy
+			}
+
+			4: {
+				// OldString: Legendary
+				// NewString: Legendary
+			}
+		}
+
+		ReplaceWithWeak: {
+			1: {
+				// OldString: DBZMODPORT/ProdigyTrait
+				// NewString: DBZMODPORT/ProdigyTrait
+			}
+
+			2: {
+				// OldString: DBZMODPORT/LegendaryTrait
+				// NewString: DBZMODPORT/LegendaryTrait
+			}
+
+			3: {
+				// OldString: DBZMODPORT/UnknownLegendary
+				// NewString: DBZMODPORT/UnknownLegendary
+			}
+
+			4: {
+				// OldString: Weak
+				// NewString: Weak
+			}
+
+			5: {
+				// OldString: Sometimes we wont always get what we want...
+				// NewString: Sometimes we wont always get what we want...
+			}
+		}
+	}
+}
+
+Items: {
+	AuricFlameManual: {
+		UseItem: {
+			1: {
+				// OldString: You learned Auric Flame.
+				NewString: 你已学会金源辉焰
+			}
+		}
+	}
+
+	BeginnersCombatManual: {
+		UseItem: {
+			1: {
+				// OldString: You have begun learning basic combat arts.
+				// NewString: You have begun learning basic combat arts.
+			}
+		}
+	}
+
+	FirstTerrariansBook: {
+		SetDefaults: {
+			1: {
+				// OldString: Terrariangene/Assets/Sounds/BookFlip
+				// NewString: Terrariangene/Assets/Sounds/BookFlip
+			}
+		}
+	}
+
+	FlameHeart: {
+		get_Texture: {
+			1: {
+				// OldString: Terrariangene/Items/FlameHeart
+				// NewString: Terrariangene/Items/FlameHeart
+			}
+		}
+
+		UseItem: {
+			1: {
+				// OldString: Your heart is consumed by everlasting flame. Auric Flame XP x3, Flamez Khan XP x4.5.
+				// NewString: Your heart is consumed by everlasting flame. Auric Flame XP x3, Flamez Khan XP x4.5.
+			}
+		}
+	}
+
+	FlamezKhanScroll: {
+		UseItem: {
+			1: {
+				// OldString: You learned Flamez Khan.
+				// NewString: You learned Flamez Khan.
+			}
+		}
+	}
+
+	ForgottenKeepsake: {
+		UseItem: {
+			1: {
+				// OldString: Your path has already been chosen.
+				NewString: 你的道路已被选定
+			}
+
+			2: {
+				// OldString: A forgotten strength stirs within you...
+				NewString: 一股被遗忘的力量从你体内激发……
+			}
+		}
+	}
+
+	TechniqueTransformationManual: {
+		UseItem: {
+			1: {
+				// OldString: Your techniques now resonate with your transformations.
+				// NewString: Your techniques now resonate with your transformations.
+			}
+		}
+	}
+
+	TempestFangManual: {
+		UseItem: {
+			1: {
+				// OldString: You learned Tempest Fang.
+				// NewString: You learned Tempest Fang.
+			}
+		}
+	}
+
+	TerrarianAwakeningFruit: {
+		UseItem: {
+			1: {
+				// OldString: You already possess the Terrarian Gene.
+				NewString: 你已拥有泰拉人基因
+			}
+
+			2: {
+				// OldString: The Terrarian Gene awakens within you!
+				NewString: 你体内的泰拉人基因觉醒了！
+			}
+		}
+	}
+
+	TerrarianTraitRemover: {
+		UseItem: {
+			1: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			2: {
+				// OldString: DBZMODPORT/ProdigyTrait
+				// NewString: DBZMODPORT/ProdigyTrait
+			}
+
+			3: {
+				// OldString: DBZMODPORT/LegendaryTrait
+				// NewString: DBZMODPORT/LegendaryTrait
+			}
+
+			4: {
+				// OldString: DBZMODPORT/UnknownLegendary
+				// NewString: DBZMODPORT/UnknownLegendary
+			}
+
+			5: {
+				// OldString: Your trait, forms, techniques, mastery, and adaptations have been stripped away.
+				NewString: 你的资质、形态、技术、技术掌握度和气适应度已被清空
+			}
+		}
+	}
+
+	TerrarianTraitRemoverGlobalItem: {
+		UseItem: {
+			1: {
+				// OldString: ""
+				// NewString: ""
+			}
+
+			2: {
+				// OldString: The Terrarian Gene has been removed.
+				// NewString: The Terrarian Gene has been removed.
+			}
+		}
+
+		IsTraitRemover: {
+			1: {
+				// OldString: DBZMODPORT/TraitRemover
+				// NewString: DBZMODPORT/TraitRemover
+			}
+		}
+	}
+
+	VortexPrototype: {
+		get_Texture: {
+			1: {
+				// OldString: Terraria/Images/Item_
+				// NewString: Terraria/Images/Item_
+			}
+		}
+	}
+
+	VortexScrolls: {
+		get_Texture: {
+			1: {
+				// OldString: Terraria/Images/Item_
+				// NewString: Terraria/Images/Item_
+			}
+		}
+
+		UseItem: {
+			1: {
+				// OldString: Tempest Fang evolved into Vortex Scrolls.
+				// NewString: Tempest Fang evolved into Vortex Scrolls.
+			}
+		}
+
+		PreDrawTooltipLine: {
+			1: {
+				// OldString: Terraria
+				// NewString: Terraria
+			}
+
+			2: {
+				// OldString: ItemName
+				// NewString: ItemName
+			}
+		}
+	}
+
+	VortexScrollsTester: {
+		UseItem: {
+			1: {
+				// OldString: "Vortex Scrolls test level set to "
+				// NewString: "Vortex Scrolls test level set to "
+			}
+
+			2: {
+				// OldString: .
+				// NewString: .
+			}
+		}
+
+		ModifyTooltips: {
+			1: {
+				// OldString: Test
+				// NewString: Test
+			}
+
+			2: {
+				// OldString: Cycles Vortex Scrolls test level from 1 to 6
+				// NewString: Cycles Vortex Scrolls test level from 1 to 6
+			}
+
+			3: {
+				// OldString: Test2
+				// NewString: Test2
+			}
+
+			4: {
+				// OldString: Also unlocks Vortex Scrolls and sets the needed mastery rank
+				// NewString: Also unlocks Vortex Scrolls and sets the needed mastery rank
+			}
+		}
+	}
+
+	WhiteGloves: {
+		ModifyTooltips: {
+			1: {
+				// OldString: Cooldown
+				// NewString: Cooldown
+			}
+
+			2: {
+				// OldString: Technique cooldowns are reduced by 2 seconds
+				// NewString: Technique cooldowns are reduced by 2 seconds
+			}
+		}
+	}
+
+	ZenkaiCrystal: {
+		CanUseItem: {
+			1: {
+				// OldString: Only a Terrarian may use this crystal.
+				// NewString: Only a Terrarian may use this crystal.
+			}
+
+			2: {
+				// OldString: You shouldn't have this again...
+				// NewString: You shouldn't have this again...
+			}
+
+			3: {
+				// OldString: The crystal remains dormant.
+				// NewString: The crystal remains dormant.
+			}
+
+			4: {
+				// OldString: Your Zenkais must resonate in perfect quarters.
+				// NewString: Your Zenkais must resonate in perfect quarters.
+			}
+		}
+
+		UseItem: {
+			1: {
+				// OldString: Your Zenkais now grow faster. +1 extra Zenkai per gain.
+				// NewString: Your Zenkais now grow faster. +1 extra Zenkai per gain.
+			}
+		}
+	}
+
+	ZenkaiGem: {
+		CanUseItem: {
+			1: {
+				// OldString: Only a Terrarian may use this gem.
+				// NewString: Only a Terrarian may use this gem.
+			}
+
+			2: {
+				// OldString: You must first use a Zenkai Crystal.
+				// NewString: You must first use a Zenkai Crystal.
+			}
+
+			3: {
+				// OldString: You should NOT have this AGAIN...
+				// NewString: You should NOT have this AGAIN...
+			}
+
+			4: {
+				// OldString: The gem has not yet awakened.
+				// NewString: The gem has not yet awakened.
+			}
+
+			5: {
+				// OldString: Your Zenkais must resonate in perfect quarters.
+				// NewString: Your Zenkais must resonate in perfect quarters.
+			}
+		}
+
+		UseItem: {
+			1: {
+				// OldString: Your Zenkais surge further. +2 extra Zenkais per gain.
+				// NewString: Your Zenkais surge further. +2 extra Zenkais per gain.
+			}
+		}
+	}
+
+	ZenkaiHuntTester: {
+		UseItem: {
+			1: {
+				// OldString: Set to max Zenkais. Hunts remain enabled.
+				// NewString: Set to max Zenkais. Hunts remain enabled.
+			}
+		}
+	}
+
+	Debug: {
+		TerrarianProgressTester: {
+			get_Texture: {
+				1: {
+					// OldString: Terraria/Images/Item_
+					// NewString: Terraria/Images/Item_
+				}
+			}
+
+			UseItem: {
+				1: {
+					// OldString: Test ready: press Breakthrough for Awakened.
+					// NewString: Test ready: press Breakthrough for Awakened.
+				}
+
+				2: {
+					// OldString: Test ready: in Awakened, survive below 15% HP for 30s during a boss.
+					// NewString: Test ready: in Awakened, survive below 15% HP for 30s during a boss.
+				}
+
+				3: {
+					// OldString: Test ready: in Resolved Will, survive below 10% HP for 60s during a boss.
+					// NewString: Test ready: in Resolved Will, survive below 10% HP for 60s during a boss.
+				}
+
+				4: {
+					// OldString: Test ready: use Focus or Overdrive, then defeat one boss.
+					// NewString: Test ready: use Focus or Overdrive, then defeat one boss.
+				}
+
+				5: {
+					// OldString: Test ready: obtain Yharon's Soul, then press Breakthrough.
+					// NewString: Test ready: obtain Yharon's Soul, then press Breakthrough.
+				}
+
+				6: {
+					// OldString: Test ready: equip Soul of Eternity, then press Breakthrough.
+					// NewString: Test ready: equip Soul of Eternity, then press Breakthrough.
+				}
+
+				7: {
+					// OldString: All Terrarian forms are already unlocked.
+					// NewString: All Terrarian forms are already unlocked.
+				}
+			}
+		}
+	}
+}
+
+Effects: {
+	CircleShader: {
+		ApplyShader: {
+			1: {
+				// OldString: Radius
+				// NewString: Radius
+			}
+		}
+	}
+
+	YharonFinalGiftEffect: {
+		Activate: {
+			1: {
+				// OldString: The final ember of the Jungle Dragon answers your call.
+				// NewString: The final ember of the Jungle Dragon answers your call.
+			}
+		}
+	}
+}
+
+NPCs: {
+	FlameHeartDrops: {
+		ModifyNPCLoot: {
+			1: {
+				// OldString: CalamityMod/ScornEater
+				// NewString: CalamityMod/ScornEater
+			}
+		}
+	}
+
+	TerrarianTechniqueGlobalNPC: {
+		TrackFlamezKill: {
+			1: {
+				// OldString: Yharon
+				// NewString: Yharon
+			}
+		}
+
+		TrackAuricKill: {
+			1: {
+				// OldString: Yharon
+				// NewString: Yharon
+			}
+
+			2: {
+				// OldString: SupremeCalamitas
+				// NewString: SupremeCalamitas
+			}
+
+			3: {
+				// OldString: Supreme_Calamitas
+				// NewString: Supreme_Calamitas
+			}
+
+			4: {
+				// OldString: Thanatos
+				// NewString: Thanatos
+			}
+
+			5: {
+				// OldString: Ares
+				// NewString: Ares
+			}
+
+			6: {
+				// OldString: Artemis
+				// NewString: Artemis
+			}
+
+			7: {
+				// OldString: Apollo
+				// NewString: Apollo
+			}
+		}
+
+		TrackVortexKill: {
+			1: {
+				// OldString: StormWeaver
+				// NewString: StormWeaver
+			}
+		}
+	}
+
+	TerrarianTPGlobalNPC: {
+		OnKill: {
+			1: {
+				// OldString: "Awakened control trial: "
+				// NewString: "Awakened control trial: "
+			}
+
+			2: {
+				// OldString: /5
+				// NewString: /5
+			}
+
+			3: {
+				// OldString: You have found your purpose.
+				// NewString: You have found your purpose.
+			}
+		}
+
+		HandleTechniqueBossUnlocks: {
+			1: {
+				// OldString: Dragon's Demise has been awakened.
+				// NewString: Dragon's Demise has been awakened.
+			}
+
+			2: {
+				// OldString: Cleansing Blaze has been awakened.
+				// NewString: Cleansing Blaze has been awakened.
+			}
+
+			3: {
+				// OldString: Vortex Heart obtained.
+				// NewString: Vortex Heart obtained.
+			}
+		}
+
+		IsDevourerOfGods: {
+			1: {
+				// OldString: DevourerofGods
+				// NewString: DevourerofGods
+			}
+
+			2: {
+				// OldString: DevourerOfGods
+				// NewString: DevourerOfGods
+			}
+
+			3: {
+				// OldString: DevourerGods
+				// NewString: DevourerGods
+			}
+
+			4: {
+				// OldString: DoG
+				// NewString: DoG
+			}
+		}
+	}
+
+	TerrarianTrialNPC: {
+		OnKill: {
+			1: {
+				// OldString: You have found your purpose. Press Breakthrough.
+				// NewString: You have found your purpose. Press Breakthrough.
+			}
+		}
+	}
+}
+
+Buffs: {
+	WeakTrialBuff: {
+		get_Texture: {
+			1: {
+				// OldString: Terrariangene/Buffs/WeakTraitBuff
+				// NewString: Terrariangene/Buffs/WeakTraitBuff
+			}
+		}
+	}
+
+	Transformations: {
+		ApexOfEternityBuff: {
+			get_Texture: {
+				1: {
+					// OldString: Terrariangene/Buffs/Transformations/ApexOfEternityBuff
+					// NewString: Terrariangene/Buffs/Transformations/ApexOfEternityBuff
+				}
+			}
+
+			AuraData: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/BlankAura
+					// NewString: Terrariangene/Assets/Textures/Effects/BlankAura
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: Terrariangene/Assets/Sounds/Silence
+					// NewString: Terrariangene/Assets/Sounds/Silence
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Apex of Eternity
+					// NewString: Apex of Eternity
+				}
+			}
+
+			SuppressDBTChargeSounds: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: DBZMODPORT.MyPlayer
+					// NewString: DBZMODPORT.MyPlayer
+				}
+
+				3: {
+					// OldString: DBZMODPORT.Util.SoundHelper
+					// NewString: DBZMODPORT.Util.SoundHelper
+				}
+
+				4: {
+					// OldString: ModPlayer
+					// NewString: ModPlayer
+				}
+
+				5: {
+					// OldString: auraSoundInfo
+					// NewString: auraSoundInfo
+				}
+
+				6: {
+					// OldString: KillTrackedSound
+					// NewString: KillTrackedSound
+				}
+			}
+		}
+
+		AuricInfusedBuff: {
+			get_Texture: {
+				1: {
+					// OldString: Terrariangene/Buffs/Transformations/AuricInfusedBuff
+					// NewString: Terrariangene/Buffs/Transformations/AuricInfusedBuff
+				}
+			}
+
+			AuraData: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/Transformations/AuricInfusedAura
+					// NewString: Terrariangene/Assets/Textures/Effects/Transformations/AuricInfusedAura
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Auric Infused
+					// NewString: Auric Infused
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/Hair/AuricInfusedHair
+					// NewString: Terrariangene/Assets/Textures/Effects/Hair/AuricInfusedHair
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: DBZMODPORT/Sounds/SSJAscension
+					// NewString: DBZMODPORT/Sounds/SSJAscension
+				}
+
+				2: {
+					// OldString: Terrariangene/Assets/Sounds/SSJR
+					// NewString: Terrariangene/Assets/Sounds/SSJR
+				}
+			}
+
+			KillDBTChargeLoopSound: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: DBZMODPORT.MyPlayer
+					// NewString: DBZMODPORT.MyPlayer
+				}
+
+				3: {
+					// OldString: ModPlayer
+					// NewString: ModPlayer
+				}
+
+				4: {
+					// OldString: auraSoundInfo
+					// NewString: auraSoundInfo
+				}
+
+				5: {
+					// OldString: DBZMODPORT.Util.SoundHelper
+					// NewString: DBZMODPORT.Util.SoundHelper
+				}
+
+				6: {
+					// OldString: KillTrackedSound
+					// NewString: KillTrackedSound
+				}
+			}
+		}
+
+		AwakenedBuff: {
+			get_Texture: {
+				1: {
+					// OldString: Terrariangene/Buffs/Transformations/AwakenedBuff
+					// NewString: Terrariangene/Buffs/Transformations/AwakenedBuff
+				}
+			}
+
+			AuraData: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/Transformations/AwakenedAura
+					// NewString: Terrariangene/Assets/Textures/Effects/Transformations/AwakenedAura
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Awakened
+					// NewString: Awakened
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/Hair/AwakenedHair
+					// NewString: Terrariangene/Assets/Textures/Effects/Hair/AwakenedHair
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: DBZMODPORT/Sounds/SSJAscension
+					// NewString: DBZMODPORT/Sounds/SSJAscension
+				}
+
+				2: {
+					// OldString: DBZMODPORT/Sounds/SSJAura
+					// NewString: DBZMODPORT/Sounds/SSJAura
+				}
+			}
+		}
+
+		ReinforcedSoulBuff: {
+			get_Texture: {
+				1: {
+					// OldString: Terrariangene/Buffs/Transformations/ReinforcedSoulBuff
+					// NewString: Terrariangene/Buffs/Transformations/ReinforcedSoulBuff
+				}
+			}
+
+			AuraData: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/Transformations/ReinforcedSoulAura
+					// NewString: Terrariangene/Assets/Textures/Effects/Transformations/ReinforcedSoulAura
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Reinforced Soul
+					// NewString: Reinforced Soul
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/Hair/ReinforcedSoulHair
+					// NewString: Terrariangene/Assets/Textures/Effects/Hair/ReinforcedSoulHair
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: DBZMODPORT/Sounds/SSJAscension
+					// NewString: DBZMODPORT/Sounds/SSJAscension
+				}
+
+				2: {
+					// OldString: DBZMODPORT/Sounds/SSJAura
+					// NewString: DBZMODPORT/Sounds/SSJAura
+				}
+			}
+		}
+
+		ResolvedWillBuff: {
+			get_Texture: {
+				1: {
+					// OldString: Terrariangene/Buffs/Transformations/ResolvedWillBuff
+					// NewString: Terrariangene/Buffs/Transformations/ResolvedWillBuff
+				}
+			}
+
+			AuraData: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/BlankAura
+					// NewString: Terrariangene/Assets/Textures/Effects/BlankAura
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Resolved Will
+					// NewString: Resolved Will
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					// OldString: ""
+					// NewString: ""
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: Terrariangene/Assets/Sounds/Silence
+					// NewString: Terrariangene/Assets/Sounds/Silence
+				}
+			}
+
+			HandleResolvedWillChargeSound: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: DBZMODPORT.Util.SoundHelper
+					// NewString: DBZMODPORT.Util.SoundHelper
+				}
+
+				3: {
+					// OldString: DBZMODPORT.MyPlayer
+					// NewString: DBZMODPORT.MyPlayer
+				}
+
+				4: {
+					// OldString: ModPlayer
+					// NewString: ModPlayer
+				}
+
+				5: {
+					// OldString: auraSoundInfo
+					// NewString: auraSoundInfo
+				}
+
+				6: {
+					// OldString: KillTrackedSound
+					// NewString: KillTrackedSound
+				}
+
+				7: {
+					// OldString: PlayCustomSound
+					// NewString: PlayCustomSound
+				}
+
+				8: {
+					// OldString: Terrariangene/Assets/Sounds/TwinkleLoop
+					// NewString: Terrariangene/Assets/Sounds/TwinkleLoop
+				}
+
+				9: {
+					// OldString: UpdateTrackedSound
+					// NewString: UpdateTrackedSound
+				}
+			}
+		}
+
+		TrueAwakeningBuff: {
+			get_Texture: {
+				1: {
+					// OldString: Terrariangene/Buffs/Transformations/TrueAwakeningBuff
+					// NewString: Terrariangene/Buffs/Transformations/TrueAwakeningBuff
+				}
+			}
+
+			AuraData: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/Transformations/TrueAwakeningAura
+					// NewString: Terrariangene/Assets/Textures/Effects/Transformations/TrueAwakeningAura
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: True Awakening
+					// NewString: True Awakening
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/Hair/TrueAwakeningHair
+					// NewString: Terrariangene/Assets/Textures/Effects/Hair/TrueAwakeningHair
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: Terrariangene/Assets/Sounds/Silence
+					// NewString: Terrariangene/Assets/Sounds/Silence
+				}
+
+				2: {
+					// OldString: DBZMODPORT/Sounds/SSB
+					// NewString: DBZMODPORT/Sounds/SSB
+				}
+			}
+
+			KillDBTChargeLoopSound: {
+				1: {
+					// OldString: DBZMODPORT
+					// NewString: DBZMODPORT
+				}
+
+				2: {
+					// OldString: DBZMODPORT.MyPlayer
+					// NewString: DBZMODPORT.MyPlayer
+				}
+
+				3: {
+					// OldString: ModPlayer
+					// NewString: ModPlayer
+				}
+
+				4: {
+					// OldString: auraSoundInfo
+					// NewString: auraSoundInfo
+				}
+
+				5: {
+					// OldString: DBZMODPORT.Util.SoundHelper
+					// NewString: DBZMODPORT.Util.SoundHelper
+				}
+
+				6: {
+					// OldString: KillTrackedSound
+					// NewString: KillTrackedSound
+				}
+			}
+		}
+	}
+
+	Combat: {
+		FocusBuff: {
+			get_Texture: {
+				1: {
+					// OldString: Terrariangene/Buffs/TerrarianGeneBuff
+					// NewString: Terrariangene/Buffs/TerrarianGeneBuff
+				}
+			}
+
+			AuraData: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/Transformations/FocusAura
+					// NewString: Terrariangene/Assets/Textures/Effects/Transformations/FocusAura
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Focus
+					// NewString: Focus
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					// OldString: ""
+					// NewString: ""
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: DBZMODPORT/Sounds/SSJAscension
+					// NewString: DBZMODPORT/Sounds/SSJAscension
+				}
+
+				2: {
+					// OldString: DBZMODPORT/Sounds/SSJAura
+					// NewString: DBZMODPORT/Sounds/SSJAura
+				}
+			}
+		}
+
+		OverdriveBuff: {
+			get_Texture: {
+				1: {
+					// OldString: Terrariangene/Buffs/TerrarianGeneBuff
+					// NewString: Terrariangene/Buffs/TerrarianGeneBuff
+				}
+			}
+
+			AuraData: {
+				1: {
+					// OldString: Terrariangene/Assets/Textures/Effects/Transformations/OverdriveAura
+					// NewString: Terrariangene/Assets/Textures/Effects/Transformations/OverdriveAura
+				}
+			}
+
+			FormName: {
+				1: {
+					// OldString: Overdrive
+					// NewString: Overdrive
+				}
+			}
+
+			HairTexturePath: {
+				1: {
+					// OldString: ""
+					// NewString: ""
+				}
+			}
+
+			SoundData: {
+				1: {
+					// OldString: DBZMODPORT/Sounds/SSJAscension
+					// NewString: DBZMODPORT/Sounds/SSJAscension
+				}
+
+				2: {
+					// OldString: DBZMODPORT/Sounds/SSJAura
+					// NewString: DBZMODPORT/Sounds/SSJAura
+				}
+			}
+		}
+	}
+}

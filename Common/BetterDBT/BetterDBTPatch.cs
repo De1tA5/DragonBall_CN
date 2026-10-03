@@ -105,7 +105,8 @@ namespace DragonBall_CN.Common.BetterDBT
             if (uiInstance is not null && field is not null)
             {
                 field.SetValue(uiInstance, newString);
-                ModContent.GetInstance<DragonBall_CN>().Logger.Info("SetValue Success");
+                if (DBCPatchConfig.Instance.DebugMode)
+                    ModContent.GetInstance<DragonBall_CN>().Logger.Info($"[BetterDBTPatch]: {fieldName} SetValue Success");
                 return true;
             }
 

@@ -53,8 +53,7 @@ namespace DragonBall_CN.Common.SatanicDBT
             //形态名称
             foreach (var form in FormNames)
             {
-                if (!ModelHelper.TryModifyFormName(mod, "SatanicDBT.Content.Forms.", form.Key, form.Value))
-                    Mod.Logger.Info("Replace FAILED");
+                ModelHelper.TryModifyFormName(mod, "SatanicDBT.Content.Forms.", form.Key, form.Value);
             }
 
             if (!ModelHelper.TryGetNodes(mod, "SatanicDBT.SatanicTree", out Node[] nodes))
@@ -64,8 +63,7 @@ namespace DragonBall_CN.Common.SatanicDBT
             for (int i = 0; i < nodes.Length; i++)
             {
                 if (NewUnlockHints.TryGetValue(nodes[i].BuffKeyName, out string newUnlockHint))
-                    if (ModelHelper.TryModifyNodes(mod, "SatanicDBT.SatanicTree", i, newUnlockHint))
-                        Mod.Logger.Info("Replace Success");
+                    ModelHelper.TryModifyNodes(mod, "SatanicDBT.SatanicTree", i, newUnlockHint);
             }
         }
     }

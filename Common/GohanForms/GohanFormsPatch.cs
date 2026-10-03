@@ -47,8 +47,7 @@ namespace DragonBall_CN.Common.GohanForms
             //形态名称
             foreach (var form in FormNames)
             {
-                if (!ModelHelper.TryModifyFormName(mod, "GohanForms.Transformations.", form.Key, form.Value))
-                    Mod.Logger.Info("Replace FAILED");
+                ModelHelper.TryModifyFormName(mod, "GohanForms.Transformations.", form.Key, form.Value);
             }
 
             if (!ModelHelper.TryGetNodes(mod, "GohanForms.Assets.GOHPlayer+BSSFPanel", out Node[] nodes))
@@ -58,8 +57,7 @@ namespace DragonBall_CN.Common.GohanForms
             for (int i = 0; i < nodes.Length; i++) 
             {
                 if (NewUnlockHints.TryGetValue(nodes[i].BuffKeyName, out string newUnlockHint))
-                    if (ModelHelper.TryModifyNodes(mod, "GohanForms.Assets.GOHPlayer+BSSFPanel", i, newUnlockHint))
-                        Mod.Logger.Info("Replace Success");
+                    ModelHelper.TryModifyNodes(mod, "GohanForms.Assets.GOHPlayer+BSSFPanel", i, newUnlockHint);
             }
         }
     }
