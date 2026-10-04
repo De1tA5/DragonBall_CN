@@ -26,14 +26,14 @@ namespace DragonBall_CN.Common.BetterDBT
         //Buff解锁方式
         private readonly static string[] newLockedTooltips =
             new string[8] {
-                "无伤击败血肉墙",
-                "全程使用界王拳通过Boss Rush",
-                "未死亡情况下通过Boss Rush",
-                "10分钟内速通Boss Rush",
-                "通过Boss Rush时受到的总伤害不超过2000",
-                "无伤通过Boss Rush",
-                "无伤击败任意机械Boss",
-                "未完成，无法通过正常手段获取"
+                "邪恶： 无伤击败血肉墙",
+                "超级赛亚人蓝界王拳： 全程使用界王拳通过Boss Rush",
+                "超级赛亚人蓝进化： 未死亡情况下通过Boss Rush",
+                "超级赛亚人桃红2： 10分钟内速通Boss Rush",
+                "狂怒： 通过Boss Rush时受到的总伤害不超过2000",
+                "自在极意兆： 无伤通过Boss Rush",
+                "超级赛亚人暴怒： 无伤击败任意机械Boss",
+                "自我极意功： 未完成，无法通过正常手段获取"
             };
         public override void PostSetupContent()
         {

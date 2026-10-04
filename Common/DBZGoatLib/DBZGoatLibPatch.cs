@@ -280,8 +280,14 @@ namespace DragonBall_CN.Common.DBZGoatLib
                 return false;
 
             Type? type = mod?.Code.GetType(typeFullName + buffKeyName);
+            if (type is null )  
+            {
+                if (DBCPatchConfig.Instance.DebugMode)
+                    modLogger.Info($"Not Found {typeFullName + buffKeyName}");
+                return false;
+            }   
 
-            MethodInfo? methodInfo = type?.GetMethod("FormName", flags);
+            MethodInfo? methodInfo = type.GetMethod("FormName", flags);
 
             ILHook hook = new(methodInfo, il =>
             {

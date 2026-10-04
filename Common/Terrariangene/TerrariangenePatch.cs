@@ -24,6 +24,9 @@ namespace DragonBall_CN.Common.Terrariangene
             ["TrueAwakeningBuff"] = "真·觉醒",
             ["AuricInfusedBuff"] = "金源灌注",
             ["ApexOfEternityBuff"] = "永恒之巅",
+            //战斗艺术
+            ["FocusBuff"] = "集中",
+            ["OverdriveBuff"] = "过载"
         };
 
         private static readonly string[] NewFormNames = [
@@ -44,19 +47,25 @@ namespace DragonBall_CN.Common.Terrariangene
             ];
 
         private static readonly string[] NewCombatMasteryHints = [
-            "不留破绽，自会精通",
-            "不断其势，自会精通",
+            "不留破绽，自会精通\n[C/959595:译者补充：战斗TP满后自动解锁]",
+            "不断其势，自会精通\n[C/959595:译者补充：战斗TP满后自动解锁]",
             ];
 
         public override void PostSetupContent()
         {
-            if (ModLoader.HasMod(TDB)) 
+            if (ModLoader.TryGetMod(TDB, out Mod mod)) 
             {
                 TigerForceLocalizationHelper.LocalizeAll(Mod.Name, TDB, false);
                 //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, TDB, false, filters: new() 
                 //{
                 //    MethodFilter = MethodFilter.MatchNames("UseItem")
                 //});
+
+                //突破时的文本
+                Type? type = mod.Code.GetType("Terrariangene.Systems.TerrarianTransformations");
+                FieldInfo fieldInfo = type?.GetField("Names", BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Instance);
+                object? instance = Activator.CreateInstance(type);
+                fieldInfo.SetValue(instance, NewFormNames);
             }
         }
 
@@ -66,9 +75,11 @@ namespace DragonBall_CN.Common.Terrariangene
                 return;
 
             //形态名称
+            //常规变身
             foreach (var form in FormNames)
             {
                 ModelHelper.TryModifyFormName(mod, "Terrariangene.Buffs.Transformations.", form.Key, form.Value);
+                ModelHelper.TryModifyFormName(mod, "Terrariangene.Buffs.Combat.", form.Key, form.Value);
             }
         }
 
@@ -77,6 +88,7 @@ namespace DragonBall_CN.Common.Terrariangene
             if (!ModLoader.TryGetMod(TDB, out Mod mod))
                 return;
 
+            //UI界面的文本
             ReflectionString(mod, "formNames", NewFormNames);
             ReflectionString(mod, "formHints", NewUnlockHints);
             ReflectionString(mod, "combatMasteryHints", NewCombatMasteryHints);
