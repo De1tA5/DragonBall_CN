@@ -86,27 +86,27 @@ Configs: {
 
 		enableFullPowerBuff: {
 			Label: 全功率
-			Tooltip: ""
+			Tooltip: 必须启用《Awakening Power》
 		}
 
 		enableShatteredLimitsBuff: {
 			Label: 突破极限
-			Tooltip: ""
+			Tooltip: 必须启用《Awakening Power》
 		}
 
 		enableUIBuff: {
 			Label: 自在极意兆
-			Tooltip: ""
+			Tooltip: 必须启用《Dragon Ball Terraria: Calamity Addon reuploaded》
 		}
 
 		enableVVSBuff: {
 			Label: 紫色面纱
-			Tooltip: ""
+			Tooltip: 必须启用《Dragon Ball Terraria: AF & Calamity Addon》
 		}
 
 		enableStackableUltimate: {
 			Label: 究极
-			Tooltip: ""
+			Tooltip: 必须启用《XV2 Forms and More》
 		}
 	}
 }

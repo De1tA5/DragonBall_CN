@@ -3,9 +3,9 @@ Keybinds: {
 	"Open Terrarian Gene UI.DisplayName": 打开泰拉人基因界面
 	"Power Down Terrarian Form.DisplayName": Power Down Terrarian Form
 	Breakthrough.DisplayName: 突破
-	"Use Technique.DisplayName": 使用技术
-	"Switch Technique Mode.DisplayName": 切换技术模式
-	"Switch Technique.DisplayName": 切换技术
+	"Use Technique.DisplayName": 使用技法
+	"Switch Technique Mode.DisplayName": 切换技法模式
+	"Switch Technique.DisplayName": 切换技法
 }
 
 Items: {
@@ -39,7 +39,7 @@ Items: {
 		Tooltip:
 			'''
 			请谨慎使用，因为它不会移除所有东西……
-			[C/959595:译者补充：移除本模组玩家的泰拉人基因、技术和使用道具，包括玩家的资质也会清空]
+			[C/959595:译者补充：移除本模组玩家的泰拉人基因、技法和使用道具，包括玩家的资质也会清空]
 			'''
 	}
 
@@ -48,13 +48,18 @@ Items: {
 		Tooltip:
 			'''
 			一份来自近乎被遗忘时代的残破记录
-			[C/959595:译者补充：从空岛的天域箱中获取，有且只有一本]
+			[C/959595:译者补充：从空岛的天域箱中获取，整个世界只有1本]
 			'''
 	}
 
 	BeginnersCombatManual: {
 		DisplayName: 初级战斗手册
-		Tooltip: 教授你基础的闪避与攻击
+		Tooltip:
+			''' 
+			教授你基础的闪避与攻击
+			[C/959595:译者补充：使用后解锁战斗艺术界面]
+			[C/959595:地表木箱中获取，整个世界只有1本]
+			'''
 	}
 
 	TerrarianProgressTester: {
@@ -63,8 +68,12 @@ Items: {
 	}
 
 	TempestFangManual: {
-		DisplayName: Tempest Fang Manual
-		Tooltip: It feels weird to touch, like touching a ball of Plasma...
+		DisplayName: 风暴獠牙手册
+		Tooltip:
+			''' 
+			触摸它的感觉很怪，仿佛在触碰一个等离子球……
+			[C/959595:译者补充：沙漠地下的沙岩箱中获取，整个世界只有2本]
+			'''
 	}
 
 	TempestFangTester: {
@@ -78,6 +87,7 @@ Items: {
 			'''
 			忠诚巨龙所留下的最后的礼物……
 			[C/959595:译者补充：丛林地下迷你建筑的金箱中获取]
+			[C/959595:且必须完成金源灌注形态最后一个任务，才能使用学会金源辉焰]
 			'''
 	}
 
@@ -92,18 +102,33 @@ Items: {
 	}
 
 	ZenkaiCrystal: {
-		DisplayName: Zenkai Crystal
-		Tooltip: A crystal filled with the hopes of a terrarian...
+		DisplayName: 全开水晶
+		Tooltip:
+			''' 
+			一颗充满泰拉人希望的水晶……
+			[C/959595:译者补充：暂时无法获取]
+			[C/959595:只有你的全开值能被4整除时才能使用]
+			'''
 	}
 
 	ZenkaiGem: {
-		DisplayName: Zenkai Gem
-		Tooltip: A gem that attracts great companions...
+		DisplayName: 全开宝石
+		Tooltip:
+			''' 
+			一颗能吸引出色伙伴的宝石
+			[C/959595:译者补充：暂时无法获取]
+			[C/959595:只有你的全开值能被4整除时才能使用]
+			'''
 	}
 
 	FlamezKhanScroll: {
-		DisplayName: Mysterious Scroll
-		Tooltip: A Technique that only a select few know, The Scroll is warm...
+		DisplayName: 神秘卷轴
+		Tooltip:
+			''' 
+			只有极少数人知晓的技法，卷轴尚有余温……
+			[C/959595:译者补充：挖掘灰烬块有0.02%概率掉落]
+			[C/959595:使用后学会烈焰吐息]
+			'''
 	}
 
 	VortexPrototype: {
@@ -117,27 +142,46 @@ Items: {
 	}
 
 	FlameMeter: {
-		DisplayName: Flame Meter
-		Tooltip: It holds auric flames for 5 seconds
+		DisplayName: 火焰测量仪
+		Tooltip:
+			''' 
+			让金源辉焰持续5秒
+			[C/959595:译者补充：实际上是显示金源辉焰DPS，但疑似bug无法正确显示]
+			'''
 	}
 
 	FlameHeart: {
-		Tooltip: The heart of a being made entirely of Flames
-		DisplayName: Flame Heart
+		DisplayName: 炎之心
+		Tooltip:
+			''' 
+			完全由火焰构成的生命的心脏
+			[C/959595:译者补充：由《灾厄》吞食魔掉落]
+			[C/959595:使用后当前 金源辉焰 XP x3 ， 烈焰吐息 XP x4.5]
+			'''
+		
 	}
 
 	ZenkaiHuntTester: {
-		Tooltip: Zenkai will be set to 1000
-		DisplayName: Zenkai Hunt Tester
+		DisplayName: 全开狩猎测试
+		Tooltip:
+			'''
+			全开值设置为1000
+			[C/959595:译者补充：除此之外还会开启全开狩猎系统]
+			'''
 	}
 
 	TechniqueTransformationManual: {
-		DisplayName: Technique Manual
-		Tooltip: Teaches how to use techniques properly
+		DisplayName: 技法手册
+		Tooltip:
+			''' 
+			教授你如何正确使用技法
+			[C/959595:译者补充：旅商有10%概率售卖]
+			[C/959595:使用后，你的技巧会根据泰拉人变身形态额外获得伤害倍率加成]
+			'''
 	}
 
 	WhiteGloves: {
-		DisplayName: White Gloves
+		DisplayName: 白色手套
 		Tooltip: ""
 	}
 
@@ -214,8 +258,8 @@ Buffs: {
 	}
 
 	TechniqueCooldownBuff: {
-		DisplayName: 技术冷却
-		Description: 你的技术正在恢复
+		DisplayName: 技法冷却
+		Description: 你的技法正在恢复
 	}
 
 	FocusBuff: {

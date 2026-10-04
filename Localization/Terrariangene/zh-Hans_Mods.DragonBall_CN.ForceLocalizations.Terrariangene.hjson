@@ -84,24 +84,23 @@ UI: {
 
 					"...someone had not."
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Forgotten by the world and weak as they were,
-					still they endured.
+					被世界遗忘，且如此弱小，
+					但他们却依然坚持。
 
-					No Soul spoke their names.
+					没有灵魂能说出出他们的名字。
+					没有王国选择他们。
 
-					No kingdom chose them.
+					然而每一次被抛弃，
+					他们都再度站起。
 
-					Yet each time they were cast aside,
-					they rose once more.
+					最古老的残篇到此为止。
 
-					The oldest fragment ends there.
+					“……尽管万物都已抛弃了他们……”
 
-					"...and though all things had abandoned them..."
-
-					"...someone had not."
-					''' */
+					“……有人没有。”
+					'''
 			}
 		}
 	}
@@ -117,7 +116,7 @@ UI: {
 		DisplayValue: {
 			1: {
 				// OldString: "Flame DPS: "
-				// NewString: "Flame DPS: "
+				NewString: "火焰DPS： "
 			}
 
 			2: {
@@ -131,34 +130,34 @@ UI: {
 		UpdateCombatClicking: {
 			1: {
 				// OldString: You must learn the previous combat art first.
-				// NewString: You must learn the previous combat art first.
+				NewString: 你必须先学会前一个战斗艺术
 			}
 
 			2: {
 				// OldString: You learned Overdrive.
-				// NewString: You learned Overdrive.
+				NewString: 你学会了过载
 			}
 
 			3: {
 				// OldString: You learned Focus.
-				// NewString: You learned Focus.
+				NewString: 你学会了集中
 			}
 
 			4: {
 				// OldString: You lack the required training experience.
-				// NewString: You lack the required training experience.
+				NewString: 你缺少所需的训练经验
 			}
 		}
 
 		DrawCombatArts: {
 			1: {
 				// OldString: COMBAT ARTS
-				// NewString: COMBAT ARTS
+				NewString: 战斗艺术
 			}
 
 			2: {
 				// OldString: "Combat TP: "
-				// NewString: "Combat TP: "
+				NewString: "战斗TP： "
 			}
 
 			3: {
@@ -173,7 +172,7 @@ UI: {
 
 			5: {
 				// OldString: "Mastery: "
-				// NewString: "Mastery: "
+				NewString: "掌握度： "
 			}
 
 			6: {
@@ -185,17 +184,17 @@ UI: {
 		DrawCombatNode: {
 			1: {
 				// OldString: LOCK
-				// NewString: LOCK
+				NewString: 锁定
 			}
 
 			2: {
 				// OldString: Overdrive
-				// NewString: Overdrive
+				NewString: 过载
 			}
 
 			3: {
 				// OldString: Focus
-				// NewString: Focus
+				NewString: 集中
 			}
 		}
 
@@ -286,7 +285,7 @@ UI: {
 
 			10: {
 				// OldString: "   Technique Damage Bonus: +"
-				NewString: "   技术伤害加成： +"
+				NewString: "   技法伤害加成： +"
 			}
 
 			11: {
@@ -441,7 +440,7 @@ UI: {
 
 			3: {
 				// OldString: Technique Mastery
-				// NewString: Technique Mastery
+				NewString: 技法精通
 			}
 
 			4: {
@@ -451,26 +450,26 @@ UI: {
 
 			5: {
 				// OldString: Combat Arts
-				// NewString: Combat Arts
+				NewString: 战斗艺术
 			}
 
 			6: {
 				// OldString: Techniques
-				// NewString: Techniques
+				NewString: 技法
 			}
 		}
 
 		DrawSealedUI: {
 			1: {
 				// OldString: ???
-				// NewString: ???
+				NewString: ？？？
 			}
 		}
 
 		DrawLockedTerrarianUI: {
 			1: {
 				// OldString: ???
-				// NewString: ???
+				NewString: ？？？
 			}
 		}
 
@@ -568,32 +567,32 @@ UI: {
 
 			15: {
 				// OldString: Learn any Combat Art
-				// NewString: Learn any Combat Art
+				NewString: 学会任意一个战斗艺术
 			}
 
 			16: {
 				// OldString: Defeat Cultist with Combat Art active
-				// NewString: Defeat Cultist with Combat Art active
+				NewString: 战斗艺术激活时击败拜月邪教徒
 			}
 
 			17: {
 				// OldString: Obtain Yharon's Soul
-				// NewString: Obtain Yharon's Soul
+				NewString: 获得巨龙金源魄
 			}
 
 			18: {
 				// OldString: Master every Terrarian form
-				// NewString: Master every Terrarian form
+				NewString: 精通所有泰拉人变身形态
 			}
 
 			19: {
 				// OldString: Master every Combat Art
-				// NewString: Master every Combat Art
+				NewString: 精通所有战斗艺术
 			}
 
 			20: {
 				// OldString: Equip the Soul of Eternity
-				// NewString: Equip the Soul of Eternity
+				NewString: 装备永恒之魂
 			}
 		}
 
@@ -698,17 +697,17 @@ UI: {
 		DrawTechniques: {
 			1: {
 				// OldString: TECHNIQUES
-				// NewString: TECHNIQUES
+				NewString: 技法
 			}
 
 			2: {
 				// OldString: Tempest Fang
-				// NewString: Tempest Fang
+				NewString: 风暴獠牙
 			}
 
 			3: {
 				// OldString: Vortex Scrolls
-				// NewString: Vortex Scrolls
+				NewString: 星璇卷轴
 			}
 
 			4: {
@@ -753,7 +752,7 @@ UI: {
 
 			12: {
 				// OldString: Auric Flame
-				// NewString: Auric Flame
+				NewString: 金源辉焰
 			}
 
 			13: {
@@ -778,46 +777,46 @@ UI: {
 
 			17: {
 				// OldString: Flamez Khan
-				// NewString: Flamez Khan
+				NewString: 烈焰吐息
 			}
 		}
 
 		DrawTechniqueEntry: {
 			1: {
 				// OldString: ???
-				// NewString: ???
+				NewString: ？？？
 			}
 
 			2: {
 				// OldString: "Level "
-				// NewString: "Level "
+				NewString: "等级 "
 			}
 
 			3: {
 				// OldString: "Uses: "
-				// NewString: "Uses: "
+				NewString: "使用次数: "
 			}
 
 			4: {
 				// OldString: Mastered
-				// NewString: Mastered
+				NewString: 已精通
 			}
 
 			5: {
 				// OldString: Technique not learned
-				// NewString: Technique not learned
+				NewString: 技法还未学会
 			}
 
 			6: {
 				// OldString: " selected."
-				// NewString: " selected."
+				NewString: " 被选中"
 			}
 		}
 
 		DrawTechniqueMastery: {
 			1: {
 				// OldString: TECHNIQUE MASTERY
-				// NewString: TECHNIQUE MASTERY
+				NewString: 技法精通
 			}
 
 			2: {
@@ -1423,7 +1422,7 @@ UI: {
 		DrawTechniqueMasteryEntry: {
 			1: {
 				// OldString: "Rank "
-				// NewString: "Rank "
+				NewString: "等级 "
 			}
 
 			2: {
@@ -1595,7 +1594,7 @@ UI: {
 
 			16: {
 				// OldString: Technique: +
-				NewString: 技术： +
+				NewString: 技法： +
 			}
 
 			17: {
@@ -1646,7 +1645,7 @@ Tiles: {
 		KillTile: {
 			1: {
 				// OldString: A forgotten flame emerges from the ashes...
-				// NewString: A forgotten flame emerges from the ashes...
+				NewString: 被遗忘的火焰从余烬中重现……
 			}
 		}
 	}
@@ -2240,7 +2239,7 @@ Players: {
 		UseAuricFlame: {
 			1: {
 				// OldString: You have not learned Auric Flame.
-				// NewString: You have not learned Auric Flame.
+				NewString: 你还未学习金源辉焰
 			}
 
 			2: {
@@ -2250,7 +2249,7 @@ Players: {
 
 			3: {
 				// OldString: Auric Flame!
-				// NewString: Auric Flame!
+				NewString: 金源辉焰！
 			}
 		}
 
@@ -2286,27 +2285,27 @@ Players: {
 
 			2: {
 				// OldString: !!!!
-				// NewString: !!!!
+				NewString: ！！！！
 			}
 
 			3: {
 				// OldString: !!!
-				// NewString: !!!
+				NewString: ！！！
 			}
 
 			4: {
 				// OldString: !!
-				// NewString: !!
+				NewString: ！！
 			}
 
 			5: {
 				// OldString: !
-				// NewString: !
+				NewString: ！
 			}
 
 			6: {
 				// OldString: "Overdrive "
-				// NewString: "Overdrive "
+				NewString: "过载 "
 			}
 
 			7: {
@@ -2337,7 +2336,7 @@ Players: {
 		UseFlamezKhan: {
 			1: {
 				// OldString: You have not learned Flamez Khan.
-				// NewString: You have not learned Flamez Khan.
+				NewString: 你还未学会烈焰吐息
 			}
 
 			2: {
@@ -2357,19 +2356,19 @@ Players: {
 
 			5: {
 				// OldString: !
-				// NewString: !
+				NewString: ！
 			}
 
 			6: {
 				// OldString: Not enough Ki.
-				// NewString: Not enough Ki.
+				NewString: 没有足够的气
 			}
 		}
 
 		GetFlamezKhanName: {
 			1: {
 				// OldString: Flamez Khan
-				// NewString: Flamez Khan
+				NewString: 烈焰吐息
 			}
 		}
 
@@ -2426,19 +2425,19 @@ Players: {
 		HandleAuricSoulTrial: {
 			1: {
 				// OldString: The endless flame has chosen another bearer.
-				// NewString: The endless flame has chosen another bearer.
+				NewString: 无尽之焰已选择了另一位承载者
 			}
 
 			2: {
 				// OldString: Yharon has left you one final gift. Seek the flames deep below... it will not be a walk in the park.
-				// NewString: Yharon has left you one final gift. Seek the flames deep below... it will not be a walk in the park.
+				NewString: 犽戎为你留下了最后一份礼物，去地底深处寻找那火焰吧……这并非易事
 			}
 		}
 
 		HandleApexTrial: {
 			1: {
 				// OldString: You sought not Eternity... yet Eternity was entrusted to you.
-				// NewString: You sought not Eternity... yet Eternity was entrusted to you.
+				NewString: 你未曾渴求永恒……但永恒却托付于你
 			}
 		}
 
@@ -2477,7 +2476,7 @@ Players: {
 		PowerDown: {
 			1: {
 				// OldString: Combat art released.
-				// NewString: Combat art released.
+				NewString: 战斗艺术已解散
 			}
 
 			2: {
@@ -2489,17 +2488,17 @@ Players: {
 		TryUseCombatTransformation: {
 			1: {
 				// OldString: You have not learned this combat art yet.
-				// NewString: You have not learned this combat art yet.
+				NewString: 你还未学会任何战斗艺术
 			}
 
 			2: {
 				// OldString: Overdrive.
-				// NewString: Overdrive.
+				NewString: 过载
 			}
 
 			3: {
 				// OldString: Focus.
-				// NewString: Focus.
+				NewString: 集中
 			}
 		}
 
@@ -2513,17 +2512,17 @@ Players: {
 		GetTechniqueName: {
 			1: {
 				// OldString: Tempest Fang
-				// NewString: Tempest Fang
+				NewString: 风暴獠牙
 			}
 
 			2: {
 				// OldString: Auric Flame
-				// NewString: Auric Flame
+				NewString: 金源辉焰
 			}
 
 			3: {
 				// OldString: Flamez Khan
-				// NewString: Flamez Khan
+				NewString: 烈焰吐息
 			}
 
 			4: {
@@ -2533,14 +2532,14 @@ Players: {
 
 			5: {
 				// OldString: Technique
-				// NewString: Technique
+				NewString: 技法
 			}
 		}
 
 		GetTechniqueTitle: {
 			1: {
 				// OldString: Unmastered
-				// NewString: Unmastered
+				NewString: 未精通
 			}
 
 			2: {
@@ -3195,12 +3194,12 @@ Players: {
 		SwitchTechniqueMode: {
 			1: {
 				// OldString: No technique mode to switch.
-				NewString: 无技巧可供切换
+				NewString: 无技法可供切换
 			}
 
 			2: {
 				// OldString: Master the base technique before using alternate modes.
-				// NewString: Master the base technique before using alternate modes.
+				NewString: 精通基础技法后才能使用其他模式
 			}
 
 			3: {
@@ -3232,36 +3231,36 @@ Players: {
 		UseSelectedTechnique: {
 			1: {
 				// OldString: No technique selected.
-				// NewString: No technique selected.
+				NewString: 没有技法被选中
 			}
 		}
 
 		TryPayTechniqueCost: {
 			1: {
 				// OldString: Not enough Ki.
-				// NewString: Not enough Ki.
+				NewString: 没有足够的气
 			}
 		}
 
 		CycleTechnique: {
 			1: {
 				// OldString: Technique: Tempest Fang
-				// NewString: Technique: Tempest Fang
+				NewString: 技法： 风暴獠牙
 			}
 
 			2: {
 				// OldString: Technique: Vortex Scrolls
-				// NewString: Technique: Vortex Scrolls
+				NewString: 技法： Vortex Scrolls
 			}
 
 			3: {
 				// OldString: Technique: Auric Flame
-				// NewString: Technique: Auric Flame
+				NewString: 技法： 金源辉焰
 			}
 
 			4: {
 				// OldString: Technique: Flamez Khan
-				// NewString: Technique: Flamez Khan
+				NewString: 技法： 烈焰吐息
 			}
 		}
 
@@ -3310,7 +3309,7 @@ Players: {
 		UseTempestFang: {
 			1: {
 				// OldString: You have not learned Tempest Fang.
-				// NewString: You have not learned Tempest Fang.
+				NewString: 你还未学习风暴獠牙
 			}
 
 			2: {
@@ -3342,7 +3341,7 @@ Players: {
 
 			2: {
 				// OldString: Tempest Fang!
-				// NewString: Tempest Fang!
+				NewString: 风暴獠牙！
 			}
 		}
 
@@ -3356,7 +3355,7 @@ Players: {
 		ReleaseLevel1Charge: {
 			1: {
 				// OldString: Tempest Fang!
-				// NewString: Tempest Fang!
+				NewString: 风暴獠牙
 			}
 		}
 
@@ -3803,17 +3802,17 @@ Players: {
 		CycleTransformation: {
 			1: {
 				// OldString: You do not have the Terrarian Gene.
-				// NewString: You do not have the Terrarian Gene.
+				NewString: 你没有泰拉人基因
 			}
 
 			2: {
 				// OldString: "Transformation: "
-				// NewString: "Transformation: "
+				NewString: "变身： "
 			}
 
 			3: {
 				// OldString: No Terrarian transformations unlocked.
-				// NewString: No Terrarian transformations unlocked.
+				NewString: 没有泰拉人变身被解锁
 			}
 		}
 
@@ -4210,7 +4209,7 @@ Players: {
 
 			3: {
 				// OldString: Technique Overgrowth improved! Technique damage +
-				NewString: 技术已得到提升！ 技术伤害 +
+				NewString: 技法已得到提升！ 技法伤害 +
 			}
 
 			4: {
@@ -4555,7 +4554,7 @@ Items: {
 		UseItem: {
 			1: {
 				// OldString: Your heart is consumed by everlasting flame. Auric Flame XP x3, Flamez Khan XP x4.5.
-				// NewString: Your heart is consumed by everlasting flame. Auric Flame XP x3, Flamez Khan XP x4.5.
+				NewString: 你的心脏被永恒之火所吞噬， 金源辉焰 XP x3 ， 烈焰吐息 XP x4.5
 			}
 		}
 	}
@@ -4564,7 +4563,7 @@ Items: {
 		UseItem: {
 			1: {
 				// OldString: You learned Flamez Khan.
-				// NewString: You learned Flamez Khan.
+				NewString: 你学会了烈焰吐息
 			}
 		}
 	}
@@ -4587,7 +4586,7 @@ Items: {
 		UseItem: {
 			1: {
 				// OldString: Your techniques now resonate with your transformations.
-				// NewString: Your techniques now resonate with your transformations.
+				NewString: 你的技法现在能与你的变身相互共鸣
 			}
 		}
 	}
@@ -4596,7 +4595,7 @@ Items: {
 		UseItem: {
 			1: {
 				// OldString: You learned Tempest Fang.
-				// NewString: You learned Tempest Fang.
+				NewString: 你学会了风暴獠牙
 			}
 		}
 	}
@@ -4639,7 +4638,7 @@ Items: {
 
 			5: {
 				// OldString: Your trait, forms, techniques, mastery, and adaptations have been stripped away.
-				NewString: 你的资质、形态、技术、技术掌握度和气适应度已被清空
+				NewString: 你的资质、形态、技法、技法掌握度和气适应度已被清空
 			}
 		}
 	}
@@ -4653,7 +4652,7 @@ Items: {
 
 			2: {
 				// OldString: The Terrarian Gene has been removed.
-				// NewString: The Terrarian Gene has been removed.
+				NewString: 泰拉人基因已被移除
 			}
 		}
 
@@ -4747,7 +4746,7 @@ Items: {
 
 			2: {
 				// OldString: Technique cooldowns are reduced by 2 seconds
-				// NewString: Technique cooldowns are reduced by 2 seconds
+				NewString: 技法冷却时间减少2秒
 			}
 		}
 	}
@@ -4756,29 +4755,29 @@ Items: {
 		CanUseItem: {
 			1: {
 				// OldString: Only a Terrarian may use this crystal.
-				// NewString: Only a Terrarian may use this crystal.
+				NewString: 只有泰拉人可以使用这个水晶
 			}
 
 			2: {
 				// OldString: You shouldn't have this again...
-				// NewString: You shouldn't have this again...
+				NewString: 你不该再次拥有这个……
 			}
 
 			3: {
 				// OldString: The crystal remains dormant.
-				// NewString: The crystal remains dormant.
+				NewString: 水晶仍处于休眠中
 			}
 
 			4: {
 				// OldString: Your Zenkais must resonate in perfect quarters.
-				// NewString: Your Zenkais must resonate in perfect quarters.
+				NewString: 你的全开必须为完美的1/4才能发生共鸣
 			}
 		}
 
 		UseItem: {
 			1: {
 				// OldString: Your Zenkais now grow faster. +1 extra Zenkai per gain.
-				// NewString: Your Zenkais now grow faster. +1 extra Zenkai per gain.
+				NewString: 你的全开提升速度加快，每次能额外获取1点全开
 			}
 		}
 	}
@@ -4787,34 +4786,34 @@ Items: {
 		CanUseItem: {
 			1: {
 				// OldString: Only a Terrarian may use this gem.
-				// NewString: Only a Terrarian may use this gem.
+				NewString: 只有泰拉人可以使用这个宝石
 			}
 
 			2: {
 				// OldString: You must first use a Zenkai Crystal.
-				// NewString: You must first use a Zenkai Crystal.
+				NewString: 你必须先使用全开水晶
 			}
 
 			3: {
 				// OldString: You should NOT have this AGAIN...
-				// NewString: You should NOT have this AGAIN...
+				NewString: 你不该再次拥有这个……
 			}
 
 			4: {
 				// OldString: The gem has not yet awakened.
-				// NewString: The gem has not yet awakened.
+				NewString: 宝石尚未苏醒
 			}
 
 			5: {
 				// OldString: Your Zenkais must resonate in perfect quarters.
-				// NewString: Your Zenkais must resonate in perfect quarters.
+				NewString: 你的全开必须为完美的1/4才能发生共鸣
 			}
 		}
 
 		UseItem: {
 			1: {
 				// OldString: Your Zenkais surge further. +2 extra Zenkais per gain.
-				// NewString: Your Zenkais surge further. +2 extra Zenkais per gain.
+				NewString: 你的全开进一步激增，每次能额外获取1点全开
 			}
 		}
 	}
@@ -4823,7 +4822,7 @@ Items: {
 		UseItem: {
 			1: {
 				// OldString: Set to max Zenkais. Hunts remain enabled.
-				// NewString: Set to max Zenkais. Hunts remain enabled.
+				NewString: 设置为最大全开值，启用全开狩猎
 			}
 		}
 	}
@@ -4840,37 +4839,37 @@ Items: {
 			UseItem: {
 				1: {
 					// OldString: Test ready: press Breakthrough for Awakened.
-					// NewString: Test ready: press Breakthrough for Awakened.
+					NewString: 测试准备就绪： 按下 [突破] 键解锁觉醒形态
 				}
 
 				2: {
 					// OldString: Test ready: in Awakened, survive below 15% HP for 30s during a boss.
-					// NewString: Test ready: in Awakened, survive below 15% HP for 30s during a boss.
+					NewString: 测试准备就绪： 处于觉醒形态，在Boss战中生命值低于15%并存活30秒
 				}
 
 				3: {
 					// OldString: Test ready: in Resolved Will, survive below 10% HP for 60s during a boss.
-					// NewString: Test ready: in Resolved Will, survive below 10% HP for 60s during a boss.
+					NewString: 测试准备就绪： 处于决意形态，在Boss战中生命值低于10%并存活60秒
 				}
 
 				4: {
 					// OldString: Test ready: use Focus or Overdrive, then defeat one boss.
-					// NewString: Test ready: use Focus or Overdrive, then defeat one boss.
+					NewString: 测试准备就绪： 处于集中或过载形态，并击败拜月邪教徒
 				}
 
 				5: {
 					// OldString: Test ready: obtain Yharon's Soul, then press Breakthrough.
-					// NewString: Test ready: obtain Yharon's Soul, then press Breakthrough.
+					NewString: 测试准备就绪： 获得巨龙金源魄，并按下 [突破] 键
 				}
 
 				6: {
 					// OldString: Test ready: equip Soul of Eternity, then press Breakthrough.
-					// NewString: Test ready: equip Soul of Eternity, then press Breakthrough.
+					NewString: 测试准备就绪： 装备永恒之魂，并按下 [突破] 键
 				}
 
 				7: {
 					// OldString: All Terrarian forms are already unlocked.
-					// NewString: All Terrarian forms are already unlocked.
+					NewString: 所有泰拉人形态已全部解锁
 				}
 			}
 		}
@@ -4891,7 +4890,7 @@ Effects: {
 		Activate: {
 			1: {
 				// OldString: The final ember of the Jungle Dragon answers your call.
-				// NewString: The final ember of the Jungle Dragon answers your call.
+				NewString: 丛林巨龙的最后余烬，回应了你的召唤
 			}
 		}
 	}
@@ -5022,7 +5021,7 @@ NPCs: {
 		OnKill: {
 			1: {
 				// OldString: You have found your purpose. Press Breakthrough.
-				// NewString: You have found your purpose. Press Breakthrough.
+				NewString: 你已找到自己的目标，按下 [突破] 键
 			}
 		}
 	}
