@@ -68,7 +68,7 @@ Items: {
 	}
 
 	TempestFangManual: {
-		DisplayName: 风暴獠牙手册
+		DisplayName: 狂风獠牙手册
 		Tooltip:
 			''' 
 			触摸它的感觉很怪，仿佛在触碰一个等离子球……
@@ -132,13 +132,18 @@ Items: {
 	}
 
 	VortexPrototype: {
-		DisplayName: Vortex Prototype
+		DisplayName: 星璇闪电原型
 		Tooltip: The Cosmic Engineer would Hate this...(FR FR 100 200%!!!)
 	}
 
 	VortexScrolls: {
-		DisplayName: Vortex Heart
-		Tooltip: The embodiment of Storms
+		DisplayName: 星璇之心
+		Tooltip:
+			''' 
+			风暴的化身
+			[C/959595:译者补充：玩家最后一击使用狂风獠牙击杀星璇柱，有1%概率掉落，每个玩家只能掉落一次]
+			[C/959595:狂风獠牙满级后才能使用]
+			'''
 	}
 
 	FlameMeter: {
@@ -186,7 +191,7 @@ Items: {
 	}
 
 	VortexScrollsTester: {
-		DisplayName: Vortex Scrolls Tester
+		DisplayName: 星璇卷轴测试
 		Tooltip: ""
 	}
 }
@@ -198,18 +203,18 @@ Buffs: {
 	}
 
 	TerrarianZenkaiCooldownBuff: {
-		DisplayName: Season of Restoration
-		Description: Even the strongest body must recover after hardship.
+		DisplayName: 恢复之季
+		Description: 即便是最强大的身体，经历磨难也需要恢复
 	}
 
 	TerrarianInCombatBuff: {
-		DisplayName: Trial of Battle
-		Description: Conflict reveals what lies hidden within the heart.
+		DisplayName: 试炼之战
+		Description: 冲突会揭示内心深处的隐秘之物
 	}
 
 	TerrarianZenkaiBuff: {
-		DisplayName: Terrarian Zenkai
-		Description: Hardship endured becomes strength remembered.
+		DisplayName: 泰拉人全开
+		Description: 熬过的苦难，终会成为被铭记的力量
 	}
 
 	AwakenedBuff: {
@@ -249,12 +254,16 @@ Buffs: {
 
 	WeakTraitBuff: {
 		DisplayName: 虚弱
-		Description: Your body is fragile, but something still refuses to let you disappear.
+		Description: 你的身体正支离破碎，但仍有某种存在不让你消失
 	}
 
 	WeakTrialBuff: {
-		DisplayName: The Rejected
-		Description: Death looked upon you with pity and passed by.\nEndure, and mercy may yet find you.
+		DisplayName: 被拒绝
+		Description:
+			''' 
+			死亡怜悯地看了你一眼，便从你身旁走过
+			忍耐坚持，慈悲或许终将找到你
+			'''
 	}
 
 	TechniqueCooldownBuff: {
@@ -314,4 +323,4 @@ NPCs: {
 	FriendlyTideSharkron.DisplayName: Friendly Tide Sharkron
 }
 
-InfoDisplays.FlameMeterInfoDisplay.DisplayName: Flame Meter Info Display
+InfoDisplays.FlameMeterInfoDisplay.DisplayName: 火焰伤害

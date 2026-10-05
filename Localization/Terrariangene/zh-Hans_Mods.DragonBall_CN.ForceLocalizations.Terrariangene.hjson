@@ -702,7 +702,7 @@ UI: {
 
 			2: {
 				// OldString: Tempest Fang
-				NewString: 风暴獠牙
+				NewString: 狂风獠牙
 			}
 
 			3: {
@@ -712,42 +712,42 @@ UI: {
 
 			4: {
 				// OldString: Storm Fang
-				// NewString: Storm Fang
+				NewString: 风暴獠牙
 			}
 
 			5: {
 				// OldString: Lightning Judgment
-				// NewString: Lightning Judgment
+				NewString: 雷光审判
 			}
 
 			6: {
 				// OldString: Tempest Sovereign
-				// NewString: Tempest Sovereign
+				NewString: 风暴君王
 			}
 
 			7: {
 				// OldString: Storm Crown
-				// NewString: Storm Crown
+				NewString: 风暴之冠
 			}
 
 			8: {
 				// OldString: Heavenbreaker
-				// NewString: Heavenbreaker
+				NewString: 裂天者
 			}
 
 			9: {
 				// OldString: Cataclysm
-				// NewString: Cataclysm
+				NewString: 灾变
 			}
 
 			10: {
 				// OldString: Storm Rain Mode
-				// NewString: Storm Rain Mode
+				NewString: 暴风雨模式
 			}
 
 			11: {
 				// OldString: Arc Mode
-				// NewString: Arc Mode
+				NewString: 弧光闪电模式
 			}
 
 			12: {
@@ -757,22 +757,22 @@ UI: {
 
 			13: {
 				// OldString: Crimson Flames
-				// NewString: Crimson Flames
+				NewString: 猩红之焰
 			}
 
 			14: {
 				// OldString: Azure Flames
-				// NewString: Azure Flames
+				NewString: 苍蓝之焰
 			}
 
 			15: {
 				// OldString: The Dragons Flame
-				// NewString: The Dragons Flame
+				NewString: 巨龙之焰
 			}
 
 			16: {
 				// OldString: Nova Flames
-				// NewString: Nova Flames
+				NewString: 超星之焰
 			}
 
 			17: {
@@ -825,11 +825,11 @@ UI: {
 					 mastery complete.
 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					 mastery complete.
+					 完全精通
 
-					''' */
+					'''
 			}
 
 			3: {
@@ -838,11 +838,11 @@ UI: {
 
 					But is that it...?
 					''' */
-				/* NewString:
+				NewString:
 					'''
 
-					But is that it...?
-					''' */
+					但仅此而已吗……？
+					'''
 			}
 
 			4: {
@@ -874,7 +874,7 @@ UI: {
 
 			3: {
 				// OldString: Damage
-				// NewString: Damage
+				NewString: 伤害
 			}
 
 			4: {
@@ -891,7 +891,7 @@ UI: {
 		DrawSmallProgressBar: {
 			1: {
 				// OldString: ": "
-				// NewString: ": "
+				NewString: "： "
 			}
 
 			2: {
@@ -903,7 +903,7 @@ UI: {
 		GetMasteryChallengeText: {
 			1: {
 				// OldString: Mastery complete.
-				// NewString: Mastery complete.
+				NewString: 完全精通
 			}
 
 			2: {
@@ -912,16 +912,16 @@ UI: {
 					The art is not ready to answer.
 					Temper it in battle until the seal stirs.
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					The art is not ready to answer.
-					Temper it in battle until the seal stirs.
-					''' */
+					技法尚未准备好回应
+					在战斗中淬炼直到它的封印解除
+					'''
 			}
 
 			3: {
 				// OldString: Let the storm speak through every strike.
-				// NewString: Let the storm speak through every strike.
+				NewString: 让风暴在每一击中咆哮
 			}
 
 			4: {
@@ -930,11 +930,11 @@ UI: {
 					When it rains the storm has final say against mortal foes.
 					Boss final hits: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					When it rains the storm has final say against mortal foes.
-					Boss final hits: 
-					''' */
+					雨落之时风暴将对凡敌降下最终裁决
+					对Boss最终一击： 
+					'''
 			}
 
 			5: {
@@ -948,11 +948,11 @@ UI: {
 					Crown the storm in battle and thunder.
 					Boss final hits: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Crown the storm in battle and thunder.
-					Boss final hits: 
-					''' */
+					在战斗与雷鸣中为风暴加冕
+					对Boss最终一击： 
+					'''
 			}
 
 			7: {
@@ -966,11 +966,11 @@ UI: {
 					Let no foe escape the pull of the tempest.
 					Enemies pulled: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Let no foe escape the pull of the tempest.
-					Enemies pulled: 
-					''' */
+					任何敌人都休想逃过风暴的牵引
+					已牵引的敌怪： 
+					'''
 			}
 
 			9: {
@@ -984,11 +984,11 @@ UI: {
 					Master the orb where storm and gravity meet.
 					Enemies pulled: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Master the orb where storm and gravity meet.
-					Enemies pulled: 
-					''' */
+					掌握风暴与重力交会之球
+					已牵引的敌怪： 
+					'''
 			}
 
 			11: {
@@ -1002,11 +1002,11 @@ UI: {
 					Destroy The False Bearer and Master The tempest.
 					Boss final hits: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Destroy The False Bearer and Master The tempest.
-					Boss final hits: 
-					''' */
+					摧毁虚假的承载者掌握风暴
+					对Boss最终一击： 
+					'''
 			}
 
 			13: {
@@ -1015,26 +1015,26 @@ UI: {
 					/8
 					Vortex Pillar: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
 					/8
-					Vortex Pillar: 
-					''' */
+					星璇柱： 
+					'''
 			}
 
 			14: {
 				// OldString: No
-				// NewString: No
+				NewString: 未完成
 			}
 
 			15: {
 				// OldString: Done
-				// NewString: Done
+				NewString: 已完成
 			}
 
 			16: {
 				// OldString: Breakthrough ready.
-				// NewString: Breakthrough ready.
+				NewString: 突破准备就绪
 			}
 
 			17: {
@@ -1043,16 +1043,20 @@ UI: {
 					Feed the Flame the wicked that it may become strong enough to stop them.
 					Demon kills: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Feed the Flame the wicked that it may become strong enough to stop them.
-					Demon kills: 
-					''' */
+					将恶魔饲喂于火，待其强大以阻止它们
+					击杀恶魔： 
+					'''
 			}
 
 			18: {
 				// OldString: /50
-				// NewString: /50
+				NewString:
+					''' 
+					/50
+					[C/959595:译者补充：使用烈焰吐息击杀，红恶魔不包含在击杀计数内]
+					'''
 			}
 
 			19: {
@@ -1061,11 +1065,11 @@ UI: {
 					Let the Flame grow beyond and become greater.
 					Reward: Damage boost
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Let the Flame grow beyond and become greater.
-					Reward: Damage boost
-					''' */
+					让火焰超越自身，变得更加强大
+					奖励： 伤害加成
+					'''
 			}
 
 			20: {
@@ -1074,11 +1078,11 @@ UI: {
 					The Blaze of a Chaotic Dragon is the Catalyst of Destruction.
 					Betsy: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					The Blaze of a Chaotic Dragon is the Catalyst of Destruction.
-					Betsy: 
-					''' */
+					混沌巨龙的烈焰将引发毁灭的降临
+					双足翼龙： 
+					'''
 			}
 
 			21: {
@@ -1087,11 +1091,11 @@ UI: {
 
 					Reward: Dragon's Demise
 					''' */
-				/* NewString:
+				NewString:
 					'''
 
-					Reward: Dragon's Demise
-					''' */
+					奖励： 巨龙陨焰
+					'''
 			}
 
 			22: {
@@ -1100,11 +1104,11 @@ UI: {
 					Burn through The Scourge's wicked scales.
 					DoG: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Burn through The Scourge's wicked scales.
-					DoG: 
-					''' */
+					烧穿天灾的邪恶鳞甲
+					神明吞噬者： 
+					'''
 			}
 
 			23: {
@@ -1113,11 +1117,11 @@ UI: {
 
 					Reward: Cleansing Blaze
 					''' */
-				/* NewString:
+				NewString:
 					'''
 
-					Reward: Cleansing Blaze
-					''' */
+					奖励： 净化怒焰
+					'''
 			}
 
 			24: {
@@ -1126,11 +1130,11 @@ UI: {
 					Challenge the Jungle Dragon for the Auric Flame...
 					Yharon: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Challenge the Jungle Dragon for the Auric Flame...
-					Yharon: 
-					''' */
+					向丛林巨龙发起挑战，夺取金源辉焰……
+					犽戎： 
+					'''
 			}
 
 			25: {
@@ -1139,11 +1143,11 @@ UI: {
 
 					Reward: Final damage boost
 					''' */
-				/* NewString:
+				NewString:
 					'''
 
-					Reward: Final damage boost
-					''' */
+					奖励： 最终伤害加成
+					'''
 			}
 
 			26: {
@@ -1152,11 +1156,11 @@ UI: {
 					Overload the flame, then mark the burning path.
 					On Fire III: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Overload the flame, then mark the burning path.
-					On Fire III: 
-					''' */
+					让火焰过载，标记出燃烧之路
+					施加的狱炎： 
+					'''
 			}
 
 			27: {
@@ -1165,11 +1169,11 @@ UI: {
 					/100
 					Pulls: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
 					/100
-					Pulls: 
-					''' */
+					已牵引的敌怪： 
+					'''
 			}
 
 			28: {
@@ -1183,11 +1187,11 @@ UI: {
 					The vortex hungers. Let the flame draw them in.
 					Pulls: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					The vortex hungers. Let the flame draw them in.
-					Pulls: 
-					''' */
+					漩涡正饥渴，让火焰把它们引来
+					已牵引的敌怪： 
+					'''
 			}
 
 			30: {
@@ -1201,11 +1205,11 @@ UI: {
 					Twin winds awaken beneath auric fire.
 					Pulls: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Twin winds awaken beneath auric fire.
-					Pulls: 
-					''' */
+					双子之风于金源辉焰下觉醒
+					已牵引的敌怪： 
+					'''
 			}
 
 			32: {
@@ -1434,7 +1438,7 @@ UI: {
 		DrawFlameMeter: {
 			1: {
 				// OldString: "Flame Meter: "
-				// NewString: "Flame Meter: "
+				NewString: "火焰量表： "
 			}
 
 			2: {
@@ -1444,7 +1448,7 @@ UI: {
 
 			3: {
 				// OldString: Flame Meter: OVER LIMIT
-				// NewString: Flame Meter: OVER LIMIT
+				NewString: 火焰量表： 过载
 			}
 		}
 
@@ -1612,7 +1616,7 @@ UI: {
 
 			18: {
 				// OldString: Spirit: -
-				NewString: 精神（待重译）： -
+				NewString: 灵魂： -
 			}
 
 			19: {
@@ -2256,24 +2260,24 @@ Players: {
 		OnEnterWorld: {
 			1: {
 				// OldString: It's truly a miracle that you've survived this far.
-				// NewString: It's truly a miracle that you've survived this far.
+				NewString: 你能活到现在，真是个奇迹
 			}
 		}
 
 		CanUseItem: {
 			1: {
 				// OldString: Healing cannot reach you.
-				// NewString: Healing cannot reach you.
+				NewString: 你无法受到治疗
 			}
 
 			2: {
 				// OldString: Do not let your anger overcome you.
-				// NewString: Do not let your anger overcome you.
+				NewString: 不要让你的愤怒支配你
 			}
 
 			3: {
 				// OldString: Your soul must endure, but soon aid will come.
-				// NewString: Your soul must endure, but soon aid will come.
+				NewString: 你的灵魂必须坚持下去，但援助很快就会到来
 			}
 		}
 
@@ -2341,17 +2345,17 @@ Players: {
 
 			2: {
 				// OldString: Elf Melter is not unlocked.
-				// NewString: Elf Melter is not unlocked.
+				NewString: 精灵熔炉还未解锁
 			}
 
 			3: {
 				// OldString: Dragon's Demise is not unlocked.
-				// NewString: Dragon's Demise is not unlocked.
+				NewString: 巨龙陨焰还未解锁
 			}
 
 			4: {
 				// OldString: Cleansing Blaze is not unlocked.
-				// NewString: Cleansing Blaze is not unlocked.
+				NewString: 净化怒焰还未解锁
 			}
 
 			5: {
@@ -2375,14 +2379,14 @@ Players: {
 		AddTransformationPoints: {
 			1: {
 				// OldString: "ADDING TP: "
-				// NewString: "ADDING TP: "
+				NewString: "增加TP： "
 			}
 		}
 
 		HandleMasteryGain: {
 			1: {
 				// OldString: " mastered."
-				// NewString: " mastered."
+				NewString: " 已精通"
 			}
 		}
 
@@ -2505,14 +2509,14 @@ Players: {
 		TryCompleteTechniqueBreakthrough: {
 			1: {
 				// OldString: " mastery advanced: "
-				// NewString: " mastery advanced: "
+				NewString: " 精通进阶： "
 			}
 		}
 
 		GetTechniqueName: {
 			1: {
 				// OldString: Tempest Fang
-				NewString: 风暴獠牙
+				NewString: 狂风獠牙
 			}
 
 			2: {
@@ -2527,7 +2531,7 @@ Players: {
 
 			4: {
 				// OldString: Vortex Scrolls
-				// NewString: Vortex Scrolls
+				NewString: 星璇卷轴
 			}
 
 			5: {
@@ -2544,42 +2548,42 @@ Players: {
 
 			2: {
 				// OldString: Stormborne
-				// NewString: Stormborne
+				NewString: 风暴之子
 			}
 
 			3: {
 				// OldString: Fulgurite Walker
-				// NewString: Fulgurite Walker
+				NewString: 电岩行者
 			}
 
 			4: {
 				// OldString: Arcbound
-				// NewString: Arcbound
+				NewString: 电弧绕身
 			}
 
 			5: {
 				// OldString: Fulminant Virtuoso
-				// NewString: Fulminant Virtuoso
+				NewString: 雷鸣大师
 			}
 
 			6: {
 				// OldString: Ball Lightning Savant
-				// NewString: Ball Lightning Savant
+				NewString: 球雷贤者
 			}
 
 			7: {
 				// OldString: Zenith of the Tempest
-				// NewString: Zenith of the Tempest
+				NewString: 风暴之巅
 			}
 
 			8: {
 				// OldString: Cinderborne
-				// NewString: Cinderborne
+				NewString: 灰烬之子
 			}
 
 			9: {
 				// OldString: Pyric Savant
-				// NewString: Pyric Savant
+				NewString: 焚焰贤者
 			}
 
 			10: {
@@ -2654,7 +2658,7 @@ Players: {
 
 			24: {
 				// OldString: Cataclysm Incarnate
-				// NewString: Cataclysm Incarnate
+				NewString: 灾变化身
 			}
 		}
 
@@ -3204,27 +3208,27 @@ Players: {
 
 			3: {
 				// OldString: Only Storm Fang can switch modes.
-				// NewString: Only Storm Fang can switch modes.
+				NewString: 只有风暴獠牙才能切换模式
 			}
 
 			4: {
 				// OldString: Thunderclap Mode
-				// NewString: Thunderclap Mode
+				NewString: 雷鸣模式
 			}
 
 			5: {
 				// OldString: Storm Fang Mode
-				// NewString: Storm Fang Mode
+				NewString: 风暴獠牙模式
 			}
 
 			6: {
 				// OldString: Tempest Fang: Storm Rain Mode
-				// NewString: Tempest Fang: Storm Rain Mode
+				NewString: 狂风獠牙： 暴风雨模式
 			}
 
 			7: {
 				// OldString: Tempest Fang: Arc Mode
-				// NewString: Tempest Fang: Arc Mode
+				NewString: 狂风獠牙： 弧光闪电模式
 			}
 		}
 
@@ -3245,12 +3249,12 @@ Players: {
 		CycleTechnique: {
 			1: {
 				// OldString: Technique: Tempest Fang
-				NewString: 技法： 风暴獠牙
+				NewString: 技法： 狂风獠牙
 			}
 
 			2: {
 				// OldString: Technique: Vortex Scrolls
-				NewString: 技法： Vortex Scrolls
+				NewString: 技法： 星璇卷轴
 			}
 
 			3: {
@@ -3267,17 +3271,17 @@ Players: {
 		CycleTechniqueLevel: {
 			1: {
 				// OldString: "Vortex Scrolls Level "
-				// NewString: "Vortex Scrolls Level "
+				NewString: "星璇卷轴等级"
 			}
 
 			2: {
 				// OldString: ": "
-				// NewString: ": "
+				NewString: "： "
 			}
 
 			3: {
 				// OldString: !
-				// NewString: !
+				NewString: ！
 			}
 
 			4: {
@@ -3287,29 +3291,29 @@ Players: {
 
 			5: {
 				// OldString: .
-				// NewString: .
+				NewString: ""
 			}
 
 			6: {
 				// OldString: "Tempest Fang Level "
-				// NewString: "Tempest Fang Level "
+				NewString: "狂风獠牙等级"
 			}
 
 			7: {
 				// OldString: "Auric Flame Level "
-				// NewString: "Auric Flame Level "
+				NewString: "金源辉焰等级"
 			}
 
 			8: {
 				// OldString: "Flamez Khan Level "
-				// NewString: "Flamez Khan Level "
+				NewString: "烈焰吐息等级"
 			}
 		}
 
 		UseTempestFang: {
 			1: {
 				// OldString: You have not learned Tempest Fang.
-				NewString: 你还未学习风暴獠牙
+				NewString: 你还未学习狂风獠牙
 			}
 
 			2: {
@@ -3341,7 +3345,7 @@ Players: {
 
 			2: {
 				// OldString: Tempest Fang!
-				NewString: 风暴獠牙！
+				NewString: 狂风獠牙！
 			}
 		}
 
@@ -3355,7 +3359,7 @@ Players: {
 		ReleaseLevel1Charge: {
 			1: {
 				// OldString: Tempest Fang!
-				NewString: 风暴獠牙
+				NewString: 狂风獠牙
 			}
 		}
 
@@ -4002,7 +4006,7 @@ Players: {
 		StartLightningJudgment: {
 			1: {
 				// OldString: Lightning Judgment: storm awakened.
-				// NewString: Lightning Judgment: storm awakened.
+				NewString: 雷光审判: storm awakened.
 			}
 		}
 
@@ -4055,7 +4059,7 @@ Players: {
 
 			3: {
 				// OldString: Lightning Judgment!
-				// NewString: Lightning Judgment!
+				NewString: 雷光审判!
 			}
 
 			4: {
@@ -4529,7 +4533,7 @@ Items: {
 		UseItem: {
 			1: {
 				// OldString: You have begun learning basic combat arts.
-				// NewString: You have begun learning basic combat arts.
+				NewString: 你已开始学习最基础的战斗艺术
 			}
 		}
 	}
@@ -4595,7 +4599,7 @@ Items: {
 		UseItem: {
 			1: {
 				// OldString: You learned Tempest Fang.
-				NewString: 你学会了风暴獠牙
+				NewString: 你学会了狂风獠牙
 			}
 		}
 	}
@@ -4684,7 +4688,7 @@ Items: {
 		UseItem: {
 			1: {
 				// OldString: Tempest Fang evolved into Vortex Scrolls.
-				// NewString: Tempest Fang evolved into Vortex Scrolls.
+				NewString: 暴风之牙已进化为星璇卷轴
 			}
 		}
 
@@ -4705,12 +4709,12 @@ Items: {
 		UseItem: {
 			1: {
 				// OldString: "Vortex Scrolls test level set to "
-				// NewString: "Vortex Scrolls test level set to "
+				NewString: "星璇卷轴测试等级设置为"
 			}
 
 			2: {
 				// OldString: .
-				// NewString: .
+				NewString: ""
 			}
 		}
 
@@ -4722,7 +4726,7 @@ Items: {
 
 			2: {
 				// OldString: Cycles Vortex Scrolls test level from 1 to 6
-				// NewString: Cycles Vortex Scrolls test level from 1 to 6
+				NewString: 循环切换星璇卷轴等级从1至6级
 			}
 
 			3: {
@@ -4732,7 +4736,7 @@ Items: {
 
 			4: {
 				// OldString: Also unlocks Vortex Scrolls and sets the needed mastery rank
-				// NewString: Also unlocks Vortex Scrolls and sets the needed mastery rank
+				NewString: 同时解锁星璇卷轴，并设定所需的精通等级
 			}
 		}
 	}
@@ -4973,24 +4977,24 @@ NPCs: {
 
 			3: {
 				// OldString: You have found your purpose.
-				// NewString: You have found your purpose.
+				NewString: 你已找到自己的目标
 			}
 		}
 
 		HandleTechniqueBossUnlocks: {
 			1: {
 				// OldString: Dragon's Demise has been awakened.
-				// NewString: Dragon's Demise has been awakened.
+				NewString: 巨龙陨焰已经觉醒
 			}
 
 			2: {
 				// OldString: Cleansing Blaze has been awakened.
-				// NewString: Cleansing Blaze has been awakened.
+				NewString: 净化怒焰已经觉醒
 			}
 
 			3: {
 				// OldString: Vortex Heart obtained.
-				// NewString: Vortex Heart obtained.
+				NewString: 星璇之心已获取
 			}
 		}
 
