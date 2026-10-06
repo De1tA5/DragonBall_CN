@@ -4115,7 +4115,7 @@ Players: {
 		SpawnHeavenbreakerFinalBolt: {
 			1: {
 				// OldString: HEAVENBREAKER.
-				// NewString: HEAVENBREAKER.
+				NewString: 裂天者
 			}
 		}
 

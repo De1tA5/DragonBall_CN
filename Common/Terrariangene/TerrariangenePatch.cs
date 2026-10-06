@@ -55,11 +55,28 @@ namespace DragonBall_CN.Common.Terrariangene
         {
             if (ModLoader.TryGetMod(TDB, out Mod mod)) 
             {
-                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, TDB, false);
-                //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, TDB, false, filters: new() 
-                //{
-                //    MethodFilter = MethodFilter.MatchNames("UseItem")
-                //});
+                //TigerForceLocalizationHelper.LocalizeAll(Mod.Name, TDB, false);
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, TDB, false, filters: new()
+                {
+                    TypeFilter = TigerForceLocalizationLib.Filters.TypeFilter.MatchFullNames(
+                        "Terrariangene.UI.TerrarianGeneUI")
+                });
+                TigerForceLocalizationHelper.LocalizeAll(Mod.Name, TDB, false, filters: new()
+                {
+                    MethodFilter = MethodFilter.MatchNames(
+                        "CanUseItem", "UseItem", "ModifyTooltips", "DisplayValue", "KillTile", "OnKill",
+                        "UseAuricFlame", "OnEnterWorld", "AddOverdriveCombo", "UseFlamezKhan",
+                        "GetFlamezKhanName", "AddTransformationPoints", "HandleMasteryGain", "HandleZenkai", "HandleResolvedTrial", "HandleReinforcedTrial",
+                        "HandleAuricSoulTrial", "HandleApexTrial", "Breakthrough", "PowerDown", "TryUseCombatTransformation", "TryCompleteTechniqueBreakthrough",
+                        "GetTechniqueName", "GetTechniqueTitle", "SwitchTechniqueMode", "UseSelectedTechnique", "TryPayTechniqueCost", "CycleTechnique", "CycleTechniqueLevel",
+                        "UseTempestFang", "UseLevel1Instant", "ReleaseLevel1Charge", "StartLevel2MagnetCharge", "ReleaseLevel2MagnetCharge", "StartLevel2MassOrbCharge", "ReleaseLevel2MassOrb",
+                        "StartLevel3MagnetCharge", "ReleaseLevel3MagnetCharge", "StartLevel3LightningBombCharge", "ReleaseLevel3LightningBomb", "CycleTransformation", "HandleNoTraitWeakAwakening",
+                        "StartWeakTrial", "FailWeakTrial", "CompleteWeakTrial", "CanUseStormHeight", "UseCataclysm", "UpdateCataclysm", "UpdateVortexScrollsState", "StartLightningJudgment", "UseTempestSovereign",
+                        "StartStormCrown", "StopStormCrown", "GetVortexScrollsName", "UseHeavenbreaker", "UpdateHeavenbreaker", "SpawnHeavenbreakerFinalBolt", "TryCompleteZenkaiHunt", "ApplyZenkaiHuntUpgradeRewards",
+                        "StartNewZenkaiHunt", "TryRerollZenkaiHunt", "ReplaceWithWeak", "Activate", "HandleTechniqueBossUnlocks"
+
+                    )
+                });
 
                 //突破时的文本
                 Type? type = mod.Code.GetType("Terrariangene.Systems.TerrarianTransformations");
