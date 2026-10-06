@@ -1,1 +1,4 @@
-This description will show up on the steam page, check out https://steamcommunity.com/comment/Guide/formattinghelp.
+
+[h1] This is the Chinese localization patch for Dragon Ball Terraria Legacy and its addons [/h1]
+[h1] If you are not a Chinese user, you do not need to subscribe to this mod [/h1]
+
