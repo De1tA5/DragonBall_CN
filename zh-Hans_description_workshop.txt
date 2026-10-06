@@ -1,0 +1,84 @@
+[h1]龙珠泰拉及其附属模组汉化补丁[/h1]
+
+[url=https://github.com/De1tA5/DragonBall_CN] 开源汉化库 [/url]
+
+硬编码部分汉化使用——[url=https://github.com/TigerChenzzz/TerrariaTigerForceLocalizationLib] TigerForceLocalizationLib [/url]
+以及自己的代码
+[u] 由于TigerForceLocalizationLib通过挂钩子的方法来实现硬编码翻译 [/u]
+[u] 这会导致开启大量附属模组时，游戏加载需要较长时间，虽然我已经使用filter优化了部分，但依旧无法避免 [/u]
+
+
+以下为汉化模组：
+[u] 模组均为截至汉化补丁更新能玩的模组，如Traits Plus无法正常游玩，故没有制作汉化（如果模组更新会去汉化） [/u]
+[u] 以及部分硬编码由于作为代码必要组件，汉化会导致效果失效，故也没有汉化 [/u]
+
+[code] 
+[olist]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2828604929] Dragon Ball Terraria Legacy [/url]
+    龙珠泰拉
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2904348574] Vyklade's DBT Transformation Lib [/url]
+    龙珠附属前置库
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3036828002] Oozaru 1.4.4 Port [/url]
+    超赛4和超赛5
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2961904216] Dragon Ball Terraria: Blue Evolution Addon [/url]
+    额外超蓝附属
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3223928825] Dragon Ball Terraria: AF & Calamity Addon [/url]
+    龙珠AF
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2978547678] Dragon Ball Terraria: Gohan Forms Addon [/url]
+    孙悟饭变身形态（究极和野兽）
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058491871] Dragon Ball Terraria: Satanic Tendancies [/url]
+    七宗罪变身形态
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3056084559] Awakening Power [/url]
+    觉醒力量（可叠加的2个形态）
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2919938955] Kirby7's DBTR Custom Forms [/url]
+    Kirby7的自制形态（超赛5-超赛10）
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3740671448] XV2 Forms and More [/url]
+    龙珠超宇宙2形态
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3781230133] [NEW UPDATE] Dragon Ball Terraria: Calamity Addon reuploaded [/url]
+    龙珠灾厄（仅制作新版龙珠灾厄）
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2970099578] Angelic Expansion for Dragon Ball: Calamity Addon [/url]
+    额外超赛桃红以及光之壁形态
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2981988450] Trait Chooser for DBT [/url]
+    玩家资质选取
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3755215309] Terrarian DBT Addon [/url]
+    泰拉人专属变身形态
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3472999245] Dragon Ball Terraria: Rebalanced: Revived [/url]
+    龙珠泰拉平衡
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3473104066] Dragon Ball Terraria: Better Projectile Visuals [/url]
+    龙珠泰拉弹幕视觉效果优化
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3450071610] Unofficial Fargo's Souls DBZMOD DLC [/url]
+    龙珠泰拉和Fargo魂拓展
+[/olist] 
+[/code]
+
+汉化补丁还包含对模组修复，可根据游玩自行在配置界面开启
+[code] 
+[olist]
+    [*]修复龙珠泰拉本体制作站在合成表显示长乱码问题
+    [*]修复《Dragon Ball Terraria: Better Projectile Visuals》悟空强化物品的配方缺失
+    [*]修复内部名重复的变身形态
+    [*]等等
+[/olist] 
+[/code]
+[spoiler] 还有部分夹带私货内容，和正在制作的变身形态 [/spoiler]
+
+关于以上模组的变身解锁条件，点击上方 开源汉化库 查看文档
+如果无法进入Github，你也可以自行提取该汉化补丁，里面包含 Note.md 文件
+如果没有显示md的软件，可以直接丢给AI让其显示
+
+[h2] 后记 [/h2]
+本人并非资深龙珠迷，制作该汉化纯个人兴趣
+龙珠国内汉化有很多，尤其是一些专属形态，这里挑选大众较为认可的以及部分
+参考有百度百科、龙珠小站、Dragon Ball Wiki
+该变身文档是翻译时测试编写的，如有缺漏以及你认为更好的汉化可在steam评论下留言
+[spoiler]
+关于龙珠汉化早在制作《Fargo魔石旧版DLC复刻》汉化时就打算去做
+但当时由于技术力不够以及侧重Fargo附属这块一直没时间做（幸亏当时没考虑去做）
+这个汉化合集做了近1个月，主要问题在于超级硬编码
+什么叫本体、前置库、附属全都有硬编码？
+后来做一半发现有人已经发布龙珠合集汉化，但思来想去就当写写代码了（手打代码还是太痛苦了）
+结果是现在专门研究前置库，已经可以去做龙珠附属了（
+至于之后项目大概是维护之前模组汉化以及AI辅助制作模组了
+[/spoiler]
+
+下个项目再见！
