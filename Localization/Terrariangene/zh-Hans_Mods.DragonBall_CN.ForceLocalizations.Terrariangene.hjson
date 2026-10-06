@@ -864,27 +864,27 @@ UI: {
 		DrawTechniqueObjectiveBars: {
 			1: {
 				// OldString: Lightning
-				// NewString: Lightning
+				NewString: 闪电
 			}
 
 			2: {
 				// OldString: Orb Damage
-				// NewString: Orb Damage
+				NewString: 电球伤害
 			}
 
 			3: {
 				// OldString: Damage
-				NewString: 伤害
+				NewString: 造成伤害
 			}
 
 			4: {
 				// OldString: Legendary Strikes
-				// NewString: Legendary Strikes
+				NewString: 传说一击
 			}
 
 			5: {
 				// OldString: Boss Lightning
-				// NewString: Boss Lightning
+				NewString: Boss闪电
 			}
 		}
 
@@ -1218,11 +1218,11 @@ UI: {
 					/25000
 					Yharon: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
 					/25000
-					Yharon: 
-					''' */
+					犽戎： 
+					'''
 			}
 
 			33: {
@@ -1231,11 +1231,11 @@ UI: {
 					The final spark of The Jungle Dragon's Husk must be claimed.
 					Pulls: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					The final spark of The Jungle Dragon's Husk must be claimed.
-					Pulls: 
-					''' */
+					丛林巨龙的遗骸所留的最后火花必须被取得
+					已牵引的敌怪： 
+					'''
 			}
 
 			34: {
@@ -1244,11 +1244,11 @@ UI: {
 					/30000
 					Yharon final hit: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
 					/30000
-					Yharon final hit: 
-					''' */
+					对犽戎最后一击： 
+					'''
 			}
 
 			35: {
@@ -1257,11 +1257,11 @@ UI: {
 					Bend the storm against machines that surpassed the auric gods.
 					Pulls: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Bend the storm against machines that surpassed the auric gods.
-					Pulls: 
-					''' */
+					驾驭风暴迎击那些凌驾于金源神明之上的巨械
+					已牵引的敌怪： 
+					'''
 			}
 
 			36: {
@@ -1270,11 +1270,11 @@ UI: {
 					/35000
 					Exo Mechs: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
 					/35000
-					Exo Mechs: 
-					''' */
+					星流巨械： 
+					'''
 			}
 
 			37: {
@@ -1283,11 +1283,11 @@ UI: {
 					Complete the auric pull before the embodiment of calamity itself.
 					Pulls: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
 					Complete the auric pull before the embodiment of calamity itself.
-					Pulls: 
-					''' */
+					已牵引的敌怪： 
+					'''
 			}
 
 			38: {
@@ -1296,11 +1296,11 @@ UI: {
 					/40000
 					SCal: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
 					/40000
-					SCal: 
-					''' */
+					至尊女巫，灾厄：  
+					'''
 			}
 
 			39: {
@@ -1309,11 +1309,11 @@ UI: {
 					Let one storm erase the field of warriors before it fades.
 					Boss kills: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Let one storm erase the field of warriors before it fades.
-					Boss kills: 
-					''' */
+					让风暴在消逝前将战场上的战士尽数清除
+					击杀Boss： 
+					'''
 			}
 
 			40: {
@@ -1322,11 +1322,11 @@ UI: {
 					/10
 					One activation kills: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
 					/10
-					One activation kills: 
-					''' */
+					一次激活连续击杀： 
+					'''
 			}
 
 			41: {
@@ -1340,11 +1340,11 @@ UI: {
 					A true storm caster never leaves the sky restless.
 					Boss kills: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					A true storm caster never leaves the sky restless.
-					Boss kills: 
-					''' */
+					真正的风暴术士绝不会让天空陷入躁动
+					击杀Boss: 
+					'''
 			}
 
 			43: {
@@ -1358,11 +1358,11 @@ UI: {
 					Turn the celestial beings to silence with storm power.
 					Boss kills: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Turn the celestial beings to silence with storm power.
-					Boss kills: 
-					''' */
+					以风暴之力令天界众生归于沉寂
+					击杀Boss: 
+					'''
 			}
 
 			45: {
@@ -1371,11 +1371,11 @@ UI: {
 					/50
 					Pillars defeated: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
 					/50
-					Pillars defeated: 
-					''' */
+					击败天界柱： 
+					'''
 			}
 
 			46: {
@@ -1384,11 +1384,11 @@ UI: {
 					Let The True Guardian of the Seas be judged beneath the storm.
 					Duke Fishron: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Let The True Guardian of the Seas be judged beneath the storm.
-					Duke Fishron: 
-					''' */
+					让真正的海洋守护者在风暴下接受审判
+					猪龙鱼公爵： 
+					'''
 			}
 
 			47: {
@@ -1397,11 +1397,11 @@ UI: {
 					Cry out to the heavens that the Moon Lord may be judged.
 					Moon Lord: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Cry out to the heavens that the Moon Lord may be judged.
-					Moon Lord: 
-					''' */
+					向天穹呼喊让月亮领主接受审判
+					月亮领主： 
+					'''
 			}
 
 			48: {
@@ -1410,16 +1410,16 @@ UI: {
 					Slay the King of The Storms.
 					Storm Weaver: 
 					''' */
-				/* NewString:
+				NewString:
 					'''
-					Slay the King of The Storms.
-					Storm Weaver: 
-					''' */
+					击落风暴王者
+					风暴编织者： 
+					'''
 			}
 
 			49: {
 				// OldString: No challenge.
-				// NewString: No challenge.
+				NewString: 无挑战
 			}
 		}
 
@@ -1460,32 +1460,32 @@ UI: {
 
 			2: {
 				// OldString: Single Infernado
-				// NewString: Single Infernado
+				NewString: 狱火龙卷
 			}
 
 			3: {
 				// OldString: Stronger Single Pull
-				// NewString: Stronger Single Pull
+				NewString: 强力牵引
 			}
 
 			4: {
 				// OldString: Twin Twisters
-				// NewString: Twin Twisters
+				NewString: 双重龙卷
 			}
 
 			5: {
 				// OldString: Wide Twin Twisters
-				// NewString: Wide Twin Twisters
+				NewString: 广域双重龙卷
 			}
 
 			6: {
 				// OldString: Greater Auric Storm
-				// NewString: Greater Auric Storm
+				NewString: 强力金源风暴
 			}
 
 			7: {
 				// OldString: Triple Super Tornado
-				// NewString: Triple Super Tornado
+				NewString: 三重超级龙卷
 			}
 		}
 
@@ -2588,72 +2588,72 @@ Players: {
 
 			10: {
 				// OldString: Caldera Disciple
-				// NewString: Caldera Disciple
+				NewString: 火山之徒
 			}
 
 			11: {
 				// OldString: Conflagration Virtuoso
-				// NewString: Conflagration Virtuoso
+				NewString:  焚火大师
 			}
 
 			12: {
 				// OldString: Infernado Paragon
-				// NewString: Infernado Paragon
+				NewString: 狱火龙卷至尊
 			}
 
 			13: {
 				// OldString: Auric Cataclysm
-				// NewString: Auric Cataclysm
+				NewString: 金源灾变
 			}
 
 			14: {
 				// OldString: Initiate
-				// NewString: Initiate
+				NewString: 新手
 			}
 
 			15: {
 				// OldString: Adept
-				// NewString: Adept
+				NewString: 熟练
 			}
 
 			16: {
 				// OldString: Disciple
-				// NewString: Disciple
+				NewString: 学徒
 			}
 
 			17: {
 				// OldString: Expert
-				// NewString: Expert
+				NewString: 专家
 			}
 
 			18: {
 				// OldString: Grandmaster
-				// NewString: Grandmaster
+				NewString: 宗师
 			}
 
 			19: {
 				// OldString: Stormscribe
-				// NewString: Stormscribe
+				NewString: 风暴刻录者
 			}
 
 			20: {
 				// OldString: Volt Weaver
-				// NewString: Volt Weaver
+				NewString: 雷霆编织者
 			}
 
 			21: {
 				// OldString: Tempest Savant
-				// NewString: Tempest Savant
+				NewString: 风暴贤者
 			}
 
 			22: {
 				// OldString: Fulgur Ascendant
-				// NewString: Fulgur Ascendant
+				NewString: 雷光飞升者
 			}
 
 			23: {
 				// OldString: Heavenscourge
-				// NewString: Heavenscourge
+				NewString: 天穹灾星
 			}
 
 			24: {
@@ -3323,17 +3323,17 @@ Players: {
 
 			3: {
 				// OldString: Tempest Magnet is not unlocked.
-				// NewString: Tempest Magnet is not unlocked.
+				NewString: 狂风引磁还未解锁
 			}
 
 			4: {
 				// OldString: Storm Orb is not unlocked.
-				// NewString: Storm Orb is not unlocked.
+				NewString: 风暴电球还未解锁
 			}
 
 			5: {
 				// OldString: Storm Bomb is not unlocked.
-				// NewString: Storm Bomb is not unlocked.
+				NewString: 风暴爆裂还未解锁
 			}
 		}
 
@@ -3359,7 +3359,7 @@ Players: {
 		ReleaseLevel1Charge: {
 			1: {
 				// OldString: Tempest Fang!
-				NewString: 狂风獠牙
+				NewString: 狂风獠牙！
 			}
 		}
 
@@ -3371,14 +3371,14 @@ Players: {
 
 			2: {
 				// OldString: Tempest Magnet.
-				// NewString: Tempest Magnet.
+				NewString: 狂风引磁
 			}
 		}
 
 		ReleaseLevel2MagnetCharge: {
 			1: {
 				// OldString: Tempest Magnet discharged.
-				// NewString: Tempest Magnet discharged.
+				NewString: 狂风引磁不再蓄力
 			}
 		}
 
@@ -3390,14 +3390,14 @@ Players: {
 
 			2: {
 				// OldString: Storm Orb forming.
-				// NewString: Storm Orb forming.
+				NewString: 风暴电球正在形成
 			}
 		}
 
 		ReleaseLevel2MassOrb: {
 			1: {
 				// OldString: Storm Orb released.
-				// NewString: Storm Orb released.
+				NewString: 风暴电球已释放
 			}
 		}
 
@@ -3409,14 +3409,14 @@ Players: {
 
 			2: {
 				// OldString: Tempest Fang: Storm Magnet.
-				// NewString: Tempest Fang: Storm Magnet.
+				NewString: 狂风獠牙： 风暴引磁
 			}
 		}
 
 		ReleaseLevel3MagnetCharge: {
 			1: {
 				// OldString: Tempest Fang: Storm Magnet discharged.
-				// NewString: Tempest Fang: Storm Magnet discharged.
+				NewString: 狂风獠牙： 风暴引磁
 			}
 		}
 
@@ -3428,14 +3428,14 @@ Players: {
 
 			2: {
 				// OldString: Tempest Fang: Storm Bomb charging.
-				// NewString: Tempest Fang: Storm Bomb charging.
+				NewString: 狂风獠牙： 风暴爆裂正在蓄力
 			}
 		}
 
 		ReleaseLevel3LightningBomb: {
 			1: {
 				// OldString: Tempest Fang: Storm Bomb.
-				// NewString: Tempest Fang: Storm Bomb.
+				NewString: 狂风獠牙： 风暴爆裂
 			}
 		}
 
@@ -3823,7 +3823,7 @@ Players: {
 		HandleNoTraitWeakAwakening: {
 			1: {
 				// OldString: It's truly a miracle that you've survived this far.
-				// NewString: It's truly a miracle that you've survived this far.
+				NewString: 你能活到现在，真是个奇迹
 			}
 		}
 
@@ -3886,26 +3886,26 @@ Players: {
 		StartWeakTrial: {
 			1: {
 				// OldString: Even death saw no reason to keep you...
-				// NewString: Even death saw no reason to keep you...
+				NewString: 就连死亡也没有理由将你留下……
 			}
 		}
 
 		FailWeakTrial: {
 			1: {
 				// OldString: The trial has ended. Nothing awakened.
-				// NewString: The trial has ended. Nothing awakened.
+				NewString: 试炼已经结束，但什么都没有觉醒
 			}
 		}
 
 		CompleteWeakTrial: {
 			1: {
 				// OldString: Someone finally noticed your struggle...
-				// NewString: Someone finally noticed your struggle...
+				NewString: 终于有人注意到你的挣扎了……
 			}
 
 			2: {
 				// OldString: You've been given mercy...
-				// NewString: You've been given mercy...
+				NewString: 你已被赐予怜悯……
 			}
 		}
 
@@ -3968,147 +3968,147 @@ Players: {
 		CanUseStormHeight: {
 			1: {
 				// OldString: You are above the clouds. The storm cannot reach you.
-				// NewString: You are above the clouds. The storm cannot reach you.
+				NewString: 你已凌驾于云层之上，风暴无法触及你
 			}
 
 			2: {
 				// OldString: You are too deep below. The storm cannot find a path to you.
-				// NewString: You are too deep below. The storm cannot find a path to you.
+				NewString: 你在的位置过深，风暴无法找到通往你的路
 			}
 		}
 
 		UseCataclysm: {
 			1: {
 				// OldString: Cataclysm: the sky is breaking.
-				// NewString: Cataclysm: the sky is breaking.
+				NewString: 灾变： 天空正在碎裂
 			}
 		}
 
 		UpdateCataclysm: {
 			1: {
 				// OldString: The storm stops breathing.
-				// NewString: The storm stops breathing.
+				NewString: 风暴已止息
 			}
 
 			2: {
 				// OldString: CATACLYSM.
-				// NewString: CATACLYSM.
+				NewString: 灾 变
 			}
 		}
 
 		UpdateVortexScrollsState: {
 			1: {
 				// OldString: The storm goes silent...
-				// NewString: The storm goes silent...
+				NewString: 风暴归于沉寂……
 			}
 		}
 
 		StartLightningJudgment: {
 			1: {
 				// OldString: Lightning Judgment: storm awakened.
-				NewString: 雷光审判: storm awakened.
+				NewString: 雷光审判: 风暴已苏醒
 			}
 		}
 
 		UseTempestSovereign: {
 			1: {
 				// OldString: No hostile targets found.
-				// NewString: No hostile targets found.
+				NewString: 未找到敌对目标
 			}
 
 			2: {
 				// OldString: "Tempest Sovereign: "
-				// NewString: "Tempest Sovereign: "
+				NewString: "风暴君王： "
 			}
 
 			3: {
 				// OldString: " target(s)."
-				// NewString: " target(s)."
+				NewString: " 目标"
 			}
 		}
 
 		StartStormCrown: {
 			1: {
 				// OldString: No hostile target found.
-				// NewString: No hostile target found.
+				NewString: 未找到敌对目标
 			}
 
 			2: {
 				// OldString: "Storm Crown locked: "
-				// NewString: "Storm Crown locked: "
+				NewString: "风暴之冠锁定： "
 			}
 		}
 
 		StopStormCrown: {
 			1: {
 				// OldString: Storm Crown: heaven falls.
-				// NewString: Storm Crown: heaven falls.
+				NewString: 风暴之冠： 天穹坠落
 			}
 		}
 
 		GetVortexScrollsName: {
 			1: {
 				// OldString: Thunderclap!
-				// NewString: Thunderclap!
+				NewString: 雷鸣！
 			}
 
 			2: {
 				// OldString: Storm Fang!
-				// NewString: Storm Fang!
+				NewString: 风暴獠牙！
 			}
 
 			3: {
 				// OldString: Lightning Judgment!
-				NewString: 雷光审判!
+				NewString: 雷光审判！
 			}
 
 			4: {
 				// OldString: Tempest Sovereign!
-				// NewString: Tempest Sovereign!
+				NewString: 风暴君王！
 			}
 
 			5: {
 				// OldString: Storm Crown!
-				// NewString: Storm Crown!
+				NewString: 风暴之冠！
 			}
 
 			6: {
 				// OldString: Heavenbreaker!
-				// NewString: Heavenbreaker!
+				NewString: 裂天者!
 			}
 
 			7: {
 				// OldString: Cataclysm.
-				// NewString: Cataclysm.
+				NewString: 灾变
 			}
 
 			8: {
 				// OldString: Vortex Scrolls!
-				// NewString: Vortex Scrolls!
+				NewString: 星璇卷轴！
 			}
 		}
 
 		UseHeavenbreaker: {
 			1: {
 				// OldString: No hostile target found.
-				// NewString: No hostile target found.
+				NewString: 未找到敌对目标
 			}
 
 			2: {
 				// OldString: "Heavenbreaker: "
-				// NewString: "Heavenbreaker: "
+				NewString: "裂天者： "
 			}
 
 			3: {
 				// OldString: " has been sentenced."
-				// NewString: " has been sentenced."
+				NewString: " 已被裁决"
 			}
 		}
 
 		UpdateHeavenbreaker: {
 			1: {
 				// OldString: The heavens split open.
-				// NewString: The heavens split open.
+				NewString: 天穹被撕裂开
 			}
 		}
 
@@ -4513,7 +4513,7 @@ Players: {
 
 			5: {
 				// OldString: Sometimes we wont always get what we want...
-				// NewString: Sometimes we wont always get what we want...
+				NewString: 有时候我们未必能如愿以偿……
 			}
 		}
 	}
@@ -4967,7 +4967,7 @@ NPCs: {
 		OnKill: {
 			1: {
 				// OldString: "Awakened control trial: "
-				// NewString: "Awakened control trial: "
+				NewString: "觉醒控制试炼： "
 			}
 
 			2: {
