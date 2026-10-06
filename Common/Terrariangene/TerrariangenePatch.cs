@@ -80,9 +80,12 @@ namespace DragonBall_CN.Common.Terrariangene
 
                 //突破时的文本
                 Type? type = mod.Code.GetType("Terrariangene.Systems.TerrarianTransformations");
-                FieldInfo fieldInfo = type?.GetField("Names", BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Instance);
-                object? instance = Activator.CreateInstance(type);
-                fieldInfo.SetValue(instance, NewFormNames);
+                FieldInfo fieldInfo = type?.GetField("Names", BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
+                //静态填null
+                if (fieldInfo?.GetValue(null) is string[] names && NewFormNames.Length == names.Length)
+                {
+                    Array.Copy(NewFormNames, names, names.Length);
+                }
             }
         }
 
