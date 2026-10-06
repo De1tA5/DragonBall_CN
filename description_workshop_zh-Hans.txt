@@ -2,15 +2,17 @@
 
 [url=https://github.com/De1tA5/DragonBall_CN] 开源汉化库 [/url]
 
-硬编码部分汉化使用——[url=https://github.com/TigerChenzzz/TerrariaTigerForceLocalizationLib] TigerForceLocalizationLib [/url]
-以及自己的代码
-[u] 由于TigerForceLocalizationLib通过挂钩子的方法来实现硬编码翻译 [/u]
-[u] 这会导致开启大量附属模组时，游戏加载需要较长时间，虽然我已经使用filter优化了部分，但依旧无法避免 [/u]
+硬编码部分汉化使用——[url=https://github.com/TigerChenzzz/TerrariaTigerForceLocalizationLib] TigerForceLocalizationLib [/url] 以及自己的代码
 
+[b] 由于TigerForceLocalizationLib通过挂钩子的方法来实现硬编码翻译 [/b]
+[b] 这会导致开启大量附属模组时，游戏加载需要较长时间 [/b]
+[b] 虽然我已经使用filter优化了部分，但依旧无法避免 [/b]
 
-以下为汉化模组：
-[u] 模组均为截至汉化补丁更新能玩的模组，如Traits Plus无法正常游玩，故没有制作汉化（如果模组更新会去汉化） [/u]
-[u] 以及部分硬编码由于作为代码必要组件，汉化会导致效果失效，故也没有汉化 [/u]
+[h3] 汉化模组 [/h3]
+
+[b] 模组均为截至汉化补丁更新能玩的模组，如Traits Plus无法正常游玩，故没有制作汉化
+[b] （如果模组更新会去汉化） [/b]
+[b] 以及部分硬编码由于作为代码必要组件，汉化会导致效果失效，故也没有汉化 [/b]
 
 [code] 
 [olist]
@@ -53,12 +55,12 @@
 
 汉化补丁还包含对模组修复，可根据游玩自行在配置界面开启
 [code] 
-[olist]
+[list]
     [*]修复龙珠泰拉本体制作站在合成表显示长乱码问题
     [*]修复《Dragon Ball Terraria: Better Projectile Visuals》悟空强化物品的配方缺失
     [*]修复内部名重复的变身形态
     [*]等等
-[/olist] 
+[/list] 
 [/code]
 [spoiler] 还有部分夹带私货内容，和正在制作的变身形态 [/spoiler]
 
