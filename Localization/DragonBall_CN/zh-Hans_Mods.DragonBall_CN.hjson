@@ -64,6 +64,7 @@ Configs: {
 				'''
 				启用该选项，会修复内部名重复的变身形态（仅限处于不同面板的变身），包括
 				《Dragon Ball Terraria: AF & Calamity Addon》和《Kirby7's DBTR Custom Forms》的超级赛亚人8
+				《Dragon Ball Terraria: Blue Evolution Addon》和《XV2 Forms and More》的极限突破
 				启用后会根据变身面板直接来决定正确的变身形态
 				由于前置库没有使用更为精准的Buff ID来查找对应变身Buff导致的
 				[C/FF3E00:默认禁用，切换该选项需重新加载]
@@ -78,6 +79,11 @@ Configs: {
 				仅为汉化补丁开发者使用的DeBug模式
 				[C/FF3E00:默认禁用]
 				'''
+		}
+
+		EnablePTOForm: {
+			// Label: Enable P T O Form
+			// Tooltip: ""
 		}
 	}
 

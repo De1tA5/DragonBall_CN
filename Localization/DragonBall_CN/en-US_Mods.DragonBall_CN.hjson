@@ -41,6 +41,11 @@ Configs: {
 			Label: Debug Mode
 			Tooltip: ""
 		}
+
+		EnablePTOForm: {
+			Label: Enable P T O Form
+			Tooltip: ""
+		}
 	}
 
 	SubConfig: {
