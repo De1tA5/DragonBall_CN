@@ -8,6 +8,12 @@
 		
 	</PropertyGroup>
 	<ItemGroup>
+	  <PackageReference Include="Hjson" Version="3.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="CalamityMod">
+	    <HintPath>lib\CalamityMod_v2.2.4.dll</HintPath>
+	  </Reference>
 	  <Reference Include="DBTBalanceRevived">
 	    <HintPath>lib\DBTBalanceRevived_v1.0.1.1.dll</HintPath>
 	  </Reference>

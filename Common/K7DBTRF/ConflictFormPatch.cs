@@ -27,12 +27,11 @@ namespace DragonBall_CN.Common.K7DBTRF
          *且GetTransformation()用Transformations.First(x => x.buffKeyName == buffName)
          *因此先注册的SSJ8Buff会先变身，而后注册的同名变身不会变身
          *
-         *
          *通过获取选取当前变身树的Node，来推断属于哪个模组的变身buff
          */
-
-        private Hook transNodeHook;
-        private Hook getTransformationHook;
+        private static bool warned;
+        private static Hook transNodeHook;
+        private static Hook getTransformationHook;
 
         //SSJ8
         private readonly static FormFilter SSJ8 = new FormFilter("SSJ8Buff", new()
@@ -64,7 +63,7 @@ namespace DragonBall_CN.Common.K7DBTRF
 
             if (leftClickMethod is null)
             {
-                Mod.Logger.Info("ConflictFormPatch]: leftClickMethod is null");
+                Mod.Logger.Info("[ConflictFormPatch]: leftClickMethod is null");
                 return;
             }
 
@@ -120,7 +119,7 @@ namespace DragonBall_CN.Common.K7DBTRF
                 };
 
                 if (!filter.HasValue)
-                    return orig.Invoke(buffName);
+                    return GetTransformationCheck(orig, buffName);
 
                 if (DBCPatchConfig.Instance.DebugMode) 
                 {
@@ -147,9 +146,42 @@ namespace DragonBall_CN.Common.K7DBTRF
                 }
             }
 
-            return orig.Invoke(buffName);
+            return GetTransformationCheck(orig,buffName);
         }
 
+        //由于使用TryRemoveTransformationBuff会清空数据导致返回null
+        //故这里修复该问题
+        private static TransformationInfo? GetTransformationCheck(Func<string, TransformationInfo?> orig, string buffName) 
+        {
+            TransformationInfo? result = orig(buffName);
+
+            if (result.HasValue)
+                return result;
+
+            TransformationInfo? fallBack = TransformationHandler.Transformations
+                .Where(x => x.buffKeyName == buffName || x.buffKeyName.EndsWith("." + buffName, StringComparison.Ordinal))
+                .Select(x => (TransformationInfo?)x)
+                .FirstOrDefault();
+
+            if (!fallBack.HasValue && !warned)
+            {
+                warned = true;
+
+                string known = string.Join(" | ", TransformationHandler.Transformations
+                    .Select(x => x.buffKeyName)
+                    .Distinct()
+                    .Take(40));
+
+                ModContent.GetInstance<DragonBall_CN>().Logger.Warn( $"[TransformationLookupPatch] Not Find {buffName}");
+            }
+
+            if (!fallBack.HasValue)
+            {
+                fallBack = TransformationHandler.Transformations.Select(x => (TransformationInfo?)x).FirstOrDefault();
+            }
+
+            return fallBack;
+        }
 
         private static void LeftClickRecordNodes(Action<TransNode, UIMouseEvent> orig, TransNode self, UIMouseEvent evt)
         {

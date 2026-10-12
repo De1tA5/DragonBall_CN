@@ -25,15 +25,10 @@ namespace DragonBall_CN.Common.DBTBalanceRevived
             //又因为模组加载顺序，及先加载DBTrebalance后加载Oozaru，会导致系统错误变身选择前者
             if (DBCPatchConfig.Instance.HideDBTBalanceTransformationTree)
             {
-                if (ModelHelper.TryRemoveTransformationBuff(mod, "LSSJ4Buff"))
-                {
-                    Mod.Logger.Info("Remove Buff Succes");
-                }
+                ModelHelper.TryRemoveTransformationBuff(mod, "LSSJ4Buff");
+
                 //开启Oozaru，将禁用DBTrebalance的传说超级赛亚人4的变身树
-                if (ModelHelper.TryRemovePanel("LSSJ Partial Tree"))
-                {
-                    Mod.Logger.Info("Remove Panel Succes");
-                }
+                ModelHelper.TryRemovePanel("LSSJ Partial Tree");
             }
         }
 

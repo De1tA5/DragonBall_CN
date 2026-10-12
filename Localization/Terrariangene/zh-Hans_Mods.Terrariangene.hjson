@@ -56,7 +56,7 @@ Items: {
 	BeginnersCombatManual: {
 		DisplayName: 初级战斗手册
 		Tooltip:
-			''' 
+			'''
 			教授你基础的闪避与攻击
 			[C/959595:译者补充：使用后解锁战斗艺术界面]
 			[C/959595:地表木箱中获取，整个世界只有1本]
@@ -71,7 +71,7 @@ Items: {
 	TempestFangManual: {
 		DisplayName: 狂风獠牙手册
 		Tooltip:
-			''' 
+			'''
 			触摸它的感觉很怪，仿佛在触碰一个等离子球……
 			[C/959595:译者补充：沙漠地下的沙岩箱中获取，整个世界只有2本]
 			'''
@@ -105,7 +105,7 @@ Items: {
 	ZenkaiCrystal: {
 		DisplayName: 全开水晶
 		Tooltip:
-			''' 
+			'''
 			一颗充满泰拉人希望的水晶……
 			[C/959595:译者补充：暂时无法获取]
 			[C/959595:只有你的全开值能被4整除时才能使用]
@@ -115,7 +115,7 @@ Items: {
 	ZenkaiGem: {
 		DisplayName: 全开宝石
 		Tooltip:
-			''' 
+			'''
 			一颗能吸引出色伙伴的宝石
 			[C/959595:译者补充：暂时无法获取]
 			[C/959595:只有你的全开值能被4整除时才能使用]
@@ -125,7 +125,7 @@ Items: {
 	FlamezKhanScroll: {
 		DisplayName: 神秘卷轴
 		Tooltip:
-			''' 
+			'''
 			只有极少数人知晓的技法，卷轴尚有余温……
 			[C/959595:译者补充：挖掘灰烬块有0.02%概率掉落]
 			[C/959595:使用后学会烈焰吐息]
@@ -140,7 +140,7 @@ Items: {
 	VortexScrolls: {
 		DisplayName: 星璇之心
 		Tooltip:
-			''' 
+			'''
 			风暴的化身
 			[C/959595:译者补充：玩家最后一击使用狂风獠牙击杀星璇柱，有1%概率掉落，每个玩家只能掉落一次]
 			[C/959595:狂风獠牙满级后才能使用]
@@ -150,36 +150,35 @@ Items: {
 	FlameMeter: {
 		DisplayName: 火焰测量仪
 		Tooltip:
-			''' 
+			'''
 			让金源辉焰持续5秒
 			[C/959595:译者补充：实际上是显示金源辉焰DPS，但疑似bug无法正确显示]
 			'''
 	}
 
 	FlameHeart: {
-		DisplayName: 炎之心
 		Tooltip:
-			''' 
+			'''
 			完全由火焰构成的生命的心脏
 			[C/959595:译者补充：由《灾厄》吞食魔掉落]
 			[C/959595:使用后当前 金源辉焰 XP x3 ， 烈焰吐息 XP x4.5]
 			'''
-		
+		DisplayName: 炎之心
 	}
 
 	ZenkaiHuntTester: {
-		DisplayName: 全开狩猎测试
 		Tooltip:
 			'''
 			全开值设置为1000
 			[C/959595:译者补充：除此之外还会开启全开狩猎系统]
 			'''
+		DisplayName: 全开狩猎测试
 	}
 
 	TechniqueTransformationManual: {
 		DisplayName: 技法手册
 		Tooltip:
-			''' 
+			'''
 			教授你如何正确使用技法
 			[C/959595:译者补充：旅商有10%概率售卖]
 			[C/959595:使用后，你的技巧会根据泰拉人变身形态额外获得伤害倍率加成]
@@ -261,7 +260,7 @@ Buffs: {
 	WeakTrialBuff: {
 		DisplayName: 被拒绝
 		Description:
-			''' 
+			'''
 			死亡怜悯地看了你一眼，便从你身旁走过
 			忍耐坚持，慈悲或许终将找到你
 			'''

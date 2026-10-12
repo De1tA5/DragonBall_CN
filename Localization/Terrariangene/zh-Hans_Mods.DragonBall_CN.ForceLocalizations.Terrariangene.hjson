@@ -1053,7 +1053,7 @@ UI: {
 			18: {
 				// OldString: /50
 				NewString:
-					''' 
+					'''
 					/50
 					[C/959595:译者补充：使用烈焰吐息击杀，红恶魔不包含在击杀计数内]
 					'''
@@ -2593,7 +2593,7 @@ Players: {
 
 			11: {
 				// OldString: Conflagration Virtuoso
-				NewString:  焚火大师
+				NewString: 焚火大师
 			}
 
 			12: {
@@ -3271,7 +3271,7 @@ Players: {
 		CycleTechniqueLevel: {
 			1: {
 				// OldString: "Vortex Scrolls Level "
-				NewString: "星璇卷轴等级"
+				NewString: 星璇卷轴等级
 			}
 
 			2: {
@@ -3296,17 +3296,17 @@ Players: {
 
 			6: {
 				// OldString: "Tempest Fang Level "
-				NewString: "狂风獠牙等级"
+				NewString: 狂风獠牙等级
 			}
 
 			7: {
 				// OldString: "Auric Flame Level "
-				NewString: "金源辉焰等级"
+				NewString: 金源辉焰等级
 			}
 
 			8: {
 				// OldString: "Flamez Khan Level "
-				NewString: "烈焰吐息等级"
+				NewString: 烈焰吐息等级
 			}
 		}
 
@@ -4709,7 +4709,7 @@ Items: {
 		UseItem: {
 			1: {
 				// OldString: "Vortex Scrolls test level set to "
-				NewString: "星璇卷轴测试等级设置为"
+				NewString: 星璇卷轴测试等级设置为
 			}
 
 			2: {

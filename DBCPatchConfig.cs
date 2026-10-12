@@ -41,6 +41,10 @@ namespace DragonBall_CN
 
         [Header("SpecialContent")]
 
+        [ReloadRequired]
+        [DefaultValue(false)]
+        public bool EnablePTOForm { get; set; }
+        //[Header("SpecialContent")]
         public SubConfig AutoTransformation = new SubConfig();
 
         #endregion
@@ -64,6 +68,9 @@ namespace DragonBall_CN
             [DefaultValue(false)]
             public bool enableStackableUltimate;
 
+            [DefaultValue(false)]
+            public bool enablePTOBuff;
+
             //下面内容用于调试
             //public override string ToString()
             //{
@@ -76,13 +83,15 @@ namespace DragonBall_CN
                     return enableFullPowerBuff == other.enableFullPowerBuff &&
                         enableShatteredLimitsBuff == other.enableShatteredLimitsBuff &&
                         enableUIBuff == other.enableUIBuff &&
-                        enableVVSBuff == other.enableVVSBuff;
+                        enableVVSBuff == other.enableVVSBuff &&
+                        enableStackableUltimate == other.enableStackableUltimate &&
+                        enablePTOBuff == other.enablePTOBuff;
                 return base.Equals(obj);
             }
 
             public override int GetHashCode()
             {
-                return new { enableFullPowerBuff, enableShatteredLimitsBuff, enableUIBuff, enableVVSBuff }.GetHashCode();
+                return new { enableFullPowerBuff, enableShatteredLimitsBuff, enableUIBuff, enableVVSBuff , enableStackableUltimate , enablePTOBuff}.GetHashCode();
             }
         }
         #endregion

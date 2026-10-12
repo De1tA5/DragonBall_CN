@@ -75,5 +75,18 @@ Configs: {
 			Label: enable Stackable Ultimate
 			Tooltip: ""
 		}
+
+		enablePTOBuff: {
+			Label: enable P T O Buff
+			Tooltip: ""
+		}
+	}
+}
+
+Buffs: {
+	PTOBuff: {
+		DisplayName: P T O Buff
+		Description: Mods.DragonBall_CN.Buffs.PTOBuff.Description
+		MasterDescription: Mods.DragonBall_CN.Buffs.PTOBuff.MasterDescription
 	}
 }

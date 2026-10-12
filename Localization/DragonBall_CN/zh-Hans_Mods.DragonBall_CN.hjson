@@ -82,8 +82,13 @@ Configs: {
 		}
 
 		EnablePTOForm: {
-			// Label: Enable P T O Form
-			// Tooltip: ""
+			Label: 启用攻克之力变身形态
+			Tooltip:
+				'''
+				启用该选项，会提供汉化补丁加入的攻克之力
+				获取难度大且效果极端超模，仅作为彩蛋加入
+				[C/FF3E00:默认禁用，切换该选项需重新加载]
+				'''
 		}
 	}
 
@@ -114,5 +119,18 @@ Configs: {
 			Label: 究极
 			Tooltip: 必须启用《XV2 Forms and More》
 		}
+
+		enablePTOBuff: {
+			Label: 攻克之力
+			Tooltip: 启用攻克之力变身
+		}
+	}
+}
+
+Buffs: {
+	PTOBuff: {
+		DisplayName: 攻克之力
+		Description: 世界的力量充斥你全身
+		MasterDescription: 你与世界融合为一
 	}
 }

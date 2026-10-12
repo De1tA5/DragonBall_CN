@@ -1,1 +1,5 @@
-Modify this file with a description of your mod.
+这是泰拉龙珠及其附属的中文汉化补丁
+如果你不是中文使用者你不需要订阅该模组
+
+This is the Chinese localization patch for Dragon Ball Terraria Legacy and its addons
+If you are not a Chinese user, you do not need to subscribe to this mod
