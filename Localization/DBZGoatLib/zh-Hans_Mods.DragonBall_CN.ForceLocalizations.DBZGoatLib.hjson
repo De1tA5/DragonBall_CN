@@ -653,7 +653,7 @@ UI: {
 		<OnInitialize>b__20_5: {
 			1: {
 				// OldString: Ki Class statistics.
-				NewString: 气职业属性
+				NewString: 气功职业属性
 			}
 		}
 	}

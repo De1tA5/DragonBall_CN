@@ -857,7 +857,7 @@ dbzcalamityPlayer: {
 	ProficiencyEffects: {
 		1: {
 			// OldString: Ki proficiency increased!
-			NewString: 气职业熟练度提升！
+			NewString: 气功职业熟练度提升！
 		}
 	}
 
@@ -5521,7 +5521,7 @@ Items: {
 
 				2: {
 					// OldString: Tells you how high your ki proficiency is
-					NewString: 显示你的气职业熟练度
+					NewString: 显示你的气功职业熟练度
 				}
 
 				3: {
@@ -5536,12 +5536,12 @@ Items: {
 
 				5: {
 					// OldString: "Ki proficiency (max of 12500): "
-					NewString: "气职业熟练度（最高12500）：  "
+					NewString: "气功职业熟练度（最高12500）：  "
 				}
 
 				6: {
 					// OldString: "Ki level (max of 15): "
-					NewString: "气职业等级（最高15）： "
+					NewString: "气功职业等级（最高15）： "
 				}
 
 				7: {

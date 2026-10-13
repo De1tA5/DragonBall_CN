@@ -2233,7 +2233,7 @@ NewContent: {
 
 			26: {
 				// OldString: Fixed ultra ki fragment, it doesn't break the ki stat anymore
-				NewString: 修复究极气碎片，它不再会破坏气职业属性
+				NewString: 修复究极气碎片，它不再会破坏气功职业属性
 			}
 
 			27: {

@@ -323,7 +323,7 @@ UI: {
 
 			16: {
 				// OldString: "      Ki Regen Bonus: x"
-				NewString: " 气恢复速度加成： x"
+				NewString: " 气回复速度加成： x"
 			}
 
 			17: {
