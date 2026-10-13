@@ -32,7 +32,7 @@ Configs: {
 			Tooltip: ""
 		}
 
-		FixConflictBuffKey: {
+		ConflictBuffKeyFix: {
 			Label: Fix Conflict Buff Key
 			Tooltip: ""
 		}
@@ -44,6 +44,11 @@ Configs: {
 
 		EnablePTOForm: {
 			Label: Enable P T O Form
+			Tooltip: ""
+		}
+
+		DBCalamitySetBonusFix: {
+			Label: D B Calamity Set Bonus Fix
 			Tooltip: ""
 		}
 	}

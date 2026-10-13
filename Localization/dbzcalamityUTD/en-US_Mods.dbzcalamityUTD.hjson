@@ -627,6 +627,7 @@ Items: {
 	AerospecHood: {
 		DisplayName: Aerospec Hood
 		Tooltip: 10% Increased Ki Damage
+		SetBonus: ""
 	}
 
 	AuricTeslaBattleBand: {
@@ -638,6 +639,7 @@ Items: {
 			Maximum Ki increased by 3000
 			Not moving boosts all damage and critical strike chance
 			'''
+		SetBonus: ""
 	}
 
 	BloodflareDemonHead: {
@@ -650,6 +652,7 @@ Items: {
 			15% Increased Ki Crit Chance
 			Maximum Ki increased by 2000
 			'''
+		SetBonus: ""
 	}
 
 	DaedalusBand: {
@@ -669,6 +672,7 @@ Items: {
 			22% Increased Ki Crit Chance
 			Maximum Ki increased by 2200
 			'''
+		SetBonus: ""
 	}
 
 	HydrothermicBand: {
@@ -683,6 +687,7 @@ Items: {
 			Temporary immunity to lava
 			Immunity to fire damage
 			'''
+		SetBonus: ""
 	}
 
 	ReaverHood: {
@@ -707,6 +712,7 @@ Items: {
 			20% Decreased Ki usage
 			Maximum Ki increased by 2500
 			'''
+		SetBonus: ""
 	}
 
 	StatigelBand: {
@@ -729,6 +735,7 @@ Items: {
 			Increased Ki Regen
 			Maximum Ki increased by 1250
 			'''
+		SetBonus: ""
 	}
 
 	VictideHood: {
@@ -738,6 +745,7 @@ Items: {
 			6% Increased Ki Damage
 			6% Increased Ki Crit Chance
 			'''
+		SetBonus: ""
 	}
 
 	WulfrumHood: {

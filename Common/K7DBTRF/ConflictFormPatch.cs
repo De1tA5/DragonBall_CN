@@ -55,7 +55,7 @@ namespace DragonBall_CN.Common.K7DBTRF
 
         public override void Load()
         {
-            if (!DBCPatchConfig.Instance.FixConflictBuffKey)
+            if (!DBCPatchConfig.Instance.ConflictBuffKeyFix)
                 return;
 
             MethodInfo? leftClickMethod = typeof(TransNode)?.GetMethod("LeftClick", BindingFlags.Public | BindingFlags.Instance);

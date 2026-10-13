@@ -31,7 +31,10 @@ namespace DragonBall_CN
 
         [ReloadRequired]
         [DefaultValue(false)]
-        public bool FixConflictBuffKey { get; set; }
+        public bool ConflictBuffKeyFix { get; set; }
+
+        [DefaultValue(false)]
+        public bool DBCalamitySetBonusFix { get; set; }
 
         [DefaultValue(false)]
         public bool DebugMode { get; set; }

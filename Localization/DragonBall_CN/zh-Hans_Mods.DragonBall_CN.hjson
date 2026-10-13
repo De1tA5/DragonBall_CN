@@ -12,9 +12,9 @@ Configs: {
 			Tooltip:
 				'''
 				启用该选项，会禁用《Dragon Ball Terraria: Rebalanced: Revived》传说超级赛亚人4
-				由于《Dragon Ball Terraria: Rebalanced: Revived》和《Oozaru》包含传说超级赛亚人4
-				导致前者会把后者的传说超级赛亚人4覆盖，而后者还有更进一步强化形态
-				请根据你游玩需要启用该修复
+				该bug由于《Dragon Ball Terraria: Rebalanced: Revived》和《Oozaru》包含传说超级赛亚人4
+				导致前者会把后者的传说超级赛亚人4的变身buff以及变身面选取框给覆盖
+				从而完全无法获得《Oozaru》的传说超级赛亚人4
 				[C/FF3E00:默认禁用，切换该选项需重新加载]
 				'''
 		}
@@ -24,7 +24,7 @@ Configs: {
 			Tooltip:
 				'''
 				启用该选项，修复龙珠本体的使用合成表mod时，龙珠Z桌和龙珠改桌乱码问题
-				由于本体模组未注册2个物块MapEntry，导致合成表mod会出现长串代码
+				该bug由于本体模组未注册2个物块MapEntry，导致合成表mod会出现长串代码
 				[C/FF3E00:默认启用，切换该选项需重新加载]
 				'''
 		}
@@ -34,7 +34,7 @@ Configs: {
 			Tooltip:
 				'''
 				启用该选项，会重新添加超级赛亚人5毛发的配方
-				原配方其实已经写好但没有注册
+				该bug由于原配方其实已经写好但没有注册
 				[C/FF3E00:默认启用，切换该选项需重新加载]
 				'''
 		}
@@ -44,7 +44,8 @@ Configs: {
 			Tooltip:
 				'''
 				启用该选项，修复模组部分无法合成的悟空强化物品的配方
-				由于dbzcalamity不再更新，因此需要换成dbzcalamityUTD的物品才能合成
+				该bug由于原模组依赖dbzcalamity而非最新dbzcalamityUTD
+				而前者已不再适配最新灾厄，因此需要换成dbzcalamityUTD的物品才能合成
 				[C/FF3E00:默认启用，切换该选项需重新加载]
 				'''
 		}
@@ -53,20 +54,21 @@ Configs: {
 			Label: 自动变身
 			Tooltip:
 				'''
-				额外内容，允许玩家变身时一键获得所有可叠加形态
+				额外内容，允许玩家变身时获得所有可叠加形态
 				[C/FF3E00:默认禁用]
 				'''
 		}
 
-		FixConflictBuffKey: {
+		ConflictBuffKeyFix: {
 			Label: 修复内部名重复的变身形态
 			Tooltip:
 				'''
-				启用该选项，会修复内部名重复的变身形态（仅限处于不同面板的变身），包括
+				启用该选项，会修复内部名重复的变身形态（仅限处于不同独立面板的变身），包括
 				《Dragon Ball Terraria: AF & Calamity Addon》和《Kirby7's DBTR Custom Forms》的超级赛亚人8
 				《Dragon Ball Terraria: Blue Evolution Addon》和《XV2 Forms and More》的极限突破
 				启用后会根据变身面板直接来决定正确的变身形态
-				由于前置库没有使用更为精准的Buff ID来查找对应变身Buff导致的
+				该bug由于前置库没有使用更为精准的Buff ID来查找对应变身Buff
+				而是使用BuffKeyName，这导致重名变身只会使用加载最早的变身
 				[C/FF3E00:默认禁用，切换该选项需重新加载]
 				'''
 		}
@@ -88,6 +90,17 @@ Configs: {
 				启用该选项，会提供汉化补丁加入的攻克之力
 				获取难度大且效果极端超模，仅作为彩蛋加入
 				[C/FF3E00:默认禁用，切换该选项需重新加载]
+				'''
+		}
+
+		DBCalamitySetBonusFix: {
+			Label: 修复《Dragon Ball Terraria: Calamity Addon reuploaded》套装奖励不生效
+			Tooltip: 
+				'''
+				启用该选项，修复部分套装的套装奖励无法生效的问题
+				该bug由于原模组使用Mod.Call("SetSetBonus")获得对应套装奖励
+				而该方法已被灾厄弃用，故套装奖励无法生效
+				[C/FF3E00:默认禁用]
 				'''
 		}
 	}
