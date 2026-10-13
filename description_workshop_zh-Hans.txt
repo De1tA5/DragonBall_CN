@@ -59,13 +59,14 @@
     [*]修复龙珠泰拉本体制作站在合成表显示长乱码问题
     [*]修复《Dragon Ball Terraria: Better Projectile Visuals》悟空强化物品的配方缺失
     [*]修复内部名重复的变身形态
+    [*]修复《Dragon Ball Terraria: Calamity Addon reuploaded 》部分套装奖励不生效
     [*][spoiler]存在部分夹带私货内容，和攻克之力变身形态[/spoiler]
 [/list] 
 [/code]
 
 关于以上模组的变身解锁条件，点击上方 开源汉化库 查看文档
-如果无法进入Github，你也可以自行提取该汉化补丁，里面包含 Note.md 文件
-如果没有显示md的软件，可以直接丢给AI让其显示
+如果无法进入Github，你也可以自行提取该汉化补丁，里面包含 Note.md 文档
+如果没有显示或编辑的MarkDown的软件，可以将文档直接丢给AI让其显示
 
 [h2] 后记 [/h2]
 本人并非资深龙珠迷，制作该汉化纯个人兴趣
