@@ -11,6 +11,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.GFAE
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class GFAEPatch:ModSystem
     {
         private readonly static string GFAE = "GFAE";

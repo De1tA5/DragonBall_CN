@@ -6,6 +6,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.DBTBalanceRevived
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class DBTBalanceRevivedPatch : ModSystem
     {
         private static readonly string Balance = "DBTBalanceRevived";

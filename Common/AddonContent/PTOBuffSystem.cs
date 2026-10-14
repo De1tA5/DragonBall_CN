@@ -3,6 +3,8 @@ using Terraria.ModLoader;
 
 namespace DragonBall_CN.Common.AddonContent
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class PTOBuffSystem : ModSystem
     {
         public override void Load()

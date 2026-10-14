@@ -7,6 +7,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.dbztac
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class dbztacPatch : ModSystem
     {
         private readonly static string DBZF = "dbztac";

@@ -8,6 +8,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.SatanicDBT
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class SatanicDBTPatch : ModSystem
     {
         private static readonly string Sin = "SatanicDBT";

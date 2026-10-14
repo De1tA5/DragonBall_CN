@@ -15,6 +15,7 @@ using TigerForceLocalizationLib.Filters;
 namespace DragonBall_CN.Common.DBZGoatLib
 {
     [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class DBZGoatLibPatch : ModSystem
     {
         private static readonly string dragonBallLib = "DBZGoatLib";
@@ -85,6 +86,7 @@ namespace DragonBall_CN.Common.DBZGoatLib
     }
 
     [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class ModelHelper : ModSystem
     {
         private static ILog modLogger => ModContent.GetInstance<DragonBall_CN>().Logger;

@@ -17,6 +17,8 @@ using Terraria.UI;
 
 namespace DragonBall_CN.Common.K7DBTRF
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class ConflictFormPatch : ModSystem
     {
         /*
@@ -172,7 +174,7 @@ namespace DragonBall_CN.Common.K7DBTRF
                     .Distinct()
                     .Take(40));
 
-                ModContent.GetInstance<DragonBall_CN>().Logger.Warn( $"[TransformationLookupPatch] Not Find {buffName}");
+                ModContent.GetInstance<DragonBall_CN>().Logger.Warn( $"[GetTransformationCheck] Not Find {buffName}");
             }
 
             if (!fallBack.HasValue)

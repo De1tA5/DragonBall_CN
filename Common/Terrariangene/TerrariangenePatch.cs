@@ -12,6 +12,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.Terrariangene
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class TerrariangenePatch:ModSystem
     {
         private static readonly string TDB = "Terrariangene";

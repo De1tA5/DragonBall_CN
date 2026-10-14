@@ -9,6 +9,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.Oozaru144port
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class Oozaru144portPatch : ModSystem
     {
         private static readonly string Oozaru = "oozaru144port";

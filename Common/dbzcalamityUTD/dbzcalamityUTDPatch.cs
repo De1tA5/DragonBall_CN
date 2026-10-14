@@ -11,6 +11,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.dbzcalamityUTD
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class dbzcalamityUTDPatch:ModSystem
     {
         //修复套装奖励

@@ -6,7 +6,8 @@ using DragonBall_CN.Common.AddonContent;
 
 namespace DragonBall_CN
 {
-    
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class DragonBall_CN : Mod
     {
         public enum PTOPacketType : byte

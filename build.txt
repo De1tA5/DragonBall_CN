@@ -1,6 +1,6 @@
 displayName = 龙珠汉化合集
 author = 三杯伍迪
-version = 1.2
+version = 1.2.1
 side = Client
 includeSource = true
 modReferences = DBZMODPORT
@@ -8,3 +8,4 @@ weakReferences = DBZGoatLib, CalamityMod
 sortBefore = oozaru144port , SSBETES , GohanForms , DBTBalanceRevived , dbzcalamityUTD , GFAE , AwakeningPower , dbztac , SatanicDBT , K7DBTRF , XV2Forms , Terrariangene
 sortIgnore = CalamityMod
 dllReferences = TigerForceLocalizationLib
+buildIgnore = lib/CalamityMod_v2.2.4.dll , lib/DBZGoatLib_v1.8.0.dll , lib/DBZMODPORT_v1.0.0.23.dll

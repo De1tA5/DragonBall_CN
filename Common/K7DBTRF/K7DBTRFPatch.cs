@@ -7,6 +7,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.K7DBTRF
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class K7DBTRFPatch : ModSystem
     {
         private static readonly string Custom = "K7DBTRF";

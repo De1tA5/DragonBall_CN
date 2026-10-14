@@ -7,6 +7,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.XV2Forms
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class XV2FormsPatch : ModSystem
     {
         private static readonly string XV2 = "XV2Forms";

@@ -7,6 +7,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.AwakeningPower
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class AwakeningPowerPatch : ModSystem
     {
         private static readonly string AP = "AwakeningPower";

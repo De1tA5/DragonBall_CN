@@ -7,6 +7,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.SSBETES
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class SSBETESPatch : ModSystem
     {
         private readonly string blueAddon = "SSBETES";

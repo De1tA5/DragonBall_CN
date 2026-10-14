@@ -12,6 +12,8 @@ using static DragonBall_CN.DragonBall_CN;
 
 namespace DragonBall_CN.Common.AddonContent
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class AddonPlayer : ModPlayer
     {
         

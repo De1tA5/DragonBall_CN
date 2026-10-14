@@ -1,15 +1,18 @@
 ﻿using DBZGoatLib.Model;
 using Microsoft.Build.Framework;
+using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Terraria;
-using Microsoft.Xna.Framework;
+using Terraria.ModLoader;
 
 namespace DragonBall_CN.Common.AddonContent
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class AddonPanel : TransformationTree
     {
         public override bool Complete()

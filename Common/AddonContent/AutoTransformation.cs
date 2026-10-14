@@ -5,6 +5,8 @@ using Terraria.ModLoader;
 
 namespace DragonBall_CN.Common.AddonContent
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     //可叠加形态自动变身
     public class AutoTransformation : ModPlayer
     {

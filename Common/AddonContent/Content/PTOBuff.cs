@@ -1,17 +1,16 @@
 ﻿using DBZGoatLib;
 using DBZGoatLib.Model;
-using DBZMODPORT;
-using DragonBall_CN.Common.AddonContent;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Text;
 using Terraria;
-using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace DragonBall_CN.Common.AddonContent.Content
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class PTOBuff : Transformation
     {
         public override Gradient KiBarGradient()
@@ -130,7 +129,7 @@ namespace DragonBall_CN.Common.AddonContent.Content
                 buffName = "觉醒 · " + buffName;
             }
 
-            tip = sb.ToString().Trim() + $"\n{description}"; 
+            tip = sb.ToString().Trim() + $"\n{description}";
 
         }
 
@@ -142,7 +141,7 @@ namespace DragonBall_CN.Common.AddonContent.Content
 
             float dmg = activeDamageMulti - 1f;
             float speed = speedMulti - 1f;
-           
+
 
             float num1 = 60f * kiDrainRate;
             float num2 = 60f * kiDrainRateWithMastery;

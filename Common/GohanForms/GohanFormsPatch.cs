@@ -11,6 +11,8 @@ using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.GohanForms
 {
+    [JITWhenModsEnabled("DBZGoatLib")]
+    [ExtendsFromMod("DBZGoatLib")]
     public class GohanFormsPatch:ModSystem
     {
         private static readonly string gohanForms = "GohanForms";
