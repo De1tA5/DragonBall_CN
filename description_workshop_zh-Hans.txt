@@ -53,6 +53,10 @@
 [/olist] 
 [/code]
 
+关于为什么没有制作[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3319541351]Munchies - Dragon Ball Terraria Addon[/url]的汉化
+因为我已经移入[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3543514645]Munchies跨模组拓展合集[/url]中，并额外添加几个附属模组的支持
+
+
 汉化补丁还包含一些额外内容，可根据游玩自行在配置界面开启
 [code] 
 [list]
