@@ -1,16 +1,15 @@
 ﻿using DBZGoatLib.Handlers;
 using DBZGoatLib.Model;
 using log4net;
-using log4net.Repository.Hierarchy;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
-using TigerForceLocalizationLib.Filters;
 
 namespace DragonBall_CN.Common.DBZGoatLib
 {
@@ -18,7 +17,9 @@ namespace DragonBall_CN.Common.DBZGoatLib
     [ExtendsFromMod("DBZGoatLib")]
     public class DBZGoatLibPatch : ModSystem
     {
+        private static ILog modLogger => ModContent.GetInstance<DragonBall_CN>().Logger;
         private static readonly string dragonBallLib = "DBZGoatLib";
+        private static Hook getTransformationHook;
         private static Dictionary<string, string> NewUnlockHints = new()
         {
             ["SSJ1Buff"] = "唯有在强敌面前经历失败，真正的力量才会觉醒\n[C/959595:译者补充：击败骷髅王后Boss战死亡4次，必定变身，死亡次数可积攒]",
@@ -45,7 +46,7 @@ namespace DragonBall_CN.Common.DBZGoatLib
                 //{
                 //    MethodFilter = MethodFilter.MatchNames("HandleMasteryGain", "OnInitialize", "MasteryBarMouseOver", "Update", "BuildTooltip" , "MouseOver"),
                 //});
-                
+
             }
         }
 
@@ -53,6 +54,7 @@ namespace DragonBall_CN.Common.DBZGoatLib
         {
             if (!ModLoader.HasMod(dragonBallLib))
                 return;
+
 
             //菜单形态+变身文字汉化
             Defaults.FormNames = new()
@@ -82,7 +84,45 @@ namespace DragonBall_CN.Common.DBZGoatLib
                 }
             }
             Defaults.DefaultNodes = nodes;
+
+            MethodInfo? getTransformationMethod = typeof(TransformationHandler)?.GetMethod("GetTransformation", BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static, [typeof(string)]);
+            if (getTransformationMethod is null)
+            {
+                Mod.Logger.Info("[DBZGoatLibPatch]: getTransformationMethod is null");
+                return;
+            }
+            getTransformationHook = new Hook(getTransformationMethod, GetTransformationCheck);
         }
+
+        public override void Unload()
+        {
+            getTransformationHook?.Dispose();
+            getTransformationHook = null;
+        }
+
+        //由于使用TryRemoveTransformationBuff会清空数据导致返回null
+        //故这里修复该问题,该修复强制启用
+        private static TransformationInfo? GetTransformationCheck(Func<string, TransformationInfo?> orig, string buffName)
+        {
+            TransformationInfo? result = orig(buffName);
+
+            if (result.HasValue)
+                return result;
+
+            TransformationInfo? fallBack = TransformationHandler.Transformations
+                .Where(x => x.buffKeyName == buffName || x.buffKeyName.EndsWith("." + buffName, StringComparison.Ordinal))
+                .Select(x => (TransformationInfo?)x)
+                .FirstOrDefault();
+
+            if (!fallBack.HasValue)
+            {
+                fallBack = TransformationHandler.Transformations.Select(x => (TransformationInfo?)x).FirstOrDefault();
+                modLogger.Warn($"[GetTransformationCheck] Not Find {buffName}");
+            }
+
+            return fallBack;
+        }
+
     }
 
     [JITWhenModsEnabled("DBZGoatLib")]
@@ -144,9 +184,9 @@ namespace DragonBall_CN.Common.DBZGoatLib
                 return false;
 
             nodes = methodInfo?.Invoke(instance, null) as Node[];
-            if (DBCPatchConfig.Instance.DebugMode) 
+            if (DBCPatchConfig.Instance.DebugMode)
             {
-                foreach (var node in nodes) 
+                foreach (var node in nodes)
                 {
                     modLogger.Info($"[{mod.Name}Patch]: Node Name - {node.BuffKeyName}, Node UnlockHint - {node.UnlockHint}");
                 }
@@ -214,12 +254,12 @@ namespace DragonBall_CN.Common.DBZGoatLib
                 return false;
 
             Type? type = mod?.Code.GetType(typeFullName + buffKeyName);
-            if (type is null )  
+            if (type is null)
             {
                 if (DBCPatchConfig.Instance.DebugMode)
                     modLogger.Info($"Not Found {typeFullName + buffKeyName}");
                 return false;
-            }   
+            }
 
             MethodInfo? methodInfo = type.GetMethod("FormName", flags);
 
@@ -250,7 +290,7 @@ namespace DragonBall_CN.Common.DBZGoatLib
             if (index > -1)
             {
                 UIHandler.Panels.RemoveAt(index);
-                if(DBCPatchConfig.Instance.DebugMode)
+                if (DBCPatchConfig.Instance.DebugMode)
                     modLogger.Info($"Remove {panelName} Success");
                 return true;
             }

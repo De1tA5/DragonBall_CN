@@ -16,7 +16,6 @@ namespace DragonBall_CN.Common.AddonContent
     [ExtendsFromMod("DBZGoatLib")]
     public class AddonPlayer : ModPlayer
     {
-        
         public bool PTOAchieved;
         public bool PTOActive;
         public bool PTOAchievedMsg;
@@ -140,6 +139,8 @@ namespace DragonBall_CN.Common.AddonContent
             {
                 PTOCritBonus = 0f;
             }
+
+            
         }
 
         // 服务端调用，记一次击杀返回是否真的有新增

@@ -95,7 +95,7 @@ Configs: {
 
 		DBCalamitySetBonusFix: {
 			Label: 修复《Dragon Ball Terraria: Calamity Addon reuploaded》套装奖励不生效
-			Tooltip: 
+			Tooltip:
 				'''
 				启用该选项，修复部分套装的套装奖励无法生效的问题
 				该bug由于原模组使用Mod.Call("SetSetBonus")获得对应套装奖励

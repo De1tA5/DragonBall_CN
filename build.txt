@@ -1,6 +1,6 @@
 displayName = 龙珠汉化合集
 author = 三杯伍迪
-version = 1.2.1
+version = 1.2.2
 side = Client
 includeSource = true
 modReferences = DBZMODPORT

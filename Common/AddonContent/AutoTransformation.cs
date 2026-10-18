@@ -1,5 +1,4 @@
 ﻿using DBZGoatLib.Handlers;
-using Terraria;
 using Terraria.GameInput;
 using Terraria.ModLoader;
 
@@ -43,7 +42,7 @@ namespace DragonBall_CN.Common.AddonContent
                 if (ultimate is not null && DBCPatchConfig.Instance.AutoTransformation.enableStackableUltimate)
                     TransformationHandler.Transform(Player, ultimate.Value);
 
-                if ( pto is not null &&  DBCPatchConfig.Instance.AutoTransformation.enablePTOBuff)
+                if (pto is not null && DBCPatchConfig.Instance.AutoTransformation.enablePTOBuff)
                     TransformationHandler.Transform(Player, pto.Value);
             }
         }

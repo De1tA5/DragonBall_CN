@@ -2,15 +2,12 @@
 using DBZGoatLib.Model;
 using DBZGoatLib.UI;
 using DBZGoatLib.UI.Components;
-using DBZMODPORT.Buffs.SSJBuffs;
-using log4net;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Terraria;
-using Terraria.Graphics.Effects;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.UI;
@@ -31,7 +28,6 @@ namespace DragonBall_CN.Common.K7DBTRF
          *
          *通过获取选取当前变身树的Node，来推断属于哪个模组的变身buff
          */
-        private static bool warned;
         private static Hook transNodeHook;
         private static Hook getTransformationHook;
 
@@ -109,9 +105,9 @@ namespace DragonBall_CN.Common.K7DBTRF
         private static TransformationInfo? BetterGetTransformation(Func<string, TransformationInfo?> orig, string buffName)
         {
             //这里加入FormFilter
-            if (TransformationHandler.Transformations.Any(x => 
-                x.buffKeyName == SSJ8.conflictBuffKey || 
-                x.buffKeyName == LimitBreaker.conflictBuffKey)) 
+            if (TransformationHandler.Transformations.Any(x =>
+                x.buffKeyName == SSJ8.conflictBuffKey ||
+                x.buffKeyName == LimitBreaker.conflictBuffKey))
             {
                 FormFilter? filter = buffName switch
                 {
@@ -121,9 +117,9 @@ namespace DragonBall_CN.Common.K7DBTRF
                 };
 
                 if (!filter.HasValue)
-                    return GetTransformationCheck(orig, buffName);
+                    return orig?.Invoke(buffName);
 
-                if (DBCPatchConfig.Instance.DebugMode) 
+                if (DBCPatchConfig.Instance.DebugMode && Main.GameUpdateCount % 60 == 0)
                 {
                     Main.NewText($"Has {filter.Value.conflictBuffKey}");
                     Main.NewText($"{UIHandler.Panels[currentFormPanelIndex].Name}");
@@ -136,53 +132,19 @@ namespace DragonBall_CN.Common.K7DBTRF
                         //使用更精准的buffType进行搜索
                         mod.TryFind<ModBuff>(filter.Value.conflictBuffKey, out ModBuff buff);
                         var transformation = TransformationHandler.GetTransformation(buff.Type);
-                        if (DBCPatchConfig.Instance.DebugMode)
+                        if (DBCPatchConfig.Instance.DebugMode && Main.GameUpdateCount % 60 == 0)
                             Main.NewText($"transformation:{transformation.Value.buffKeyName}, modName:{mod.Name}");
                         return transformation;
                     }
                 }
-                else 
+                else
                 {
-                    if (DBCPatchConfig.Instance.DebugMode)
+                    if (DBCPatchConfig.Instance.DebugMode && Main.GameUpdateCount % 60 == 0)
                         Main.NewText("Not Find Mod");
                 }
             }
 
-            return GetTransformationCheck(orig,buffName);
-        }
-
-        //由于使用TryRemoveTransformationBuff会清空数据导致返回null
-        //故这里修复该问题
-        private static TransformationInfo? GetTransformationCheck(Func<string, TransformationInfo?> orig, string buffName) 
-        {
-            TransformationInfo? result = orig(buffName);
-
-            if (result.HasValue)
-                return result;
-
-            TransformationInfo? fallBack = TransformationHandler.Transformations
-                .Where(x => x.buffKeyName == buffName || x.buffKeyName.EndsWith("." + buffName, StringComparison.Ordinal))
-                .Select(x => (TransformationInfo?)x)
-                .FirstOrDefault();
-
-            if (!fallBack.HasValue && !warned)
-            {
-                warned = true;
-
-                string known = string.Join(" | ", TransformationHandler.Transformations
-                    .Select(x => x.buffKeyName)
-                    .Distinct()
-                    .Take(40));
-
-                ModContent.GetInstance<DragonBall_CN>().Logger.Warn( $"[GetTransformationCheck] Not Find {buffName}");
-            }
-
-            if (!fallBack.HasValue)
-            {
-                fallBack = TransformationHandler.Transformations.Select(x => (TransformationInfo?)x).FirstOrDefault();
-            }
-
-            return fallBack;
+            return orig?.Invoke(buffName);
         }
 
         private static void LeftClickRecordNodes(Action<TransNode, UIMouseEvent> orig, TransNode self, UIMouseEvent evt)
@@ -192,13 +154,13 @@ namespace DragonBall_CN.Common.K7DBTRF
             if (!node.UnlockCondition(Main.CurrentPlayer) || !node.DiscoverCondition(Main.CurrentPlayer))
             {
                 SoundHandler.PlayVanillaSound(SoundID.MenuTick, Main.CurrentPlayer.position);
-                    
+
                 try
                 {
                     Main.NewText(node.UnlockHint);
                     return;
                 }
-                catch 
+                catch
                 {
                     Main.NewText($"{node.BuffKeyName} 该变身解锁文本有bug，可能是该解锁文本为空");
                     return;
@@ -206,7 +168,7 @@ namespace DragonBall_CN.Common.K7DBTRF
             }
 
             SoundHandler.PlayVanillaSound(SoundID.MenuTick, Main.CurrentPlayer.position);
-    
+
             if (node.ViewOnly)
             {
                 node.OnSelect?.Invoke(Main.CurrentPlayer);
